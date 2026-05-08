@@ -1,0 +1,234 @@
+{
+  "institution_unitid": "176965",
+  "institution_name": "University of Central Missouri",
+  "institution_slug": "university-of-central-missouri-176965",
+  "state": "mo",
+  "cip_code": "5131",
+  "cip_desc": "Dietetics and Clinical Nutrition Services.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5131-c3",
+  "earnings_median_4yr": 48011,
+  "earnings_median_5yr": 55591,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 4,
+  "debt_median": null,
+  "completers": 14,
+  "completers_single_year": 18,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 48011.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 55591.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 21005.0
+      },
+      {
+        "year": 2015,
+        "value": 22100.0
+      },
+      {
+        "year": 2016,
+        "value": 15762.0
+      },
+      {
+        "year": 2017,
+        "value": 12527.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 27.0
+      },
+      {
+        "year": 2015,
+        "value": 27.0
+      },
+      {
+        "year": 2016,
+        "value": 21.0
+      },
+      {
+        "year": 2017,
+        "value": 13.0
+      },
+      {
+        "year": 2018,
+        "value": 18.0
+      },
+      {
+        "year": 2019,
+        "value": 14.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2017,
+      "from_value": 21005.0,
+      "to_value": 12527.0,
+      "pct_change": -0.4036181861461557,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Dietetics and Clinical Nutrition Services at University of Central Missouri fell 40% between 2014 and 2017 ($21.0k → $12.5k).",
+      "magnitude_pct": -40.4,
+      "magnitude_abs": -8478.0,
+      "baseline_year": 2014,
+      "recent_year": 2017,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "176965",
+    "slug": "university-of-central-missouri-176965",
+    "name": "University of Central Missouri",
+    "city": "Warrensburg",
+    "city_slug": "warrensburg",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "saint-louis-university-179159",
+      "institution_name": "Saint Louis University",
+      "earnings_median_5yr": 55754,
+      "earnings_median_4yr": 50391,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "missouri-state-university-springfield-179566",
+      "institution_name": "Missouri State University-Springfield",
+      "earnings_median_5yr": 52582,
+      "earnings_median_4yr": 46611,
+      "debt_median": 24000,
+      "completers": 14,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northwest-missouri-state-university-178624",
+      "institution_name": "Northwest Missouri State University",
+      "earnings_median_5yr": 50808,
+      "earnings_median_4yr": null,
+      "debt_median": 23500,
+      "completers": 11,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "fontbonne-university-177418",
+      "institution_name": "Fontbonne University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 26250,
+      "completers": 2,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-missouri-columbia-178396",
+      "institution_name": "University of Missouri-Columbia",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "college-of-the-ozarks-178697",
+      "institution_name": "College of the Ozarks",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 4,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 14997,
+      "cost_total_default": 59988,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 55591,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "51",
+      "hs_baseline_state": 35100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 325927,
+      "breakeven_year": 10
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

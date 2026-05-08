@@ -1,0 +1,318 @@
+{
+  "institution_unitid": "172200",
+  "institution_name": "Schoolcraft Community College District",
+  "institution_slug": "schoolcraft-community-college-district-172200",
+  "state": "mi",
+  "cip_code": "1205",
+  "cip_desc": "Culinary Arts and Related Services.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "1205-c2",
+  "earnings_median_4yr": 31826,
+  "earnings_median_5yr": 35743,
+  "earnings_count_4yr": 5,
+  "earnings_count_5yr": 7,
+  "debt_median": 16325,
+  "completers": 38,
+  "completers_single_year": 16,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 31826.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 35743.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 10914.0
+      },
+      {
+        "year": 2015,
+        "value": 15977.0
+      },
+      {
+        "year": 2016,
+        "value": 18498.0
+      },
+      {
+        "year": 2017,
+        "value": 18500.0
+      },
+      {
+        "year": 2018,
+        "value": 16325.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 48.0
+      },
+      {
+        "year": 2015,
+        "value": 57.0
+      },
+      {
+        "year": 2016,
+        "value": 47.0
+      },
+      {
+        "year": 2017,
+        "value": 44.0
+      },
+      {
+        "year": 2018,
+        "value": 16.0
+      },
+      {
+        "year": 2019,
+        "value": 38.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 10914.0,
+      "to_value": 16325.0,
+      "pct_change": 0.4957852299798424,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Culinary Arts and Related Services at Schoolcraft Community College District rose 50% between 2014 and 2018 ($10.9k → $16.3k).",
+      "magnitude_pct": 49.6,
+      "magnitude_abs": 5411.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "172200",
+    "slug": "schoolcraft-community-college-district-172200",
+    "name": "Schoolcraft Community College District",
+    "city": "Livonia",
+    "city_slug": "livonia",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "grand-rapids-community-college-170055",
+      "institution_name": "Grand Rapids Community College",
+      "earnings_median_5yr": 42557,
+      "earnings_median_4yr": 34344,
+      "debt_median": 12319,
+      "completers": 28,
+      "completers_single_year": 22,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northwestern-michigan-college-171483",
+      "institution_name": "Northwestern Michigan College",
+      "earnings_median_5yr": 38650,
+      "earnings_median_4yr": 28685,
+      "debt_median": 11000,
+      "completers": 12,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "baker-college-168847",
+      "institution_name": "Baker College",
+      "earnings_median_5yr": 37278,
+      "earnings_median_4yr": 31904,
+      "debt_median": 12000,
+      "completers": 41,
+      "completers_single_year": 41,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "washtenaw-community-college-172617",
+      "institution_name": "Washtenaw Community College",
+      "earnings_median_5yr": 31812,
+      "earnings_median_4yr": 24642,
+      "debt_median": null,
+      "completers": 14,
+      "completers_single_year": 25,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "macomb-community-college-170790",
+      "institution_name": "Macomb Community College",
+      "earnings_median_5yr": 26273,
+      "earnings_median_4yr": 26697,
+      "debt_median": null,
+      "completers": 30,
+      "completers_single_year": 25,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "henry-ford-college-170240",
+      "institution_name": "Henry Ford College",
+      "earnings_median_5yr": 21742,
+      "earnings_median_4yr": 20693,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mott-community-college-169275",
+      "institution_name": "Mott Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cleary-university-169327",
+      "institution_name": "Cleary University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ferris-state-university-169910",
+      "institution_name": "Ferris State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 20500,
+      "completers": 8,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "jackson-college-170444",
+      "institution_name": "Jackson College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "kalamazoo-valley-community-college-170541",
+      "institution_name": "Kalamazoo Valley Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 11250,
+      "completers": 16,
+      "completers_single_year": 27,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lake-michigan-college-170620",
+      "institution_name": "Lake Michigan College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "monroe-county-community-college-171225",
+      "institution_name": "Monroe County Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "oakland-community-college-171535",
+      "institution_name": "Oakland Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 7,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 6373,
+      "cost_total_default": 12746,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 35743,
+      "earnings_anchor_year": 5,
+      "debt_median": 16325,
+      "cip_family": "12",
+      "hs_baseline_state": 36900
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 4101,
+      "breakeven_year": 37
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

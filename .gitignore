@@ -1,0 +1,37 @@
+# Secrets — never commit
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+
+# Raw data caches — large, regenerate via pipeline
+data/raw/
+
+# Published outputs are committed (they ARE the build target). Comment out
+# the next line if you decide to rebuild fresh per CI run instead.
+# data/published/
+
+# Editor + OS
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/

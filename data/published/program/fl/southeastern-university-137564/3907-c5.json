@@ -1,0 +1,163 @@
+{
+  "institution_unitid": "137564",
+  "institution_name": "Southeastern University",
+  "institution_slug": "southeastern-university-137564",
+  "state": "fl",
+  "cip_code": "3907",
+  "cip_desc": "Pastoral Counseling and Specialized Ministries.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "3907-c5",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": null,
+  "earnings_count_5yr": null,
+  "debt_median": null,
+  "completers": 12,
+  "completers_single_year": 0,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [],
+    "completers": [
+      {
+        "year": 2018,
+        "value": 0.0
+      },
+      {
+        "year": 2019,
+        "value": 12.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "137564",
+    "slug": "southeastern-university-137564",
+    "name": "Southeastern University",
+    "city": "Lakeland",
+    "city_slug": "lakeland",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "barry-university-132471",
+      "institution_name": "Barry University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "adventhealth-university-133872",
+      "institution_name": "AdventHealth University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "warner-university-138275",
+      "institution_name": "Warner University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "city-college-hollywood-244233",
+      "institution_name": "City College-Hollywood",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-fort-lauderdale-457402",
+      "institution_name": "University of Fort Lauderdale",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "prestige-health-beauty-sciences-academy-481368",
+      "institution_name": "Prestige Health & Beauty Sciences Academy",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 29297,
+      "cost_total_default": 175782,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "39"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

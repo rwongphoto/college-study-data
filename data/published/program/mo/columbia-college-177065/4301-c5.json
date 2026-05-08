@@ -1,0 +1,248 @@
+{
+  "institution_unitid": "177065",
+  "institution_name": "Columbia College",
+  "institution_slug": "columbia-college-177065",
+  "state": "mo",
+  "cip_code": "4301",
+  "cip_desc": "Criminal Justice and Corrections.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "4301-c5",
+  "earnings_median_4yr": 50013,
+  "earnings_median_5yr": 54913,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 3,
+  "debt_median": 52896,
+  "completers": 26,
+  "completers_single_year": 25,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 50013.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 54913.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 48345.0
+      },
+      {
+        "year": 2015,
+        "value": 54244.0
+      },
+      {
+        "year": 2016,
+        "value": 52222.0
+      },
+      {
+        "year": 2017,
+        "value": 51582.0
+      },
+      {
+        "year": 2018,
+        "value": 52896.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 61.0
+      },
+      {
+        "year": 2015,
+        "value": 43.0
+      },
+      {
+        "year": 2016,
+        "value": 44.0
+      },
+      {
+        "year": 2017,
+        "value": 42.0
+      },
+      {
+        "year": 2018,
+        "value": 25.0
+      },
+      {
+        "year": 2019,
+        "value": 26.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 12.8% at Criminal Justice and Corrections at Columbia College exceeds the 8% gainful-employment threshold ($52.9k debt amortized over 10 years vs $54.9k earnings).",
+      "magnitude_pct": 12.8,
+      "magnitude_abs": 4.8,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "177065",
+    "slug": "columbia-college-177065",
+    "name": "Columbia College",
+    "city": "Columbia",
+    "city_slug": "columbia",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-central-missouri-176965",
+      "institution_name": "University of Central Missouri",
+      "earnings_median_5yr": 58128,
+      "earnings_median_4yr": 46766,
+      "debt_median": 36946,
+      "completers": 13,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "drury-university-177214",
+      "institution_name": "Drury University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "missouri-baptist-university-178244",
+      "institution_name": "Missouri Baptist University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "missouri-southern-state-university-178341",
+      "institution_name": "Missouri Southern State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-missouri-kansas-city-178402",
+      "institution_name": "University of Missouri-Kansas City",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-louis-university-179159",
+      "institution_name": "Saint Louis University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southeast-missouri-state-university-179557",
+      "institution_name": "Southeast Missouri State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "webster-university-179894",
+      "institution_name": "Webster University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 23,
+      "completers_single_year": 37,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 24477,
+      "cost_total_default": 146862,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 54913,
+      "earnings_anchor_year": 5,
+      "debt_median": 52896,
+      "cip_family": "43",
+      "hs_baseline_state": 35100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 185983,
+      "breakeven_year": 21
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

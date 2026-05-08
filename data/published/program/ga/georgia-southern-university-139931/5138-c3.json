@@ -1,0 +1,508 @@
+{
+  "institution_unitid": "139931",
+  "institution_name": "Georgia Southern University",
+  "institution_slug": "georgia-southern-university-139931",
+  "state": "ga",
+  "cip_code": "5138",
+  "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5138-c3",
+  "earnings_median_4yr": 69167,
+  "earnings_median_5yr": 78490,
+  "earnings_count_4yr": 11,
+  "earnings_count_5yr": 12,
+  "debt_median": 24000,
+  "completers": 321,
+  "completers_single_year": 285,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 69167.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 78490.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 22750.0
+      },
+      {
+        "year": 2015,
+        "value": 23000.0
+      },
+      {
+        "year": 2016,
+        "value": 24000.0
+      },
+      {
+        "year": 2017,
+        "value": 24000.0
+      },
+      {
+        "year": 2018,
+        "value": 24000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 113.0
+      },
+      {
+        "year": 2015,
+        "value": 126.0
+      },
+      {
+        "year": 2016,
+        "value": 287.0
+      },
+      {
+        "year": 2017,
+        "value": 312.0
+      },
+      {
+        "year": 2018,
+        "value": 285.0
+      },
+      {
+        "year": 2019,
+        "value": 321.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "completers",
+      "from_year": 2014,
+      "to_year": 2019,
+      "from_value": 113.0,
+      "to_value": 321.0,
+      "pct_change": 0.208,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Annual completers",
+      "summary": "Annual completers at Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing at Georgia Southern University rose 21% between 2014 and 2019 (113 → 321).",
+      "magnitude_pct": 20.8,
+      "magnitude_abs": 208.0,
+      "baseline_year": 2014,
+      "recent_year": 2019,
+      "units": null,
+      "history": [],
+      "metric": "completers"
+    }
+  ],
+  "institution": {
+    "unitid": "139931",
+    "slug": "georgia-southern-university-139931",
+    "name": "Georgia Southern University",
+    "city": "Statesboro",
+    "city_slug": "statesboro",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "albany-state-university-138716",
+      "institution_name": "Albany State University",
+      "earnings_median_5yr": 108162,
+      "earnings_median_4yr": 87762,
+      "debt_median": 23000,
+      "completers": 88,
+      "completers_single_year": 65,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "brenau-university-139199",
+      "institution_name": "Brenau University",
+      "earnings_median_5yr": 106944,
+      "earnings_median_4yr": 78785,
+      "debt_median": 28357,
+      "completers": 144,
+      "completers_single_year": 80,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "thomas-university-141167",
+      "institution_name": "Thomas University",
+      "earnings_median_5yr": 93635,
+      "earnings_median_4yr": 75942,
+      "debt_median": null,
+      "completers": 15,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "clayton-state-university-139311",
+      "institution_name": "Clayton  State University",
+      "earnings_median_5yr": 93169,
+      "earnings_median_4yr": 84778,
+      "debt_median": 26500,
+      "completers": 85,
+      "completers_single_year": 98,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-west-georgia-141334",
+      "institution_name": "University of West Georgia",
+      "earnings_median_5yr": 92868,
+      "earnings_median_4yr": 77594,
+      "debt_median": 23015,
+      "completers": 178,
+      "completers_single_year": 150,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "dalton-state-college-139463",
+      "institution_name": "Dalton State College",
+      "earnings_median_5yr": 91520,
+      "earnings_median_4yr": 78123,
+      "debt_median": 14699,
+      "completers": 34,
+      "completers_single_year": 45,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "south-university-savannah-139579",
+      "institution_name": "South University-Savannah",
+      "earnings_median_5yr": 90784,
+      "earnings_median_4yr": 78626,
+      "debt_median": 23592,
+      "completers": 12,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "emory-university-139658",
+      "institution_name": "Emory University",
+      "earnings_median_5yr": 89034,
+      "earnings_median_4yr": 78274,
+      "debt_median": 19750,
+      "completers": 377,
+      "completers_single_year": 364,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "shorter-university-140988",
+      "institution_name": "Shorter University",
+      "earnings_median_5yr": 87314,
+      "earnings_median_4yr": 67646,
+      "debt_median": 25000,
+      "completers": 26,
+      "completers_single_year": 37,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "georgia-southwestern-state-university-139764",
+      "institution_name": "Georgia Southwestern State University",
+      "earnings_median_5yr": 85821,
+      "earnings_median_4yr": 72411,
+      "debt_median": 18750,
+      "completers": 41,
+      "completers_single_year": 54,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-north-georgia-482680",
+      "institution_name": "University of North Georgia",
+      "earnings_median_5yr": 84545,
+      "earnings_median_4yr": 70003,
+      "debt_median": 17751,
+      "completers": 188,
+      "completers_single_year": 182,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "kennesaw-state-university-486840",
+      "institution_name": "Kennesaw State University",
+      "earnings_median_5yr": 83064,
+      "earnings_median_4yr": 71422,
+      "debt_median": 18750,
+      "completers": 230,
+      "completers_single_year": 227,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "columbus-state-university-139366",
+      "institution_name": "Columbus State University",
+      "earnings_median_5yr": 82023,
+      "earnings_median_4yr": 66973,
+      "debt_median": 20744,
+      "completers": 190,
+      "completers_single_year": 224,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "georgia-state-university-139940",
+      "institution_name": "Georgia State University",
+      "earnings_median_5yr": 81487,
+      "earnings_median_4yr": 72421,
+      "debt_median": 23878,
+      "completers": 154,
+      "completers_single_year": 157,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "middle-georgia-state-university-482158",
+      "institution_name": "Middle Georgia State University",
+      "earnings_median_5yr": 80931,
+      "earnings_median_4yr": 69190,
+      "debt_median": 16425,
+      "completers": 180,
+      "completers_single_year": 182,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "augusta-university-482149",
+      "institution_name": "Augusta University",
+      "earnings_median_5yr": 80407,
+      "earnings_median_4yr": 67564,
+      "debt_median": 15000,
+      "completers": 201,
+      "completers_single_year": 181,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mercer-university-140447",
+      "institution_name": "Mercer University",
+      "earnings_median_5yr": 79324,
+      "earnings_median_4yr": 70738,
+      "debt_median": 19869,
+      "completers": 204,
+      "completers_single_year": 157,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "piedmont-university-140818",
+      "institution_name": "Piedmont University",
+      "earnings_median_5yr": 78610,
+      "earnings_median_4yr": 64286,
+      "debt_median": 23906,
+      "completers": 80,
+      "completers_single_year": 65,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "valdosta-state-university-141264",
+      "institution_name": "Valdosta State University",
+      "earnings_median_5yr": 78057,
+      "earnings_median_4yr": 65768,
+      "debt_median": 21396,
+      "completers": 87,
+      "completers_single_year": 68,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lagrange-college-140234",
+      "institution_name": "LaGrange College",
+      "earnings_median_5yr": 77828,
+      "earnings_median_4yr": 66024,
+      "debt_median": 20250,
+      "completers": 41,
+      "completers_single_year": 40,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "berry-college-139144",
+      "institution_name": "Berry College",
+      "earnings_median_5yr": 77243,
+      "earnings_median_4yr": 64211,
+      "debt_median": 25884,
+      "completers": 45,
+      "completers_single_year": 37,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "truett-mcconnell-university-141237",
+      "institution_name": "Truett McConnell University",
+      "earnings_median_5yr": 77094,
+      "earnings_median_4yr": 67217,
+      "debt_median": 27000,
+      "completers": 22,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "georgia-college-state-university-139861",
+      "institution_name": "Georgia College & State University",
+      "earnings_median_5yr": 75858,
+      "earnings_median_4yr": 66492,
+      "debt_median": 24000,
+      "completers": 107,
+      "completers_single_year": 108,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "college-of-coastal-georgia-139250",
+      "institution_name": "College of Coastal Georgia",
+      "earnings_median_5yr": 75332,
+      "earnings_median_4yr": 59034,
+      "debt_median": 12878,
+      "completers": 49,
+      "completers_single_year": 42,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "gordon-state-college-139968",
+      "institution_name": "Gordon State College",
+      "earnings_median_5yr": 74101,
+      "earnings_median_4yr": 70878,
+      "debt_median": 17500,
+      "completers": 49,
+      "completers_single_year": 42,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wesleyan-college-141325",
+      "institution_name": "Wesleyan College",
+      "earnings_median_5yr": 73622,
+      "earnings_median_4yr": 66287,
+      "debt_median": 23930,
+      "completers": 44,
+      "completers_single_year": 40,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "abraham-baldwin-agricultural-college-138558",
+      "institution_name": "Abraham Baldwin Agricultural College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 12941,
+      "completers": 33,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "east-georgia-state-college-139621",
+      "institution_name": "East Georgia State College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "georgia-highlands-college-139700",
+      "institution_name": "Georgia Highlands College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 15500,
+      "completers": 23,
+      "completers_single_year": 60,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "reinhardt-university-140872",
+      "institution_name": "Reinhardt University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 24025,
+      "completers": 23,
+      "completers_single_year": 33,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "toccoa-falls-college-141185",
+      "institution_name": "Toccoa Falls College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 25000,
+      "completers": 18,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "georgia-gwinnett-college-447689",
+      "institution_name": "Georgia Gwinnett College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 55,
+      "completers_single_year": 53,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "south-georgia-state-college-482699",
+      "institution_name": "South Georgia State College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 21000,
+      "completers": 35,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 12,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 16475,
+      "cost_total_default": 65900,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 78490,
+      "earnings_anchor_year": 5,
+      "debt_median": 24000,
+      "cip_family": "51",
+      "hs_baseline_state": 35800
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 727084,
+      "breakeven_year": 6
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

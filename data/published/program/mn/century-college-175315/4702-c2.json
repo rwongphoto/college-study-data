@@ -1,0 +1,274 @@
+{
+  "institution_unitid": "175315",
+  "institution_name": "Century College",
+  "institution_slug": "century-college-175315",
+  "state": "mn",
+  "cip_code": "4702",
+  "cip_desc": "Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "4702-c2",
+  "earnings_median_4yr": 64785,
+  "earnings_median_5yr": 75499,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": 10500,
+  "completers": 16,
+  "completers_single_year": 23,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 64785.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 75499.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 16000.0
+      },
+      {
+        "year": 2015,
+        "value": 16000.0
+      },
+      {
+        "year": 2016,
+        "value": 13312.0
+      },
+      {
+        "year": 2018,
+        "value": 10500.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 20.0
+      },
+      {
+        "year": 2015,
+        "value": 22.0
+      },
+      {
+        "year": 2016,
+        "value": 25.0
+      },
+      {
+        "year": 2017,
+        "value": 14.0
+      },
+      {
+        "year": 2018,
+        "value": 23.0
+      },
+      {
+        "year": 2019,
+        "value": 16.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 16000.0,
+      "to_value": 10500.0,
+      "pct_change": -0.34375,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR) at Century College fell 34% between 2014 and 2018 ($16.0k → $10.5k).",
+      "magnitude_pct": -34.4,
+      "magnitude_abs": -5500.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "175315",
+    "slug": "century-college-175315",
+    "name": "Century College",
+    "city": "White Bear Lake",
+    "city_slug": "white-bear-lake",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "hennepin-technical-college-173708",
+      "institution_name": "Hennepin Technical College",
+      "earnings_median_5yr": 78403,
+      "earnings_median_4yr": 72770,
+      "debt_median": 14751,
+      "completers": 29,
+      "completers_single_year": 39,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "south-central-college-173911",
+      "institution_name": "South Central College",
+      "earnings_median_5yr": 76675,
+      "earnings_median_4yr": 69077,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "dunwoody-college-of-technology-175227",
+      "institution_name": "Dunwoody College of Technology",
+      "earnings_median_5yr": 75444,
+      "earnings_median_4yr": 70510,
+      "debt_median": 17500,
+      "completers": 21,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "minneapolis-community-and-technical-college-174136",
+      "institution_name": "Minneapolis Community and Technical College",
+      "earnings_median_5yr": 74261,
+      "earnings_median_4yr": 75096,
+      "debt_median": 20000,
+      "completers": 15,
+      "completers_single_year": 24,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northwest-technical-college-173115",
+      "institution_name": "Northwest Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "dakota-county-technical-college-173416",
+      "institution_name": "Dakota County Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "minnesota-west-community-and-technical-college-173638",
+      "institution_name": "Minnesota West Community and Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northland-community-and-technical-college-174473",
+      "institution_name": "Northland Community and Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "st-cloud-technical-and-community-college-174756",
+      "institution_name": "St Cloud Technical and Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "minnesota-state-college-southeast-175263",
+      "institution_name": "Minnesota State College Southeast",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 9938,
+      "cost_total_default": 19876,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 75499,
+      "earnings_anchor_year": 5,
+      "debt_median": 10500,
+      "cip_family": "47",
+      "hs_baseline_state": 39400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 779113,
+      "breakeven_year": 3
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

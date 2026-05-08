@@ -1,0 +1,211 @@
+{
+  "state": "ca",
+  "name": "Yuba City",
+  "slug": "yuba-city",
+  "institution_count": 1,
+  "institutions": [
+    {
+      "unitid": "446093",
+      "slug": "sutter-county-career-training-center-446093",
+      "name": "Sutter County Career Training Center",
+      "city": "Yuba City",
+      "city_slug": "yuba-city",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 34846,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 34760
+        },
+        {
+          "year": 8,
+          "value": 37440
+        },
+        {
+          "year": 10,
+          "value": 34846
+        }
+      ],
+      "completion_rate_150": 0.5581,
+      "completion_rate_history": [
+        {
+          "year": 2005,
+          "value": 0.8493
+        },
+        {
+          "year": 2006,
+          "value": 0.7228
+        },
+        {
+          "year": 2007,
+          "value": 0.74
+        },
+        {
+          "year": 2008,
+          "value": 0.775
+        },
+        {
+          "year": 2009,
+          "value": 0.8205
+        }
+      ],
+      "enrollment_undergrad": 50,
+      "enrollment_history": [
+        {
+          "year": 2005,
+          "value": 37.0
+        },
+        {
+          "year": 2006,
+          "value": 38.0
+        },
+        {
+          "year": 2007,
+          "value": 81.0
+        },
+        {
+          "year": 2008,
+          "value": 150.0
+        },
+        {
+          "year": 2009,
+          "value": 188.0
+        }
+      ],
+      "median_debt": 9500,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "retention_rate",
+          "from_year": 2007,
+          "to_year": 2009,
+          "from_value": 1.0,
+          "to_value": 0.85,
+          "pct_change": -0.15000000000000002,
+          "direction": "fell"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 2005,
+          "to_year": 2009,
+          "from_value": 37.0,
+          "to_value": 188.0,
+          "pct_change": 0.755,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 2007,
+          "to_year": 2009,
+          "from_value": 7500.0,
+          "to_value": 9500.0,
+          "pct_change": 0.26666666666666666,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.04,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": 34846,
+  "completion_rate_city": 0.5581,
+  "completion_history_city": [
+    {
+      "year": 2005,
+      "value": 0.8493
+    },
+    {
+      "year": 2006,
+      "value": 0.7228
+    },
+    {
+      "year": 2007,
+      "value": 0.74
+    },
+    {
+      "year": 2008,
+      "value": 0.775
+    },
+    {
+      "year": 2009,
+      "value": 0.8205
+    }
+  ],
+  "enrollment_history_city": [
+    {
+      "year": 2005,
+      "value": 37.0
+    },
+    {
+      "year": 2006,
+      "value": 38.0
+    },
+    {
+      "year": 2007,
+      "value": 81.0
+    },
+    {
+      "year": 2008,
+      "value": 150.0
+    },
+    {
+      "year": 2009,
+      "value": 188.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

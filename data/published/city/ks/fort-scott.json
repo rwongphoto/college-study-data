@@ -1,0 +1,495 @@
+{
+  "state": "ks",
+  "name": "Fort Scott",
+  "slug": "fort-scott",
+  "institution_count": 1,
+  "institutions": [
+    {
+      "unitid": "155098",
+      "slug": "fort-scott-community-college-155098",
+      "name": "Fort Scott Community College",
+      "city": "Fort Scott",
+      "city_slug": "fort-scott",
+      "control": "public",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 37213,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 30641
+        },
+        {
+          "year": 8,
+          "value": 34818
+        },
+        {
+          "year": 10,
+          "value": 37213
+        }
+      ],
+      "completion_rate_150": 0.3369,
+      "completion_rate_history": [
+        {
+          "year": 1997,
+          "value": 0.3658
+        },
+        {
+          "year": 1998,
+          "value": 0.3343
+        },
+        {
+          "year": 1999,
+          "value": 0.3323
+        },
+        {
+          "year": 2000,
+          "value": 0.3201
+        },
+        {
+          "year": 2001,
+          "value": 0.3288
+        },
+        {
+          "year": 2002,
+          "value": 0.4504
+        },
+        {
+          "year": 2003,
+          "value": 0.4215
+        },
+        {
+          "year": 2004,
+          "value": 0.3624
+        },
+        {
+          "year": 2005,
+          "value": 0.3797
+        },
+        {
+          "year": 2006,
+          "value": 0.3463
+        },
+        {
+          "year": 2007,
+          "value": 0.3503
+        },
+        {
+          "year": 2008,
+          "value": 0.3578
+        },
+        {
+          "year": 2009,
+          "value": 0.3639
+        }
+      ],
+      "enrollment_undergrad": 763,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 1308.0
+        },
+        {
+          "year": 1997,
+          "value": 1350.0
+        },
+        {
+          "year": 1998,
+          "value": 1346.0
+        },
+        {
+          "year": 1999,
+          "value": 1301.0
+        },
+        {
+          "year": 2001,
+          "value": 1537.0
+        },
+        {
+          "year": 2002,
+          "value": 1600.0
+        },
+        {
+          "year": 2003,
+          "value": 1811.0
+        },
+        {
+          "year": 2004,
+          "value": 1879.0
+        },
+        {
+          "year": 2005,
+          "value": 1758.0
+        },
+        {
+          "year": 2006,
+          "value": 1392.0
+        },
+        {
+          "year": 2007,
+          "value": 1293.0
+        },
+        {
+          "year": 2008,
+          "value": 1246.0
+        },
+        {
+          "year": 2009,
+          "value": 1189.0
+        },
+        {
+          "year": 2010,
+          "value": 1590.0
+        },
+        {
+          "year": 2011,
+          "value": 1579.0
+        },
+        {
+          "year": 2012,
+          "value": 1485.0
+        },
+        {
+          "year": 2013,
+          "value": 1409.0
+        },
+        {
+          "year": 2014,
+          "value": 1316.0
+        },
+        {
+          "year": 2015,
+          "value": 1188.0
+        },
+        {
+          "year": 2016,
+          "value": 1174.0
+        },
+        {
+          "year": 2017,
+          "value": 1137.0
+        },
+        {
+          "year": 2018,
+          "value": 1152.0
+        },
+        {
+          "year": 2019,
+          "value": 1115.0
+        },
+        {
+          "year": 2020,
+          "value": 1000.0
+        },
+        {
+          "year": 2021,
+          "value": 990.0
+        },
+        {
+          "year": 2022,
+          "value": 831.0
+        },
+        {
+          "year": 2023,
+          "value": 763.0
+        },
+        {
+          "year": 2024,
+          "value": 693.0
+        }
+      ],
+      "median_debt": 5500,
+      "default_rate": 0.0,
+      "tuition_in_state": 3240,
+      "tuition_out_of_state": 3690,
+      "long_arc": [
+        {
+          "metric": "retention_rate",
+          "from_year": 2004,
+          "to_year": 2024,
+          "from_value": 0.54,
+          "to_value": 0.6114,
+          "pct_change": 0.13222222222222224,
+          "direction": "rose"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 1996,
+          "to_year": 2024,
+          "from_value": 1308.0,
+          "to_value": 693.0,
+          "pct_change": -0.4701834862385321,
+          "direction": "fell"
+        },
+        {
+          "metric": "tuition_in_state",
+          "from_year": 2000,
+          "to_year": 2024,
+          "from_value": 1350.0,
+          "to_value": 3390.0,
+          "pct_change": 1.511111111111111,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 1997,
+          "to_year": 2020,
+          "from_value": 2500.0,
+          "to_value": 9500.0,
+          "pct_change": 2.8,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.123,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2008,
+          "to_year": 2024,
+          "from_value": 0.411,
+          "to_value": 0.2527,
+          "pct_change": -0.3851581508515815,
+          "direction": "fell"
+        },
+        {
+          "metric": "earnings_median_10yr",
+          "from_year": 2007,
+          "to_year": 2020,
+          "from_value": 29800.0,
+          "to_value": 37213.0,
+          "pct_change": 0.24875838926174496,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_8yr",
+          "from_year": 2005,
+          "to_year": 2020,
+          "from_value": 28700.0,
+          "to_value": 34818.0,
+          "pct_change": 0.21317073170731707,
+          "direction": "rose"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": 37213,
+  "completion_rate_city": 0.3369,
+  "completion_history_city": [
+    {
+      "year": 1997,
+      "value": 0.3658
+    },
+    {
+      "year": 1998,
+      "value": 0.3343
+    },
+    {
+      "year": 1999,
+      "value": 0.3323
+    },
+    {
+      "year": 2000,
+      "value": 0.3201
+    },
+    {
+      "year": 2001,
+      "value": 0.3288
+    },
+    {
+      "year": 2002,
+      "value": 0.4504
+    },
+    {
+      "year": 2003,
+      "value": 0.4215
+    },
+    {
+      "year": 2004,
+      "value": 0.3624
+    },
+    {
+      "year": 2005,
+      "value": 0.3797
+    },
+    {
+      "year": 2006,
+      "value": 0.3463
+    },
+    {
+      "year": 2007,
+      "value": 0.3503
+    },
+    {
+      "year": 2008,
+      "value": 0.3578
+    },
+    {
+      "year": 2009,
+      "value": 0.3639
+    }
+  ],
+  "enrollment_history_city": [
+    {
+      "year": 1996,
+      "value": 1308.0
+    },
+    {
+      "year": 1997,
+      "value": 1350.0
+    },
+    {
+      "year": 1998,
+      "value": 1346.0
+    },
+    {
+      "year": 1999,
+      "value": 1301.0
+    },
+    {
+      "year": 2001,
+      "value": 1537.0
+    },
+    {
+      "year": 2002,
+      "value": 1600.0
+    },
+    {
+      "year": 2003,
+      "value": 1811.0
+    },
+    {
+      "year": 2004,
+      "value": 1879.0
+    },
+    {
+      "year": 2005,
+      "value": 1758.0
+    },
+    {
+      "year": 2006,
+      "value": 1392.0
+    },
+    {
+      "year": 2007,
+      "value": 1293.0
+    },
+    {
+      "year": 2008,
+      "value": 1246.0
+    },
+    {
+      "year": 2009,
+      "value": 1189.0
+    },
+    {
+      "year": 2010,
+      "value": 1590.0
+    },
+    {
+      "year": 2011,
+      "value": 1579.0
+    },
+    {
+      "year": 2012,
+      "value": 1485.0
+    },
+    {
+      "year": 2013,
+      "value": 1409.0
+    },
+    {
+      "year": 2014,
+      "value": 1316.0
+    },
+    {
+      "year": 2015,
+      "value": 1188.0
+    },
+    {
+      "year": 2016,
+      "value": 1174.0
+    },
+    {
+      "year": 2017,
+      "value": 1137.0
+    },
+    {
+      "year": 2018,
+      "value": 1152.0
+    },
+    {
+      "year": 2019,
+      "value": 1115.0
+    },
+    {
+      "year": 2020,
+      "value": 1000.0
+    },
+    {
+      "year": 2021,
+      "value": 990.0
+    },
+    {
+      "year": 2022,
+      "value": 831.0
+    },
+    {
+      "year": 2023,
+      "value": 763.0
+    },
+    {
+      "year": 2024,
+      "value": 693.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

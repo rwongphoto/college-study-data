@@ -1,0 +1,224 @@
+{
+  "institution_unitid": "186432",
+  "institution_name": "Saint Peter's University",
+  "institution_slug": "saint-peter-s-university-186432",
+  "state": "nj",
+  "cip_code": "5208",
+  "cip_desc": "Finance and Financial Management Services.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5208-c5",
+  "earnings_median_4yr": 86312,
+  "earnings_median_5yr": 90388,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 0,
+  "debt_median": 49332,
+  "completers": 19,
+  "completers_single_year": 19,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 86312.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 90388.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2015,
+        "value": 41000.0
+      },
+      {
+        "year": 2016,
+        "value": 45941.0
+      },
+      {
+        "year": 2017,
+        "value": 47638.0
+      },
+      {
+        "year": 2018,
+        "value": 49332.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 27.0
+      },
+      {
+        "year": 2015,
+        "value": 22.0
+      },
+      {
+        "year": 2016,
+        "value": 26.0
+      },
+      {
+        "year": 2017,
+        "value": 22.0
+      },
+      {
+        "year": 2018,
+        "value": 19.0
+      },
+      {
+        "year": 2019,
+        "value": 19.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2015,
+      "to_year": 2018,
+      "from_value": 41000.0,
+      "to_value": 49332.0,
+      "pct_change": 0.20321951219512194,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Finance and Financial Management Services at Saint Peter's University rose 20% between 2015 and 2018 ($41.0k → $49.3k).",
+      "magnitude_pct": 20.3,
+      "magnitude_abs": 8332.0,
+      "baseline_year": 2015,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "186432",
+    "slug": "saint-peter-s-university-186432",
+    "name": "Saint Peter's University",
+    "city": "Jersey City",
+    "city_slug": "jersey-city",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "seton-hall-university-186584",
+      "institution_name": "Seton Hall University",
+      "earnings_median_5yr": 156501,
+      "earnings_median_4yr": 132067,
+      "debt_median": 51250,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "fairleigh-dickinson-university-metropolitan-campus-184603",
+      "institution_name": "Fairleigh Dickinson University-Metropolitan Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rowan-university-184782",
+      "institution_name": "Rowan University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "new-jersey-city-university-185129",
+      "institution_name": "New Jersey City University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 15,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "william-paterson-university-of-new-jersey-187444",
+      "institution_name": "William Paterson University of New Jersey",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 11494,
+      "cost_total_default": 68964,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 90388,
+      "earnings_anchor_year": 5,
+      "debt_median": 49332,
+      "cip_family": "52",
+      "hs_baseline_state": 41700
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 753239,
+      "breakeven_year": 9
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

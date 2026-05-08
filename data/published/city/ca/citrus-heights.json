@@ -1,0 +1,119 @@
+{
+  "state": "ca",
+  "name": "Citrus Heights",
+  "slug": "citrus-heights",
+  "institution_count": 1,
+  "institutions": [
+    {
+      "unitid": "112181",
+      "slug": "citrus-heights-beauty-college-112181",
+      "name": "Citrus Heights Beauty College",
+      "city": "Citrus Heights",
+      "city_slug": "citrus-heights",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 18681
+        },
+        {
+          "year": 8,
+          "value": null
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": 0.875,
+      "completion_rate_history": [],
+      "enrollment_undergrad": 110,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 73.0
+        }
+      ],
+      "median_debt": 5495,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "retention_rate",
+          "from_year": 2012,
+          "to_year": 2024,
+          "from_value": 0.7647,
+          "to_value": 0.9474,
+          "pct_change": 0.23891722244017258,
+          "direction": "rose"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2012,
+          "to_year": 2024,
+          "from_value": 0.0,
+          "to_value": 0.2798,
+          "pct_change": 5.595999999999999,
+          "direction": "rose"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": null,
+  "completion_rate_city": 0.875,
+  "completion_history_city": [],
+  "enrollment_history_city": [
+    {
+      "year": 1996,
+      "value": 73.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

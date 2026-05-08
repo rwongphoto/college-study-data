@@ -1,0 +1,169 @@
+{
+  "institution_unitid": "168227",
+  "institution_name": "Wentworth Institute of Technology",
+  "institution_slug": "wentworth-institute-of-technology-168227",
+  "state": "ma",
+  "cip_code": "5299",
+  "cip_desc": "Business, Management, Marketing, and Related Support Services, Other.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5299-c5",
+  "earnings_median_4yr": 113621,
+  "earnings_median_5yr": 143333,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": null,
+  "completers": 1,
+  "completers_single_year": 6,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 113621.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 143333.0
+      }
+    ],
+    "debt_median": [],
+    "completers": [
+      {
+        "year": 2015,
+        "value": 13.0
+      },
+      {
+        "year": 2016,
+        "value": 17.0
+      },
+      {
+        "year": 2017,
+        "value": 0.0
+      },
+      {
+        "year": 2018,
+        "value": 6.0
+      },
+      {
+        "year": 2019,
+        "value": 1.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "168227",
+    "slug": "wentworth-institute-of-technology-168227",
+    "name": "Wentworth Institute of Technology",
+    "city": "Boston",
+    "city_slug": "boston",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "boston-university-164988",
+      "institution_name": "Boston University",
+      "earnings_median_5yr": 126772,
+      "earnings_median_4yr": 113244,
+      "debt_median": 29500,
+      "completers": 45,
+      "completers_single_year": 49,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "college-of-our-lady-of-the-elms-167394",
+      "institution_name": "College of Our Lady of the Elms",
+      "earnings_median_5yr": 81908,
+      "earnings_median_4yr": 87660,
+      "debt_median": null,
+      "completers": 15,
+      "completers_single_year": 24,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hult-international-business-school-164368",
+      "institution_name": "Hult International Business School",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "framingham-state-university-165866",
+      "institution_name": "Framingham State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 32278,
+      "cost_total_default": 193668,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 143333,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "52",
+      "hs_baseline_state": 42600
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 1507648,
+      "breakeven_year": 9
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

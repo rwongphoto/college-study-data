@@ -1,0 +1,185 @@
+{
+  "institution_unitid": "166939",
+  "institution_name": "Mount Holyoke College",
+  "institution_slug": "mount-holyoke-college-166939",
+  "state": "ma",
+  "cip_code": "1399",
+  "cip_desc": "Education, Other.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1399-c3",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": 63341,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 0,
+  "debt_median": 19000,
+  "completers": 15,
+  "completers_single_year": 18,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 63341.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 21000.0
+      },
+      {
+        "year": 2016,
+        "value": 22080.0
+      },
+      {
+        "year": 2017,
+        "value": 21330.0
+      },
+      {
+        "year": 2018,
+        "value": 19000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 18.0
+      },
+      {
+        "year": 2015,
+        "value": 13.0
+      },
+      {
+        "year": 2016,
+        "value": 25.0
+      },
+      {
+        "year": 2017,
+        "value": 10.0
+      },
+      {
+        "year": 2018,
+        "value": 18.0
+      },
+      {
+        "year": 2019,
+        "value": 15.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "166939",
+    "slug": "mount-holyoke-college-166939",
+    "name": "Mount Holyoke College",
+    "city": "South Hadley",
+    "city_slug": "south-hadley",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "endicott-college-165699",
+      "institution_name": "Endicott College",
+      "earnings_median_5yr": 57836,
+      "earnings_median_4yr": 52352,
+      "debt_median": 27000,
+      "completers": null,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "boston-college-164924",
+      "institution_name": "Boston College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "boston-university-164988",
+      "institution_name": "Boston University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 27000,
+      "completers": 1,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "clark-university-165334",
+      "institution_name": "Clark University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 21565,
+      "cost_total_default": 86260,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 63341,
+      "earnings_anchor_year": 5,
+      "debt_median": 19000,
+      "cip_family": "13",
+      "hs_baseline_state": 42600
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 220498,
+      "breakeven_year": 13
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

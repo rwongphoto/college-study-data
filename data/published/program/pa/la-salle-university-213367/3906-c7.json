@@ -1,0 +1,195 @@
+{
+  "institution_unitid": "213367",
+  "institution_name": "La Salle University",
+  "institution_slug": "la-salle-university-213367",
+  "state": "pa",
+  "cip_code": "3906",
+  "cip_desc": "Theological and Ministerial Studies.",
+  "credential_level": 7,
+  "credential_desc": "First Professional Degree",
+  "slug": "3906-c7",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": null,
+  "earnings_count_5yr": null,
+  "debt_median": null,
+  "completers": 5,
+  "completers_single_year": 2,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 2.0
+      },
+      {
+        "year": 2016,
+        "value": 7.0
+      },
+      {
+        "year": 2017,
+        "value": 2.0
+      },
+      {
+        "year": 2018,
+        "value": 2.0
+      },
+      {
+        "year": 2019,
+        "value": 5.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "213367",
+    "slug": "la-salle-university-213367",
+    "name": "La Salle University",
+    "city": "Philadelphia",
+    "city_slug": "philadelphia",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "pittsburgh-theological-seminary-215424",
+      "institution_name": "Pittsburgh Theological Seminary",
+      "earnings_median_5yr": 81953,
+      "earnings_median_4yr": 66753,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "united-lutheran-seminary-213631",
+      "institution_name": "United Lutheran Seminary",
+      "earnings_median_5yr": 64850,
+      "earnings_median_4yr": 64224,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "clarks-summit-university-211024",
+      "institution_name": "Clarks Summit University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "missio-theological-seminary-211130",
+      "institution_name": "Missio Theological Seminary",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lancaster-theological-seminary-213446",
+      "institution_name": "Lancaster Theological Seminary",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "reconstructionist-rabbinical-college-215619",
+      "institution_name": "Reconstructionist Rabbinical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "theological-seminary-of-the-reformed-episcopal-church-216348",
+      "institution_name": "Theological Seminary of the Reformed Episcopal Church",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "westminster-theological-seminary-216816",
+      "institution_name": "Westminster Theological Seminary",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 7,
+      "cost_per_year_default": 21016,
+      "cost_total_default": 147112,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "39"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

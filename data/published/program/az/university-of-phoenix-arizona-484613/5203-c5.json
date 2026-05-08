@@ -1,0 +1,193 @@
+{
+  "institution_unitid": "484613",
+  "institution_name": "University of Phoenix-Arizona",
+  "institution_slug": "university-of-phoenix-arizona-484613",
+  "state": "az",
+  "cip_code": "5203",
+  "cip_desc": "Accounting and Related Services.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5203-c5",
+  "earnings_median_4yr": 61463,
+  "earnings_median_5yr": 69359,
+  "earnings_count_4yr": 71,
+  "earnings_count_5yr": 67,
+  "debt_median": 33586,
+  "completers": 205,
+  "completers_single_year": 246,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 61463.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 69359.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 35285.0
+      },
+      {
+        "year": 2015,
+        "value": 35629.0
+      },
+      {
+        "year": 2016,
+        "value": 35254.0
+      },
+      {
+        "year": 2017,
+        "value": 34254.0
+      },
+      {
+        "year": 2018,
+        "value": 33586.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 527.0
+      },
+      {
+        "year": 2015,
+        "value": 435.0
+      },
+      {
+        "year": 2016,
+        "value": 310.0
+      },
+      {
+        "year": 2017,
+        "value": 288.0
+      },
+      {
+        "year": 2018,
+        "value": 246.0
+      },
+      {
+        "year": 2019,
+        "value": 205.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "completers",
+      "from_year": 2014,
+      "to_year": 2019,
+      "from_value": 527.0,
+      "to_value": 205.0,
+      "pct_change": -0.322,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Annual completers",
+      "summary": "Annual completers at Accounting and Related Services at University of Phoenix-Arizona fell 32% between 2014 and 2019 (527 → 205).",
+      "magnitude_pct": -32.2,
+      "magnitude_abs": -322.0,
+      "baseline_year": 2014,
+      "recent_year": 2019,
+      "units": null,
+      "history": [],
+      "metric": "completers"
+    }
+  ],
+  "institution": {
+    "unitid": "484613",
+    "slug": "university-of-phoenix-arizona-484613",
+    "name": "University of Phoenix-Arizona",
+    "city": "Phoenix",
+    "city_slug": "phoenix",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-arizona-104179",
+      "institution_name": "University of Arizona",
+      "earnings_median_5yr": 95731,
+      "earnings_median_4yr": 78388,
+      "debt_median": 20500,
+      "completers": 32,
+      "completers_single_year": 33,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "arizona-state-university-campus-immersion-104151",
+      "institution_name": "Arizona State University Campus Immersion",
+      "earnings_median_5yr": 90953,
+      "earnings_median_4yr": 75909,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "grand-canyon-university-104717",
+      "institution_name": "Grand Canyon University",
+      "earnings_median_5yr": 80687,
+      "earnings_median_4yr": 72639,
+      "debt_median": 25707,
+      "completers": 121,
+      "completers_single_year": 109,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "american-intercontinental-university-system-445027",
+      "institution_name": "American InterContinental University System",
+      "earnings_median_5yr": 50363,
+      "earnings_median_4yr": 46151,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

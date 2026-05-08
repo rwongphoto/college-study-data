@@ -1,0 +1,249 @@
+{
+  "state": "ak",
+  "name": "Soldotna",
+  "slug": "soldotna",
+  "institution_count": 1,
+  "institutions": [
+    {
+      "unitid": "442523",
+      "slug": "alaska-christian-college-442523",
+      "name": "Alaska Christian College",
+      "city": "Soldotna",
+      "city_slug": "soldotna",
+      "control": "private_nonprofit",
+      "pred_degree": "associates",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 25787,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 14240
+        },
+        {
+          "year": 8,
+          "value": 19021
+        },
+        {
+          "year": 10,
+          "value": 25787
+        }
+      ],
+      "completion_rate_150": 0.1163,
+      "completion_rate_history": [
+        {
+          "year": 2009,
+          "value": 0.381
+        }
+      ],
+      "enrollment_undergrad": 60,
+      "enrollment_history": [
+        {
+          "year": 2009,
+          "value": 32.0
+        },
+        {
+          "year": 2010,
+          "value": 37.0
+        },
+        {
+          "year": 2011,
+          "value": 33.0
+        },
+        {
+          "year": 2012,
+          "value": 40.0
+        },
+        {
+          "year": 2013,
+          "value": 53.0
+        },
+        {
+          "year": 2014,
+          "value": 68.0
+        },
+        {
+          "year": 2015,
+          "value": 66.0
+        },
+        {
+          "year": 2016,
+          "value": 79.0
+        },
+        {
+          "year": 2017,
+          "value": 74.0
+        },
+        {
+          "year": 2018,
+          "value": 78.0
+        },
+        {
+          "year": 2019,
+          "value": 95.0
+        },
+        {
+          "year": 2020,
+          "value": 93.0
+        },
+        {
+          "year": 2021,
+          "value": 78.0
+        },
+        {
+          "year": 2022,
+          "value": 75.0
+        },
+        {
+          "year": 2023,
+          "value": 60.0
+        },
+        {
+          "year": 2024,
+          "value": 44.0
+        }
+      ],
+      "median_debt": 6233,
+      "default_rate": 0.023,
+      "tuition_in_state": 9014,
+      "tuition_out_of_state": 9014,
+      "long_arc": [
+        {
+          "metric": "retention_rate",
+          "from_year": 2009,
+          "to_year": 2024,
+          "from_value": 0.6875,
+          "to_value": 0.25,
+          "pct_change": -0.6363636363636364,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2009,
+          "to_year": 2024,
+          "from_value": 0.4737,
+          "to_value": 0.7097,
+          "pct_change": 0.4982056153683766,
+          "direction": "rose"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": 25787,
+  "completion_rate_city": 0.1163,
+  "completion_history_city": [
+    {
+      "year": 2009,
+      "value": 0.381
+    }
+  ],
+  "enrollment_history_city": [
+    {
+      "year": 2009,
+      "value": 32.0
+    },
+    {
+      "year": 2010,
+      "value": 37.0
+    },
+    {
+      "year": 2011,
+      "value": 33.0
+    },
+    {
+      "year": 2012,
+      "value": 40.0
+    },
+    {
+      "year": 2013,
+      "value": 53.0
+    },
+    {
+      "year": 2014,
+      "value": 68.0
+    },
+    {
+      "year": 2015,
+      "value": 66.0
+    },
+    {
+      "year": 2016,
+      "value": 79.0
+    },
+    {
+      "year": 2017,
+      "value": 74.0
+    },
+    {
+      "year": 2018,
+      "value": 78.0
+    },
+    {
+      "year": 2019,
+      "value": 95.0
+    },
+    {
+      "year": 2020,
+      "value": 93.0
+    },
+    {
+      "year": 2021,
+      "value": 78.0
+    },
+    {
+      "year": 2022,
+      "value": 75.0
+    },
+    {
+      "year": 2023,
+      "value": 60.0
+    },
+    {
+      "year": 2024,
+      "value": 44.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,475 @@
+{
+  "institution": {
+    "unitid": "190682",
+    "opeid6": "031913",
+    "name": "CUNY School of Law",
+    "slug": "cuny-school-of-law-190682",
+    "state": "ny",
+    "city": "Long Island City",
+    "city_slug": "long-island-city",
+    "zip5": "11101",
+    "address": "2 Court Square",
+    "latitude": 40.747797,
+    "longitude": -73.943621,
+    "control": "public",
+    "pred_degree": "graduate",
+    "highest_degree": "masters",
+    "main_campus": true,
+    "locale": "11",
+    "carnegie_basic": 31,
+    "sector_code": 1,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": null,
+    "completion_rate_100": null,
+    "retention_rate": null,
+    "admission_rate": null,
+    "enrollment_undergrad": null,
+    "enrollment_total": null,
+    "cost_attendance": null,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": null,
+    "cost_by_income": null,
+    "median_debt": null,
+    "default_rate": 0.0,
+    "pell_share": null,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [],
+      "admission_rate": [],
+      "enrollment_undergrad": [],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [],
+      "median_debt": [],
+      "default_rate": [
+        {
+          "year": 2011,
+          "value": 0.029
+        },
+        {
+          "year": 2012,
+          "value": 0.032
+        },
+        {
+          "year": 2013,
+          "value": 0.049
+        },
+        {
+          "year": 2014,
+          "value": 0.017
+        },
+        {
+          "year": 2015,
+          "value": 0.006
+        },
+        {
+          "year": 2016,
+          "value": 0.02
+        },
+        {
+          "year": 2017,
+          "value": 0.021
+        },
+        {
+          "year": 2018,
+          "value": 0.017
+        },
+        {
+          "year": 2019,
+          "value": 0.009
+        },
+        {
+          "year": 2020,
+          "value": 0.0
+        },
+        {
+          "year": 2021,
+          "value": 0.0
+        },
+        {
+          "year": 2022,
+          "value": 0.0
+        },
+        {
+          "year": 2023,
+          "value": 0.0
+        },
+        {
+          "year": 2024,
+          "value": 0.0
+        }
+      ],
+      "pell_share": [],
+      "earnings_median_6yr": [
+        {
+          "year": 2007,
+          "value": 56600.0
+        },
+        {
+          "year": 2009,
+          "value": 65600.0
+        },
+        {
+          "year": 2011,
+          "value": 56400.0
+        },
+        {
+          "year": 2012,
+          "value": 61500.0
+        },
+        {
+          "year": 2013,
+          "value": 66700.0
+        },
+        {
+          "year": 2014,
+          "value": 68500.0
+        }
+      ],
+      "earnings_median_8yr": [
+        {
+          "year": 2009,
+          "value": 64900.0
+        },
+        {
+          "year": 2011,
+          "value": 67800.0
+        },
+        {
+          "year": 2012,
+          "value": 68900.0
+        },
+        {
+          "year": 2013,
+          "value": 67200.0
+        },
+        {
+          "year": 2014,
+          "value": 71500.0
+        }
+      ],
+      "earnings_median_10yr": [
+        {
+          "year": 2011,
+          "value": 62000.0
+        },
+        {
+          "year": 2012,
+          "value": 67100.0
+        },
+        {
+          "year": 2013,
+          "value": 75500.0
+        },
+        {
+          "year": 2014,
+          "value": 71900.0
+        }
+      ]
+    },
+    "long_arc": [
+      {
+        "metric": "default_rate",
+        "from_year": 2011,
+        "to_year": 2024,
+        "from_value": 0.029,
+        "to_value": 0.0,
+        "pct_change": -1.0,
+        "direction": "fell"
+      },
+      {
+        "metric": "earnings_median_6yr",
+        "from_year": 2007,
+        "to_year": 2014,
+        "from_value": 56600.0,
+        "to_value": 68500.0,
+        "pct_change": 0.21024734982332155,
+        "direction": "rose"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "10-year median earnings",
+        "summary": "10-year median earnings at CUNY School of Law rose 16% between 2011 and 2014 ($62.0k → $71.9k).",
+        "magnitude_pct": 16.0,
+        "magnitude_abs": 9900.0,
+        "baseline_year": 2011,
+        "recent_year": 2014,
+        "units": null,
+        "history": [],
+        "metric": "earnings_median_10yr"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "22": [
+      {
+        "slug": "2201-c7",
+        "cip_code": "2201",
+        "cip_desc": "Law.",
+        "credential_level": 7,
+        "credential_desc": "First Professional Degree",
+        "earnings_median_5yr": 91698,
+        "earnings_median_4yr": 78258,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 91698.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 78258.0
+          }
+        ],
+        "debt_median": 81666,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 80934.0
+          },
+          {
+            "year": 2015,
+            "value": 78224.0
+          },
+          {
+            "year": 2016,
+            "value": 70301.0
+          },
+          {
+            "year": 2017,
+            "value": 72982.0
+          },
+          {
+            "year": 2018,
+            "value": 81666.0
+          }
+        ],
+        "completers": 188,
+        "completers_single_year": 150,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 104.0
+          },
+          {
+            "year": 2015,
+            "value": 95.0
+          },
+          {
+            "year": 2016,
+            "value": 95.0
+          },
+          {
+            "year": 2017,
+            "value": 165.0
+          },
+          {
+            "year": 2018,
+            "value": 150.0
+          },
+          {
+            "year": 2019,
+            "value": 188.0
+          }
+        ],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "2201-c7",
+      "cip_code": "2201",
+      "cip_desc": "Law.",
+      "credential_level": 7,
+      "credential_desc": "First Professional Degree",
+      "earnings_median_5yr": 91698,
+      "earnings_median_4yr": 78258,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 91698.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 78258.0
+        }
+      ],
+      "debt_median": 81666,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 80934.0
+        },
+        {
+          "year": 2015,
+          "value": 78224.0
+        },
+        {
+          "year": 2016,
+          "value": 70301.0
+        },
+        {
+          "year": 2017,
+          "value": 72982.0
+        },
+        {
+          "year": 2018,
+          "value": 81666.0
+        }
+      ],
+      "completers": 188,
+      "completers_single_year": 150,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 104.0
+        },
+        {
+          "year": 2015,
+          "value": 95.0
+        },
+        {
+          "year": 2016,
+          "value": 95.0
+        },
+        {
+          "year": 2017,
+          "value": 165.0
+        },
+        {
+          "year": 2018,
+          "value": 150.0
+        },
+        {
+          "year": 2019,
+          "value": 188.0
+        }
+      ],
+      "long_arc": []
+    }
+  ],
+  "program_count": 1,
+  "similar": [
+    {
+      "slug": "suny-college-of-optometry-196228",
+      "name": "SUNY College of Optometry",
+      "city": "New York",
+      "control": "public",
+      "pred_degree": "graduate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": null
+    },
+    {
+      "slug": "otsego-area-boces-practical-nursing-program-194259",
+      "name": "Otsego Area BOCES-Practical Nursing Program",
+      "city": "Oneonta",
+      "control": "public",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 45248,
+      "completion_rate_150": 0.7273,
+      "enrollment_undergrad": 0
+    },
+    {
+      "slug": "orleans-niagara-boces-practical-nursing-program-441593",
+      "name": "Orleans Niagara BOCES-Practical Nursing Program",
+      "city": "Lockport",
+      "control": "public",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.6667,
+      "enrollment_undergrad": 0
+    },
+    {
+      "slug": "center-for-instruction-technology-innovation-364964",
+      "name": "Center for Instruction Technology & Innovation",
+      "city": "Mexico",
+      "control": "public",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.8889,
+      "enrollment_undergrad": 21
+    },
+    {
+      "slug": "jefferson-lewis-boces-practical-nursing-program-417886",
+      "name": "Jefferson Lewis BOCES-Practical Nursing Program",
+      "city": "Watertown",
+      "control": "public",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 47886,
+      "completion_rate_150": 0.0,
+      "enrollment_undergrad": 23
+    }
+  ],
+  "roi": {
+    "default_program_slug": null,
+    "programs_available": [
+      {
+        "slug": "2201-c7",
+        "label": "Law · First Professional Degree",
+        "cip_family": "22",
+        "completers": 188,
+        "has_earnings": false,
+        "earnings_at_completion": 91698,
+        "earnings_anchor_year": 5,
+        "debt_median": 81666,
+        "years_to_complete": 7,
+        "default_result": null
+      }
+    ]
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

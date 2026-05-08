@@ -1,0 +1,228 @@
+{
+  "institution_unitid": "230728",
+  "institution_name": "Utah State University",
+  "institution_slug": "utah-state-university-230728",
+  "state": "ut",
+  "cip_code": "1907",
+  "cip_desc": "Human Development, Family Studies, and Related Services.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1907-c3",
+  "earnings_median_4yr": 27114,
+  "earnings_median_5yr": 33968,
+  "earnings_count_4yr": 73,
+  "earnings_count_5yr": 73,
+  "debt_median": 16460,
+  "completers": 125,
+  "completers_single_year": 151,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 27114.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 33968.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 13000.0
+      },
+      {
+        "year": 2015,
+        "value": 14000.0
+      },
+      {
+        "year": 2016,
+        "value": 15000.0
+      },
+      {
+        "year": 2017,
+        "value": 15000.0
+      },
+      {
+        "year": 2018,
+        "value": 16460.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 158.0
+      },
+      {
+        "year": 2015,
+        "value": 179.0
+      },
+      {
+        "year": 2016,
+        "value": 156.0
+      },
+      {
+        "year": 2017,
+        "value": 166.0
+      },
+      {
+        "year": 2018,
+        "value": 151.0
+      },
+      {
+        "year": 2019,
+        "value": 125.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 13000.0,
+      "to_value": 16460.0,
+      "pct_change": 0.26615384615384613,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Human Development, Family Studies, and Related Services at Utah State University rose 27% between 2014 and 2018 ($13.0k → $16.5k).",
+      "magnitude_pct": 26.6,
+      "magnitude_abs": 3460.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "230728",
+    "slug": "utah-state-university-230728",
+    "name": "Utah State University",
+    "city": "Logan",
+    "city_slug": "logan",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-utah-230764",
+      "institution_name": "University of Utah",
+      "earnings_median_5yr": 46872,
+      "earnings_median_4yr": 41041,
+      "debt_median": 13997,
+      "completers": 29,
+      "completers_single_year": 63,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "weber-state-university-230782",
+      "institution_name": "Weber State University",
+      "earnings_median_5yr": 37526,
+      "earnings_median_4yr": 36219,
+      "debt_median": 15890,
+      "completers": 43,
+      "completers_single_year": 60,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "brigham-young-university-230038",
+      "institution_name": "Brigham Young University",
+      "earnings_median_5yr": 30899,
+      "earnings_median_4yr": 24823,
+      "debt_median": 10475,
+      "completers": 320,
+      "completers_single_year": 300,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southern-utah-university-230603",
+      "institution_name": "Southern Utah University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 36,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "utah-valley-university-230737",
+      "institution_name": "Utah Valley University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 13300,
+      "completers": 143,
+      "completers_single_year": 67,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 73,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 11599,
+      "cost_total_default": 46396,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 33968,
+      "earnings_anchor_year": 5,
+      "debt_median": 16460,
+      "cip_family": "19",
+      "hs_baseline_state": 38000
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -103404,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

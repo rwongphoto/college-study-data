@@ -1,0 +1,167 @@
+{
+  "institution_unitid": "186380",
+  "institution_name": "Rutgers University-New Brunswick",
+  "institution_slug": "rutgers-university-new-brunswick-186380",
+  "state": "nj",
+  "cip_code": "2501",
+  "cip_desc": "Library Science and Administration.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "2501-c5",
+  "earnings_median_4yr": 53524,
+  "earnings_median_5yr": 60930,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 1,
+  "debt_median": 40975,
+  "completers": 194,
+  "completers_single_year": 167,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 53524.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 60930.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 41000.0
+      },
+      {
+        "year": 2015,
+        "value": 41000.0
+      },
+      {
+        "year": 2016,
+        "value": 38817.0
+      },
+      {
+        "year": 2017,
+        "value": 40562.0
+      },
+      {
+        "year": 2018,
+        "value": 40975.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 113.0
+      },
+      {
+        "year": 2015,
+        "value": 94.0
+      },
+      {
+        "year": 2016,
+        "value": 100.0
+      },
+      {
+        "year": 2017,
+        "value": 163.0
+      },
+      {
+        "year": 2018,
+        "value": 167.0
+      },
+      {
+        "year": 2019,
+        "value": 194.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 9.0% at Library Science and Administration at Rutgers University-New Brunswick exceeds the 8% gainful-employment threshold ($41.0k debt amortized over 10 years vs $60.9k earnings).",
+      "magnitude_pct": 9.0,
+      "magnitude_abs": 1.0,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "186380",
+    "slug": "rutgers-university-new-brunswick-186380",
+    "name": "Rutgers University-New Brunswick",
+    "city": "New Brunswick",
+    "city_slug": "new-brunswick",
+    "control": "public"
+  },
+  "peers_in_state": [],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 17578,
+      "cost_total_default": 105468,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 60930,
+      "earnings_anchor_year": 5,
+      "debt_median": 40975,
+      "cip_family": "25",
+      "hs_baseline_state": 41700
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 211993,
+      "breakeven_year": 19
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

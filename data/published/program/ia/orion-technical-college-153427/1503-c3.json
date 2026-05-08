@@ -1,0 +1,177 @@
+{
+  "institution_unitid": "153427",
+  "institution_name": "Orion Technical College",
+  "institution_slug": "orion-technical-college-153427",
+  "state": "ia",
+  "cip_code": "1503",
+  "cip_desc": "Electrical Engineering Technologies/Technicians.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1503-c3",
+  "earnings_median_4yr": 52317,
+  "earnings_median_5yr": 59615,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 3,
+  "debt_median": 27000,
+  "completers": 28,
+  "completers_single_year": 23,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 52317.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 59615.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 39105.0
+      },
+      {
+        "year": 2015,
+        "value": 33899.0
+      },
+      {
+        "year": 2016,
+        "value": 32176.0
+      },
+      {
+        "year": 2017,
+        "value": 32176.0
+      },
+      {
+        "year": 2018,
+        "value": 27000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 17.0
+      },
+      {
+        "year": 2015,
+        "value": 25.0
+      },
+      {
+        "year": 2016,
+        "value": 24.0
+      },
+      {
+        "year": 2017,
+        "value": 30.0
+      },
+      {
+        "year": 2018,
+        "value": 23.0
+      },
+      {
+        "year": 2019,
+        "value": 28.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 39105.0,
+      "to_value": 27000.0,
+      "pct_change": -0.3095512082853855,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Electrical Engineering Technologies/Technicians at Orion Technical College fell 31% between 2014 and 2018 ($39.1k → $27.0k).",
+      "magnitude_pct": -31.0,
+      "magnitude_abs": -12105.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "153427",
+    "slug": "orion-technical-college-153427",
+    "name": "Orion Technical College",
+    "city": "Davenport",
+    "city_slug": "davenport",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 24431,
+      "cost_total_default": 97724,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 59615,
+      "earnings_anchor_year": 5,
+      "debt_median": 27000,
+      "cip_family": "15",
+      "hs_baseline_state": 36800
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 345206,
+      "breakeven_year": 13
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

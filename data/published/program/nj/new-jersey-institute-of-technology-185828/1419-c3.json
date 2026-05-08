@@ -1,0 +1,228 @@
+{
+  "institution_unitid": "185828",
+  "institution_name": "New Jersey Institute of Technology",
+  "institution_slug": "new-jersey-institute-of-technology-185828",
+  "state": "nj",
+  "cip_code": "1419",
+  "cip_desc": "Mechanical Engineering.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1419-c3",
+  "earnings_median_4yr": 77327,
+  "earnings_median_5yr": 87372,
+  "earnings_count_4yr": 10,
+  "earnings_count_5yr": 10,
+  "debt_median": 20000,
+  "completers": 250,
+  "completers_single_year": 195,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 77327.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 87372.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 25000.0
+      },
+      {
+        "year": 2015,
+        "value": 24000.0
+      },
+      {
+        "year": 2016,
+        "value": 22531.0
+      },
+      {
+        "year": 2017,
+        "value": 21310.0
+      },
+      {
+        "year": 2018,
+        "value": 20000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 142.0
+      },
+      {
+        "year": 2015,
+        "value": 181.0
+      },
+      {
+        "year": 2016,
+        "value": 186.0
+      },
+      {
+        "year": 2017,
+        "value": 219.0
+      },
+      {
+        "year": 2018,
+        "value": 195.0
+      },
+      {
+        "year": 2019,
+        "value": 250.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 25000.0,
+      "to_value": 20000.0,
+      "pct_change": -0.2,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Mechanical Engineering at New Jersey Institute of Technology fell 20% between 2014 and 2018 ($25.0k → $20.0k).",
+      "magnitude_pct": -20.0,
+      "magnitude_abs": -5000.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "185828",
+    "slug": "new-jersey-institute-of-technology-185828",
+    "name": "New Jersey Institute of Technology",
+    "city": "Newark",
+    "city_slug": "newark",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "stevens-institute-of-technology-186867",
+      "institution_name": "Stevens Institute of Technology",
+      "earnings_median_5yr": 101241,
+      "earnings_median_4yr": 88283,
+      "debt_median": 26495,
+      "completers": 124,
+      "completers_single_year": 141,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rutgers-university-new-brunswick-186380",
+      "institution_name": "Rutgers University-New Brunswick",
+      "earnings_median_5yr": 94837,
+      "earnings_median_4yr": 84202,
+      "debt_median": 21847,
+      "completers": 170,
+      "completers_single_year": 203,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rowan-university-184782",
+      "institution_name": "Rowan University",
+      "earnings_median_5yr": 89308,
+      "earnings_median_4yr": 80397,
+      "debt_median": 22500,
+      "completers": 92,
+      "completers_single_year": 100,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-college-of-new-jersey-187134",
+      "institution_name": "The College of New Jersey",
+      "earnings_median_5yr": 84253,
+      "earnings_median_4yr": 75660,
+      "debt_median": 22875,
+      "completers": 41,
+      "completers_single_year": 33,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "princeton-university-186131",
+      "institution_name": "Princeton University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 49,
+      "completers_single_year": 52,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 10,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 16317,
+      "cost_total_default": 65268,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 87372,
+      "earnings_anchor_year": 5,
+      "debt_median": 20000,
+      "cip_family": "14",
+      "hs_baseline_state": 41700
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 940980,
+      "breakeven_year": 7
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

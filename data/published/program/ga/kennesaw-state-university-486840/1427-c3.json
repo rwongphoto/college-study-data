@@ -1,0 +1,155 @@
+{
+  "institution_unitid": "486840",
+  "institution_name": "Kennesaw State University",
+  "institution_slug": "kennesaw-state-university-486840",
+  "state": "ga",
+  "cip_code": "1427",
+  "cip_desc": "Systems Engineering.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1427-c3",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 2,
+  "debt_median": 21571,
+  "completers": 41,
+  "completers_single_year": 33,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [
+      {
+        "year": 2016,
+        "value": 15195.0
+      },
+      {
+        "year": 2017,
+        "value": 19000.0
+      },
+      {
+        "year": 2018,
+        "value": 21571.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 14.0
+      },
+      {
+        "year": 2015,
+        "value": 10.0
+      },
+      {
+        "year": 2016,
+        "value": 25.0
+      },
+      {
+        "year": 2017,
+        "value": 25.0
+      },
+      {
+        "year": 2018,
+        "value": 33.0
+      },
+      {
+        "year": 2019,
+        "value": 41.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2016,
+      "to_year": 2018,
+      "from_value": 15195.0,
+      "to_value": 21571.0,
+      "pct_change": 0.41961171437973016,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Systems Engineering at Kennesaw State University rose 42% between 2016 and 2018 ($15.2k → $21.6k).",
+      "magnitude_pct": 42.0,
+      "magnitude_abs": 6376.0,
+      "baseline_year": 2016,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "486840",
+    "slug": "kennesaw-state-university-486840",
+    "name": "Kennesaw State University",
+    "city": "Kennesaw",
+    "city_slug": "kennesaw",
+    "control": "public"
+  },
+  "peers_in_state": [],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 17890,
+      "cost_total_default": 71560,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": 21571,
+      "cip_family": "14"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

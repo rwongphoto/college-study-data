@@ -1,0 +1,204 @@
+{
+  "institution_unitid": "187985",
+  "institution_name": "University of New Mexico-Main Campus",
+  "institution_slug": "university-of-new-mexico-main-campus-187985",
+  "state": "nm",
+  "cip_code": "5202",
+  "cip_desc": "Business Administration, Management and Operations.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5202-c5",
+  "earnings_median_4yr": 77094,
+  "earnings_median_5yr": 89932,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 6,
+  "debt_median": 32073,
+  "completers": 185,
+  "completers_single_year": 166,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 77094.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 89932.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 31721.0
+      },
+      {
+        "year": 2015,
+        "value": 32973.0
+      },
+      {
+        "year": 2016,
+        "value": 29017.0
+      },
+      {
+        "year": 2017,
+        "value": 30801.0
+      },
+      {
+        "year": 2018,
+        "value": 32073.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 183.0
+      },
+      {
+        "year": 2015,
+        "value": 175.0
+      },
+      {
+        "year": 2016,
+        "value": 193.0
+      },
+      {
+        "year": 2017,
+        "value": 199.0
+      },
+      {
+        "year": 2018,
+        "value": 166.0
+      },
+      {
+        "year": 2019,
+        "value": 185.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "187985",
+    "slug": "university-of-new-mexico-main-campus-187985",
+    "name": "University of New Mexico-Main Campus",
+    "city": "Albuquerque",
+    "city_slug": "albuquerque",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "eastern-new-mexico-university-main-campus-187648",
+      "institution_name": "Eastern New Mexico University-Main Campus",
+      "earnings_median_5yr": 96975,
+      "earnings_median_4yr": 87261,
+      "debt_median": 27848,
+      "completers": 67,
+      "completers_single_year": 63,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "new-mexico-state-university-main-campus-188030",
+      "institution_name": "New Mexico State University-Main Campus",
+      "earnings_median_5yr": 83221,
+      "earnings_median_4yr": 75747,
+      "debt_median": 25297,
+      "completers": 72,
+      "completers_single_year": 71,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "new-mexico-highlands-university-187897",
+      "institution_name": "New Mexico Highlands University",
+      "earnings_median_5yr": 78181,
+      "earnings_median_4yr": 67394,
+      "debt_median": 28531,
+      "completers": 69,
+      "completers_single_year": 67,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-the-southwest-188182",
+      "institution_name": "University of the Southwest",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-new-mexico-university-188304",
+      "institution_name": "Western New Mexico University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 20,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 6,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 18586,
+      "cost_total_default": 111516,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 89932,
+      "earnings_anchor_year": 5,
+      "debt_median": 32073,
+      "cip_family": "52",
+      "hs_baseline_state": 33800
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 838182,
+      "breakeven_year": 9
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

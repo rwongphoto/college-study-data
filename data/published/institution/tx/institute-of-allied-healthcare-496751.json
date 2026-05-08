@@ -1,0 +1,330 @@
+{
+  "institution": {
+    "unitid": "496751",
+    "opeid6": "042960",
+    "name": "Institute of Allied Healthcare",
+    "slug": "institute-of-allied-healthcare-496751",
+    "state": "tx",
+    "city": "San Antonio",
+    "city_slug": "san-antonio",
+    "zip5": "78229",
+    "address": "7614 Louis Pasteur Drive suite 402",
+    "latitude": 29.507147,
+    "longitude": -98.570242,
+    "control": "private_forprofit",
+    "pred_degree": "certificate",
+    "highest_degree": "certificate",
+    "main_campus": true,
+    "locale": "11",
+    "carnegie_basic": -2,
+    "sector_code": 9,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": 0.5,
+    "completion_rate_100": 0.0,
+    "retention_rate": 1.0,
+    "admission_rate": null,
+    "enrollment_undergrad": 69,
+    "enrollment_total": null,
+    "cost_attendance": 7700,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": 5403,
+    "cost_by_income": {
+      "0_30k": 5403,
+      "30_48k": null,
+      "48_75k": null,
+      "75_110k": null,
+      "110k_plus": null,
+      "sticker": 7700,
+      "sector": "priv"
+    },
+    "median_debt": null,
+    "default_rate": null,
+    "pell_share": 0.0,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [
+        {
+          "year": 2023,
+          "value": 1.0
+        },
+        {
+          "year": 2024,
+          "value": 0.0476
+        }
+      ],
+      "admission_rate": [],
+      "enrollment_undergrad": [
+        {
+          "year": 2021,
+          "value": 65.0
+        },
+        {
+          "year": 2022,
+          "value": 25.0
+        },
+        {
+          "year": 2023,
+          "value": 69.0
+        },
+        {
+          "year": 2024,
+          "value": 60.0
+        }
+      ],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [
+        {
+          "year": 2022,
+          "value": 7700.0
+        },
+        {
+          "year": 2023,
+          "value": 7700.0
+        },
+        {
+          "year": 2024,
+          "value": 7763.0
+        }
+      ],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [
+        {
+          "year": 2022,
+          "value": 7700.0
+        },
+        {
+          "year": 2023,
+          "value": 5403.0
+        },
+        {
+          "year": 2024,
+          "value": 2430.0
+        }
+      ],
+      "median_debt": [],
+      "default_rate": [],
+      "pell_share": [
+        {
+          "year": 2021,
+          "value": 0.0
+        },
+        {
+          "year": 2022,
+          "value": 0.0
+        },
+        {
+          "year": 2023,
+          "value": 0.0
+        },
+        {
+          "year": 2024,
+          "value": 0.1077
+        }
+      ],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "retention_rate",
+        "from_year": 2023,
+        "to_year": 2024,
+        "from_value": 1.0,
+        "to_value": 0.0476,
+        "pct_change": -0.9524,
+        "direction": "fell"
+      },
+      {
+        "metric": "pell_share",
+        "from_year": 2021,
+        "to_year": 2024,
+        "from_value": 0.0,
+        "to_value": 0.1077,
+        "pct_change": 2.154,
+        "direction": "rose"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "First-year retention",
+        "summary": "First-year retention at Institute of Allied Healthcare fell 95% between 2023 and 2024 (100.0% → 4.8%).",
+        "magnitude_pct": -95.2,
+        "magnitude_abs": -0.95,
+        "baseline_year": 2023,
+        "recent_year": 2024,
+        "units": "%",
+        "history": [],
+        "metric": "retention_rate"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "51": [
+      {
+        "slug": "5108-c1",
+        "cip_code": "5108",
+        "cip_desc": "Allied Health and Medical Assisting Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 67,
+        "completers_single_year": null,
+        "completers_history": [
+          {
+            "year": 2019,
+            "value": 67.0
+          }
+        ],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "5108-c1",
+      "cip_code": "5108",
+      "cip_desc": "Allied Health and Medical Assisting Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 67,
+      "completers_single_year": null,
+      "completers_history": [
+        {
+          "year": 2019,
+          "value": 67.0
+        }
+      ],
+      "long_arc": []
+    }
+  ],
+  "program_count": 1,
+  "similar": [
+    {
+      "slug": "the-culinary-school-of-fort-worth-491251",
+      "name": "The Culinary School of Fort Worth",
+      "city": "Fort Worth",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.746,
+      "enrollment_undergrad": 69
+    },
+    {
+      "slug": "bella-cosmetology-and-barber-college-483559",
+      "name": "Bella Cosmetology and Barber College",
+      "city": "Greenville",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.6071,
+      "enrollment_undergrad": 71
+    },
+    {
+      "slug": "strand-institute-of-beauty-esthetics-491066",
+      "name": "Strand Institute of Beauty & Esthetics",
+      "city": "Portland",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.9048,
+      "enrollment_undergrad": 71
+    },
+    {
+      "slug": "graduate-america-college-431284",
+      "name": "Graduate America College",
+      "city": "Garland",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 22178,
+      "completion_rate_150": 0.9151,
+      "enrollment_undergrad": 72
+    },
+    {
+      "slug": "the-salon-professional-academy-georgetown-491996",
+      "name": "The Salon Professional Academy-Georgetown",
+      "city": "Georgetown",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.6111,
+      "enrollment_undergrad": 72
+    }
+  ],
+  "roi": {
+    "default_program_slug": null,
+    "programs_available": [
+      {
+        "slug": "5108-c1",
+        "label": "Allied Health and Medical Assisting Services · Undergraduate Certificate or Diploma",
+        "cip_family": "51",
+        "completers": 67,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      }
+    ]
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

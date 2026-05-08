@@ -1,0 +1,173 @@
+{
+  "institution_unitid": "217934",
+  "institution_name": "Columbia College",
+  "institution_slug": "columbia-college-217934",
+  "state": "sc",
+  "cip_code": "3017",
+  "cip_desc": "Behavioral Sciences.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "3017-c3",
+  "earnings_median_4yr": 33045,
+  "earnings_median_5yr": 36262,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 2,
+  "debt_median": 18760,
+  "completers": 6,
+  "completers_single_year": 7,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 33045.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 36262.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 27000.0
+      },
+      {
+        "year": 2015,
+        "value": 25575.0
+      },
+      {
+        "year": 2017,
+        "value": 18810.0
+      },
+      {
+        "year": 2018,
+        "value": 18760.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 21.0
+      },
+      {
+        "year": 2015,
+        "value": 11.0
+      },
+      {
+        "year": 2016,
+        "value": 11.0
+      },
+      {
+        "year": 2017,
+        "value": 17.0
+      },
+      {
+        "year": 2018,
+        "value": 7.0
+      },
+      {
+        "year": 2019,
+        "value": 6.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 27000.0,
+      "to_value": 18760.0,
+      "pct_change": -0.30518518518518517,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Behavioral Sciences at Columbia College fell 31% between 2014 and 2018 ($27.0k → $18.8k).",
+      "magnitude_pct": -30.5,
+      "magnitude_abs": -8240.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "217934",
+    "slug": "columbia-college-217934",
+    "name": "Columbia College",
+    "city": "Columbia",
+    "city_slug": "columbia",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 22849,
+      "cost_total_default": 91396,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 36262,
+      "earnings_anchor_year": 5,
+      "debt_median": 18760,
+      "cip_family": "30",
+      "hs_baseline_state": 33700
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -24889,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

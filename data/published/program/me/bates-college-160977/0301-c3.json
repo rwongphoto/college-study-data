@@ -1,0 +1,294 @@
+{
+  "institution_unitid": "160977",
+  "institution_name": "Bates College",
+  "institution_slug": "bates-college-160977",
+  "state": "me",
+  "cip_code": "0301",
+  "cip_desc": "Natural Resources Conservation and Research.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "0301-c3",
+  "earnings_median_4yr": 47210,
+  "earnings_median_5yr": 56602,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 2,
+  "debt_median": 9614,
+  "completers": 26,
+  "completers_single_year": 30,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 47210.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 56602.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2015,
+        "value": 7500.0
+      },
+      {
+        "year": 2016,
+        "value": 9801.0
+      },
+      {
+        "year": 2017,
+        "value": 12925.0
+      },
+      {
+        "year": 2018,
+        "value": 9614.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 31.0
+      },
+      {
+        "year": 2015,
+        "value": 28.0
+      },
+      {
+        "year": 2016,
+        "value": 37.0
+      },
+      {
+        "year": 2017,
+        "value": 33.0
+      },
+      {
+        "year": 2018,
+        "value": 30.0
+      },
+      {
+        "year": 2019,
+        "value": 26.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2015,
+      "to_year": 2018,
+      "from_value": 7500.0,
+      "to_value": 9614.0,
+      "pct_change": 0.28186666666666665,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Natural Resources Conservation and Research at Bates College rose 28% between 2015 and 2018 ($7.5k → $9.6k).",
+      "magnitude_pct": 28.2,
+      "magnitude_abs": 2114.0,
+      "baseline_year": 2015,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "160977",
+    "slug": "bates-college-160977",
+    "name": "Bates College",
+    "city": "Lewiston",
+    "city_slug": "lewiston",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "bowdoin-college-161004",
+      "institution_name": "Bowdoin College",
+      "earnings_median_5yr": 64067,
+      "earnings_median_4yr": 38638,
+      "debt_median": null,
+      "completers": 19,
+      "completers_single_year": 37,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-new-england-161457",
+      "institution_name": "University of New England",
+      "earnings_median_5yr": 58972,
+      "earnings_median_4yr": 46507,
+      "debt_median": 27000,
+      "completers": 16,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-maine-161253",
+      "institution_name": "University of Maine",
+      "earnings_median_5yr": 57652,
+      "earnings_median_4yr": null,
+      "debt_median": 25334,
+      "completers": 40,
+      "completers_single_year": 45,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "colby-college-161086",
+      "institution_name": "Colby College",
+      "earnings_median_5yr": 53972,
+      "earnings_median_4yr": 44699,
+      "debt_median": 19313,
+      "completers": 46,
+      "completers_single_year": 62,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-maine-at-farmington-161226",
+      "institution_name": "University of Maine at Farmington",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-maine-at-fort-kent-161235",
+      "institution_name": "University of Maine at Fort Kent",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "maine-maritime-academy-161299",
+      "institution_name": "Maine Maritime Academy",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-maine-at-presque-isle-161341",
+      "institution_name": "University of Maine at Presque Isle",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-joseph-s-college-of-maine-161518",
+      "institution_name": "Saint Joseph's College of Maine",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-southern-maine-161554",
+      "institution_name": "University of Southern Maine",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 26000,
+      "completers": 16,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "unity-environmental-university-161572",
+      "institution_name": "Unity Environmental University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "husson-university-487524",
+      "institution_name": "Husson University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 8602,
+      "cost_total_default": 34408,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 56602,
+      "earnings_anchor_year": 5,
+      "debt_median": 9614,
+      "cip_family": "03",
+      "hs_baseline_state": 36200
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 359258,
+      "breakeven_year": 8
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

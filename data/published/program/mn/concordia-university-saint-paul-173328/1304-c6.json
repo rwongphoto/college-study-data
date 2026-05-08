@@ -1,0 +1,201 @@
+{
+  "institution_unitid": "173328",
+  "institution_name": "Concordia University-Saint Paul",
+  "institution_slug": "concordia-university-saint-paul-173328",
+  "state": "mn",
+  "cip_code": "1304",
+  "cip_desc": "Educational Administration and Supervision.",
+  "credential_level": 6,
+  "credential_desc": "Doctoral Degree",
+  "slug": "1304-c6",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": null,
+  "earnings_count_5yr": null,
+  "debt_median": null,
+  "completers": 16,
+  "completers_single_year": 8,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [],
+    "completers": [
+      {
+        "year": 2016,
+        "value": 4.0
+      },
+      {
+        "year": 2017,
+        "value": 3.0
+      },
+      {
+        "year": 2018,
+        "value": 8.0
+      },
+      {
+        "year": 2019,
+        "value": 16.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "173328",
+    "slug": "concordia-university-saint-paul-173328",
+    "name": "Concordia University-Saint Paul",
+    "city": "Saint Paul",
+    "city_slug": "saint-paul",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "saint-mary-s-university-of-minnesota-174817",
+      "institution_name": "Saint Mary's University of Minnesota",
+      "earnings_median_5yr": 107596,
+      "earnings_median_4yr": 96670,
+      "debt_median": 53760,
+      "completers": 18,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "capella-university-413413",
+      "institution_name": "Capella University",
+      "earnings_median_5yr": 91543,
+      "earnings_median_4yr": 81321,
+      "debt_median": 108834,
+      "completers": 195,
+      "completers_single_year": 203,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bethel-university-173160",
+      "institution_name": "Bethel University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 19,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "minnesota-state-university-mankato-173920",
+      "institution_name": "Minnesota State University-Mankato",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-minnesota-twin-cities-174066",
+      "institution_name": "University of Minnesota-Twin Cities",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 31,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-minnesota-duluth-174233",
+      "institution_name": "University of Minnesota-Duluth",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "minnesota-state-university-moorhead-174358",
+      "institution_name": "Minnesota State University Moorhead",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-cloud-state-university-174783",
+      "institution_name": "Saint Cloud State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 24,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-st-thomas-174914",
+      "institution_name": "University of St Thomas",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 20,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 8,
+      "cost_per_year_default": 15449,
+      "cost_total_default": 123592,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "13"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

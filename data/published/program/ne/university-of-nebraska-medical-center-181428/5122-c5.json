@@ -1,0 +1,176 @@
+{
+  "institution_unitid": "181428",
+  "institution_name": "University of Nebraska Medical Center",
+  "institution_slug": "university-of-nebraska-medical-center-181428",
+  "state": "ne",
+  "cip_code": "5122",
+  "cip_desc": "Public Health.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5122-c5",
+  "earnings_median_4yr": 70621,
+  "earnings_median_5yr": 74139,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 0,
+  "debt_median": 27495,
+  "completers": 45,
+  "completers_single_year": 68,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 70621.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 74139.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 31810.0
+      },
+      {
+        "year": 2015,
+        "value": 31810.0
+      },
+      {
+        "year": 2016,
+        "value": 41000.0
+      },
+      {
+        "year": 2018,
+        "value": 27495.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 51.0
+      },
+      {
+        "year": 2015,
+        "value": 54.0
+      },
+      {
+        "year": 2016,
+        "value": 57.0
+      },
+      {
+        "year": 2017,
+        "value": 49.0
+      },
+      {
+        "year": 2018,
+        "value": 68.0
+      },
+      {
+        "year": 2019,
+        "value": 45.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "181428",
+    "slug": "university-of-nebraska-medical-center-181428",
+    "name": "University of Nebraska Medical Center",
+    "city": "Omaha",
+    "city_slug": "omaha",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "nebraska-methodist-college-of-nursing-allied-health-181297",
+      "institution_name": "Nebraska Methodist College of Nursing & Allied Health",
+      "earnings_median_5yr": 79196,
+      "earnings_median_4yr": 72516,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "creighton-university-181002",
+      "institution_name": "Creighton University",
+      "earnings_median_5yr": 71246,
+      "earnings_median_4yr": 70769,
+      "debt_median": 53500,
+      "completers": 18,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "concordia-university-nebraska-180984",
+      "institution_name": "Concordia University-Nebraska",
+      "earnings_median_5yr": 66528,
+      "earnings_median_4yr": 54459,
+      "debt_median": null,
+      "completers": 14,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": null,
+      "cost_total_default": null,
+      "cost_source": null,
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 74139,
+      "earnings_anchor_year": 5,
+      "debt_median": 27495,
+      "cip_family": "51"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

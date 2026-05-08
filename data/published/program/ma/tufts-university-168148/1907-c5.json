@@ -1,0 +1,188 @@
+{
+  "institution_unitid": "168148",
+  "institution_name": "Tufts University",
+  "institution_slug": "tufts-university-168148",
+  "state": "ma",
+  "cip_code": "1907",
+  "cip_desc": "Human Development, Family Studies, and Related Services.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "1907-c5",
+  "earnings_median_4yr": 64185,
+  "earnings_median_5yr": 69122,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 2,
+  "debt_median": 35246,
+  "completers": 14,
+  "completers_single_year": 29,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 64185.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 69122.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 20500.0
+      },
+      {
+        "year": 2015,
+        "value": 24086.0
+      },
+      {
+        "year": 2016,
+        "value": 24750.0
+      },
+      {
+        "year": 2017,
+        "value": 27715.0
+      },
+      {
+        "year": 2018,
+        "value": 35246.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 23.0
+      },
+      {
+        "year": 2015,
+        "value": 26.0
+      },
+      {
+        "year": 2016,
+        "value": 31.0
+      },
+      {
+        "year": 2017,
+        "value": 19.0
+      },
+      {
+        "year": 2018,
+        "value": 29.0
+      },
+      {
+        "year": 2019,
+        "value": 14.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 20500.0,
+      "to_value": 35246.0,
+      "pct_change": 0.7193170731707317,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Human Development, Family Studies, and Related Services at Tufts University rose 72% between 2014 and 2018 ($20.5k → $35.2k).",
+      "magnitude_pct": 71.9,
+      "magnitude_abs": 14746.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "168148",
+    "slug": "tufts-university-168148",
+    "name": "Tufts University",
+    "city": "Medford",
+    "city_slug": "medford",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "boston-university-164988",
+      "institution_name": "Boston University",
+      "earnings_median_5yr": 54358,
+      "earnings_median_4yr": 52938,
+      "debt_median": 28235,
+      "completers": 17,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 14963,
+      "cost_total_default": 89778,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 69122,
+      "earnings_anchor_year": 5,
+      "debt_median": 35246,
+      "cip_family": "19",
+      "hs_baseline_state": 42600
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 344667,
+      "breakeven_year": 14
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

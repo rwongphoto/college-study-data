@@ -1,0 +1,202 @@
+{
+  "institution_unitid": "190716",
+  "institution_name": "D'Youville  University",
+  "institution_slug": "d-youville-university-190716",
+  "state": "ny",
+  "cip_code": "5131",
+  "cip_desc": "Dietetics and Clinical Nutrition Services.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5131-c5",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": null,
+  "earnings_count_5yr": null,
+  "debt_median": 20500,
+  "completers": 18,
+  "completers_single_year": 29,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [
+      {
+        "year": 2016,
+        "value": 20500.0
+      },
+      {
+        "year": 2017,
+        "value": 28208.0
+      },
+      {
+        "year": 2018,
+        "value": 20500.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 32.0
+      },
+      {
+        "year": 2015,
+        "value": 19.0
+      },
+      {
+        "year": 2016,
+        "value": 31.0
+      },
+      {
+        "year": 2017,
+        "value": 32.0
+      },
+      {
+        "year": 2018,
+        "value": 29.0
+      },
+      {
+        "year": 2019,
+        "value": 18.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "190716",
+    "slug": "d-youville-university-190716",
+    "name": "D'Youville  University",
+    "city": "Buffalo",
+    "city_slug": "buffalo",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "suny-oneonta-196185",
+      "institution_name": "SUNY Oneonta",
+      "earnings_median_5yr": 59864,
+      "earnings_median_4yr": 57922,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northeast-college-of-health-sciences-193751",
+      "institution_name": "Northeast College of Health Sciences",
+      "earnings_median_5yr": 47935,
+      "earnings_median_4yr": null,
+      "debt_median": 28065,
+      "completers": 66,
+      "completers_single_year": 72,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "adelphi-university-188429",
+      "institution_name": "Adelphi University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cuny-hunter-college-190594",
+      "institution_name": "CUNY Hunter College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "long-island-university-192448",
+      "institution_name": "Long Island University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-at-buffalo-196088",
+      "institution_name": "University at Buffalo",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "stony-brook-university-196097",
+      "institution_name": "Stony Brook University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 26,
+      "completers_single_year": 24,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 21460,
+      "cost_total_default": 128760,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": 20500,
+      "cip_family": "51"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "institution_unitid": "163286",
+  "institution_name": "University of Maryland-College Park",
+  "institution_slug": "university-of-maryland-college-park-163286",
+  "state": "md",
+  "cip_code": "1499",
+  "cip_desc": "Engineering, Other.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1499-c3",
+  "earnings_median_4yr": 85817,
+  "earnings_median_5yr": 92285,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": 18458,
+  "completers": 26,
+  "completers_single_year": 40,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 85817.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 92285.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 21500.0
+      },
+      {
+        "year": 2015,
+        "value": 21500.0
+      },
+      {
+        "year": 2016,
+        "value": 19750.0
+      },
+      {
+        "year": 2017,
+        "value": 19500.0
+      },
+      {
+        "year": 2018,
+        "value": 18458.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 30.0
+      },
+      {
+        "year": 2015,
+        "value": 20.0
+      },
+      {
+        "year": 2016,
+        "value": 31.0
+      },
+      {
+        "year": 2017,
+        "value": 43.0
+      },
+      {
+        "year": 2018,
+        "value": 40.0
+      },
+      {
+        "year": 2019,
+        "value": 26.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "163286",
+    "slug": "university-of-maryland-college-park-163286",
+    "name": "University of Maryland-College Park",
+    "city": "College Park",
+    "city_slug": "college-park",
+    "control": "public"
+  },
+  "peers_in_state": [],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 12237,
+      "cost_total_default": 48948,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 92285,
+      "earnings_anchor_year": 5,
+      "debt_median": 18458,
+      "cip_family": "14",
+      "hs_baseline_state": 41100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 1065882,
+      "breakeven_year": 6
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

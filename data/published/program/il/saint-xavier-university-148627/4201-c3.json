@@ -1,0 +1,663 @@
+{
+  "institution_unitid": "148627",
+  "institution_name": "Saint Xavier University",
+  "institution_slug": "saint-xavier-university-148627",
+  "state": "il",
+  "cip_code": "4201",
+  "cip_desc": "Psychology, General.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "4201-c3",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": 38615,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": 25000,
+  "completers": 71,
+  "completers_single_year": 72,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 38615.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 22057.0
+      },
+      {
+        "year": 2015,
+        "value": 19866.0
+      },
+      {
+        "year": 2016,
+        "value": 19853.0
+      },
+      {
+        "year": 2017,
+        "value": 23302.0
+      },
+      {
+        "year": 2018,
+        "value": 25000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 24.0
+      },
+      {
+        "year": 2015,
+        "value": 44.0
+      },
+      {
+        "year": 2016,
+        "value": 73.0
+      },
+      {
+        "year": 2017,
+        "value": 64.0
+      },
+      {
+        "year": 2018,
+        "value": 72.0
+      },
+      {
+        "year": 2019,
+        "value": 71.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 8.6% at Psychology, General at Saint Xavier University exceeds the 8% gainful-employment threshold ($25.0k debt amortized over 10 years vs $38.6k earnings).",
+      "magnitude_pct": 8.6,
+      "magnitude_abs": 0.6,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "148627",
+    "slug": "saint-xavier-university-148627",
+    "name": "Saint Xavier University",
+    "city": "Chicago",
+    "city_slug": "chicago",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "northwestern-university-147767",
+      "institution_name": "Northwestern University",
+      "earnings_median_5yr": 71228,
+      "earnings_median_4yr": 61389,
+      "debt_median": 13500,
+      "completers": 124,
+      "completers_single_year": 139,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-chicago-144050",
+      "institution_name": "University of Chicago",
+      "earnings_median_5yr": 70596,
+      "earnings_median_4yr": 56351,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-illinois-urbana-champaign-145637",
+      "institution_name": "University of Illinois Urbana-Champaign",
+      "earnings_median_5yr": 63866,
+      "earnings_median_4yr": 52881,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "loyola-university-chicago-146719",
+      "institution_name": "Loyola University Chicago",
+      "earnings_median_5yr": 59090,
+      "earnings_median_4yr": 52586,
+      "debt_median": 24960,
+      "completers": 306,
+      "completers_single_year": 262,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bradley-university-143358",
+      "institution_name": "Bradley University",
+      "earnings_median_5yr": 58439,
+      "earnings_median_4yr": 48252,
+      "debt_median": 27000,
+      "completers": 68,
+      "completers_single_year": 52,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "augustana-college-143084",
+      "institution_name": "Augustana College",
+      "earnings_median_5yr": 57918,
+      "earnings_median_4yr": 50244,
+      "debt_median": 27000,
+      "completers": 68,
+      "completers_single_year": 53,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "illinois-wesleyan-university-145646",
+      "institution_name": "Illinois Wesleyan University",
+      "earnings_median_5yr": 57514,
+      "earnings_median_4yr": 46467,
+      "debt_median": 26402,
+      "completers": 23,
+      "completers_single_year": 22,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "dominican-university-148496",
+      "institution_name": "Dominican University",
+      "earnings_median_5yr": 56614,
+      "earnings_median_4yr": 47929,
+      "debt_median": 22858,
+      "completers": 50,
+      "completers_single_year": 42,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "illinois-state-university-145813",
+      "institution_name": "Illinois State University",
+      "earnings_median_5yr": 56232,
+      "earnings_median_4yr": 49195,
+      "debt_median": 20500,
+      "completers": 155,
+      "completers_single_year": 149,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "benedictine-university-145619",
+      "institution_name": "Benedictine University",
+      "earnings_median_5yr": 55759,
+      "earnings_median_4yr": 45546,
+      "debt_median": 26000,
+      "completers": 64,
+      "completers_single_year": 78,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wheaton-college-149781",
+      "institution_name": "Wheaton College",
+      "earnings_median_5yr": 55639,
+      "earnings_median_4yr": 46741,
+      "debt_median": 21500,
+      "completers": 49,
+      "completers_single_year": 34,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-illinois-chicago-145600",
+      "institution_name": "University of Illinois Chicago",
+      "earnings_median_5yr": 54233,
+      "earnings_median_4yr": 47000,
+      "debt_median": 15934,
+      "completers": 472,
+      "completers_single_year": 459,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "depaul-university-144740",
+      "institution_name": "DePaul University",
+      "earnings_median_5yr": 53943,
+      "earnings_median_4yr": 47752,
+      "debt_median": 24750,
+      "completers": 199,
+      "completers_single_year": 201,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "north-central-college-147660",
+      "institution_name": "North Central College",
+      "earnings_median_5yr": 53147,
+      "earnings_median_4yr": 46972,
+      "debt_median": 25000,
+      "completers": 82,
+      "completers_single_year": 95,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "elmhurst-university-144962",
+      "institution_name": "Elmhurst University",
+      "earnings_median_5yr": 53088,
+      "earnings_median_4yr": 48321,
+      "debt_median": 19959,
+      "completers": 105,
+      "completers_single_year": 107,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "governors-state-university-145336",
+      "institution_name": "Governors State University",
+      "earnings_median_5yr": 51616,
+      "earnings_median_4yr": 43117,
+      "debt_median": 19480,
+      "completers": 97,
+      "completers_single_year": 96,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "trinity-christian-college-149505",
+      "institution_name": "Trinity Christian College",
+      "earnings_median_5yr": 51241,
+      "earnings_median_4yr": 43954,
+      "debt_median": 26875,
+      "completers": 36,
+      "completers_single_year": 35,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "aurora-university-143118",
+      "institution_name": "Aurora University",
+      "earnings_median_5yr": 50859,
+      "earnings_median_4yr": 45688,
+      "debt_median": 18585,
+      "completers": 70,
+      "completers_single_year": 60,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "eastern-illinois-university-144892",
+      "institution_name": "Eastern Illinois University",
+      "earnings_median_5yr": 50288,
+      "earnings_median_4yr": 43847,
+      "debt_median": 19712,
+      "completers": 103,
+      "completers_single_year": 102,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "illinois-college-145691",
+      "institution_name": "Illinois College",
+      "earnings_median_5yr": 49853,
+      "earnings_median_4yr": 42995,
+      "debt_median": 27000,
+      "completers": 23,
+      "completers_single_year": 33,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southern-illinois-university-edwardsville-149231",
+      "institution_name": "Southern Illinois University-Edwardsville",
+      "earnings_median_5yr": 49430,
+      "earnings_median_4yr": 42569,
+      "debt_median": 23375,
+      "completers": 160,
+      "completers_single_year": 184,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "knox-college-146427",
+      "institution_name": "Knox College",
+      "earnings_median_5yr": 49423,
+      "earnings_median_4yr": 44259,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "north-park-university-147679",
+      "institution_name": "North Park University",
+      "earnings_median_5yr": 49267,
+      "earnings_median_4yr": 44426,
+      "debt_median": 25041,
+      "completers": 24,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "roosevelt-university-148487",
+      "institution_name": "Roosevelt University",
+      "earnings_median_5yr": 49179,
+      "earnings_median_4yr": 41062,
+      "debt_median": 21750,
+      "completers": 97,
+      "completers_single_year": 99,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-illinois-springfield-148654",
+      "institution_name": "University of Illinois Springfield",
+      "earnings_median_5yr": 49082,
+      "earnings_median_4yr": 42777,
+      "debt_median": 18648,
+      "completers": 71,
+      "completers_single_year": 61,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "millikin-university-147244",
+      "institution_name": "Millikin University",
+      "earnings_median_5yr": 48700,
+      "earnings_median_4yr": 51194,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "eureka-college-144971",
+      "institution_name": "Eureka College",
+      "earnings_median_5yr": 47675,
+      "earnings_median_4yr": null,
+      "debt_median": 26976,
+      "completers": 11,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northern-illinois-university-147703",
+      "institution_name": "Northern Illinois University",
+      "earnings_median_5yr": 47360,
+      "earnings_median_4yr": 41119,
+      "debt_median": 21375,
+      "completers": 189,
+      "completers_single_year": 188,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northeastern-illinois-university-147776",
+      "institution_name": "Northeastern Illinois University",
+      "earnings_median_5yr": 47251,
+      "earnings_median_4yr": 40998,
+      "debt_median": 15000,
+      "completers": 104,
+      "completers_single_year": 110,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lewis-university-146612",
+      "institution_name": "Lewis University",
+      "earnings_median_5yr": 46812,
+      "earnings_median_4yr": 42266,
+      "debt_median": 24250,
+      "completers": 78,
+      "completers_single_year": 74,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-illinois-university-149772",
+      "institution_name": "Western Illinois University",
+      "earnings_median_5yr": 46568,
+      "earnings_median_4yr": 39411,
+      "debt_median": 27000,
+      "completers": 63,
+      "completers_single_year": 77,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southern-illinois-university-carbondale-149222",
+      "institution_name": "Southern Illinois University-Carbondale",
+      "earnings_median_5yr": 46393,
+      "earnings_median_4yr": 39760,
+      "debt_median": 23000,
+      "completers": 88,
+      "completers_single_year": 84,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mckendree-university-147013",
+      "institution_name": "McKendree University",
+      "earnings_median_5yr": 44140,
+      "earnings_median_4yr": 43254,
+      "debt_median": 23000,
+      "completers": 40,
+      "completers_single_year": 42,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "monmouth-college-147341",
+      "institution_name": "Monmouth College",
+      "earnings_median_5yr": 43960,
+      "earnings_median_4yr": 42222,
+      "debt_median": 27000,
+      "completers": 19,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rockford-university-148405",
+      "institution_name": "Rockford University",
+      "earnings_median_5yr": 43541,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 14,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "chicago-state-university-144005",
+      "institution_name": "Chicago State University",
+      "earnings_median_5yr": 42103,
+      "earnings_median_4yr": 35893,
+      "debt_median": 30886,
+      "completers": 53,
+      "completers_single_year": 66,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "concordia-university-chicago-144351",
+      "institution_name": "Concordia University-Chicago",
+      "earnings_median_5yr": 40485,
+      "earnings_median_4yr": 40204,
+      "debt_median": 19800,
+      "completers": 15,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "olivet-nazarene-university-147828",
+      "institution_name": "Olivet Nazarene University",
+      "earnings_median_5yr": 39444,
+      "earnings_median_4yr": 40428,
+      "debt_median": 27000,
+      "completers": 40,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "trinity-international-university-illinois-149514",
+      "institution_name": "Trinity International University-Illinois",
+      "earnings_median_5yr": 33017,
+      "earnings_median_4yr": null,
+      "debt_median": 23523,
+      "completers": 18,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "blackburn-college-143288",
+      "institution_name": "Blackburn College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "greenville-university-145372",
+      "institution_name": "Greenville University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hebrew-theological-college-145497",
+      "institution_name": "Hebrew Theological College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "illinois-institute-of-technology-145725",
+      "institution_name": "Illinois Institute of Technology",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "judson-university-146339",
+      "institution_name": "Judson University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 23250,
+      "completers": 16,
+      "completers_single_year": 22,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lake-forest-college-146481",
+      "institution_name": "Lake Forest College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 52203,
+      "debt_median": 27000,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lincoln-christian-university-146667",
+      "institution_name": "Lincoln Christian University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 22250,
+      "completers": 13,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "national-louis-university-147536",
+      "institution_name": "National Louis University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 14000,
+      "completers": 38,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "quincy-university-148131",
+      "institution_name": "Quincy University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-st-francis-148584",
+      "institution_name": "University of St Francis",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 21538,
+      "completers": 26,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "st-augustine-college-148876",
+      "institution_name": "St. Augustine College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 4545,
+      "completers": 29,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 11794,
+      "cost_total_default": 47176,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 38615,
+      "earnings_anchor_year": 5,
+      "debt_median": 25000,
+      "cip_family": "42",
+      "hs_baseline_state": 38300
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -65018,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

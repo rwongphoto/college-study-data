@@ -1,0 +1,1180 @@
+{
+  "state": "ca",
+  "name": "San Bernardino",
+  "slug": "san-bernardino",
+  "institution_count": 5,
+  "institutions": [
+    {
+      "unitid": "110510",
+      "slug": "california-state-university-san-bernardino-110510",
+      "name": "California State University-San Bernardino",
+      "city": "San Bernardino",
+      "city_slug": "san-bernardino",
+      "control": "public",
+      "pred_degree": "bachelors",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 59977,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 43149
+        },
+        {
+          "year": 8,
+          "value": 51273
+        },
+        {
+          "year": 10,
+          "value": 59977
+        }
+      ],
+      "completion_rate_150": 0.5465,
+      "completion_rate_history": [
+        {
+          "year": 1997,
+          "value": 0.3436
+        },
+        {
+          "year": 1998,
+          "value": 0.3948
+        },
+        {
+          "year": 1999,
+          "value": 0.3714
+        },
+        {
+          "year": 2000,
+          "value": 0.3838
+        },
+        {
+          "year": 2001,
+          "value": 0.3817
+        },
+        {
+          "year": 2002,
+          "value": 0.39
+        },
+        {
+          "year": 2003,
+          "value": 0.4247
+        },
+        {
+          "year": 2004,
+          "value": 0.4148
+        },
+        {
+          "year": 2005,
+          "value": 0.4223
+        },
+        {
+          "year": 2006,
+          "value": 0.4433
+        },
+        {
+          "year": 2007,
+          "value": 0.3833
+        },
+        {
+          "year": 2008,
+          "value": 0.4367
+        },
+        {
+          "year": 2009,
+          "value": 0.4547
+        },
+        {
+          "year": 2010,
+          "value": 0.4405
+        },
+        {
+          "year": 2011,
+          "value": 0.4456
+        },
+        {
+          "year": 2012,
+          "value": 0.4352
+        },
+        {
+          "year": 2013,
+          "value": 0.4112
+        },
+        {
+          "year": 2014,
+          "value": 0.4796
+        },
+        {
+          "year": 2015,
+          "value": 0.5208
+        },
+        {
+          "year": 2016,
+          "value": 0.5472
+        },
+        {
+          "year": 2017,
+          "value": 0.5416
+        },
+        {
+          "year": 2018,
+          "value": 0.568
+        },
+        {
+          "year": 2019,
+          "value": 0.5498
+        },
+        {
+          "year": 2020,
+          "value": 0.5874
+        },
+        {
+          "year": 2021,
+          "value": 0.5696
+        },
+        {
+          "year": 2022,
+          "value": 0.5442
+        },
+        {
+          "year": 2023,
+          "value": 0.5465
+        },
+        {
+          "year": 2024,
+          "value": 0.549
+        }
+      ],
+      "enrollment_undergrad": 15771,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 9094.0
+        },
+        {
+          "year": 1997,
+          "value": 9471.0
+        },
+        {
+          "year": 1998,
+          "value": 9636.0
+        },
+        {
+          "year": 1999,
+          "value": 9934.0
+        },
+        {
+          "year": 2001,
+          "value": 11137.0
+        },
+        {
+          "year": 2002,
+          "value": 11432.0
+        },
+        {
+          "year": 2003,
+          "value": 12297.0
+        },
+        {
+          "year": 2004,
+          "value": 12281.0
+        },
+        {
+          "year": 2005,
+          "value": 12686.0
+        },
+        {
+          "year": 2006,
+          "value": 13156.0
+        },
+        {
+          "year": 2007,
+          "value": 13375.0
+        },
+        {
+          "year": 2008,
+          "value": 13989.0
+        },
+        {
+          "year": 2009,
+          "value": 14373.0
+        },
+        {
+          "year": 2010,
+          "value": 13575.0
+        }
+      ],
+      "median_debt": 12445,
+      "default_rate": 0.0,
+      "tuition_in_state": 7675,
+      "tuition_out_of_state": 19555,
+      "long_arc": [
+        {
+          "metric": "completion_rate_150",
+          "from_year": 1997,
+          "to_year": 2024,
+          "from_value": 0.3436,
+          "to_value": 0.549,
+          "pct_change": 0.5977881257275903,
+          "direction": "rose"
+        },
+        {
+          "metric": "completion_rate_100",
+          "from_year": 1997,
+          "to_year": 2024,
+          "from_value": 0.0712,
+          "to_value": 0.2536,
+          "pct_change": 2.561797752808989,
+          "direction": "rose"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 1996,
+          "to_year": 2010,
+          "from_value": 9094.0,
+          "to_value": 13575.0,
+          "pct_change": 0.49274246756102924,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_in_state",
+          "from_year": 2000,
+          "to_year": 2024,
+          "from_value": 1749.0,
+          "to_value": 8093.0,
+          "pct_change": 3.627215551743854,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2000,
+          "to_year": 2024,
+          "from_value": 9129.0,
+          "to_value": 20693.0,
+          "pct_change": 1.2667323912805346,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 1997,
+          "to_year": 2010,
+          "from_value": 5500.0,
+          "to_value": 11765.0,
+          "pct_change": 1.1390909090909092,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.066,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2008,
+          "to_year": 2024,
+          "from_value": 0.4498,
+          "to_value": 0.5762,
+          "pct_change": 0.2810137839039575,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "unitid": "124706",
+      "slug": "concorde-career-college-san-bernardino-124706",
+      "name": "Concorde Career College-San Bernardino",
+      "city": "San Bernardino",
+      "city_slug": "san-bernardino",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 39993,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 36222
+        },
+        {
+          "year": 8,
+          "value": 41483
+        },
+        {
+          "year": 10,
+          "value": 39993
+        }
+      ],
+      "completion_rate_150": 0.7313,
+      "completion_rate_history": [
+        {
+          "year": 1997,
+          "value": 0.6717
+        },
+        {
+          "year": 1998,
+          "value": 0.6461
+        },
+        {
+          "year": 1999,
+          "value": 0.6957
+        },
+        {
+          "year": 2000,
+          "value": 0.6935
+        },
+        {
+          "year": 2001,
+          "value": 0.7156
+        },
+        {
+          "year": 2002,
+          "value": 0.8799
+        },
+        {
+          "year": 2003,
+          "value": 0.7147
+        },
+        {
+          "year": 2004,
+          "value": 0.6593
+        },
+        {
+          "year": 2005,
+          "value": 0.7013
+        },
+        {
+          "year": 2006,
+          "value": 0.7095
+        },
+        {
+          "year": 2007,
+          "value": 0.7054
+        },
+        {
+          "year": 2008,
+          "value": 0.6974
+        },
+        {
+          "year": 2009,
+          "value": 0.7092
+        },
+        {
+          "year": 2010,
+          "value": 0.755
+        }
+      ],
+      "enrollment_undergrad": 260,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 566.0
+        },
+        {
+          "year": 1997,
+          "value": 550.0
+        },
+        {
+          "year": 1998,
+          "value": 451.0
+        },
+        {
+          "year": 1999,
+          "value": 541.0
+        },
+        {
+          "year": 2001,
+          "value": 773.0
+        },
+        {
+          "year": 2002,
+          "value": 775.0
+        },
+        {
+          "year": 2003,
+          "value": 644.0
+        },
+        {
+          "year": 2004,
+          "value": 627.0
+        },
+        {
+          "year": 2005,
+          "value": 717.0
+        },
+        {
+          "year": 2006,
+          "value": 682.0
+        },
+        {
+          "year": 2007,
+          "value": 749.0
+        },
+        {
+          "year": 2008,
+          "value": 796.0
+        },
+        {
+          "year": 2009,
+          "value": 860.0
+        },
+        {
+          "year": 2010,
+          "value": 729.0
+        }
+      ],
+      "median_debt": 9500,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "retention_rate",
+          "from_year": 2004,
+          "to_year": 2010,
+          "from_value": 0.94,
+          "to_value": 0.7662,
+          "pct_change": -0.18489361702127655,
+          "direction": "fell"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 1996,
+          "to_year": 2010,
+          "from_value": 566.0,
+          "to_value": 729.0,
+          "pct_change": 0.2879858657243816,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 1997,
+          "to_year": 2010,
+          "from_value": 3594.0,
+          "to_value": 8955.0,
+          "pct_change": 1.491652754590985,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.204,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "earnings_median_8yr",
+          "from_year": 2005,
+          "to_year": 2020,
+          "from_value": 28300.0,
+          "to_value": 41483.0,
+          "pct_change": 0.4658303886925795,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "unitid": "491543",
+      "slug": "san-bernardino-beauty-college-491543",
+      "name": "San Bernardino Beauty College",
+      "city": "San Bernardino",
+      "city_slug": "san-bernardino",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": null
+        },
+        {
+          "year": 8,
+          "value": null
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": 0.8958,
+      "completion_rate_history": [],
+      "enrollment_undergrad": 77,
+      "enrollment_history": [],
+      "median_debt": 9500,
+      "default_rate": 0.018,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "default_rate",
+          "from_year": 2021,
+          "to_year": 2024,
+          "from_value": 0.055,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        }
+      ]
+    },
+    {
+      "unitid": "123527",
+      "slug": "san-bernardino-valley-college-123527",
+      "name": "San Bernardino Valley College",
+      "city": "San Bernardino",
+      "city_slug": "san-bernardino",
+      "control": "public",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 39676,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 32980
+        },
+        {
+          "year": 8,
+          "value": 36100
+        },
+        {
+          "year": 10,
+          "value": 39676
+        }
+      ],
+      "completion_rate_150": 0.2212,
+      "completion_rate_history": [
+        {
+          "year": 1997,
+          "value": 0.3099
+        },
+        {
+          "year": 1998,
+          "value": 0.0303
+        },
+        {
+          "year": 1999,
+          "value": 0.2222
+        },
+        {
+          "year": 2000,
+          "value": 0.1458
+        },
+        {
+          "year": 2001,
+          "value": 0.2138
+        },
+        {
+          "year": 2002,
+          "value": 0.1571
+        },
+        {
+          "year": 2003,
+          "value": 0.2591
+        },
+        {
+          "year": 2004,
+          "value": 0.2112
+        },
+        {
+          "year": 2005,
+          "value": 0.2097
+        },
+        {
+          "year": 2006,
+          "value": 0.2166
+        },
+        {
+          "year": 2007,
+          "value": 0.1221
+        },
+        {
+          "year": 2008,
+          "value": 0.1299
+        },
+        {
+          "year": 2009,
+          "value": 0.1282
+        },
+        {
+          "year": 2010,
+          "value": 0.1304
+        }
+      ],
+      "enrollment_undergrad": 11106,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 5873.0
+        },
+        {
+          "year": 1997,
+          "value": 5219.0
+        },
+        {
+          "year": 1998,
+          "value": 4968.0
+        },
+        {
+          "year": 1999,
+          "value": 3711.0
+        },
+        {
+          "year": 2001,
+          "value": 7088.0
+        },
+        {
+          "year": 2002,
+          "value": 8381.0
+        },
+        {
+          "year": 2003,
+          "value": 7869.0
+        },
+        {
+          "year": 2004,
+          "value": 9056.0
+        },
+        {
+          "year": 2005,
+          "value": 8575.0
+        },
+        {
+          "year": 2006,
+          "value": 8421.0
+        },
+        {
+          "year": 2007,
+          "value": 8887.0
+        },
+        {
+          "year": 2008,
+          "value": 12750.0
+        },
+        {
+          "year": 2009,
+          "value": 13290.0
+        },
+        {
+          "year": 2010,
+          "value": 12511.0
+        }
+      ],
+      "median_debt": 3938,
+      "default_rate": 0.0,
+      "tuition_in_state": 1185,
+      "tuition_out_of_state": 10017,
+      "long_arc": [
+        {
+          "metric": "completion_rate_150",
+          "from_year": 1997,
+          "to_year": 2010,
+          "from_value": 0.3099,
+          "to_value": 0.1304,
+          "pct_change": -0.5792191029364312,
+          "direction": "fell"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 1996,
+          "to_year": 2010,
+          "from_value": 5873.0,
+          "to_value": 12511.0,
+          "pct_change": 1.1302571088029967,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_in_state",
+          "from_year": 2001,
+          "to_year": 2010,
+          "from_value": 342.0,
+          "to_value": 795.0,
+          "pct_change": 0.453,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2001,
+          "to_year": 2024,
+          "from_value": 3480.0,
+          "to_value": 14382.0,
+          "pct_change": 3.132758620689655,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 1997,
+          "to_year": 2010,
+          "from_value": 2620.0,
+          "to_value": 3500.0,
+          "pct_change": 0.33587786259541985,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.211,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2008,
+          "to_year": 2010,
+          "from_value": 0.1732,
+          "to_value": 0.2405,
+          "pct_change": 0.38856812933025403,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_8yr",
+          "from_year": 2005,
+          "to_year": 2020,
+          "from_value": 25300.0,
+          "to_value": 36100.0,
+          "pct_change": 0.4268774703557312,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "unitid": "400080",
+      "slug": "summit-college-400080",
+      "name": "Summit College",
+      "city": "San Bernardino",
+      "city_slug": "san-bernardino",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 40187,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 43362
+        },
+        {
+          "year": 8,
+          "value": 41244
+        },
+        {
+          "year": 10,
+          "value": 40187
+        }
+      ],
+      "completion_rate_150": 0.7365,
+      "completion_rate_history": [
+        {
+          "year": 1997,
+          "value": 0.8739
+        },
+        {
+          "year": 1998,
+          "value": 0.7089
+        },
+        {
+          "year": 1999,
+          "value": 0.75
+        },
+        {
+          "year": 2000,
+          "value": 0.7976
+        },
+        {
+          "year": 2001,
+          "value": 0.7877
+        },
+        {
+          "year": 2002,
+          "value": 0.7071
+        },
+        {
+          "year": 2003,
+          "value": 0.7571
+        },
+        {
+          "year": 2004,
+          "value": 0.3306
+        },
+        {
+          "year": 2005,
+          "value": 0.669
+        },
+        {
+          "year": 2006,
+          "value": 0.6865
+        },
+        {
+          "year": 2007,
+          "value": 0.2525
+        },
+        {
+          "year": 2008,
+          "value": 0.6614
+        },
+        {
+          "year": 2009,
+          "value": 0.6284
+        }
+      ],
+      "enrollment_undergrad": 1210,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 185.0
+        },
+        {
+          "year": 1997,
+          "value": 173.0
+        },
+        {
+          "year": 1998,
+          "value": 168.0
+        },
+        {
+          "year": 1999,
+          "value": 260.0
+        },
+        {
+          "year": 2001,
+          "value": 308.0
+        },
+        {
+          "year": 2002,
+          "value": 486.0
+        },
+        {
+          "year": 2003,
+          "value": 620.0
+        },
+        {
+          "year": 2004,
+          "value": 878.0
+        },
+        {
+          "year": 2005,
+          "value": 1144.0
+        },
+        {
+          "year": 2006,
+          "value": 1390.0
+        },
+        {
+          "year": 2007,
+          "value": 1159.0
+        },
+        {
+          "year": 2008,
+          "value": 1696.0
+        },
+        {
+          "year": 2009,
+          "value": 1603.0
+        }
+      ],
+      "median_debt": 7600,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "completion_rate_150",
+          "from_year": 1997,
+          "to_year": 2009,
+          "from_value": 0.8739,
+          "to_value": 0.6284,
+          "pct_change": -0.2809245909142923,
+          "direction": "fell"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 1996,
+          "to_year": 2009,
+          "from_value": 185.0,
+          "to_value": 1603.0,
+          "pct_change": 7.09,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 1997,
+          "to_year": 2009,
+          "from_value": 6625.0,
+          "to_value": 9500.0,
+          "pct_change": 0.4339622641509434,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.305,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2008,
+          "to_year": 2009,
+          "from_value": 0.801,
+          "to_value": 0.5213,
+          "pct_change": -0.3491885143570537,
+          "direction": "fell"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": 40090,
+  "completion_rate_city": 0.7313,
+  "completion_history_city": [
+    {
+      "year": 1997,
+      "value": 0.5076499999999999
+    },
+    {
+      "year": 1998,
+      "value": 0.52045
+    },
+    {
+      "year": 1999,
+      "value": 0.53355
+    },
+    {
+      "year": 2000,
+      "value": 0.53865
+    },
+    {
+      "year": 2001,
+      "value": 0.54865
+    },
+    {
+      "year": 2002,
+      "value": 0.54855
+    },
+    {
+      "year": 2003,
+      "value": 0.5697
+    },
+    {
+      "year": 2004,
+      "value": 0.37270000000000003
+    },
+    {
+      "year": 2005,
+      "value": 0.54565
+    },
+    {
+      "year": 2006,
+      "value": 0.5649
+    },
+    {
+      "year": 2007,
+      "value": 0.31789999999999996
+    },
+    {
+      "year": 2008,
+      "value": 0.54905
+    },
+    {
+      "year": 2009,
+      "value": 0.54155
+    },
+    {
+      "year": 2010,
+      "value": 0.4405
+    },
+    {
+      "year": 2011,
+      "value": 0.4456
+    },
+    {
+      "year": 2012,
+      "value": 0.4352
+    },
+    {
+      "year": 2013,
+      "value": 0.4112
+    },
+    {
+      "year": 2014,
+      "value": 0.4796
+    },
+    {
+      "year": 2015,
+      "value": 0.5208
+    },
+    {
+      "year": 2016,
+      "value": 0.5472
+    },
+    {
+      "year": 2017,
+      "value": 0.5416
+    },
+    {
+      "year": 2018,
+      "value": 0.568
+    },
+    {
+      "year": 2019,
+      "value": 0.5498
+    },
+    {
+      "year": 2020,
+      "value": 0.5874
+    },
+    {
+      "year": 2021,
+      "value": 0.5696
+    },
+    {
+      "year": 2022,
+      "value": 0.5442
+    },
+    {
+      "year": 2023,
+      "value": 0.5465
+    },
+    {
+      "year": 2024,
+      "value": 0.549
+    }
+  ],
+  "enrollment_history_city": [
+    {
+      "year": 1996,
+      "value": 15718.0
+    },
+    {
+      "year": 1997,
+      "value": 15413.0
+    },
+    {
+      "year": 1998,
+      "value": 15223.0
+    },
+    {
+      "year": 1999,
+      "value": 14446.0
+    },
+    {
+      "year": 2001,
+      "value": 19306.0
+    },
+    {
+      "year": 2002,
+      "value": 21074.0
+    },
+    {
+      "year": 2003,
+      "value": 21430.0
+    },
+    {
+      "year": 2004,
+      "value": 22842.0
+    },
+    {
+      "year": 2005,
+      "value": 23122.0
+    },
+    {
+      "year": 2006,
+      "value": 23649.0
+    },
+    {
+      "year": 2007,
+      "value": 24170.0
+    },
+    {
+      "year": 2008,
+      "value": 29231.0
+    },
+    {
+      "year": 2009,
+      "value": 30126.0
+    },
+    {
+      "year": 2010,
+      "value": 26815.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

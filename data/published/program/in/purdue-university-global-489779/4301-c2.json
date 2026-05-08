@@ -1,0 +1,330 @@
+{
+  "institution_unitid": "489779",
+  "institution_name": "Purdue University Global",
+  "institution_slug": "purdue-university-global-489779",
+  "state": "in",
+  "cip_code": "4301",
+  "cip_desc": "Criminal Justice and Corrections.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "4301-c2",
+  "earnings_median_4yr": 37615,
+  "earnings_median_5yr": 43411,
+  "earnings_count_4yr": 69,
+  "earnings_count_5yr": 66,
+  "debt_median": 13000,
+  "completers": 300,
+  "completers_single_year": 248,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 37615.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 43411.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 23917.0
+      },
+      {
+        "year": 2015,
+        "value": 26231.0
+      },
+      {
+        "year": 2016,
+        "value": 26500.0
+      },
+      {
+        "year": 2017,
+        "value": 14896.0
+      },
+      {
+        "year": 2018,
+        "value": 13000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 0.0
+      },
+      {
+        "year": 2015,
+        "value": 1.0
+      },
+      {
+        "year": 2016,
+        "value": 1.0
+      },
+      {
+        "year": 2017,
+        "value": 262.0
+      },
+      {
+        "year": 2018,
+        "value": 248.0
+      },
+      {
+        "year": 2019,
+        "value": 300.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 23917.0,
+      "to_value": 13000.0,
+      "pct_change": -0.45645356859137853,
+      "direction": "fell"
+    },
+    {
+      "metric": "completers",
+      "from_year": 2014,
+      "to_year": 2019,
+      "from_value": 0.0,
+      "to_value": 300.0,
+      "pct_change": 0.3,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Criminal Justice and Corrections at Purdue University Global fell 46% between 2014 and 2018 ($23.9k → $13.0k).",
+      "magnitude_pct": -45.6,
+      "magnitude_abs": -10917.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    },
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Annual completers",
+      "summary": "Annual completers at Criminal Justice and Corrections at Purdue University Global rose 30% between 2014 and 2019 (0 → 300).",
+      "magnitude_pct": 30.0,
+      "magnitude_abs": 300.0,
+      "baseline_year": 2014,
+      "recent_year": 2019,
+      "units": null,
+      "history": [],
+      "metric": "completers"
+    }
+  ],
+  "institution": {
+    "unitid": "489779",
+    "slug": "purdue-university-global-489779",
+    "name": "Purdue University Global",
+    "city": "West Lafayette",
+    "city_slug": "west-lafayette",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "vincennes-university-152637",
+      "institution_name": "Vincennes University",
+      "earnings_median_5yr": 45303,
+      "earnings_median_4yr": 40280,
+      "debt_median": 12000,
+      "completers": 42,
+      "completers_single_year": 25,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ivy-tech-community-college-150987",
+      "institution_name": "Ivy Tech Community College",
+      "earnings_median_5yr": 43079,
+      "earnings_median_4yr": 38337,
+      "debt_median": 10943,
+      "completers": 267,
+      "completers_single_year": 338,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "indiana-wesleyan-university-marion-151801",
+      "institution_name": "Indiana Wesleyan University-Marion",
+      "earnings_median_5yr": 40765,
+      "earnings_median_4yr": 39199,
+      "debt_median": 24250,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "indiana-institute-of-technology-151290",
+      "institution_name": "Indiana Institute of Technology",
+      "earnings_median_5yr": 38070,
+      "earnings_median_4yr": 29473,
+      "debt_median": 26857,
+      "completers": 1,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "anderson-university-150066",
+      "institution_name": "Anderson University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ball-state-university-150136",
+      "institution_name": "Ball State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bethel-university-150145",
+      "institution_name": "Bethel University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "calumet-college-of-saint-joseph-150172",
+      "institution_name": "Calumet College of Saint Joseph",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "indiana-university-northwest-151360",
+      "institution_name": "Indiana University-Northwest",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "manchester-university-151777",
+      "institution_name": "Manchester University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "oakland-city-university-152099",
+      "institution_name": "Oakland City University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-saint-francis-fort-wayne-152336",
+      "institution_name": "University of Saint Francis-Fort Wayne",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "trine-university-152567",
+      "institution_name": "Trine University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 66,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 12267,
+      "cost_total_default": 24534,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 43411,
+      "earnings_anchor_year": 5,
+      "debt_median": 13000,
+      "cip_family": "43",
+      "hs_baseline_state": 36400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 162876,
+      "breakeven_year": 12
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

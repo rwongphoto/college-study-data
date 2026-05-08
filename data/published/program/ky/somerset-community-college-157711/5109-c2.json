@@ -1,0 +1,398 @@
+{
+  "institution_unitid": "157711",
+  "institution_name": "Somerset Community College",
+  "institution_slug": "somerset-community-college-157711",
+  "state": "ky",
+  "cip_code": "5109",
+  "cip_desc": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "5109-c2",
+  "earnings_median_4yr": 41603,
+  "earnings_median_5yr": 47046,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 2,
+  "debt_median": 9282,
+  "completers": 37,
+  "completers_single_year": 41,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 41603.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 47046.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 15848.0
+      },
+      {
+        "year": 2015,
+        "value": 14157.0
+      },
+      {
+        "year": 2016,
+        "value": 12032.0
+      },
+      {
+        "year": 2017,
+        "value": 11000.0
+      },
+      {
+        "year": 2018,
+        "value": 9282.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 46.0
+      },
+      {
+        "year": 2015,
+        "value": 46.0
+      },
+      {
+        "year": 2016,
+        "value": 49.0
+      },
+      {
+        "year": 2017,
+        "value": 27.0
+      },
+      {
+        "year": 2018,
+        "value": 41.0
+      },
+      {
+        "year": 2019,
+        "value": 37.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 15848.0,
+      "to_value": 9282.0,
+      "pct_change": -0.41431095406360424,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Allied Health Diagnostic, Intervention, and Treatment Professions at Somerset Community College fell 41% between 2014 and 2018 ($15.8k → $9.3k).",
+      "magnitude_pct": -41.4,
+      "magnitude_abs": -6566.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "157711",
+    "slug": "somerset-community-college-157711",
+    "name": "Somerset Community College",
+    "city": "Somerset",
+    "city_slug": "somerset",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "morehead-state-university-157386",
+      "institution_name": "Morehead State University",
+      "earnings_median_5yr": 66333,
+      "earnings_median_4yr": 54592,
+      "debt_median": 23326,
+      "completers": 37,
+      "completers_single_year": 42,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northern-kentucky-university-157447",
+      "institution_name": "Northern Kentucky University",
+      "earnings_median_5yr": 60471,
+      "earnings_median_4yr": 54705,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "jefferson-community-and-technical-college-156921",
+      "institution_name": "Jefferson Community and Technical College",
+      "earnings_median_5yr": 57452,
+      "earnings_median_4yr": 49739,
+      "debt_median": 12411,
+      "completers": 58,
+      "completers_single_year": 51,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "sullivan-university-157793",
+      "institution_name": "Sullivan University",
+      "earnings_median_5yr": 57428,
+      "earnings_median_4yr": 49560,
+      "debt_median": 20000,
+      "completers": 30,
+      "completers_single_year": 46,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "madisonville-community-college-157304",
+      "institution_name": "Madisonville Community College",
+      "earnings_median_5yr": 56346,
+      "earnings_median_4yr": 47874,
+      "debt_median": 10457,
+      "completers": 50,
+      "completers_single_year": 47,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bluegrass-community-and-technical-college-156392",
+      "institution_name": "Bluegrass Community and Technical College",
+      "earnings_median_5yr": 56324,
+      "earnings_median_4yr": 46727,
+      "debt_median": 14500,
+      "completers": 59,
+      "completers_single_year": 50,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "elizabethtown-community-and-technical-college-156648",
+      "institution_name": "Elizabethtown Community and Technical College",
+      "earnings_median_5yr": 55821,
+      "earnings_median_4yr": 43840,
+      "debt_median": 5500,
+      "completers": 8,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "gateway-community-and-technical-college-157438",
+      "institution_name": "Gateway Community and Technical College",
+      "earnings_median_5yr": 53249,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southcentral-kentucky-community-and-technical-college-156338",
+      "institution_name": "Southcentral Kentucky Community and Technical College",
+      "earnings_median_5yr": 52598,
+      "earnings_median_4yr": 39184,
+      "debt_median": 18500,
+      "completers": 33,
+      "completers_single_year": 41,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "west-kentucky-community-and-technical-college-157483",
+      "institution_name": "West Kentucky Community and Technical College",
+      "earnings_median_5yr": 51735,
+      "earnings_median_4yr": 49576,
+      "debt_median": 9618,
+      "completers": 37,
+      "completers_single_year": 32,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hazard-community-and-technical-college-156790",
+      "institution_name": "Hazard Community and Technical College",
+      "earnings_median_5yr": 50244,
+      "earnings_median_4yr": 47713,
+      "debt_median": 8001,
+      "completers": 19,
+      "completers_single_year": 24,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southeast-kentucky-community-technical-college-157739",
+      "institution_name": "Southeast Kentucky Community & Technical College",
+      "earnings_median_5yr": 48987,
+      "earnings_median_4yr": 43629,
+      "debt_median": 12692,
+      "completers": 26,
+      "completers_single_year": 30,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ata-college-447935",
+      "institution_name": "ATA College",
+      "earnings_median_5yr": 37508,
+      "earnings_median_4yr": 36580,
+      "debt_median": 23375,
+      "completers": 12,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "american-national-university-pikeville-157021",
+      "institution_name": "American National University-Pikeville",
+      "earnings_median_5yr": 33024,
+      "earnings_median_4yr": 40114,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ashland-community-and-technical-college-156231",
+      "institution_name": "Ashland Community and Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "eastern-kentucky-university-156620",
+      "institution_name": "Eastern Kentucky University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hopkinsville-community-college-156860",
+      "institution_name": "Hopkinsville Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "maysville-community-and-technical-college-157331",
+      "institution_name": "Maysville Community and Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "big-sandy-community-and-technical-college-157553",
+      "institution_name": "Big Sandy Community and Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-kentucky-university-157951",
+      "institution_name": "Western Kentucky University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "owensboro-community-and-technical-college-247940",
+      "institution_name": "Owensboro Community and Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 9875,
+      "completers": 30,
+      "completers_single_year": 33,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "medquest-college-484066",
+      "institution_name": "MedQuest College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 15,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 5432,
+      "cost_total_default": 10864,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 47046,
+      "earnings_anchor_year": 5,
+      "debt_median": 9282,
+      "cip_family": "51",
+      "hs_baseline_state": 33900
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 291855,
+      "breakeven_year": 4
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

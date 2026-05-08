@@ -1,0 +1,229 @@
+{
+  "institution_unitid": "179548",
+  "institution_name": "Stephens College",
+  "institution_slug": "stephens-college-179548",
+  "state": "mo",
+  "cip_code": "1907",
+  "cip_desc": "Human Development, Family Studies, and Related Services.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1907-c3",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": null,
+  "completers": 8,
+  "completers_single_year": 6,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 5.0
+      },
+      {
+        "year": 2015,
+        "value": 4.0
+      },
+      {
+        "year": 2016,
+        "value": 4.0
+      },
+      {
+        "year": 2017,
+        "value": 0.0
+      },
+      {
+        "year": 2018,
+        "value": 6.0
+      },
+      {
+        "year": 2019,
+        "value": 8.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "179548",
+    "slug": "stephens-college-179548",
+    "name": "Stephens College",
+    "city": "Columbia",
+    "city_slug": "columbia",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-missouri-columbia-178396",
+      "institution_name": "University of Missouri-Columbia",
+      "earnings_median_5yr": 46516,
+      "earnings_median_4yr": 39887,
+      "debt_median": 26000,
+      "completers": 23,
+      "completers_single_year": 47,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "central-methodist-university-college-of-liberal-arts-and-sciences-176947",
+      "institution_name": "Central Methodist University-College of Liberal Arts and Sciences",
+      "earnings_median_5yr": 40639,
+      "earnings_median_4yr": 36963,
+      "debt_median": 19500,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "missouri-state-university-springfield-179566",
+      "institution_name": "Missouri State University-Springfield",
+      "earnings_median_5yr": 37512,
+      "earnings_median_4yr": 34659,
+      "debt_median": 22865,
+      "completers": 51,
+      "completers_single_year": 49,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-central-missouri-176965",
+      "institution_name": "University of Central Missouri",
+      "earnings_median_5yr": 35603,
+      "earnings_median_4yr": 33227,
+      "debt_median": 23502,
+      "completers": 36,
+      "completers_single_year": 41,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "fontbonne-university-177418",
+      "institution_name": "Fontbonne University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "maryville-university-of-saint-louis-178059",
+      "institution_name": "Maryville University of Saint Louis",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "missouri-baptist-university-178244",
+      "institution_name": "Missouri Baptist University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northwest-missouri-state-university-178624",
+      "institution_name": "Northwest Missouri State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "college-of-the-ozarks-178697",
+      "institution_name": "College of the Ozarks",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "park-university-178721",
+      "institution_name": "Park University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "missouri-state-university-west-plains-179344",
+      "institution_name": "Missouri State University-West Plains",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 22100,
+      "cost_total_default": 88400,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "19"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

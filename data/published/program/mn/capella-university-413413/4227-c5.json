@@ -1,0 +1,188 @@
+{
+  "institution_unitid": "413413",
+  "institution_name": "Capella University",
+  "institution_slug": "capella-university-413413",
+  "state": "mn",
+  "cip_code": "4227",
+  "cip_desc": "Research and Experimental Psychology.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "4227-c5",
+  "earnings_median_4yr": 44844,
+  "earnings_median_5yr": 48770,
+  "earnings_count_4yr": 16,
+  "earnings_count_5yr": 15,
+  "debt_median": 43258,
+  "completers": 135,
+  "completers_single_year": 125,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 44844.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 48770.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 44394.0
+      },
+      {
+        "year": 2015,
+        "value": 44951.0
+      },
+      {
+        "year": 2016,
+        "value": 44623.0
+      },
+      {
+        "year": 2017,
+        "value": 42553.0
+      },
+      {
+        "year": 2018,
+        "value": 43258.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 143.0
+      },
+      {
+        "year": 2015,
+        "value": 147.0
+      },
+      {
+        "year": 2016,
+        "value": 123.0
+      },
+      {
+        "year": 2017,
+        "value": 113.0
+      },
+      {
+        "year": 2018,
+        "value": 125.0
+      },
+      {
+        "year": 2019,
+        "value": 135.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 11.8% at Research and Experimental Psychology at Capella University exceeds the 8% gainful-employment threshold ($43.3k debt amortized over 10 years vs $48.8k earnings).",
+      "magnitude_pct": 11.8,
+      "magnitude_abs": 3.8,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "413413",
+    "slug": "capella-university-413413",
+    "name": "Capella University",
+    "city": "Minneapolis",
+    "city_slug": "minneapolis",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "walden-university-125231",
+      "institution_name": "Walden University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 41000,
+      "completers": 75,
+      "completers_single_year": 89,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-minnesota-twin-cities-174066",
+      "institution_name": "University of Minnesota-Twin Cities",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 30,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 15,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 20489,
+      "cost_total_default": 122934,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 48770,
+      "earnings_anchor_year": 5,
+      "debt_median": 43258,
+      "cip_family": "42",
+      "hs_baseline_state": 39400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -8687,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

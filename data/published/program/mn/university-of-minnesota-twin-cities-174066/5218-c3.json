@@ -1,0 +1,194 @@
+{
+  "institution_unitid": "174066",
+  "institution_name": "University of Minnesota-Twin Cities",
+  "institution_slug": "university-of-minnesota-twin-cities-174066",
+  "state": "mn",
+  "cip_code": "5218",
+  "cip_desc": "General Sales, Merchandising and Related Marketing Operations.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5218-c3",
+  "earnings_median_4yr": 67040,
+  "earnings_median_5yr": 76798,
+  "earnings_count_4yr": 4,
+  "earnings_count_5yr": 5,
+  "debt_median": 19500,
+  "completers": 139,
+  "completers_single_year": 145,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 67040.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 76798.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 21500.0
+      },
+      {
+        "year": 2015,
+        "value": 20854.0
+      },
+      {
+        "year": 2016,
+        "value": 20854.0
+      },
+      {
+        "year": 2017,
+        "value": 20149.0
+      },
+      {
+        "year": 2018,
+        "value": 19500.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 132.0
+      },
+      {
+        "year": 2015,
+        "value": 132.0
+      },
+      {
+        "year": 2016,
+        "value": 128.0
+      },
+      {
+        "year": 2017,
+        "value": 115.0
+      },
+      {
+        "year": 2018,
+        "value": 145.0
+      },
+      {
+        "year": 2019,
+        "value": 139.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "174066",
+    "slug": "university-of-minnesota-twin-cities-174066",
+    "name": "University of Minnesota-Twin Cities",
+    "city": "Minneapolis",
+    "city_slug": "minneapolis",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "concordia-university-saint-paul-173328",
+      "institution_name": "Concordia University-Saint Paul",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-minnesota-duluth-174233",
+      "institution_name": "University of Minnesota-Duluth",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 57,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "st-catherine-university-175005",
+      "institution_name": "St Catherine University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "capella-university-413413",
+      "institution_name": "Capella University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 5,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 10861,
+      "cost_total_default": 43444,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 76798,
+      "earnings_anchor_year": 5,
+      "debt_median": 19500,
+      "cip_family": "52",
+      "hs_baseline_state": 39400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 695722,
+      "breakeven_year": 6
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

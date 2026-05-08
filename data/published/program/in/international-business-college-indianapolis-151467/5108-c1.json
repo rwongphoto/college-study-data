@@ -1,0 +1,196 @@
+{
+  "institution_unitid": "151467",
+  "institution_name": "International Business College-Indianapolis",
+  "institution_slug": "international-business-college-indianapolis-151467",
+  "state": "in",
+  "cip_code": "5108",
+  "cip_desc": "Allied Health and Medical Assisting Services.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "5108-c1",
+  "earnings_median_4yr": 26514,
+  "earnings_median_5yr": 28600,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 5,
+  "debt_median": null,
+  "completers": 1,
+  "completers_single_year": 2,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 26514.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 28600.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 8742.0
+      },
+      {
+        "year": 2015,
+        "value": 8024.0
+      },
+      {
+        "year": 2017,
+        "value": 8080.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 9.0
+      },
+      {
+        "year": 2015,
+        "value": 4.0
+      },
+      {
+        "year": 2016,
+        "value": 2.0
+      },
+      {
+        "year": 2017,
+        "value": 5.0
+      },
+      {
+        "year": 2018,
+        "value": 2.0
+      },
+      {
+        "year": 2019,
+        "value": 1.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "151467",
+    "slug": "international-business-college-indianapolis-151467",
+    "name": "International Business College-Indianapolis",
+    "city": "Indianapolis",
+    "city_slug": "indianapolis",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "purdue-university-global-489779",
+      "institution_name": "Purdue University Global",
+      "earnings_median_5yr": 34894,
+      "earnings_median_4yr": 29604,
+      "debt_median": 19000,
+      "completers": 176,
+      "completers_single_year": 158,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ivy-tech-community-college-150987",
+      "institution_name": "Ivy Tech Community College",
+      "earnings_median_5yr": 33517,
+      "earnings_median_4yr": 29191,
+      "debt_median": 9140,
+      "completers": 1794,
+      "completers_single_year": 1784,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "vincennes-university-152637",
+      "institution_name": "Vincennes University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "denmark-college-449603",
+      "institution_name": "Denmark College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "caris-college-491941",
+      "institution_name": "Caris College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 5,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 18213,
+      "cost_total_default": 18213,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 28600,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "51",
+      "hs_baseline_state": 36400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -141843,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "state": "oh",
+  "name": "Canal Winchester",
+  "slug": "canal-winchester",
+  "institution_count": 1,
+  "institutions": [
+    {
+      "unitid": "486257",
+      "slug": "valor-christian-college-486257",
+      "name": "Valor Christian College",
+      "city": "Canal Winchester",
+      "city_slug": "canal-winchester",
+      "control": "private_nonprofit",
+      "pred_degree": "associates",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 32212
+        },
+        {
+          "year": 8,
+          "value": null
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": 0.4146,
+      "completion_rate_history": [],
+      "enrollment_undergrad": 352,
+      "enrollment_history": [
+        {
+          "year": 2015,
+          "value": 255.0
+        },
+        {
+          "year": 2016,
+          "value": 262.0
+        },
+        {
+          "year": 2017,
+          "value": 267.0
+        },
+        {
+          "year": 2018,
+          "value": 313.0
+        },
+        {
+          "year": 2019,
+          "value": 316.0
+        },
+        {
+          "year": 2020,
+          "value": 289.0
+        },
+        {
+          "year": 2021,
+          "value": 308.0
+        },
+        {
+          "year": 2022,
+          "value": 324.0
+        },
+        {
+          "year": 2023,
+          "value": 350.0
+        },
+        {
+          "year": 2024,
+          "value": 414.0
+        }
+      ],
+      "median_debt": 12270,
+      "default_rate": 0.0,
+      "tuition_in_state": 9892,
+      "tuition_out_of_state": 9892,
+      "long_arc": [
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 2015,
+          "to_year": 2024,
+          "from_value": 255.0,
+          "to_value": 414.0,
+          "pct_change": 0.6235294117647059,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2015,
+          "to_year": 2024,
+          "from_value": 4270.0,
+          "to_value": 10012.0,
+          "pct_change": 1.3447306791569087,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 2016,
+          "to_year": 2020,
+          "from_value": 10500.0,
+          "to_value": 15250.0,
+          "pct_change": 0.4523809523809524,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2018,
+          "to_year": 2024,
+          "from_value": 0.062,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2015,
+          "to_year": 2024,
+          "from_value": 0.3138,
+          "to_value": 0.5743,
+          "pct_change": 0.8301465901848311,
+          "direction": "rose"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": null,
+  "completion_rate_city": 0.4146,
+  "completion_history_city": [],
+  "enrollment_history_city": [
+    {
+      "year": 2015,
+      "value": 255.0
+    },
+    {
+      "year": 2016,
+      "value": 262.0
+    },
+    {
+      "year": 2017,
+      "value": 267.0
+    },
+    {
+      "year": 2018,
+      "value": 313.0
+    },
+    {
+      "year": 2019,
+      "value": 316.0
+    },
+    {
+      "year": 2020,
+      "value": 289.0
+    },
+    {
+      "year": 2021,
+      "value": 308.0
+    },
+    {
+      "year": 2022,
+      "value": 324.0
+    },
+    {
+      "year": 2023,
+      "value": 350.0
+    },
+    {
+      "year": 2024,
+      "value": 414.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

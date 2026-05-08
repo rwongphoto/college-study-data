@@ -1,0 +1,204 @@
+{
+  "institution_unitid": "220978",
+  "institution_name": "Middle Tennessee State University",
+  "institution_slug": "middle-tennessee-state-university-220978",
+  "state": "tn",
+  "cip_code": "1500",
+  "cip_desc": "Engineering Technology, General.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1500-c3",
+  "earnings_median_4yr": 60785,
+  "earnings_median_5yr": 69580,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 2,
+  "debt_median": 26274,
+  "completers": 35,
+  "completers_single_year": 47,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 60785.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 69580.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 25000.0
+      },
+      {
+        "year": 2015,
+        "value": 24500.0
+      },
+      {
+        "year": 2016,
+        "value": 20206.0
+      },
+      {
+        "year": 2017,
+        "value": 19275.0
+      },
+      {
+        "year": 2018,
+        "value": 26274.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 53.0
+      },
+      {
+        "year": 2015,
+        "value": 62.0
+      },
+      {
+        "year": 2016,
+        "value": 51.0
+      },
+      {
+        "year": 2017,
+        "value": 48.0
+      },
+      {
+        "year": 2018,
+        "value": 47.0
+      },
+      {
+        "year": 2019,
+        "value": 35.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "220978",
+    "slug": "middle-tennessee-state-university-220978",
+    "name": "Middle Tennessee State University",
+    "city": "Murfreesboro",
+    "city_slug": "murfreesboro",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-memphis-220862",
+      "institution_name": "University of Memphis",
+      "earnings_median_5yr": 78885,
+      "earnings_median_4yr": 71936,
+      "debt_median": 24875,
+      "completers": 37,
+      "completers_single_year": 35,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "tennessee-technological-university-221847",
+      "institution_name": "Tennessee Technological University",
+      "earnings_median_5yr": 78409,
+      "earnings_median_4yr": 71825,
+      "debt_median": 22087,
+      "completers": 62,
+      "completers_single_year": 62,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "east-tennessee-state-university-220075",
+      "institution_name": "East Tennessee State University",
+      "earnings_median_5yr": 73958,
+      "earnings_median_4yr": 60228,
+      "debt_median": 27000,
+      "completers": 51,
+      "completers_single_year": 54,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "austin-peay-state-university-219602",
+      "institution_name": "Austin Peay State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 25000,
+      "completers": 45,
+      "completers_single_year": 41,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bryan-college-dayton-219790",
+      "institution_name": "Bryan College-Dayton",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 12840,
+      "cost_total_default": 51360,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 69580,
+      "earnings_anchor_year": 5,
+      "debt_median": 26274,
+      "cip_family": "15",
+      "hs_baseline_state": 34600
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 612660,
+      "breakeven_year": 7
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

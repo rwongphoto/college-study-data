@@ -1,0 +1,260 @@
+{
+  "institution_unitid": "184603",
+  "institution_name": "Fairleigh Dickinson University-Metropolitan Campus",
+  "institution_slug": "fairleigh-dickinson-university-metropolitan-campus-184603",
+  "state": "nj",
+  "cip_code": "4301",
+  "cip_desc": "Criminal Justice and Corrections.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "4301-c5",
+  "earnings_median_4yr": 43087,
+  "earnings_median_5yr": 57088,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": 26812,
+  "completers": 11,
+  "completers_single_year": 25,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 43087.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 57088.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2015,
+        "value": 20500.0
+      },
+      {
+        "year": 2017,
+        "value": 30750.0
+      },
+      {
+        "year": 2018,
+        "value": 26812.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 18.0
+      },
+      {
+        "year": 2015,
+        "value": 21.0
+      },
+      {
+        "year": 2016,
+        "value": 15.0
+      },
+      {
+        "year": 2017,
+        "value": 20.0
+      },
+      {
+        "year": 2018,
+        "value": 25.0
+      },
+      {
+        "year": 2019,
+        "value": 11.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2015,
+      "to_year": 2018,
+      "from_value": 20500.0,
+      "to_value": 26812.0,
+      "pct_change": 0.30790243902439024,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Criminal Justice and Corrections at Fairleigh Dickinson University-Metropolitan Campus rose 31% between 2015 and 2018 ($20.5k → $26.8k).",
+      "magnitude_pct": 30.8,
+      "magnitude_abs": 6312.0,
+      "baseline_year": 2015,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "184603",
+    "slug": "fairleigh-dickinson-university-metropolitan-campus-184603",
+    "name": "Fairleigh Dickinson University-Metropolitan Campus",
+    "city": "Teaneck",
+    "city_slug": "teaneck",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "stockton-university-186876",
+      "institution_name": "Stockton University",
+      "earnings_median_5yr": 74034,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "georgian-court-university-184773",
+      "institution_name": "Georgian Court University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rowan-university-184782",
+      "institution_name": "Rowan University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "new-jersey-city-university-185129",
+      "institution_name": "New Jersey City University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 15,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "kean-university-185262",
+      "institution_name": "Kean University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "monmouth-university-185572",
+      "institution_name": "Monmouth University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 20,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rutgers-university-new-brunswick-186380",
+      "institution_name": "Rutgers University-New Brunswick",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 30750,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-peter-s-university-186432",
+      "institution_name": "Saint Peter's University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-elizabeth-university-186618",
+      "institution_name": "Saint Elizabeth University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 14926,
+      "cost_total_default": 89556,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 57088,
+      "earnings_anchor_year": 5,
+      "debt_median": 26812,
+      "cip_family": "43",
+      "hs_baseline_state": 41700
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 163477,
+      "breakeven_year": 21
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

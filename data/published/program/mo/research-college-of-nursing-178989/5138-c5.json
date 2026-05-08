@@ -1,0 +1,356 @@
+{
+  "institution_unitid": "178989",
+  "institution_name": "Research College of Nursing",
+  "institution_slug": "research-college-of-nursing-178989",
+  "state": "mo",
+  "cip_code": "5138",
+  "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5138-c5",
+  "earnings_median_4yr": 111929,
+  "earnings_median_5yr": 120149,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": 33095,
+  "completers": 34,
+  "completers_single_year": 34,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 111929.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 120149.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2016,
+        "value": 20890.0
+      },
+      {
+        "year": 2017,
+        "value": 33319.0
+      },
+      {
+        "year": 2018,
+        "value": 33095.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 40.0
+      },
+      {
+        "year": 2015,
+        "value": 41.0
+      },
+      {
+        "year": 2016,
+        "value": 42.0
+      },
+      {
+        "year": 2017,
+        "value": 55.0
+      },
+      {
+        "year": 2018,
+        "value": 34.0
+      },
+      {
+        "year": 2019,
+        "value": 34.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2016,
+      "to_year": 2018,
+      "from_value": 20890.0,
+      "to_value": 33095.0,
+      "pct_change": 0.5842508377213979,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing at Research College of Nursing rose 58% between 2016 and 2018 ($20.9k → $33.1k).",
+      "magnitude_pct": 58.4,
+      "magnitude_abs": 12205.0,
+      "baseline_year": 2016,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "178989",
+    "slug": "research-college-of-nursing-178989",
+    "name": "Research College of Nursing",
+    "city": "Kansas City",
+    "city_slug": "kansas-city",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "missouri-state-university-springfield-179566",
+      "institution_name": "Missouri State University-Springfield",
+      "earnings_median_5yr": 219023,
+      "earnings_median_4yr": 194363,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "barnes-jewish-college-goldfarb-school-of-nursing-177719",
+      "institution_name": "Barnes-Jewish College Goldfarb School of Nursing",
+      "earnings_median_5yr": 129690,
+      "earnings_median_4yr": 123675,
+      "debt_median": 51642,
+      "completers": 33,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rockhurst-university-179043",
+      "institution_name": "Rockhurst University",
+      "earnings_median_5yr": 125080,
+      "earnings_median_4yr": 113112,
+      "debt_median": 41000,
+      "completers": 45,
+      "completers_single_year": 81,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-central-missouri-176965",
+      "institution_name": "University of Central Missouri",
+      "earnings_median_5yr": 120648,
+      "earnings_median_4yr": 108350,
+      "debt_median": 27619,
+      "completers": 37,
+      "completers_single_year": 47,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-louis-university-179159",
+      "institution_name": "Saint Louis University",
+      "earnings_median_5yr": 119271,
+      "earnings_median_4yr": 108355,
+      "debt_median": 65361,
+      "completers": 101,
+      "completers_single_year": 92,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-missouri-st-louis-178420",
+      "institution_name": "University of Missouri-St Louis",
+      "earnings_median_5yr": 119093,
+      "earnings_median_4yr": 103700,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "maryville-university-of-saint-louis-178059",
+      "institution_name": "Maryville University of Saint Louis",
+      "earnings_median_5yr": 118384,
+      "earnings_median_4yr": 108677,
+      "debt_median": 61500,
+      "completers": 839,
+      "completers_single_year": 846,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cox-college-176770",
+      "institution_name": "Cox College",
+      "earnings_median_5yr": 115898,
+      "earnings_median_4yr": 109058,
+      "debt_median": 41435,
+      "completers": 37,
+      "completers_single_year": 41,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-missouri-kansas-city-178402",
+      "institution_name": "University of Missouri-Kansas City",
+      "earnings_median_5yr": 113931,
+      "earnings_median_4yr": 106577,
+      "debt_median": 43050,
+      "completers": 168,
+      "completers_single_year": 80,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-missouri-columbia-178396",
+      "institution_name": "University of Missouri-Columbia",
+      "earnings_median_5yr": 110845,
+      "earnings_median_4yr": 101103,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "webster-university-179894",
+      "institution_name": "Webster University",
+      "earnings_median_5yr": 103380,
+      "earnings_median_4yr": 97934,
+      "debt_median": 177721,
+      "completers": 83,
+      "completers_single_year": 76,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "central-methodist-university-college-of-liberal-arts-and-sciences-176947",
+      "institution_name": "Central Methodist University-College of Liberal Arts and Sciences",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "culver-stockton-college-177144",
+      "institution_name": "Culver-Stockton College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lindenwood-university-177968",
+      "institution_name": "Lindenwood University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "missouri-southern-state-university-178341",
+      "institution_name": "Missouri Southern State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "missouri-valley-college-178369",
+      "institution_name": "Missouri Valley College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "missouri-western-state-university-178387",
+      "institution_name": "Missouri Western State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southwest-baptist-university-179326",
+      "institution_name": "Southwest Baptist University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southeast-missouri-state-university-179557",
+      "institution_name": "Southeast Missouri State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 111149,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": null,
+      "cost_total_default": null,
+      "cost_source": null,
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 120149,
+      "earnings_anchor_year": 5,
+      "debt_median": 33095,
+      "cip_family": "51"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

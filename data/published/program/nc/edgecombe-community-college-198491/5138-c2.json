@@ -1,0 +1,758 @@
+{
+  "institution_unitid": "198491",
+  "institution_name": "Edgecombe Community College",
+  "institution_slug": "edgecombe-community-college-198491",
+  "state": "nc",
+  "cip_code": "5138",
+  "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "5138-c2",
+  "earnings_median_4yr": 58318,
+  "earnings_median_5yr": 66286,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": 14838,
+  "completers": 17,
+  "completers_single_year": 34,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 58318.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 66286.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 11200.0
+      },
+      {
+        "year": 2015,
+        "value": 15776.0
+      },
+      {
+        "year": 2016,
+        "value": 15035.0
+      },
+      {
+        "year": 2017,
+        "value": 15256.0
+      },
+      {
+        "year": 2018,
+        "value": 14838.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 35.0
+      },
+      {
+        "year": 2015,
+        "value": 36.0
+      },
+      {
+        "year": 2016,
+        "value": 40.0
+      },
+      {
+        "year": 2017,
+        "value": 75.0
+      },
+      {
+        "year": 2018,
+        "value": 34.0
+      },
+      {
+        "year": 2019,
+        "value": 17.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 11200.0,
+      "to_value": 14838.0,
+      "pct_change": 0.3248214285714286,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing at Edgecombe Community College rose 32% between 2014 and 2018 ($11.2k → $14.8k).",
+      "magnitude_pct": 32.5,
+      "magnitude_abs": 3638.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "198491",
+    "slug": "edgecombe-community-college-198491",
+    "name": "Edgecombe Community College",
+    "city": "Tarboro",
+    "city_slug": "tarboro",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "bladen-community-college-198011",
+      "institution_name": "Bladen Community College",
+      "earnings_median_5yr": 83290,
+      "earnings_median_4yr": 56668,
+      "debt_median": null,
+      "completers": 39,
+      "completers_single_year": 43,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "vance-granville-community-college-199838",
+      "institution_name": "Vance-Granville Community College",
+      "earnings_median_5yr": 81139,
+      "earnings_median_4yr": 67593,
+      "debt_median": null,
+      "completers": 47,
+      "completers_single_year": 43,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "richmond-community-college-199449",
+      "institution_name": "Richmond Community College",
+      "earnings_median_5yr": 76774,
+      "earnings_median_4yr": 65909,
+      "debt_median": null,
+      "completers": 38,
+      "completers_single_year": 41,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-piedmont-community-college-199908",
+      "institution_name": "Western Piedmont Community College",
+      "earnings_median_5yr": 75958,
+      "earnings_median_4yr": 63274,
+      "debt_median": null,
+      "completers": 29,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "stanly-community-college-199740",
+      "institution_name": "Stanly Community College",
+      "earnings_median_5yr": 75526,
+      "earnings_median_4yr": 62543,
+      "debt_median": null,
+      "completers": 20,
+      "completers_single_year": 33,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cape-fear-community-college-198154",
+      "institution_name": "Cape Fear Community College",
+      "earnings_median_5yr": 74945,
+      "earnings_median_4yr": 66726,
+      "debt_median": null,
+      "completers": 69,
+      "completers_single_year": 62,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "gardner-webb-university-198561",
+      "institution_name": "Gardner-Webb University",
+      "earnings_median_5yr": 74294,
+      "earnings_median_4yr": 63689,
+      "debt_median": 19500,
+      "completers": 12,
+      "completers_single_year": 33,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "durham-technical-community-college-198455",
+      "institution_name": "Durham Technical Community College",
+      "earnings_median_5yr": 74092,
+      "earnings_median_4yr": 67959,
+      "debt_median": 13000,
+      "completers": 32,
+      "completers_single_year": 48,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "sandhills-community-college-199634",
+      "institution_name": "Sandhills Community College",
+      "earnings_median_5yr": 73822,
+      "earnings_median_4yr": 62782,
+      "debt_median": null,
+      "completers": 60,
+      "completers_single_year": 63,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cleveland-community-college-198321",
+      "institution_name": "Cleveland Community College",
+      "earnings_median_5yr": 73720,
+      "earnings_median_4yr": 66071,
+      "debt_median": null,
+      "completers": 19,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wilson-community-college-199953",
+      "institution_name": "Wilson Community College",
+      "earnings_median_5yr": 73639,
+      "earnings_median_4yr": 64249,
+      "debt_median": 10500,
+      "completers": 52,
+      "completers_single_year": 34,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "forsyth-technical-community-college-198552",
+      "institution_name": "Forsyth Technical Community College",
+      "earnings_median_5yr": 73441,
+      "earnings_median_4yr": 61625,
+      "debt_median": 12718,
+      "completers": 115,
+      "completers_single_year": 128,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "fayetteville-technical-community-college-198534",
+      "institution_name": "Fayetteville Technical Community College",
+      "earnings_median_5yr": 73268,
+      "earnings_median_4yr": 64982,
+      "debt_median": 10500,
+      "completers": 68,
+      "completers_single_year": 73,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southwestern-community-college-199731",
+      "institution_name": "Southwestern Community College",
+      "earnings_median_5yr": 72733,
+      "earnings_median_4yr": 55802,
+      "debt_median": 12244,
+      "completers": 22,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rowan-cabarrus-community-college-199494",
+      "institution_name": "Rowan-Cabarrus Community College",
+      "earnings_median_5yr": 72629,
+      "earnings_median_4yr": 63744,
+      "debt_median": null,
+      "completers": 88,
+      "completers_single_year": 83,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "isothermal-community-college-198710",
+      "institution_name": "Isothermal Community College",
+      "earnings_median_5yr": 72364,
+      "earnings_median_4yr": 58880,
+      "debt_median": null,
+      "completers": 26,
+      "completers_single_year": 25,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wake-technical-community-college-199856",
+      "institution_name": "Wake Technical Community College",
+      "earnings_median_5yr": 72186,
+      "earnings_median_4yr": 60570,
+      "debt_median": 17104,
+      "completers": 131,
+      "completers_single_year": 112,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "nash-community-college-199087",
+      "institution_name": "Nash Community College",
+      "earnings_median_5yr": 72140,
+      "earnings_median_4yr": 67822,
+      "debt_median": 11332,
+      "completers": 22,
+      "completers_single_year": 47,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "sampson-community-college-199625",
+      "institution_name": "Sampson Community College",
+      "earnings_median_5yr": 71874,
+      "earnings_median_4yr": 64487,
+      "debt_median": null,
+      "completers": 36,
+      "completers_single_year": 42,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "brunswick-community-college-198084",
+      "institution_name": "Brunswick Community College",
+      "earnings_median_5yr": 71307,
+      "earnings_median_4yr": 62649,
+      "debt_median": null,
+      "completers": 26,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pitt-community-college-199333",
+      "institution_name": "Pitt Community College",
+      "earnings_median_5yr": 70703,
+      "earnings_median_4yr": 60233,
+      "debt_median": 12617,
+      "completers": 113,
+      "completers_single_year": 93,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cabarrus-college-of-health-sciences-198109",
+      "institution_name": "Cabarrus College of Health Sciences",
+      "earnings_median_5yr": 70589,
+      "earnings_median_4yr": 59702,
+      "debt_median": 18500,
+      "completers": 74,
+      "completers_single_year": 73,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "catawba-valley-community-college-198233",
+      "institution_name": "Catawba Valley Community College",
+      "earnings_median_5yr": 70336,
+      "earnings_median_4yr": 58932,
+      "debt_median": 5500,
+      "completers": 50,
+      "completers_single_year": 41,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "davidson-davie-community-college-198376",
+      "institution_name": "Davidson-Davie Community College",
+      "earnings_median_5yr": 70250,
+      "earnings_median_4yr": 60768,
+      "debt_median": 10500,
+      "completers": 81,
+      "completers_single_year": 76,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "coastal-carolina-community-college-198330",
+      "institution_name": "Coastal Carolina Community College",
+      "earnings_median_5yr": 70228,
+      "earnings_median_4yr": 57900,
+      "debt_median": null,
+      "completers": 32,
+      "completers_single_year": 29,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "guilford-technical-community-college-198622",
+      "institution_name": "Guilford Technical Community College",
+      "earnings_median_5yr": 69879,
+      "earnings_median_4yr": 58374,
+      "debt_median": 11577,
+      "completers": 64,
+      "completers_single_year": 74,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "central-piedmont-community-college-198260",
+      "institution_name": "Central Piedmont Community College",
+      "earnings_median_5yr": 69816,
+      "earnings_median_4yr": 61843,
+      "debt_median": null,
+      "completers": 102,
+      "completers_single_year": 72,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "carolinas-college-of-health-sciences-433174",
+      "institution_name": "Carolinas College of Health Sciences",
+      "earnings_median_5yr": 67786,
+      "earnings_median_4yr": 60940,
+      "debt_median": 16088,
+      "completers": 95,
+      "completers_single_year": 116,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "central-carolina-community-college-198251",
+      "institution_name": "Central Carolina Community College",
+      "earnings_median_5yr": 67452,
+      "earnings_median_4yr": 61157,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wayne-community-college-199892",
+      "institution_name": "Wayne Community College",
+      "earnings_median_5yr": 67390,
+      "earnings_median_4yr": 61754,
+      "debt_median": null,
+      "completers": 38,
+      "completers_single_year": 27,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "robeson-community-college-199476",
+      "institution_name": "Robeson Community College",
+      "earnings_median_5yr": 67249,
+      "earnings_median_4yr": 53517,
+      "debt_median": null,
+      "completers": 36,
+      "completers_single_year": 30,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "haywood-community-college-198668",
+      "institution_name": "Haywood Community College",
+      "earnings_median_5yr": 67055,
+      "earnings_median_4yr": 62428,
+      "debt_median": null,
+      "completers": 19,
+      "completers_single_year": 33,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "johnston-community-college-198774",
+      "institution_name": "Johnston Community College",
+      "earnings_median_5yr": 65719,
+      "earnings_median_4yr": 59248,
+      "debt_median": null,
+      "completers": 46,
+      "completers_single_year": 44,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "beaufort-county-community-college-197966",
+      "institution_name": "Beaufort County Community College",
+      "earnings_median_5yr": 65295,
+      "earnings_median_4yr": 58928,
+      "debt_median": null,
+      "completers": 32,
+      "completers_single_year": 28,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southeastern-community-college-199722",
+      "institution_name": "Southeastern Community College",
+      "earnings_median_5yr": 65220,
+      "earnings_median_4yr": 60005,
+      "debt_median": null,
+      "completers": 45,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "blue-ridge-community-college-198039",
+      "institution_name": "Blue Ridge Community College",
+      "earnings_median_5yr": 65062,
+      "earnings_median_4yr": 54326,
+      "debt_median": 15603,
+      "completers": 27,
+      "completers_single_year": 39,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mayland-community-college-198914",
+      "institution_name": "Mayland Community College",
+      "earnings_median_5yr": 64406,
+      "earnings_median_4yr": 57222,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "gaston-college-198570",
+      "institution_name": "Gaston College",
+      "earnings_median_5yr": 64239,
+      "earnings_median_4yr": 56336,
+      "debt_median": null,
+      "completers": 71,
+      "completers_single_year": 77,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "caldwell-community-college-and-technical-institute-198118",
+      "institution_name": "Caldwell Community College and Technical Institute",
+      "earnings_median_5yr": 64158,
+      "earnings_median_4yr": 58227,
+      "debt_median": null,
+      "completers": 39,
+      "completers_single_year": 34,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "alamance-community-college-199786",
+      "institution_name": "Alamance Community College",
+      "earnings_median_5yr": 63585,
+      "earnings_median_4yr": 54040,
+      "debt_median": null,
+      "completers": 20,
+      "completers_single_year": 25,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mitchell-community-college-198987",
+      "institution_name": "Mitchell Community College",
+      "earnings_median_5yr": 63398,
+      "earnings_median_4yr": 59180,
+      "debt_median": null,
+      "completers": 50,
+      "completers_single_year": 41,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "college-of-the-albemarle-197814",
+      "institution_name": "College of the Albemarle",
+      "earnings_median_5yr": 63295,
+      "earnings_median_4yr": 54614,
+      "debt_median": null,
+      "completers": 37,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "halifax-community-college-198640",
+      "institution_name": "Halifax Community College",
+      "earnings_median_5yr": 63242,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 19,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "craven-community-college-198367",
+      "institution_name": "Craven Community College",
+      "earnings_median_5yr": 62648,
+      "earnings_median_4yr": 54051,
+      "debt_median": null,
+      "completers": 43,
+      "completers_single_year": 36,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "asheville-buncombe-technical-community-college-197887",
+      "institution_name": "Asheville-Buncombe Technical Community College",
+      "earnings_median_5yr": 62627,
+      "earnings_median_4yr": 59978,
+      "debt_median": 18176,
+      "completers": 102,
+      "completers_single_year": 123,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wilkes-community-college-199926",
+      "institution_name": "Wilkes Community College",
+      "earnings_median_5yr": 61820,
+      "earnings_median_4yr": 59202,
+      "debt_median": null,
+      "completers": 29,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "tri-county-community-college-199795",
+      "institution_name": "Tri-County Community College",
+      "earnings_median_5yr": 59456,
+      "earnings_median_4yr": 57673,
+      "debt_median": null,
+      "completers": 21,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "roanoke-chowan-community-college-199467",
+      "institution_name": "Roanoke-Chowan Community College",
+      "earnings_median_5yr": 58408,
+      "earnings_median_4yr": 58590,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "south-piedmont-community-college-197850",
+      "institution_name": "South Piedmont Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 19,
+      "completers_single_year": 28,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "carteret-community-college-198206",
+      "institution_name": "Carteret Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 21,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "james-sprunt-community-college-198729",
+      "institution_name": "James Sprunt Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 20,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lenoir-community-college-198817",
+      "institution_name": "Lenoir Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 39,
+      "completers_single_year": 34,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mcdowell-technical-community-college-198923",
+      "institution_name": "McDowell Technical Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 70204,
+      "debt_median": null,
+      "completers": 24,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "montgomery-community-college-199023",
+      "institution_name": "Montgomery Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "piedmont-community-college-199324",
+      "institution_name": "Piedmont Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 59453,
+      "debt_median": null,
+      "completers": 31,
+      "completers_single_year": 27,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "randolph-community-college-199421",
+      "institution_name": "Randolph Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rockingham-community-college-199485",
+      "institution_name": "Rockingham Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 34,
+      "completers_single_year": 28,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "surry-community-college-199768",
+      "institution_name": "Surry Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 47,
+      "completers_single_year": 52,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 9792,
+      "cost_total_default": 19584,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 66286,
+      "earnings_anchor_year": 5,
+      "debt_median": 14838,
+      "cip_family": "51",
+      "hs_baseline_state": 35600
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 648014,
+      "breakeven_year": 3
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

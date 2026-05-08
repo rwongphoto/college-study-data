@@ -1,0 +1,270 @@
+{
+  "institution_unitid": "163578",
+  "institution_name": "Notre Dame of Maryland University",
+  "institution_slug": "notre-dame-of-maryland-university-163578",
+  "state": "md",
+  "cip_code": "5138",
+  "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5138-c5",
+  "earnings_median_4yr": 106687,
+  "earnings_median_5yr": 113745,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 1,
+  "debt_median": null,
+  "completers": 30,
+  "completers_single_year": 40,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 106687.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 113745.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 38240.0
+      },
+      {
+        "year": 2015,
+        "value": 33680.0
+      },
+      {
+        "year": 2016,
+        "value": 27672.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 55.0
+      },
+      {
+        "year": 2015,
+        "value": 47.0
+      },
+      {
+        "year": 2016,
+        "value": 36.0
+      },
+      {
+        "year": 2017,
+        "value": 50.0
+      },
+      {
+        "year": 2018,
+        "value": 40.0
+      },
+      {
+        "year": 2019,
+        "value": 30.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2016,
+      "from_value": 38240.0,
+      "to_value": 27672.0,
+      "pct_change": -0.27635983263598324,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing at Notre Dame of Maryland University fell 28% between 2014 and 2016 ($38.2k → $27.7k).",
+      "magnitude_pct": -27.6,
+      "magnitude_abs": -10568.0,
+      "baseline_year": 2014,
+      "recent_year": 2016,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "163578",
+    "slug": "notre-dame-of-maryland-university-163578",
+    "name": "Notre Dame of Maryland University",
+    "city": "Baltimore",
+    "city_slug": "baltimore",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-maryland-baltimore-163259",
+      "institution_name": "University of Maryland Baltimore",
+      "earnings_median_5yr": 117561,
+      "earnings_median_4yr": 106099,
+      "debt_median": 76133,
+      "completers": 171,
+      "completers_single_year": 198,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "johns-hopkins-university-162928",
+      "institution_name": "Johns Hopkins University",
+      "earnings_median_5yr": 114391,
+      "earnings_median_4yr": 107164,
+      "debt_median": 106371,
+      "completers": 308,
+      "completers_single_year": 264,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bowie-state-university-162007",
+      "institution_name": "Bowie State University",
+      "earnings_median_5yr": 112683,
+      "earnings_median_4yr": 105787,
+      "debt_median": null,
+      "completers": 30,
+      "completers_single_year": 22,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "stevenson-university-164173",
+      "institution_name": "Stevenson University",
+      "earnings_median_5yr": 112191,
+      "earnings_median_4yr": 107352,
+      "debt_median": 31017,
+      "completers": 51,
+      "completers_single_year": 67,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "towson-university-164076",
+      "institution_name": "Towson University",
+      "earnings_median_5yr": 103756,
+      "earnings_median_4yr": 86330,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "washington-adventist-university-162210",
+      "institution_name": "Washington Adventist University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "coppin-state-university-162283",
+      "institution_name": "Coppin State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "frostburg-state-university-162584",
+      "institution_name": "Frostburg State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 19,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "morgan-state-university-163453",
+      "institution_name": "Morgan State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "salisbury-university-163851",
+      "institution_name": "Salisbury University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 24228,
+      "cost_total_default": 145368,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 113745,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "51",
+      "hs_baseline_state": 41100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 1027809,
+      "breakeven_year": 9
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

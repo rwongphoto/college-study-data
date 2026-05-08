@@ -1,0 +1,218 @@
+{
+  "institution_unitid": "177472",
+  "institution_name": "Ozarks Technical Community College",
+  "institution_slug": "ozarks-technical-community-college-177472",
+  "state": "mo",
+  "cip_code": "1205",
+  "cip_desc": "Culinary Arts and Related Services.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "1205-c2",
+  "earnings_median_4yr": 26792,
+  "earnings_median_5yr": 30961,
+  "earnings_count_4yr": 12,
+  "earnings_count_5yr": 12,
+  "debt_median": 8933,
+  "completers": 25,
+  "completers_single_year": 42,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 26792.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 30961.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 17500.0
+      },
+      {
+        "year": 2015,
+        "value": 17000.0
+      },
+      {
+        "year": 2016,
+        "value": 16738.0
+      },
+      {
+        "year": 2017,
+        "value": 12500.0
+      },
+      {
+        "year": 2018,
+        "value": 8933.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 45.0
+      },
+      {
+        "year": 2015,
+        "value": 52.0
+      },
+      {
+        "year": 2016,
+        "value": 39.0
+      },
+      {
+        "year": 2017,
+        "value": 29.0
+      },
+      {
+        "year": 2018,
+        "value": 42.0
+      },
+      {
+        "year": 2019,
+        "value": 25.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 17500.0,
+      "to_value": 8933.0,
+      "pct_change": -0.48954285714285717,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Culinary Arts and Related Services at Ozarks Technical Community College fell 49% between 2014 and 2018 ($17.5k → $8.9k).",
+      "magnitude_pct": -49.0,
+      "magnitude_abs": -8567.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "177472",
+    "slug": "ozarks-technical-community-college-177472",
+    "name": "Ozarks Technical Community College",
+    "city": "Springfield",
+    "city_slug": "springfield",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "saint-louis-community-college-179308",
+      "institution_name": "Saint Louis Community College",
+      "earnings_median_5yr": 35232,
+      "earnings_median_4yr": 30926,
+      "debt_median": null,
+      "completers": 34,
+      "completers_single_year": 29,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "east-central-college-177250",
+      "institution_name": "East Central College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "jefferson-college-177676",
+      "institution_name": "Jefferson College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "missouri-state-university-west-plains-179344",
+      "institution_name": "Missouri State University-West Plains",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 12,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 9191,
+      "cost_total_default": 18382,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 30961,
+      "earnings_anchor_year": 5,
+      "debt_median": 8933,
+      "cip_family": "12",
+      "hs_baseline_state": 35100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -65757,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

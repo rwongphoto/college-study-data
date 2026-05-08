@@ -1,0 +1,220 @@
+{
+  "institution_unitid": "183026",
+  "institution_name": "Southern New Hampshire University",
+  "institution_slug": "southern-new-hampshire-university-183026",
+  "state": "nh",
+  "cip_code": "5210",
+  "cip_desc": "Human Resources Management and Services.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5210-c5",
+  "earnings_median_4yr": 71338,
+  "earnings_median_5yr": 76240,
+  "earnings_count_4yr": 5,
+  "earnings_count_5yr": 4,
+  "debt_median": 45100,
+  "completers": 340,
+  "completers_single_year": 268,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 71338.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 76240.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 32600.0
+      },
+      {
+        "year": 2015,
+        "value": 34403.0
+      },
+      {
+        "year": 2016,
+        "value": 40936.0
+      },
+      {
+        "year": 2017,
+        "value": 44729.0
+      },
+      {
+        "year": 2018,
+        "value": 45100.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 65.0
+      },
+      {
+        "year": 2015,
+        "value": 111.0
+      },
+      {
+        "year": 2016,
+        "value": 232.0
+      },
+      {
+        "year": 2017,
+        "value": 284.0
+      },
+      {
+        "year": 2018,
+        "value": 268.0
+      },
+      {
+        "year": 2019,
+        "value": 340.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 32600.0,
+      "to_value": 45100.0,
+      "pct_change": 0.3834355828220859,
+      "direction": "rose"
+    },
+    {
+      "metric": "completers",
+      "from_year": 2014,
+      "to_year": 2019,
+      "from_value": 65.0,
+      "to_value": 340.0,
+      "pct_change": 0.275,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Human Resources Management and Services at Southern New Hampshire University rose 38% between 2014 and 2018 ($32.6k → $45.1k).",
+      "magnitude_pct": 38.3,
+      "magnitude_abs": 12500.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    },
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Annual completers",
+      "summary": "Annual completers at Human Resources Management and Services at Southern New Hampshire University rose 28% between 2014 and 2019 (65 → 340).",
+      "magnitude_pct": 27.5,
+      "magnitude_abs": 275.0,
+      "baseline_year": 2014,
+      "recent_year": 2019,
+      "units": null,
+      "history": [],
+      "metric": "completers"
+    }
+  ],
+  "institution": {
+    "unitid": "183026",
+    "slug": "southern-new-hampshire-university-183026",
+    "name": "Southern New Hampshire University",
+    "city": "Manchester",
+    "city_slug": "manchester",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "franklin-pierce-university-182795",
+      "institution_name": "Franklin Pierce University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "new-england-college-182980",
+      "institution_name": "New England College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 4,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 34048,
+      "cost_total_default": 204288,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 76240,
+      "earnings_anchor_year": 5,
+      "debt_median": 45100,
+      "cip_family": "52",
+      "hs_baseline_state": 40300
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 420972,
+      "breakeven_year": 17
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

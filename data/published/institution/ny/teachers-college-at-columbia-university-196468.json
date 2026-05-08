@@ -1,0 +1,7591 @@
+{
+  "institution": {
+    "unitid": "196468",
+    "opeid6": "003979",
+    "name": "Teachers College at Columbia University",
+    "slug": "teachers-college-at-columbia-university-196468",
+    "state": "ny",
+    "city": "New York",
+    "city_slug": "new-york",
+    "zip5": "10027",
+    "address": "525 W 120th St",
+    "latitude": 40.810216,
+    "longitude": -73.960194,
+    "control": "private_nonprofit",
+    "pred_degree": "graduate",
+    "highest_degree": "masters",
+    "main_campus": true,
+    "locale": "11",
+    "carnegie_basic": 16,
+    "sector_code": 2,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": 73294,
+    "completion_rate_150": null,
+    "completion_rate_100": null,
+    "retention_rate": null,
+    "admission_rate": null,
+    "enrollment_undergrad": null,
+    "enrollment_total": null,
+    "cost_attendance": null,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": null,
+    "cost_by_income": null,
+    "median_debt": null,
+    "default_rate": 0.0,
+    "pell_share": null,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [],
+      "admission_rate": [],
+      "enrollment_undergrad": [],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [],
+      "median_debt": [
+        {
+          "year": 2009,
+          "value": 6000.0
+        }
+      ],
+      "default_rate": [
+        {
+          "year": 2011,
+          "value": 0.023
+        },
+        {
+          "year": 2012,
+          "value": 0.024
+        },
+        {
+          "year": 2013,
+          "value": 0.019
+        },
+        {
+          "year": 2014,
+          "value": 0.01
+        },
+        {
+          "year": 2015,
+          "value": 0.018
+        },
+        {
+          "year": 2016,
+          "value": 0.014
+        },
+        {
+          "year": 2017,
+          "value": 0.016
+        },
+        {
+          "year": 2018,
+          "value": 0.02
+        },
+        {
+          "year": 2019,
+          "value": 0.018
+        },
+        {
+          "year": 2020,
+          "value": 0.011
+        },
+        {
+          "year": 2021,
+          "value": 0.008
+        },
+        {
+          "year": 2022,
+          "value": 0.001
+        },
+        {
+          "year": 2023,
+          "value": 0.0
+        },
+        {
+          "year": 2024,
+          "value": 0.0
+        }
+      ],
+      "pell_share": [],
+      "earnings_median_6yr": [
+        {
+          "year": 2003,
+          "value": 57100.0
+        },
+        {
+          "year": 2007,
+          "value": 63500.0
+        },
+        {
+          "year": 2009,
+          "value": 63600.0
+        },
+        {
+          "year": 2011,
+          "value": 60100.0
+        },
+        {
+          "year": 2012,
+          "value": 58300.0
+        },
+        {
+          "year": 2013,
+          "value": 60200.0
+        },
+        {
+          "year": 2014,
+          "value": 60000.0
+        }
+      ],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "default_rate",
+        "from_year": 2011,
+        "to_year": 2024,
+        "from_value": 0.023,
+        "to_value": 0.0,
+        "pct_change": -1.0,
+        "direction": "fell"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "3-year cohort default rate",
+        "summary": "3-year cohort default rate at Teachers College at Columbia University fell 100% between 2021 and 2024 (0.8% → 0.0%).",
+        "magnitude_pct": -100.0,
+        "magnitude_abs": -0.01,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": "%",
+        "history": [],
+        "metric": "default_rate"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "09": [
+      {
+        "slug": "0901-c5",
+        "cip_code": "0901",
+        "cip_desc": "Communication and Media Studies.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 12.0
+          },
+          {
+            "year": 2015,
+            "value": 9.0
+          },
+          {
+            "year": 2016,
+            "value": 0.0
+          },
+          {
+            "year": 2017,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "0901-c6",
+        "cip_code": "0901",
+        "cip_desc": "Communication and Media Studies.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 2.0
+          },
+          {
+            "year": 2015,
+            "value": 2.0
+          },
+          {
+            "year": 2016,
+            "value": 0.0
+          },
+          {
+            "year": 2017,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "13": [
+      {
+        "slug": "1313-c5",
+        "cip_code": "1313",
+        "cip_desc": "Teacher Education and Professional Development, Specific Subject Areas.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": 73899,
+        "earnings_median_4yr": 69764,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 73899.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 69764.0
+          }
+        ],
+        "debt_median": 51964,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 51250.0
+          },
+          {
+            "year": 2015,
+            "value": 53705.0
+          },
+          {
+            "year": 2016,
+            "value": 58200.0
+          },
+          {
+            "year": 2017,
+            "value": 58724.0
+          },
+          {
+            "year": 2018,
+            "value": 51964.0
+          }
+        ],
+        "completers": 281,
+        "completers_single_year": 254,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 396.0
+          },
+          {
+            "year": 2015,
+            "value": 354.0
+          },
+          {
+            "year": 2016,
+            "value": 320.0
+          },
+          {
+            "year": 2017,
+            "value": 290.0
+          },
+          {
+            "year": 2018,
+            "value": 254.0
+          },
+          {
+            "year": 2019,
+            "value": 281.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1304-c5",
+        "cip_code": "1304",
+        "cip_desc": "Educational Administration and Supervision.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": 90554,
+        "earnings_median_4yr": 86919,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 90554.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 86919.0
+          }
+        ],
+        "debt_median": 50500,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 44936.0
+          },
+          {
+            "year": 2015,
+            "value": 44936.0
+          },
+          {
+            "year": 2016,
+            "value": 45533.0
+          },
+          {
+            "year": 2017,
+            "value": 45166.0
+          },
+          {
+            "year": 2018,
+            "value": 50500.0
+          }
+        ],
+        "completers": 140,
+        "completers_single_year": 105,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 184.0
+          },
+          {
+            "year": 2015,
+            "value": 220.0
+          },
+          {
+            "year": 2016,
+            "value": 150.0
+          },
+          {
+            "year": 2017,
+            "value": 209.0
+          },
+          {
+            "year": 2018,
+            "value": 105.0
+          },
+          {
+            "year": 2019,
+            "value": 140.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1312-c5",
+        "cip_code": "1312",
+        "cip_desc": "Teacher Education and Professional Development, Specific Levels and Methods.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": 76113,
+        "earnings_median_4yr": 69982,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 76113.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 69982.0
+          }
+        ],
+        "debt_median": 64500,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 74203.0
+          },
+          {
+            "year": 2015,
+            "value": 67139.0
+          },
+          {
+            "year": 2016,
+            "value": 68889.0
+          },
+          {
+            "year": 2017,
+            "value": 69778.0
+          },
+          {
+            "year": 2018,
+            "value": 64500.0
+          }
+        ],
+        "completers": 71,
+        "completers_single_year": 68,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 75.0
+          },
+          {
+            "year": 2015,
+            "value": 69.0
+          },
+          {
+            "year": 2016,
+            "value": 65.0
+          },
+          {
+            "year": 2017,
+            "value": 46.0
+          },
+          {
+            "year": 2018,
+            "value": 68.0
+          },
+          {
+            "year": 2019,
+            "value": 71.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1305-c5",
+        "cip_code": "1305",
+        "cip_desc": "Educational/Instructional Media Design.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [
+          {
+            "year": 2016,
+            "value": 57777.0
+          },
+          {
+            "year": 2017,
+            "value": 60962.0
+          }
+        ],
+        "completers": 69,
+        "completers_single_year": 82,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 41.0
+          },
+          {
+            "year": 2015,
+            "value": 38.0
+          },
+          {
+            "year": 2016,
+            "value": 73.0
+          },
+          {
+            "year": 2017,
+            "value": 69.0
+          },
+          {
+            "year": 2018,
+            "value": 82.0
+          },
+          {
+            "year": 2019,
+            "value": 69.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1307-c5",
+        "cip_code": "1307",
+        "cip_desc": "International and Comparative Education.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": 78185,
+        "earnings_median_4yr": 75560,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 78185.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 75560.0
+          }
+        ],
+        "debt_median": 68250,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 55263.0
+          },
+          {
+            "year": 2015,
+            "value": 60568.0
+          },
+          {
+            "year": 2016,
+            "value": 73179.0
+          },
+          {
+            "year": 2017,
+            "value": 71743.0
+          },
+          {
+            "year": 2018,
+            "value": 68250.0
+          }
+        ],
+        "completers": 69,
+        "completers_single_year": 78,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 109.0
+          },
+          {
+            "year": 2015,
+            "value": 69.0
+          },
+          {
+            "year": 2016,
+            "value": 110.0
+          },
+          {
+            "year": 2017,
+            "value": 88.0
+          },
+          {
+            "year": 2018,
+            "value": 78.0
+          },
+          {
+            "year": 2019,
+            "value": 69.0
+          }
+        ],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2014,
+            "to_year": 2018,
+            "from_value": 55263.0,
+            "to_value": 68250.0,
+            "pct_change": 0.23500352858151025,
+            "direction": "rose"
+          }
+        ]
+      },
+      {
+        "slug": "1310-c5",
+        "cip_code": "1310",
+        "cip_desc": "Special Education and Teaching.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": 74321,
+        "earnings_median_4yr": 67374,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 74321.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 67374.0
+          }
+        ],
+        "debt_median": 41000,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 75634.0
+          },
+          {
+            "year": 2015,
+            "value": 61650.0
+          },
+          {
+            "year": 2016,
+            "value": 56827.0
+          },
+          {
+            "year": 2017,
+            "value": 56322.0
+          },
+          {
+            "year": 2018,
+            "value": 41000.0
+          }
+        ],
+        "completers": 60,
+        "completers_single_year": 68,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 107.0
+          },
+          {
+            "year": 2015,
+            "value": 110.0
+          },
+          {
+            "year": 2016,
+            "value": 76.0
+          },
+          {
+            "year": 2017,
+            "value": 50.0
+          },
+          {
+            "year": 2018,
+            "value": 68.0
+          },
+          {
+            "year": 2019,
+            "value": 60.0
+          }
+        ],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2014,
+            "to_year": 2018,
+            "from_value": 75634.0,
+            "to_value": 41000.0,
+            "pct_change": -0.4579157521749478,
+            "direction": "fell"
+          }
+        ]
+      },
+      {
+        "slug": "1306-c5",
+        "cip_code": "1306",
+        "cip_desc": "Educational Assessment, Evaluation, and Research.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 52,
+        "completers_single_year": 35,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 34.0
+          },
+          {
+            "year": 2015,
+            "value": 90.0
+          },
+          {
+            "year": 2016,
+            "value": 37.0
+          },
+          {
+            "year": 2017,
+            "value": 28.0
+          },
+          {
+            "year": 2018,
+            "value": 35.0
+          },
+          {
+            "year": 2019,
+            "value": 52.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1313-c6",
+        "cip_code": "1313",
+        "cip_desc": "Teacher Education and Professional Development, Specific Subject Areas.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": 100213,
+        "earnings_median_4yr": 96732,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 100213.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 96732.0
+          }
+        ],
+        "debt_median": 88816,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 61500.0
+          },
+          {
+            "year": 2015,
+            "value": 102750.0
+          },
+          {
+            "year": 2016,
+            "value": 115822.0
+          },
+          {
+            "year": 2017,
+            "value": 94109.0
+          },
+          {
+            "year": 2018,
+            "value": 88816.0
+          }
+        ],
+        "completers": 50,
+        "completers_single_year": 67,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 64.0
+          },
+          {
+            "year": 2015,
+            "value": 60.0
+          },
+          {
+            "year": 2016,
+            "value": 68.0
+          },
+          {
+            "year": 2017,
+            "value": 72.0
+          },
+          {
+            "year": 2018,
+            "value": 67.0
+          },
+          {
+            "year": 2019,
+            "value": 50.0
+          }
+        ],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2014,
+            "to_year": 2018,
+            "from_value": 61500.0,
+            "to_value": 88816.0,
+            "pct_change": 0.4441626016260163,
+            "direction": "rose"
+          }
+        ]
+      },
+      {
+        "slug": "1314-c5",
+        "cip_code": "1314",
+        "cip_desc": "Teaching English or French as a Second or Foreign Language.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": 77982,
+        "earnings_median_4yr": 71171,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 77982.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 71171.0
+          }
+        ],
+        "debt_median": null,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 93605.0
+          },
+          {
+            "year": 2015,
+            "value": 59546.0
+          },
+          {
+            "year": 2016,
+            "value": 48752.0
+          },
+          {
+            "year": 2017,
+            "value": 48752.0
+          }
+        ],
+        "completers": 44,
+        "completers_single_year": 35,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 32.0
+          },
+          {
+            "year": 2015,
+            "value": 71.0
+          },
+          {
+            "year": 2016,
+            "value": 41.0
+          },
+          {
+            "year": 2017,
+            "value": 36.0
+          },
+          {
+            "year": 2018,
+            "value": 35.0
+          },
+          {
+            "year": 2019,
+            "value": 44.0
+          }
+        ],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2014,
+            "to_year": 2017,
+            "from_value": 93605.0,
+            "to_value": 48752.0,
+            "pct_change": -0.47917312109395865,
+            "direction": "fell"
+          }
+        ]
+      },
+      {
+        "slug": "1303-c5",
+        "cip_code": "1303",
+        "cip_desc": "Curriculum and Instruction.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": 84701,
+        "earnings_median_4yr": 78891,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 84701.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 78891.0
+          }
+        ],
+        "debt_median": 45690,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 50052.0
+          },
+          {
+            "year": 2015,
+            "value": 50321.0
+          },
+          {
+            "year": 2016,
+            "value": 50949.0
+          },
+          {
+            "year": 2017,
+            "value": 49500.0
+          },
+          {
+            "year": 2018,
+            "value": 45690.0
+          }
+        ],
+        "completers": 43,
+        "completers_single_year": 38,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 43.0
+          },
+          {
+            "year": 2015,
+            "value": 48.0
+          },
+          {
+            "year": 2016,
+            "value": 42.0
+          },
+          {
+            "year": 2017,
+            "value": 51.0
+          },
+          {
+            "year": 2018,
+            "value": 38.0
+          },
+          {
+            "year": 2019,
+            "value": 43.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1302-c5",
+        "cip_code": "1302",
+        "cip_desc": "Bilingual, Multilingual, and Multicultural Education.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 29,
+        "completers_single_year": 31,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 17.0
+          },
+          {
+            "year": 2015,
+            "value": 36.0
+          },
+          {
+            "year": 2016,
+            "value": 18.0
+          },
+          {
+            "year": 2017,
+            "value": 37.0
+          },
+          {
+            "year": 2018,
+            "value": 31.0
+          },
+          {
+            "year": 2019,
+            "value": 29.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1312-c6",
+        "cip_code": "1312",
+        "cip_desc": "Teacher Education and Professional Development, Specific Levels and Methods.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 21,
+        "completers_single_year": 13,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 8.0
+          },
+          {
+            "year": 2015,
+            "value": 15.0
+          },
+          {
+            "year": 2016,
+            "value": 12.0
+          },
+          {
+            "year": 2017,
+            "value": 15.0
+          },
+          {
+            "year": 2018,
+            "value": 13.0
+          },
+          {
+            "year": 2019,
+            "value": 21.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1311-c8",
+        "cip_code": "1311",
+        "cip_desc": "Student Counseling and Personnel Services.",
+        "credential_level": 8,
+        "credential_desc": "Graduate/Professional Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 15,
+        "completers_single_year": 11,
+        "completers_history": [
+          {
+            "year": 2017,
+            "value": 3.0
+          },
+          {
+            "year": 2018,
+            "value": 11.0
+          },
+          {
+            "year": 2019,
+            "value": 15.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1309-c5",
+        "cip_code": "1309",
+        "cip_desc": "Social and Philosophical Foundations of Education.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": 84141,
+        "earnings_median_4yr": 74519,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 84141.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 74519.0
+          }
+        ],
+        "debt_median": null,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 60809.0
+          },
+          {
+            "year": 2015,
+            "value": 52253.0
+          }
+        ],
+        "completers": 14,
+        "completers_single_year": 11,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 41.0
+          },
+          {
+            "year": 2015,
+            "value": 13.0
+          },
+          {
+            "year": 2016,
+            "value": 10.0
+          },
+          {
+            "year": 2017,
+            "value": 14.0
+          },
+          {
+            "year": 2018,
+            "value": 11.0
+          },
+          {
+            "year": 2019,
+            "value": 14.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1303-c6",
+        "cip_code": "1303",
+        "cip_desc": "Curriculum and Instruction.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [
+          {
+            "year": 2016,
+            "value": 66098.0
+          }
+        ],
+        "completers": 12,
+        "completers_single_year": 9,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 6.0
+          },
+          {
+            "year": 2015,
+            "value": 18.0
+          },
+          {
+            "year": 2016,
+            "value": 21.0
+          },
+          {
+            "year": 2017,
+            "value": 9.0
+          },
+          {
+            "year": 2018,
+            "value": 9.0
+          },
+          {
+            "year": 2019,
+            "value": 12.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1311-c5",
+        "cip_code": "1311",
+        "cip_desc": "Student Counseling and Personnel Services.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 10,
+        "completers_single_year": 10,
+        "completers_history": [
+          {
+            "year": 2015,
+            "value": 12.0
+          },
+          {
+            "year": 2016,
+            "value": 8.0
+          },
+          {
+            "year": 2017,
+            "value": 8.0
+          },
+          {
+            "year": 2018,
+            "value": 10.0
+          },
+          {
+            "year": 2019,
+            "value": 10.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1310-c6",
+        "cip_code": "1310",
+        "cip_desc": "Special Education and Teaching.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 9,
+        "completers_single_year": 15,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 11.0
+          },
+          {
+            "year": 2015,
+            "value": 11.0
+          },
+          {
+            "year": 2016,
+            "value": 14.0
+          },
+          {
+            "year": 2017,
+            "value": 8.0
+          },
+          {
+            "year": 2018,
+            "value": 15.0
+          },
+          {
+            "year": 2019,
+            "value": 9.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1306-c6",
+        "cip_code": "1306",
+        "cip_desc": "Educational Assessment, Evaluation, and Research.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 8,
+        "completers_single_year": 3,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 5.0
+          },
+          {
+            "year": 2015,
+            "value": 1.0
+          },
+          {
+            "year": 2016,
+            "value": 3.0
+          },
+          {
+            "year": 2017,
+            "value": 5.0
+          },
+          {
+            "year": 2018,
+            "value": 3.0
+          },
+          {
+            "year": 2019,
+            "value": 8.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1304-c6",
+        "cip_code": "1304",
+        "cip_desc": "Educational Administration and Supervision.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 5,
+        "completers_single_year": 10,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 5.0
+          },
+          {
+            "year": 2015,
+            "value": 6.0
+          },
+          {
+            "year": 2016,
+            "value": 7.0
+          },
+          {
+            "year": 2017,
+            "value": 7.0
+          },
+          {
+            "year": 2018,
+            "value": 10.0
+          },
+          {
+            "year": 2019,
+            "value": 5.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1309-c6",
+        "cip_code": "1309",
+        "cip_desc": "Social and Philosophical Foundations of Education.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 4,
+        "completers_single_year": 3,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 5.0
+          },
+          {
+            "year": 2015,
+            "value": 2.0
+          },
+          {
+            "year": 2016,
+            "value": 3.0
+          },
+          {
+            "year": 2017,
+            "value": 4.0
+          },
+          {
+            "year": 2018,
+            "value": 3.0
+          },
+          {
+            "year": 2019,
+            "value": 4.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1305-c6",
+        "cip_code": "1305",
+        "cip_desc": "Educational/Instructional Media Design.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 3,
+        "completers_single_year": 3,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 6.0
+          },
+          {
+            "year": 2015,
+            "value": 6.0
+          },
+          {
+            "year": 2016,
+            "value": 4.0
+          },
+          {
+            "year": 2017,
+            "value": 6.0
+          },
+          {
+            "year": 2018,
+            "value": 3.0
+          },
+          {
+            "year": 2019,
+            "value": 3.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1313-c8",
+        "cip_code": "1313",
+        "cip_desc": "Teacher Education and Professional Development, Specific Subject Areas.",
+        "credential_level": 8,
+        "credential_desc": "Graduate/Professional Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 2,
+        "completers_single_year": 1,
+        "completers_history": [
+          {
+            "year": 2018,
+            "value": 1.0
+          },
+          {
+            "year": 2019,
+            "value": 2.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1302-c8",
+        "cip_code": "1302",
+        "cip_desc": "Bilingual, Multilingual, and Multicultural Education.",
+        "credential_level": 8,
+        "credential_desc": "Graduate/Professional Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 1,
+        "completers_single_year": 1,
+        "completers_history": [
+          {
+            "year": 2016,
+            "value": 3.0
+          },
+          {
+            "year": 2017,
+            "value": 1.0
+          },
+          {
+            "year": 2018,
+            "value": 1.0
+          },
+          {
+            "year": 2019,
+            "value": 1.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1307-c6",
+        "cip_code": "1307",
+        "cip_desc": "International and Comparative Education.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 1,
+        "completers_single_year": 3,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 12.0
+          },
+          {
+            "year": 2015,
+            "value": 8.0
+          },
+          {
+            "year": 2016,
+            "value": 2.0
+          },
+          {
+            "year": 2017,
+            "value": 6.0
+          },
+          {
+            "year": 2018,
+            "value": 3.0
+          },
+          {
+            "year": 2019,
+            "value": 1.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1312-c8",
+        "cip_code": "1312",
+        "cip_desc": "Teacher Education and Professional Development, Specific Levels and Methods.",
+        "credential_level": 8,
+        "credential_desc": "Graduate/Professional Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 1,
+        "completers_single_year": 7,
+        "completers_history": [
+          {
+            "year": 2018,
+            "value": 7.0
+          },
+          {
+            "year": 2019,
+            "value": 1.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1301-c5",
+        "cip_code": "1301",
+        "cip_desc": "Education, General.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      },
+      {
+        "slug": "1310-c8",
+        "cip_code": "1310",
+        "cip_desc": "Special Education and Teaching.",
+        "credential_level": 8,
+        "credential_desc": "Graduate/Professional Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": 23,
+        "completers_history": [
+          {
+            "year": 2018,
+            "value": 23.0
+          },
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1314-c6",
+        "cip_code": "1314",
+        "cip_desc": "Teaching English or French as a Second or Foreign Language.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 0.0
+          },
+          {
+            "year": 2015,
+            "value": 0.0
+          },
+          {
+            "year": 2016,
+            "value": 1.0
+          },
+          {
+            "year": 2017,
+            "value": 2.0
+          },
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "16": [
+      {
+        "slug": "1601-c5",
+        "cip_code": "1601",
+        "cip_desc": "Linguistic, Comparative, and Related Language Studies and Services.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": 46118,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 46118.0
+          }
+        ],
+        "debt_median": null,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 93605.0
+          }
+        ],
+        "completers": 33,
+        "completers_single_year": 25,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 38.0
+          },
+          {
+            "year": 2015,
+            "value": 31.0
+          },
+          {
+            "year": 2016,
+            "value": 15.0
+          },
+          {
+            "year": 2017,
+            "value": 19.0
+          },
+          {
+            "year": 2018,
+            "value": 25.0
+          },
+          {
+            "year": 2019,
+            "value": 33.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1601-c6",
+        "cip_code": "1601",
+        "cip_desc": "Linguistic, Comparative, and Related Language Studies and Services.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": 8,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 1.0
+          },
+          {
+            "year": 2015,
+            "value": 6.0
+          },
+          {
+            "year": 2016,
+            "value": 1.0
+          },
+          {
+            "year": 2017,
+            "value": 2.0
+          },
+          {
+            "year": 2018,
+            "value": 8.0
+          },
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "19": [
+      {
+        "slug": "1905-c6",
+        "cip_code": "1905",
+        "cip_desc": "Foods, Nutrition, and Related Services.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 4,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 0.0
+          },
+          {
+            "year": 2015,
+            "value": 8.0
+          },
+          {
+            "year": 2016,
+            "value": 4.0
+          },
+          {
+            "year": 2017,
+            "value": 6.0
+          },
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 4.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1905-c5",
+        "cip_code": "1905",
+        "cip_desc": "Foods, Nutrition, and Related Services.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": 14,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 19.0
+          },
+          {
+            "year": 2015,
+            "value": 26.0
+          },
+          {
+            "year": 2016,
+            "value": 20.0
+          },
+          {
+            "year": 2017,
+            "value": 15.0
+          },
+          {
+            "year": 2018,
+            "value": 14.0
+          },
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "26": [
+      {
+        "slug": "2609-c5",
+        "cip_code": "2609",
+        "cip_desc": "Physiology, Pathology and Related Sciences.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 47,
+        "completers_single_year": 15,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 12.0
+          },
+          {
+            "year": 2015,
+            "value": 7.0
+          },
+          {
+            "year": 2016,
+            "value": 5.0
+          },
+          {
+            "year": 2017,
+            "value": 15.0
+          },
+          {
+            "year": 2018,
+            "value": 15.0
+          },
+          {
+            "year": 2019,
+            "value": 47.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "2609-c6",
+        "cip_code": "2609",
+        "cip_desc": "Physiology, Pathology and Related Sciences.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 3,
+        "completers_single_year": null,
+        "completers_history": [
+          {
+            "year": 2019,
+            "value": 3.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "30": [
+      {
+        "slug": "3017-c5",
+        "cip_code": "3017",
+        "cip_desc": "Behavioral Sciences.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": 86022,
+        "debt_history": [
+          {
+            "year": 2018,
+            "value": 86022.0
+          }
+        ],
+        "completers": 252,
+        "completers_single_year": 243,
+        "completers_history": [
+          {
+            "year": 2017,
+            "value": 86.0
+          },
+          {
+            "year": 2018,
+            "value": 243.0
+          },
+          {
+            "year": 2019,
+            "value": 252.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "3019-c5",
+        "cip_code": "3019",
+        "cip_desc": "Nutrition Sciences.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 28,
+        "completers_single_year": null,
+        "completers_history": [
+          {
+            "year": 2019,
+            "value": 28.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "3099-c6",
+        "cip_code": "3099",
+        "cip_desc": "Multi/Interdisciplinary Studies, Other.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 11,
+        "completers_single_year": 5,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 3.0
+          },
+          {
+            "year": 2015,
+            "value": 3.0
+          },
+          {
+            "year": 2016,
+            "value": 5.0
+          },
+          {
+            "year": 2017,
+            "value": 4.0
+          },
+          {
+            "year": 2018,
+            "value": 5.0
+          },
+          {
+            "year": 2019,
+            "value": 11.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "3017-c6",
+        "cip_code": "3017",
+        "cip_desc": "Behavioral Sciences.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 9,
+        "completers_single_year": 8,
+        "completers_history": [
+          {
+            "year": 2018,
+            "value": 8.0
+          },
+          {
+            "year": 2019,
+            "value": 9.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "3005-c8",
+        "cip_code": "3005",
+        "cip_desc": "Peace Studies and Conflict Resolution.",
+        "credential_level": 8,
+        "credential_desc": "Graduate/Professional Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 3,
+        "completers_single_year": 1,
+        "completers_history": [
+          {
+            "year": 2016,
+            "value": 4.0
+          },
+          {
+            "year": 2017,
+            "value": 9.0
+          },
+          {
+            "year": 2018,
+            "value": 1.0
+          },
+          {
+            "year": 2019,
+            "value": 3.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "3017-c8",
+        "cip_code": "3017",
+        "cip_desc": "Behavioral Sciences.",
+        "credential_level": 8,
+        "credential_desc": "Graduate/Professional Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 1,
+        "completers_single_year": null,
+        "completers_history": [
+          {
+            "year": 2019,
+            "value": 1.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "3019-c6",
+        "cip_code": "3019",
+        "cip_desc": "Nutrition Sciences.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 1,
+        "completers_single_year": null,
+        "completers_history": [
+          {
+            "year": 2019,
+            "value": 1.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "3099-c5",
+        "cip_code": "3099",
+        "cip_desc": "Multi/Interdisciplinary Studies, Other.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 1,
+        "completers_single_year": 2,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 4.0
+          },
+          {
+            "year": 2015,
+            "value": 1.0
+          },
+          {
+            "year": 2016,
+            "value": 5.0
+          },
+          {
+            "year": 2017,
+            "value": 1.0
+          },
+          {
+            "year": 2018,
+            "value": 2.0
+          },
+          {
+            "year": 2019,
+            "value": 1.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "31": [
+      {
+        "slug": "3105-c5",
+        "cip_code": "3105",
+        "cip_desc": "Health and Physical Education/Fitness.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 6,
+        "completers_single_year": 25,
+        "completers_history": [
+          {
+            "year": 2018,
+            "value": 25.0
+          },
+          {
+            "year": 2019,
+            "value": 6.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "3105-c6",
+        "cip_code": "3105",
+        "cip_desc": "Health and Physical Education/Fitness.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 1,
+        "completers_single_year": 7,
+        "completers_history": [
+          {
+            "year": 2018,
+            "value": 7.0
+          },
+          {
+            "year": 2019,
+            "value": 1.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "42": [
+      {
+        "slug": "4228-c5",
+        "cip_code": "4228",
+        "cip_desc": "Clinical, Counseling and Applied Psychology.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": 70471,
+        "earnings_median_4yr": 61128,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 70471.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 61128.0
+          }
+        ],
+        "debt_median": 81639,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 88814.0
+          },
+          {
+            "year": 2015,
+            "value": 91000.0
+          },
+          {
+            "year": 2016,
+            "value": 95346.0
+          },
+          {
+            "year": 2017,
+            "value": 86000.0
+          },
+          {
+            "year": 2018,
+            "value": 81639.0
+          }
+        ],
+        "completers": 204,
+        "completers_single_year": 229,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 512.0
+          },
+          {
+            "year": 2015,
+            "value": 475.0
+          },
+          {
+            "year": 2016,
+            "value": 477.0
+          },
+          {
+            "year": 2017,
+            "value": 431.0
+          },
+          {
+            "year": 2018,
+            "value": 229.0
+          },
+          {
+            "year": 2019,
+            "value": 204.0
+          }
+        ],
+        "long_arc": [
+          {
+            "metric": "completers",
+            "from_year": 2014,
+            "to_year": 2019,
+            "from_value": 512.0,
+            "to_value": 204.0,
+            "pct_change": -0.308,
+            "direction": "fell"
+          }
+        ]
+      },
+      {
+        "slug": "4227-c5",
+        "cip_code": "4227",
+        "cip_desc": "Research and Experimental Psychology.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": 117437,
+        "earnings_median_4yr": 108795,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 117437.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 108795.0
+          }
+        ],
+        "debt_median": 58988,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 81000.0
+          },
+          {
+            "year": 2015,
+            "value": 73968.0
+          },
+          {
+            "year": 2016,
+            "value": 67435.0
+          },
+          {
+            "year": 2017,
+            "value": 66060.0
+          },
+          {
+            "year": 2018,
+            "value": 58988.0
+          }
+        ],
+        "completers": 86,
+        "completers_single_year": 97,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 99.0
+          },
+          {
+            "year": 2015,
+            "value": 107.0
+          },
+          {
+            "year": 2016,
+            "value": 112.0
+          },
+          {
+            "year": 2017,
+            "value": 85.0
+          },
+          {
+            "year": 2018,
+            "value": 97.0
+          },
+          {
+            "year": 2019,
+            "value": 86.0
+          }
+        ],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2014,
+            "to_year": 2018,
+            "from_value": 81000.0,
+            "to_value": 58988.0,
+            "pct_change": -0.2717530864197531,
+            "direction": "fell"
+          }
+        ]
+      },
+      {
+        "slug": "4228-c8",
+        "cip_code": "4228",
+        "cip_desc": "Clinical, Counseling and Applied Psychology.",
+        "credential_level": 8,
+        "credential_desc": "Graduate/Professional Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 32,
+        "completers_single_year": 14,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 1.0
+          },
+          {
+            "year": 2015,
+            "value": 1.0
+          },
+          {
+            "year": 2016,
+            "value": 1.0
+          },
+          {
+            "year": 2017,
+            "value": 3.0
+          },
+          {
+            "year": 2018,
+            "value": 14.0
+          },
+          {
+            "year": 2019,
+            "value": 32.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "4227-c6",
+        "cip_code": "4227",
+        "cip_desc": "Research and Experimental Psychology.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 12,
+        "completers_single_year": 9,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 16.0
+          },
+          {
+            "year": 2015,
+            "value": 12.0
+          },
+          {
+            "year": 2016,
+            "value": 16.0
+          },
+          {
+            "year": 2017,
+            "value": 14.0
+          },
+          {
+            "year": 2018,
+            "value": 9.0
+          },
+          {
+            "year": 2019,
+            "value": 12.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "4228-c6",
+        "cip_code": "4228",
+        "cip_desc": "Clinical, Counseling and Applied Psychology.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 6,
+        "completers_single_year": 13,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 12.0
+          },
+          {
+            "year": 2015,
+            "value": 14.0
+          },
+          {
+            "year": 2016,
+            "value": 21.0
+          },
+          {
+            "year": 2017,
+            "value": 16.0
+          },
+          {
+            "year": 2018,
+            "value": 13.0
+          },
+          {
+            "year": 2019,
+            "value": 6.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "44": [
+      {
+        "slug": "4405-c5",
+        "cip_code": "4405",
+        "cip_desc": "Public Policy Analysis.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": 41599,
+        "debt_history": [
+          {
+            "year": 2017,
+            "value": 66531.0
+          },
+          {
+            "year": 2018,
+            "value": 41599.0
+          }
+        ],
+        "completers": 31,
+        "completers_single_year": 33,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 0.0
+          },
+          {
+            "year": 2015,
+            "value": 30.0
+          },
+          {
+            "year": 2016,
+            "value": 30.0
+          },
+          {
+            "year": 2017,
+            "value": 34.0
+          },
+          {
+            "year": 2018,
+            "value": 33.0
+          },
+          {
+            "year": 2019,
+            "value": 31.0
+          }
+        ],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2017,
+            "to_year": 2018,
+            "from_value": 66531.0,
+            "to_value": 41599.0,
+            "pct_change": -0.3747426011934286,
+            "direction": "fell"
+          }
+        ]
+      },
+      {
+        "slug": "4405-c6",
+        "cip_code": "4405",
+        "cip_desc": "Public Policy Analysis.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 2,
+        "completers_single_year": 1,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 0.0
+          },
+          {
+            "year": 2015,
+            "value": 1.0
+          },
+          {
+            "year": 2016,
+            "value": 3.0
+          },
+          {
+            "year": 2017,
+            "value": 0.0
+          },
+          {
+            "year": 2018,
+            "value": 1.0
+          },
+          {
+            "year": 2019,
+            "value": 2.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "45": [
+      {
+        "slug": "4506-c5",
+        "cip_code": "4506",
+        "cip_desc": "Economics.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 37,
+        "completers_single_year": 37,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 23.0
+          },
+          {
+            "year": 2015,
+            "value": 24.0
+          },
+          {
+            "year": 2016,
+            "value": 29.0
+          },
+          {
+            "year": 2017,
+            "value": 22.0
+          },
+          {
+            "year": 2018,
+            "value": 37.0
+          },
+          {
+            "year": 2019,
+            "value": 37.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "4511-c5",
+        "cip_code": "4511",
+        "cip_desc": "Sociology.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": 51263,
+        "debt_history": [
+          {
+            "year": 2015,
+            "value": 72340.0
+          },
+          {
+            "year": 2016,
+            "value": 71691.0
+          },
+          {
+            "year": 2017,
+            "value": 69583.0
+          },
+          {
+            "year": 2018,
+            "value": 51263.0
+          }
+        ],
+        "completers": 23,
+        "completers_single_year": 26,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 23.0
+          },
+          {
+            "year": 2015,
+            "value": 28.0
+          },
+          {
+            "year": 2016,
+            "value": 38.0
+          },
+          {
+            "year": 2017,
+            "value": 35.0
+          },
+          {
+            "year": 2018,
+            "value": 26.0
+          },
+          {
+            "year": 2019,
+            "value": 23.0
+          }
+        ],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2015,
+            "to_year": 2018,
+            "from_value": 72340.0,
+            "to_value": 51263.0,
+            "pct_change": -0.29136024329554877,
+            "direction": "fell"
+          }
+        ]
+      },
+      {
+        "slug": "4502-c5",
+        "cip_code": "4502",
+        "cip_desc": "Anthropology.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 10,
+        "completers_single_year": 7,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 9.0
+          },
+          {
+            "year": 2015,
+            "value": 6.0
+          },
+          {
+            "year": 2016,
+            "value": 15.0
+          },
+          {
+            "year": 2017,
+            "value": 7.0
+          },
+          {
+            "year": 2018,
+            "value": 7.0
+          },
+          {
+            "year": 2019,
+            "value": 10.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "4506-c6",
+        "cip_code": "4506",
+        "cip_desc": "Economics.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 8,
+        "completers_single_year": 2,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 8.0
+          },
+          {
+            "year": 2015,
+            "value": 8.0
+          },
+          {
+            "year": 2016,
+            "value": 4.0
+          },
+          {
+            "year": 2017,
+            "value": 5.0
+          },
+          {
+            "year": 2018,
+            "value": 2.0
+          },
+          {
+            "year": 2019,
+            "value": 8.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "4502-c6",
+        "cip_code": "4502",
+        "cip_desc": "Anthropology.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 5,
+        "completers_single_year": 3,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 3.0
+          },
+          {
+            "year": 2015,
+            "value": 8.0
+          },
+          {
+            "year": 2016,
+            "value": 3.0
+          },
+          {
+            "year": 2017,
+            "value": 2.0
+          },
+          {
+            "year": 2018,
+            "value": 3.0
+          },
+          {
+            "year": 2019,
+            "value": 5.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "4510-c5",
+        "cip_code": "4510",
+        "cip_desc": "Political Science and Government.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 4,
+        "completers_single_year": 4,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 2.0
+          },
+          {
+            "year": 2015,
+            "value": 7.0
+          },
+          {
+            "year": 2016,
+            "value": 5.0
+          },
+          {
+            "year": 2017,
+            "value": 9.0
+          },
+          {
+            "year": 2018,
+            "value": 4.0
+          },
+          {
+            "year": 2019,
+            "value": 4.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "4510-c6",
+        "cip_code": "4510",
+        "cip_desc": "Political Science and Government.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 4,
+        "completers_single_year": 1,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 1.0
+          },
+          {
+            "year": 2015,
+            "value": 2.0
+          },
+          {
+            "year": 2016,
+            "value": 3.0
+          },
+          {
+            "year": 2017,
+            "value": 1.0
+          },
+          {
+            "year": 2018,
+            "value": 1.0
+          },
+          {
+            "year": 2019,
+            "value": 4.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "4511-c6",
+        "cip_code": "4511",
+        "cip_desc": "Sociology.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": 2,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 0.0
+          },
+          {
+            "year": 2015,
+            "value": 0.0
+          },
+          {
+            "year": 2016,
+            "value": 2.0
+          },
+          {
+            "year": 2017,
+            "value": 2.0
+          },
+          {
+            "year": 2018,
+            "value": 2.0
+          },
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "50": [
+      {
+        "slug": "5010-c5",
+        "cip_code": "5010",
+        "cip_desc": "Arts, Entertainment,and Media Management.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": 66055,
+        "earnings_median_4yr": 66899,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 66055.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 66899.0
+          }
+        ],
+        "debt_median": null,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 83917.0
+          },
+          {
+            "year": 2015,
+            "value": 92774.0
+          }
+        ],
+        "completers": 24,
+        "completers_single_year": 30,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 35.0
+          },
+          {
+            "year": 2015,
+            "value": 27.0
+          },
+          {
+            "year": 2016,
+            "value": 28.0
+          },
+          {
+            "year": 2017,
+            "value": 31.0
+          },
+          {
+            "year": 2018,
+            "value": 30.0
+          },
+          {
+            "year": 2019,
+            "value": 24.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "51": [
+      {
+        "slug": "5102-c5",
+        "cip_code": "5102",
+        "cip_desc": "Communication Disorders Sciences and Services.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": 85793,
+        "earnings_median_4yr": 80756,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 85793.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 80756.0
+          }
+        ],
+        "debt_median": 103013,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 109369.0
+          },
+          {
+            "year": 2015,
+            "value": 108699.0
+          },
+          {
+            "year": 2016,
+            "value": 105060.0
+          },
+          {
+            "year": 2017,
+            "value": 98118.0
+          },
+          {
+            "year": 2018,
+            "value": 103013.0
+          }
+        ],
+        "completers": 56,
+        "completers_single_year": 76,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 53.0
+          },
+          {
+            "year": 2015,
+            "value": 59.0
+          },
+          {
+            "year": 2016,
+            "value": 57.0
+          },
+          {
+            "year": 2017,
+            "value": 65.0
+          },
+          {
+            "year": 2018,
+            "value": 76.0
+          },
+          {
+            "year": 2019,
+            "value": 56.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5102-c8",
+        "cip_code": "5102",
+        "cip_desc": "Communication Disorders Sciences and Services.",
+        "credential_level": 8,
+        "credential_desc": "Graduate/Professional Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 28,
+        "completers_single_year": 48,
+        "completers_history": [
+          {
+            "year": 2015,
+            "value": 34.0
+          },
+          {
+            "year": 2016,
+            "value": 59.0
+          },
+          {
+            "year": 2017,
+            "value": 36.0
+          },
+          {
+            "year": 2018,
+            "value": 48.0
+          },
+          {
+            "year": 2019,
+            "value": 28.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5102-c6",
+        "cip_code": "5102",
+        "cip_desc": "Communication Disorders Sciences and Services.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 2,
+        "completers_single_year": 1,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 6.0
+          },
+          {
+            "year": 2015,
+            "value": 6.0
+          },
+          {
+            "year": 2016,
+            "value": 5.0
+          },
+          {
+            "year": 2017,
+            "value": 2.0
+          },
+          {
+            "year": 2018,
+            "value": 1.0
+          },
+          {
+            "year": 2019,
+            "value": 2.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5132-c6",
+        "cip_code": "5132",
+        "cip_desc": "Bioethics/Medical Ethics.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 2,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 2.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5138-c5",
+        "cip_code": "5138",
+        "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 2,
+        "completers_single_year": 3,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 4.0
+          },
+          {
+            "year": 2015,
+            "value": 7.0
+          },
+          {
+            "year": 2016,
+            "value": 5.0
+          },
+          {
+            "year": 2017,
+            "value": 6.0
+          },
+          {
+            "year": 2018,
+            "value": 3.0
+          },
+          {
+            "year": 2019,
+            "value": 2.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5138-c6",
+        "cip_code": "5138",
+        "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 2,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 10.0
+          },
+          {
+            "year": 2015,
+            "value": 2.0
+          },
+          {
+            "year": 2016,
+            "value": 3.0
+          },
+          {
+            "year": 2017,
+            "value": 4.0
+          },
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 2.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5122-c5",
+        "cip_code": "5122",
+        "cip_desc": "Public Health.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 1,
+        "completers_single_year": 9,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 5.0
+          },
+          {
+            "year": 2015,
+            "value": 4.0
+          },
+          {
+            "year": 2016,
+            "value": 3.0
+          },
+          {
+            "year": 2017,
+            "value": 4.0
+          },
+          {
+            "year": 2018,
+            "value": 9.0
+          },
+          {
+            "year": 2019,
+            "value": 1.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5122-c8",
+        "cip_code": "5122",
+        "cip_desc": "Public Health.",
+        "credential_level": 8,
+        "credential_desc": "Graduate/Professional Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2016,
+            "value": 2.0
+          },
+          {
+            "year": 2017,
+            "value": 0.0
+          },
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5132-c5",
+        "cip_code": "5132",
+        "cip_desc": "Bioethics/Medical Ethics.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": 3,
+        "completers_history": [
+          {
+            "year": 2018,
+            "value": 3.0
+          },
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5132-c8",
+        "cip_code": "5132",
+        "cip_desc": "Bioethics/Medical Ethics.",
+        "credential_level": 8,
+        "credential_desc": "Graduate/Professional Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "1313-c5",
+      "cip_code": "1313",
+      "cip_desc": "Teacher Education and Professional Development, Specific Subject Areas.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": 73899,
+      "earnings_median_4yr": 69764,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 73899.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 69764.0
+        }
+      ],
+      "debt_median": 51964,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 51250.0
+        },
+        {
+          "year": 2015,
+          "value": 53705.0
+        },
+        {
+          "year": 2016,
+          "value": 58200.0
+        },
+        {
+          "year": 2017,
+          "value": 58724.0
+        },
+        {
+          "year": 2018,
+          "value": 51964.0
+        }
+      ],
+      "completers": 281,
+      "completers_single_year": 254,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 396.0
+        },
+        {
+          "year": 2015,
+          "value": 354.0
+        },
+        {
+          "year": 2016,
+          "value": 320.0
+        },
+        {
+          "year": 2017,
+          "value": 290.0
+        },
+        {
+          "year": 2018,
+          "value": 254.0
+        },
+        {
+          "year": 2019,
+          "value": 281.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "3017-c5",
+      "cip_code": "3017",
+      "cip_desc": "Behavioral Sciences.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": 86022,
+      "debt_history": [
+        {
+          "year": 2018,
+          "value": 86022.0
+        }
+      ],
+      "completers": 252,
+      "completers_single_year": 243,
+      "completers_history": [
+        {
+          "year": 2017,
+          "value": 86.0
+        },
+        {
+          "year": 2018,
+          "value": 243.0
+        },
+        {
+          "year": 2019,
+          "value": 252.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4228-c5",
+      "cip_code": "4228",
+      "cip_desc": "Clinical, Counseling and Applied Psychology.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": 70471,
+      "earnings_median_4yr": 61128,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 70471.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 61128.0
+        }
+      ],
+      "debt_median": 81639,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 88814.0
+        },
+        {
+          "year": 2015,
+          "value": 91000.0
+        },
+        {
+          "year": 2016,
+          "value": 95346.0
+        },
+        {
+          "year": 2017,
+          "value": 86000.0
+        },
+        {
+          "year": 2018,
+          "value": 81639.0
+        }
+      ],
+      "completers": 204,
+      "completers_single_year": 229,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 512.0
+        },
+        {
+          "year": 2015,
+          "value": 475.0
+        },
+        {
+          "year": 2016,
+          "value": 477.0
+        },
+        {
+          "year": 2017,
+          "value": 431.0
+        },
+        {
+          "year": 2018,
+          "value": 229.0
+        },
+        {
+          "year": 2019,
+          "value": 204.0
+        }
+      ],
+      "long_arc": [
+        {
+          "metric": "completers",
+          "from_year": 2014,
+          "to_year": 2019,
+          "from_value": 512.0,
+          "to_value": 204.0,
+          "pct_change": -0.308,
+          "direction": "fell"
+        }
+      ]
+    },
+    {
+      "slug": "1304-c5",
+      "cip_code": "1304",
+      "cip_desc": "Educational Administration and Supervision.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": 90554,
+      "earnings_median_4yr": 86919,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 90554.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 86919.0
+        }
+      ],
+      "debt_median": 50500,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 44936.0
+        },
+        {
+          "year": 2015,
+          "value": 44936.0
+        },
+        {
+          "year": 2016,
+          "value": 45533.0
+        },
+        {
+          "year": 2017,
+          "value": 45166.0
+        },
+        {
+          "year": 2018,
+          "value": 50500.0
+        }
+      ],
+      "completers": 140,
+      "completers_single_year": 105,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 184.0
+        },
+        {
+          "year": 2015,
+          "value": 220.0
+        },
+        {
+          "year": 2016,
+          "value": 150.0
+        },
+        {
+          "year": 2017,
+          "value": 209.0
+        },
+        {
+          "year": 2018,
+          "value": 105.0
+        },
+        {
+          "year": 2019,
+          "value": 140.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4227-c5",
+      "cip_code": "4227",
+      "cip_desc": "Research and Experimental Psychology.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": 117437,
+      "earnings_median_4yr": 108795,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 117437.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 108795.0
+        }
+      ],
+      "debt_median": 58988,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 81000.0
+        },
+        {
+          "year": 2015,
+          "value": 73968.0
+        },
+        {
+          "year": 2016,
+          "value": 67435.0
+        },
+        {
+          "year": 2017,
+          "value": 66060.0
+        },
+        {
+          "year": 2018,
+          "value": 58988.0
+        }
+      ],
+      "completers": 86,
+      "completers_single_year": 97,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 99.0
+        },
+        {
+          "year": 2015,
+          "value": 107.0
+        },
+        {
+          "year": 2016,
+          "value": 112.0
+        },
+        {
+          "year": 2017,
+          "value": 85.0
+        },
+        {
+          "year": 2018,
+          "value": 97.0
+        },
+        {
+          "year": 2019,
+          "value": 86.0
+        }
+      ],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2014,
+          "to_year": 2018,
+          "from_value": 81000.0,
+          "to_value": 58988.0,
+          "pct_change": -0.2717530864197531,
+          "direction": "fell"
+        }
+      ]
+    },
+    {
+      "slug": "1312-c5",
+      "cip_code": "1312",
+      "cip_desc": "Teacher Education and Professional Development, Specific Levels and Methods.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": 76113,
+      "earnings_median_4yr": 69982,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 76113.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 69982.0
+        }
+      ],
+      "debt_median": 64500,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 74203.0
+        },
+        {
+          "year": 2015,
+          "value": 67139.0
+        },
+        {
+          "year": 2016,
+          "value": 68889.0
+        },
+        {
+          "year": 2017,
+          "value": 69778.0
+        },
+        {
+          "year": 2018,
+          "value": 64500.0
+        }
+      ],
+      "completers": 71,
+      "completers_single_year": 68,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 75.0
+        },
+        {
+          "year": 2015,
+          "value": 69.0
+        },
+        {
+          "year": 2016,
+          "value": 65.0
+        },
+        {
+          "year": 2017,
+          "value": 46.0
+        },
+        {
+          "year": 2018,
+          "value": 68.0
+        },
+        {
+          "year": 2019,
+          "value": 71.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1305-c5",
+      "cip_code": "1305",
+      "cip_desc": "Educational/Instructional Media Design.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [
+        {
+          "year": 2016,
+          "value": 57777.0
+        },
+        {
+          "year": 2017,
+          "value": 60962.0
+        }
+      ],
+      "completers": 69,
+      "completers_single_year": 82,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 41.0
+        },
+        {
+          "year": 2015,
+          "value": 38.0
+        },
+        {
+          "year": 2016,
+          "value": 73.0
+        },
+        {
+          "year": 2017,
+          "value": 69.0
+        },
+        {
+          "year": 2018,
+          "value": 82.0
+        },
+        {
+          "year": 2019,
+          "value": 69.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1307-c5",
+      "cip_code": "1307",
+      "cip_desc": "International and Comparative Education.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": 78185,
+      "earnings_median_4yr": 75560,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 78185.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 75560.0
+        }
+      ],
+      "debt_median": 68250,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 55263.0
+        },
+        {
+          "year": 2015,
+          "value": 60568.0
+        },
+        {
+          "year": 2016,
+          "value": 73179.0
+        },
+        {
+          "year": 2017,
+          "value": 71743.0
+        },
+        {
+          "year": 2018,
+          "value": 68250.0
+        }
+      ],
+      "completers": 69,
+      "completers_single_year": 78,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 109.0
+        },
+        {
+          "year": 2015,
+          "value": 69.0
+        },
+        {
+          "year": 2016,
+          "value": 110.0
+        },
+        {
+          "year": 2017,
+          "value": 88.0
+        },
+        {
+          "year": 2018,
+          "value": 78.0
+        },
+        {
+          "year": 2019,
+          "value": 69.0
+        }
+      ],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2014,
+          "to_year": 2018,
+          "from_value": 55263.0,
+          "to_value": 68250.0,
+          "pct_change": 0.23500352858151025,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "slug": "1310-c5",
+      "cip_code": "1310",
+      "cip_desc": "Special Education and Teaching.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": 74321,
+      "earnings_median_4yr": 67374,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 74321.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 67374.0
+        }
+      ],
+      "debt_median": 41000,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 75634.0
+        },
+        {
+          "year": 2015,
+          "value": 61650.0
+        },
+        {
+          "year": 2016,
+          "value": 56827.0
+        },
+        {
+          "year": 2017,
+          "value": 56322.0
+        },
+        {
+          "year": 2018,
+          "value": 41000.0
+        }
+      ],
+      "completers": 60,
+      "completers_single_year": 68,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 107.0
+        },
+        {
+          "year": 2015,
+          "value": 110.0
+        },
+        {
+          "year": 2016,
+          "value": 76.0
+        },
+        {
+          "year": 2017,
+          "value": 50.0
+        },
+        {
+          "year": 2018,
+          "value": 68.0
+        },
+        {
+          "year": 2019,
+          "value": 60.0
+        }
+      ],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2014,
+          "to_year": 2018,
+          "from_value": 75634.0,
+          "to_value": 41000.0,
+          "pct_change": -0.4579157521749478,
+          "direction": "fell"
+        }
+      ]
+    },
+    {
+      "slug": "5102-c5",
+      "cip_code": "5102",
+      "cip_desc": "Communication Disorders Sciences and Services.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": 85793,
+      "earnings_median_4yr": 80756,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 85793.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 80756.0
+        }
+      ],
+      "debt_median": 103013,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 109369.0
+        },
+        {
+          "year": 2015,
+          "value": 108699.0
+        },
+        {
+          "year": 2016,
+          "value": 105060.0
+        },
+        {
+          "year": 2017,
+          "value": 98118.0
+        },
+        {
+          "year": 2018,
+          "value": 103013.0
+        }
+      ],
+      "completers": 56,
+      "completers_single_year": 76,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 53.0
+        },
+        {
+          "year": 2015,
+          "value": 59.0
+        },
+        {
+          "year": 2016,
+          "value": 57.0
+        },
+        {
+          "year": 2017,
+          "value": 65.0
+        },
+        {
+          "year": 2018,
+          "value": 76.0
+        },
+        {
+          "year": 2019,
+          "value": 56.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1306-c5",
+      "cip_code": "1306",
+      "cip_desc": "Educational Assessment, Evaluation, and Research.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 52,
+      "completers_single_year": 35,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 34.0
+        },
+        {
+          "year": 2015,
+          "value": 90.0
+        },
+        {
+          "year": 2016,
+          "value": 37.0
+        },
+        {
+          "year": 2017,
+          "value": 28.0
+        },
+        {
+          "year": 2018,
+          "value": 35.0
+        },
+        {
+          "year": 2019,
+          "value": 52.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1313-c6",
+      "cip_code": "1313",
+      "cip_desc": "Teacher Education and Professional Development, Specific Subject Areas.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": 100213,
+      "earnings_median_4yr": 96732,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 100213.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 96732.0
+        }
+      ],
+      "debt_median": 88816,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 61500.0
+        },
+        {
+          "year": 2015,
+          "value": 102750.0
+        },
+        {
+          "year": 2016,
+          "value": 115822.0
+        },
+        {
+          "year": 2017,
+          "value": 94109.0
+        },
+        {
+          "year": 2018,
+          "value": 88816.0
+        }
+      ],
+      "completers": 50,
+      "completers_single_year": 67,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 64.0
+        },
+        {
+          "year": 2015,
+          "value": 60.0
+        },
+        {
+          "year": 2016,
+          "value": 68.0
+        },
+        {
+          "year": 2017,
+          "value": 72.0
+        },
+        {
+          "year": 2018,
+          "value": 67.0
+        },
+        {
+          "year": 2019,
+          "value": 50.0
+        }
+      ],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2014,
+          "to_year": 2018,
+          "from_value": 61500.0,
+          "to_value": 88816.0,
+          "pct_change": 0.4441626016260163,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "slug": "2609-c5",
+      "cip_code": "2609",
+      "cip_desc": "Physiology, Pathology and Related Sciences.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 47,
+      "completers_single_year": 15,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 12.0
+        },
+        {
+          "year": 2015,
+          "value": 7.0
+        },
+        {
+          "year": 2016,
+          "value": 5.0
+        },
+        {
+          "year": 2017,
+          "value": 15.0
+        },
+        {
+          "year": 2018,
+          "value": 15.0
+        },
+        {
+          "year": 2019,
+          "value": 47.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1314-c5",
+      "cip_code": "1314",
+      "cip_desc": "Teaching English or French as a Second or Foreign Language.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": 77982,
+      "earnings_median_4yr": 71171,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 77982.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 71171.0
+        }
+      ],
+      "debt_median": null,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 93605.0
+        },
+        {
+          "year": 2015,
+          "value": 59546.0
+        },
+        {
+          "year": 2016,
+          "value": 48752.0
+        },
+        {
+          "year": 2017,
+          "value": 48752.0
+        }
+      ],
+      "completers": 44,
+      "completers_single_year": 35,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 32.0
+        },
+        {
+          "year": 2015,
+          "value": 71.0
+        },
+        {
+          "year": 2016,
+          "value": 41.0
+        },
+        {
+          "year": 2017,
+          "value": 36.0
+        },
+        {
+          "year": 2018,
+          "value": 35.0
+        },
+        {
+          "year": 2019,
+          "value": 44.0
+        }
+      ],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2014,
+          "to_year": 2017,
+          "from_value": 93605.0,
+          "to_value": 48752.0,
+          "pct_change": -0.47917312109395865,
+          "direction": "fell"
+        }
+      ]
+    },
+    {
+      "slug": "1303-c5",
+      "cip_code": "1303",
+      "cip_desc": "Curriculum and Instruction.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": 84701,
+      "earnings_median_4yr": 78891,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 84701.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 78891.0
+        }
+      ],
+      "debt_median": 45690,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 50052.0
+        },
+        {
+          "year": 2015,
+          "value": 50321.0
+        },
+        {
+          "year": 2016,
+          "value": 50949.0
+        },
+        {
+          "year": 2017,
+          "value": 49500.0
+        },
+        {
+          "year": 2018,
+          "value": 45690.0
+        }
+      ],
+      "completers": 43,
+      "completers_single_year": 38,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 43.0
+        },
+        {
+          "year": 2015,
+          "value": 48.0
+        },
+        {
+          "year": 2016,
+          "value": 42.0
+        },
+        {
+          "year": 2017,
+          "value": 51.0
+        },
+        {
+          "year": 2018,
+          "value": 38.0
+        },
+        {
+          "year": 2019,
+          "value": 43.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4506-c5",
+      "cip_code": "4506",
+      "cip_desc": "Economics.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 37,
+      "completers_single_year": 37,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 23.0
+        },
+        {
+          "year": 2015,
+          "value": 24.0
+        },
+        {
+          "year": 2016,
+          "value": 29.0
+        },
+        {
+          "year": 2017,
+          "value": 22.0
+        },
+        {
+          "year": 2018,
+          "value": 37.0
+        },
+        {
+          "year": 2019,
+          "value": 37.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1601-c5",
+      "cip_code": "1601",
+      "cip_desc": "Linguistic, Comparative, and Related Language Studies and Services.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 46118,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 46118.0
+        }
+      ],
+      "debt_median": null,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 93605.0
+        }
+      ],
+      "completers": 33,
+      "completers_single_year": 25,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 38.0
+        },
+        {
+          "year": 2015,
+          "value": 31.0
+        },
+        {
+          "year": 2016,
+          "value": 15.0
+        },
+        {
+          "year": 2017,
+          "value": 19.0
+        },
+        {
+          "year": 2018,
+          "value": 25.0
+        },
+        {
+          "year": 2019,
+          "value": 33.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4228-c8",
+      "cip_code": "4228",
+      "cip_desc": "Clinical, Counseling and Applied Psychology.",
+      "credential_level": 8,
+      "credential_desc": "Graduate/Professional Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 32,
+      "completers_single_year": 14,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 1.0
+        },
+        {
+          "year": 2015,
+          "value": 1.0
+        },
+        {
+          "year": 2016,
+          "value": 1.0
+        },
+        {
+          "year": 2017,
+          "value": 3.0
+        },
+        {
+          "year": 2018,
+          "value": 14.0
+        },
+        {
+          "year": 2019,
+          "value": 32.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4405-c5",
+      "cip_code": "4405",
+      "cip_desc": "Public Policy Analysis.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": 41599,
+      "debt_history": [
+        {
+          "year": 2017,
+          "value": 66531.0
+        },
+        {
+          "year": 2018,
+          "value": 41599.0
+        }
+      ],
+      "completers": 31,
+      "completers_single_year": 33,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 0.0
+        },
+        {
+          "year": 2015,
+          "value": 30.0
+        },
+        {
+          "year": 2016,
+          "value": 30.0
+        },
+        {
+          "year": 2017,
+          "value": 34.0
+        },
+        {
+          "year": 2018,
+          "value": 33.0
+        },
+        {
+          "year": 2019,
+          "value": 31.0
+        }
+      ],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2017,
+          "to_year": 2018,
+          "from_value": 66531.0,
+          "to_value": 41599.0,
+          "pct_change": -0.3747426011934286,
+          "direction": "fell"
+        }
+      ]
+    },
+    {
+      "slug": "1302-c5",
+      "cip_code": "1302",
+      "cip_desc": "Bilingual, Multilingual, and Multicultural Education.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 29,
+      "completers_single_year": 31,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 17.0
+        },
+        {
+          "year": 2015,
+          "value": 36.0
+        },
+        {
+          "year": 2016,
+          "value": 18.0
+        },
+        {
+          "year": 2017,
+          "value": 37.0
+        },
+        {
+          "year": 2018,
+          "value": 31.0
+        },
+        {
+          "year": 2019,
+          "value": 29.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "3019-c5",
+      "cip_code": "3019",
+      "cip_desc": "Nutrition Sciences.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 28,
+      "completers_single_year": null,
+      "completers_history": [
+        {
+          "year": 2019,
+          "value": 28.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5102-c8",
+      "cip_code": "5102",
+      "cip_desc": "Communication Disorders Sciences and Services.",
+      "credential_level": 8,
+      "credential_desc": "Graduate/Professional Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 28,
+      "completers_single_year": 48,
+      "completers_history": [
+        {
+          "year": 2015,
+          "value": 34.0
+        },
+        {
+          "year": 2016,
+          "value": 59.0
+        },
+        {
+          "year": 2017,
+          "value": 36.0
+        },
+        {
+          "year": 2018,
+          "value": 48.0
+        },
+        {
+          "year": 2019,
+          "value": 28.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5010-c5",
+      "cip_code": "5010",
+      "cip_desc": "Arts, Entertainment,and Media Management.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": 66055,
+      "earnings_median_4yr": 66899,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 66055.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 66899.0
+        }
+      ],
+      "debt_median": null,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 83917.0
+        },
+        {
+          "year": 2015,
+          "value": 92774.0
+        }
+      ],
+      "completers": 24,
+      "completers_single_year": 30,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 35.0
+        },
+        {
+          "year": 2015,
+          "value": 27.0
+        },
+        {
+          "year": 2016,
+          "value": 28.0
+        },
+        {
+          "year": 2017,
+          "value": 31.0
+        },
+        {
+          "year": 2018,
+          "value": 30.0
+        },
+        {
+          "year": 2019,
+          "value": 24.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4511-c5",
+      "cip_code": "4511",
+      "cip_desc": "Sociology.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": 51263,
+      "debt_history": [
+        {
+          "year": 2015,
+          "value": 72340.0
+        },
+        {
+          "year": 2016,
+          "value": 71691.0
+        },
+        {
+          "year": 2017,
+          "value": 69583.0
+        },
+        {
+          "year": 2018,
+          "value": 51263.0
+        }
+      ],
+      "completers": 23,
+      "completers_single_year": 26,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 23.0
+        },
+        {
+          "year": 2015,
+          "value": 28.0
+        },
+        {
+          "year": 2016,
+          "value": 38.0
+        },
+        {
+          "year": 2017,
+          "value": 35.0
+        },
+        {
+          "year": 2018,
+          "value": 26.0
+        },
+        {
+          "year": 2019,
+          "value": 23.0
+        }
+      ],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2015,
+          "to_year": 2018,
+          "from_value": 72340.0,
+          "to_value": 51263.0,
+          "pct_change": -0.29136024329554877,
+          "direction": "fell"
+        }
+      ]
+    },
+    {
+      "slug": "1312-c6",
+      "cip_code": "1312",
+      "cip_desc": "Teacher Education and Professional Development, Specific Levels and Methods.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 21,
+      "completers_single_year": 13,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 8.0
+        },
+        {
+          "year": 2015,
+          "value": 15.0
+        },
+        {
+          "year": 2016,
+          "value": 12.0
+        },
+        {
+          "year": 2017,
+          "value": 15.0
+        },
+        {
+          "year": 2018,
+          "value": 13.0
+        },
+        {
+          "year": 2019,
+          "value": 21.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1311-c8",
+      "cip_code": "1311",
+      "cip_desc": "Student Counseling and Personnel Services.",
+      "credential_level": 8,
+      "credential_desc": "Graduate/Professional Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 15,
+      "completers_single_year": 11,
+      "completers_history": [
+        {
+          "year": 2017,
+          "value": 3.0
+        },
+        {
+          "year": 2018,
+          "value": 11.0
+        },
+        {
+          "year": 2019,
+          "value": 15.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1309-c5",
+      "cip_code": "1309",
+      "cip_desc": "Social and Philosophical Foundations of Education.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": 84141,
+      "earnings_median_4yr": 74519,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 84141.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 74519.0
+        }
+      ],
+      "debt_median": null,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 60809.0
+        },
+        {
+          "year": 2015,
+          "value": 52253.0
+        }
+      ],
+      "completers": 14,
+      "completers_single_year": 11,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 41.0
+        },
+        {
+          "year": 2015,
+          "value": 13.0
+        },
+        {
+          "year": 2016,
+          "value": 10.0
+        },
+        {
+          "year": 2017,
+          "value": 14.0
+        },
+        {
+          "year": 2018,
+          "value": 11.0
+        },
+        {
+          "year": 2019,
+          "value": 14.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1303-c6",
+      "cip_code": "1303",
+      "cip_desc": "Curriculum and Instruction.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [
+        {
+          "year": 2016,
+          "value": 66098.0
+        }
+      ],
+      "completers": 12,
+      "completers_single_year": 9,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 6.0
+        },
+        {
+          "year": 2015,
+          "value": 18.0
+        },
+        {
+          "year": 2016,
+          "value": 21.0
+        },
+        {
+          "year": 2017,
+          "value": 9.0
+        },
+        {
+          "year": 2018,
+          "value": 9.0
+        },
+        {
+          "year": 2019,
+          "value": 12.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4227-c6",
+      "cip_code": "4227",
+      "cip_desc": "Research and Experimental Psychology.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 12,
+      "completers_single_year": 9,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 16.0
+        },
+        {
+          "year": 2015,
+          "value": 12.0
+        },
+        {
+          "year": 2016,
+          "value": 16.0
+        },
+        {
+          "year": 2017,
+          "value": 14.0
+        },
+        {
+          "year": 2018,
+          "value": 9.0
+        },
+        {
+          "year": 2019,
+          "value": 12.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "3099-c6",
+      "cip_code": "3099",
+      "cip_desc": "Multi/Interdisciplinary Studies, Other.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 11,
+      "completers_single_year": 5,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 3.0
+        },
+        {
+          "year": 2015,
+          "value": 3.0
+        },
+        {
+          "year": 2016,
+          "value": 5.0
+        },
+        {
+          "year": 2017,
+          "value": 4.0
+        },
+        {
+          "year": 2018,
+          "value": 5.0
+        },
+        {
+          "year": 2019,
+          "value": 11.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1311-c5",
+      "cip_code": "1311",
+      "cip_desc": "Student Counseling and Personnel Services.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 10,
+      "completers_single_year": 10,
+      "completers_history": [
+        {
+          "year": 2015,
+          "value": 12.0
+        },
+        {
+          "year": 2016,
+          "value": 8.0
+        },
+        {
+          "year": 2017,
+          "value": 8.0
+        },
+        {
+          "year": 2018,
+          "value": 10.0
+        },
+        {
+          "year": 2019,
+          "value": 10.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4502-c5",
+      "cip_code": "4502",
+      "cip_desc": "Anthropology.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 10,
+      "completers_single_year": 7,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 9.0
+        },
+        {
+          "year": 2015,
+          "value": 6.0
+        },
+        {
+          "year": 2016,
+          "value": 15.0
+        },
+        {
+          "year": 2017,
+          "value": 7.0
+        },
+        {
+          "year": 2018,
+          "value": 7.0
+        },
+        {
+          "year": 2019,
+          "value": 10.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1310-c6",
+      "cip_code": "1310",
+      "cip_desc": "Special Education and Teaching.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 9,
+      "completers_single_year": 15,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 11.0
+        },
+        {
+          "year": 2015,
+          "value": 11.0
+        },
+        {
+          "year": 2016,
+          "value": 14.0
+        },
+        {
+          "year": 2017,
+          "value": 8.0
+        },
+        {
+          "year": 2018,
+          "value": 15.0
+        },
+        {
+          "year": 2019,
+          "value": 9.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "3017-c6",
+      "cip_code": "3017",
+      "cip_desc": "Behavioral Sciences.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 9,
+      "completers_single_year": 8,
+      "completers_history": [
+        {
+          "year": 2018,
+          "value": 8.0
+        },
+        {
+          "year": 2019,
+          "value": 9.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1306-c6",
+      "cip_code": "1306",
+      "cip_desc": "Educational Assessment, Evaluation, and Research.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 8,
+      "completers_single_year": 3,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 5.0
+        },
+        {
+          "year": 2015,
+          "value": 1.0
+        },
+        {
+          "year": 2016,
+          "value": 3.0
+        },
+        {
+          "year": 2017,
+          "value": 5.0
+        },
+        {
+          "year": 2018,
+          "value": 3.0
+        },
+        {
+          "year": 2019,
+          "value": 8.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4506-c6",
+      "cip_code": "4506",
+      "cip_desc": "Economics.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 8,
+      "completers_single_year": 2,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 8.0
+        },
+        {
+          "year": 2015,
+          "value": 8.0
+        },
+        {
+          "year": 2016,
+          "value": 4.0
+        },
+        {
+          "year": 2017,
+          "value": 5.0
+        },
+        {
+          "year": 2018,
+          "value": 2.0
+        },
+        {
+          "year": 2019,
+          "value": 8.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "3105-c5",
+      "cip_code": "3105",
+      "cip_desc": "Health and Physical Education/Fitness.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 6,
+      "completers_single_year": 25,
+      "completers_history": [
+        {
+          "year": 2018,
+          "value": 25.0
+        },
+        {
+          "year": 2019,
+          "value": 6.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4228-c6",
+      "cip_code": "4228",
+      "cip_desc": "Clinical, Counseling and Applied Psychology.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 6,
+      "completers_single_year": 13,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 12.0
+        },
+        {
+          "year": 2015,
+          "value": 14.0
+        },
+        {
+          "year": 2016,
+          "value": 21.0
+        },
+        {
+          "year": 2017,
+          "value": 16.0
+        },
+        {
+          "year": 2018,
+          "value": 13.0
+        },
+        {
+          "year": 2019,
+          "value": 6.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1304-c6",
+      "cip_code": "1304",
+      "cip_desc": "Educational Administration and Supervision.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 5,
+      "completers_single_year": 10,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 5.0
+        },
+        {
+          "year": 2015,
+          "value": 6.0
+        },
+        {
+          "year": 2016,
+          "value": 7.0
+        },
+        {
+          "year": 2017,
+          "value": 7.0
+        },
+        {
+          "year": 2018,
+          "value": 10.0
+        },
+        {
+          "year": 2019,
+          "value": 5.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4502-c6",
+      "cip_code": "4502",
+      "cip_desc": "Anthropology.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 5,
+      "completers_single_year": 3,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 3.0
+        },
+        {
+          "year": 2015,
+          "value": 8.0
+        },
+        {
+          "year": 2016,
+          "value": 3.0
+        },
+        {
+          "year": 2017,
+          "value": 2.0
+        },
+        {
+          "year": 2018,
+          "value": 3.0
+        },
+        {
+          "year": 2019,
+          "value": 5.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1309-c6",
+      "cip_code": "1309",
+      "cip_desc": "Social and Philosophical Foundations of Education.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 4,
+      "completers_single_year": 3,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 5.0
+        },
+        {
+          "year": 2015,
+          "value": 2.0
+        },
+        {
+          "year": 2016,
+          "value": 3.0
+        },
+        {
+          "year": 2017,
+          "value": 4.0
+        },
+        {
+          "year": 2018,
+          "value": 3.0
+        },
+        {
+          "year": 2019,
+          "value": 4.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1905-c6",
+      "cip_code": "1905",
+      "cip_desc": "Foods, Nutrition, and Related Services.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 4,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 0.0
+        },
+        {
+          "year": 2015,
+          "value": 8.0
+        },
+        {
+          "year": 2016,
+          "value": 4.0
+        },
+        {
+          "year": 2017,
+          "value": 6.0
+        },
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 4.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4510-c5",
+      "cip_code": "4510",
+      "cip_desc": "Political Science and Government.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 4,
+      "completers_single_year": 4,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 2.0
+        },
+        {
+          "year": 2015,
+          "value": 7.0
+        },
+        {
+          "year": 2016,
+          "value": 5.0
+        },
+        {
+          "year": 2017,
+          "value": 9.0
+        },
+        {
+          "year": 2018,
+          "value": 4.0
+        },
+        {
+          "year": 2019,
+          "value": 4.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4510-c6",
+      "cip_code": "4510",
+      "cip_desc": "Political Science and Government.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 4,
+      "completers_single_year": 1,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 1.0
+        },
+        {
+          "year": 2015,
+          "value": 2.0
+        },
+        {
+          "year": 2016,
+          "value": 3.0
+        },
+        {
+          "year": 2017,
+          "value": 1.0
+        },
+        {
+          "year": 2018,
+          "value": 1.0
+        },
+        {
+          "year": 2019,
+          "value": 4.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1305-c6",
+      "cip_code": "1305",
+      "cip_desc": "Educational/Instructional Media Design.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 3,
+      "completers_single_year": 3,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 6.0
+        },
+        {
+          "year": 2015,
+          "value": 6.0
+        },
+        {
+          "year": 2016,
+          "value": 4.0
+        },
+        {
+          "year": 2017,
+          "value": 6.0
+        },
+        {
+          "year": 2018,
+          "value": 3.0
+        },
+        {
+          "year": 2019,
+          "value": 3.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "2609-c6",
+      "cip_code": "2609",
+      "cip_desc": "Physiology, Pathology and Related Sciences.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 3,
+      "completers_single_year": null,
+      "completers_history": [
+        {
+          "year": 2019,
+          "value": 3.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "3005-c8",
+      "cip_code": "3005",
+      "cip_desc": "Peace Studies and Conflict Resolution.",
+      "credential_level": 8,
+      "credential_desc": "Graduate/Professional Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 3,
+      "completers_single_year": 1,
+      "completers_history": [
+        {
+          "year": 2016,
+          "value": 4.0
+        },
+        {
+          "year": 2017,
+          "value": 9.0
+        },
+        {
+          "year": 2018,
+          "value": 1.0
+        },
+        {
+          "year": 2019,
+          "value": 3.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1313-c8",
+      "cip_code": "1313",
+      "cip_desc": "Teacher Education and Professional Development, Specific Subject Areas.",
+      "credential_level": 8,
+      "credential_desc": "Graduate/Professional Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 2,
+      "completers_single_year": 1,
+      "completers_history": [
+        {
+          "year": 2018,
+          "value": 1.0
+        },
+        {
+          "year": 2019,
+          "value": 2.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4405-c6",
+      "cip_code": "4405",
+      "cip_desc": "Public Policy Analysis.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 2,
+      "completers_single_year": 1,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 0.0
+        },
+        {
+          "year": 2015,
+          "value": 1.0
+        },
+        {
+          "year": 2016,
+          "value": 3.0
+        },
+        {
+          "year": 2017,
+          "value": 0.0
+        },
+        {
+          "year": 2018,
+          "value": 1.0
+        },
+        {
+          "year": 2019,
+          "value": 2.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5102-c6",
+      "cip_code": "5102",
+      "cip_desc": "Communication Disorders Sciences and Services.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 2,
+      "completers_single_year": 1,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 6.0
+        },
+        {
+          "year": 2015,
+          "value": 6.0
+        },
+        {
+          "year": 2016,
+          "value": 5.0
+        },
+        {
+          "year": 2017,
+          "value": 2.0
+        },
+        {
+          "year": 2018,
+          "value": 1.0
+        },
+        {
+          "year": 2019,
+          "value": 2.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5132-c6",
+      "cip_code": "5132",
+      "cip_desc": "Bioethics/Medical Ethics.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 2,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 2.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5138-c5",
+      "cip_code": "5138",
+      "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 2,
+      "completers_single_year": 3,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 4.0
+        },
+        {
+          "year": 2015,
+          "value": 7.0
+        },
+        {
+          "year": 2016,
+          "value": 5.0
+        },
+        {
+          "year": 2017,
+          "value": 6.0
+        },
+        {
+          "year": 2018,
+          "value": 3.0
+        },
+        {
+          "year": 2019,
+          "value": 2.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5138-c6",
+      "cip_code": "5138",
+      "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 2,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 10.0
+        },
+        {
+          "year": 2015,
+          "value": 2.0
+        },
+        {
+          "year": 2016,
+          "value": 3.0
+        },
+        {
+          "year": 2017,
+          "value": 4.0
+        },
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 2.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1302-c8",
+      "cip_code": "1302",
+      "cip_desc": "Bilingual, Multilingual, and Multicultural Education.",
+      "credential_level": 8,
+      "credential_desc": "Graduate/Professional Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 1,
+      "completers_single_year": 1,
+      "completers_history": [
+        {
+          "year": 2016,
+          "value": 3.0
+        },
+        {
+          "year": 2017,
+          "value": 1.0
+        },
+        {
+          "year": 2018,
+          "value": 1.0
+        },
+        {
+          "year": 2019,
+          "value": 1.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1307-c6",
+      "cip_code": "1307",
+      "cip_desc": "International and Comparative Education.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 1,
+      "completers_single_year": 3,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 12.0
+        },
+        {
+          "year": 2015,
+          "value": 8.0
+        },
+        {
+          "year": 2016,
+          "value": 2.0
+        },
+        {
+          "year": 2017,
+          "value": 6.0
+        },
+        {
+          "year": 2018,
+          "value": 3.0
+        },
+        {
+          "year": 2019,
+          "value": 1.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1312-c8",
+      "cip_code": "1312",
+      "cip_desc": "Teacher Education and Professional Development, Specific Levels and Methods.",
+      "credential_level": 8,
+      "credential_desc": "Graduate/Professional Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 1,
+      "completers_single_year": 7,
+      "completers_history": [
+        {
+          "year": 2018,
+          "value": 7.0
+        },
+        {
+          "year": 2019,
+          "value": 1.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "3017-c8",
+      "cip_code": "3017",
+      "cip_desc": "Behavioral Sciences.",
+      "credential_level": 8,
+      "credential_desc": "Graduate/Professional Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 1,
+      "completers_single_year": null,
+      "completers_history": [
+        {
+          "year": 2019,
+          "value": 1.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "3019-c6",
+      "cip_code": "3019",
+      "cip_desc": "Nutrition Sciences.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 1,
+      "completers_single_year": null,
+      "completers_history": [
+        {
+          "year": 2019,
+          "value": 1.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "3099-c5",
+      "cip_code": "3099",
+      "cip_desc": "Multi/Interdisciplinary Studies, Other.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 1,
+      "completers_single_year": 2,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 4.0
+        },
+        {
+          "year": 2015,
+          "value": 1.0
+        },
+        {
+          "year": 2016,
+          "value": 5.0
+        },
+        {
+          "year": 2017,
+          "value": 1.0
+        },
+        {
+          "year": 2018,
+          "value": 2.0
+        },
+        {
+          "year": 2019,
+          "value": 1.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "3105-c6",
+      "cip_code": "3105",
+      "cip_desc": "Health and Physical Education/Fitness.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 1,
+      "completers_single_year": 7,
+      "completers_history": [
+        {
+          "year": 2018,
+          "value": 7.0
+        },
+        {
+          "year": 2019,
+          "value": 1.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5122-c5",
+      "cip_code": "5122",
+      "cip_desc": "Public Health.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 1,
+      "completers_single_year": 9,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 5.0
+        },
+        {
+          "year": 2015,
+          "value": 4.0
+        },
+        {
+          "year": 2016,
+          "value": 3.0
+        },
+        {
+          "year": 2017,
+          "value": 4.0
+        },
+        {
+          "year": 2018,
+          "value": 9.0
+        },
+        {
+          "year": 2019,
+          "value": 1.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "0901-c5",
+      "cip_code": "0901",
+      "cip_desc": "Communication and Media Studies.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 12.0
+        },
+        {
+          "year": 2015,
+          "value": 9.0
+        },
+        {
+          "year": 2016,
+          "value": 0.0
+        },
+        {
+          "year": 2017,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "0901-c6",
+      "cip_code": "0901",
+      "cip_desc": "Communication and Media Studies.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 2.0
+        },
+        {
+          "year": 2015,
+          "value": 2.0
+        },
+        {
+          "year": 2016,
+          "value": 0.0
+        },
+        {
+          "year": 2017,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1301-c5",
+      "cip_code": "1301",
+      "cip_desc": "Education, General.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    },
+    {
+      "slug": "1310-c8",
+      "cip_code": "1310",
+      "cip_desc": "Special Education and Teaching.",
+      "credential_level": 8,
+      "credential_desc": "Graduate/Professional Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": 23,
+      "completers_history": [
+        {
+          "year": 2018,
+          "value": 23.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1314-c6",
+      "cip_code": "1314",
+      "cip_desc": "Teaching English or French as a Second or Foreign Language.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 0.0
+        },
+        {
+          "year": 2015,
+          "value": 0.0
+        },
+        {
+          "year": 2016,
+          "value": 1.0
+        },
+        {
+          "year": 2017,
+          "value": 2.0
+        },
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1601-c6",
+      "cip_code": "1601",
+      "cip_desc": "Linguistic, Comparative, and Related Language Studies and Services.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": 8,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 1.0
+        },
+        {
+          "year": 2015,
+          "value": 6.0
+        },
+        {
+          "year": 2016,
+          "value": 1.0
+        },
+        {
+          "year": 2017,
+          "value": 2.0
+        },
+        {
+          "year": 2018,
+          "value": 8.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1905-c5",
+      "cip_code": "1905",
+      "cip_desc": "Foods, Nutrition, and Related Services.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": 14,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 19.0
+        },
+        {
+          "year": 2015,
+          "value": 26.0
+        },
+        {
+          "year": 2016,
+          "value": 20.0
+        },
+        {
+          "year": 2017,
+          "value": 15.0
+        },
+        {
+          "year": 2018,
+          "value": 14.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4511-c6",
+      "cip_code": "4511",
+      "cip_desc": "Sociology.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": 2,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 0.0
+        },
+        {
+          "year": 2015,
+          "value": 0.0
+        },
+        {
+          "year": 2016,
+          "value": 2.0
+        },
+        {
+          "year": 2017,
+          "value": 2.0
+        },
+        {
+          "year": 2018,
+          "value": 2.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5122-c8",
+      "cip_code": "5122",
+      "cip_desc": "Public Health.",
+      "credential_level": 8,
+      "credential_desc": "Graduate/Professional Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2016,
+          "value": 2.0
+        },
+        {
+          "year": 2017,
+          "value": 0.0
+        },
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5132-c5",
+      "cip_code": "5132",
+      "cip_desc": "Bioethics/Medical Ethics.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": 3,
+      "completers_history": [
+        {
+          "year": 2018,
+          "value": 3.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5132-c8",
+      "cip_code": "5132",
+      "cip_desc": "Bioethics/Medical Ethics.",
+      "credential_level": 8,
+      "credential_desc": "Graduate/Professional Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    }
+  ],
+  "program_count": 72,
+  "similar": [
+    {
+      "slug": "albany-law-school-188535",
+      "name": "Albany Law School",
+      "city": "Albany",
+      "control": "private_nonprofit",
+      "pred_degree": "graduate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": null
+    },
+    {
+      "slug": "albany-medical-college-188580",
+      "name": "Albany Medical College",
+      "city": "Albany",
+      "control": "private_nonprofit",
+      "pred_degree": "graduate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": null
+    },
+    {
+      "slug": "bank-street-college-of-education-189015",
+      "name": "Bank Street College of Education",
+      "city": "New York",
+      "control": "private_nonprofit",
+      "pred_degree": "graduate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": null
+    },
+    {
+      "slug": "brooklyn-law-school-189501",
+      "name": "Brooklyn Law School",
+      "city": "Brooklyn",
+      "control": "private_nonprofit",
+      "pred_degree": "graduate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": null
+    },
+    {
+      "slug": "colgate-rochester-crozer-divinity-school-190080",
+      "name": "Colgate Rochester Crozer Divinity School",
+      "city": "Rochester",
+      "control": "private_nonprofit",
+      "pred_degree": "graduate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": null
+    }
+  ],
+  "roi": {
+    "default_program_slug": null,
+    "programs_available": [
+      {
+        "slug": "1313-c5",
+        "label": "Teacher Education and Professional Development, Specific Subject Areas · Master's Degree",
+        "cip_family": "13",
+        "completers": 281,
+        "has_earnings": false,
+        "earnings_at_completion": 73899,
+        "earnings_anchor_year": 5,
+        "debt_median": 51964,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "3017-c5",
+        "label": "Behavioral Sciences · Master's Degree",
+        "cip_family": "30",
+        "completers": 252,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": 86022,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "4228-c5",
+        "label": "Clinical, Counseling and Applied Psychology · Master's Degree",
+        "cip_family": "42",
+        "completers": 204,
+        "has_earnings": false,
+        "earnings_at_completion": 70471,
+        "earnings_anchor_year": 5,
+        "debt_median": 81639,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "1304-c5",
+        "label": "Educational Administration and Supervision · Master's Degree",
+        "cip_family": "13",
+        "completers": 140,
+        "has_earnings": false,
+        "earnings_at_completion": 90554,
+        "earnings_anchor_year": 5,
+        "debt_median": 50500,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "4227-c5",
+        "label": "Research and Experimental Psychology · Master's Degree",
+        "cip_family": "42",
+        "completers": 86,
+        "has_earnings": false,
+        "earnings_at_completion": 117437,
+        "earnings_anchor_year": 5,
+        "debt_median": 58988,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "1312-c5",
+        "label": "Teacher Education and Professional Development, Specific Levels and Methods · Master's Degree",
+        "cip_family": "13",
+        "completers": 71,
+        "has_earnings": false,
+        "earnings_at_completion": 76113,
+        "earnings_anchor_year": 5,
+        "debt_median": 64500,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "1305-c5",
+        "label": "Educational/Instructional Media Design · Master's Degree",
+        "cip_family": "13",
+        "completers": 69,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "1307-c5",
+        "label": "International and Comparative Education · Master's Degree",
+        "cip_family": "13",
+        "completers": 69,
+        "has_earnings": false,
+        "earnings_at_completion": 78185,
+        "earnings_anchor_year": 5,
+        "debt_median": 68250,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "1310-c5",
+        "label": "Special Education and Teaching · Master's Degree",
+        "cip_family": "13",
+        "completers": 60,
+        "has_earnings": false,
+        "earnings_at_completion": 74321,
+        "earnings_anchor_year": 5,
+        "debt_median": 41000,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "5102-c5",
+        "label": "Communication Disorders Sciences and Services · Master's Degree",
+        "cip_family": "51",
+        "completers": 56,
+        "has_earnings": false,
+        "earnings_at_completion": 85793,
+        "earnings_anchor_year": 5,
+        "debt_median": 103013,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "1306-c5",
+        "label": "Educational Assessment, Evaluation, and Research · Master's Degree",
+        "cip_family": "13",
+        "completers": 52,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "1313-c6",
+        "label": "Teacher Education and Professional Development, Specific Subject Areas · Doctoral Degree",
+        "cip_family": "13",
+        "completers": 50,
+        "has_earnings": false,
+        "earnings_at_completion": 100213,
+        "earnings_anchor_year": 5,
+        "debt_median": 88816,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "2609-c5",
+        "label": "Physiology, Pathology and Related Sciences · Master's Degree",
+        "cip_family": "26",
+        "completers": 47,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "1314-c5",
+        "label": "Teaching English or French as a Second or Foreign Language · Master's Degree",
+        "cip_family": "13",
+        "completers": 44,
+        "has_earnings": false,
+        "earnings_at_completion": 77982,
+        "earnings_anchor_year": 5,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "1303-c5",
+        "label": "Curriculum and Instruction · Master's Degree",
+        "cip_family": "13",
+        "completers": 43,
+        "has_earnings": false,
+        "earnings_at_completion": 84701,
+        "earnings_anchor_year": 5,
+        "debt_median": 45690,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "4506-c5",
+        "label": "Economics · Master's Degree",
+        "cip_family": "45",
+        "completers": 37,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "1601-c5",
+        "label": "Linguistic, Comparative, and Related Language Studies and Services · Master's Degree",
+        "cip_family": "16",
+        "completers": 33,
+        "has_earnings": false,
+        "earnings_at_completion": 46118,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "4228-c8",
+        "label": "Clinical, Counseling and Applied Psychology · Graduate/Professional Certificate",
+        "cip_family": "42",
+        "completers": 32,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "4405-c5",
+        "label": "Public Policy Analysis · Master's Degree",
+        "cip_family": "44",
+        "completers": 31,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": 41599,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "1302-c5",
+        "label": "Bilingual, Multilingual, and Multicultural Education · Master's Degree",
+        "cip_family": "13",
+        "completers": 29,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "3019-c5",
+        "label": "Nutrition Sciences · Master's Degree",
+        "cip_family": "30",
+        "completers": 28,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "5102-c8",
+        "label": "Communication Disorders Sciences and Services · Graduate/Professional Certificate",
+        "cip_family": "51",
+        "completers": 28,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "5010-c5",
+        "label": "Arts, Entertainment,and Media Management · Master's Degree",
+        "cip_family": "50",
+        "completers": 24,
+        "has_earnings": false,
+        "earnings_at_completion": 66055,
+        "earnings_anchor_year": 5,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "4511-c5",
+        "label": "Sociology · Master's Degree",
+        "cip_family": "45",
+        "completers": 23,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": 51263,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "1312-c6",
+        "label": "Teacher Education and Professional Development, Specific Levels and Methods · Doctoral Degree",
+        "cip_family": "13",
+        "completers": 21,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "1311-c8",
+        "label": "Student Counseling and Personnel Services · Graduate/Professional Certificate",
+        "cip_family": "13",
+        "completers": 15,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "1309-c5",
+        "label": "Social and Philosophical Foundations of Education · Master's Degree",
+        "cip_family": "13",
+        "completers": 14,
+        "has_earnings": false,
+        "earnings_at_completion": 84141,
+        "earnings_anchor_year": 5,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "1303-c6",
+        "label": "Curriculum and Instruction · Doctoral Degree",
+        "cip_family": "13",
+        "completers": 12,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "4227-c6",
+        "label": "Research and Experimental Psychology · Doctoral Degree",
+        "cip_family": "42",
+        "completers": 12,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "3099-c6",
+        "label": "Multi/Interdisciplinary Studies, Other · Doctoral Degree",
+        "cip_family": "30",
+        "completers": 11,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "1311-c5",
+        "label": "Student Counseling and Personnel Services · Master's Degree",
+        "cip_family": "13",
+        "completers": 10,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "4502-c5",
+        "label": "Anthropology · Master's Degree",
+        "cip_family": "45",
+        "completers": 10,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "1310-c6",
+        "label": "Special Education and Teaching · Doctoral Degree",
+        "cip_family": "13",
+        "completers": 9,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "3017-c6",
+        "label": "Behavioral Sciences · Doctoral Degree",
+        "cip_family": "30",
+        "completers": 9,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "1306-c6",
+        "label": "Educational Assessment, Evaluation, and Research · Doctoral Degree",
+        "cip_family": "13",
+        "completers": 8,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "4506-c6",
+        "label": "Economics · Doctoral Degree",
+        "cip_family": "45",
+        "completers": 8,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "3105-c5",
+        "label": "Health and Physical Education/Fitness · Master's Degree",
+        "cip_family": "31",
+        "completers": 6,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "4228-c6",
+        "label": "Clinical, Counseling and Applied Psychology · Doctoral Degree",
+        "cip_family": "42",
+        "completers": 6,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "1304-c6",
+        "label": "Educational Administration and Supervision · Doctoral Degree",
+        "cip_family": "13",
+        "completers": 5,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "4502-c6",
+        "label": "Anthropology · Doctoral Degree",
+        "cip_family": "45",
+        "completers": 5,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "1309-c6",
+        "label": "Social and Philosophical Foundations of Education · Doctoral Degree",
+        "cip_family": "13",
+        "completers": 4,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "1905-c6",
+        "label": "Foods, Nutrition, and Related Services · Doctoral Degree",
+        "cip_family": "19",
+        "completers": 4,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "4510-c5",
+        "label": "Political Science and Government · Master's Degree",
+        "cip_family": "45",
+        "completers": 4,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "4510-c6",
+        "label": "Political Science and Government · Doctoral Degree",
+        "cip_family": "45",
+        "completers": 4,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "1305-c6",
+        "label": "Educational/Instructional Media Design · Doctoral Degree",
+        "cip_family": "13",
+        "completers": 3,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "2609-c6",
+        "label": "Physiology, Pathology and Related Sciences · Doctoral Degree",
+        "cip_family": "26",
+        "completers": 3,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "3005-c8",
+        "label": "Peace Studies and Conflict Resolution · Graduate/Professional Certificate",
+        "cip_family": "30",
+        "completers": 3,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "1313-c8",
+        "label": "Teacher Education and Professional Development, Specific Subject Areas · Graduate/Professional Certificate",
+        "cip_family": "13",
+        "completers": 2,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "4405-c6",
+        "label": "Public Policy Analysis · Doctoral Degree",
+        "cip_family": "44",
+        "completers": 2,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "5102-c6",
+        "label": "Communication Disorders Sciences and Services · Doctoral Degree",
+        "cip_family": "51",
+        "completers": 2,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "5132-c6",
+        "label": "Bioethics/Medical Ethics · Doctoral Degree",
+        "cip_family": "51",
+        "completers": 2,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "5138-c5",
+        "label": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing · Master's Degree",
+        "cip_family": "51",
+        "completers": 2,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "5138-c6",
+        "label": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing · Doctoral Degree",
+        "cip_family": "51",
+        "completers": 2,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "1302-c8",
+        "label": "Bilingual, Multilingual, and Multicultural Education · Graduate/Professional Certificate",
+        "cip_family": "13",
+        "completers": 1,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "1307-c6",
+        "label": "International and Comparative Education · Doctoral Degree",
+        "cip_family": "13",
+        "completers": 1,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "1312-c8",
+        "label": "Teacher Education and Professional Development, Specific Levels and Methods · Graduate/Professional Certificate",
+        "cip_family": "13",
+        "completers": 1,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "3017-c8",
+        "label": "Behavioral Sciences · Graduate/Professional Certificate",
+        "cip_family": "30",
+        "completers": 1,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "3019-c6",
+        "label": "Nutrition Sciences · Doctoral Degree",
+        "cip_family": "30",
+        "completers": 1,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "3099-c5",
+        "label": "Multi/Interdisciplinary Studies, Other · Master's Degree",
+        "cip_family": "30",
+        "completers": 1,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "3105-c6",
+        "label": "Health and Physical Education/Fitness · Doctoral Degree",
+        "cip_family": "31",
+        "completers": 1,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "5122-c5",
+        "label": "Public Health · Master's Degree",
+        "cip_family": "51",
+        "completers": 1,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "0901-c5",
+        "label": "Communication and Media Studies · Master's Degree",
+        "cip_family": "09",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "0901-c6",
+        "label": "Communication and Media Studies · Doctoral Degree",
+        "cip_family": "09",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "1301-c5",
+        "label": "Education, General · Master's Degree",
+        "cip_family": "13",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "1310-c8",
+        "label": "Special Education and Teaching · Graduate/Professional Certificate",
+        "cip_family": "13",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "1314-c6",
+        "label": "Teaching English or French as a Second or Foreign Language · Doctoral Degree",
+        "cip_family": "13",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "1601-c6",
+        "label": "Linguistic, Comparative, and Related Language Studies and Services · Doctoral Degree",
+        "cip_family": "16",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "1905-c5",
+        "label": "Foods, Nutrition, and Related Services · Master's Degree",
+        "cip_family": "19",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "4511-c6",
+        "label": "Sociology · Doctoral Degree",
+        "cip_family": "45",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "5122-c8",
+        "label": "Public Health · Graduate/Professional Certificate",
+        "cip_family": "51",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "5132-c5",
+        "label": "Bioethics/Medical Ethics · Master's Degree",
+        "cip_family": "51",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "5132-c8",
+        "label": "Bioethics/Medical Ethics · Graduate/Professional Certificate",
+        "cip_family": "51",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      }
+    ]
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

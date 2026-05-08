@@ -1,0 +1,228 @@
+{
+  "institution_unitid": "413413",
+  "institution_name": "Capella University",
+  "institution_slug": "capella-university-413413",
+  "state": "mn",
+  "cip_code": "5210",
+  "cip_desc": "Human Resources Management and Services.",
+  "credential_level": 8,
+  "credential_desc": "Graduate/Professional Certificate",
+  "slug": "5210-c8",
+  "earnings_median_4yr": 51746,
+  "earnings_median_5yr": 61367,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 4,
+  "debt_median": 35165,
+  "completers": 55,
+  "completers_single_year": 43,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 51746.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 61367.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 24433.0
+      },
+      {
+        "year": 2015,
+        "value": 30198.0
+      },
+      {
+        "year": 2016,
+        "value": 32000.0
+      },
+      {
+        "year": 2017,
+        "value": 34169.0
+      },
+      {
+        "year": 2018,
+        "value": 35165.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 42.0
+      },
+      {
+        "year": 2015,
+        "value": 51.0
+      },
+      {
+        "year": 2016,
+        "value": 60.0
+      },
+      {
+        "year": 2017,
+        "value": 62.0
+      },
+      {
+        "year": 2018,
+        "value": 43.0
+      },
+      {
+        "year": 2019,
+        "value": 55.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 24433.0,
+      "to_value": 35165.0,
+      "pct_change": 0.4392420087586461,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Human Resources Management and Services at Capella University rose 44% between 2014 and 2018 ($24.4k → $35.2k).",
+      "magnitude_pct": 43.9,
+      "magnitude_abs": 10732.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "413413",
+    "slug": "capella-university-413413",
+    "name": "Capella University",
+    "city": "Minneapolis",
+    "city_slug": "minneapolis",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "walden-university-125231",
+      "institution_name": "Walden University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 24,
+      "completers_single_year": 41,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bethel-university-173160",
+      "institution_name": "Bethel University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 88471,
+      "debt_median": 24778,
+      "completers": 6,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-minnesota-twin-cities-174066",
+      "institution_name": "University of Minnesota-Twin Cities",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-mary-s-university-of-minnesota-174817",
+      "institution_name": "Saint Mary's University of Minnesota",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-college-of-saint-scholastica-174899",
+      "institution_name": "The College of Saint Scholastica",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 4,
+    "inputs": {
+      "years_to_complete": 5,
+      "cost_per_year_default": 20489,
+      "cost_total_default": 102445,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 61367,
+      "earnings_anchor_year": 5,
+      "debt_median": 35165,
+      "cip_family": "52",
+      "hs_baseline_state": 39400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 312936,
+      "breakeven_year": 15
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

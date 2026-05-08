@@ -1,0 +1,253 @@
+{
+  "institution_unitid": "484613",
+  "institution_name": "University of Phoenix-Arizona",
+  "institution_slug": "university-of-phoenix-arizona-484613",
+  "state": "az",
+  "cip_code": "5210",
+  "cip_desc": "Human Resources Management and Services.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "5210-c1",
+  "earnings_median_4yr": 63337,
+  "earnings_median_5yr": 69835,
+  "earnings_count_4yr": 4,
+  "earnings_count_5yr": 3,
+  "debt_median": 7125,
+  "completers": 992,
+  "completers_single_year": 877,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 63337.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 69835.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 8000.0
+      },
+      {
+        "year": 2015,
+        "value": 7125.0
+      },
+      {
+        "year": 2016,
+        "value": 7125.0
+      },
+      {
+        "year": 2017,
+        "value": 7125.0
+      },
+      {
+        "year": 2018,
+        "value": 7125.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 422.0
+      },
+      {
+        "year": 2015,
+        "value": 538.0
+      },
+      {
+        "year": 2016,
+        "value": 672.0
+      },
+      {
+        "year": 2017,
+        "value": 788.0
+      },
+      {
+        "year": 2018,
+        "value": 877.0
+      },
+      {
+        "year": 2019,
+        "value": 992.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "completers",
+      "from_year": 2014,
+      "to_year": 2019,
+      "from_value": 422.0,
+      "to_value": 992.0,
+      "pct_change": 0.57,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Annual completers",
+      "summary": "Annual completers at Human Resources Management and Services at University of Phoenix-Arizona rose 57% between 2014 and 2019 (422 → 992).",
+      "magnitude_pct": 57.0,
+      "magnitude_abs": 570.0,
+      "baseline_year": 2014,
+      "recent_year": 2019,
+      "units": null,
+      "history": [],
+      "metric": "completers"
+    }
+  ],
+  "institution": {
+    "unitid": "484613",
+    "slug": "university-of-phoenix-arizona-484613",
+    "name": "University of Phoenix-Arizona",
+    "city": "Phoenix",
+    "city_slug": "phoenix",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "glendale-community-college-104708",
+      "institution_name": "Glendale Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "gateway-community-college-105145",
+      "institution_name": "GateWay Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mesa-community-college-105154",
+      "institution_name": "Mesa Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northern-arizona-university-105330",
+      "institution_name": "Northern Arizona University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 34,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "phoenix-college-105428",
+      "institution_name": "Phoenix College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 31,
+      "completers_single_year": 34,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pima-community-college-105525",
+      "institution_name": "Pima Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 26,
+      "completers_single_year": 25,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rio-salado-college-105668",
+      "institution_name": "Rio Salado College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "scottsdale-community-college-105747",
+      "institution_name": "Scottsdale Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "south-mountain-community-college-105792",
+      "institution_name": "South Mountain Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "chandler-gilbert-community-college-364025",
+      "institution_name": "Chandler-Gilbert Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

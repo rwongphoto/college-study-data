@@ -1,0 +1,189 @@
+{
+  "institution_unitid": "224350",
+  "institution_name": "Del Mar College",
+  "institution_slug": "del-mar-college-224350",
+  "state": "tx",
+  "cip_code": "4604",
+  "cip_desc": "Building/Construction Finishing, Management, and Inspection.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "4604-c1",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": null,
+  "earnings_count_5yr": null,
+  "debt_median": null,
+  "completers": 2,
+  "completers_single_year": 23,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 3.0
+      },
+      {
+        "year": 2015,
+        "value": 6.0
+      },
+      {
+        "year": 2016,
+        "value": 26.0
+      },
+      {
+        "year": 2017,
+        "value": 23.0
+      },
+      {
+        "year": 2018,
+        "value": 23.0
+      },
+      {
+        "year": 2019,
+        "value": 2.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "224350",
+    "slug": "del-mar-college-224350",
+    "name": "Del Mar College",
+    "city": "Corpus Christi",
+    "city_slug": "corpus-christi",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "austin-community-college-district-222992",
+      "institution_name": "Austin Community College District",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "remington-college-dallas-campus-223463",
+      "institution_name": "Remington College-Dallas Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 9500,
+      "completers": 3,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "central-texas-college-223816",
+      "institution_name": "Central Texas College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 23,
+      "completers_single_year": 39,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cisco-college-223898",
+      "institution_name": "Cisco College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "howard-college-225520",
+      "institution_name": "Howard College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "texas-southmost-college-227377",
+      "institution_name": "Texas Southmost College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 28,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "collin-county-community-college-district-247834",
+      "institution_name": "Collin County Community College District",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 6768,
+      "cost_total_default": 6768,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "46"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

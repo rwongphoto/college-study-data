@@ -1,0 +1,174 @@
+{
+  "institution_unitid": "199120",
+  "institution_name": "University of North Carolina at Chapel Hill",
+  "institution_slug": "university-of-north-carolina-at-chapel-hill-199120",
+  "state": "nc",
+  "cip_code": "3005",
+  "cip_desc": "Peace Studies and Conflict Resolution.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "3005-c3",
+  "earnings_median_4yr": 63183,
+  "earnings_median_5yr": 78097,
+  "earnings_count_4yr": 5,
+  "earnings_count_5yr": 4,
+  "debt_median": 14000,
+  "completers": 120,
+  "completers_single_year": 129,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 63183.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 78097.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 15884.0
+      },
+      {
+        "year": 2015,
+        "value": 15000.0
+      },
+      {
+        "year": 2016,
+        "value": 16450.0
+      },
+      {
+        "year": 2017,
+        "value": 16823.0
+      },
+      {
+        "year": 2018,
+        "value": 14000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 102.0
+      },
+      {
+        "year": 2015,
+        "value": 103.0
+      },
+      {
+        "year": 2016,
+        "value": 118.0
+      },
+      {
+        "year": 2017,
+        "value": 128.0
+      },
+      {
+        "year": 2018,
+        "value": 129.0
+      },
+      {
+        "year": 2019,
+        "value": 120.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "199120",
+    "slug": "university-of-north-carolina-at-chapel-hill-199120",
+    "name": "University of North Carolina at Chapel Hill",
+    "city": "Chapel Hill",
+    "city_slug": "chapel-hill",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "guilford-college-198613",
+      "institution_name": "Guilford College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-north-carolina-at-greensboro-199148",
+      "institution_name": "University of North Carolina at Greensboro",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 25000,
+      "completers": 14,
+      "completers_single_year": 24,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 4,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 11220,
+      "cost_total_default": 44880,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 78097,
+      "earnings_anchor_year": 5,
+      "debt_median": 14000,
+      "cip_family": "30",
+      "hs_baseline_state": 35600
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 758183,
+      "breakeven_year": 6
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,634 @@
+{
+  "institution_unitid": "206084",
+  "institution_name": "University of Toledo",
+  "institution_slug": "university-of-toledo-206084",
+  "state": "oh",
+  "cip_code": "5202",
+  "cip_desc": "Business Administration, Management and Operations.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5202-c3",
+  "earnings_median_4yr": 57960,
+  "earnings_median_5yr": 66158,
+  "earnings_count_4yr": 6,
+  "earnings_count_5yr": 8,
+  "debt_median": 21050,
+  "completers": 223,
+  "completers_single_year": 241,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 57960.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 66158.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 25250.0
+      },
+      {
+        "year": 2015,
+        "value": 25000.0
+      },
+      {
+        "year": 2016,
+        "value": 24700.0
+      },
+      {
+        "year": 2017,
+        "value": 22761.0
+      },
+      {
+        "year": 2018,
+        "value": 21050.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 130.0
+      },
+      {
+        "year": 2015,
+        "value": 158.0
+      },
+      {
+        "year": 2016,
+        "value": 174.0
+      },
+      {
+        "year": 2017,
+        "value": 194.0
+      },
+      {
+        "year": 2018,
+        "value": 241.0
+      },
+      {
+        "year": 2019,
+        "value": 223.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "206084",
+    "slug": "university-of-toledo-206084",
+    "name": "University of Toledo",
+    "city": "Toledo",
+    "city_slug": "toledo",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "miami-university-oxford-204024",
+      "institution_name": "Miami University-Oxford",
+      "earnings_median_5yr": 102402,
+      "earnings_median_4yr": 84103,
+      "debt_median": 24250,
+      "completers": 97,
+      "completers_single_year": 91,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-dayton-202480",
+      "institution_name": "University of Dayton",
+      "earnings_median_5yr": 96146,
+      "earnings_median_4yr": 75643,
+      "debt_median": 23000,
+      "completers": 32,
+      "completers_single_year": 22,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ohio-state-university-main-campus-204796",
+      "institution_name": "Ohio State University-Main Campus",
+      "earnings_median_5yr": 85390,
+      "earnings_median_4yr": 73933,
+      "debt_median": 21500,
+      "completers": 266,
+      "completers_single_year": 333,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-cincinnati-main-campus-201885",
+      "institution_name": "University of Cincinnati-Main Campus",
+      "earnings_median_5yr": 83673,
+      "earnings_median_4yr": 77827,
+      "debt_median": 22500,
+      "completers": 192,
+      "completers_single_year": 193,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "xavier-university-206622",
+      "institution_name": "Xavier University",
+      "earnings_median_5yr": 78503,
+      "earnings_median_4yr": 68372,
+      "debt_median": 27000,
+      "completers": 43,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bowling-green-state-university-main-campus-201441",
+      "institution_name": "Bowling Green State University-Main Campus",
+      "earnings_median_5yr": 78492,
+      "earnings_median_4yr": 70489,
+      "debt_median": 23738,
+      "completers": 124,
+      "completers_single_year": 138,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "john-carroll-university-203368",
+      "institution_name": "John Carroll University",
+      "earnings_median_5yr": 77892,
+      "earnings_median_4yr": 65868,
+      "debt_median": 24350,
+      "completers": 29,
+      "completers_single_year": 44,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "otterbein-university-204936",
+      "institution_name": "Otterbein University",
+      "earnings_median_5yr": 72883,
+      "earnings_median_4yr": 60614,
+      "debt_median": 26000,
+      "completers": 28,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "heidelberg-university-203085",
+      "institution_name": "Heidelberg University",
+      "earnings_median_5yr": 72694,
+      "earnings_median_4yr": 63701,
+      "debt_median": 27000,
+      "completers": 31,
+      "completers_single_year": 30,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "walsh-university-206437",
+      "institution_name": "Walsh University",
+      "earnings_median_5yr": 71349,
+      "earnings_median_4yr": 63958,
+      "debt_median": 31000,
+      "completers": 53,
+      "completers_single_year": 36,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ashland-university-201104",
+      "institution_name": "Ashland University",
+      "earnings_median_5yr": 69931,
+      "earnings_median_4yr": 62979,
+      "debt_median": 23250,
+      "completers": 35,
+      "completers_single_year": 39,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mount-st-joseph-university-204200",
+      "institution_name": "Mount St. Joseph University",
+      "earnings_median_5yr": 69074,
+      "earnings_median_4yr": 54627,
+      "debt_median": 29750,
+      "completers": 18,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-akron-main-campus-200800",
+      "institution_name": "University of Akron Main Campus",
+      "earnings_median_5yr": 67575,
+      "earnings_median_4yr": 60615,
+      "debt_median": 25971,
+      "completers": 158,
+      "completers_single_year": 210,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-mount-union-204185",
+      "institution_name": "University of Mount Union",
+      "earnings_median_5yr": 67571,
+      "earnings_median_4yr": 64327,
+      "debt_median": 27000,
+      "completers": 27,
+      "completers_single_year": 25,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wilmington-college-206507",
+      "institution_name": "Wilmington College",
+      "earnings_median_5yr": 65737,
+      "earnings_median_4yr": 55848,
+      "debt_median": 20500,
+      "completers": 83,
+      "completers_single_year": 86,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "malone-university-203775",
+      "institution_name": "Malone University",
+      "earnings_median_5yr": 65032,
+      "earnings_median_4yr": 59362,
+      "debt_median": 24161,
+      "completers": 80,
+      "completers_single_year": 74,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "franklin-university-202806",
+      "institution_name": "Franklin University",
+      "earnings_median_5yr": 64305,
+      "earnings_median_4yr": 55627,
+      "debt_median": 23053,
+      "completers": 367,
+      "completers_single_year": 322,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "capital-university-201548",
+      "institution_name": "Capital University",
+      "earnings_median_5yr": 63516,
+      "earnings_median_4yr": 54405,
+      "debt_median": 23949,
+      "completers": 35,
+      "completers_single_year": 48,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ohio-dominican-university-204617",
+      "institution_name": "Ohio Dominican University",
+      "earnings_median_5yr": 63392,
+      "earnings_median_4yr": 57005,
+      "debt_median": 27000,
+      "completers": 42,
+      "completers_single_year": 47,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bluffton-university-201371",
+      "institution_name": "Bluffton University",
+      "earnings_median_5yr": 63018,
+      "earnings_median_4yr": 53821,
+      "debt_median": 27000,
+      "completers": 19,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mount-vernon-nazarene-university-204194",
+      "institution_name": "Mount Vernon Nazarene University",
+      "earnings_median_5yr": 61912,
+      "earnings_median_4yr": 55950,
+      "debt_median": 23218,
+      "completers": 75,
+      "completers_single_year": 70,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-university-of-findlay-202763",
+      "institution_name": "The University of Findlay",
+      "earnings_median_5yr": 60632,
+      "earnings_median_4yr": 48107,
+      "debt_median": 25000,
+      "completers": 71,
+      "completers_single_year": 57,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hiram-college-203128",
+      "institution_name": "Hiram College",
+      "earnings_median_5yr": 60455,
+      "earnings_median_4yr": 50405,
+      "debt_median": 27000,
+      "completers": 30,
+      "completers_single_year": 32,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cleveland-state-university-202134",
+      "institution_name": "Cleveland State University",
+      "earnings_median_5yr": 60137,
+      "earnings_median_4yr": 52512,
+      "debt_median": 23492,
+      "completers": 97,
+      "completers_single_year": 75,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "kent-state-university-at-kent-203517",
+      "institution_name": "Kent State University at Kent",
+      "earnings_median_5yr": 59986,
+      "earnings_median_4yr": 50908,
+      "debt_median": 24909,
+      "completers": 272,
+      "completers_single_year": 285,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ohio-christian-university-201964",
+      "institution_name": "Ohio Christian University",
+      "earnings_median_5yr": 59663,
+      "earnings_median_4yr": 49438,
+      "debt_median": 25975,
+      "completers": 78,
+      "completers_single_year": 98,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ohio-university-main-campus-204857",
+      "institution_name": "Ohio University-Main Campus",
+      "earnings_median_5yr": 58831,
+      "earnings_median_4yr": 53818,
+      "debt_median": 21563,
+      "completers": 255,
+      "completers_single_year": 304,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lake-erie-college-203580",
+      "institution_name": "Lake Erie College",
+      "earnings_median_5yr": 58568,
+      "earnings_median_4yr": 47036,
+      "debt_median": 27000,
+      "completers": 17,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "baldwin-wallace-university-201195",
+      "institution_name": "Baldwin Wallace University",
+      "earnings_median_5yr": 58497,
+      "earnings_median_4yr": 47483,
+      "debt_median": 27000,
+      "completers": 72,
+      "completers_single_year": 63,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "muskingum-university-204264",
+      "institution_name": "Muskingum University",
+      "earnings_median_5yr": 58475,
+      "earnings_median_4yr": 55105,
+      "debt_median": 26000,
+      "completers": 25,
+      "completers_single_year": 25,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "notre-dame-college-204468",
+      "institution_name": "Notre Dame College",
+      "earnings_median_5yr": 57238,
+      "earnings_median_4yr": 63400,
+      "debt_median": 26500,
+      "completers": 30,
+      "completers_single_year": 37,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "youngstown-state-university-206695",
+      "institution_name": "Youngstown State University",
+      "earnings_median_5yr": 53043,
+      "earnings_median_4yr": 51077,
+      "debt_median": 20000,
+      "completers": 57,
+      "completers_single_year": 46,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wright-state-university-main-campus-206604",
+      "institution_name": "Wright State University-Main Campus",
+      "earnings_median_5yr": 50246,
+      "earnings_median_4yr": 49017,
+      "debt_median": 22525,
+      "completers": 115,
+      "completers_single_year": 164,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-northwestern-ohio-204486",
+      "institution_name": "University of Northwestern Ohio",
+      "earnings_median_5yr": 50192,
+      "earnings_median_4yr": 44054,
+      "debt_median": 31000,
+      "completers": 86,
+      "completers_single_year": 98,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lourdes-university-203757",
+      "institution_name": "Lourdes University",
+      "earnings_median_5yr": 48238,
+      "earnings_median_4yr": 51470,
+      "debt_median": 27000,
+      "completers": 25,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-rio-grande-205203",
+      "institution_name": "University of Rio Grande",
+      "earnings_median_5yr": 43622,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "shawnee-state-university-205443",
+      "institution_name": "Shawnee State University",
+      "earnings_median_5yr": 43163,
+      "earnings_median_4yr": 37764,
+      "debt_median": 26000,
+      "completers": 23,
+      "completers_single_year": 22,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "case-western-reserve-university-201645",
+      "institution_name": "Case Western Reserve University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 26000,
+      "completers": 28,
+      "completers_single_year": 35,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cedarville-university-201654",
+      "institution_name": "Cedarville University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 25000,
+      "completers": 17,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "marietta-college-203845",
+      "institution_name": "Marietta College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ohio-wesleyan-university-204909",
+      "institution_name": "Ohio Wesleyan University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 27000,
+      "completers": 32,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "franciscan-university-of-steubenville-205957",
+      "institution_name": "Franciscan University of Steubenville",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 27000,
+      "completers": 36,
+      "completers_single_year": 22,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "tiffin-university-206048",
+      "institution_name": "Tiffin University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 47491,
+      "debt_median": 21301,
+      "completers": 62,
+      "completers_single_year": 59,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ursuline-college-206349",
+      "institution_name": "Ursuline College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wilberforce-university-206491",
+      "institution_name": "Wilberforce University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wittenberg-university-206525",
+      "institution_name": "Wittenberg University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "antioch-university-245892",
+      "institution_name": "Antioch University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lakewood-university-496706",
+      "institution_name": "Lakewood University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 8,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 17553,
+      "cost_total_default": 70212,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 66158,
+      "earnings_anchor_year": 5,
+      "debt_median": 21050,
+      "cip_family": "52",
+      "hs_baseline_state": 36400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 524245,
+      "breakeven_year": 9
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "state": "pa",
+  "name": "Oakdale",
+  "slug": "oakdale",
+  "institution_count": 1,
+  "institutions": [
+    {
+      "unitid": "215415",
+      "slug": "pittsburgh-technical-college-215415",
+      "name": "Pittsburgh Technical College",
+      "city": "Oakdale",
+      "city_slug": "oakdale",
+      "control": "private_nonprofit",
+      "pred_degree": "associates",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 40770,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 36852
+        },
+        {
+          "year": 8,
+          "value": 37591
+        },
+        {
+          "year": 10,
+          "value": 40770
+        }
+      ],
+      "completion_rate_150": 0.5309,
+      "completion_rate_history": [
+        {
+          "year": 1997,
+          "value": 0.7179
+        },
+        {
+          "year": 1998,
+          "value": 0.6885
+        },
+        {
+          "year": 1999,
+          "value": 0.6455
+        },
+        {
+          "year": 2000,
+          "value": 0.6909
+        },
+        {
+          "year": 2001,
+          "value": 0.6765
+        },
+        {
+          "year": 2002,
+          "value": 0.6803
+        },
+        {
+          "year": 2003,
+          "value": 0.6254
+        },
+        {
+          "year": 2004,
+          "value": 0.5963
+        },
+        {
+          "year": 2005,
+          "value": 0.5767
+        },
+        {
+          "year": 2006,
+          "value": 0.563
+        },
+        {
+          "year": 2007,
+          "value": 0.5701
+        },
+        {
+          "year": 2008,
+          "value": 0.56
+        },
+        {
+          "year": 2009,
+          "value": 0.5066
+        }
+      ],
+      "enrollment_undergrad": 822,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 833.0
+        },
+        {
+          "year": 1997,
+          "value": 1120.0
+        },
+        {
+          "year": 1998,
+          "value": 1321.0
+        },
+        {
+          "year": 1999,
+          "value": 825.0
+        },
+        {
+          "year": 2001,
+          "value": 1056.0
+        },
+        {
+          "year": 2002,
+          "value": 1966.0
+        },
+        {
+          "year": 2003,
+          "value": 1929.0
+        },
+        {
+          "year": 2004,
+          "value": 1885.0
+        },
+        {
+          "year": 2005,
+          "value": 1860.0
+        },
+        {
+          "year": 2006,
+          "value": 2003.0
+        },
+        {
+          "year": 2007,
+          "value": 2065.0
+        },
+        {
+          "year": 2008,
+          "value": 2072.0
+        },
+        {
+          "year": 2009,
+          "value": 2192.0
+        }
+      ],
+      "median_debt": 13166,
+      "default_rate": null,
+      "tuition_in_state": 18980,
+      "tuition_out_of_state": 18980,
+      "long_arc": [
+        {
+          "metric": "completion_rate_150",
+          "from_year": 1997,
+          "to_year": 2009,
+          "from_value": 0.7179,
+          "to_value": 0.5066,
+          "pct_change": -0.29433068672517054,
+          "direction": "fell"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 1996,
+          "to_year": 2009,
+          "from_value": 833.0,
+          "to_value": 2192.0,
+          "pct_change": 1.631452581032413,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_in_state",
+          "from_year": 2000,
+          "to_year": 2009,
+          "from_value": 9692.0,
+          "to_value": 14400.0,
+          "pct_change": 0.4857614527445316,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2000,
+          "to_year": 2009,
+          "from_value": 9692.0,
+          "to_value": 14400.0,
+          "pct_change": 0.4857614527445316,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 1997,
+          "to_year": 2009,
+          "from_value": 6125.0,
+          "to_value": 12277.0,
+          "pct_change": 1.0044081632653061,
+          "direction": "rose"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2008,
+          "to_year": 2009,
+          "from_value": 0.7031,
+          "to_value": 0.5618,
+          "pct_change": -0.2009671454985066,
+          "direction": "fell"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": 40770,
+  "completion_rate_city": 0.5309,
+  "completion_history_city": [
+    {
+      "year": 1997,
+      "value": 0.7179
+    },
+    {
+      "year": 1998,
+      "value": 0.6885
+    },
+    {
+      "year": 1999,
+      "value": 0.6455
+    },
+    {
+      "year": 2000,
+      "value": 0.6909
+    },
+    {
+      "year": 2001,
+      "value": 0.6765
+    },
+    {
+      "year": 2002,
+      "value": 0.6803
+    },
+    {
+      "year": 2003,
+      "value": 0.6254
+    },
+    {
+      "year": 2004,
+      "value": 0.5963
+    },
+    {
+      "year": 2005,
+      "value": 0.5767
+    },
+    {
+      "year": 2006,
+      "value": 0.563
+    },
+    {
+      "year": 2007,
+      "value": 0.5701
+    },
+    {
+      "year": 2008,
+      "value": 0.56
+    },
+    {
+      "year": 2009,
+      "value": 0.5066
+    }
+  ],
+  "enrollment_history_city": [
+    {
+      "year": 1996,
+      "value": 833.0
+    },
+    {
+      "year": 1997,
+      "value": 1120.0
+    },
+    {
+      "year": 1998,
+      "value": 1321.0
+    },
+    {
+      "year": 1999,
+      "value": 825.0
+    },
+    {
+      "year": 2001,
+      "value": 1056.0
+    },
+    {
+      "year": 2002,
+      "value": 1966.0
+    },
+    {
+      "year": 2003,
+      "value": 1929.0
+    },
+    {
+      "year": 2004,
+      "value": 1885.0
+    },
+    {
+      "year": 2005,
+      "value": 1860.0
+    },
+    {
+      "year": 2006,
+      "value": 2003.0
+    },
+    {
+      "year": 2007,
+      "value": 2065.0
+    },
+    {
+      "year": 2008,
+      "value": 2072.0
+    },
+    {
+      "year": 2009,
+      "value": 2192.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

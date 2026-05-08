@@ -1,0 +1,178 @@
+{
+  "institution_unitid": "243841",
+  "institution_name": "ICPR Junior College",
+  "institution_slug": "icpr-junior-college-243841",
+  "state": "pr",
+  "cip_code": "5106",
+  "cip_desc": "Dental Support Services and Allied Professions.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "5106-c2",
+  "earnings_median_4yr": 18563,
+  "earnings_median_5yr": 20200,
+  "earnings_count_4yr": 8,
+  "earnings_count_5yr": 7,
+  "debt_median": null,
+  "completers": null,
+  "completers_single_year": null,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 18563.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 20200.0
+      }
+    ],
+    "debt_median": [],
+    "completers": []
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "243841",
+    "slug": "icpr-junior-college-243841",
+    "name": "ICPR Junior College",
+    "city": "Hato Rey",
+    "city_slug": "hato-rey",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "huertas-college-242112",
+      "institution_name": "Huertas College",
+      "earnings_median_5yr": 19970,
+      "earnings_median_4yr": 15022,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 22,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "nuc-university-242972",
+      "institution_name": "NUC University",
+      "earnings_median_5yr": 16153,
+      "earnings_median_4yr": 14228,
+      "debt_median": 7470,
+      "completers": 87,
+      "completers_single_year": 66,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "universidad-ana-g-mendez-cupey-campus-241739",
+      "institution_name": "Universidad Ana G. Mendez-Cupey Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "humacao-community-college-242121",
+      "institution_name": "Humacao Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-puerto-rico-medical-sciences-243203",
+      "institution_name": "University of Puerto Rico-Medical Sciences",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 21,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "universidad-ana-g-mendez-carolina-campus-243346",
+      "institution_name": "Universidad Ana G. Mendez-Carolina Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mech-tech-college-414461",
+      "institution_name": "Mech-Tech College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 7,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 8988,
+      "cost_total_default": 17976,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 20200,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "51",
+      "hs_baseline_state": 22400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -43087,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

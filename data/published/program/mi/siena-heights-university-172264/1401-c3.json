@@ -1,0 +1,199 @@
+{
+  "institution_unitid": "172264",
+  "institution_name": "Siena Heights University",
+  "institution_slug": "siena-heights-university-172264",
+  "state": "mi",
+  "cip_code": "1401",
+  "cip_desc": "Engineering, General.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1401-c3",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": null,
+  "earnings_count_5yr": null,
+  "debt_median": null,
+  "completers": 3,
+  "completers_single_year": null,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [],
+    "completers": [
+      {
+        "year": 2019,
+        "value": 3.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "172264",
+    "slug": "siena-heights-university-172264",
+    "name": "Siena Heights University",
+    "city": "Adrian",
+    "city_slug": "adrian",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "michigan-state-university-171100",
+      "institution_name": "Michigan State University",
+      "earnings_median_5yr": 96847,
+      "earnings_median_4yr": 81700,
+      "debt_median": 22250,
+      "completers": 103,
+      "completers_single_year": 125,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "calvin-university-169080",
+      "institution_name": "Calvin University",
+      "earnings_median_5yr": 88670,
+      "earnings_median_4yr": 78363,
+      "debt_median": 22409,
+      "completers": 85,
+      "completers_single_year": 83,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hope-college-170301",
+      "institution_name": "Hope College",
+      "earnings_median_5yr": 87793,
+      "earnings_median_4yr": 76755,
+      "debt_median": 27000,
+      "completers": 53,
+      "completers_single_year": 57,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "andrews-university-168740",
+      "institution_name": "Andrews University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-detroit-mercy-169716",
+      "institution_name": "University of Detroit Mercy",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 28,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cornerstone-university-170037",
+      "institution_name": "Cornerstone University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "grand-valley-state-university-170082",
+      "institution_name": "Grand Valley State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-michigan-ann-arbor-170976",
+      "institution_name": "University of Michigan-Ann Arbor",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "michigan-technological-university-171128",
+      "institution_name": "Michigan Technological University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wayne-state-university-172644",
+      "institution_name": "Wayne State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 17350,
+      "cost_total_default": 69400,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "14"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

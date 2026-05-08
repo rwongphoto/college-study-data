@@ -1,0 +1,238 @@
+{
+  "institution_unitid": "150987",
+  "institution_name": "Ivy Tech Community College",
+  "institution_slug": "ivy-tech-community-college-150987",
+  "state": "in",
+  "cip_code": "5107",
+  "cip_desc": "Health and Medical Administrative Services.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "5107-c1",
+  "earnings_median_4yr": 31484,
+  "earnings_median_5yr": 34596,
+  "earnings_count_4yr": 14,
+  "earnings_count_5yr": 16,
+  "debt_median": 10250,
+  "completers": 1147,
+  "completers_single_year": 1010,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 31484.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 34596.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 13285.0
+      },
+      {
+        "year": 2015,
+        "value": 11948.0
+      },
+      {
+        "year": 2016,
+        "value": 11323.0
+      },
+      {
+        "year": 2017,
+        "value": 11000.0
+      },
+      {
+        "year": 2018,
+        "value": 10250.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 1111.0
+      },
+      {
+        "year": 2015,
+        "value": 921.0
+      },
+      {
+        "year": 2016,
+        "value": 1120.0
+      },
+      {
+        "year": 2017,
+        "value": 913.0
+      },
+      {
+        "year": 2018,
+        "value": 1010.0
+      },
+      {
+        "year": 2019,
+        "value": 1147.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 13285.0,
+      "to_value": 10250.0,
+      "pct_change": -0.22845314264207753,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Health and Medical Administrative Services at Ivy Tech Community College fell 23% between 2014 and 2018 ($13.3k → $10.2k).",
+      "magnitude_pct": -22.8,
+      "magnitude_abs": -3035.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "150987",
+    "slug": "ivy-tech-community-college-150987",
+    "name": "Ivy Tech Community College",
+    "city": "Indianapolis",
+    "city_slug": "indianapolis",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "purdue-university-global-489779",
+      "institution_name": "Purdue University Global",
+      "earnings_median_5yr": 34242,
+      "earnings_median_4yr": 30906,
+      "debt_median": 12920,
+      "completers": 367,
+      "completers_single_year": 339,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-evansville-150534",
+      "institution_name": "University of Evansville",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "indiana-university-indianapolis-151111",
+      "institution_name": "Indiana University-Indianapolis",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "indiana-university-kokomo-151333",
+      "institution_name": "Indiana University-Kokomo",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "indiana-university-southeast-151379",
+      "institution_name": "Indiana University-Southeast",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 15,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "vincennes-university-152637",
+      "institution_name": "Vincennes University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 16,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 8422,
+      "cost_total_default": 8422,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 34596,
+      "earnings_anchor_year": 5,
+      "debt_median": 10250,
+      "cip_family": "51",
+      "hs_baseline_state": 36400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -236,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

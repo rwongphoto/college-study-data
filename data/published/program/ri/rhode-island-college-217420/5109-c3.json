@@ -1,0 +1,188 @@
+{
+  "institution_unitid": "217420",
+  "institution_name": "Rhode Island College",
+  "institution_slug": "rhode-island-college-217420",
+  "state": "ri",
+  "cip_code": "5109",
+  "cip_desc": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5109-c3",
+  "earnings_median_4yr": 62550,
+  "earnings_median_5yr": 67913,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 0,
+  "debt_median": 25152,
+  "completers": 50,
+  "completers_single_year": 41,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 62550.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 67913.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 20879.0
+      },
+      {
+        "year": 2015,
+        "value": 21700.0
+      },
+      {
+        "year": 2016,
+        "value": 21814.0
+      },
+      {
+        "year": 2017,
+        "value": 22625.0
+      },
+      {
+        "year": 2018,
+        "value": 25152.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 32.0
+      },
+      {
+        "year": 2015,
+        "value": 40.0
+      },
+      {
+        "year": 2016,
+        "value": 41.0
+      },
+      {
+        "year": 2017,
+        "value": 45.0
+      },
+      {
+        "year": 2018,
+        "value": 41.0
+      },
+      {
+        "year": 2019,
+        "value": 50.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 20879.0,
+      "to_value": 25152.0,
+      "pct_change": 0.20465539537334163,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Allied Health Diagnostic, Intervention, and Treatment Professions at Rhode Island College rose 20% between 2014 and 2018 ($20.9k → $25.2k).",
+      "magnitude_pct": 20.5,
+      "magnitude_abs": 4273.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "217420",
+    "slug": "rhode-island-college-217420",
+    "name": "Rhode Island College",
+    "city": "Providence",
+    "city_slug": "providence",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "roger-williams-university-217518",
+      "institution_name": "Roger Williams University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 11290,
+      "cost_total_default": 45160,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 67913,
+      "earnings_anchor_year": 5,
+      "debt_median": 25152,
+      "cip_family": "51",
+      "hs_baseline_state": 38900
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 496497,
+      "breakeven_year": 7
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

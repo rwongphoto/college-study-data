@@ -1,0 +1,200 @@
+{
+  "state": "ga",
+  "name": "Kennesaw",
+  "slug": "kennesaw",
+  "institution_count": 1,
+  "institutions": [
+    {
+      "unitid": "486840",
+      "slug": "kennesaw-state-university-486840",
+      "name": "Kennesaw State University",
+      "city": "Kennesaw",
+      "city_slug": "kennesaw",
+      "control": "public",
+      "pred_degree": "bachelors",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 57552,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 47863
+        },
+        {
+          "year": 8,
+          "value": 52536
+        },
+        {
+          "year": 10,
+          "value": 57552
+        }
+      ],
+      "completion_rate_150": 0.4806,
+      "completion_rate_history": [],
+      "enrollment_undergrad": 39503,
+      "enrollment_history": [
+        {
+          "year": 2015,
+          "value": 29841.0
+        },
+        {
+          "year": 2016,
+          "value": 31611.0
+        },
+        {
+          "year": 2017,
+          "value": 32309.0
+        },
+        {
+          "year": 2018,
+          "value": 31511.0
+        },
+        {
+          "year": 2019,
+          "value": 33439.0
+        },
+        {
+          "year": 2020,
+          "value": 36284.0
+        },
+        {
+          "year": 2021,
+          "value": 37743.0
+        },
+        {
+          "year": 2022,
+          "value": 38051.0
+        },
+        {
+          "year": 2023,
+          "value": 39503.0
+        },
+        {
+          "year": 2024,
+          "value": 41254.0
+        }
+      ],
+      "median_debt": 14250,
+      "default_rate": 0.0,
+      "tuition_in_state": 5786,
+      "tuition_out_of_state": 17040,
+      "long_arc": [
+        {
+          "metric": "completion_rate_100",
+          "from_year": 2015,
+          "to_year": 2024,
+          "from_value": 0.153,
+          "to_value": 0.2424,
+          "pct_change": 0.5843137254901961,
+          "direction": "rose"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 2015,
+          "to_year": 2024,
+          "from_value": 29841.0,
+          "to_value": 41254.0,
+          "pct_change": 0.3824603733118863,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2015,
+          "to_year": 2024,
+          "from_value": 0.073,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": 57552,
+  "completion_rate_city": 0.4806,
+  "completion_history_city": [],
+  "enrollment_history_city": [
+    {
+      "year": 2015,
+      "value": 29841.0
+    },
+    {
+      "year": 2016,
+      "value": 31611.0
+    },
+    {
+      "year": 2017,
+      "value": 32309.0
+    },
+    {
+      "year": 2018,
+      "value": 31511.0
+    },
+    {
+      "year": 2019,
+      "value": 33439.0
+    },
+    {
+      "year": 2020,
+      "value": 36284.0
+    },
+    {
+      "year": 2021,
+      "value": 37743.0
+    },
+    {
+      "year": 2022,
+      "value": 38051.0
+    },
+    {
+      "year": 2023,
+      "value": 39503.0
+    },
+    {
+      "year": 2024,
+      "value": 41254.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

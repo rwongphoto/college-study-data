@@ -1,0 +1,178 @@
+{
+  "institution_unitid": "181312",
+  "institution_name": "Mid-Plains Community College",
+  "institution_slug": "mid-plains-community-college-181312",
+  "state": "ne",
+  "cip_code": "4706",
+  "cip_desc": "Vehicle Maintenance and Repair Technologies.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "4706-c2",
+  "earnings_median_4yr": 41600,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 1,
+  "debt_median": null,
+  "completers": 4,
+  "completers_single_year": 4,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 41600.0
+      }
+    ],
+    "earnings_median_5yr": [],
+    "debt_median": [],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 10.0
+      },
+      {
+        "year": 2015,
+        "value": 9.0
+      },
+      {
+        "year": 2016,
+        "value": 6.0
+      },
+      {
+        "year": 2017,
+        "value": 7.0
+      },
+      {
+        "year": 2018,
+        "value": 4.0
+      },
+      {
+        "year": 2019,
+        "value": 4.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "181312",
+    "slug": "mid-plains-community-college-181312",
+    "name": "Mid-Plains Community College",
+    "city": "North Platte",
+    "city_slug": "north-platte",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "metropolitan-community-college-area-181303",
+      "institution_name": "Metropolitan Community College Area",
+      "earnings_median_5yr": 60685,
+      "earnings_median_4yr": 54858,
+      "debt_median": null,
+      "completers": 39,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southeast-community-college-area-181640",
+      "institution_name": "Southeast Community College Area",
+      "earnings_median_5yr": 55467,
+      "earnings_median_4yr": 51489,
+      "debt_median": 10187,
+      "completers": 131,
+      "completers_single_year": 92,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northeast-community-college-181491",
+      "institution_name": "Northeast Community College",
+      "earnings_median_5yr": 51318,
+      "earnings_median_4yr": 43798,
+      "debt_median": 11739,
+      "completers": 46,
+      "completers_single_year": 48,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "central-community-college-180902",
+      "institution_name": "Central Community College",
+      "earnings_median_5yr": 50072,
+      "earnings_median_4yr": 47318,
+      "debt_median": 5500,
+      "completers": 50,
+      "completers_single_year": 35,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-nebraska-community-college-181817",
+      "institution_name": "Western Nebraska Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 6659,
+      "cost_total_default": 13318,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 41600,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "47",
+      "hs_baseline_state": 36900
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 172574,
+      "breakeven_year": 10
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

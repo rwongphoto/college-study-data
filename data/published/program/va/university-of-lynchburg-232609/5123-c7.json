@@ -1,0 +1,210 @@
+{
+  "institution_unitid": "232609",
+  "institution_name": "University of Lynchburg",
+  "institution_slug": "university-of-lynchburg-232609",
+  "state": "va",
+  "cip_code": "5123",
+  "cip_desc": "Rehabilitation and Therapeutic Professions.",
+  "credential_level": 7,
+  "credential_desc": "First Professional Degree",
+  "slug": "5123-c7",
+  "earnings_median_4yr": 75583,
+  "earnings_median_5yr": 84125,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": null,
+  "completers": 48,
+  "completers_single_year": 46,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 75583.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 84125.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 127230.0
+      },
+      {
+        "year": 2015,
+        "value": 131771.0
+      },
+      {
+        "year": 2016,
+        "value": 138653.0
+      },
+      {
+        "year": 2017,
+        "value": 139090.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 41.0
+      },
+      {
+        "year": 2015,
+        "value": 45.0
+      },
+      {
+        "year": 2016,
+        "value": 48.0
+      },
+      {
+        "year": 2017,
+        "value": 48.0
+      },
+      {
+        "year": 2018,
+        "value": 46.0
+      },
+      {
+        "year": 2019,
+        "value": 48.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "232609",
+    "slug": "university-of-lynchburg-232609",
+    "name": "University of Lynchburg",
+    "city": "Lynchburg",
+    "city_slug": "lynchburg",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "emory-henry-university-232025",
+      "institution_name": "Emory & Henry University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 32,
+      "completers_single_year": 32,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hampton-university-232265",
+      "institution_name": "Hampton University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 25,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mary-baldwin-university-232672",
+      "institution_name": "Mary Baldwin University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 140056,
+      "completers": 70,
+      "completers_single_year": 60,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "marymount-university-232706",
+      "institution_name": "Marymount University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 37,
+      "completers_single_year": 35,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "old-dominion-university-232982",
+      "institution_name": "Old Dominion University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 39,
+      "completers_single_year": 39,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "radford-university-233277",
+      "institution_name": "Radford University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 28,
+      "completers_single_year": 38,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 7,
+      "cost_per_year_default": 19432,
+      "cost_total_default": 136024,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 84125,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "51",
+      "hs_baseline_state": 39800
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 528543,
+      "breakeven_year": 13
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

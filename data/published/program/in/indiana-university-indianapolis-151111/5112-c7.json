@@ -1,0 +1,178 @@
+{
+  "institution_unitid": "151111",
+  "institution_name": "Indiana University-Indianapolis",
+  "institution_slug": "indiana-university-indianapolis-151111",
+  "state": "in",
+  "cip_code": "5112",
+  "cip_desc": "Medicine.",
+  "credential_level": 7,
+  "credential_desc": "First Professional Degree",
+  "slug": "5112-c7",
+  "earnings_median_4yr": 89839,
+  "earnings_median_5yr": 179069,
+  "earnings_count_4yr": 6,
+  "earnings_count_5yr": 6,
+  "debt_median": 210632,
+  "completers": 345,
+  "completers_single_year": 330,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 89839.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 179069.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 204635.0
+      },
+      {
+        "year": 2015,
+        "value": 209763.0
+      },
+      {
+        "year": 2016,
+        "value": 214283.0
+      },
+      {
+        "year": 2017,
+        "value": 218175.0
+      },
+      {
+        "year": 2018,
+        "value": 210632.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 320.0
+      },
+      {
+        "year": 2015,
+        "value": 326.0
+      },
+      {
+        "year": 2016,
+        "value": 312.0
+      },
+      {
+        "year": 2017,
+        "value": 318.0
+      },
+      {
+        "year": 2018,
+        "value": 330.0
+      },
+      {
+        "year": 2019,
+        "value": 345.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 15.7% at Medicine at Indiana University-Indianapolis exceeds the 8% gainful-employment threshold ($210.6k debt amortized over 10 years vs $179.1k earnings).",
+      "magnitude_pct": 15.7,
+      "magnitude_abs": 7.7,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "151111",
+    "slug": "indiana-university-indianapolis-151111",
+    "name": "Indiana University-Indianapolis",
+    "city": "Indianapolis",
+    "city_slug": "indianapolis",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "marian-university-151786",
+      "institution_name": "Marian University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 149,
+      "completers_single_year": 154,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 6,
+    "inputs": {
+      "years_to_complete": 7,
+      "cost_per_year_default": 11445,
+      "cost_total_default": 80115,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 179069,
+      "earnings_anchor_year": 5,
+      "debt_median": 210632,
+      "cip_family": "51",
+      "hs_baseline_state": 36400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 2065535,
+      "breakeven_year": 8
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

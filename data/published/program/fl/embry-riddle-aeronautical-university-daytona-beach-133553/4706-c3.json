@@ -1,0 +1,157 @@
+{
+  "institution_unitid": "133553",
+  "institution_name": "Embry-Riddle Aeronautical University-Daytona Beach",
+  "institution_slug": "embry-riddle-aeronautical-university-daytona-beach-133553",
+  "state": "fl",
+  "cip_code": "4706",
+  "cip_desc": "Vehicle Maintenance and Repair Technologies.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "4706-c3",
+  "earnings_median_4yr": 85596,
+  "earnings_median_5yr": 89361,
+  "earnings_count_4yr": 4,
+  "earnings_count_5yr": 4,
+  "debt_median": 22662,
+  "completers": null,
+  "completers_single_year": null,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 85596.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 89361.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 30000.0
+      },
+      {
+        "year": 2015,
+        "value": 27614.0
+      },
+      {
+        "year": 2016,
+        "value": 25000.0
+      },
+      {
+        "year": 2017,
+        "value": 23660.0
+      },
+      {
+        "year": 2018,
+        "value": 22662.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 55.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 30000.0,
+      "to_value": 22662.0,
+      "pct_change": -0.2446,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Vehicle Maintenance and Repair Technologies at Embry-Riddle Aeronautical University-Daytona Beach fell 24% between 2014 and 2018 ($30.0k → $22.7k).",
+      "magnitude_pct": -24.5,
+      "magnitude_abs": -7338.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "133553",
+    "slug": "embry-riddle-aeronautical-university-daytona-beach-133553",
+    "name": "Embry-Riddle Aeronautical University-Daytona Beach",
+    "city": "Daytona Beach",
+    "city_slug": "daytona-beach",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 4,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 39693,
+      "cost_total_default": 158772,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 89361,
+      "earnings_anchor_year": 5,
+      "debt_median": 22662,
+      "cip_family": "47",
+      "hs_baseline_state": 35400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 864253,
+      "breakeven_year": 9
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

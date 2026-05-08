@@ -1,0 +1,733 @@
+{
+  "institution_unitid": "262086",
+  "institution_name": "University of Massachusetts Global",
+  "institution_slug": "university-of-massachusetts-global-262086",
+  "state": "ca",
+  "cip_code": "1301",
+  "cip_desc": "Education, General.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "1301-c5",
+  "earnings_median_4yr": 81724,
+  "earnings_median_5yr": 91259,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 2,
+  "debt_median": 20500,
+  "completers": 196,
+  "completers_single_year": 159,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 81724.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 91259.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 26449.0
+      },
+      {
+        "year": 2015,
+        "value": 20500.0
+      },
+      {
+        "year": 2016,
+        "value": 20500.0
+      },
+      {
+        "year": 2017,
+        "value": 20398.0
+      },
+      {
+        "year": 2018,
+        "value": 20500.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 86.0
+      },
+      {
+        "year": 2015,
+        "value": 146.0
+      },
+      {
+        "year": 2016,
+        "value": 225.0
+      },
+      {
+        "year": 2017,
+        "value": 200.0
+      },
+      {
+        "year": 2018,
+        "value": 159.0
+      },
+      {
+        "year": 2019,
+        "value": 196.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 26449.0,
+      "to_value": 20500.0,
+      "pct_change": -0.22492343755907596,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Education, General at University of Massachusetts Global fell 22% between 2014 and 2018 ($26.4k → $20.5k).",
+      "magnitude_pct": -22.5,
+      "magnitude_abs": -5949.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "262086",
+    "slug": "university-of-massachusetts-global-262086",
+    "name": "University of Massachusetts Global",
+    "city": "Irvine",
+    "city_slug": "irvine",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "california-state-university-dominguez-hills-110547",
+      "institution_name": "California State University-Dominguez Hills",
+      "earnings_median_5yr": 96103,
+      "earnings_median_4yr": 87949,
+      "debt_median": 20500,
+      "completers": 141,
+      "completers_single_year": 179,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-state-university-fresno-110556",
+      "institution_name": "California State University-Fresno",
+      "earnings_median_5yr": 95011,
+      "earnings_median_4yr": 84099,
+      "debt_median": 20000,
+      "completers": 117,
+      "completers_single_year": 134,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-state-university-sacramento-110617",
+      "institution_name": "California State University-Sacramento",
+      "earnings_median_5yr": 90404,
+      "earnings_median_4yr": 79866,
+      "debt_median": 38810,
+      "completers": 143,
+      "completers_single_year": 74,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "stanford-university-243744",
+      "institution_name": "Stanford University",
+      "earnings_median_5yr": 88795,
+      "earnings_median_4yr": 80042,
+      "debt_median": 32500,
+      "completers": 51,
+      "completers_single_year": 81,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-state-university-east-bay-110574",
+      "institution_name": "California State University-East Bay",
+      "earnings_median_5yr": 88296,
+      "earnings_median_4yr": 73214,
+      "debt_median": null,
+      "completers": 25,
+      "completers_single_year": 32,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-state-university-stanislaus-110495",
+      "institution_name": "California State University-Stanislaus",
+      "earnings_median_5yr": 87195,
+      "earnings_median_4yr": 81317,
+      "debt_median": 21000,
+      "completers": 105,
+      "completers_single_year": 116,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-san-diego-122436",
+      "institution_name": "University of San Diego",
+      "earnings_median_5yr": 87081,
+      "earnings_median_4yr": 79552,
+      "debt_median": 33705,
+      "completers": 89,
+      "completers_single_year": 106,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-state-university-monterey-bay-409698",
+      "institution_name": "California State University-Monterey Bay",
+      "earnings_median_5yr": 86306,
+      "earnings_median_4yr": 78922,
+      "debt_median": 16750,
+      "completers": 68,
+      "completers_single_year": 55,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-state-university-bakersfield-110486",
+      "institution_name": "California State University-Bakersfield",
+      "earnings_median_5yr": 86211,
+      "earnings_median_4yr": 75835,
+      "debt_median": null,
+      "completers": 136,
+      "completers_single_year": 151,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-state-polytechnic-university-pomona-110529",
+      "institution_name": "California State Polytechnic University-Pomona",
+      "earnings_median_5yr": 85347,
+      "earnings_median_4yr": 76882,
+      "debt_median": 20407,
+      "completers": 42,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "san-francisco-state-university-122597",
+      "institution_name": "San Francisco State University",
+      "earnings_median_5yr": 84045,
+      "earnings_median_4yr": 70511,
+      "debt_median": 26500,
+      "completers": 128,
+      "completers_single_year": 126,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-state-university-san-marcos-366711",
+      "institution_name": "California State University-San Marcos",
+      "earnings_median_5yr": 82880,
+      "earnings_median_4yr": 68948,
+      "debt_median": 20936,
+      "completers": 43,
+      "completers_single_year": 35,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-baptist-university-110361",
+      "institution_name": "California Baptist University",
+      "earnings_median_5yr": 81045,
+      "earnings_median_4yr": 72357,
+      "debt_median": 32157,
+      "completers": 247,
+      "completers_single_year": 229,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "azusa-pacific-university-109785",
+      "institution_name": "Azusa Pacific University",
+      "earnings_median_5yr": 80698,
+      "earnings_median_4yr": 71843,
+      "debt_median": 49325,
+      "completers": 193,
+      "completers_single_year": 279,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-california-riverside-110671",
+      "institution_name": "University of California-Riverside",
+      "earnings_median_5yr": 80485,
+      "earnings_median_4yr": 71137,
+      "debt_median": 25601,
+      "completers": 181,
+      "completers_single_year": 175,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "national-university-119605",
+      "institution_name": "National University",
+      "earnings_median_5yr": 80284,
+      "earnings_median_4yr": 72334,
+      "debt_median": 41000,
+      "completers": 1075,
+      "completers_single_year": 902,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "sonoma-state-university-123572",
+      "institution_name": "Sonoma State University",
+      "earnings_median_5yr": 79856,
+      "earnings_median_4yr": 73551,
+      "debt_median": null,
+      "completers": 28,
+      "completers_single_year": 29,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-california-los-angeles-110662",
+      "institution_name": "University of California-Los Angeles",
+      "earnings_median_5yr": 77986,
+      "earnings_median_4yr": 68195,
+      "debt_median": 33087,
+      "completers": 189,
+      "completers_single_year": 176,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-california-santa-barbara-110705",
+      "institution_name": "University of California-Santa Barbara",
+      "earnings_median_5yr": 77489,
+      "earnings_median_4yr": 72142,
+      "debt_median": null,
+      "completers": 99,
+      "completers_single_year": 149,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pepperdine-university-121150",
+      "institution_name": "Pepperdine University",
+      "earnings_median_5yr": 77384,
+      "earnings_median_4yr": 67256,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-california-san-diego-110680",
+      "institution_name": "University of California-San Diego",
+      "earnings_median_5yr": 76864,
+      "earnings_median_4yr": 64892,
+      "debt_median": 31045,
+      "completers": 71,
+      "completers_single_year": 61,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "touro-university-california-459736",
+      "institution_name": "Touro University California",
+      "earnings_median_5yr": 76479,
+      "earnings_median_4yr": 65537,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-california-berkeley-110635",
+      "institution_name": "University of California-Berkeley",
+      "earnings_median_5yr": 76186,
+      "earnings_median_4yr": 66604,
+      "debt_median": null,
+      "completers": 19,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "whittier-college-125763",
+      "institution_name": "Whittier College",
+      "earnings_median_5yr": 75643,
+      "earnings_median_4yr": 64474,
+      "debt_median": 37098,
+      "completers": 24,
+      "completers_single_year": 22,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-san-francisco-122612",
+      "institution_name": "University of San Francisco",
+      "earnings_median_5yr": 75460,
+      "earnings_median_4yr": 65192,
+      "debt_median": 35159,
+      "completers": 131,
+      "completers_single_year": 106,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-state-university-los-angeles-110592",
+      "institution_name": "California State University-Los Angeles",
+      "earnings_median_5yr": 73525,
+      "earnings_median_4yr": 68932,
+      "debt_median": 29525,
+      "completers": 116,
+      "completers_single_year": 108,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "point-loma-nazarene-university-121309",
+      "institution_name": "Point Loma Nazarene University",
+      "earnings_median_5yr": 73246,
+      "earnings_median_4yr": 64644,
+      "debt_median": 42924,
+      "completers": 140,
+      "completers_single_year": 174,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-polytechnic-state-university-san-luis-obispo-110422",
+      "institution_name": "California Polytechnic State University-San Luis Obispo",
+      "earnings_median_5yr": 72996,
+      "earnings_median_4yr": 66655,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-california-davis-110644",
+      "institution_name": "University of California-Davis",
+      "earnings_median_5yr": 69375,
+      "earnings_median_4yr": 60843,
+      "debt_median": 20500,
+      "completers": 100,
+      "completers_single_year": 135,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "biola-university-110097",
+      "institution_name": "Biola University",
+      "earnings_median_5yr": 67062,
+      "earnings_median_4yr": 56738,
+      "debt_median": 19797,
+      "completers": 45,
+      "completers_single_year": 35,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mount-saint-mary-s-university-119173",
+      "institution_name": "Mount Saint Mary's University",
+      "earnings_median_5yr": 63487,
+      "earnings_median_4yr": 58393,
+      "debt_median": 40999,
+      "completers": 15,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northcentral-university-444130",
+      "institution_name": "Northcentral University",
+      "earnings_median_5yr": 57478,
+      "earnings_median_4yr": 50031,
+      "debt_median": 36166,
+      "completers": 189,
+      "completers_single_year": 224,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ashford-university-154022",
+      "institution_name": "Ashford University",
+      "earnings_median_5yr": 45330,
+      "earnings_median_4yr": 39817,
+      "debt_median": 41000,
+      "completers": 215,
+      "completers_single_year": 316,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-state-university-san-bernardino-110510",
+      "institution_name": "California State University-San Bernardino",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 46,
+      "completers_single_year": 60,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-state-university-chico-110538",
+      "institution_name": "California State University-Chico",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 26,
+      "completers_single_year": 38,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-state-university-fullerton-110565",
+      "institution_name": "California State University-Fullerton",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 255,
+      "completers_single_year": 274,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-state-university-long-beach-110583",
+      "institution_name": "California State University-Long Beach",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 91,
+      "completers_single_year": 103,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-state-university-northridge-110608",
+      "institution_name": "California State University-Northridge",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 33,
+      "completers_single_year": 74,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-california-irvine-110653",
+      "institution_name": "University of California-Irvine",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-california-santa-cruz-110714",
+      "institution_name": "University of California-Santa Cruz",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "claremont-graduate-university-112251",
+      "institution_name": "Claremont Graduate University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 29,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "dominican-university-of-california-113698",
+      "institution_name": "Dominican University of California",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "fresno-pacific-university-114813",
+      "institution_name": "Fresno Pacific University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-state-polytechnic-university-humboldt-115755",
+      "institution_name": "California State Polytechnic University-Humboldt",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "american-jewish-university-116846",
+      "institution_name": "American Jewish University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-master-s-university-and-seminary-117751",
+      "institution_name": "The Master's University and Seminary",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "loyola-marymount-university-117946",
+      "institution_name": "Loyola Marymount University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 48414,
+      "completers": 32,
+      "completers_single_year": 34,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "notre-dame-de-namur-university-120184",
+      "institution_name": "Notre Dame de Namur University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-the-pacific-120883",
+      "institution_name": "University of the Pacific",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 193,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-redlands-121691",
+      "institution_name": "University of Redlands",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "san-diego-state-university-122409",
+      "institution_name": "San Diego State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 139,
+      "completers_single_year": 153,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "san-jose-state-university-122755",
+      "institution_name": "San Jose State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 233,
+      "completers_single_year": 227,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "shasta-bible-college-and-graduate-school-123280",
+      "institution_name": "Shasta Bible College and Graduate School",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "simpson-university-123457",
+      "institution_name": "Simpson University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 59202,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-mary-s-college-of-california-123554",
+      "institution_name": "Saint Mary's College of California",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-state-university-channel-islands-441937",
+      "institution_name": "California State University-Channel Islands",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "high-tech-high-graduate-school-of-education-485403",
+      "institution_name": "High Tech High Graduate School of Education",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 21,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "teachers-college-of-san-joaquin-488800",
+      "institution_name": "Teachers College of San Joaquin",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 58,
+      "completers_single_year": 70,
+      "pooled_earnings": false
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

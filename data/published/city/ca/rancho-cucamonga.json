@@ -1,0 +1,442 @@
+{
+  "state": "ca",
+  "name": "Rancho Cucamonga",
+  "slug": "rancho-cucamonga",
+  "institution_count": 2,
+  "institutions": [
+    {
+      "unitid": "111939",
+      "slug": "chaffey-college-111939",
+      "name": "Chaffey College",
+      "city": "Rancho Cucamonga",
+      "city_slug": "rancho-cucamonga",
+      "control": "public",
+      "pred_degree": "associates",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 42975,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 33265
+        },
+        {
+          "year": 8,
+          "value": 37516
+        },
+        {
+          "year": 10,
+          "value": 42975
+        }
+      ],
+      "completion_rate_150": 0.3194,
+      "completion_rate_history": [
+        {
+          "year": 1997,
+          "value": 0.2762
+        },
+        {
+          "year": 1998,
+          "value": 0.2778
+        },
+        {
+          "year": 1999,
+          "value": 0.2737
+        },
+        {
+          "year": 2000,
+          "value": 0.2773
+        },
+        {
+          "year": 2001,
+          "value": 0.2583
+        },
+        {
+          "year": 2002,
+          "value": 0.2561
+        },
+        {
+          "year": 2003,
+          "value": 0.2345
+        },
+        {
+          "year": 2004,
+          "value": 0.2749
+        },
+        {
+          "year": 2005,
+          "value": 0.2655
+        },
+        {
+          "year": 2006,
+          "value": 0.2944
+        },
+        {
+          "year": 2007,
+          "value": 0.1827
+        },
+        {
+          "year": 2008,
+          "value": 0.2129
+        },
+        {
+          "year": 2009,
+          "value": 0.1847
+        },
+        {
+          "year": 2010,
+          "value": 0.1856
+        }
+      ],
+      "enrollment_undergrad": 13568,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 10648.0
+        },
+        {
+          "year": 1997,
+          "value": 9506.0
+        },
+        {
+          "year": 1998,
+          "value": 9408.0
+        },
+        {
+          "year": 1999,
+          "value": 9408.0
+        },
+        {
+          "year": 2001,
+          "value": 9413.0
+        },
+        {
+          "year": 2002,
+          "value": 9949.0
+        },
+        {
+          "year": 2003,
+          "value": 9226.0
+        },
+        {
+          "year": 2004,
+          "value": 10325.0
+        },
+        {
+          "year": 2005,
+          "value": 10635.0
+        },
+        {
+          "year": 2006,
+          "value": 11811.0
+        },
+        {
+          "year": 2007,
+          "value": 11795.0
+        },
+        {
+          "year": 2008,
+          "value": 17750.0
+        },
+        {
+          "year": 2009,
+          "value": 18733.0
+        },
+        {
+          "year": 2010,
+          "value": 17426.0
+        }
+      ],
+      "median_debt": 4325,
+      "default_rate": 0.0,
+      "tuition_in_state": 1184,
+      "tuition_out_of_state": 11120,
+      "long_arc": [
+        {
+          "metric": "completion_rate_150",
+          "from_year": 1997,
+          "to_year": 2010,
+          "from_value": 0.2762,
+          "to_value": 0.1856,
+          "pct_change": -0.32802317161477196,
+          "direction": "fell"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 1996,
+          "to_year": 2010,
+          "from_value": 10648.0,
+          "to_value": 17426.0,
+          "pct_change": 0.6365514650638617,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_in_state",
+          "from_year": 2000,
+          "to_year": 2024,
+          "from_value": 312.0,
+          "to_value": 1184.0,
+          "pct_change": 0.872,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2000,
+          "to_year": 2024,
+          "from_value": 3744.0,
+          "to_value": 11120.0,
+          "pct_change": 1.9700854700854702,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 1997,
+          "to_year": 2010,
+          "from_value": 2640.0,
+          "to_value": 4240.0,
+          "pct_change": 0.6060606060606061,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.238,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2008,
+          "to_year": 2024,
+          "from_value": 0.1723,
+          "to_value": 0.2879,
+          "pct_change": 0.6709228090539755,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_8yr",
+          "from_year": 2005,
+          "to_year": 2020,
+          "from_value": 30700.0,
+          "to_value": 37516.0,
+          "pct_change": 0.22201954397394136,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_6yr",
+          "from_year": 2003,
+          "to_year": 2020,
+          "from_value": 25900.0,
+          "to_value": 33265.0,
+          "pct_change": 0.28436293436293436,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "unitid": "483230",
+      "slug": "the-fab-school-483230",
+      "name": "The Fab School",
+      "city": "Rancho Cucamonga",
+      "city_slug": "rancho-cucamonga",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 49130
+        },
+        {
+          "year": 8,
+          "value": null
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": 0.9783,
+      "completion_rate_history": [],
+      "enrollment_undergrad": 164,
+      "enrollment_history": [],
+      "median_debt": 4449,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": []
+    }
+  ],
+  "earnings_median_city": 42975,
+  "completion_rate_city": 0.6488499999999999,
+  "completion_history_city": [
+    {
+      "year": 1997,
+      "value": 0.2762
+    },
+    {
+      "year": 1998,
+      "value": 0.2778
+    },
+    {
+      "year": 1999,
+      "value": 0.2737
+    },
+    {
+      "year": 2000,
+      "value": 0.2773
+    },
+    {
+      "year": 2001,
+      "value": 0.2583
+    },
+    {
+      "year": 2002,
+      "value": 0.2561
+    },
+    {
+      "year": 2003,
+      "value": 0.2345
+    },
+    {
+      "year": 2004,
+      "value": 0.2749
+    },
+    {
+      "year": 2005,
+      "value": 0.2655
+    },
+    {
+      "year": 2006,
+      "value": 0.2944
+    },
+    {
+      "year": 2007,
+      "value": 0.1827
+    },
+    {
+      "year": 2008,
+      "value": 0.2129
+    },
+    {
+      "year": 2009,
+      "value": 0.1847
+    },
+    {
+      "year": 2010,
+      "value": 0.1856
+    }
+  ],
+  "enrollment_history_city": [
+    {
+      "year": 1996,
+      "value": 10648.0
+    },
+    {
+      "year": 1997,
+      "value": 9506.0
+    },
+    {
+      "year": 1998,
+      "value": 9408.0
+    },
+    {
+      "year": 1999,
+      "value": 9408.0
+    },
+    {
+      "year": 2001,
+      "value": 9413.0
+    },
+    {
+      "year": 2002,
+      "value": 9949.0
+    },
+    {
+      "year": 2003,
+      "value": 9226.0
+    },
+    {
+      "year": 2004,
+      "value": 10325.0
+    },
+    {
+      "year": 2005,
+      "value": 10635.0
+    },
+    {
+      "year": 2006,
+      "value": 11811.0
+    },
+    {
+      "year": 2007,
+      "value": 11795.0
+    },
+    {
+      "year": 2008,
+      "value": 17750.0
+    },
+    {
+      "year": 2009,
+      "value": 18733.0
+    },
+    {
+      "year": 2010,
+      "value": 17426.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

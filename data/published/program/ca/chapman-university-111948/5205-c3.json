@@ -1,0 +1,173 @@
+{
+  "institution_unitid": "111948",
+  "institution_name": "Chapman University",
+  "institution_slug": "chapman-university-111948",
+  "state": "ca",
+  "cip_code": "5205",
+  "cip_desc": "Business/Corporate Communications.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5205-c3",
+  "earnings_median_4yr": 61840,
+  "earnings_median_5yr": 78721,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 2,
+  "debt_median": 17875,
+  "completers": 130,
+  "completers_single_year": 133,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 61840.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 78721.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 23563.0
+      },
+      {
+        "year": 2015,
+        "value": 23250.0
+      },
+      {
+        "year": 2016,
+        "value": 22500.0
+      },
+      {
+        "year": 2017,
+        "value": 19750.0
+      },
+      {
+        "year": 2018,
+        "value": 17875.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 76.0
+      },
+      {
+        "year": 2015,
+        "value": 122.0
+      },
+      {
+        "year": 2016,
+        "value": 96.0
+      },
+      {
+        "year": 2017,
+        "value": 82.0
+      },
+      {
+        "year": 2018,
+        "value": 133.0
+      },
+      {
+        "year": 2019,
+        "value": 130.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 23563.0,
+      "to_value": 17875.0,
+      "pct_change": -0.24139540805500148,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Business/Corporate Communications at Chapman University fell 24% between 2014 and 2018 ($23.6k → $17.9k).",
+      "magnitude_pct": -24.1,
+      "magnitude_abs": -5688.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "111948",
+    "slug": "chapman-university-111948",
+    "name": "Chapman University",
+    "city": "Orange",
+    "city_slug": "orange",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "national-university-119605",
+      "institution_name": "National University",
+      "earnings_median_5yr": 75312,
+      "earnings_median_4yr": 69428,
+      "debt_median": null,
+      "completers": 19,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "point-loma-nazarene-university-121309",
+      "institution_name": "Point Loma Nazarene University",
+      "earnings_median_5yr": 59892,
+      "earnings_median_4yr": 58762,
+      "debt_median": 22658,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

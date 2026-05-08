@@ -1,0 +1,178 @@
+{
+  "institution_unitid": "186201",
+  "institution_name": "Ramapo College of New Jersey",
+  "institution_slug": "ramapo-college-of-new-jersey-186201",
+  "state": "nj",
+  "cip_code": "1399",
+  "cip_desc": "Education, Other.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "1399-c5",
+  "earnings_median_4yr": 77095,
+  "earnings_median_5yr": 78355,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 1,
+  "debt_median": 24820,
+  "completers": 29,
+  "completers_single_year": 48,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 77095.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 78355.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2018,
+        "value": 24820.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 37.0
+      },
+      {
+        "year": 2015,
+        "value": 49.0
+      },
+      {
+        "year": 2016,
+        "value": 75.0
+      },
+      {
+        "year": 2017,
+        "value": 57.0
+      },
+      {
+        "year": 2018,
+        "value": 48.0
+      },
+      {
+        "year": 2019,
+        "value": 29.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "186201",
+    "slug": "ramapo-college-of-new-jersey-186201",
+    "name": "Ramapo College of New Jersey",
+    "city": "Mahwah",
+    "city_slug": "mahwah",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "saint-elizabeth-university-186618",
+      "institution_name": "Saint Elizabeth University",
+      "earnings_median_5yr": 60143,
+      "earnings_median_4yr": 56451,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "felician-university-184612",
+      "institution_name": "Felician University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rowan-university-184782",
+      "institution_name": "Rowan University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "montclair-state-university-185590",
+      "institution_name": "Montclair State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 18536,
+      "cost_total_default": 111216,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 78355,
+      "earnings_anchor_year": 5,
+      "debt_median": 24820,
+      "cip_family": "13",
+      "hs_baseline_state": 41700
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 385960,
+      "breakeven_year": 12
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

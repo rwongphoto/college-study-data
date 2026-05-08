@@ -1,0 +1,184 @@
+{
+  "institution_unitid": "230728",
+  "institution_name": "Utah State University",
+  "institution_slug": "utah-state-university-230728",
+  "state": "ut",
+  "cip_code": "1408",
+  "cip_desc": "Civil Engineering.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1408-c3",
+  "earnings_median_4yr": 75925,
+  "earnings_median_5yr": 86663,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 5,
+  "debt_median": 15500,
+  "completers": 57,
+  "completers_single_year": 63,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 75925.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 86663.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 18500.0
+      },
+      {
+        "year": 2015,
+        "value": 18536.0
+      },
+      {
+        "year": 2016,
+        "value": 14938.0
+      },
+      {
+        "year": 2017,
+        "value": 14000.0
+      },
+      {
+        "year": 2018,
+        "value": 15500.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 53.0
+      },
+      {
+        "year": 2015,
+        "value": 68.0
+      },
+      {
+        "year": 2016,
+        "value": 72.0
+      },
+      {
+        "year": 2017,
+        "value": 57.0
+      },
+      {
+        "year": 2018,
+        "value": 63.0
+      },
+      {
+        "year": 2019,
+        "value": 57.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "230728",
+    "slug": "utah-state-university-230728",
+    "name": "Utah State University",
+    "city": "Logan",
+    "city_slug": "logan",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "brigham-young-university-230038",
+      "institution_name": "Brigham Young University",
+      "earnings_median_5yr": 82586,
+      "earnings_median_4yr": 73327,
+      "debt_median": 8500,
+      "completers": 61,
+      "completers_single_year": 85,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-utah-230764",
+      "institution_name": "University of Utah",
+      "earnings_median_5yr": 81863,
+      "earnings_median_4yr": 73089,
+      "debt_median": 18750,
+      "completers": 34,
+      "completers_single_year": 48,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "utah-valley-university-230737",
+      "institution_name": "Utah Valley University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 5,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 11599,
+      "cost_total_default": 46396,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 86663,
+      "earnings_anchor_year": 5,
+      "debt_median": 15500,
+      "cip_family": "14",
+      "hs_baseline_state": 38000
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 1011356,
+      "breakeven_year": 6
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

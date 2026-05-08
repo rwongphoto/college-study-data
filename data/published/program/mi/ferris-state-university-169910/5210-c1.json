@@ -1,0 +1,184 @@
+{
+  "institution_unitid": "169910",
+  "institution_name": "Ferris State University",
+  "institution_slug": "ferris-state-university-169910",
+  "state": "mi",
+  "cip_code": "5210",
+  "cip_desc": "Human Resources Management and Services.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "5210-c1",
+  "earnings_median_4yr": 52161,
+  "earnings_median_5yr": 57829,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 2,
+  "debt_median": 17626,
+  "completers": 18,
+  "completers_single_year": 18,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 52161.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 57829.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 25234.0
+      },
+      {
+        "year": 2015,
+        "value": 20000.0
+      },
+      {
+        "year": 2017,
+        "value": 18688.0
+      },
+      {
+        "year": 2018,
+        "value": 17626.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 17.0
+      },
+      {
+        "year": 2015,
+        "value": 17.0
+      },
+      {
+        "year": 2016,
+        "value": 22.0
+      },
+      {
+        "year": 2017,
+        "value": 23.0
+      },
+      {
+        "year": 2018,
+        "value": 18.0
+      },
+      {
+        "year": 2019,
+        "value": 18.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 25234.0,
+      "to_value": 17626.0,
+      "pct_change": -0.30149797891733376,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Human Resources Management and Services at Ferris State University fell 30% between 2014 and 2018 ($25.2k → $17.6k).",
+      "magnitude_pct": -30.1,
+      "magnitude_abs": -7608.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "169910",
+    "slug": "ferris-state-university-169910",
+    "name": "Ferris State University",
+    "city": "Big Rapids",
+    "city_slug": "big-rapids",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "washtenaw-community-college-172617",
+      "institution_name": "Washtenaw Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 24,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 12303,
+      "cost_total_default": 12303,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 57829,
+      "earnings_anchor_year": 5,
+      "debt_median": 17626,
+      "cip_family": "52",
+      "hs_baseline_state": 36900
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 537333,
+      "breakeven_year": 2
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

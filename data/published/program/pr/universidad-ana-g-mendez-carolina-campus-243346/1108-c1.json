@@ -1,0 +1,198 @@
+{
+  "institution_unitid": "243346",
+  "institution_name": "Universidad Ana G. Mendez-Carolina Campus",
+  "institution_slug": "universidad-ana-g-mendez-carolina-campus-243346",
+  "state": "pr",
+  "cip_code": "1108",
+  "cip_desc": "Computer Software and Media Applications.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "1108-c1",
+  "earnings_median_4yr": 14116,
+  "earnings_median_5yr": 15469,
+  "earnings_count_4yr": 37,
+  "earnings_count_5yr": 37,
+  "debt_median": 5044,
+  "completers": 41,
+  "completers_single_year": 59,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 14116.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 15469.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 3500.0
+      },
+      {
+        "year": 2015,
+        "value": 4000.0
+      },
+      {
+        "year": 2016,
+        "value": 4750.0
+      },
+      {
+        "year": 2017,
+        "value": 5250.0
+      },
+      {
+        "year": 2018,
+        "value": 5044.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 77.0
+      },
+      {
+        "year": 2015,
+        "value": 59.0
+      },
+      {
+        "year": 2016,
+        "value": 72.0
+      },
+      {
+        "year": 2017,
+        "value": 87.0
+      },
+      {
+        "year": 2018,
+        "value": 59.0
+      },
+      {
+        "year": 2019,
+        "value": 41.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 3500.0,
+      "to_value": 5044.0,
+      "pct_change": 0.44114285714285717,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Computer Software and Media Applications at Universidad Ana G. Mendez-Carolina Campus rose 44% between 2014 and 2018 ($3.5k → $5.0k).",
+      "magnitude_pct": 44.1,
+      "magnitude_abs": 1544.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "243346",
+    "slug": "universidad-ana-g-mendez-carolina-campus-243346",
+    "name": "Universidad Ana G. Mendez-Carolina Campus",
+    "city": "Carolina",
+    "city_slug": "carolina",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "inter-american-university-of-puerto-rico-ponce-242662",
+      "institution_name": "Inter American University of Puerto Rico-Ponce",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "icpr-junior-college-243841",
+      "institution_name": "ICPR Junior College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 37,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 12484,
+      "cost_total_default": 12484,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 15469,
+      "earnings_anchor_year": 5,
+      "debt_median": 5044,
+      "cip_family": "11",
+      "hs_baseline_state": 22400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -90699,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

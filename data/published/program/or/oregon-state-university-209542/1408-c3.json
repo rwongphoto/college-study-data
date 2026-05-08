@@ -1,0 +1,194 @@
+{
+  "institution_unitid": "209542",
+  "institution_name": "Oregon State University",
+  "institution_slug": "oregon-state-university-209542",
+  "state": "or",
+  "cip_code": "1408",
+  "cip_desc": "Civil Engineering.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1408-c3",
+  "earnings_median_4yr": 79707,
+  "earnings_median_5yr": 89866,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 0,
+  "debt_median": 22500,
+  "completers": 98,
+  "completers_single_year": 123,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 79707.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 89866.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 20548.0
+      },
+      {
+        "year": 2015,
+        "value": 23632.0
+      },
+      {
+        "year": 2016,
+        "value": 23500.0
+      },
+      {
+        "year": 2017,
+        "value": 21000.0
+      },
+      {
+        "year": 2018,
+        "value": 22500.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 86.0
+      },
+      {
+        "year": 2015,
+        "value": 103.0
+      },
+      {
+        "year": 2016,
+        "value": 96.0
+      },
+      {
+        "year": 2017,
+        "value": 107.0
+      },
+      {
+        "year": 2018,
+        "value": 123.0
+      },
+      {
+        "year": 2019,
+        "value": 98.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "209542",
+    "slug": "oregon-state-university-209542",
+    "name": "Oregon State University",
+    "city": "Corvallis",
+    "city_slug": "corvallis",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "portland-state-university-209807",
+      "institution_name": "Portland State University",
+      "earnings_median_5yr": 87595,
+      "earnings_median_4yr": 75055,
+      "debt_median": 22470,
+      "completers": 70,
+      "completers_single_year": 58,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-portland-209825",
+      "institution_name": "University of Portland",
+      "earnings_median_5yr": 86439,
+      "earnings_median_4yr": 77678,
+      "debt_median": 23250,
+      "completers": 23,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "oregon-institute-of-technology-209506",
+      "institution_name": "Oregon Institute of Technology",
+      "earnings_median_5yr": 84507,
+      "earnings_median_4yr": 78796,
+      "debt_median": 19666,
+      "completers": 24,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "george-fox-university-208822",
+      "institution_name": "George Fox University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 16992,
+      "cost_total_default": 67968,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 89866,
+      "earnings_anchor_year": 5,
+      "debt_median": 22500,
+      "cip_family": "14",
+      "hs_baseline_state": 38420
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 1048097,
+      "breakeven_year": 6
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

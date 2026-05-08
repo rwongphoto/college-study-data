@@ -1,0 +1,493 @@
+{
+  "institution": {
+    "unitid": "449782",
+    "opeid6": "041179",
+    "name": "Champion Beauty College",
+    "slug": "champion-beauty-college-449782",
+    "state": "tx",
+    "city": "Houston",
+    "city_slug": "houston",
+    "zip5": "77068",
+    "address": "3920 FM 1960 West #210",
+    "latitude": 29.99352,
+    "longitude": -95.489161,
+    "control": "private_forprofit",
+    "pred_degree": "certificate",
+    "highest_degree": "certificate",
+    "main_campus": true,
+    "locale": "21",
+    "carnegie_basic": -2,
+    "sector_code": 9,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": 21508,
+    "earnings_median_8yr": 26930,
+    "earnings_median_10yr": 21362,
+    "completion_rate_150": 0.7692,
+    "completion_rate_100": 0.6923,
+    "retention_rate": 0.7143,
+    "admission_rate": null,
+    "enrollment_undergrad": 26,
+    "enrollment_total": null,
+    "cost_attendance": 18173,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": 15742,
+    "cost_by_income": {
+      "0_30k": 15742,
+      "30_48k": null,
+      "48_75k": null,
+      "75_110k": null,
+      "110k_plus": null,
+      "sticker": 18173,
+      "sector": "priv"
+    },
+    "median_debt": 4750,
+    "default_rate": 0.0,
+    "pell_share": 0.875,
+    "history": {
+      "completion_rate_150": [
+        {
+          "year": 2007,
+          "value": 0.6842
+        },
+        {
+          "year": 2008,
+          "value": 0.8
+        },
+        {
+          "year": 2009,
+          "value": 0.8462
+        }
+      ],
+      "completion_rate_100": [
+        {
+          "year": 2009,
+          "value": 0.8462
+        }
+      ],
+      "retention_rate": [
+        {
+          "year": 2007,
+          "value": 0.8571
+        },
+        {
+          "year": 2008,
+          "value": 0.5
+        },
+        {
+          "year": 2009,
+          "value": 0.6364
+        }
+      ],
+      "admission_rate": [],
+      "enrollment_undergrad": [
+        {
+          "year": 2007,
+          "value": 50.0
+        },
+        {
+          "year": 2008,
+          "value": 48.0
+        },
+        {
+          "year": 2009,
+          "value": 34.0
+        }
+      ],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [
+        {
+          "year": 2009,
+          "value": 19829.0
+        }
+      ],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [],
+      "median_debt": [
+        {
+          "year": 2008,
+          "value": 4954.0
+        },
+        {
+          "year": 2009,
+          "value": 6297.0
+        }
+      ],
+      "default_rate": [],
+      "pell_share": [
+        {
+          "year": 2008,
+          "value": 0.3804
+        },
+        {
+          "year": 2009,
+          "value": 0.375
+        }
+      ],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "completion_rate_150",
+        "from_year": 2007,
+        "to_year": 2009,
+        "from_value": 0.6842,
+        "to_value": 0.8462,
+        "pct_change": 0.23677287342882186,
+        "direction": "rose"
+      },
+      {
+        "metric": "retention_rate",
+        "from_year": 2007,
+        "to_year": 2009,
+        "from_value": 0.8571,
+        "to_value": 0.6364,
+        "pct_change": -0.2574962081437405,
+        "direction": "fell"
+      },
+      {
+        "metric": "median_debt",
+        "from_year": 2008,
+        "to_year": 2009,
+        "from_value": 4954.0,
+        "to_value": 6297.0,
+        "pct_change": 0.2710940654016956,
+        "direction": "rose"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "Undergraduate enrollment",
+        "summary": "Undergraduate enrollment at Champion Beauty College fell 32% between 2007 and 2009 (50 → 34).",
+        "magnitude_pct": -32.0,
+        "magnitude_abs": -16.0,
+        "baseline_year": 2007,
+        "recent_year": 2009,
+        "units": null,
+        "history": [],
+        "metric": "enrollment_undergrad"
+      },
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "Median federal debt at exit",
+        "summary": "Median federal debt at exit at Champion Beauty College rose 27% between 2008 and 2009 ($5.0k → $6.3k).",
+        "magnitude_pct": 27.1,
+        "magnitude_abs": 1343.0,
+        "baseline_year": 2008,
+        "recent_year": 2009,
+        "units": null,
+        "history": [],
+        "metric": "median_debt"
+      },
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "First-year retention",
+        "summary": "First-year retention at Champion Beauty College fell 26% between 2007 and 2009 (85.7% → 63.6%).",
+        "magnitude_pct": -25.7,
+        "magnitude_abs": -0.22,
+        "baseline_year": 2007,
+        "recent_year": 2009,
+        "units": "%",
+        "history": [],
+        "metric": "retention_rate"
+      },
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "150%-time completion",
+        "summary": "150%-time completion at Champion Beauty College rose 24% between 2007 and 2009 (68.4% → 84.6%).",
+        "magnitude_pct": 23.7,
+        "magnitude_abs": 0.16,
+        "baseline_year": 2007,
+        "recent_year": 2009,
+        "units": "%",
+        "history": [],
+        "metric": "completion_rate_150"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "12": [
+      {
+        "slug": "1204-c1",
+        "cip_code": "1204",
+        "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": 17143,
+        "earnings_median_4yr": 19014,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 17143.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 19014.0
+          }
+        ],
+        "debt_median": 7916,
+        "debt_history": [
+          {
+            "year": 2015,
+            "value": 5856.0
+          },
+          {
+            "year": 2016,
+            "value": 6279.0
+          },
+          {
+            "year": 2017,
+            "value": 5779.0
+          },
+          {
+            "year": 2018,
+            "value": 7916.0
+          }
+        ],
+        "completers": 20,
+        "completers_single_year": 18,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 27.0
+          },
+          {
+            "year": 2015,
+            "value": 27.0
+          },
+          {
+            "year": 2016,
+            "value": 21.0
+          },
+          {
+            "year": 2017,
+            "value": 24.0
+          },
+          {
+            "year": 2018,
+            "value": 18.0
+          },
+          {
+            "year": 2019,
+            "value": 20.0
+          }
+        ],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2015,
+            "to_year": 2018,
+            "from_value": 5856.0,
+            "to_value": 7916.0,
+            "pct_change": 0.351775956284153,
+            "direction": "rose"
+          }
+        ]
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "1204-c1",
+      "cip_code": "1204",
+      "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": 17143,
+      "earnings_median_4yr": 19014,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 17143.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 19014.0
+        }
+      ],
+      "debt_median": 7916,
+      "debt_history": [
+        {
+          "year": 2015,
+          "value": 5856.0
+        },
+        {
+          "year": 2016,
+          "value": 6279.0
+        },
+        {
+          "year": 2017,
+          "value": 5779.0
+        },
+        {
+          "year": 2018,
+          "value": 7916.0
+        }
+      ],
+      "completers": 20,
+      "completers_single_year": 18,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 27.0
+        },
+        {
+          "year": 2015,
+          "value": 27.0
+        },
+        {
+          "year": 2016,
+          "value": 21.0
+        },
+        {
+          "year": 2017,
+          "value": 24.0
+        },
+        {
+          "year": 2018,
+          "value": 18.0
+        },
+        {
+          "year": 2019,
+          "value": 20.0
+        }
+      ],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2015,
+          "to_year": 2018,
+          "from_value": 5856.0,
+          "to_value": 7916.0,
+          "pct_change": 0.351775956284153,
+          "direction": "rose"
+        }
+      ]
+    }
+  ],
+  "program_count": 1,
+  "similar": [
+    {
+      "slug": "seguin-beauty-school-seguin-228088",
+      "name": "Seguin Beauty School-Seguin",
+      "city": "Seguin",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 21891,
+      "completion_rate_150": 0.5333,
+      "enrollment_undergrad": 26
+    },
+    {
+      "slug": "jay-s-technical-institute-443146",
+      "name": "Jay's Technical Institute",
+      "city": "Houston",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 15511,
+      "completion_rate_150": 0.5455,
+      "enrollment_undergrad": 26
+    },
+    {
+      "slug": "exposito-school-of-hair-design-224758",
+      "name": "Exposito School of Hair Design",
+      "city": "Amarillo",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 20397,
+      "completion_rate_150": 0.0909,
+      "enrollment_undergrad": 25
+    },
+    {
+      "slug": "legends-barber-college-497365",
+      "name": "Legends Barber College",
+      "city": "Lufkin",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.5,
+      "enrollment_undergrad": 28
+    },
+    {
+      "slug": "south-texas-barber-college-inc-228185",
+      "name": "South Texas Barber College Inc",
+      "city": "Corpus Christi",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 25734,
+      "completion_rate_150": 1.0,
+      "enrollment_undergrad": 23
+    }
+  ],
+  "roi": {
+    "default_program_slug": "1204-c1",
+    "programs_available": [
+      {
+        "slug": "1204-c1",
+        "label": "Cosmetology and Related Personal Grooming Services · Undergraduate Certificate or Diploma",
+        "cip_family": "12",
+        "completers": 20,
+        "has_earnings": true,
+        "earnings_at_completion": 17143,
+        "earnings_anchor_year": 5,
+        "debt_median": 7916,
+        "years_to_complete": 1,
+        "default_result": {
+          "npv": -406094,
+          "breakeven_year": null
+        }
+      }
+    ]
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

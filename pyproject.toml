@@ -1,0 +1,22 @@
+[project]
+name = "college-study-data"
+version = "0.1.0"
+description = "College Outcome Analyst pipeline — federal-data-only static site over IPEDS + College Scorecard."
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.2",
+    "pydantic>=2.6",
+    "click>=8.1",
+    "httpx>=0.27",
+    "python-slugify>=8.0",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["pipeline"]
+
+[tool.setuptools.package-dir]
+"" = "pipeline"

@@ -1,0 +1,180 @@
+{
+  "institution_unitid": "140447",
+  "institution_name": "Mercer University",
+  "institution_slug": "mercer-university-140447",
+  "state": "ga",
+  "cip_code": "5107",
+  "cip_desc": "Health and Medical Administrative Services.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5107-c5",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": null,
+  "earnings_count_5yr": null,
+  "debt_median": 28501,
+  "completers": 43,
+  "completers_single_year": 43,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [
+      {
+        "year": 2017,
+        "value": 27417.0
+      },
+      {
+        "year": 2018,
+        "value": 28501.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2016,
+        "value": 15.0
+      },
+      {
+        "year": 2017,
+        "value": 35.0
+      },
+      {
+        "year": 2018,
+        "value": 43.0
+      },
+      {
+        "year": 2019,
+        "value": 43.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "140447",
+    "slug": "mercer-university-140447",
+    "name": "Mercer University",
+    "city": "Macon",
+    "city_slug": "macon",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "georgia-state-university-139940",
+      "institution_name": "Georgia State University",
+      "earnings_median_5yr": 123490,
+      "earnings_median_4yr": 113729,
+      "debt_median": null,
+      "completers": 38,
+      "completers_single_year": 34,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "brenau-university-139199",
+      "institution_name": "Brenau University",
+      "earnings_median_5yr": 99589,
+      "earnings_median_4yr": null,
+      "debt_median": 53606,
+      "completers": 13,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "georgia-southern-university-139931",
+      "institution_name": "Georgia Southern University",
+      "earnings_median_5yr": 71138,
+      "earnings_median_4yr": 60828,
+      "debt_median": 32598,
+      "completers": 9,
+      "completers_single_year": 41,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "clayton-state-university-139311",
+      "institution_name": "Clayton  State University",
+      "earnings_median_5yr": 70117,
+      "earnings_median_4yr": 56585,
+      "debt_median": 51193,
+      "completers": 21,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "south-university-savannah-139579",
+      "institution_name": "South University-Savannah",
+      "earnings_median_5yr": 63788,
+      "earnings_median_4yr": 54350,
+      "debt_median": 41000,
+      "completers": 11,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-georgia-139959",
+      "institution_name": "University of Georgia",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 22627,
+      "cost_total_default": 135762,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": 28501,
+      "cip_family": "51"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

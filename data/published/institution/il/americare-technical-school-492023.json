@@ -1,0 +1,272 @@
+{
+  "institution": {
+    "unitid": "492023",
+    "opeid6": "042446",
+    "name": "Americare Technical School",
+    "slug": "americare-technical-school-492023",
+    "state": "il",
+    "city": "Park Ridge",
+    "city_slug": "park-ridge",
+    "zip5": "60068",
+    "address": "505 Busse Highway",
+    "latitude": 42.017062,
+    "longitude": -87.841982,
+    "control": "private_forprofit",
+    "pred_degree": "certificate",
+    "highest_degree": "certificate",
+    "main_campus": true,
+    "locale": "21",
+    "carnegie_basic": -2,
+    "sector_code": 9,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": null,
+    "completion_rate_100": null,
+    "retention_rate": null,
+    "admission_rate": 0.9333,
+    "enrollment_undergrad": 28,
+    "enrollment_total": null,
+    "cost_attendance": 47827,
+    "tuition_in_state": 20500,
+    "tuition_out_of_state": 20500,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": 44843,
+    "cost_by_income": {
+      "0_30k": 44843,
+      "30_48k": null,
+      "48_75k": null,
+      "75_110k": null,
+      "110k_plus": null,
+      "sticker": 47827,
+      "sector": "priv"
+    },
+    "median_debt": null,
+    "default_rate": null,
+    "pell_share": 0.2136,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [
+        {
+          "year": 2022,
+          "value": 0.8604
+        }
+      ],
+      "admission_rate": [
+        {
+          "year": 2023,
+          "value": 0.9333
+        },
+        {
+          "year": 2024,
+          "value": 1.0
+        }
+      ],
+      "enrollment_undergrad": [
+        {
+          "year": 2022,
+          "value": 273.0
+        },
+        {
+          "year": 2023,
+          "value": 28.0
+        },
+        {
+          "year": 2024,
+          "value": 25.0
+        }
+      ],
+      "tuition_in_state": [
+        {
+          "year": 2022,
+          "value": 20500.0
+        },
+        {
+          "year": 2023,
+          "value": 20500.0
+        },
+        {
+          "year": 2024,
+          "value": 20500.0
+        }
+      ],
+      "tuition_out_of_state": [
+        {
+          "year": 2022,
+          "value": 20500.0
+        },
+        {
+          "year": 2023,
+          "value": 20500.0
+        },
+        {
+          "year": 2024,
+          "value": 20500.0
+        }
+      ],
+      "cost_attendance": [
+        {
+          "year": 2023,
+          "value": 47827.0
+        }
+      ],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [
+        {
+          "year": 2023,
+          "value": 44843.0
+        }
+      ],
+      "median_debt": [],
+      "default_rate": [],
+      "pell_share": [
+        {
+          "year": 2022,
+          "value": 0.0
+        },
+        {
+          "year": 2023,
+          "value": 0.2136
+        },
+        {
+          "year": 2024,
+          "value": 0.68
+        }
+      ],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "enrollment_undergrad",
+        "from_year": 2022,
+        "to_year": 2024,
+        "from_value": 273.0,
+        "to_value": 25.0,
+        "pct_change": -0.9084249084249084,
+        "direction": "fell"
+      },
+      {
+        "metric": "pell_share",
+        "from_year": 2022,
+        "to_year": 2024,
+        "from_value": 0.0,
+        "to_value": 0.68,
+        "pct_change": 13.6,
+        "direction": "rose"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "Undergraduate enrollment",
+        "summary": "Undergraduate enrollment at Americare Technical School fell 91% between 2022 and 2024 (273 → 25).",
+        "magnitude_pct": -90.8,
+        "magnitude_abs": -248.0,
+        "baseline_year": 2022,
+        "recent_year": 2024,
+        "units": null,
+        "history": [],
+        "metric": "enrollment_undergrad"
+      }
+    ]
+  },
+  "programs_by_family": {},
+  "programs": [],
+  "program_count": 0,
+  "similar": [
+    {
+      "slug": "reflections-academy-of-beauty-475653",
+      "name": "Reflections Academy of Beauty",
+      "city": "Decatur",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.5217,
+      "enrollment_undergrad": 29
+    },
+    {
+      "slug": "phipps-academy-of-barbering-488396",
+      "name": "Phipps Academy of Barbering",
+      "city": "Richton Park",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.4643,
+      "enrollment_undergrad": 26
+    },
+    {
+      "slug": "capri-beauty-college-143552",
+      "name": "Capri Beauty College",
+      "city": "Oak Forest",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 26804,
+      "completion_rate_150": 0.8571,
+      "enrollment_undergrad": 32
+    },
+    {
+      "slug": "creative-touch-cosmetology-school-483911",
+      "name": "Creative Touch Cosmetology School",
+      "city": "Waterloo",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.4545,
+      "enrollment_undergrad": 21
+    },
+    {
+      "slug": "illinois-media-school-419253",
+      "name": "Illinois Media School",
+      "city": "Chicago",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 38284,
+      "completion_rate_150": 0.6735,
+      "enrollment_undergrad": 36
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

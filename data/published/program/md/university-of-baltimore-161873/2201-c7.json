@@ -1,0 +1,178 @@
+{
+  "institution_unitid": "161873",
+  "institution_name": "University of Baltimore",
+  "institution_slug": "university-of-baltimore-161873",
+  "state": "md",
+  "cip_code": "2201",
+  "cip_desc": "Law.",
+  "credential_level": 7,
+  "credential_desc": "First Professional Degree",
+  "slug": "2201-c7",
+  "earnings_median_4yr": 85639,
+  "earnings_median_5yr": 95944,
+  "earnings_count_4yr": 10,
+  "earnings_count_5yr": 8,
+  "debt_median": 106102,
+  "completers": 216,
+  "completers_single_year": 164,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 85639.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 95944.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 109000.0
+      },
+      {
+        "year": 2015,
+        "value": 109510.0
+      },
+      {
+        "year": 2016,
+        "value": 103739.0
+      },
+      {
+        "year": 2017,
+        "value": 102782.0
+      },
+      {
+        "year": 2018,
+        "value": 106102.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 277.0
+      },
+      {
+        "year": 2015,
+        "value": 224.0
+      },
+      {
+        "year": 2016,
+        "value": 204.0
+      },
+      {
+        "year": 2017,
+        "value": 198.0
+      },
+      {
+        "year": 2018,
+        "value": 164.0
+      },
+      {
+        "year": 2019,
+        "value": 216.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 14.7% at Law at University of Baltimore exceeds the 8% gainful-employment threshold ($106.1k debt amortized over 10 years vs $95.9k earnings).",
+      "magnitude_pct": 14.7,
+      "magnitude_abs": 6.7,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "161873",
+    "slug": "university-of-baltimore-161873",
+    "name": "University of Baltimore",
+    "city": "Baltimore",
+    "city_slug": "baltimore",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-maryland-baltimore-163259",
+      "institution_name": "University of Maryland Baltimore",
+      "earnings_median_5yr": 109328,
+      "earnings_median_4yr": 94309,
+      "debt_median": 118506,
+      "completers": 202,
+      "completers_single_year": 189,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 8,
+    "inputs": {
+      "years_to_complete": 7,
+      "cost_per_year_default": 17265,
+      "cost_total_default": 120855,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 95944,
+      "earnings_anchor_year": 5,
+      "debt_median": 106102,
+      "cip_family": "22",
+      "hs_baseline_state": 41100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 743163,
+      "breakeven_year": 11
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "institution": {
+    "unitid": "493637",
+    "opeid6": "042780",
+    "name": "South Eastern Beauty Academy",
+    "slug": "south-eastern-beauty-academy-493637",
+    "state": "ky",
+    "city": "Paintsville",
+    "city_slug": "paintsville",
+    "zip5": "41240",
+    "address": "318 Second Street",
+    "latitude": 37.814789,
+    "longitude": -82.806325,
+    "control": "private_forprofit",
+    "pred_degree": "certificate",
+    "highest_degree": "certificate",
+    "main_campus": true,
+    "locale": "33",
+    "carnegie_basic": -2,
+    "sector_code": 9,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": 0.561,
+    "completion_rate_100": 0.561,
+    "retention_rate": 1.0,
+    "admission_rate": null,
+    "enrollment_undergrad": 19,
+    "enrollment_total": null,
+    "cost_attendance": null,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": null,
+    "cost_by_income": null,
+    "median_debt": null,
+    "default_rate": null,
+    "pell_share": 0.8143,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [
+        {
+          "year": 2019,
+          "value": 0.64
+        },
+        {
+          "year": 2020,
+          "value": 0.9375
+        },
+        {
+          "year": 2021,
+          "value": 0.9091
+        },
+        {
+          "year": 2022,
+          "value": 0.9375
+        },
+        {
+          "year": 2023,
+          "value": 1.0
+        },
+        {
+          "year": 2024,
+          "value": 0.5714
+        }
+      ],
+      "admission_rate": [],
+      "enrollment_undergrad": [
+        {
+          "year": 2019,
+          "value": 51.0
+        },
+        {
+          "year": 2020,
+          "value": 59.0
+        },
+        {
+          "year": 2021,
+          "value": 61.0
+        },
+        {
+          "year": 2022,
+          "value": 19.0
+        },
+        {
+          "year": 2023,
+          "value": 19.0
+        },
+        {
+          "year": 2024,
+          "value": 45.0
+        }
+      ],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [
+        {
+          "year": 2024,
+          "value": 12266.0
+        }
+      ],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [
+        {
+          "year": 2024,
+          "value": 5183.0
+        }
+      ],
+      "median_debt": [],
+      "default_rate": [],
+      "pell_share": [
+        {
+          "year": 2019,
+          "value": 0.6667
+        },
+        {
+          "year": 2020,
+          "value": 0.7463
+        },
+        {
+          "year": 2021,
+          "value": 0.9355
+        },
+        {
+          "year": 2022,
+          "value": 0.8906
+        },
+        {
+          "year": 2023,
+          "value": 0.8143
+        },
+        {
+          "year": 2024,
+          "value": 0.7432
+        }
+      ],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "retention_rate",
+        "from_year": 2019,
+        "to_year": 2024,
+        "from_value": 0.64,
+        "to_value": 0.5714,
+        "pct_change": -0.10718749999999999,
+        "direction": "fell"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "First-year retention",
+        "summary": "First-year retention at South Eastern Beauty Academy fell 37% between 2021 and 2024 (90.9% → 57.1%).",
+        "magnitude_pct": -37.1,
+        "magnitude_abs": -0.34,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": "%",
+        "history": [],
+        "metric": "retention_rate"
+      },
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "Undergraduate enrollment",
+        "summary": "Undergraduate enrollment at South Eastern Beauty Academy fell 26% between 2021 and 2024 (61 → 45).",
+        "magnitude_pct": -26.2,
+        "magnitude_abs": -16.0,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": null,
+        "history": [],
+        "metric": "enrollment_undergrad"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "12": [
+      {
+        "slug": "1204-c1",
+        "cip_code": "1204",
+        "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": 15,
+        "completers_history": [
+          {
+            "year": 2017,
+            "value": 9.0
+          },
+          {
+            "year": 2018,
+            "value": 15.0
+          },
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "1204-c1",
+      "cip_code": "1204",
+      "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": 15,
+      "completers_history": [
+        {
+          "year": 2017,
+          "value": 9.0
+        },
+        {
+          "year": 2018,
+          "value": 15.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    }
+  ],
+  "program_count": 1,
+  "similar": [
+    {
+      "slug": "regina-webb-academy-488183",
+      "name": "Regina Webb Academy",
+      "city": "Bowling Green",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.5714,
+      "enrollment_undergrad": 15
+    },
+    {
+      "slug": "kentucky-horseshoeing-school-487904",
+      "name": "Kentucky Horseshoeing School",
+      "city": "Richmond",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.9231,
+      "enrollment_undergrad": 24
+    },
+    {
+      "slug": "allure-beauty-college-248192",
+      "name": "Allure Beauty College",
+      "city": "Whitesburg",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.5294,
+      "enrollment_undergrad": 25
+    },
+    {
+      "slug": "ideal-beauty-academy-480161",
+      "name": "Ideal Beauty Academy",
+      "city": "Louisville",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 24635,
+      "completion_rate_150": 0.6875,
+      "enrollment_undergrad": 7
+    },
+    {
+      "slug": "edge-academy-of-beauty-498401",
+      "name": "Edge Academy of Beauty",
+      "city": "Manchester",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": 37
+    }
+  ],
+  "roi": {
+    "default_program_slug": null,
+    "programs_available": [
+      {
+        "slug": "1204-c1",
+        "label": "Cosmetology and Related Personal Grooming Services · Undergraduate Certificate or Diploma",
+        "cip_family": "12",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      }
+    ]
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

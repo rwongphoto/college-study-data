@@ -1,0 +1,254 @@
+{
+  "institution_unitid": "175342",
+  "institution_name": "Alcorn State University",
+  "institution_slug": "alcorn-state-university-175342",
+  "state": "ms",
+  "cip_code": "4301",
+  "cip_desc": "Criminal Justice and Corrections.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "4301-c3",
+  "earnings_median_4yr": 39137,
+  "earnings_median_5yr": 46968,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 0,
+  "debt_median": 27000,
+  "completers": 23,
+  "completers_single_year": 21,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 39137.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 46968.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 31000.0
+      },
+      {
+        "year": 2015,
+        "value": 33100.0
+      },
+      {
+        "year": 2016,
+        "value": 36500.0
+      },
+      {
+        "year": 2017,
+        "value": 31500.0
+      },
+      {
+        "year": 2018,
+        "value": 27000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 20.0
+      },
+      {
+        "year": 2015,
+        "value": 28.0
+      },
+      {
+        "year": 2016,
+        "value": 28.0
+      },
+      {
+        "year": 2017,
+        "value": 20.0
+      },
+      {
+        "year": 2018,
+        "value": 21.0
+      },
+      {
+        "year": 2019,
+        "value": 23.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "175342",
+    "slug": "alcorn-state-university-175342",
+    "name": "Alcorn State University",
+    "city": "Alcorn State",
+    "city_slug": "alcorn-state",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-mississippi-176017",
+      "institution_name": "University of Mississippi",
+      "earnings_median_5yr": 50710,
+      "earnings_median_4yr": 46284,
+      "debt_median": 19689,
+      "completers": 154,
+      "completers_single_year": 139,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mississippi-college-176053",
+      "institution_name": "Mississippi College",
+      "earnings_median_5yr": 48643,
+      "earnings_median_4yr": 39249,
+      "debt_median": 24250,
+      "completers": 21,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-southern-mississippi-176372",
+      "institution_name": "University of Southern Mississippi",
+      "earnings_median_5yr": 45264,
+      "earnings_median_4yr": 31967,
+      "debt_median": 20183,
+      "completers": 62,
+      "completers_single_year": 76,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "jackson-state-university-175856",
+      "institution_name": "Jackson State University",
+      "earnings_median_5yr": 44313,
+      "earnings_median_4yr": 43486,
+      "debt_median": 29267,
+      "completers": 49,
+      "completers_single_year": 61,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mississippi-valley-state-university-176044",
+      "institution_name": "Mississippi Valley State University",
+      "earnings_median_5yr": 36947,
+      "earnings_median_4yr": 34341,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "belhaven-university-175421",
+      "institution_name": "Belhaven University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "blue-mountain-christian-university-175430",
+      "institution_name": "Blue Mountain Christian University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "delta-state-university-175616",
+      "institution_name": "Delta State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 24394,
+      "completers": 7,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rust-college-176318",
+      "institution_name": "Rust College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "william-carey-university-176479",
+      "institution_name": "William Carey University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 23500,
+      "completers": 25,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 16450,
+      "cost_total_default": 65800,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 46968,
+      "earnings_anchor_year": 5,
+      "debt_median": 27000,
+      "cip_family": "43",
+      "hs_baseline_state": 30200
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 260512,
+      "breakeven_year": 12
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

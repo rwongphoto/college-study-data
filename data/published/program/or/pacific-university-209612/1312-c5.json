@@ -1,0 +1,278 @@
+{
+  "institution_unitid": "209612",
+  "institution_name": "Pacific University",
+  "institution_slug": "pacific-university-209612",
+  "state": "or",
+  "cip_code": "1312",
+  "cip_desc": "Teacher Education and Professional Development, Specific Levels and Methods.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "1312-c5",
+  "earnings_median_4yr": 51369,
+  "earnings_median_5yr": 57220,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 4,
+  "debt_median": 39568,
+  "completers": 78,
+  "completers_single_year": 51,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 51369.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 57220.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 45099.0
+      },
+      {
+        "year": 2015,
+        "value": 49165.0
+      },
+      {
+        "year": 2016,
+        "value": 51366.0
+      },
+      {
+        "year": 2017,
+        "value": 40160.0
+      },
+      {
+        "year": 2018,
+        "value": 39568.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 44.0
+      },
+      {
+        "year": 2015,
+        "value": 77.0
+      },
+      {
+        "year": 2016,
+        "value": 75.0
+      },
+      {
+        "year": 2017,
+        "value": 72.0
+      },
+      {
+        "year": 2018,
+        "value": 51.0
+      },
+      {
+        "year": 2019,
+        "value": 78.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 9.2% at Teacher Education and Professional Development, Specific Levels and Methods at Pacific University exceeds the 8% gainful-employment threshold ($39.6k debt amortized over 10 years vs $57.2k earnings).",
+      "magnitude_pct": 9.2,
+      "magnitude_abs": 1.2,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "209612",
+    "slug": "pacific-university-209612",
+    "name": "Pacific University",
+    "city": "Forest Grove",
+    "city_slug": "forest-grove",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "portland-state-university-209807",
+      "institution_name": "Portland State University",
+      "earnings_median_5yr": 61828,
+      "earnings_median_4yr": 55475,
+      "debt_median": 40495,
+      "completers": 26,
+      "completers_single_year": 39,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "george-fox-university-208822",
+      "institution_name": "George Fox University",
+      "earnings_median_5yr": 61121,
+      "earnings_median_4yr": 53552,
+      "debt_median": 39794,
+      "completers": 90,
+      "completers_single_year": 93,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southern-oregon-university-210146",
+      "institution_name": "Southern Oregon University",
+      "earnings_median_5yr": 59622,
+      "earnings_median_4yr": 55518,
+      "debt_median": 41182,
+      "completers": 50,
+      "completers_single_year": 80,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-oregon-209551",
+      "institution_name": "University of Oregon",
+      "earnings_median_5yr": 58400,
+      "earnings_median_4yr": 53303,
+      "debt_median": 29591,
+      "completers": 101,
+      "completers_single_year": 87,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-oregon-university-210429",
+      "institution_name": "Western Oregon University",
+      "earnings_median_5yr": 57964,
+      "earnings_median_4yr": 53928,
+      "debt_median": 34166,
+      "completers": 74,
+      "completers_single_year": 70,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "eastern-oregon-university-208646",
+      "institution_name": "Eastern Oregon University",
+      "earnings_median_5yr": 57269,
+      "earnings_median_4yr": 51933,
+      "debt_median": 20500,
+      "completers": 107,
+      "completers_single_year": 50,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bushnell-university-209409",
+      "institution_name": "Bushnell University",
+      "earnings_median_5yr": 54408,
+      "earnings_median_4yr": 45276,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "oregon-state-university-209542",
+      "institution_name": "Oregon State University",
+      "earnings_median_5yr": 53677,
+      "earnings_median_4yr": 49325,
+      "debt_median": 35450,
+      "completers": 52,
+      "completers_single_year": 62,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lewis-clark-college-209056",
+      "institution_name": "Lewis & Clark College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 50271,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "multnomah-university-209287",
+      "institution_name": "Multnomah University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "warner-pacific-university-210304",
+      "institution_name": "Warner Pacific University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 36392,
+      "completers": 2,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 4,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 28427,
+      "cost_total_default": 170562,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 57220,
+      "earnings_anchor_year": 5,
+      "debt_median": 39568,
+      "cip_family": "13",
+      "hs_baseline_state": 38420
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 71055,
+      "breakeven_year": 28
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

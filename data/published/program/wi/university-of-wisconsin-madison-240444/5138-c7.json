@@ -1,0 +1,236 @@
+{
+  "institution_unitid": "240444",
+  "institution_name": "University of Wisconsin-Madison",
+  "institution_slug": "university-of-wisconsin-madison-240444",
+  "state": "wi",
+  "cip_code": "5138",
+  "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+  "credential_level": 7,
+  "credential_desc": "First Professional Degree",
+  "slug": "5138-c7",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 0,
+  "debt_median": 55103,
+  "completers": 22,
+  "completers_single_year": 28,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [
+      {
+        "year": 2016,
+        "value": 29998.0
+      },
+      {
+        "year": 2017,
+        "value": 61000.0
+      },
+      {
+        "year": 2018,
+        "value": 55103.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 7.0
+      },
+      {
+        "year": 2015,
+        "value": 35.0
+      },
+      {
+        "year": 2016,
+        "value": 39.0
+      },
+      {
+        "year": 2017,
+        "value": 25.0
+      },
+      {
+        "year": 2018,
+        "value": 28.0
+      },
+      {
+        "year": 2019,
+        "value": 22.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2016,
+      "to_year": 2018,
+      "from_value": 29998.0,
+      "to_value": 55103.0,
+      "pct_change": 0.8368891259417295,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing at University of Wisconsin-Madison rose 84% between 2016 and 2018 ($30.0k → $55.1k).",
+      "magnitude_pct": 83.7,
+      "magnitude_abs": 25105.0,
+      "baseline_year": 2016,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "240444",
+    "slug": "university-of-wisconsin-madison-240444",
+    "name": "University of Wisconsin-Madison",
+    "city": "Madison",
+    "city_slug": "madison",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-wisconsin-milwaukee-240453",
+      "institution_name": "University of Wisconsin-Milwaukee",
+      "earnings_median_5yr": 105672,
+      "earnings_median_4yr": 98751,
+      "debt_median": 49804,
+      "completers": 43,
+      "completers_single_year": 34,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "alverno-college-238193",
+      "institution_name": "Alverno College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "concordia-university-wisconsin-238616",
+      "institution_name": "Concordia University-Wisconsin",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "edgewood-college-238661",
+      "institution_name": "Edgewood College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "marquette-university-239105",
+      "institution_name": "Marquette University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "viterbo-university-240107",
+      "institution_name": "Viterbo University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 43,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-eau-claire-240268",
+      "institution_name": "University of Wisconsin-Eau Claire",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 20,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-oshkosh-240365",
+      "institution_name": "University of Wisconsin-Oshkosh",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 44,
+      "completers_single_year": 34,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 7,
+      "cost_per_year_default": 9613,
+      "cost_total_default": 67291,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": 55103,
+      "cip_family": "51"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

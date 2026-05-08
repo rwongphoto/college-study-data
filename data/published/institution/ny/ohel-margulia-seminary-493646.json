@@ -1,0 +1,585 @@
+{
+  "institution": {
+    "unitid": "493646",
+    "opeid6": "042783",
+    "name": "Ohel Margulia Seminary",
+    "slug": "ohel-margulia-seminary-493646",
+    "state": "ny",
+    "city": "Monsey",
+    "city_slug": "monsey",
+    "zip5": "10952",
+    "address": "22 Ashel Lane",
+    "latitude": 41.121761,
+    "longitude": -74.065165,
+    "control": "private_nonprofit",
+    "pred_degree": "certificate",
+    "highest_degree": "associates",
+    "main_campus": true,
+    "locale": "21",
+    "carnegie_basic": -2,
+    "sector_code": 5,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": 1.0,
+    "completion_rate_100": 1.0,
+    "retention_rate": 1.0,
+    "admission_rate": 0.9195,
+    "enrollment_undergrad": 243,
+    "enrollment_total": null,
+    "cost_attendance": 14900,
+    "tuition_in_state": 9500,
+    "tuition_out_of_state": 9500,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": 8002,
+    "cost_by_income": {
+      "0_30k": 7878,
+      "30_48k": 7875,
+      "48_75k": 8330,
+      "75_110k": 11855,
+      "110k_plus": null,
+      "sticker": 14900,
+      "sector": "priv"
+    },
+    "median_debt": null,
+    "default_rate": null,
+    "pell_share": 0.8171,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [
+        {
+          "year": 2019,
+          "value": 1.0
+        },
+        {
+          "year": 2020,
+          "value": 0.9932
+        },
+        {
+          "year": 2021,
+          "value": 0.9676
+        },
+        {
+          "year": 2022,
+          "value": 1.0
+        },
+        {
+          "year": 2023,
+          "value": 1.0
+        },
+        {
+          "year": 2024,
+          "value": 1.0
+        }
+      ],
+      "admission_rate": [],
+      "enrollment_undergrad": [
+        {
+          "year": 2019,
+          "value": 204.0
+        },
+        {
+          "year": 2020,
+          "value": 247.0
+        },
+        {
+          "year": 2021,
+          "value": 229.0
+        },
+        {
+          "year": 2022,
+          "value": 246.0
+        },
+        {
+          "year": 2023,
+          "value": 243.0
+        },
+        {
+          "year": 2024,
+          "value": 280.0
+        }
+      ],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [
+        {
+          "year": 2019,
+          "value": 8300.0
+        },
+        {
+          "year": 2020,
+          "value": 8300.0
+        },
+        {
+          "year": 2021,
+          "value": 8300.0
+        },
+        {
+          "year": 2022,
+          "value": 9100.0
+        },
+        {
+          "year": 2023,
+          "value": 9500.0
+        },
+        {
+          "year": 2024,
+          "value": 9700.0
+        }
+      ],
+      "cost_attendance": [
+        {
+          "year": 2019,
+          "value": 13800.0
+        },
+        {
+          "year": 2020,
+          "value": 14100.0
+        },
+        {
+          "year": 2021,
+          "value": 14100.0
+        },
+        {
+          "year": 2022,
+          "value": 14100.0
+        },
+        {
+          "year": 2023,
+          "value": 14900.0
+        },
+        {
+          "year": 2024,
+          "value": 22600.0
+        }
+      ],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [
+        {
+          "year": 2019,
+          "value": 7041.0
+        },
+        {
+          "year": 2020,
+          "value": 7998.0
+        },
+        {
+          "year": 2021,
+          "value": 7749.0
+        },
+        {
+          "year": 2022,
+          "value": 7564.0
+        },
+        {
+          "year": 2023,
+          "value": 8002.0
+        },
+        {
+          "year": 2024,
+          "value": 15111.0
+        }
+      ],
+      "median_debt": [],
+      "default_rate": [],
+      "pell_share": [
+        {
+          "year": 2019,
+          "value": 0.8389
+        },
+        {
+          "year": 2020,
+          "value": 0.7843
+        },
+        {
+          "year": 2021,
+          "value": 0.7692
+        },
+        {
+          "year": 2022,
+          "value": 0.8559
+        },
+        {
+          "year": 2023,
+          "value": 0.8171
+        },
+        {
+          "year": 2024,
+          "value": 0.8025
+        }
+      ],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "enrollment_undergrad",
+        "from_year": 2019,
+        "to_year": 2024,
+        "from_value": 204.0,
+        "to_value": 280.0,
+        "pct_change": 0.37254901960784315,
+        "direction": "rose"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "Out-of-state tuition",
+        "summary": "Out-of-state tuition at Ohel Margulia Seminary rose 17% between 2021 and 2024 ($8.3k → $9.7k).",
+        "magnitude_pct": 16.9,
+        "magnitude_abs": 1400.0,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": null,
+        "history": [],
+        "metric": "tuition_out_of_state"
+      },
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "Undergraduate enrollment",
+        "summary": "Undergraduate enrollment at Ohel Margulia Seminary rose 22% between 2021 and 2024 (229 → 280).",
+        "magnitude_pct": 22.3,
+        "magnitude_abs": 51.0,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": null,
+        "history": [],
+        "metric": "enrollment_undergrad"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "13": [
+      {
+        "slug": "1315-c1",
+        "cip_code": "1315",
+        "cip_desc": "Teaching Assistants/Aides.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 185,
+        "completers_single_year": null,
+        "completers_history": [
+          {
+            "year": 2019,
+            "value": 185.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1313-c2",
+        "cip_code": "1313",
+        "cip_desc": "Teacher Education and Professional Development, Specific Subject Areas.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": null,
+        "completers_history": [
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "38": [
+      {
+        "slug": "3802-c1",
+        "cip_code": "3802",
+        "cip_desc": "Religion/Religious Studies.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": 145,
+        "completers_history": [
+          {
+            "year": 2018,
+            "value": 145.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "3802-c2",
+        "cip_code": "3802",
+        "cip_desc": "Religion/Religious Studies.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": 53,
+        "completers_history": [
+          {
+            "year": 2018,
+            "value": 53.0
+          }
+        ],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "1315-c1",
+      "cip_code": "1315",
+      "cip_desc": "Teaching Assistants/Aides.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 185,
+      "completers_single_year": null,
+      "completers_history": [
+        {
+          "year": 2019,
+          "value": 185.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1313-c2",
+      "cip_code": "1313",
+      "cip_desc": "Teacher Education and Professional Development, Specific Subject Areas.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": null,
+      "completers_history": [
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "3802-c1",
+      "cip_code": "3802",
+      "cip_desc": "Religion/Religious Studies.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": 145,
+      "completers_history": [
+        {
+          "year": 2018,
+          "value": 145.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "3802-c2",
+      "cip_code": "3802",
+      "cip_desc": "Religion/Religious Studies.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": 53,
+      "completers_history": [
+        {
+          "year": 2018,
+          "value": 53.0
+        }
+      ],
+      "long_arc": []
+    }
+  ],
+  "program_count": 4,
+  "similar": [
+    {
+      "slug": "derech-hachaim-seminary-494463",
+      "name": "Derech Hachaim Seminary",
+      "city": "Monroe",
+      "control": "private_nonprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.9779,
+      "enrollment_undergrad": 285
+    },
+    {
+      "slug": "associated-beth-rivkah-schools-188942",
+      "name": "Associated Beth Rivkah Schools",
+      "city": "Brooklyn",
+      "control": "private_nonprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 17686,
+      "completion_rate_150": 0.7407,
+      "enrollment_undergrad": 289
+    },
+    {
+      "slug": "metropolitan-learning-institute-441575",
+      "name": "Metropolitan Learning Institute",
+      "city": "Rego Park",
+      "control": "private_nonprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 25916,
+      "completion_rate_150": 0.8354,
+      "enrollment_undergrad": 318
+    },
+    {
+      "slug": "isabella-graham-hart-school-of-practical-nursing-191940",
+      "name": "Isabella Graham Hart School of Practical Nursing",
+      "city": "Rochester",
+      "control": "private_nonprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 48143,
+      "completion_rate_150": 0.8265,
+      "enrollment_undergrad": 160
+    },
+    {
+      "slug": "edp-school-457794",
+      "name": "EDP School",
+      "city": "Brooklyn",
+      "control": "private_nonprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 41461,
+      "completion_rate_150": 0.9606,
+      "enrollment_undergrad": 155
+    }
+  ],
+  "roi": {
+    "default_program_slug": null,
+    "programs_available": [
+      {
+        "slug": "1315-c1",
+        "label": "Teaching Assistants/Aides · Undergraduate Certificate or Diploma",
+        "cip_family": "13",
+        "completers": 185,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "1313-c2",
+        "label": "Teacher Education and Professional Development, Specific Subject Areas · Associate's Degree",
+        "cip_family": "13",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "3802-c1",
+        "label": "Religion/Religious Studies · Undergraduate Certificate or Diploma",
+        "cip_family": "38",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "3802-c2",
+        "label": "Religion/Religious Studies · Associate's Degree",
+        "cip_family": "38",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      }
+    ]
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

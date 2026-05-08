@@ -1,0 +1,1140 @@
+{
+  "institution": {
+    "unitid": "484002",
+    "opeid6": "042281",
+    "name": "High Desert Medical College",
+    "slug": "high-desert-medical-college-484002",
+    "state": "ca",
+    "city": "Lancaster",
+    "city_slug": "lancaster",
+    "zip5": "93534",
+    "address": "701 West Avenue K suite 123",
+    "latitude": 34.67613,
+    "longitude": -118.144328,
+    "control": "private_forprofit",
+    "pred_degree": "certificate",
+    "highest_degree": "associates",
+    "main_campus": true,
+    "locale": "21",
+    "carnegie_basic": -2,
+    "sector_code": 6,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": 31486,
+    "earnings_median_8yr": 37904,
+    "earnings_median_10yr": null,
+    "completion_rate_150": 0.6602,
+    "completion_rate_100": 0.2197,
+    "retention_rate": 0.7971,
+    "admission_rate": null,
+    "enrollment_undergrad": 1721,
+    "enrollment_total": null,
+    "cost_attendance": 31056,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": 27890,
+    "median_debt": 9500,
+    "default_rate": 0.0,
+    "pell_share": 0.5547,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [],
+      "admission_rate": [],
+      "enrollment_undergrad": [],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [
+        {
+          "year": 2014,
+          "value": 29932.0
+        },
+        {
+          "year": 2015,
+          "value": 31107.0
+        }
+      ],
+      "cost_attendance": [],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [
+        {
+          "year": 2014,
+          "value": 38338.0
+        },
+        {
+          "year": 2015,
+          "value": 38544.0
+        },
+        {
+          "year": 2016,
+          "value": 24919.0
+        },
+        {
+          "year": 2017,
+          "value": 26193.0
+        },
+        {
+          "year": 2018,
+          "value": 26989.0
+        },
+        {
+          "year": 2019,
+          "value": 27857.0
+        },
+        {
+          "year": 2020,
+          "value": 29215.0
+        },
+        {
+          "year": 2021,
+          "value": 20729.0
+        },
+        {
+          "year": 2022,
+          "value": 26913.0
+        },
+        {
+          "year": 2023,
+          "value": 27890.0
+        },
+        {
+          "year": 2024,
+          "value": 29627.0
+        }
+      ],
+      "median_debt": [],
+      "default_rate": [
+        {
+          "year": 2016,
+          "value": 0.0
+        },
+        {
+          "year": 2017,
+          "value": 0.04
+        },
+        {
+          "year": 2018,
+          "value": 0.033
+        },
+        {
+          "year": 2019,
+          "value": 0.03
+        },
+        {
+          "year": 2020,
+          "value": 0.034
+        },
+        {
+          "year": 2021,
+          "value": 0.011
+        },
+        {
+          "year": 2022,
+          "value": 0.0
+        },
+        {
+          "year": 2023,
+          "value": 0.0
+        },
+        {
+          "year": 2024,
+          "value": 0.0
+        }
+      ],
+      "pell_share": [],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [
+        {
+          "year": 2020,
+          "value": 37904.0
+        }
+      ],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "3-year cohort default rate",
+        "summary": "3-year cohort default rate at High Desert Medical College fell 100% between 2021 and 2024 (1.1% → 0.0%).",
+        "magnitude_pct": -100.0,
+        "magnitude_abs": -0.01,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": "%",
+        "history": [],
+        "metric": "default_rate"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "01": [
+      {
+        "slug": "0183-c1",
+        "cip_code": "0183",
+        "cip_desc": "Veterinary/Animal Health Technologies/Technicians.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 28,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 28.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "51": [
+      {
+        "slug": "5139-c1",
+        "cip_code": "5139",
+        "cip_desc": "Practical Nursing, Vocational Nursing and Nursing Assistants.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": 17567,
+        "debt_history": [
+          {
+            "year": 2016,
+            "value": 17435.0
+          },
+          {
+            "year": 2017,
+            "value": 16890.0
+          },
+          {
+            "year": 2018,
+            "value": 17567.0
+          }
+        ],
+        "completers": 146,
+        "completers_single_year": 33,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 10.0
+          },
+          {
+            "year": 2015,
+            "value": 10.0
+          },
+          {
+            "year": 2016,
+            "value": 14.0
+          },
+          {
+            "year": 2017,
+            "value": 36.0
+          },
+          {
+            "year": 2018,
+            "value": 33.0
+          },
+          {
+            "year": 2019,
+            "value": 146.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5108-c1",
+        "cip_code": "5108",
+        "cip_desc": "Allied Health and Medical Assisting Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": 29880,
+        "earnings_median_4yr": 25415,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 29880.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 25415.0
+          }
+        ],
+        "debt_median": 9500,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 7461.0
+          },
+          {
+            "year": 2015,
+            "value": 7521.0
+          },
+          {
+            "year": 2016,
+            "value": 7521.0
+          },
+          {
+            "year": 2017,
+            "value": 7521.0
+          },
+          {
+            "year": 2018,
+            "value": 9500.0
+          }
+        ],
+        "completers": 144,
+        "completers_single_year": 93,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 124.0
+          },
+          {
+            "year": 2015,
+            "value": 100.0
+          },
+          {
+            "year": 2016,
+            "value": 78.0
+          },
+          {
+            "year": 2017,
+            "value": 96.0
+          },
+          {
+            "year": 2018,
+            "value": 93.0
+          },
+          {
+            "year": 2019,
+            "value": 144.0
+          }
+        ],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2014,
+            "to_year": 2018,
+            "from_value": 7461.0,
+            "to_value": 9500.0,
+            "pct_change": 0.2732877630344458,
+            "direction": "rose"
+          }
+        ]
+      },
+      {
+        "slug": "5109-c1",
+        "cip_code": "5109",
+        "cip_desc": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": 40812,
+        "earnings_median_4yr": 34116,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 40812.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 34116.0
+          }
+        ],
+        "debt_median": 21982,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 15709.0
+          },
+          {
+            "year": 2015,
+            "value": 21136.0
+          },
+          {
+            "year": 2016,
+            "value": 22155.0
+          },
+          {
+            "year": 2017,
+            "value": 22174.0
+          },
+          {
+            "year": 2018,
+            "value": 21982.0
+          }
+        ],
+        "completers": 128,
+        "completers_single_year": 121,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 76.0
+          },
+          {
+            "year": 2015,
+            "value": 124.0
+          },
+          {
+            "year": 2016,
+            "value": 167.0
+          },
+          {
+            "year": 2017,
+            "value": 150.0
+          },
+          {
+            "year": 2018,
+            "value": 121.0
+          },
+          {
+            "year": 2019,
+            "value": 128.0
+          }
+        ],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2014,
+            "to_year": 2018,
+            "from_value": 15709.0,
+            "to_value": 21982.0,
+            "pct_change": 0.3993252275765485,
+            "direction": "rose"
+          }
+        ]
+      },
+      {
+        "slug": "5110-c1",
+        "cip_code": "5110",
+        "cip_desc": "Clinical/Medical Laboratory Science/Research and Allied Professions.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 49,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 49.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5106-c1",
+        "cip_code": "5106",
+        "cip_desc": "Dental Support Services and Allied Professions.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": 7521,
+        "debt_history": [
+          {
+            "year": 2016,
+            "value": 7441.0
+          },
+          {
+            "year": 2017,
+            "value": 7521.0
+          },
+          {
+            "year": 2018,
+            "value": 7521.0
+          }
+        ],
+        "completers": 38,
+        "completers_single_year": 12,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 2.0
+          },
+          {
+            "year": 2015,
+            "value": 13.0
+          },
+          {
+            "year": 2016,
+            "value": 20.0
+          },
+          {
+            "year": 2017,
+            "value": 26.0
+          },
+          {
+            "year": 2018,
+            "value": 12.0
+          },
+          {
+            "year": 2019,
+            "value": 38.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5109-c2",
+        "cip_code": "5109",
+        "cip_desc": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": 28100,
+        "debt_history": [
+          {
+            "year": 2017,
+            "value": 28106.0
+          },
+          {
+            "year": 2018,
+            "value": 28100.0
+          }
+        ],
+        "completers": 38,
+        "completers_single_year": 60,
+        "completers_history": [
+          {
+            "year": 2016,
+            "value": 0.0
+          },
+          {
+            "year": 2017,
+            "value": 31.0
+          },
+          {
+            "year": 2018,
+            "value": 60.0
+          },
+          {
+            "year": 2019,
+            "value": 38.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5107-c1",
+        "cip_code": "5107",
+        "cip_desc": "Health and Medical Administrative Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 24,
+        "completers_single_year": 19,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 5.0
+          },
+          {
+            "year": 2015,
+            "value": 9.0
+          },
+          {
+            "year": 2016,
+            "value": 2.0
+          },
+          {
+            "year": 2017,
+            "value": 7.0
+          },
+          {
+            "year": 2018,
+            "value": 19.0
+          },
+          {
+            "year": 2019,
+            "value": 24.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5139-c2",
+        "cip_code": "5139",
+        "cip_desc": "Practical Nursing, Vocational Nursing and Nursing Assistants.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": null,
+        "completers_history": [
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "5139-c1",
+      "cip_code": "5139",
+      "cip_desc": "Practical Nursing, Vocational Nursing and Nursing Assistants.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": 17567,
+      "debt_history": [
+        {
+          "year": 2016,
+          "value": 17435.0
+        },
+        {
+          "year": 2017,
+          "value": 16890.0
+        },
+        {
+          "year": 2018,
+          "value": 17567.0
+        }
+      ],
+      "completers": 146,
+      "completers_single_year": 33,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 10.0
+        },
+        {
+          "year": 2015,
+          "value": 10.0
+        },
+        {
+          "year": 2016,
+          "value": 14.0
+        },
+        {
+          "year": 2017,
+          "value": 36.0
+        },
+        {
+          "year": 2018,
+          "value": 33.0
+        },
+        {
+          "year": 2019,
+          "value": 146.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5108-c1",
+      "cip_code": "5108",
+      "cip_desc": "Allied Health and Medical Assisting Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": 29880,
+      "earnings_median_4yr": 25415,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 29880.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 25415.0
+        }
+      ],
+      "debt_median": 9500,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 7461.0
+        },
+        {
+          "year": 2015,
+          "value": 7521.0
+        },
+        {
+          "year": 2016,
+          "value": 7521.0
+        },
+        {
+          "year": 2017,
+          "value": 7521.0
+        },
+        {
+          "year": 2018,
+          "value": 9500.0
+        }
+      ],
+      "completers": 144,
+      "completers_single_year": 93,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 124.0
+        },
+        {
+          "year": 2015,
+          "value": 100.0
+        },
+        {
+          "year": 2016,
+          "value": 78.0
+        },
+        {
+          "year": 2017,
+          "value": 96.0
+        },
+        {
+          "year": 2018,
+          "value": 93.0
+        },
+        {
+          "year": 2019,
+          "value": 144.0
+        }
+      ],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2014,
+          "to_year": 2018,
+          "from_value": 7461.0,
+          "to_value": 9500.0,
+          "pct_change": 0.2732877630344458,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "slug": "5109-c1",
+      "cip_code": "5109",
+      "cip_desc": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": 40812,
+      "earnings_median_4yr": 34116,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 40812.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 34116.0
+        }
+      ],
+      "debt_median": 21982,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 15709.0
+        },
+        {
+          "year": 2015,
+          "value": 21136.0
+        },
+        {
+          "year": 2016,
+          "value": 22155.0
+        },
+        {
+          "year": 2017,
+          "value": 22174.0
+        },
+        {
+          "year": 2018,
+          "value": 21982.0
+        }
+      ],
+      "completers": 128,
+      "completers_single_year": 121,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 76.0
+        },
+        {
+          "year": 2015,
+          "value": 124.0
+        },
+        {
+          "year": 2016,
+          "value": 167.0
+        },
+        {
+          "year": 2017,
+          "value": 150.0
+        },
+        {
+          "year": 2018,
+          "value": 121.0
+        },
+        {
+          "year": 2019,
+          "value": 128.0
+        }
+      ],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2014,
+          "to_year": 2018,
+          "from_value": 15709.0,
+          "to_value": 21982.0,
+          "pct_change": 0.3993252275765485,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "slug": "5110-c1",
+      "cip_code": "5110",
+      "cip_desc": "Clinical/Medical Laboratory Science/Research and Allied Professions.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 49,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 49.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5106-c1",
+      "cip_code": "5106",
+      "cip_desc": "Dental Support Services and Allied Professions.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": 7521,
+      "debt_history": [
+        {
+          "year": 2016,
+          "value": 7441.0
+        },
+        {
+          "year": 2017,
+          "value": 7521.0
+        },
+        {
+          "year": 2018,
+          "value": 7521.0
+        }
+      ],
+      "completers": 38,
+      "completers_single_year": 12,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 2.0
+        },
+        {
+          "year": 2015,
+          "value": 13.0
+        },
+        {
+          "year": 2016,
+          "value": 20.0
+        },
+        {
+          "year": 2017,
+          "value": 26.0
+        },
+        {
+          "year": 2018,
+          "value": 12.0
+        },
+        {
+          "year": 2019,
+          "value": 38.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5109-c2",
+      "cip_code": "5109",
+      "cip_desc": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": 28100,
+      "debt_history": [
+        {
+          "year": 2017,
+          "value": 28106.0
+        },
+        {
+          "year": 2018,
+          "value": 28100.0
+        }
+      ],
+      "completers": 38,
+      "completers_single_year": 60,
+      "completers_history": [
+        {
+          "year": 2016,
+          "value": 0.0
+        },
+        {
+          "year": 2017,
+          "value": 31.0
+        },
+        {
+          "year": 2018,
+          "value": 60.0
+        },
+        {
+          "year": 2019,
+          "value": 38.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "0183-c1",
+      "cip_code": "0183",
+      "cip_desc": "Veterinary/Animal Health Technologies/Technicians.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 28,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 28.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5107-c1",
+      "cip_code": "5107",
+      "cip_desc": "Health and Medical Administrative Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 24,
+      "completers_single_year": 19,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 5.0
+        },
+        {
+          "year": 2015,
+          "value": 9.0
+        },
+        {
+          "year": 2016,
+          "value": 2.0
+        },
+        {
+          "year": 2017,
+          "value": 7.0
+        },
+        {
+          "year": 2018,
+          "value": 19.0
+        },
+        {
+          "year": 2019,
+          "value": 24.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5139-c2",
+      "cip_code": "5139",
+      "cip_desc": "Practical Nursing, Vocational Nursing and Nursing Assistants.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": null,
+      "completers_history": [
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    }
+  ],
+  "program_count": 9,
+  "similar": [
+    {
+      "slug": "uei-college-gardena-393649",
+      "name": "UEI College-Gardena",
+      "city": "Gardena",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 30848,
+      "completion_rate_150": 0.6292,
+      "enrollment_undergrad": 1444
+    },
+    {
+      "slug": "summit-college-400080",
+      "name": "Summit College",
+      "city": "San Bernardino",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 40187,
+      "completion_rate_150": 0.7365,
+      "enrollment_undergrad": 1210
+    },
+    {
+      "slug": "national-holistic-institute-119553",
+      "name": "National Holistic Institute",
+      "city": "Emeryville",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 27978,
+      "completion_rate_150": 0.696,
+      "enrollment_undergrad": 1134
+    },
+    {
+      "slug": "uei-college-huntington-park-124681",
+      "name": "UEI College-Huntington Park",
+      "city": "Huntington Park",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 31141,
+      "completion_rate_150": 0.5992,
+      "enrollment_undergrad": 1036
+    },
+    {
+      "slug": "uei-college-fresno-397942",
+      "name": "UEI College-Fresno",
+      "city": "Fresno",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 27688,
+      "completion_rate_150": 0.5447,
+      "enrollment_undergrad": 974
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

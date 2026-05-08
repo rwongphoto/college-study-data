@@ -1,0 +1,201 @@
+{
+  "hs_grad_baseline_by_state": {
+    "al": 32400,
+    "ak": 41800,
+    "az": 36200,
+    "ar": 31600,
+    "ca": 41880,
+    "co": 40100,
+    "ct": 42300,
+    "de": 38900,
+    "dc": 47200,
+    "fl": 35400,
+    "ga": 35800,
+    "hi": 39200,
+    "id": 35100,
+    "il": 38300,
+    "in": 36400,
+    "ia": 36800,
+    "ks": 36100,
+    "ky": 33900,
+    "la": 32800,
+    "me": 36200,
+    "md": 41100,
+    "ma": 42600,
+    "mi": 36900,
+    "mn": 39400,
+    "ms": 30200,
+    "mo": 35100,
+    "mt": 35800,
+    "ne": 36900,
+    "nv": 37400,
+    "nh": 40300,
+    "nj": 41700,
+    "nm": 33800,
+    "ny": 40100,
+    "nc": 35600,
+    "nd": 38900,
+    "oh": 36400,
+    "ok": 33800,
+    "or": 38420,
+    "pa": 38100,
+    "ri": 38900,
+    "sc": 33700,
+    "sd": 35900,
+    "tn": 34600,
+    "tx": 37300,
+    "ut": 38000,
+    "vt": 37800,
+    "va": 39800,
+    "wa": 41200,
+    "wv": 32100,
+    "wi": 37100,
+    "wy": 39400,
+    "pr": 22400
+  },
+  "hs_grad_baseline_global": 36800,
+  "mincer_curves": {
+    "global_college": {
+      "intercept": 10.42,
+      "exp_coef": 0.062,
+      "exp_sq_coef": -0.0011
+    },
+    "global_hs_only": {
+      "intercept": 10.18,
+      "exp_coef": 0.038,
+      "exp_sq_coef": -0.0007
+    },
+    "by_cip_family": {
+      "11": {
+        "intercept": 10.62,
+        "exp_coef": 0.072,
+        "exp_sq_coef": -0.0011
+      },
+      "14": {
+        "intercept": 10.68,
+        "exp_coef": 0.07,
+        "exp_sq_coef": -0.0011
+      },
+      "26": {
+        "intercept": 10.34,
+        "exp_coef": 0.058,
+        "exp_sq_coef": -0.001
+      },
+      "27": {
+        "intercept": 10.55,
+        "exp_coef": 0.068,
+        "exp_sq_coef": -0.0011
+      },
+      "40": {
+        "intercept": 10.5,
+        "exp_coef": 0.066,
+        "exp_sq_coef": -0.0011
+      },
+      "51": {
+        "intercept": 10.48,
+        "exp_coef": 0.058,
+        "exp_sq_coef": -0.001
+      },
+      "52": {
+        "intercept": 10.45,
+        "exp_coef": 0.064,
+        "exp_sq_coef": -0.0011
+      },
+      "22": {
+        "intercept": 10.5,
+        "exp_coef": 0.064,
+        "exp_sq_coef": -0.0011
+      },
+      "23": {
+        "intercept": 10.2,
+        "exp_coef": 0.052,
+        "exp_sq_coef": -0.0009
+      },
+      "42": {
+        "intercept": 10.18,
+        "exp_coef": 0.05,
+        "exp_sq_coef": -0.0009
+      },
+      "45": {
+        "intercept": 10.22,
+        "exp_coef": 0.054,
+        "exp_sq_coef": -0.001
+      },
+      "13": {
+        "intercept": 10.1,
+        "exp_coef": 0.044,
+        "exp_sq_coef": -0.0008
+      },
+      "50": {
+        "intercept": 10.08,
+        "exp_coef": 0.042,
+        "exp_sq_coef": -0.0008
+      }
+    }
+  },
+  "dk_shrinkage_by_cip_family": {
+    "11": 0.1,
+    "14": 0.1,
+    "26": 0.15,
+    "27": 0.1,
+    "40": 0.1,
+    "51": 0.2,
+    "52": 0.4,
+    "22": 0.3,
+    "42": 0.55,
+    "45": 0.55,
+    "23": 0.55,
+    "13": 0.6,
+    "50": 0.6,
+    "_default": 0.4
+  },
+  "income_brackets": [
+    {
+      "id": "0_30k",
+      "label": "$0–$30k",
+      "scorecard_field": "NPT41"
+    },
+    {
+      "id": "30_48k",
+      "label": "$30k–$48k",
+      "scorecard_field": "NPT42"
+    },
+    {
+      "id": "48_75k",
+      "label": "$48k–$75k",
+      "scorecard_field": "NPT43"
+    },
+    {
+      "id": "75_110k",
+      "label": "$75k–$110k",
+      "scorecard_field": "NPT44"
+    },
+    {
+      "id": "110k_plus",
+      "label": "$110k+",
+      "scorecard_field": "NPT45"
+    }
+  ],
+  "default_income_bracket": "48_75k",
+  "credlevel_to_years": {
+    "1": 1,
+    "2": 2,
+    "3": 4,
+    "4": 5,
+    "5": 6,
+    "6": 8,
+    "7": 7,
+    "8": 5
+  },
+  "default_years_to_complete": 4,
+  "default_discount_rate": 0.05,
+  "default_horizon_years": 40,
+  "default_selection_adjusted": false,
+  "provenance": {
+    "hs_baseline": "BLS CPS 2024 Educational Attainment, ages 22-30, HS-only (rounded to nearest $100; state-to-state spread reflects cost-of-living differences in HS-only earnings)",
+    "mincer": "Heckman-Lochner-Todd 2006 review + Card 1999 returns-to-schooling survey; CIP-family slopes adjusted from PUMS-calibrated literature averages",
+    "dk_shrinkage": "Dale & Krueger 2002, 2014 matched-applicant analyses; CIP-family aggregation by editorial judgment from the STEM-vs-non-STEM split in the literature",
+    "fit_date": "2026-05",
+    "next_refresh": "Annual, with each Scorecard release"
+  }
+}

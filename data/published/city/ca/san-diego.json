@@ -1,0 +1,4549 @@
+{
+  "state": "ca",
+  "name": "San Diego",
+  "slug": "san-diego",
+  "institution_count": 27,
+  "institutions": [
+    {
+      "unitid": "110468",
+      "slug": "alliant-international-university-san-diego-110468",
+      "name": "Alliant International University-San Diego",
+      "city": "San Diego",
+      "city_slug": "san-diego",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 66666,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 47218
+        },
+        {
+          "year": 8,
+          "value": 51275
+        },
+        {
+          "year": 10,
+          "value": 66666
+        }
+      ],
+      "completion_rate_150": 0.2222,
+      "completion_rate_history": [
+        {
+          "year": 2001,
+          "value": 0.3433
+        },
+        {
+          "year": 2002,
+          "value": 0.3421
+        },
+        {
+          "year": 2003,
+          "value": 0.2941
+        },
+        {
+          "year": 2004,
+          "value": 0.875
+        },
+        {
+          "year": 2005,
+          "value": 0.3438
+        },
+        {
+          "year": 2006,
+          "value": 0.45
+        },
+        {
+          "year": 2007,
+          "value": 0.2043
+        },
+        {
+          "year": 2008,
+          "value": 0.1111
+        },
+        {
+          "year": 2009,
+          "value": 0.2941
+        },
+        {
+          "year": 2010,
+          "value": 0.2766
+        },
+        {
+          "year": 2011,
+          "value": 0.2857
+        },
+        {
+          "year": 2018,
+          "value": 0.25
+        },
+        {
+          "year": 2019,
+          "value": 0.16
+        },
+        {
+          "year": 2020,
+          "value": 0.2
+        },
+        {
+          "year": 2021,
+          "value": 0.0909
+        },
+        {
+          "year": 2023,
+          "value": 0.2222
+        }
+      ],
+      "enrollment_undergrad": 355,
+      "enrollment_history": [
+        {
+          "year": 2001,
+          "value": 514.0
+        },
+        {
+          "year": 2002,
+          "value": 498.0
+        },
+        {
+          "year": 2003,
+          "value": 416.0
+        },
+        {
+          "year": 2004,
+          "value": 329.0
+        },
+        {
+          "year": 2005,
+          "value": 250.0
+        },
+        {
+          "year": 2006,
+          "value": 179.0
+        },
+        {
+          "year": 2007,
+          "value": 177.0
+        },
+        {
+          "year": 2008,
+          "value": 168.0
+        },
+        {
+          "year": 2009,
+          "value": 151.0
+        },
+        {
+          "year": 2010,
+          "value": 161.0
+        }
+      ],
+      "median_debt": 12500,
+      "default_rate": 0.0,
+      "tuition_in_state": 13918,
+      "tuition_out_of_state": 13918,
+      "long_arc": [
+        {
+          "metric": "completion_rate_150",
+          "from_year": 2001,
+          "to_year": 2023,
+          "from_value": 0.3433,
+          "to_value": 0.2222,
+          "pct_change": -0.352752694436353,
+          "direction": "fell"
+        },
+        {
+          "metric": "completion_rate_100",
+          "from_year": 2001,
+          "to_year": 2023,
+          "from_value": 0.2836,
+          "to_value": 0.2222,
+          "pct_change": -0.21650211565585334,
+          "direction": "fell"
+        },
+        {
+          "metric": "retention_rate",
+          "from_year": 2004,
+          "to_year": 2018,
+          "from_value": 0.4,
+          "to_value": 0.6667,
+          "pct_change": 0.6667499999999998,
+          "direction": "rose"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 2001,
+          "to_year": 2010,
+          "from_value": 514.0,
+          "to_value": 161.0,
+          "pct_change": -0.6867704280155642,
+          "direction": "fell"
+        },
+        {
+          "metric": "tuition_in_state",
+          "from_year": 2001,
+          "to_year": 2024,
+          "from_value": 4650.0,
+          "to_value": 14304.0,
+          "pct_change": 2.0761290322580646,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2001,
+          "to_year": 2024,
+          "from_value": 4650.0,
+          "to_value": 14304.0,
+          "pct_change": 2.0761290322580646,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 2001,
+          "to_year": 2010,
+          "from_value": 3500.0,
+          "to_value": 2000.0,
+          "pct_change": -0.42857142857142855,
+          "direction": "fell"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.053,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2008,
+          "to_year": 2024,
+          "from_value": 0.4389,
+          "to_value": 0.0169,
+          "pct_change": -0.9614946457051721,
+          "direction": "fell"
+        }
+      ]
+    },
+    {
+      "unitid": "154022",
+      "slug": "ashford-university-154022",
+      "name": "Ashford University",
+      "city": "San Diego",
+      "city_slug": "san-diego",
+      "control": "private_forprofit",
+      "pred_degree": "bachelors",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 35404,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 33397
+        },
+        {
+          "year": 8,
+          "value": 32575
+        },
+        {
+          "year": 10,
+          "value": 35404
+        }
+      ],
+      "completion_rate_150": 0.0877,
+      "completion_rate_history": [
+        {
+          "year": 1997,
+          "value": 0.3333
+        },
+        {
+          "year": 1998,
+          "value": 0.3879
+        },
+        {
+          "year": 1999,
+          "value": 0.3548
+        },
+        {
+          "year": 2000,
+          "value": 0.2674
+        },
+        {
+          "year": 2001,
+          "value": 0.4696
+        },
+        {
+          "year": 2002,
+          "value": 0.3789
+        },
+        {
+          "year": 2003,
+          "value": 0.4074
+        },
+        {
+          "year": 2004,
+          "value": 0.3626
+        },
+        {
+          "year": 2005,
+          "value": 0.431
+        },
+        {
+          "year": 2006,
+          "value": 0.3913
+        },
+        {
+          "year": 2007,
+          "value": 0.4066
+        },
+        {
+          "year": 2008,
+          "value": 0.4375
+        },
+        {
+          "year": 2009,
+          "value": 0.2963
+        },
+        {
+          "year": 2010,
+          "value": 0.3654
+        },
+        {
+          "year": 2011,
+          "value": 0.2206
+        },
+        {
+          "year": 2012,
+          "value": 0.2133
+        },
+        {
+          "year": 2013,
+          "value": 0.207
+        },
+        {
+          "year": 2014,
+          "value": 0.1915
+        },
+        {
+          "year": 2015,
+          "value": 0.1423
+        },
+        {
+          "year": 2016,
+          "value": 0.0859
+        },
+        {
+          "year": 2017,
+          "value": 0.0765
+        },
+        {
+          "year": 2018,
+          "value": 0.0777
+        },
+        {
+          "year": 2019,
+          "value": 0.0776
+        },
+        {
+          "year": 2020,
+          "value": 0.0819
+        },
+        {
+          "year": 2021,
+          "value": 0.0946
+        },
+        {
+          "year": 2022,
+          "value": 0.0978
+        },
+        {
+          "year": 2023,
+          "value": 0.0877
+        },
+        {
+          "year": 2024,
+          "value": 0.1068
+        }
+      ],
+      "enrollment_undergrad": 23734,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 510.0
+        },
+        {
+          "year": 1997,
+          "value": 507.0
+        },
+        {
+          "year": 1998,
+          "value": 555.0
+        },
+        {
+          "year": 1999,
+          "value": 576.0
+        },
+        {
+          "year": 2001,
+          "value": 387.0
+        },
+        {
+          "year": 2002,
+          "value": 410.0
+        },
+        {
+          "year": 2003,
+          "value": 416.0
+        },
+        {
+          "year": 2004,
+          "value": 380.0
+        },
+        {
+          "year": 2005,
+          "value": 627.0
+        },
+        {
+          "year": 2006,
+          "value": 3414.0
+        },
+        {
+          "year": 2007,
+          "value": 9805.0
+        },
+        {
+          "year": 2008,
+          "value": 23665.0
+        },
+        {
+          "year": 2009,
+          "value": 42668.0
+        }
+      ],
+      "median_debt": 9500,
+      "default_rate": 0.0,
+      "tuition_in_state": 13160,
+      "tuition_out_of_state": 13160,
+      "long_arc": [
+        {
+          "metric": "completion_rate_150",
+          "from_year": 1997,
+          "to_year": 2024,
+          "from_value": 0.3333,
+          "to_value": 0.1068,
+          "pct_change": -0.6795679567956795,
+          "direction": "fell"
+        },
+        {
+          "metric": "completion_rate_100",
+          "from_year": 1997,
+          "to_year": 2024,
+          "from_value": 0.0435,
+          "to_value": 0.0266,
+          "pct_change": -0.38850574712643676,
+          "direction": "fell"
+        },
+        {
+          "metric": "retention_rate",
+          "from_year": 2004,
+          "to_year": 2009,
+          "from_value": 0.61,
+          "to_value": 0.4118,
+          "pct_change": -0.32491803278688525,
+          "direction": "fell"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 1996,
+          "to_year": 2009,
+          "from_value": 510.0,
+          "to_value": 42668.0,
+          "pct_change": 82.66274509803921,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.198,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        }
+      ]
+    },
+    {
+      "unitid": "485494",
+      "slug": "associated-barber-college-of-san-diego-485494",
+      "name": "Associated Barber College of San Diego",
+      "city": "San Diego",
+      "city_slug": "san-diego",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": null
+        },
+        {
+          "year": 8,
+          "value": null
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": 0.7609,
+      "completion_rate_history": [],
+      "enrollment_undergrad": 116,
+      "enrollment_history": [],
+      "median_debt": 15340,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "default_rate",
+          "from_year": 2018,
+          "to_year": 2024,
+          "from_value": 0.125,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        }
+      ]
+    },
+    {
+      "unitid": "109730",
+      "slug": "associated-technical-college-san-diego-109730",
+      "name": "Associated Technical College-San Diego",
+      "city": "San Diego",
+      "city_slug": "san-diego",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 26688,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 22561
+        },
+        {
+          "year": 8,
+          "value": 19916
+        },
+        {
+          "year": 10,
+          "value": 26688
+        }
+      ],
+      "completion_rate_150": 0.8444,
+      "completion_rate_history": [
+        {
+          "year": 1997,
+          "value": 0.6759
+        },
+        {
+          "year": 1998,
+          "value": 0.7022
+        },
+        {
+          "year": 1999,
+          "value": 0.4557
+        },
+        {
+          "year": 2000,
+          "value": 0.8376
+        },
+        {
+          "year": 2001,
+          "value": 0.6619
+        },
+        {
+          "year": 2002,
+          "value": 0.758
+        },
+        {
+          "year": 2003,
+          "value": 0.6793
+        },
+        {
+          "year": 2004,
+          "value": 0.6939
+        },
+        {
+          "year": 2005,
+          "value": 0.7021
+        },
+        {
+          "year": 2006,
+          "value": 0.7287
+        },
+        {
+          "year": 2007,
+          "value": 0.6739
+        },
+        {
+          "year": 2008,
+          "value": 0.6471
+        },
+        {
+          "year": 2009,
+          "value": 0.6068
+        },
+        {
+          "year": 2010,
+          "value": 0.6172
+        }
+      ],
+      "enrollment_undergrad": 77,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 185.0
+        },
+        {
+          "year": 1997,
+          "value": 108.0
+        },
+        {
+          "year": 1998,
+          "value": 210.0
+        },
+        {
+          "year": 1999,
+          "value": 157.0
+        },
+        {
+          "year": 2001,
+          "value": 133.0
+        },
+        {
+          "year": 2002,
+          "value": 142.0
+        },
+        {
+          "year": 2003,
+          "value": 129.0
+        },
+        {
+          "year": 2004,
+          "value": 84.0
+        },
+        {
+          "year": 2005,
+          "value": 41.0
+        },
+        {
+          "year": 2006,
+          "value": 61.0
+        },
+        {
+          "year": 2007,
+          "value": 58.0
+        },
+        {
+          "year": 2008,
+          "value": 86.0
+        },
+        {
+          "year": 2009,
+          "value": 123.0
+        },
+        {
+          "year": 2010,
+          "value": 135.0
+        }
+      ],
+      "median_debt": 9500,
+      "default_rate": null,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "completion_rate_100",
+          "from_year": 2009,
+          "to_year": 2010,
+          "from_value": 0.1538,
+          "to_value": 0.0938,
+          "pct_change": -0.39011703511053314,
+          "direction": "fell"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 1996,
+          "to_year": 2010,
+          "from_value": 185.0,
+          "to_value": 135.0,
+          "pct_change": -0.25,
+          "direction": "fell"
+        },
+        {
+          "metric": "tuition_in_state",
+          "from_year": 2000,
+          "to_year": 2003,
+          "from_value": 5600.0,
+          "to_value": 7600.0,
+          "pct_change": 0.35714285714285715,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2000,
+          "to_year": 2003,
+          "from_value": 5600.0,
+          "to_value": 7600.0,
+          "pct_change": 0.35714285714285715,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "unitid": "486497",
+      "slug": "california-barber-and-beauty-college-486497",
+      "name": "California Barber and Beauty College",
+      "city": "San Diego",
+      "city_slug": "san-diego",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 12137
+        },
+        {
+          "year": 8,
+          "value": null
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": 0.7368,
+      "completion_rate_history": [],
+      "enrollment_undergrad": 61,
+      "enrollment_history": [],
+      "median_debt": null,
+      "default_rate": null,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": []
+    },
+    {
+      "unitid": "490285",
+      "slug": "california-institute-of-arts-technology-490285",
+      "name": "California Institute of Arts & Technology",
+      "city": "San Diego",
+      "city_slug": "san-diego",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": null
+        },
+        {
+          "year": 8,
+          "value": null
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": 0.6986,
+      "completion_rate_history": [
+        {
+          "year": 2022,
+          "value": 0.5781
+        },
+        {
+          "year": 2023,
+          "value": 0.6986
+        },
+        {
+          "year": 2024,
+          "value": 0.561
+        }
+      ],
+      "enrollment_undergrad": 14,
+      "enrollment_history": [],
+      "median_debt": 4750,
+      "default_rate": 0.0,
+      "tuition_in_state": 15390,
+      "tuition_out_of_state": 15390,
+      "long_arc": [
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2017,
+          "to_year": 2024,
+          "from_value": 14040.0,
+          "to_value": 22270.0,
+          "pct_change": 0.5861823361823362,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "unitid": "480781",
+      "slug": "california-miramar-university-480781",
+      "name": "California Miramar University",
+      "city": "San Diego",
+      "city_slug": "san-diego",
+      "control": "private_forprofit",
+      "pred_degree": "bachelors",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": null
+        },
+        {
+          "year": 8,
+          "value": null
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": null,
+      "completion_rate_history": [
+        {
+          "year": 2019,
+          "value": 1.0
+        },
+        {
+          "year": 2021,
+          "value": 0.619
+        },
+        {
+          "year": 2022,
+          "value": 0.3
+        },
+        {
+          "year": 2023,
+          "value": 0.0
+        },
+        {
+          "year": 2024,
+          "value": 0.5
+        }
+      ],
+      "enrollment_undergrad": 105,
+      "enrollment_history": [],
+      "median_debt": 12664,
+      "default_rate": 0.0,
+      "tuition_in_state": 9994,
+      "tuition_out_of_state": 9994,
+      "long_arc": [
+        {
+          "metric": "completion_rate_150",
+          "from_year": 2019,
+          "to_year": 2024,
+          "from_value": 1.0,
+          "to_value": 0.5,
+          "pct_change": -0.5,
+          "direction": "fell"
+        },
+        {
+          "metric": "completion_rate_100",
+          "from_year": 2019,
+          "to_year": 2024,
+          "from_value": 1.0,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2013,
+          "to_year": 2024,
+          "from_value": 7990.0,
+          "to_value": 12442.0,
+          "pct_change": 0.5571964956195244,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2016,
+          "to_year": 2024,
+          "from_value": 0.222,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        }
+      ]
+    },
+    {
+      "unitid": "111391",
+      "slug": "california-western-school-of-law-111391",
+      "name": "California Western School of Law",
+      "city": "San Diego",
+      "city_slug": "san-diego",
+      "control": "private_nonprofit",
+      "pred_degree": "graduate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": null
+        },
+        {
+          "year": 8,
+          "value": null
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": null,
+      "completion_rate_history": [],
+      "enrollment_undergrad": null,
+      "enrollment_history": [],
+      "median_debt": null,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.018,
+          "to_value": 0.0,
+          "pct_change": -0.8999999999999999,
+          "direction": "fell"
+        },
+        {
+          "metric": "earnings_median_8yr",
+          "from_year": 2007,
+          "to_year": 2014,
+          "from_value": 60800.0,
+          "to_value": 74200.0,
+          "pct_change": 0.22039473684210525,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_6yr",
+          "from_year": 2003,
+          "to_year": 2014,
+          "from_value": 45100.0,
+          "to_value": 67400.0,
+          "pct_change": 0.49445676274944567,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "unitid": "120661",
+      "slug": "concorde-career-college-san-diego-120661",
+      "name": "Concorde Career College-San Diego",
+      "city": "San Diego",
+      "city_slug": "san-diego",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 39169,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 39255
+        },
+        {
+          "year": 8,
+          "value": 41258
+        },
+        {
+          "year": 10,
+          "value": 39169
+        }
+      ],
+      "completion_rate_150": 0.714,
+      "completion_rate_history": [
+        {
+          "year": 1997,
+          "value": 0.8495
+        },
+        {
+          "year": 1998,
+          "value": 0.6775
+        },
+        {
+          "year": 1999,
+          "value": 0.7253
+        },
+        {
+          "year": 2000,
+          "value": 0.5455
+        },
+        {
+          "year": 2001,
+          "value": 0.6096
+        },
+        {
+          "year": 2002,
+          "value": 0.6076
+        },
+        {
+          "year": 2003,
+          "value": 0.6462
+        },
+        {
+          "year": 2004,
+          "value": 0.653
+        },
+        {
+          "year": 2005,
+          "value": 0.7554
+        },
+        {
+          "year": 2006,
+          "value": 0.7517
+        },
+        {
+          "year": 2007,
+          "value": 0.7395
+        },
+        {
+          "year": 2008,
+          "value": 0.6842
+        },
+        {
+          "year": 2009,
+          "value": 0.8197
+        },
+        {
+          "year": 2010,
+          "value": 0.7762
+        }
+      ],
+      "enrollment_undergrad": 178,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 278.0
+        },
+        {
+          "year": 1997,
+          "value": 259.0
+        },
+        {
+          "year": 1998,
+          "value": 205.0
+        },
+        {
+          "year": 1999,
+          "value": 277.0
+        },
+        {
+          "year": 2001,
+          "value": 451.0
+        },
+        {
+          "year": 2002,
+          "value": 506.0
+        },
+        {
+          "year": 2003,
+          "value": 351.0
+        },
+        {
+          "year": 2004,
+          "value": 426.0
+        },
+        {
+          "year": 2005,
+          "value": 426.0
+        },
+        {
+          "year": 2006,
+          "value": 405.0
+        },
+        {
+          "year": 2007,
+          "value": 531.0
+        },
+        {
+          "year": 2008,
+          "value": 649.0
+        },
+        {
+          "year": 2009,
+          "value": 666.0
+        },
+        {
+          "year": 2010,
+          "value": 621.0
+        }
+      ],
+      "median_debt": 9500,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "retention_rate",
+          "from_year": 2004,
+          "to_year": 2010,
+          "from_value": 0.89,
+          "to_value": 0.7018,
+          "pct_change": -0.2114606741573034,
+          "direction": "fell"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 1996,
+          "to_year": 2010,
+          "from_value": 278.0,
+          "to_value": 621.0,
+          "pct_change": 1.2338129496402879,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 1997,
+          "to_year": 2010,
+          "from_value": 3758.0,
+          "to_value": 9145.0,
+          "pct_change": 1.4334752527940393,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.211,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2008,
+          "to_year": 2010,
+          "from_value": 0.9176,
+          "to_value": 0.7118,
+          "pct_change": -0.22428073234524845,
+          "direction": "fell"
+        },
+        {
+          "metric": "earnings_median_8yr",
+          "from_year": 2005,
+          "to_year": 2020,
+          "from_value": 30600.0,
+          "to_value": 41258.0,
+          "pct_change": 0.34830065359477125,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "unitid": "113582",
+      "slug": "design-institute-of-san-diego-113582",
+      "name": "Design Institute of San Diego",
+      "city": "San Diego",
+      "city_slug": "san-diego",
+      "control": "private_forprofit",
+      "pred_degree": "bachelors",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 46920,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 46916
+        },
+        {
+          "year": 8,
+          "value": 54686
+        },
+        {
+          "year": 10,
+          "value": 46920
+        }
+      ],
+      "completion_rate_150": 0.5,
+      "completion_rate_history": [
+        {
+          "year": 2002,
+          "value": 0.625
+        },
+        {
+          "year": 2003,
+          "value": 0.3333
+        },
+        {
+          "year": 2004,
+          "value": 0.8
+        },
+        {
+          "year": 2005,
+          "value": 0.7222
+        },
+        {
+          "year": 2006,
+          "value": 0.8125
+        },
+        {
+          "year": 2007,
+          "value": 0.8
+        },
+        {
+          "year": 2008,
+          "value": 0.4815
+        },
+        {
+          "year": 2009,
+          "value": 0.3913
+        },
+        {
+          "year": 2010,
+          "value": 0.5
+        },
+        {
+          "year": 2011,
+          "value": 0.6154
+        },
+        {
+          "year": 2012,
+          "value": 0.5
+        },
+        {
+          "year": 2013,
+          "value": 0.6667
+        },
+        {
+          "year": 2014,
+          "value": 0.3333
+        },
+        {
+          "year": 2015,
+          "value": 0.8333
+        },
+        {
+          "year": 2016,
+          "value": 0.25
+        },
+        {
+          "year": 2017,
+          "value": 0.5
+        },
+        {
+          "year": 2018,
+          "value": 0.25
+        },
+        {
+          "year": 2019,
+          "value": 0.5556
+        },
+        {
+          "year": 2020,
+          "value": 0.3333
+        },
+        {
+          "year": 2021,
+          "value": 0.5
+        },
+        {
+          "year": 2022,
+          "value": 0.75
+        },
+        {
+          "year": 2023,
+          "value": 0.5
+        },
+        {
+          "year": 2024,
+          "value": 0.8
+        }
+      ],
+      "enrollment_undergrad": 92,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 217.0
+        },
+        {
+          "year": 1997,
+          "value": 250.0
+        },
+        {
+          "year": 1998,
+          "value": 265.0
+        },
+        {
+          "year": 1999,
+          "value": 301.0
+        },
+        {
+          "year": 2001,
+          "value": 382.0
+        },
+        {
+          "year": 2002,
+          "value": 423.0
+        },
+        {
+          "year": 2003,
+          "value": 505.0
+        },
+        {
+          "year": 2004,
+          "value": 426.0
+        },
+        {
+          "year": 2005,
+          "value": 481.0
+        },
+        {
+          "year": 2006,
+          "value": 452.0
+        },
+        {
+          "year": 2007,
+          "value": 457.0
+        },
+        {
+          "year": 2008,
+          "value": 253.0
+        },
+        {
+          "year": 2009,
+          "value": 306.0
+        },
+        {
+          "year": 2010,
+          "value": 261.0
+        }
+      ],
+      "median_debt": 24530,
+      "default_rate": 0.0,
+      "tuition_in_state": 29350,
+      "tuition_out_of_state": 29350,
+      "long_arc": [
+        {
+          "metric": "completion_rate_150",
+          "from_year": 2002,
+          "to_year": 2024,
+          "from_value": 0.625,
+          "to_value": 0.8,
+          "pct_change": 0.2800000000000001,
+          "direction": "rose"
+        },
+        {
+          "metric": "retention_rate",
+          "from_year": 2004,
+          "to_year": 2010,
+          "from_value": 0.57,
+          "to_value": 1.0,
+          "pct_change": 0.7543859649122808,
+          "direction": "rose"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 1996,
+          "to_year": 2010,
+          "from_value": 217.0,
+          "to_value": 261.0,
+          "pct_change": 0.20276497695852536,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_in_state",
+          "from_year": 2000,
+          "to_year": 2010,
+          "from_value": 10200.0,
+          "to_value": 18480.0,
+          "pct_change": 0.8117647058823529,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2000,
+          "to_year": 2024,
+          "from_value": 10200.0,
+          "to_value": 29300.0,
+          "pct_change": 1.8725490196078431,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 1997,
+          "to_year": 2010,
+          "from_value": 8697.0,
+          "to_value": 29384.0,
+          "pct_change": 2.3786363113717375,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.088,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2008,
+          "to_year": 2010,
+          "from_value": 0.3414,
+          "to_value": 0.4673,
+          "pct_change": 0.3687756297598126,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_8yr",
+          "from_year": 2005,
+          "to_year": 2020,
+          "from_value": 36800.0,
+          "to_value": 54686.0,
+          "pct_change": 0.4860326086956522,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_6yr",
+          "from_year": 2003,
+          "to_year": 2020,
+          "from_value": 36200.0,
+          "to_value": 46916.0,
+          "pct_change": 0.2960220994475138,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "unitid": "114734",
+      "slug": "franciscan-school-of-theology-114734",
+      "name": "Franciscan School of Theology",
+      "city": "San Diego",
+      "city_slug": "san-diego",
+      "control": "private_nonprofit",
+      "pred_degree": "graduate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": null
+        },
+        {
+          "year": 8,
+          "value": null
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": null,
+      "completion_rate_history": [],
+      "enrollment_undergrad": null,
+      "enrollment_history": [],
+      "median_debt": null,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.083,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        }
+      ]
+    },
+    {
+      "unitid": "485403",
+      "slug": "high-tech-high-graduate-school-of-education-485403",
+      "name": "High Tech High Graduate School of Education",
+      "city": "San Diego",
+      "city_slug": "san-diego",
+      "control": "private_nonprofit",
+      "pred_degree": "graduate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": null
+        },
+        {
+          "year": 8,
+          "value": null
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": null,
+      "completion_rate_history": [],
+      "enrollment_undergrad": null,
+      "enrollment_history": [],
+      "median_debt": null,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": []
+    },
+    {
+      "unitid": "491659",
+      "slug": "icohs-college-491659",
+      "name": "ICOHS College",
+      "city": "San Diego",
+      "city_slug": "san-diego",
+      "control": "private_nonprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": null
+        },
+        {
+          "year": 8,
+          "value": null
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": 0.4914,
+      "completion_rate_history": [],
+      "enrollment_undergrad": 215,
+      "enrollment_history": [],
+      "median_debt": 6650,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": []
+    },
+    {
+      "unitid": "119605",
+      "slug": "national-university-119605",
+      "name": "National University",
+      "city": "San Diego",
+      "city_slug": "san-diego",
+      "control": "private_nonprofit",
+      "pred_degree": "bachelors",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 67548,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 64331
+        },
+        {
+          "year": 8,
+          "value": 65775
+        },
+        {
+          "year": 10,
+          "value": 67548
+        }
+      ],
+      "completion_rate_150": 0.5,
+      "completion_rate_history": [
+        {
+          "year": 2000,
+          "value": 0.2105
+        },
+        {
+          "year": 2001,
+          "value": 0.3611
+        },
+        {
+          "year": 2002,
+          "value": 0.7143
+        },
+        {
+          "year": 2003,
+          "value": 0.0034
+        },
+        {
+          "year": 2004,
+          "value": 0.7143
+        },
+        {
+          "year": 2005,
+          "value": 0.4667
+        },
+        {
+          "year": 2006,
+          "value": 0.537
+        },
+        {
+          "year": 2007,
+          "value": 0.5714
+        },
+        {
+          "year": 2008,
+          "value": 0.5079
+        },
+        {
+          "year": 2009,
+          "value": 0.3158
+        },
+        {
+          "year": 2010,
+          "value": 0.3125
+        },
+        {
+          "year": 2011,
+          "value": 0.5733
+        },
+        {
+          "year": 2012,
+          "value": 0.5263
+        },
+        {
+          "year": 2013,
+          "value": 0.3125
+        },
+        {
+          "year": 2014,
+          "value": 0.4
+        },
+        {
+          "year": 2015,
+          "value": 0.3333
+        },
+        {
+          "year": 2016,
+          "value": 0.375
+        },
+        {
+          "year": 2017,
+          "value": 0.4219
+        },
+        {
+          "year": 2018,
+          "value": 0.3592
+        },
+        {
+          "year": 2019,
+          "value": 0.2947
+        },
+        {
+          "year": 2020,
+          "value": 0.4667
+        },
+        {
+          "year": 2021,
+          "value": 0.4667
+        },
+        {
+          "year": 2022,
+          "value": 0.2222
+        },
+        {
+          "year": 2023,
+          "value": 0.5
+        },
+        {
+          "year": 2024,
+          "value": 0.4286
+        }
+      ],
+      "enrollment_undergrad": 9725,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 4045.0
+        },
+        {
+          "year": 1997,
+          "value": 4360.0
+        },
+        {
+          "year": 1998,
+          "value": 4393.0
+        },
+        {
+          "year": 1999,
+          "value": 1246.0
+        },
+        {
+          "year": 2001,
+          "value": 5360.0
+        },
+        {
+          "year": 2002,
+          "value": 4776.0
+        },
+        {
+          "year": 2003,
+          "value": 4031.0
+        },
+        {
+          "year": 2004,
+          "value": 5820.0
+        },
+        {
+          "year": 2005,
+          "value": 6186.0
+        },
+        {
+          "year": 2006,
+          "value": 6567.0
+        },
+        {
+          "year": 2007,
+          "value": 6799.0
+        },
+        {
+          "year": 2008,
+          "value": 4472.0
+        },
+        {
+          "year": 2009,
+          "value": 5131.0
+        },
+        {
+          "year": 2010,
+          "value": 6518.0
+        }
+      ],
+      "median_debt": 18750,
+      "default_rate": 0.0,
+      "tuition_in_state": 13320,
+      "tuition_out_of_state": 13320,
+      "long_arc": [
+        {
+          "metric": "completion_rate_150",
+          "from_year": 2000,
+          "to_year": 2024,
+          "from_value": 0.2105,
+          "to_value": 0.4286,
+          "pct_change": 1.036104513064133,
+          "direction": "rose"
+        },
+        {
+          "metric": "retention_rate",
+          "from_year": 2004,
+          "to_year": 2010,
+          "from_value": 1.0,
+          "to_value": 0.7882,
+          "pct_change": -0.2118,
+          "direction": "fell"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 1996,
+          "to_year": 2010,
+          "from_value": 4045.0,
+          "to_value": 6518.0,
+          "pct_change": 0.6113720642768851,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_in_state",
+          "from_year": 2000,
+          "to_year": 2010,
+          "from_value": 7695.0,
+          "to_value": 11088.0,
+          "pct_change": 0.4409356725146199,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2000,
+          "to_year": 2024,
+          "from_value": 7695.0,
+          "to_value": 13284.0,
+          "pct_change": 0.7263157894736842,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.07,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2008,
+          "to_year": 2010,
+          "from_value": 0.6753,
+          "to_value": 0.2388,
+          "pct_change": -0.6463793869391381,
+          "direction": "fell"
+        }
+      ]
+    },
+    {
+      "unitid": "119775",
+      "slug": "newschool-of-architecture-and-design-119775",
+      "name": "Newschool of Architecture and Design",
+      "city": "San Diego",
+      "city_slug": "san-diego",
+      "control": "private_forprofit",
+      "pred_degree": "bachelors",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 68891,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 57073
+        },
+        {
+          "year": 8,
+          "value": 65312
+        },
+        {
+          "year": 10,
+          "value": 68891
+        }
+      ],
+      "completion_rate_150": 0.5094,
+      "completion_rate_history": [
+        {
+          "year": 1999,
+          "value": 0.3333
+        },
+        {
+          "year": 2002,
+          "value": 0.25
+        },
+        {
+          "year": 2003,
+          "value": 1.0
+        },
+        {
+          "year": 2004,
+          "value": 0.0
+        },
+        {
+          "year": 2005,
+          "value": 0.1818
+        },
+        {
+          "year": 2006,
+          "value": 0.3333
+        },
+        {
+          "year": 2007,
+          "value": 0.4444
+        },
+        {
+          "year": 2008,
+          "value": 0.1667
+        },
+        {
+          "year": 2009,
+          "value": 0.5
+        },
+        {
+          "year": 2010,
+          "value": 0.4286
+        },
+        {
+          "year": 2011,
+          "value": 0.7273
+        },
+        {
+          "year": 2012,
+          "value": 0.3158
+        },
+        {
+          "year": 2013,
+          "value": 0.35
+        },
+        {
+          "year": 2014,
+          "value": 0.4
+        },
+        {
+          "year": 2015,
+          "value": 0.3333
+        },
+        {
+          "year": 2016,
+          "value": 0.3182
+        },
+        {
+          "year": 2017,
+          "value": 0.3889
+        },
+        {
+          "year": 2018,
+          "value": 0.375
+        },
+        {
+          "year": 2019,
+          "value": 0.4286
+        },
+        {
+          "year": 2020,
+          "value": 0.4
+        },
+        {
+          "year": 2021,
+          "value": 0.537
+        },
+        {
+          "year": 2022,
+          "value": 0.4167
+        },
+        {
+          "year": 2023,
+          "value": 0.5094
+        },
+        {
+          "year": 2024,
+          "value": 0.619
+        }
+      ],
+      "enrollment_undergrad": 212,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 108.0
+        },
+        {
+          "year": 1997,
+          "value": 92.0
+        },
+        {
+          "year": 1998,
+          "value": 81.0
+        },
+        {
+          "year": 1999,
+          "value": 8.0
+        },
+        {
+          "year": 2001,
+          "value": 8.0
+        },
+        {
+          "year": 2002,
+          "value": 6.0
+        },
+        {
+          "year": 2003,
+          "value": 2.0
+        },
+        {
+          "year": 2004,
+          "value": 155.0
+        },
+        {
+          "year": 2005,
+          "value": 175.0
+        },
+        {
+          "year": 2006,
+          "value": 236.0
+        },
+        {
+          "year": 2007,
+          "value": 307.0
+        },
+        {
+          "year": 2008,
+          "value": 322.0
+        },
+        {
+          "year": 2009,
+          "value": 350.0
+        },
+        {
+          "year": 2010,
+          "value": 398.0
+        }
+      ],
+      "median_debt": 23618,
+      "default_rate": 0.0,
+      "tuition_in_state": 30291,
+      "tuition_out_of_state": 30291,
+      "long_arc": [
+        {
+          "metric": "completion_rate_150",
+          "from_year": 1999,
+          "to_year": 2024,
+          "from_value": 0.3333,
+          "to_value": 0.619,
+          "pct_change": 0.8571857185718572,
+          "direction": "rose"
+        },
+        {
+          "metric": "completion_rate_100",
+          "from_year": 1999,
+          "to_year": 2024,
+          "from_value": 0.1111,
+          "to_value": 0.0476,
+          "pct_change": -0.5715571557155715,
+          "direction": "fell"
+        },
+        {
+          "metric": "retention_rate",
+          "from_year": 2004,
+          "to_year": 2010,
+          "from_value": 0.75,
+          "to_value": 0.5333,
+          "pct_change": -0.2889333333333333,
+          "direction": "fell"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 1996,
+          "to_year": 2010,
+          "from_value": 108.0,
+          "to_value": 398.0,
+          "pct_change": 1.45,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2002,
+          "to_year": 2024,
+          "from_value": 17325.0,
+          "to_value": 30291.0,
+          "pct_change": 0.7483982683982684,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 1997,
+          "to_year": 2010,
+          "from_value": 7500.0,
+          "to_value": 20500.0,
+          "pct_change": 1.7333333333333334,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.117,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "earnings_median_8yr",
+          "from_year": 2012,
+          "to_year": 2020,
+          "from_value": 43400.0,
+          "to_value": 65312.0,
+          "pct_change": 0.5048847926267281,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_6yr",
+          "from_year": 2011,
+          "to_year": 2020,
+          "from_value": 31500.0,
+          "to_value": 57073.0,
+          "pct_change": 0.8118412698412698,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "unitid": "444130",
+      "slug": "northcentral-university-444130",
+      "name": "Northcentral University",
+      "city": "San Diego",
+      "city_slug": "san-diego",
+      "control": "private_nonprofit",
+      "pred_degree": "bachelors",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 48414,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 46759
+        },
+        {
+          "year": 8,
+          "value": 43080
+        },
+        {
+          "year": 10,
+          "value": 48414
+        }
+      ],
+      "completion_rate_150": null,
+      "completion_rate_history": [
+        {
+          "year": 2005,
+          "value": 1.0
+        },
+        {
+          "year": 2015,
+          "value": 0.0
+        },
+        {
+          "year": 2016,
+          "value": 0.0
+        }
+      ],
+      "enrollment_undergrad": 98,
+      "enrollment_history": [
+        {
+          "year": 2004,
+          "value": 128.0
+        },
+        {
+          "year": 2005,
+          "value": 166.0
+        },
+        {
+          "year": 2007,
+          "value": 211.0
+        },
+        {
+          "year": 2008,
+          "value": 361.0
+        },
+        {
+          "year": 2009,
+          "value": 418.0
+        }
+      ],
+      "median_debt": 9430,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "completion_rate_150",
+          "from_year": 2005,
+          "to_year": 2016,
+          "from_value": 1.0,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "completion_rate_100",
+          "from_year": 2005,
+          "to_year": 2016,
+          "from_value": 1.0,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "retention_rate",
+          "from_year": 2004,
+          "to_year": 2009,
+          "from_value": 0.75,
+          "to_value": 1.0,
+          "pct_change": 0.3333333333333333,
+          "direction": "rose"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 2004,
+          "to_year": 2009,
+          "from_value": 128.0,
+          "to_value": 418.0,
+          "pct_change": 1.45,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.125,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        }
+      ]
+    },
+    {
+      "unitid": "378576",
+      "slug": "pacific-college-of-health-and-science-378576",
+      "name": "Pacific College of Health and Science",
+      "city": "San Diego",
+      "city_slug": "san-diego",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 26209,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 25108
+        },
+        {
+          "year": 8,
+          "value": 24585
+        },
+        {
+          "year": 10,
+          "value": 26209
+        }
+      ],
+      "completion_rate_150": 0.6727,
+      "completion_rate_history": [
+        {
+          "year": 2006,
+          "value": 0.6667
+        },
+        {
+          "year": 2007,
+          "value": 0.5238
+        },
+        {
+          "year": 2008,
+          "value": 1.0
+        },
+        {
+          "year": 2009,
+          "value": 0.6154
+        },
+        {
+          "year": 2010,
+          "value": 0.6667
+        },
+        {
+          "year": 2012,
+          "value": 0.3333
+        },
+        {
+          "year": 2013,
+          "value": 0.5
+        },
+        {
+          "year": 2014,
+          "value": 0.3333
+        },
+        {
+          "year": 2015,
+          "value": 0.1111
+        },
+        {
+          "year": 2016,
+          "value": 0.6667
+        },
+        {
+          "year": 2017,
+          "value": 0.3333
+        },
+        {
+          "year": 2018,
+          "value": 0.2667
+        },
+        {
+          "year": 2019,
+          "value": 0.4
+        },
+        {
+          "year": 2020,
+          "value": 0.2857
+        },
+        {
+          "year": 2021,
+          "value": 0.7143
+        },
+        {
+          "year": 2022,
+          "value": 0.8125
+        },
+        {
+          "year": 2023,
+          "value": 0.6727
+        },
+        {
+          "year": 2024,
+          "value": 0.7692
+        }
+      ],
+      "enrollment_undergrad": 173,
+      "enrollment_history": [
+        {
+          "year": 2006,
+          "value": 41.0
+        },
+        {
+          "year": 2007,
+          "value": 37.0
+        },
+        {
+          "year": 2008,
+          "value": 7.0
+        },
+        {
+          "year": 2009,
+          "value": 42.0
+        }
+      ],
+      "median_debt": 9500,
+      "default_rate": 0.0,
+      "tuition_in_state": 10732,
+      "tuition_out_of_state": 10732,
+      "long_arc": [
+        {
+          "metric": "median_debt",
+          "from_year": 1997,
+          "to_year": 2009,
+          "from_value": 5500.0,
+          "to_value": 9500.0,
+          "pct_change": 0.7272727272727273,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.066,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2008,
+          "to_year": 2009,
+          "from_value": 0.0,
+          "to_value": 0.1429,
+          "pct_change": 2.8579999999999997,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "unitid": "121309",
+      "slug": "point-loma-nazarene-university-121309",
+      "name": "Point Loma Nazarene University",
+      "city": "San Diego",
+      "city_slug": "san-diego",
+      "control": "private_nonprofit",
+      "pred_degree": "bachelors",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 63998,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 54811
+        },
+        {
+          "year": 8,
+          "value": 59692
+        },
+        {
+          "year": 10,
+          "value": 63998
+        }
+      ],
+      "completion_rate_150": 0.7379,
+      "completion_rate_history": [
+        {
+          "year": 1997,
+          "value": 0.4795
+        },
+        {
+          "year": 1998,
+          "value": 0.4037
+        },
+        {
+          "year": 1999,
+          "value": 0.4447
+        },
+        {
+          "year": 2000,
+          "value": 0.4212
+        },
+        {
+          "year": 2001,
+          "value": 0.5221
+        },
+        {
+          "year": 2002,
+          "value": 0.5417
+        },
+        {
+          "year": 2003,
+          "value": 0.5142
+        },
+        {
+          "year": 2004,
+          "value": 0.5535
+        },
+        {
+          "year": 2005,
+          "value": 0.6819
+        },
+        {
+          "year": 2006,
+          "value": 0.6605
+        },
+        {
+          "year": 2007,
+          "value": 0.7046
+        },
+        {
+          "year": 2008,
+          "value": 0.7084
+        },
+        {
+          "year": 2009,
+          "value": 0.7261
+        },
+        {
+          "year": 2010,
+          "value": 0.8355
+        },
+        {
+          "year": 2011,
+          "value": 0.7242
+        },
+        {
+          "year": 2012,
+          "value": 0.7505
+        },
+        {
+          "year": 2013,
+          "value": 0.7208
+        },
+        {
+          "year": 2014,
+          "value": 0.7342
+        },
+        {
+          "year": 2015,
+          "value": 0.7505
+        },
+        {
+          "year": 2016,
+          "value": 0.7092
+        },
+        {
+          "year": 2017,
+          "value": 0.7444
+        },
+        {
+          "year": 2018,
+          "value": 0.7733
+        },
+        {
+          "year": 2019,
+          "value": 0.7473
+        },
+        {
+          "year": 2020,
+          "value": 0.7206
+        },
+        {
+          "year": 2021,
+          "value": 0.7274
+        },
+        {
+          "year": 2022,
+          "value": 0.7593
+        },
+        {
+          "year": 2023,
+          "value": 0.7379
+        },
+        {
+          "year": 2024,
+          "value": 0.7717
+        }
+      ],
+      "enrollment_undergrad": 3132,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 2104.0
+        },
+        {
+          "year": 1997,
+          "value": 2014.0
+        },
+        {
+          "year": 1998,
+          "value": 2301.0
+        },
+        {
+          "year": 1999,
+          "value": 2343.0
+        },
+        {
+          "year": 2001,
+          "value": 2353.0
+        },
+        {
+          "year": 2002,
+          "value": 2389.0
+        },
+        {
+          "year": 2003,
+          "value": 2375.0
+        },
+        {
+          "year": 2004,
+          "value": 2361.0
+        },
+        {
+          "year": 2005,
+          "value": 2360.0
+        },
+        {
+          "year": 2006,
+          "value": 2369.0
+        },
+        {
+          "year": 2007,
+          "value": 2337.0
+        },
+        {
+          "year": 2008,
+          "value": 2394.0
+        },
+        {
+          "year": 2009,
+          "value": 2367.0
+        },
+        {
+          "year": 2010,
+          "value": 2402.0
+        }
+      ],
+      "median_debt": 19500,
+      "default_rate": 0.0,
+      "tuition_in_state": 43550,
+      "tuition_out_of_state": 43550,
+      "long_arc": [
+        {
+          "metric": "completion_rate_150",
+          "from_year": 1997,
+          "to_year": 2024,
+          "from_value": 0.4795,
+          "to_value": 0.7717,
+          "pct_change": 0.6093847758081337,
+          "direction": "rose"
+        },
+        {
+          "metric": "completion_rate_100",
+          "from_year": 1997,
+          "to_year": 2024,
+          "from_value": 0.3249,
+          "to_value": 0.6788,
+          "pct_change": 1.0892582333025544,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_in_state",
+          "from_year": 2000,
+          "to_year": 2010,
+          "from_value": 14340.0,
+          "to_value": 27100.0,
+          "pct_change": 0.8898186889818689,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2000,
+          "to_year": 2024,
+          "from_value": 14342.0,
+          "to_value": 46250.0,
+          "pct_change": 2.224794310416957,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 1997,
+          "to_year": 2010,
+          "from_value": 9375.0,
+          "to_value": 15000.0,
+          "pct_change": 0.6,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.031,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2008,
+          "to_year": 2010,
+          "from_value": 0.1769,
+          "to_value": 0.2254,
+          "pct_change": 0.27416619559072913,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_8yr",
+          "from_year": 2005,
+          "to_year": 2020,
+          "from_value": 42300.0,
+          "to_value": 59692.0,
+          "pct_change": 0.4111583924349882,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "unitid": "496663",
+      "slug": "riggins-urban-barber-college-496663",
+      "name": "Riggins Urban Barber College",
+      "city": "San Diego",
+      "city_slug": "san-diego",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": null
+        },
+        {
+          "year": 8,
+          "value": null
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": null,
+      "completion_rate_history": [],
+      "enrollment_undergrad": 43,
+      "enrollment_history": [],
+      "median_debt": null,
+      "default_rate": null,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": []
+    },
+    {
+      "unitid": "122339",
+      "slug": "san-diego-city-college-122339",
+      "name": "San Diego City College",
+      "city": "San Diego",
+      "city_slug": "san-diego",
+      "control": "public",
+      "pred_degree": "associates",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 38503,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 31504
+        },
+        {
+          "year": 8,
+          "value": 35417
+        },
+        {
+          "year": 10,
+          "value": 38503
+        }
+      ],
+      "completion_rate_150": 0.2449,
+      "completion_rate_history": [
+        {
+          "year": 1997,
+          "value": 0.2596
+        },
+        {
+          "year": 1998,
+          "value": 0.2629
+        },
+        {
+          "year": 1999,
+          "value": 0.1919
+        },
+        {
+          "year": 2000,
+          "value": 0.148
+        },
+        {
+          "year": 2001,
+          "value": 0.2
+        },
+        {
+          "year": 2002,
+          "value": 0.1311
+        },
+        {
+          "year": 2003,
+          "value": 0.1822
+        },
+        {
+          "year": 2004,
+          "value": 0.1854
+        },
+        {
+          "year": 2005,
+          "value": 0.2241
+        },
+        {
+          "year": 2006,
+          "value": 0.2322
+        },
+        {
+          "year": 2007,
+          "value": 0.1306
+        },
+        {
+          "year": 2008,
+          "value": 0.1465
+        },
+        {
+          "year": 2009,
+          "value": 0.1743
+        },
+        {
+          "year": 2010,
+          "value": 0.1515
+        }
+      ],
+      "enrollment_undergrad": 10584,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 9488.0
+        },
+        {
+          "year": 1997,
+          "value": 9383.0
+        },
+        {
+          "year": 1998,
+          "value": 9574.0
+        },
+        {
+          "year": 1999,
+          "value": 9867.0
+        },
+        {
+          "year": 2001,
+          "value": 4669.0
+        },
+        {
+          "year": 2002,
+          "value": 9792.0
+        },
+        {
+          "year": 2003,
+          "value": 9291.0
+        },
+        {
+          "year": 2004,
+          "value": 10261.0
+        },
+        {
+          "year": 2005,
+          "value": 10031.0
+        },
+        {
+          "year": 2006,
+          "value": 10533.0
+        },
+        {
+          "year": 2007,
+          "value": 10328.0
+        },
+        {
+          "year": 2008,
+          "value": 15243.0
+        },
+        {
+          "year": 2009,
+          "value": 14653.0
+        },
+        {
+          "year": 2010,
+          "value": 15569.0
+        }
+      ],
+      "median_debt": 4500,
+      "default_rate": 0.0,
+      "tuition_in_state": 1150,
+      "tuition_out_of_state": 9094,
+      "long_arc": [
+        {
+          "metric": "completion_rate_150",
+          "from_year": 1997,
+          "to_year": 2010,
+          "from_value": 0.2596,
+          "to_value": 0.1515,
+          "pct_change": -0.4164098613251156,
+          "direction": "fell"
+        },
+        {
+          "metric": "completion_rate_100",
+          "from_year": 2009,
+          "to_year": 2010,
+          "from_value": 0.0581,
+          "to_value": 0.0394,
+          "pct_change": -0.32185886402753877,
+          "direction": "fell"
+        },
+        {
+          "metric": "retention_rate",
+          "from_year": 2004,
+          "to_year": 2010,
+          "from_value": 0.56,
+          "to_value": 0.6219,
+          "pct_change": 0.1105357142857142,
+          "direction": "rose"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 1996,
+          "to_year": 2010,
+          "from_value": 9488.0,
+          "to_value": 15569.0,
+          "pct_change": 0.6409148397976391,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_in_state",
+          "from_year": 2000,
+          "to_year": 2010,
+          "from_value": 275.0,
+          "to_value": 658.0,
+          "pct_change": 0.383,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2000,
+          "to_year": 2024,
+          "from_value": 3107.0,
+          "to_value": 10002.0,
+          "pct_change": 2.2191824911490183,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.172,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2008,
+          "to_year": 2010,
+          "from_value": 0.169,
+          "to_value": 0.2592,
+          "pct_change": 0.5337278106508874,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_8yr",
+          "from_year": 2005,
+          "to_year": 2020,
+          "from_value": 27700.0,
+          "to_value": 35417.0,
+          "pct_change": 0.27859205776173285,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "unitid": "493512",
+      "slug": "san-diego-global-knowledge-university-493512",
+      "name": "San Diego Global Knowledge University",
+      "city": "San Diego",
+      "city_slug": "san-diego",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": null
+        },
+        {
+          "year": 8,
+          "value": null
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": null,
+      "completion_rate_history": [
+        {
+          "year": 2024,
+          "value": 0.4545
+        }
+      ],
+      "enrollment_undergrad": 98,
+      "enrollment_history": [],
+      "median_debt": null,
+      "default_rate": null,
+      "tuition_in_state": 13774,
+      "tuition_out_of_state": 13774,
+      "long_arc": []
+    },
+    {
+      "unitid": "122375",
+      "slug": "san-diego-mesa-college-122375",
+      "name": "San Diego Mesa College",
+      "city": "San Diego",
+      "city_slug": "san-diego",
+      "control": "public",
+      "pred_degree": "associates",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 45120,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 35773
+        },
+        {
+          "year": 8,
+          "value": 40734
+        },
+        {
+          "year": 10,
+          "value": 45120
+        }
+      ],
+      "completion_rate_150": 0.3375,
+      "completion_rate_history": [
+        {
+          "year": 1997,
+          "value": 0.3482
+        },
+        {
+          "year": 1998,
+          "value": 0.2981
+        },
+        {
+          "year": 1999,
+          "value": 0.2714
+        },
+        {
+          "year": 2000,
+          "value": 0.2816
+        },
+        {
+          "year": 2001,
+          "value": 0.2729
+        },
+        {
+          "year": 2002,
+          "value": 0.2847
+        },
+        {
+          "year": 2003,
+          "value": 0.2909
+        },
+        {
+          "year": 2004,
+          "value": 0.2653
+        },
+        {
+          "year": 2005,
+          "value": 0.3086
+        },
+        {
+          "year": 2006,
+          "value": 0.3076
+        },
+        {
+          "year": 2007,
+          "value": 0.2413
+        },
+        {
+          "year": 2008,
+          "value": 0.2116
+        },
+        {
+          "year": 2009,
+          "value": 0.236
+        },
+        {
+          "year": 2010,
+          "value": 0.2339
+        },
+        {
+          "year": 2016,
+          "value": 0.1973
+        },
+        {
+          "year": 2017,
+          "value": 0.2318
+        },
+        {
+          "year": 2018,
+          "value": 0.2449
+        },
+        {
+          "year": 2019,
+          "value": 0.2828
+        },
+        {
+          "year": 2020,
+          "value": 0.2871
+        },
+        {
+          "year": 2021,
+          "value": 0.3077
+        },
+        {
+          "year": 2022,
+          "value": 0.3378
+        },
+        {
+          "year": 2023,
+          "value": 0.3375
+        },
+        {
+          "year": 2024,
+          "value": 0.3476
+        }
+      ],
+      "enrollment_undergrad": 15899,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 13282.0
+        },
+        {
+          "year": 1997,
+          "value": 14296.0
+        },
+        {
+          "year": 1998,
+          "value": 14527.0
+        },
+        {
+          "year": 1999,
+          "value": 13631.0
+        },
+        {
+          "year": 2001,
+          "value": 15012.0
+        },
+        {
+          "year": 2002,
+          "value": 16443.0
+        },
+        {
+          "year": 2003,
+          "value": 15359.0
+        },
+        {
+          "year": 2004,
+          "value": 15273.0
+        },
+        {
+          "year": 2005,
+          "value": 14307.0
+        },
+        {
+          "year": 2006,
+          "value": 14250.0
+        },
+        {
+          "year": 2007,
+          "value": 13556.0
+        },
+        {
+          "year": 2008,
+          "value": 20610.0
+        },
+        {
+          "year": 2009,
+          "value": 20687.0
+        },
+        {
+          "year": 2010,
+          "value": 22946.0
+        }
+      ],
+      "median_debt": 4500,
+      "default_rate": 0.0,
+      "tuition_in_state": 1150,
+      "tuition_out_of_state": 9094,
+      "long_arc": [
+        {
+          "metric": "completion_rate_100",
+          "from_year": 2009,
+          "to_year": 2024,
+          "from_value": 0.081,
+          "to_value": 0.9231,
+          "pct_change": 10.396296296296297,
+          "direction": "rose"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 1996,
+          "to_year": 2010,
+          "from_value": 13282.0,
+          "to_value": 22946.0,
+          "pct_change": 0.7276012648697485,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_in_state",
+          "from_year": 2000,
+          "to_year": 2010,
+          "from_value": 275.0,
+          "to_value": 658.0,
+          "pct_change": 0.383,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2000,
+          "to_year": 2024,
+          "from_value": 3107.0,
+          "to_value": 10002.0,
+          "pct_change": 2.2191824911490183,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 1997,
+          "to_year": 2010,
+          "from_value": 2866.0,
+          "to_value": 3500.0,
+          "pct_change": 0.2212142358688067,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.107,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2008,
+          "to_year": 2010,
+          "from_value": 0.0883,
+          "to_value": 0.1237,
+          "pct_change": 0.40090600226500567,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_8yr",
+          "from_year": 2005,
+          "to_year": 2020,
+          "from_value": 33500.0,
+          "to_value": 40734.0,
+          "pct_change": 0.21594029850746269,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "unitid": "122384",
+      "slug": "san-diego-miramar-college-122384",
+      "name": "San Diego Miramar College",
+      "city": "San Diego",
+      "city_slug": "san-diego",
+      "control": "public",
+      "pred_degree": "associates",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 48224,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 40327
+        },
+        {
+          "year": 8,
+          "value": 44178
+        },
+        {
+          "year": 10,
+          "value": 48224
+        }
+      ],
+      "completion_rate_150": 0.4812,
+      "completion_rate_history": [
+        {
+          "year": 1997,
+          "value": 0.3846
+        },
+        {
+          "year": 1998,
+          "value": 0.2
+        },
+        {
+          "year": 1999,
+          "value": 0.2386
+        },
+        {
+          "year": 2000,
+          "value": 0.34
+        },
+        {
+          "year": 2001,
+          "value": 0.3145
+        },
+        {
+          "year": 2002,
+          "value": 0.1714
+        },
+        {
+          "year": 2003,
+          "value": 0.3
+        },
+        {
+          "year": 2004,
+          "value": 0.3368
+        },
+        {
+          "year": 2005,
+          "value": 0.3431
+        },
+        {
+          "year": 2006,
+          "value": 0.3129
+        },
+        {
+          "year": 2007,
+          "value": 0.2725
+        },
+        {
+          "year": 2008,
+          "value": 0.2429
+        },
+        {
+          "year": 2009,
+          "value": 0.3382
+        },
+        {
+          "year": 2010,
+          "value": 0.2844
+        }
+      ],
+      "enrollment_undergrad": 10740,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 4240.0
+        },
+        {
+          "year": 1997,
+          "value": 4046.0
+        },
+        {
+          "year": 1998,
+          "value": 3905.0
+        },
+        {
+          "year": 1999,
+          "value": 4127.0
+        },
+        {
+          "year": 2001,
+          "value": 5663.0
+        },
+        {
+          "year": 2002,
+          "value": 6450.0
+        },
+        {
+          "year": 2003,
+          "value": 5672.0
+        },
+        {
+          "year": 2004,
+          "value": 5786.0
+        },
+        {
+          "year": 2005,
+          "value": 5981.0
+        },
+        {
+          "year": 2006,
+          "value": 6012.0
+        },
+        {
+          "year": 2007,
+          "value": 6136.0
+        },
+        {
+          "year": 2008,
+          "value": 10593.0
+        },
+        {
+          "year": 2009,
+          "value": 10147.0
+        },
+        {
+          "year": 2010,
+          "value": 10872.0
+        }
+      ],
+      "median_debt": 4239,
+      "default_rate": 0.0,
+      "tuition_in_state": 1150,
+      "tuition_out_of_state": 9094,
+      "long_arc": [
+        {
+          "metric": "completion_rate_150",
+          "from_year": 1997,
+          "to_year": 2010,
+          "from_value": 0.3846,
+          "to_value": 0.2844,
+          "pct_change": -0.2605304212168487,
+          "direction": "fell"
+        },
+        {
+          "metric": "completion_rate_100",
+          "from_year": 2009,
+          "to_year": 2010,
+          "from_value": 0.1516,
+          "to_value": 0.1041,
+          "pct_change": -0.31332453825857526,
+          "direction": "fell"
+        },
+        {
+          "metric": "retention_rate",
+          "from_year": 2004,
+          "to_year": 2010,
+          "from_value": 0.64,
+          "to_value": 0.7104,
+          "pct_change": 0.11000000000000003,
+          "direction": "rose"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 1996,
+          "to_year": 2010,
+          "from_value": 4240.0,
+          "to_value": 10872.0,
+          "pct_change": 1.5641509433962264,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_in_state",
+          "from_year": 2000,
+          "to_year": 2010,
+          "from_value": 275.0,
+          "to_value": 658.0,
+          "pct_change": 0.383,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2000,
+          "to_year": 2024,
+          "from_value": 275.0,
+          "to_value": 10002.0,
+          "pct_change": 9.727,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.109,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2008,
+          "to_year": 2010,
+          "from_value": 0.0846,
+          "to_value": 0.1314,
+          "pct_change": 0.5531914893617021,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_8yr",
+          "from_year": 2005,
+          "to_year": 2020,
+          "from_value": 35500.0,
+          "to_value": 44178.0,
+          "pct_change": 0.24445070422535212,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "unitid": "122409",
+      "slug": "san-diego-state-university-122409",
+      "name": "San Diego State University",
+      "city": "San Diego",
+      "city_slug": "san-diego",
+      "control": "public",
+      "pred_degree": "bachelors",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 64909,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 52620
+        },
+        {
+          "year": 8,
+          "value": 61120
+        },
+        {
+          "year": 10,
+          "value": 64909
+        }
+      ],
+      "completion_rate_150": 0.7827,
+      "completion_rate_history": [
+        {
+          "year": 1997,
+          "value": 0.3562
+        },
+        {
+          "year": 1998,
+          "value": 0.3683
+        },
+        {
+          "year": 1999,
+          "value": 0.3533
+        },
+        {
+          "year": 2000,
+          "value": 0.3575
+        },
+        {
+          "year": 2001,
+          "value": 0.3627
+        },
+        {
+          "year": 2002,
+          "value": 0.3825
+        },
+        {
+          "year": 2003,
+          "value": 0.4398
+        },
+        {
+          "year": 2004,
+          "value": 0.4658
+        },
+        {
+          "year": 2005,
+          "value": 0.5299
+        },
+        {
+          "year": 2006,
+          "value": 0.5833
+        },
+        {
+          "year": 2007,
+          "value": 0.5641
+        },
+        {
+          "year": 2008,
+          "value": 0.6125
+        },
+        {
+          "year": 2009,
+          "value": 0.663
+        },
+        {
+          "year": 2010,
+          "value": 0.6618
+        },
+        {
+          "year": 2011,
+          "value": 0.6557
+        },
+        {
+          "year": 2012,
+          "value": 0.6603
+        },
+        {
+          "year": 2013,
+          "value": 0.6616
+        },
+        {
+          "year": 2014,
+          "value": 0.6599
+        },
+        {
+          "year": 2015,
+          "value": 0.6806
+        },
+        {
+          "year": 2016,
+          "value": 0.7331
+        },
+        {
+          "year": 2017,
+          "value": 0.7424
+        },
+        {
+          "year": 2018,
+          "value": 0.7409
+        },
+        {
+          "year": 2019,
+          "value": 0.7281
+        },
+        {
+          "year": 2020,
+          "value": 0.7596
+        },
+        {
+          "year": 2021,
+          "value": 0.7615
+        },
+        {
+          "year": 2022,
+          "value": 0.7801
+        },
+        {
+          "year": 2023,
+          "value": 0.7827
+        },
+        {
+          "year": 2024,
+          "value": 0.7643
+        }
+      ],
+      "enrollment_undergrad": 33654,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 24239.0
+        },
+        {
+          "year": 1997,
+          "value": 24899.0
+        },
+        {
+          "year": 1998,
+          "value": 25773.0
+        },
+        {
+          "year": 1999,
+          "value": 25631.0
+        },
+        {
+          "year": 2001,
+          "value": 28042.0
+        },
+        {
+          "year": 2002,
+          "value": 28004.0
+        },
+        {
+          "year": 2003,
+          "value": 26861.0
+        },
+        {
+          "year": 2004,
+          "value": 26282.0
+        },
+        {
+          "year": 2005,
+          "value": 26271.0
+        },
+        {
+          "year": 2006,
+          "value": 27911.0
+        },
+        {
+          "year": 2007,
+          "value": 29614.0
+        },
+        {
+          "year": 2008,
+          "value": 28557.0
+        },
+        {
+          "year": 2009,
+          "value": 26556.0
+        },
+        {
+          "year": 2010,
+          "value": 23703.0
+        }
+      ],
+      "median_debt": 12847,
+      "default_rate": 0.0,
+      "tuition_in_state": 8290,
+      "tuition_out_of_state": 20170,
+      "long_arc": [
+        {
+          "metric": "completion_rate_150",
+          "from_year": 1997,
+          "to_year": 2024,
+          "from_value": 0.3562,
+          "to_value": 0.7643,
+          "pct_change": 1.1457046603032004,
+          "direction": "rose"
+        },
+        {
+          "metric": "completion_rate_100",
+          "from_year": 1997,
+          "to_year": 2024,
+          "from_value": 0.0609,
+          "to_value": 0.5627,
+          "pct_change": 8.239737274220033,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_in_state",
+          "from_year": 2000,
+          "to_year": 2010,
+          "from_value": 1776.0,
+          "to_value": 5206.0,
+          "pct_change": 1.9313063063063063,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2000,
+          "to_year": 2024,
+          "from_value": 9156.0,
+          "to_value": 21328.0,
+          "pct_change": 1.3294014853647882,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 1997,
+          "to_year": 2010,
+          "from_value": 7663.0,
+          "to_value": 11604.0,
+          "pct_change": 0.5142894427769803,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.038,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "earnings_median_8yr",
+          "from_year": 2005,
+          "to_year": 2020,
+          "from_value": 46300.0,
+          "to_value": 61120.0,
+          "pct_change": 0.3200863930885529,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "unitid": "126049",
+      "slug": "thomas-jefferson-school-of-law-126049",
+      "name": "Thomas Jefferson School of Law",
+      "city": "San Diego",
+      "city_slug": "san-diego",
+      "control": "private_nonprofit",
+      "pred_degree": "graduate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": null
+        },
+        {
+          "year": 8,
+          "value": null
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": null,
+      "completion_rate_history": [],
+      "enrollment_undergrad": null,
+      "enrollment_history": [],
+      "median_debt": null,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.066,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        }
+      ]
+    },
+    {
+      "unitid": "447050",
+      "slug": "united-states-university-447050",
+      "name": "United States University",
+      "city": "San Diego",
+      "city_slug": "san-diego",
+      "control": "private_forprofit",
+      "pred_degree": "bachelors",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 80980,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 34909
+        },
+        {
+          "year": 8,
+          "value": 60539
+        },
+        {
+          "year": 10,
+          "value": 80980
+        }
+      ],
+      "completion_rate_150": null,
+      "completion_rate_history": [
+        {
+          "year": 2014,
+          "value": 0.2833
+        },
+        {
+          "year": 2017,
+          "value": 0.0
+        },
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        },
+        {
+          "year": 2020,
+          "value": 0.0
+        },
+        {
+          "year": 2021,
+          "value": 0.0
+        }
+      ],
+      "enrollment_undergrad": 167,
+      "enrollment_history": [
+        {
+          "year": 2005,
+          "value": 28.0
+        },
+        {
+          "year": 2006,
+          "value": 36.0
+        },
+        {
+          "year": 2007,
+          "value": 39.0
+        },
+        {
+          "year": 2008,
+          "value": 35.0
+        },
+        {
+          "year": 2009,
+          "value": 96.0
+        }
+      ],
+      "median_debt": 13598,
+      "default_rate": 0.0,
+      "tuition_in_state": 6600,
+      "tuition_out_of_state": 6600,
+      "long_arc": [
+        {
+          "metric": "completion_rate_150",
+          "from_year": 2014,
+          "to_year": 2021,
+          "from_value": 0.2833,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "completion_rate_100",
+          "from_year": 2014,
+          "to_year": 2021,
+          "from_value": 0.1667,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 2005,
+          "to_year": 2009,
+          "from_value": 28.0,
+          "to_value": 96.0,
+          "pct_change": 0.34,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 2007,
+          "to_year": 2009,
+          "from_value": 8274.0,
+          "to_value": 6250.0,
+          "pct_change": -0.24462170655064056,
+          "direction": "fell"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.166,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2008,
+          "to_year": 2009,
+          "from_value": 0.2706,
+          "to_value": 0.3659,
+          "pct_change": 0.352180339985218,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "unitid": "122436",
+      "slug": "university-of-san-diego-122436",
+      "name": "University of San Diego",
+      "city": "San Diego",
+      "city_slug": "san-diego",
+      "control": "private_nonprofit",
+      "pred_degree": "bachelors",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 86522,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 64995
+        },
+        {
+          "year": 8,
+          "value": 77744
+        },
+        {
+          "year": 10,
+          "value": 86522
+        }
+      ],
+      "completion_rate_150": 0.8158,
+      "completion_rate_history": [
+        {
+          "year": 1997,
+          "value": 0.6519
+        },
+        {
+          "year": 1998,
+          "value": 0.6405
+        },
+        {
+          "year": 1999,
+          "value": 0.664
+        },
+        {
+          "year": 2000,
+          "value": 0.6821
+        },
+        {
+          "year": 2001,
+          "value": 0.6708
+        },
+        {
+          "year": 2002,
+          "value": 0.6747
+        },
+        {
+          "year": 2003,
+          "value": 0.7153
+        },
+        {
+          "year": 2004,
+          "value": 0.7325
+        },
+        {
+          "year": 2005,
+          "value": 0.7283
+        },
+        {
+          "year": 2006,
+          "value": 0.7529
+        },
+        {
+          "year": 2007,
+          "value": 0.7378
+        },
+        {
+          "year": 2008,
+          "value": 0.7521
+        },
+        {
+          "year": 2009,
+          "value": 0.7441
+        },
+        {
+          "year": 2010,
+          "value": 0.7266
+        },
+        {
+          "year": 2011,
+          "value": 0.7489
+        },
+        {
+          "year": 2012,
+          "value": 0.7579
+        },
+        {
+          "year": 2013,
+          "value": 0.7502
+        },
+        {
+          "year": 2014,
+          "value": 0.7673
+        },
+        {
+          "year": 2015,
+          "value": 0.7928
+        },
+        {
+          "year": 2016,
+          "value": 0.7779
+        },
+        {
+          "year": 2017,
+          "value": 0.8184
+        },
+        {
+          "year": 2018,
+          "value": 0.8041
+        },
+        {
+          "year": 2019,
+          "value": 0.8142
+        },
+        {
+          "year": 2020,
+          "value": 0.8048
+        },
+        {
+          "year": 2021,
+          "value": 0.8002
+        },
+        {
+          "year": 2022,
+          "value": 0.8262
+        },
+        {
+          "year": 2023,
+          "value": 0.8158
+        },
+        {
+          "year": 2024,
+          "value": 0.8367
+        }
+      ],
+      "enrollment_undergrad": 5619,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 4299.0
+        },
+        {
+          "year": 1997,
+          "value": 4356.0
+        },
+        {
+          "year": 1998,
+          "value": 4439.0
+        },
+        {
+          "year": 1999,
+          "value": 4623.0
+        },
+        {
+          "year": 2001,
+          "value": 4804.0
+        },
+        {
+          "year": 2002,
+          "value": 4830.0
+        },
+        {
+          "year": 2003,
+          "value": 4794.0
+        },
+        {
+          "year": 2004,
+          "value": 4904.0
+        },
+        {
+          "year": 2005,
+          "value": 4959.0
+        },
+        {
+          "year": 2006,
+          "value": 4946.0
+        },
+        {
+          "year": 2007,
+          "value": 4906.0
+        },
+        {
+          "year": 2008,
+          "value": 5097.0
+        },
+        {
+          "year": 2009,
+          "value": 5066.0
+        },
+        {
+          "year": 2010,
+          "value": 5299.0
+        }
+      ],
+      "median_debt": 19019,
+      "default_rate": 0.0,
+      "tuition_in_state": 56444,
+      "tuition_out_of_state": 56444,
+      "long_arc": [
+        {
+          "metric": "completion_rate_150",
+          "from_year": 1997,
+          "to_year": 2024,
+          "from_value": 0.6519,
+          "to_value": 0.8367,
+          "pct_change": 0.2834790612057063,
+          "direction": "rose"
+        },
+        {
+          "metric": "completion_rate_100",
+          "from_year": 1997,
+          "to_year": 2024,
+          "from_value": 0.534,
+          "to_value": 0.6925,
+          "pct_change": 0.296816479400749,
+          "direction": "rose"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 1996,
+          "to_year": 2010,
+          "from_value": 4299.0,
+          "to_value": 5299.0,
+          "pct_change": 0.23261223540358222,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_in_state",
+          "from_year": 2001,
+          "to_year": 2010,
+          "from_value": 20458.0,
+          "to_value": 37372.0,
+          "pct_change": 0.8267670349007723,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2001,
+          "to_year": 2024,
+          "from_value": 20458.0,
+          "to_value": 59486.0,
+          "pct_change": 1.907713363965197,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.028,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2008,
+          "to_year": 2010,
+          "from_value": 0.1034,
+          "to_value": 0.1374,
+          "pct_change": 0.32882011605415845,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_8yr",
+          "from_year": 2005,
+          "to_year": 2020,
+          "from_value": 54200.0,
+          "to_value": 77744.0,
+          "pct_change": 0.4343911439114391,
+          "direction": "rose"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": 48319,
+  "completion_rate_city": 0.59105,
+  "completion_history_city": [
+    {
+      "year": 1997,
+      "value": 0.3846
+    },
+    {
+      "year": 1998,
+      "value": 0.3879
+    },
+    {
+      "year": 1999,
+      "value": 0.35405
+    },
+    {
+      "year": 2000,
+      "value": 0.34875
+    },
+    {
+      "year": 2001,
+      "value": 0.3627
+    },
+    {
+      "year": 2002,
+      "value": 0.3825
+    },
+    {
+      "year": 2003,
+      "value": 0.4074
+    },
+    {
+      "year": 2004,
+      "value": 0.5535
+    },
+    {
+      "year": 2005,
+      "value": 0.4983
+    },
+    {
+      "year": 2006,
+      "value": 0.56015
+    },
+    {
+      "year": 2007,
+      "value": 0.54395
+    },
+    {
+      "year": 2008,
+      "value": 0.49470000000000003
+    },
+    {
+      "year": 2009,
+      "value": 0.44565
+    },
+    {
+      "year": 2010,
+      "value": 0.4643
+    },
+    {
+      "year": 2011,
+      "value": 0.63555
+    },
+    {
+      "year": 2012,
+      "value": 0.51315
+    },
+    {
+      "year": 2013,
+      "value": 0.5808
+    },
+    {
+      "year": 2014,
+      "value": 0.4
+    },
+    {
+      "year": 2015,
+      "value": 0.3333
+    },
+    {
+      "year": 2016,
+      "value": 0.3466
+    },
+    {
+      "year": 2017,
+      "value": 0.4054
+    },
+    {
+      "year": 2018,
+      "value": 0.2667
+    },
+    {
+      "year": 2019,
+      "value": 0.4143
+    },
+    {
+      "year": 2020,
+      "value": 0.3333
+    },
+    {
+      "year": 2021,
+      "value": 0.5185
+    },
+    {
+      "year": 2022,
+      "value": 0.5781
+    },
+    {
+      "year": 2023,
+      "value": 0.5046999999999999
+    },
+    {
+      "year": 2024,
+      "value": 0.5900000000000001
+    }
+  ],
+  "enrollment_history_city": [
+    {
+      "year": 1996,
+      "value": 62995.0
+    },
+    {
+      "year": 1997,
+      "value": 64570.0
+    },
+    {
+      "year": 1998,
+      "value": 66228.0
+    },
+    {
+      "year": 1999,
+      "value": 62787.0
+    },
+    {
+      "year": 2001,
+      "value": 67778.0
+    },
+    {
+      "year": 2002,
+      "value": 74669.0
+    },
+    {
+      "year": 2003,
+      "value": 70202.0
+    },
+    {
+      "year": 2004,
+      "value": 72615.0
+    },
+    {
+      "year": 2005,
+      "value": 72289.0
+    },
+    {
+      "year": 2006,
+      "value": 77412.0
+    },
+    {
+      "year": 2007,
+      "value": 85298.0
+    },
+    {
+      "year": 2008,
+      "value": 112512.0
+    },
+    {
+      "year": 2009,
+      "value": 129427.0
+    },
+    {
+      "year": 2010,
+      "value": 88885.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "institution": {
+    "unitid": "484048",
+    "opeid6": "042290",
+    "name": "Barber Institute of Texas",
+    "slug": "barber-institute-of-texas-484048",
+    "state": "tx",
+    "city": "Longview",
+    "city_slug": "longview",
+    "zip5": "75602",
+    "address": "2430 South High Street Ste B4",
+    "latitude": 32.46297,
+    "longitude": -94.732635,
+    "control": "private_forprofit",
+    "pred_degree": "certificate",
+    "highest_degree": "certificate",
+    "main_campus": true,
+    "locale": "13",
+    "carnegie_basic": -2,
+    "sector_code": 9,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": 18899,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": 0.0,
+    "completion_rate_100": 0.0,
+    "retention_rate": 0.0952,
+    "admission_rate": null,
+    "enrollment_undergrad": 16,
+    "enrollment_total": null,
+    "cost_attendance": 16403,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": 10208,
+    "cost_by_income": {
+      "0_30k": 10208,
+      "30_48k": null,
+      "48_75k": null,
+      "75_110k": null,
+      "110k_plus": null,
+      "sticker": 16403,
+      "sector": "priv"
+    },
+    "median_debt": 9500,
+    "default_rate": 0.0,
+    "pell_share": 0.5963,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [],
+      "admission_rate": [],
+      "enrollment_undergrad": [],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [],
+      "median_debt": [],
+      "default_rate": [],
+      "pell_share": [],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [],
+    "flags": []
+  },
+  "programs_by_family": {
+    "12": [
+      {
+        "slug": "1204-c1",
+        "cip_code": "1204",
+        "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": 16261,
+        "debt_history": [
+          {
+            "year": 2015,
+            "value": 16500.0
+          },
+          {
+            "year": 2016,
+            "value": 12750.0
+          },
+          {
+            "year": 2017,
+            "value": 12500.0
+          },
+          {
+            "year": 2018,
+            "value": 16261.0
+          }
+        ],
+        "completers": 28,
+        "completers_single_year": 5,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 10.0
+          },
+          {
+            "year": 2015,
+            "value": 7.0
+          },
+          {
+            "year": 2016,
+            "value": 19.0
+          },
+          {
+            "year": 2017,
+            "value": 6.0
+          },
+          {
+            "year": 2018,
+            "value": 5.0
+          },
+          {
+            "year": 2019,
+            "value": 28.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1204-c3",
+        "cip_code": "1204",
+        "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "1204-c1",
+      "cip_code": "1204",
+      "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": 16261,
+      "debt_history": [
+        {
+          "year": 2015,
+          "value": 16500.0
+        },
+        {
+          "year": 2016,
+          "value": 12750.0
+        },
+        {
+          "year": 2017,
+          "value": 12500.0
+        },
+        {
+          "year": 2018,
+          "value": 16261.0
+        }
+      ],
+      "completers": 28,
+      "completers_single_year": 5,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 10.0
+        },
+        {
+          "year": 2015,
+          "value": 7.0
+        },
+        {
+          "year": 2016,
+          "value": 19.0
+        },
+        {
+          "year": 2017,
+          "value": 6.0
+        },
+        {
+          "year": 2018,
+          "value": 5.0
+        },
+        {
+          "year": 2019,
+          "value": 28.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1204-c3",
+      "cip_code": "1204",
+      "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    }
+  ],
+  "program_count": 2,
+  "similar": [
+    {
+      "slug": "ucas-university-of-cosmetology-arts-sciences-377193",
+      "name": "UCAS University of Cosmetology Arts & Sciences",
+      "city": "San Antonio",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 13862,
+      "completion_rate_150": 0.0,
+      "enrollment_undergrad": 16
+    },
+    {
+      "slug": "nuvani-institute-377272",
+      "name": "Nuvani Institute",
+      "city": "San Antonio",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 19484,
+      "completion_rate_150": 0.8649,
+      "enrollment_undergrad": 16
+    },
+    {
+      "slug": "montana-barber-institute-493655",
+      "name": "Montana Barber Institute",
+      "city": "El Paso",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.7742,
+      "enrollment_undergrad": 16
+    },
+    {
+      "slug": "pathway-vocational-academy-434283",
+      "name": "Pathway Vocational Academy",
+      "city": "Beaumont",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 22822,
+      "completion_rate_150": 0.4,
+      "enrollment_undergrad": 18
+    },
+    {
+      "slug": "barbers-trade-school-497383",
+      "name": "Barbers Trade School",
+      "city": "Beaumont",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 1.0,
+      "enrollment_undergrad": 14
+    }
+  ],
+  "roi": {
+    "default_program_slug": null,
+    "programs_available": [
+      {
+        "slug": "1204-c1",
+        "label": "Cosmetology and Related Personal Grooming Services · Undergraduate Certificate or Diploma",
+        "cip_family": "12",
+        "completers": 28,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": 16261,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "1204-c3",
+        "label": "Cosmetology and Related Personal Grooming Services · Bachelor's Degree",
+        "cip_family": "12",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 4,
+        "default_result": null
+      }
+    ]
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

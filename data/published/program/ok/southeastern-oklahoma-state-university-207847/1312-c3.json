@@ -1,0 +1,398 @@
+{
+  "institution_unitid": "207847",
+  "institution_name": "Southeastern Oklahoma State University",
+  "institution_slug": "southeastern-oklahoma-state-university-207847",
+  "state": "ok",
+  "cip_code": "1312",
+  "cip_desc": "Teacher Education and Professional Development, Specific Levels and Methods.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1312-c3",
+  "earnings_median_4yr": 39890,
+  "earnings_median_5yr": 42599,
+  "earnings_count_4yr": 5,
+  "earnings_count_5yr": 4,
+  "debt_median": 17991,
+  "completers": 45,
+  "completers_single_year": 26,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 39890.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 42599.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 24516.0
+      },
+      {
+        "year": 2015,
+        "value": 22220.0
+      },
+      {
+        "year": 2016,
+        "value": 20942.0
+      },
+      {
+        "year": 2017,
+        "value": 20000.0
+      },
+      {
+        "year": 2018,
+        "value": 17991.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 49.0
+      },
+      {
+        "year": 2015,
+        "value": 44.0
+      },
+      {
+        "year": 2016,
+        "value": 54.0
+      },
+      {
+        "year": 2017,
+        "value": 28.0
+      },
+      {
+        "year": 2018,
+        "value": 26.0
+      },
+      {
+        "year": 2019,
+        "value": 45.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 24516.0,
+      "to_value": 17991.0,
+      "pct_change": -0.26615271659324524,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Teacher Education and Professional Development, Specific Levels and Methods at Southeastern Oklahoma State University fell 27% between 2014 and 2018 ($24.5k → $18.0k).",
+      "magnitude_pct": -26.6,
+      "magnitude_abs": -6525.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "207847",
+    "slug": "southeastern-oklahoma-state-university-207847",
+    "name": "Southeastern Oklahoma State University",
+    "city": "Durant",
+    "city_slug": "durant",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "oklahoma-christian-university-207324",
+      "institution_name": "Oklahoma Christian University",
+      "earnings_median_5yr": 50371,
+      "earnings_median_4yr": 41428,
+      "debt_median": 27000,
+      "completers": 8,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "oral-roberts-university-207582",
+      "institution_name": "Oral Roberts University",
+      "earnings_median_5yr": 49966,
+      "earnings_median_4yr": 42259,
+      "debt_median": 25250,
+      "completers": 12,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-oklahoma-norman-campus-207500",
+      "institution_name": "University of Oklahoma-Norman Campus",
+      "earnings_median_5yr": 48705,
+      "earnings_median_4yr": 44212,
+      "debt_median": 21250,
+      "completers": 99,
+      "completers_single_year": 98,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-central-oklahoma-206941",
+      "institution_name": "University of Central Oklahoma",
+      "earnings_median_5yr": 46112,
+      "earnings_median_4yr": 42773,
+      "debt_median": 24250,
+      "completers": 94,
+      "completers_single_year": 106,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "oklahoma-state-university-main-campus-207388",
+      "institution_name": "Oklahoma State University-Main Campus",
+      "earnings_median_5yr": 45993,
+      "earnings_median_4yr": 43047,
+      "debt_median": 24000,
+      "completers": 111,
+      "completers_single_year": 116,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "oklahoma-baptist-university-207403",
+      "institution_name": "Oklahoma Baptist University",
+      "earnings_median_5yr": 45909,
+      "earnings_median_4yr": 41792,
+      "debt_median": 25825,
+      "completers": 21,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northwestern-oklahoma-state-university-207306",
+      "institution_name": "Northwestern Oklahoma State University",
+      "earnings_median_5yr": 44999,
+      "earnings_median_4yr": 41555,
+      "debt_median": null,
+      "completers": 23,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northeastern-state-university-207263",
+      "institution_name": "Northeastern State University",
+      "earnings_median_5yr": 44719,
+      "earnings_median_4yr": 40593,
+      "debt_median": 17499,
+      "completers": 104,
+      "completers_single_year": 98,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cameron-university-206914",
+      "institution_name": "Cameron University",
+      "earnings_median_5yr": 44687,
+      "earnings_median_4yr": 40083,
+      "debt_median": 23002,
+      "completers": 43,
+      "completers_single_year": 43,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "east-central-university-207041",
+      "institution_name": "East Central University",
+      "earnings_median_5yr": 43004,
+      "earnings_median_4yr": 39626,
+      "debt_median": 18618,
+      "completers": 27,
+      "completers_single_year": 33,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southwestern-oklahoma-state-university-207865",
+      "institution_name": "Southwestern Oklahoma State University",
+      "earnings_median_5yr": 40173,
+      "earnings_median_4yr": 38028,
+      "debt_median": 21750,
+      "completers": 41,
+      "completers_single_year": 37,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bacone-college-206817",
+      "institution_name": "Bacone College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "oklahoma-wesleyan-university-206835",
+      "institution_name": "Oklahoma Wesleyan University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southern-nazarene-university-206862",
+      "institution_name": "Southern Nazarene University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "randall-university-207157",
+      "institution_name": "Randall University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "langston-university-207209",
+      "institution_name": "Langston University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "oklahoma-panhandle-state-university-207351",
+      "institution_name": "Oklahoma Panhandle State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "oklahoma-city-university-207458",
+      "institution_name": "Oklahoma City University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-science-and-arts-of-oklahoma-207722",
+      "institution_name": "University of Science and Arts of Oklahoma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 15,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southwestern-christian-university-207856",
+      "institution_name": "Southwestern Christian University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-tulsa-207971",
+      "institution_name": "University of Tulsa",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mid-america-christian-university-245953",
+      "institution_name": "Mid-America Christian University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 4,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 7686,
+      "cost_total_default": 30744,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 42599,
+      "earnings_anchor_year": 5,
+      "debt_median": 17991,
+      "cip_family": "13",
+      "hs_baseline_state": 33800
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 80317,
+      "breakeven_year": 16
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

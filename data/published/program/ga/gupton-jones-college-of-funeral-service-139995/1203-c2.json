@@ -1,0 +1,174 @@
+{
+  "institution_unitid": "139995",
+  "institution_name": "Gupton Jones College of Funeral Service",
+  "institution_slug": "gupton-jones-college-of-funeral-service-139995",
+  "state": "ga",
+  "cip_code": "1203",
+  "cip_desc": "Funeral Service and Mortuary Science.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "1203-c2",
+  "earnings_median_4yr": 36490,
+  "earnings_median_5yr": 44260,
+  "earnings_count_4yr": 14,
+  "earnings_count_5yr": 11,
+  "debt_median": 15937,
+  "completers": 121,
+  "completers_single_year": 79,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 36490.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 44260.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 13666.0
+      },
+      {
+        "year": 2015,
+        "value": 16042.0
+      },
+      {
+        "year": 2016,
+        "value": 16042.0
+      },
+      {
+        "year": 2017,
+        "value": 16042.0
+      },
+      {
+        "year": 2018,
+        "value": 15937.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 146.0
+      },
+      {
+        "year": 2015,
+        "value": 114.0
+      },
+      {
+        "year": 2016,
+        "value": 82.0
+      },
+      {
+        "year": 2017,
+        "value": 45.0
+      },
+      {
+        "year": 2018,
+        "value": 79.0
+      },
+      {
+        "year": 2019,
+        "value": 121.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "139995",
+    "slug": "gupton-jones-college-of-funeral-service-139995",
+    "name": "Gupton Jones College of Funeral Service",
+    "city": "Decatur",
+    "city_slug": "decatur",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "ogeechee-technical-college-366465",
+      "institution_name": "Ogeechee Technical College",
+      "earnings_median_5yr": 56067,
+      "earnings_median_4yr": 49215,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "columbus-technical-college-139357",
+      "institution_name": "Columbus Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 11,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 22214,
+      "cost_total_default": 44428,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 44260,
+      "earnings_anchor_year": 5,
+      "debt_median": 15937,
+      "cip_family": "12",
+      "hs_baseline_state": 35800
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 173099,
+      "breakeven_year": 13
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

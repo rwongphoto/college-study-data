@@ -1,0 +1,210 @@
+{
+  "state": "ny",
+  "name": "Lima",
+  "slug": "lima",
+  "institution_count": 1,
+  "institutions": [
+    {
+      "unitid": "488305",
+      "slug": "elim-bible-institute-and-college-488305",
+      "name": "Elim Bible Institute and College",
+      "city": "Lima",
+      "city_slug": "lima",
+      "control": "private_nonprofit",
+      "pred_degree": "bachelors",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": null
+        },
+        {
+          "year": 8,
+          "value": null
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": 0.697,
+      "completion_rate_history": [],
+      "enrollment_undergrad": 94,
+      "enrollment_history": [
+        {
+          "year": 2016,
+          "value": 102.0
+        },
+        {
+          "year": 2017,
+          "value": 97.0
+        },
+        {
+          "year": 2018,
+          "value": 106.0
+        },
+        {
+          "year": 2019,
+          "value": 102.0
+        },
+        {
+          "year": 2020,
+          "value": 96.0
+        },
+        {
+          "year": 2021,
+          "value": 107.0
+        },
+        {
+          "year": 2022,
+          "value": 106.0
+        },
+        {
+          "year": 2023,
+          "value": 94.0
+        },
+        {
+          "year": 2024,
+          "value": 100.0
+        }
+      ],
+      "median_debt": 9241,
+      "default_rate": 0.0,
+      "tuition_in_state": 10480,
+      "tuition_out_of_state": 10480,
+      "long_arc": [
+        {
+          "metric": "retention_rate",
+          "from_year": 2016,
+          "to_year": 2024,
+          "from_value": 0.537,
+          "to_value": 0.75,
+          "pct_change": 0.39664804469273734,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2016,
+          "to_year": 2024,
+          "from_value": 7968.0,
+          "to_value": 10480.0,
+          "pct_change": 0.3152610441767068,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 2017,
+          "to_year": 2020,
+          "from_value": 5500.0,
+          "to_value": 10247.0,
+          "pct_change": 0.8630909090909091,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2019,
+          "to_year": 2024,
+          "from_value": 0.333,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2016,
+          "to_year": 2024,
+          "from_value": 0.0,
+          "to_value": 0.4286,
+          "pct_change": 8.572,
+          "direction": "rose"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": null,
+  "completion_rate_city": 0.697,
+  "completion_history_city": [],
+  "enrollment_history_city": [
+    {
+      "year": 2016,
+      "value": 102.0
+    },
+    {
+      "year": 2017,
+      "value": 97.0
+    },
+    {
+      "year": 2018,
+      "value": 106.0
+    },
+    {
+      "year": 2019,
+      "value": 102.0
+    },
+    {
+      "year": 2020,
+      "value": 96.0
+    },
+    {
+      "year": 2021,
+      "value": 107.0
+    },
+    {
+      "year": 2022,
+      "value": 106.0
+    },
+    {
+      "year": 2023,
+      "value": 94.0
+    },
+    {
+      "year": 2024,
+      "value": 100.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

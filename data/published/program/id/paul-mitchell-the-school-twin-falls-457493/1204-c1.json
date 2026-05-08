@@ -1,0 +1,282 @@
+{
+  "institution_unitid": "457493",
+  "institution_name": "Paul Mitchell the School-Twin Falls",
+  "institution_slug": "paul-mitchell-the-school-twin-falls-457493",
+  "state": "id",
+  "cip_code": "1204",
+  "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "1204-c1",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": null,
+  "completers": 8,
+  "completers_single_year": 17,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [
+      {
+        "year": 2016,
+        "value": 11084.0
+      },
+      {
+        "year": 2017,
+        "value": 13666.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 21.0
+      },
+      {
+        "year": 2015,
+        "value": 20.0
+      },
+      {
+        "year": 2016,
+        "value": 27.0
+      },
+      {
+        "year": 2017,
+        "value": 15.0
+      },
+      {
+        "year": 2018,
+        "value": 17.0
+      },
+      {
+        "year": 2019,
+        "value": 8.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2016,
+      "to_year": 2017,
+      "from_value": 11084.0,
+      "to_value": 13666.0,
+      "pct_change": 0.232948394081559,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Cosmetology and Related Personal Grooming Services at Paul Mitchell the School-Twin Falls rose 23% between 2016 and 2017 ($11.1k → $13.7k).",
+      "magnitude_pct": 23.3,
+      "magnitude_abs": 2582.0,
+      "baseline_year": 2016,
+      "recent_year": 2017,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "457493",
+    "slug": "paul-mitchell-the-school-twin-falls-457493",
+    "name": "Paul Mitchell the School-Twin Falls",
+    "city": "TWIN FALLS",
+    "city_slug": "twin-falls",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "headmasters-school-of-hair-design-247010",
+      "institution_name": "Headmasters School of Hair Design",
+      "earnings_median_5yr": 26515,
+      "earnings_median_4yr": 28483,
+      "debt_median": 10556,
+      "completers": 27,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "aveda-institute-boise-461652",
+      "institution_name": "Aveda Institute-Boise",
+      "earnings_median_5yr": 25092,
+      "earnings_median_4yr": 19435,
+      "debt_median": 8564,
+      "completers": 58,
+      "completers_single_year": 48,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "paul-mitchell-the-school-boise-260929",
+      "institution_name": "Paul Mitchell the School-Boise",
+      "earnings_median_5yr": 23084,
+      "earnings_median_4yr": 21128,
+      "debt_median": 9500,
+      "completers": 210,
+      "completers_single_year": 220,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "oliver-finley-academy-of-cosmetology-455859",
+      "institution_name": "Oliver Finley Academy of Cosmetology",
+      "earnings_median_5yr": 22281,
+      "earnings_median_4yr": 19520,
+      "debt_median": 6333,
+      "completers": 211,
+      "completers_single_year": 170,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-salon-professional-academy-nampa-247047",
+      "institution_name": "The Salon Professional Academy-Nampa",
+      "earnings_median_5yr": 21920,
+      "earnings_median_4yr": 19999,
+      "debt_median": 10511,
+      "completers": 73,
+      "completers_single_year": 53,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "paul-mitchell-the-school-rexburg-454944",
+      "institution_name": "Paul Mitchell the School-Rexburg",
+      "earnings_median_5yr": 21482,
+      "earnings_median_4yr": 19699,
+      "debt_median": 10555,
+      "completers": 119,
+      "completers_single_year": 149,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "boise-barber-college-476850",
+      "institution_name": "Boise Barber College",
+      "earnings_median_5yr": 19674,
+      "earnings_median_4yr": 20716,
+      "debt_median": 9500,
+      "completers": 54,
+      "completers_single_year": 48,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "idaho-state-university-142276",
+      "institution_name": "Idaho State University",
+      "earnings_median_5yr": 18069,
+      "earnings_median_4yr": null,
+      "debt_median": 8770,
+      "completers": 27,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "aveda-institute-twin-falls-142407",
+      "institution_name": "Aveda Institute-Twin Falls",
+      "earnings_median_5yr": 16159,
+      "earnings_median_4yr": 15205,
+      "debt_median": 9400,
+      "completers": 77,
+      "completers_single_year": 64,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "evans-hairstyling-college-rexburg-454935",
+      "institution_name": "Evans Hairstyling College-Rexburg",
+      "earnings_median_5yr": 13603,
+      "earnings_median_4yr": null,
+      "debt_median": 10203,
+      "completers": 34,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "nathan-layne-institute-of-cosmetology-142489",
+      "institution_name": "Nathan Layne Institute of Cosmetology",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 14,
+      "completers_single_year": 34,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cosmetology-school-of-arts-sciences-445780",
+      "institution_name": "Cosmetology School of Arts & Sciences",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 22,
+      "completers_single_year": 27,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "austin-kade-academy-476869",
+      "institution_name": "Austin Kade Academy",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 15873,
+      "debt_median": null,
+      "completers": 83,
+      "completers_single_year": 98,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 26100,
+      "cost_total_default": 26100,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "12"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

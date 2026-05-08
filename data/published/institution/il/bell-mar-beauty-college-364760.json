@@ -1,0 +1,502 @@
+{
+  "institution": {
+    "unitid": "364760",
+    "opeid6": "025367",
+    "name": "Bell Mar Beauty College",
+    "slug": "bell-mar-beauty-college-364760",
+    "state": "il",
+    "city": "Cicero",
+    "city_slug": "cicero",
+    "zip5": "60804",
+    "address": "5717  W. Cermak Road",
+    "latitude": 41.850656,
+    "longitude": -87.767244,
+    "control": "private_forprofit",
+    "pred_degree": "certificate",
+    "highest_degree": "certificate",
+    "main_campus": true,
+    "locale": "21",
+    "carnegie_basic": -2,
+    "sector_code": 9,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": 17550,
+    "earnings_median_8yr": 17029,
+    "earnings_median_10yr": 26222,
+    "completion_rate_150": 0.6667,
+    "completion_rate_100": 0.0476,
+    "retention_rate": 1.0,
+    "admission_rate": null,
+    "enrollment_undergrad": 45,
+    "enrollment_total": null,
+    "cost_attendance": 13884,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": 7188,
+    "cost_by_income": {
+      "0_30k": 6739,
+      "30_48k": 9636,
+      "48_75k": 6989,
+      "75_110k": null,
+      "110k_plus": null,
+      "sticker": 13884,
+      "sector": "priv"
+    },
+    "median_debt": null,
+    "default_rate": null,
+    "pell_share": 0.5507,
+    "history": {
+      "completion_rate_150": [
+        {
+          "year": 1997,
+          "value": 0.7647
+        },
+        {
+          "year": 1999,
+          "value": 0.4444
+        },
+        {
+          "year": 2001,
+          "value": 1.0
+        },
+        {
+          "year": 2002,
+          "value": 1.0
+        },
+        {
+          "year": 2005,
+          "value": 0.3855
+        },
+        {
+          "year": 2008,
+          "value": 0.1803
+        },
+        {
+          "year": 2009,
+          "value": 1.0
+        }
+      ],
+      "completion_rate_100": [
+        {
+          "year": 2009,
+          "value": 1.0
+        }
+      ],
+      "retention_rate": [
+        {
+          "year": 2006,
+          "value": 1.0
+        }
+      ],
+      "admission_rate": [
+        {
+          "year": 2008,
+          "value": 0.8696
+        }
+      ],
+      "enrollment_undergrad": [
+        {
+          "year": 1996,
+          "value": 33.0
+        },
+        {
+          "year": 1997,
+          "value": 34.0
+        },
+        {
+          "year": 1998,
+          "value": 37.0
+        },
+        {
+          "year": 1999,
+          "value": 55.0
+        },
+        {
+          "year": 2001,
+          "value": 73.0
+        },
+        {
+          "year": 2002,
+          "value": 57.0
+        },
+        {
+          "year": 2003,
+          "value": 61.0
+        },
+        {
+          "year": 2004,
+          "value": 74.0
+        },
+        {
+          "year": 2005,
+          "value": 84.0
+        },
+        {
+          "year": 2006,
+          "value": 116.0
+        },
+        {
+          "year": 2007,
+          "value": 126.0
+        },
+        {
+          "year": 2008,
+          "value": 58.0
+        },
+        {
+          "year": 2009,
+          "value": 66.0
+        }
+      ],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [],
+      "median_debt": [],
+      "default_rate": [],
+      "pell_share": [
+        {
+          "year": 2008,
+          "value": 0.9669
+        },
+        {
+          "year": 2009,
+          "value": 0.5878
+        }
+      ],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "completion_rate_150",
+        "from_year": 1997,
+        "to_year": 2009,
+        "from_value": 0.7647,
+        "to_value": 1.0,
+        "pct_change": 0.3077023669412841,
+        "direction": "rose"
+      },
+      {
+        "metric": "pell_share",
+        "from_year": 2008,
+        "to_year": 2009,
+        "from_value": 0.9669,
+        "to_value": 0.5878,
+        "pct_change": -0.3920777743303341,
+        "direction": "fell"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "Undergraduate enrollment",
+        "summary": "Undergraduate enrollment at Bell Mar Beauty College fell 43% between 2006 and 2009 (116 → 66).",
+        "magnitude_pct": -43.1,
+        "magnitude_abs": -50.0,
+        "baseline_year": 2006,
+        "recent_year": 2009,
+        "units": null,
+        "history": [],
+        "metric": "enrollment_undergrad"
+      },
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "150%-time completion",
+        "summary": "150%-time completion at Bell Mar Beauty College rose 455% between 2008 and 2009 (18.0% → 100.0%).",
+        "magnitude_pct": 454.6,
+        "magnitude_abs": 0.82,
+        "baseline_year": 2008,
+        "recent_year": 2009,
+        "units": "%",
+        "history": [],
+        "metric": "completion_rate_150"
+      },
+      {
+        "type": "earnings_trend",
+        "severity": "improvement",
+        "label": "Earnings trend · post-entry horizons",
+        "summary": "Earnings 10 years post-entry at Bell Mar Beauty College are 49% above 6-year earnings ($17.6k → $26.2k).",
+        "magnitude_pct": 49.4,
+        "magnitude_abs": 8672.0,
+        "baseline_year": 6,
+        "recent_year": 10,
+        "units": "$",
+        "history": [],
+        "metric": "earnings_progression"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "12": [
+      {
+        "slug": "1204-c1",
+        "cip_code": "1204",
+        "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 37,
+        "completers_single_year": 37,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 37.0
+          },
+          {
+            "year": 2015,
+            "value": 19.0
+          },
+          {
+            "year": 2016,
+            "value": 25.0
+          },
+          {
+            "year": 2017,
+            "value": 38.0
+          },
+          {
+            "year": 2018,
+            "value": 37.0
+          },
+          {
+            "year": 2019,
+            "value": 37.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1204-c2",
+        "cip_code": "1204",
+        "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": 20604,
+        "earnings_median_4yr": 16209,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 20604.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 16209.0
+          }
+        ],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "1204-c1",
+      "cip_code": "1204",
+      "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 37,
+      "completers_single_year": 37,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 37.0
+        },
+        {
+          "year": 2015,
+          "value": 19.0
+        },
+        {
+          "year": 2016,
+          "value": 25.0
+        },
+        {
+          "year": 2017,
+          "value": 38.0
+        },
+        {
+          "year": 2018,
+          "value": 37.0
+        },
+        {
+          "year": 2019,
+          "value": 37.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1204-c2",
+      "cip_code": "1204",
+      "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": 20604,
+      "earnings_median_4yr": 16209,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 20604.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 16209.0
+        }
+      ],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    }
+  ],
+  "program_count": 2,
+  "similar": [
+    {
+      "slug": "cannella-school-of-hair-design-villa-park-143473",
+      "name": "Cannella School of Hair Design-Villa Park",
+      "city": "Villa Park",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 26970,
+      "completion_rate_150": 0.7143,
+      "enrollment_undergrad": 43
+    },
+    {
+      "slug": "gem-city-college-145309",
+      "name": "Gem City College",
+      "city": "Quincy",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 19219,
+      "completion_rate_150": 0.8571,
+      "enrollment_undergrad": 42
+    },
+    {
+      "slug": "networks-barber-college-483258",
+      "name": "Networks Barber College",
+      "city": "Calumet City",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.6667,
+      "enrollment_undergrad": 50
+    },
+    {
+      "slug": "illinois-media-school-419253",
+      "name": "Illinois Media School",
+      "city": "Chicago",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 38284,
+      "completion_rate_150": 0.6735,
+      "enrollment_undergrad": 36
+    },
+    {
+      "slug": "cosmetology-concepts-niles-147642",
+      "name": "Cosmetology Concepts Niles",
+      "city": "Niles",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 20303,
+      "completion_rate_150": 0.5714,
+      "enrollment_undergrad": 55
+    }
+  ],
+  "roi": {
+    "default_program_slug": "1204-c2",
+    "programs_available": [
+      {
+        "slug": "1204-c1",
+        "label": "Cosmetology and Related Personal Grooming Services · Undergraduate Certificate or Diploma",
+        "cip_family": "12",
+        "completers": 37,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "1204-c2",
+        "label": "Cosmetology and Related Personal Grooming Services · Associate's Degree",
+        "cip_family": "12",
+        "completers": null,
+        "has_earnings": true,
+        "earnings_at_completion": 20604,
+        "earnings_anchor_year": 5,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": {
+          "npv": -341470,
+          "breakeven_year": null
+        }
+      }
+    ]
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

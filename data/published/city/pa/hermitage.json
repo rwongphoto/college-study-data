@@ -1,0 +1,384 @@
+{
+  "state": "pa",
+  "name": "Hermitage",
+  "slug": "hermitage",
+  "institution_count": 1,
+  "institutions": [
+    {
+      "unitid": "215992",
+      "slug": "laurel-technical-institute-215992",
+      "name": "Laurel Technical Institute",
+      "city": "Hermitage",
+      "city_slug": "hermitage",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 28311,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 24397
+        },
+        {
+          "year": 8,
+          "value": 28715
+        },
+        {
+          "year": 10,
+          "value": 28311
+        }
+      ],
+      "completion_rate_150": 0.7419,
+      "completion_rate_history": [
+        {
+          "year": 1997,
+          "value": 0.4545
+        },
+        {
+          "year": 1998,
+          "value": 0.8
+        },
+        {
+          "year": 1999,
+          "value": 0.7778
+        },
+        {
+          "year": 2000,
+          "value": 0.7719
+        },
+        {
+          "year": 2001,
+          "value": 0.9444
+        },
+        {
+          "year": 2002,
+          "value": 0.5333
+        },
+        {
+          "year": 2003,
+          "value": 0.5152
+        },
+        {
+          "year": 2004,
+          "value": 0.5405
+        },
+        {
+          "year": 2005,
+          "value": 0.375
+        },
+        {
+          "year": 2006,
+          "value": 0.5957
+        },
+        {
+          "year": 2007,
+          "value": 0.8889
+        },
+        {
+          "year": 2008,
+          "value": 0.8444
+        },
+        {
+          "year": 2009,
+          "value": 0.45
+        }
+      ],
+      "enrollment_undergrad": 160,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 143.0
+        },
+        {
+          "year": 1997,
+          "value": 110.0
+        },
+        {
+          "year": 1998,
+          "value": 70.0
+        },
+        {
+          "year": 1999,
+          "value": 52.0
+        },
+        {
+          "year": 2001,
+          "value": 22.0
+        },
+        {
+          "year": 2002,
+          "value": 58.0
+        },
+        {
+          "year": 2003,
+          "value": 96.0
+        },
+        {
+          "year": 2004,
+          "value": 171.0
+        },
+        {
+          "year": 2005,
+          "value": 162.0
+        },
+        {
+          "year": 2006,
+          "value": 137.0
+        },
+        {
+          "year": 2007,
+          "value": 124.0
+        },
+        {
+          "year": 2008,
+          "value": 167.0
+        },
+        {
+          "year": 2009,
+          "value": 257.0
+        }
+      ],
+      "median_debt": 9080,
+      "default_rate": 0.0,
+      "tuition_in_state": 11470,
+      "tuition_out_of_state": 11470,
+      "long_arc": [
+        {
+          "metric": "retention_rate",
+          "from_year": 2004,
+          "to_year": 2024,
+          "from_value": 0.82,
+          "to_value": 0.7111,
+          "pct_change": -0.1328048780487805,
+          "direction": "fell"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 1996,
+          "to_year": 2009,
+          "from_value": 143.0,
+          "to_value": 257.0,
+          "pct_change": 0.57,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_in_state",
+          "from_year": 2000,
+          "to_year": 2024,
+          "from_value": 5325.0,
+          "to_value": 13431.0,
+          "pct_change": 1.5222535211267605,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2000,
+          "to_year": 2009,
+          "from_value": 5325.0,
+          "to_value": 8175.0,
+          "pct_change": 0.5352112676056338,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 1997,
+          "to_year": 2020,
+          "from_value": 4325.0,
+          "to_value": 10706.0,
+          "pct_change": 1.4753757225433526,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.278,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2008,
+          "to_year": 2024,
+          "from_value": 0.9392,
+          "to_value": 0.6063,
+          "pct_change": -0.35445059625212955,
+          "direction": "fell"
+        },
+        {
+          "metric": "earnings_median_10yr",
+          "from_year": 2007,
+          "to_year": 2020,
+          "from_value": 22500.0,
+          "to_value": 28311.0,
+          "pct_change": 0.25826666666666664,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_8yr",
+          "from_year": 2005,
+          "to_year": 2020,
+          "from_value": 20600.0,
+          "to_value": 28715.0,
+          "pct_change": 0.3939320388349515,
+          "direction": "rose"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": 28311,
+  "completion_rate_city": 0.7419,
+  "completion_history_city": [
+    {
+      "year": 1997,
+      "value": 0.4545
+    },
+    {
+      "year": 1998,
+      "value": 0.8
+    },
+    {
+      "year": 1999,
+      "value": 0.7778
+    },
+    {
+      "year": 2000,
+      "value": 0.7719
+    },
+    {
+      "year": 2001,
+      "value": 0.9444
+    },
+    {
+      "year": 2002,
+      "value": 0.5333
+    },
+    {
+      "year": 2003,
+      "value": 0.5152
+    },
+    {
+      "year": 2004,
+      "value": 0.5405
+    },
+    {
+      "year": 2005,
+      "value": 0.375
+    },
+    {
+      "year": 2006,
+      "value": 0.5957
+    },
+    {
+      "year": 2007,
+      "value": 0.8889
+    },
+    {
+      "year": 2008,
+      "value": 0.8444
+    },
+    {
+      "year": 2009,
+      "value": 0.45
+    }
+  ],
+  "enrollment_history_city": [
+    {
+      "year": 1996,
+      "value": 143.0
+    },
+    {
+      "year": 1997,
+      "value": 110.0
+    },
+    {
+      "year": 1998,
+      "value": 70.0
+    },
+    {
+      "year": 1999,
+      "value": 52.0
+    },
+    {
+      "year": 2001,
+      "value": 22.0
+    },
+    {
+      "year": 2002,
+      "value": 58.0
+    },
+    {
+      "year": 2003,
+      "value": 96.0
+    },
+    {
+      "year": 2004,
+      "value": 171.0
+    },
+    {
+      "year": 2005,
+      "value": 162.0
+    },
+    {
+      "year": 2006,
+      "value": 137.0
+    },
+    {
+      "year": 2007,
+      "value": 124.0
+    },
+    {
+      "year": 2008,
+      "value": 167.0
+    },
+    {
+      "year": 2009,
+      "value": 257.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "institution_unitid": "201928",
+  "institution_name": "Cincinnati State Technical and Community College",
+  "institution_slug": "cincinnati-state-technical-and-community-college-201928",
+  "state": "oh",
+  "cip_code": "1205",
+  "cip_desc": "Culinary Arts and Related Services.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "1205-c2",
+  "earnings_median_4yr": 30252,
+  "earnings_median_5yr": 38302,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 2,
+  "debt_median": 8664,
+  "completers": 39,
+  "completers_single_year": 49,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 30252.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 38302.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 12969.0
+      },
+      {
+        "year": 2015,
+        "value": 14666.0
+      },
+      {
+        "year": 2016,
+        "value": 17808.0
+      },
+      {
+        "year": 2018,
+        "value": 8664.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 82.0
+      },
+      {
+        "year": 2015,
+        "value": 70.0
+      },
+      {
+        "year": 2016,
+        "value": 49.0
+      },
+      {
+        "year": 2017,
+        "value": 60.0
+      },
+      {
+        "year": 2018,
+        "value": 49.0
+      },
+      {
+        "year": 2019,
+        "value": 39.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 12969.0,
+      "to_value": 8664.0,
+      "pct_change": -0.33194540828128616,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Culinary Arts and Related Services at Cincinnati State Technical and Community College fell 33% between 2014 and 2018 ($13.0k → $8.7k).",
+      "magnitude_pct": -33.2,
+      "magnitude_abs": -4305.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "201928",
+    "slug": "cincinnati-state-technical-and-community-college-201928",
+    "name": "Cincinnati State Technical and Community College",
+    "city": "Cincinnati",
+    "city_slug": "cincinnati",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "hocking-college-203155",
+      "institution_name": "Hocking College",
+      "earnings_median_5yr": 39137,
+      "earnings_median_4yr": 31726,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cuyahoga-community-college-district-202356",
+      "institution_name": "Cuyahoga Community College District",
+      "earnings_median_5yr": 35888,
+      "earnings_median_4yr": 31769,
+      "debt_median": null,
+      "completers": 21,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "sinclair-community-college-205470",
+      "institution_name": "Sinclair Community College",
+      "earnings_median_5yr": 34535,
+      "earnings_median_4yr": 27953,
+      "debt_median": null,
+      "completers": 18,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-akron-main-campus-200800",
+      "institution_name": "University of Akron Main Campus",
+      "earnings_median_5yr": 26471,
+      "earnings_median_4yr": 31029,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "central-ohio-technical-college-201672",
+      "institution_name": "Central Ohio Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "columbus-state-community-college-202222",
+      "institution_name": "Columbus State Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lakeland-community-college-203599",
+      "institution_name": "Lakeland Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "james-a-rhodes-state-college-203678",
+      "institution_name": "James A. Rhodes State College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lorain-county-community-college-203748",
+      "institution_name": "Lorain County Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "zane-state-college-204255",
+      "institution_name": "Zane State College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "owens-community-college-204945",
+      "institution_name": "Owens Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "stark-state-college-205841",
+      "institution_name": "Stark State College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 8018,
+      "cost_total_default": 16036,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 38302,
+      "earnings_anchor_year": 5,
+      "debt_median": 8664,
+      "cip_family": "12",
+      "hs_baseline_state": 36400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 64316,
+      "breakeven_year": 21
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

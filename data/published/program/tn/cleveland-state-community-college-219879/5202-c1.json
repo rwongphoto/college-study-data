@@ -1,0 +1,265 @@
+{
+  "institution_unitid": "219879",
+  "institution_name": "Cleveland State Community College",
+  "institution_slug": "cleveland-state-community-college-219879",
+  "state": "tn",
+  "cip_code": "5202",
+  "cip_desc": "Business Administration, Management and Operations.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "5202-c1",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": 39389,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 2,
+  "debt_median": null,
+  "completers": 110,
+  "completers_single_year": 101,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 39389.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2015,
+        "value": 14750.0
+      },
+      {
+        "year": 2016,
+        "value": 10500.0
+      },
+      {
+        "year": 2017,
+        "value": 8000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 38.0
+      },
+      {
+        "year": 2015,
+        "value": 45.0
+      },
+      {
+        "year": 2016,
+        "value": 75.0
+      },
+      {
+        "year": 2017,
+        "value": 66.0
+      },
+      {
+        "year": 2018,
+        "value": 101.0
+      },
+      {
+        "year": 2019,
+        "value": 110.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2015,
+      "to_year": 2017,
+      "from_value": 14750.0,
+      "to_value": 8000.0,
+      "pct_change": -0.4576271186440678,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Business Administration, Management and Operations at Cleveland State Community College fell 46% between 2015 and 2017 ($14.8k → $8.0k).",
+      "magnitude_pct": -45.8,
+      "magnitude_abs": -6750.0,
+      "baseline_year": 2015,
+      "recent_year": 2017,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "219879",
+    "slug": "cleveland-state-community-college-219879",
+    "name": "Cleveland State Community College",
+    "city": "Cleveland",
+    "city_slug": "cleveland",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "chattanooga-state-community-college-219824",
+      "institution_name": "Chattanooga State Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 30,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "columbia-state-community-college-219888",
+      "institution_name": "Columbia State Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "jackson-state-community-college-220400",
+      "institution_name": "Jackson State Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 51,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "tennessee-college-of-applied-technology-livingston-220640",
+      "institution_name": "Tennessee College of Applied Technology-Livingston",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "nashville-state-community-college-221184",
+      "institution_name": "Nashville State Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 38,
+      "completers_single_year": 28,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southwest-tennessee-community-college-221485",
+      "institution_name": "Southwest Tennessee Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 23,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pellissippi-state-community-college-221643",
+      "institution_name": "Pellissippi State Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 109,
+      "completers_single_year": 71,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "tennessee-technological-university-221847",
+      "institution_name": "Tennessee Technological University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "volunteer-state-community-college-222053",
+      "institution_name": "Volunteer State Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 20,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "health-tech-institute-of-memphis-493752",
+      "institution_name": "Health-Tech Institute of Memphis",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 7867,
+      "cost_total_default": 7867,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 39389,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "52",
+      "hs_baseline_state": 34600
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 170840,
+      "breakeven_year": 9
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

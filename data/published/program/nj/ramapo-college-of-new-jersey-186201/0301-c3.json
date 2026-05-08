@@ -1,0 +1,254 @@
+{
+  "institution_unitid": "186201",
+  "institution_name": "Ramapo College of New Jersey",
+  "institution_slug": "ramapo-college-of-new-jersey-186201",
+  "state": "nj",
+  "cip_code": "0301",
+  "cip_desc": "Natural Resources Conservation and Research.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "0301-c3",
+  "earnings_median_4yr": 44165,
+  "earnings_median_5yr": 51397,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 3,
+  "debt_median": 18250,
+  "completers": 36,
+  "completers_single_year": 22,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 44165.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 51397.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 22507.0
+      },
+      {
+        "year": 2015,
+        "value": 21500.0
+      },
+      {
+        "year": 2016,
+        "value": 22548.0
+      },
+      {
+        "year": 2017,
+        "value": 19932.0
+      },
+      {
+        "year": 2018,
+        "value": 18250.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 34.0
+      },
+      {
+        "year": 2015,
+        "value": 45.0
+      },
+      {
+        "year": 2016,
+        "value": 34.0
+      },
+      {
+        "year": 2017,
+        "value": 31.0
+      },
+      {
+        "year": 2018,
+        "value": 22.0
+      },
+      {
+        "year": 2019,
+        "value": 36.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "186201",
+    "slug": "ramapo-college-of-new-jersey-186201",
+    "name": "Ramapo College of New Jersey",
+    "city": "Mahwah",
+    "city_slug": "mahwah",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "rutgers-university-new-brunswick-186380",
+      "institution_name": "Rutgers University-New Brunswick",
+      "earnings_median_5yr": 68982,
+      "earnings_median_4yr": 57743,
+      "debt_median": 23250,
+      "completers": 54,
+      "completers_single_year": 56,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "seton-hall-university-186584",
+      "institution_name": "Seton Hall University",
+      "earnings_median_5yr": 64641,
+      "earnings_median_4yr": null,
+      "debt_median": 26000,
+      "completers": 17,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "drew-university-184348",
+      "institution_name": "Drew University",
+      "earnings_median_5yr": 60739,
+      "earnings_median_4yr": 50563,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rowan-university-184782",
+      "institution_name": "Rowan University",
+      "earnings_median_5yr": 59121,
+      "earnings_median_4yr": 53125,
+      "debt_median": 19500,
+      "completers": 28,
+      "completers_single_year": 28,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "stockton-university-186876",
+      "institution_name": "Stockton University",
+      "earnings_median_5yr": 51177,
+      "earnings_median_4yr": 39765,
+      "debt_median": 18915,
+      "completers": 80,
+      "completers_single_year": 54,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "centenary-university-183974",
+      "institution_name": "Centenary University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "new-jersey-institute-of-technology-185828",
+      "institution_name": "New Jersey Institute of Technology",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rider-university-186283",
+      "institution_name": "Rider University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-peter-s-university-186432",
+      "institution_name": "Saint Peter's University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "william-paterson-university-of-new-jersey-187444",
+      "institution_name": "William Paterson University of New Jersey",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 55279,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 18536,
+      "cost_total_default": 74144,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 51397,
+      "earnings_anchor_year": 5,
+      "debt_median": 18250,
+      "cip_family": "03",
+      "hs_baseline_state": 41700
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 126245,
+      "breakeven_year": 21
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

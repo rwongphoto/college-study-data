@@ -1,0 +1,233 @@
+{
+  "institution_unitid": "101189",
+  "institution_name": "Faulkner University",
+  "institution_slug": "faulkner-university-101189",
+  "state": "al",
+  "cip_code": "5210",
+  "cip_desc": "Human Resources Management and Services.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5210-c3",
+  "earnings_median_4yr": 37351,
+  "earnings_median_5yr": 38352,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 1,
+  "debt_median": 25000,
+  "completers": 48,
+  "completers_single_year": 50,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 37351.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 38352.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 30050.0
+      },
+      {
+        "year": 2015,
+        "value": 32000.0
+      },
+      {
+        "year": 2016,
+        "value": 29500.0
+      },
+      {
+        "year": 2017,
+        "value": 26302.0
+      },
+      {
+        "year": 2018,
+        "value": 25000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 73.0
+      },
+      {
+        "year": 2015,
+        "value": 66.0
+      },
+      {
+        "year": 2016,
+        "value": 73.0
+      },
+      {
+        "year": 2017,
+        "value": 50.0
+      },
+      {
+        "year": 2018,
+        "value": 50.0
+      },
+      {
+        "year": 2019,
+        "value": 48.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 8.7% at Human Resources Management and Services at Faulkner University exceeds the 8% gainful-employment threshold ($25.0k debt amortized over 10 years vs $38.4k earnings).",
+      "magnitude_pct": 8.7,
+      "magnitude_abs": 0.7,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "101189",
+    "slug": "faulkner-university-101189",
+    "name": "Faulkner University",
+    "city": "Montgomery",
+    "city_slug": "montgomery",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "auburn-university-100858",
+      "institution_name": "Auburn University",
+      "earnings_median_5yr": 61907,
+      "earnings_median_4yr": 54832,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "columbia-southern-university-450933",
+      "institution_name": "Columbia Southern University",
+      "earnings_median_5yr": 59483,
+      "earnings_median_4yr": 50348,
+      "debt_median": 21862,
+      "completers": 165,
+      "completers_single_year": 167,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "athens-state-university-100812",
+      "institution_name": "Athens State University",
+      "earnings_median_5yr": 51133,
+      "earnings_median_4yr": 49341,
+      "debt_median": 22940,
+      "completers": 24,
+      "completers_single_year": 27,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-alabama-at-birmingham-100663",
+      "institution_name": "University of Alabama at Birmingham",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 22375,
+      "completers": 31,
+      "completers_single_year": 22,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "amridge-university-100690",
+      "institution_name": "Amridge University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "auburn-university-at-montgomery-100830",
+      "institution_name": "Auburn University at Montgomery",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 31000,
+      "completers": 9,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-mobile-101693",
+      "institution_name": "University of Mobile",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "oakwood-university-101912",
+      "institution_name": "Oakwood University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 27876,
+      "completers": 21,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "samford-university-102049",
+      "institution_name": "Samford University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "state": "ok",
+  "name": "Pryor",
+  "slug": "pryor",
+  "institution_count": 1,
+  "institutions": [
+    {
+      "unitid": "461087",
+      "slug": "northeast-technology-center-461087",
+      "name": "Northeast Technology Center",
+      "city": "Pryor",
+      "city_slug": "pryor",
+      "control": "public",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 34457,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 37905
+        },
+        {
+          "year": 8,
+          "value": 37664
+        },
+        {
+          "year": 10,
+          "value": 34457
+        }
+      ],
+      "completion_rate_150": 0.9714,
+      "completion_rate_history": [],
+      "enrollment_undergrad": 1340,
+      "enrollment_history": [],
+      "median_debt": null,
+      "default_rate": null,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "retention_rate",
+          "from_year": 2020,
+          "to_year": 2024,
+          "from_value": 0.22,
+          "to_value": 0.1538,
+          "pct_change": -0.30090909090909096,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2020,
+          "to_year": 2024,
+          "from_value": 0.2034,
+          "to_value": 0.1131,
+          "pct_change": -0.443952802359882,
+          "direction": "fell"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": 34457,
+  "completion_rate_city": 0.9714,
+  "completion_history_city": [],
+  "enrollment_history_city": [],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

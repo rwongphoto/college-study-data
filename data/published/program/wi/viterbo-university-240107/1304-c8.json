@@ -1,0 +1,268 @@
+{
+  "institution_unitid": "240107",
+  "institution_name": "Viterbo University",
+  "institution_slug": "viterbo-university-240107",
+  "state": "wi",
+  "cip_code": "1304",
+  "cip_desc": "Educational Administration and Supervision.",
+  "credential_level": 8,
+  "credential_desc": "Graduate/Professional Certificate",
+  "slug": "1304-c8",
+  "earnings_median_4yr": 89229,
+  "earnings_median_5yr": 95395,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 1,
+  "debt_median": 28608,
+  "completers": 136,
+  "completers_single_year": 126,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 89229.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 95395.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 18000.0
+      },
+      {
+        "year": 2015,
+        "value": 15130.0
+      },
+      {
+        "year": 2016,
+        "value": 17413.0
+      },
+      {
+        "year": 2017,
+        "value": 26494.0
+      },
+      {
+        "year": 2018,
+        "value": 28608.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 145.0
+      },
+      {
+        "year": 2015,
+        "value": 154.0
+      },
+      {
+        "year": 2016,
+        "value": 176.0
+      },
+      {
+        "year": 2017,
+        "value": 140.0
+      },
+      {
+        "year": 2018,
+        "value": 126.0
+      },
+      {
+        "year": 2019,
+        "value": 136.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 18000.0,
+      "to_value": 28608.0,
+      "pct_change": 0.5893333333333334,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Educational Administration and Supervision at Viterbo University rose 59% between 2014 and 2018 ($18.0k → $28.6k).",
+      "magnitude_pct": 58.9,
+      "magnitude_abs": 10608.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "240107",
+    "slug": "viterbo-university-240107",
+    "name": "Viterbo University",
+    "city": "La Crosse",
+    "city_slug": "la-crosse",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "marian-university-239080",
+      "institution_name": "Marian University",
+      "earnings_median_5yr": 89638,
+      "earnings_median_4yr": 80768,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "alverno-college-238193",
+      "institution_name": "Alverno College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "concordia-university-wisconsin-238616",
+      "institution_name": "Concordia University-Wisconsin",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "marquette-university-239105",
+      "institution_name": "Marquette University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-la-crosse-240329",
+      "institution_name": "University of Wisconsin-La Crosse",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wisconsin-lutheran-college-240338",
+      "institution_name": "Wisconsin Lutheran College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-oshkosh-240365",
+      "institution_name": "University of Wisconsin-Oshkosh",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 43,
+      "completers_single_year": 28,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-madison-240444",
+      "institution_name": "University of Wisconsin-Madison",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-milwaukee-240453",
+      "institution_name": "University of Wisconsin-Milwaukee",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 5,
+      "cost_per_year_default": 20165,
+      "cost_total_default": 100825,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 95395,
+      "earnings_anchor_year": 5,
+      "debt_median": 28608,
+      "cip_family": "13",
+      "hs_baseline_state": 37100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 785975,
+      "breakeven_year": 7
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "institution_unitid": "169248",
+  "institution_name": "Central Michigan University",
+  "institution_slug": "central-michigan-university-169248",
+  "state": "mi",
+  "cip_code": "2615",
+  "cip_desc": "Neurobiology and Neurosciences.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "2615-c3",
+  "earnings_median_4yr": 57802,
+  "earnings_median_5yr": 64601,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 2,
+  "debt_median": 25000,
+  "completers": 54,
+  "completers_single_year": 67,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 57802.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 64601.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 28000.0
+      },
+      {
+        "year": 2015,
+        "value": 27000.0
+      },
+      {
+        "year": 2016,
+        "value": 27000.0
+      },
+      {
+        "year": 2017,
+        "value": 26547.0
+      },
+      {
+        "year": 2018,
+        "value": 25000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 44.0
+      },
+      {
+        "year": 2015,
+        "value": 48.0
+      },
+      {
+        "year": 2016,
+        "value": 49.0
+      },
+      {
+        "year": 2017,
+        "value": 63.0
+      },
+      {
+        "year": 2018,
+        "value": 67.0
+      },
+      {
+        "year": 2019,
+        "value": 54.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "169248",
+    "slug": "central-michigan-university-169248",
+    "name": "Central Michigan University",
+    "city": "Mount Pleasant",
+    "city_slug": "mount-pleasant",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-michigan-ann-arbor-170976",
+      "institution_name": "University of Michigan-Ann Arbor",
+      "earnings_median_5yr": 68761,
+      "earnings_median_4yr": 54275,
+      "debt_median": 17500,
+      "completers": 188,
+      "completers_single_year": 188,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "michigan-state-university-171100",
+      "institution_name": "Michigan State University",
+      "earnings_median_5yr": 64682,
+      "earnings_median_4yr": 55508,
+      "debt_median": 24232,
+      "completers": 234,
+      "completers_single_year": 217,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "alma-college-168591",
+      "institution_name": "Alma College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "eastern-michigan-university-169798",
+      "institution_name": "Eastern Michigan University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 22,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "grand-valley-state-university-170082",
+      "institution_name": "Grand Valley State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 24179,
+      "completers": 77,
+      "completers_single_year": 71,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hope-college-170301",
+      "institution_name": "Hope College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northern-michigan-university-171456",
+      "institution_name": "Northern Michigan University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 24250,
+      "completers": 7,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saginaw-valley-state-university-172051",
+      "institution_name": "Saginaw Valley State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wayne-state-university-172644",
+      "institution_name": "Wayne State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 28,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 14182,
+      "cost_total_default": 56728,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 64601,
+      "earnings_anchor_year": 5,
+      "debt_median": 25000,
+      "cip_family": "26",
+      "hs_baseline_state": 36900
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 461332,
+      "breakeven_year": 8
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

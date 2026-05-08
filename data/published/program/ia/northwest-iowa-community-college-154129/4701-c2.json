@@ -1,0 +1,204 @@
+{
+  "institution_unitid": "154129",
+  "institution_name": "Northwest Iowa Community College",
+  "institution_slug": "northwest-iowa-community-college-154129",
+  "state": "ia",
+  "cip_code": "4701",
+  "cip_desc": "Electrical/Electronics Maintenance and Repair Technology.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "4701-c2",
+  "earnings_median_4yr": 69137,
+  "earnings_median_5yr": 76903,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 1,
+  "debt_median": 11990,
+  "completers": 20,
+  "completers_single_year": 17,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 69137.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 76903.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2015,
+        "value": 9500.0
+      },
+      {
+        "year": 2016,
+        "value": 11507.0
+      },
+      {
+        "year": 2017,
+        "value": 11990.0
+      },
+      {
+        "year": 2018,
+        "value": 11990.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 19.0
+      },
+      {
+        "year": 2015,
+        "value": 18.0
+      },
+      {
+        "year": 2016,
+        "value": 14.0
+      },
+      {
+        "year": 2017,
+        "value": 21.0
+      },
+      {
+        "year": 2018,
+        "value": 17.0
+      },
+      {
+        "year": 2019,
+        "value": 20.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2015,
+      "to_year": 2018,
+      "from_value": 9500.0,
+      "to_value": 11990.0,
+      "pct_change": 0.26210526315789473,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Electrical/Electronics Maintenance and Repair Technology at Northwest Iowa Community College rose 26% between 2015 and 2018 ($9.5k → $12.0k).",
+      "magnitude_pct": 26.2,
+      "magnitude_abs": 2490.0,
+      "baseline_year": 2015,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "154129",
+    "slug": "northwest-iowa-community-college-154129",
+    "name": "Northwest Iowa Community College",
+    "city": "Sheldon",
+    "city_slug": "sheldon",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "des-moines-area-community-college-153214",
+      "institution_name": "Des Moines Area Community College",
+      "earnings_median_5yr": 69193,
+      "earnings_median_4yr": 66710,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "iowa-central-community-college-153524",
+      "institution_name": "Iowa Central Community College",
+      "earnings_median_5yr": 64758,
+      "earnings_median_4yr": 55156,
+      "debt_median": 12000,
+      "completers": 14,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "indian-hills-community-college-153472",
+      "institution_name": "Indian Hills Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 11764,
+      "cost_total_default": 23528,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 76903,
+      "earnings_anchor_year": 5,
+      "debt_median": 11990,
+      "cip_family": "47",
+      "hs_baseline_state": 36800
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 856421,
+      "breakeven_year": 3
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

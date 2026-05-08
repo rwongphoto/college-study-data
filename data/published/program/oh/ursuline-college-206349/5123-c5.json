@@ -1,0 +1,328 @@
+{
+  "institution_unitid": "206349",
+  "institution_name": "Ursuline College",
+  "institution_slug": "ursuline-college-206349",
+  "state": "oh",
+  "cip_code": "5123",
+  "cip_desc": "Rehabilitation and Therapeutic Professions.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5123-c5",
+  "earnings_median_4yr": 47910,
+  "earnings_median_5yr": 50121,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 1,
+  "debt_median": 91263,
+  "completers": 25,
+  "completers_single_year": 20,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 47910.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 50121.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 82000.0
+      },
+      {
+        "year": 2015,
+        "value": 82000.0
+      },
+      {
+        "year": 2016,
+        "value": 82000.0
+      },
+      {
+        "year": 2017,
+        "value": 82000.0
+      },
+      {
+        "year": 2018,
+        "value": 91263.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 22.0
+      },
+      {
+        "year": 2015,
+        "value": 24.0
+      },
+      {
+        "year": 2016,
+        "value": 15.0
+      },
+      {
+        "year": 2017,
+        "value": 19.0
+      },
+      {
+        "year": 2018,
+        "value": 20.0
+      },
+      {
+        "year": 2019,
+        "value": 25.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 24.3% at Rehabilitation and Therapeutic Professions at Ursuline College exceeds the 8% gainful-employment threshold ($91.3k debt amortized over 10 years vs $50.1k earnings).",
+      "magnitude_pct": 24.3,
+      "magnitude_abs": 16.3,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "206349",
+    "slug": "ursuline-college-206349",
+    "name": "Ursuline College",
+    "city": "Pepper Pike",
+    "city_slug": "pepper-pike",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "the-university-of-findlay-202763",
+      "institution_name": "The University of Findlay",
+      "earnings_median_5yr": 76528,
+      "earnings_median_4yr": null,
+      "debt_median": 37927,
+      "completers": 53,
+      "completers_single_year": 53,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cleveland-state-university-202134",
+      "institution_name": "Cleveland State University",
+      "earnings_median_5yr": 76490,
+      "earnings_median_4yr": 68405,
+      "debt_median": 51250,
+      "completers": 47,
+      "completers_single_year": 43,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "shawnee-state-university-205443",
+      "institution_name": "Shawnee State University",
+      "earnings_median_5yr": 73818,
+      "earnings_median_4yr": 68860,
+      "debt_median": 49400,
+      "completers": 28,
+      "completers_single_year": 33,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ohio-state-university-main-campus-204796",
+      "institution_name": "Ohio State University-Main Campus",
+      "earnings_median_5yr": 73520,
+      "earnings_median_4yr": 69315,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "xavier-university-206622",
+      "institution_name": "Xavier University",
+      "earnings_median_5yr": 73053,
+      "earnings_median_4yr": 73144,
+      "debt_median": 30750,
+      "completers": 39,
+      "completers_single_year": 39,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "malone-university-203775",
+      "institution_name": "Malone University",
+      "earnings_median_5yr": 48970,
+      "earnings_median_4yr": 44568,
+      "debt_median": 56015,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-akron-main-campus-200800",
+      "institution_name": "University of Akron Main Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bowling-green-state-university-main-campus-201441",
+      "institution_name": "Bowling Green State University-Main Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 30631,
+      "completers": 66,
+      "completers_single_year": 60,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-cincinnati-main-campus-201885",
+      "institution_name": "University of Cincinnati-Main Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 28,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "kent-state-university-at-kent-203517",
+      "institution_name": "Kent State University at Kent",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "muskingum-university-204264",
+      "institution_name": "Muskingum University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ohio-university-main-campus-204857",
+      "institution_name": "Ohio University-Main Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "walsh-university-206437",
+      "institution_name": "Walsh University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 79162,
+      "completers": 27,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wilberforce-university-206491",
+      "institution_name": "Wilberforce University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wright-state-university-main-campus-206604",
+      "institution_name": "Wright State University-Main Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "antioch-university-245892",
+      "institution_name": "Antioch University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 20362,
+      "cost_total_default": 122172,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 50121,
+      "earnings_anchor_year": 5,
+      "debt_median": 91263,
+      "cip_family": "51",
+      "hs_baseline_state": 36400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 99571,
+      "breakeven_year": 26
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

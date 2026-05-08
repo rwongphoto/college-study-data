@@ -1,0 +1,318 @@
+{
+  "institution_unitid": "145813",
+  "institution_name": "Illinois State University",
+  "institution_slug": "illinois-state-university-145813",
+  "state": "il",
+  "cip_code": "5102",
+  "cip_desc": "Communication Disorders Sciences and Services.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5102-c5",
+  "earnings_median_4yr": 61156,
+  "earnings_median_5yr": 66546,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 3,
+  "debt_median": 18000,
+  "completers": 40,
+  "completers_single_year": 33,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 61156.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 66546.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 28244.0
+      },
+      {
+        "year": 2015,
+        "value": 32156.0
+      },
+      {
+        "year": 2016,
+        "value": 28355.0
+      },
+      {
+        "year": 2017,
+        "value": 15780.0
+      },
+      {
+        "year": 2018,
+        "value": 18000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 37.0
+      },
+      {
+        "year": 2015,
+        "value": 40.0
+      },
+      {
+        "year": 2016,
+        "value": 30.0
+      },
+      {
+        "year": 2017,
+        "value": 38.0
+      },
+      {
+        "year": 2018,
+        "value": 33.0
+      },
+      {
+        "year": 2019,
+        "value": 40.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 28244.0,
+      "to_value": 18000.0,
+      "pct_change": -0.3626965019119105,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Communication Disorders Sciences and Services at Illinois State University fell 36% between 2014 and 2018 ($28.2k → $18.0k).",
+      "magnitude_pct": -36.3,
+      "magnitude_abs": -10244.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "145813",
+    "slug": "illinois-state-university-145813",
+    "name": "Illinois State University",
+    "city": "Normal",
+    "city_slug": "normal",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "saint-xavier-university-148627",
+      "institution_name": "Saint Xavier University",
+      "earnings_median_5yr": 77306,
+      "earnings_median_4yr": 67399,
+      "debt_median": 47030,
+      "completers": 40,
+      "completers_single_year": 32,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rush-university-148511",
+      "institution_name": "Rush University",
+      "earnings_median_5yr": 72089,
+      "earnings_median_4yr": 70810,
+      "debt_median": 74668,
+      "completers": 37,
+      "completers_single_year": 32,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northwestern-university-147767",
+      "institution_name": "Northwestern University",
+      "earnings_median_5yr": 70125,
+      "earnings_median_4yr": 62680,
+      "debt_median": 116714,
+      "completers": 47,
+      "completers_single_year": 59,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "eastern-illinois-university-144892",
+      "institution_name": "Eastern Illinois University",
+      "earnings_median_5yr": 65847,
+      "earnings_median_4yr": 63598,
+      "debt_median": 39565,
+      "completers": 32,
+      "completers_single_year": 30,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northern-illinois-university-147703",
+      "institution_name": "Northern Illinois University",
+      "earnings_median_5yr": 65635,
+      "earnings_median_4yr": 61647,
+      "debt_median": 44534,
+      "completers": 20,
+      "completers_single_year": 22,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "governors-state-university-145336",
+      "institution_name": "Governors State University",
+      "earnings_median_5yr": 60544,
+      "earnings_median_4yr": 55374,
+      "debt_median": 42900,
+      "completers": 33,
+      "completers_single_year": 41,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southern-illinois-university-carbondale-149222",
+      "institution_name": "Southern Illinois University-Carbondale",
+      "earnings_median_5yr": 60361,
+      "earnings_median_4yr": 57077,
+      "debt_median": 41000,
+      "completers": 23,
+      "completers_single_year": 24,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "elmhurst-university-144962",
+      "institution_name": "Elmhurst University",
+      "earnings_median_5yr": 58018,
+      "earnings_median_4yr": 56659,
+      "debt_median": 41000,
+      "completers": 26,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-illinois-university-149772",
+      "institution_name": "Western Illinois University",
+      "earnings_median_5yr": 58006,
+      "earnings_median_4yr": 58331,
+      "debt_median": 27407,
+      "completers": 20,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southern-illinois-university-edwardsville-149231",
+      "institution_name": "Southern Illinois University-Edwardsville",
+      "earnings_median_5yr": 57097,
+      "earnings_median_4yr": 49291,
+      "debt_median": 27643,
+      "completers": 21,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "midwestern-university-downers-grove-143853",
+      "institution_name": "Midwestern University-Downers Grove",
+      "earnings_median_5yr": 54979,
+      "earnings_median_4yr": 58658,
+      "debt_median": 115559,
+      "completers": 50,
+      "completers_single_year": 41,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "augustana-college-143084",
+      "institution_name": "Augustana College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-illinois-urbana-champaign-145637",
+      "institution_name": "University of Illinois Urbana-Champaign",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 51665,
+      "completers": 27,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lewis-university-146612",
+      "institution_name": "Lewis University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 16424,
+      "cost_total_default": 98544,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 66546,
+      "earnings_anchor_year": 5,
+      "debt_median": 18000,
+      "cip_family": "51",
+      "hs_baseline_state": 38300
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 354181,
+      "breakeven_year": 14
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

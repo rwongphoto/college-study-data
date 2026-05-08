@@ -1,0 +1,152 @@
+{
+  "institution_unitid": "241410",
+  "institution_name": "Pontifical Catholic University of Puerto Rico-Ponce",
+  "institution_slug": "pontifical-catholic-university-of-puerto-rico-ponce-241410",
+  "state": "pr",
+  "cip_code": "2612",
+  "cip_desc": "Biotechnology.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "2612-c5",
+  "earnings_median_4yr": 37863,
+  "earnings_median_5yr": 49021,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 3,
+  "debt_median": null,
+  "completers": 10,
+  "completers_single_year": 14,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 37863.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 49021.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 26000.0
+      },
+      {
+        "year": 2015,
+        "value": 24174.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 24.0
+      },
+      {
+        "year": 2015,
+        "value": 21.0
+      },
+      {
+        "year": 2016,
+        "value": 17.0
+      },
+      {
+        "year": 2017,
+        "value": 32.0
+      },
+      {
+        "year": 2018,
+        "value": 14.0
+      },
+      {
+        "year": 2019,
+        "value": 10.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "241410",
+    "slug": "pontifical-catholic-university-of-puerto-rico-ponce-241410",
+    "name": "Pontifical Catholic University of Puerto Rico-Ponce",
+    "city": "Ponce",
+    "city_slug": "ponce",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "inter-american-university-of-puerto-rico-barranquitas-242644",
+      "institution_name": "Inter American University of Puerto Rico-Barranquitas",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 13608,
+      "cost_total_default": 81648,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 49021,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "26",
+      "hs_baseline_state": 22400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 348765,
+      "breakeven_year": 12
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

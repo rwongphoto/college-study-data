@@ -1,0 +1,174 @@
+{
+  "institution_unitid": "243601",
+  "institution_name": "Universidad Ana G. Mendez-Gurabo Campus",
+  "institution_slug": "universidad-ana-g-mendez-gurabo-campus-243601",
+  "state": "pr",
+  "cip_code": "1399",
+  "cip_desc": "Education, Other.",
+  "credential_level": 6,
+  "credential_desc": "Doctoral Degree",
+  "slug": "1399-c6",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 2,
+  "debt_median": 75186,
+  "completers": 12,
+  "completers_single_year": 14,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 42415.0
+      },
+      {
+        "year": 2015,
+        "value": 48495.0
+      },
+      {
+        "year": 2016,
+        "value": 54973.0
+      },
+      {
+        "year": 2017,
+        "value": 74372.0
+      },
+      {
+        "year": 2018,
+        "value": 75186.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 17.0
+      },
+      {
+        "year": 2015,
+        "value": 28.0
+      },
+      {
+        "year": 2016,
+        "value": 16.0
+      },
+      {
+        "year": 2017,
+        "value": 20.0
+      },
+      {
+        "year": 2018,
+        "value": 14.0
+      },
+      {
+        "year": 2019,
+        "value": 12.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 42415.0,
+      "to_value": 75186.0,
+      "pct_change": 0.7726276081574914,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Education, Other at Universidad Ana G. Mendez-Gurabo Campus rose 77% between 2014 and 2018 ($42.4k → $75.2k).",
+      "magnitude_pct": 77.3,
+      "magnitude_abs": 32771.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "243601",
+    "slug": "universidad-ana-g-mendez-gurabo-campus-243601",
+    "name": "Universidad Ana G. Mendez-Gurabo Campus",
+    "city": "Gurabo",
+    "city_slug": "gurabo",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "inter-american-university-of-puerto-rico-ponce-242662",
+      "institution_name": "Inter American University of Puerto Rico-Ponce",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 8,
+      "cost_per_year_default": 9578,
+      "cost_total_default": 76624,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": 75186,
+      "cip_family": "13"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

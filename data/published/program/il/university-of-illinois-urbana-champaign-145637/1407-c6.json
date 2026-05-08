@@ -1,0 +1,159 @@
+{
+  "institution_unitid": "145637",
+  "institution_name": "University of Illinois Urbana-Champaign",
+  "institution_slug": "university-of-illinois-urbana-champaign-145637",
+  "state": "il",
+  "cip_code": "1407",
+  "cip_desc": "Chemical Engineering.",
+  "credential_level": 6,
+  "credential_desc": "Doctoral Degree",
+  "slug": "1407-c6",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": null,
+  "completers": 17,
+  "completers_single_year": 12,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 14.0
+      },
+      {
+        "year": 2015,
+        "value": 16.0
+      },
+      {
+        "year": 2016,
+        "value": 16.0
+      },
+      {
+        "year": 2017,
+        "value": 9.0
+      },
+      {
+        "year": 2018,
+        "value": 12.0
+      },
+      {
+        "year": 2019,
+        "value": 17.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "145637",
+    "slug": "university-of-illinois-urbana-champaign-145637",
+    "name": "University of Illinois Urbana-Champaign",
+    "city": "Champaign",
+    "city_slug": "champaign",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-chicago-144050",
+      "institution_name": "University of Chicago",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 20,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-illinois-chicago-145600",
+      "institution_name": "University of Illinois Chicago",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "illinois-institute-of-technology-145725",
+      "institution_name": "Illinois Institute of Technology",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northwestern-university-147767",
+      "institution_name": "Northwestern University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 8,
+      "cost_per_year_default": 10065,
+      "cost_total_default": 80520,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "14"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

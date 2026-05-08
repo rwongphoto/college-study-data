@@ -1,0 +1,169 @@
+{
+  "institution_unitid": "217475",
+  "institution_name": "Community College of Rhode Island",
+  "institution_slug": "community-college-of-rhode-island-217475",
+  "state": "ri",
+  "cip_code": "5110",
+  "cip_desc": "Clinical/Medical Laboratory Science/Research and Allied Professions.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "5110-c1",
+  "earnings_median_4yr": 25378,
+  "earnings_median_5yr": 35616,
+  "earnings_count_4yr": 5,
+  "earnings_count_5yr": 4,
+  "debt_median": 9657,
+  "completers": 50,
+  "completers_single_year": 21,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 25378.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 35616.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2016,
+        "value": 7815.0
+      },
+      {
+        "year": 2017,
+        "value": 10602.0
+      },
+      {
+        "year": 2018,
+        "value": 9657.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 30.0
+      },
+      {
+        "year": 2015,
+        "value": 33.0
+      },
+      {
+        "year": 2016,
+        "value": 31.0
+      },
+      {
+        "year": 2017,
+        "value": 39.0
+      },
+      {
+        "year": 2018,
+        "value": 21.0
+      },
+      {
+        "year": 2019,
+        "value": 50.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2016,
+      "to_year": 2018,
+      "from_value": 7815.0,
+      "to_value": 9657.0,
+      "pct_change": 0.23570057581573897,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Clinical/Medical Laboratory Science/Research and Allied Professions at Community College of Rhode Island rose 24% between 2016 and 2018 ($7.8k → $9.7k).",
+      "magnitude_pct": 23.6,
+      "magnitude_abs": 1842.0,
+      "baseline_year": 2016,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "217475",
+    "slug": "community-college-of-rhode-island-217475",
+    "name": "Community College of Rhode Island",
+    "city": "Warwick",
+    "city_slug": "warwick",
+    "control": "public"
+  },
+  "peers_in_state": [],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 4,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 5716,
+      "cost_total_default": 5716,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 35616,
+      "earnings_anchor_year": 5,
+      "debt_median": 9657,
+      "cip_family": "51",
+      "hs_baseline_state": 38900
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -26780,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

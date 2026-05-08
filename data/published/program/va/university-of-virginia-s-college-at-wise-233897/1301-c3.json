@@ -1,0 +1,176 @@
+{
+  "institution_unitid": "233897",
+  "institution_name": "University of Virginia's College at Wise",
+  "institution_slug": "university-of-virginia-s-college-at-wise-233897",
+  "state": "va",
+  "cip_code": "1301",
+  "cip_desc": "Education, General.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1301-c3",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": 42566,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 1,
+  "debt_median": null,
+  "completers": null,
+  "completers_single_year": null,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 42566.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 20200.0
+      },
+      {
+        "year": 2017,
+        "value": 12732.0
+      }
+    ],
+    "completers": []
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2017,
+      "from_value": 20200.0,
+      "to_value": 12732.0,
+      "pct_change": -0.3697029702970297,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Education, General at University of Virginia's College at Wise fell 37% between 2014 and 2017 ($20.2k → $12.7k).",
+      "magnitude_pct": -37.0,
+      "magnitude_abs": -7468.0,
+      "baseline_year": 2014,
+      "recent_year": 2017,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "233897",
+    "slug": "university-of-virginia-s-college-at-wise-233897",
+    "name": "University of Virginia's College at Wise",
+    "city": "Wise",
+    "city_slug": "wise",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "emory-henry-university-232025",
+      "institution_name": "Emory & Henry University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "liberty-university-232557",
+      "institution_name": "Liberty University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 40088,
+      "completers": 13,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "randolph-college-233301",
+      "institution_name": "Randolph College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "virginia-wesleyan-university-234173",
+      "institution_name": "Virginia Wesleyan University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 7159,
+      "cost_total_default": 28636,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 42566,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "13",
+      "hs_baseline_state": 39800
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -27045,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

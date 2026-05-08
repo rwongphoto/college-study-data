@@ -1,0 +1,214 @@
+{
+  "institution_unitid": "237932",
+  "institution_name": "West Liberty University",
+  "institution_slug": "west-liberty-university-237932",
+  "state": "wv",
+  "cip_code": "5106",
+  "cip_desc": "Dental Support Services and Allied Professions.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "5106-c2",
+  "earnings_median_4yr": 50209,
+  "earnings_median_5yr": 47566,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": 26179,
+  "completers": 28,
+  "completers_single_year": 37,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 50209.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 47566.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 20000.0
+      },
+      {
+        "year": 2016,
+        "value": 20709.0
+      },
+      {
+        "year": 2017,
+        "value": 22750.0
+      },
+      {
+        "year": 2018,
+        "value": 26179.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 3.0
+      },
+      {
+        "year": 2015,
+        "value": 9.0
+      },
+      {
+        "year": 2016,
+        "value": 33.0
+      },
+      {
+        "year": 2017,
+        "value": 37.0
+      },
+      {
+        "year": 2018,
+        "value": 37.0
+      },
+      {
+        "year": 2019,
+        "value": 28.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 20000.0,
+      "to_value": 26179.0,
+      "pct_change": 0.30895,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Dental Support Services and Allied Professions at West Liberty University rose 31% between 2014 and 2018 ($20.0k → $26.2k).",
+      "magnitude_pct": 30.9,
+      "magnitude_abs": 6179.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "237932",
+    "slug": "west-liberty-university-237932",
+    "name": "West Liberty University",
+    "city": "West Liberty",
+    "city_slug": "west-liberty",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "bridgevalley-community-technical-college-484932",
+      "institution_name": "BridgeValley Community & Technical College",
+      "earnings_median_5yr": 34406,
+      "earnings_median_4yr": 38037,
+      "debt_median": 14064,
+      "completers": 18,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "west-virginia-junior-college-charleston-237987",
+      "institution_name": "West Virginia Junior College-Charleston",
+      "earnings_median_5yr": 30028,
+      "earnings_median_4yr": 25622,
+      "debt_median": 6894,
+      "completers": 12,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "huntington-junior-college-237437",
+      "institution_name": "Huntington Junior College",
+      "earnings_median_5yr": 28022,
+      "earnings_median_4yr": 23744,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mountwest-community-and-technical-college-444954",
+      "institution_name": "Mountwest Community and Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 16744,
+      "cost_total_default": 33488,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 47566,
+      "earnings_anchor_year": 5,
+      "debt_median": 26179,
+      "cip_family": "51",
+      "hs_baseline_state": 32100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 316196,
+      "breakeven_year": 6
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

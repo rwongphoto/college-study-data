@@ -1,0 +1,143 @@
+{
+  "state": "ia",
+  "name": "Urbandale",
+  "slug": "urbandale",
+  "institution_count": 1,
+  "institutions": [
+    {
+      "unitid": "496690",
+      "slug": "body-wisdom-massage-therapy-school-496690",
+      "name": "Body Wisdom Massage Therapy School",
+      "city": "Urbandale",
+      "city_slug": "urbandale",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": null
+        },
+        {
+          "year": 8,
+          "value": null
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": null,
+      "completion_rate_history": [],
+      "enrollment_undergrad": 36,
+      "enrollment_history": [
+        {
+          "year": 2021,
+          "value": 42.0
+        },
+        {
+          "year": 2022,
+          "value": 43.0
+        },
+        {
+          "year": 2023,
+          "value": 36.0
+        },
+        {
+          "year": 2024,
+          "value": 45.0
+        }
+      ],
+      "median_debt": null,
+      "default_rate": null,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "retention_rate",
+          "from_year": 2021,
+          "to_year": 2024,
+          "from_value": 0.8571,
+          "to_value": 1.0,
+          "pct_change": 0.16672500291681255,
+          "direction": "rose"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2021,
+          "to_year": 2024,
+          "from_value": 0.4324,
+          "to_value": 0.0625,
+          "pct_change": -0.8554579093432008,
+          "direction": "fell"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": null,
+  "completion_rate_city": null,
+  "completion_history_city": [],
+  "enrollment_history_city": [
+    {
+      "year": 2021,
+      "value": 42.0
+    },
+    {
+      "year": 2022,
+      "value": 43.0
+    },
+    {
+      "year": 2023,
+      "value": 36.0
+    },
+    {
+      "year": 2024,
+      "value": 45.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

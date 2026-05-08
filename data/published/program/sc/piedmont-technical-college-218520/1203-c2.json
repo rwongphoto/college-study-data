@@ -1,0 +1,169 @@
+{
+  "institution_unitid": "218520",
+  "institution_name": "Piedmont Technical College",
+  "institution_slug": "piedmont-technical-college-218520",
+  "state": "sc",
+  "cip_code": "1203",
+  "cip_desc": "Funeral Service and Mortuary Science.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "1203-c2",
+  "earnings_median_4yr": 40922,
+  "earnings_median_5yr": 51554,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 1,
+  "debt_median": null,
+  "completers": 7,
+  "completers_single_year": 7,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 40922.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 51554.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 5750.0
+      },
+      {
+        "year": 2016,
+        "value": 11000.0
+      },
+      {
+        "year": 2017,
+        "value": 14649.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 8.0
+      },
+      {
+        "year": 2015,
+        "value": 17.0
+      },
+      {
+        "year": 2016,
+        "value": 24.0
+      },
+      {
+        "year": 2017,
+        "value": 21.0
+      },
+      {
+        "year": 2018,
+        "value": 7.0
+      },
+      {
+        "year": 2019,
+        "value": 7.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2017,
+      "from_value": 5750.0,
+      "to_value": 14649.0,
+      "pct_change": 1.5476521739130435,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Funeral Service and Mortuary Science at Piedmont Technical College rose 155% between 2014 and 2017 ($5.8k → $14.6k).",
+      "magnitude_pct": 154.8,
+      "magnitude_abs": 8899.0,
+      "baseline_year": 2014,
+      "recent_year": 2017,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "218520",
+    "slug": "piedmont-technical-college-218520",
+    "name": "Piedmont Technical College",
+    "city": "Greenwood",
+    "city_slug": "greenwood",
+    "control": "public"
+  },
+  "peers_in_state": [],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 11097,
+      "cost_total_default": 22194,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 51554,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "12",
+      "hs_baseline_state": 33700
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 388961,
+      "breakeven_year": 4
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

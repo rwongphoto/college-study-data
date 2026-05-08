@@ -1,0 +1,308 @@
+{
+  "institution_unitid": "183026",
+  "institution_name": "Southern New Hampshire University",
+  "institution_slug": "southern-new-hampshire-university-183026",
+  "state": "nh",
+  "cip_code": "2401",
+  "cip_desc": "Liberal Arts and Sciences, General Studies and Humanities.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "2401-c2",
+  "earnings_median_4yr": 48162,
+  "earnings_median_5yr": 57171,
+  "earnings_count_4yr": 16,
+  "earnings_count_5yr": 17,
+  "debt_median": 13168,
+  "completers": 1151,
+  "completers_single_year": 1226,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 48162.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 57171.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 14250.0
+      },
+      {
+        "year": 2015,
+        "value": 14440.0
+      },
+      {
+        "year": 2016,
+        "value": 13657.0
+      },
+      {
+        "year": 2017,
+        "value": 13000.0
+      },
+      {
+        "year": 2018,
+        "value": 13168.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 410.0
+      },
+      {
+        "year": 2015,
+        "value": 722.0
+      },
+      {
+        "year": 2016,
+        "value": 783.0
+      },
+      {
+        "year": 2017,
+        "value": 921.0
+      },
+      {
+        "year": 2018,
+        "value": 1226.0
+      },
+      {
+        "year": 2019,
+        "value": 1151.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "completers",
+      "from_year": 2014,
+      "to_year": 2019,
+      "from_value": 410.0,
+      "to_value": 1151.0,
+      "pct_change": 0.741,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Annual completers",
+      "summary": "Annual completers at Liberal Arts and Sciences, General Studies and Humanities at Southern New Hampshire University rose 74% between 2014 and 2019 (410 → 1.2k).",
+      "magnitude_pct": 74.1,
+      "magnitude_abs": 741.0,
+      "baseline_year": 2014,
+      "recent_year": 2019,
+      "units": null,
+      "history": [],
+      "metric": "completers"
+    }
+  ],
+  "institution": {
+    "unitid": "183026",
+    "slug": "southern-new-hampshire-university-183026",
+    "name": "Southern New Hampshire University",
+    "city": "Manchester",
+    "city_slug": "manchester",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "great-bay-community-college-183150",
+      "institution_name": "Great Bay Community College",
+      "earnings_median_5yr": 51071,
+      "earnings_median_4yr": 41191,
+      "debt_median": 13145,
+      "completers": 37,
+      "completers_single_year": 46,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "nashua-community-college-183141",
+      "institution_name": "Nashua Community College",
+      "earnings_median_5yr": 44166,
+      "earnings_median_4yr": 34395,
+      "debt_median": 12300,
+      "completers": 47,
+      "completers_single_year": 47,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "nhti-concord-s-community-college-183099",
+      "institution_name": "NHTI-Concord's Community College",
+      "earnings_median_5yr": 43951,
+      "earnings_median_4yr": 34737,
+      "debt_median": 11000,
+      "completers": 89,
+      "completers_single_year": 134,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "river-valley-community-college-183114",
+      "institution_name": "River Valley Community College",
+      "earnings_median_5yr": 42091,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "colby-sawyer-college-182634",
+      "institution_name": "Colby-Sawyer College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "franklin-pierce-university-182795",
+      "institution_name": "Franklin Pierce University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "magdalen-college-182917",
+      "institution_name": "Magdalen College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "new-england-college-182980",
+      "institution_name": "New England College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-new-hampshire-main-campus-183044",
+      "institution_name": "University of New Hampshire-Main Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "white-mountains-community-college-183105",
+      "institution_name": "White Mountains Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lakes-region-community-college-183123",
+      "institution_name": "Lakes Region Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 14,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "manchester-community-college-183132",
+      "institution_name": "Manchester Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 76,
+      "completers_single_year": 52,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rivier-university-183211",
+      "institution_name": "Rivier University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 17,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 34048,
+      "cost_total_default": 68096,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 57171,
+      "earnings_anchor_year": 5,
+      "debt_median": 13168,
+      "cip_family": "24",
+      "hs_baseline_state": 40300
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 330880,
+      "breakeven_year": 10
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

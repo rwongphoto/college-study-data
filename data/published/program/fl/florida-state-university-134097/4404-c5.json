@@ -1,0 +1,288 @@
+{
+  "institution_unitid": "134097",
+  "institution_name": "Florida State University",
+  "institution_slug": "florida-state-university-134097",
+  "state": "fl",
+  "cip_code": "4404",
+  "cip_desc": "Public Administration.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "4404-c5",
+  "earnings_median_4yr": 65738,
+  "earnings_median_5yr": 72457,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 5,
+  "debt_median": 26000,
+  "completers": 49,
+  "completers_single_year": 35,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 65738.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 72457.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 41000.0
+      },
+      {
+        "year": 2015,
+        "value": 41000.0
+      },
+      {
+        "year": 2016,
+        "value": 48300.0
+      },
+      {
+        "year": 2017,
+        "value": 33750.0
+      },
+      {
+        "year": 2018,
+        "value": 26000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 82.0
+      },
+      {
+        "year": 2015,
+        "value": 69.0
+      },
+      {
+        "year": 2016,
+        "value": 48.0
+      },
+      {
+        "year": 2017,
+        "value": 37.0
+      },
+      {
+        "year": 2018,
+        "value": 35.0
+      },
+      {
+        "year": 2019,
+        "value": 49.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 41000.0,
+      "to_value": 26000.0,
+      "pct_change": -0.36585365853658536,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Public Administration at Florida State University fell 37% between 2014 and 2018 ($41.0k → $26.0k).",
+      "magnitude_pct": -36.6,
+      "magnitude_abs": -15000.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "134097",
+    "slug": "florida-state-university-134097",
+    "name": "Florida State University",
+    "city": "Tallahassee",
+    "city_slug": "tallahassee",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "florida-international-university-133951",
+      "institution_name": "Florida International University",
+      "earnings_median_5yr": 75770,
+      "earnings_median_4yr": 69322,
+      "debt_median": 38413,
+      "completers": 86,
+      "completers_single_year": 95,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "barry-university-132471",
+      "institution_name": "Barry University",
+      "earnings_median_5yr": 74605,
+      "earnings_median_4yr": 64981,
+      "debt_median": 41000,
+      "completers": 132,
+      "completers_single_year": 147,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-south-florida-137351",
+      "institution_name": "University of South Florida",
+      "earnings_median_5yr": 71108,
+      "earnings_median_4yr": 65939,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 28,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "florida-gulf-coast-university-433660",
+      "institution_name": "Florida Gulf Coast University",
+      "earnings_median_5yr": 69610,
+      "earnings_median_4yr": 62721,
+      "debt_median": null,
+      "completers": 21,
+      "completers_single_year": 22,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-north-florida-136172",
+      "institution_name": "University of North Florida",
+      "earnings_median_5yr": 67027,
+      "earnings_median_4yr": 53568,
+      "debt_median": null,
+      "completers": 20,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "florida-atlantic-university-133669",
+      "institution_name": "Florida Atlantic University",
+      "earnings_median_5yr": 65243,
+      "earnings_median_4yr": 56307,
+      "debt_median": null,
+      "completers": 14,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "nova-southeastern-university-136215",
+      "institution_name": "Nova Southeastern University",
+      "earnings_median_5yr": 65021,
+      "earnings_median_4yr": 62289,
+      "debt_median": 61500,
+      "completers": 23,
+      "completers_single_year": 25,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-central-florida-132903",
+      "institution_name": "University of Central Florida",
+      "earnings_median_5yr": 63975,
+      "earnings_median_4yr": 54361,
+      "debt_median": 36780,
+      "completers": 114,
+      "completers_single_year": 85,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lynn-university-132657",
+      "institution_name": "Lynn University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-miami-135726",
+      "institution_name": "University of Miami",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 87205,
+      "completers": 22,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hodges-university-367884",
+      "institution_name": "Hodges University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 5,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 11131,
+      "cost_total_default": 66786,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 72457,
+      "earnings_anchor_year": 5,
+      "debt_median": 26000,
+      "cip_family": "44",
+      "hs_baseline_state": 35400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 538243,
+      "breakeven_year": 10
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

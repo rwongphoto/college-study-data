@@ -1,0 +1,863 @@
+{
+  "institution": {
+    "unitid": "372082",
+    "opeid6": "030296",
+    "name": "Pomona Unified School District Adult and Career Education",
+    "slug": "pomona-unified-school-district-adult-and-career-education-372082",
+    "state": "ca",
+    "city": "Pomona",
+    "city_slug": "pomona",
+    "zip5": "91767",
+    "address": "1444 E. Holt Avenue Suite 100",
+    "latitude": 34.061736,
+    "longitude": -117.720478,
+    "control": "public",
+    "pred_degree": "certificate",
+    "highest_degree": "certificate",
+    "main_campus": true,
+    "locale": "21",
+    "carnegie_basic": -2,
+    "sector_code": 7,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": 25131,
+    "earnings_median_8yr": 26140,
+    "earnings_median_10yr": 34849,
+    "completion_rate_150": 0.8182,
+    "completion_rate_100": 0.7273,
+    "retention_rate": 0.2593,
+    "admission_rate": null,
+    "enrollment_undergrad": 84,
+    "enrollment_total": null,
+    "cost_attendance": 10248,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": 6005,
+    "avg_net_price_priv": null,
+    "median_debt": null,
+    "default_rate": null,
+    "pell_share": 0.4938,
+    "history": {
+      "completion_rate_150": [
+        {
+          "year": 1999,
+          "value": 1.0
+        },
+        {
+          "year": 2000,
+          "value": 0.0
+        },
+        {
+          "year": 2002,
+          "value": 0.6875
+        },
+        {
+          "year": 2003,
+          "value": 0.6135
+        },
+        {
+          "year": 2004,
+          "value": 0.2735
+        },
+        {
+          "year": 2005,
+          "value": 0.293
+        },
+        {
+          "year": 2006,
+          "value": 0.3003
+        },
+        {
+          "year": 2007,
+          "value": 0.7002
+        },
+        {
+          "year": 2008,
+          "value": 0.7999
+        },
+        {
+          "year": 2009,
+          "value": 0.8687
+        }
+      ],
+      "completion_rate_100": [
+        {
+          "year": 2009,
+          "value": 0.1313
+        }
+      ],
+      "retention_rate": [
+        {
+          "year": 2004,
+          "value": 0.22
+        },
+        {
+          "year": 2005,
+          "value": 0.25
+        },
+        {
+          "year": 2006,
+          "value": 0.28
+        },
+        {
+          "year": 2007,
+          "value": 0.2996
+        },
+        {
+          "year": 2008,
+          "value": 0.2802
+        },
+        {
+          "year": 2009,
+          "value": 0.7159
+        }
+      ],
+      "admission_rate": [],
+      "enrollment_undergrad": [
+        {
+          "year": 1998,
+          "value": 9400.0
+        },
+        {
+          "year": 1999,
+          "value": 1034.0
+        },
+        {
+          "year": 2001,
+          "value": 1031.0
+        },
+        {
+          "year": 2002,
+          "value": 9461.0
+        },
+        {
+          "year": 2003,
+          "value": 1333.0
+        },
+        {
+          "year": 2004,
+          "value": 1446.0
+        },
+        {
+          "year": 2005,
+          "value": 1302.0
+        },
+        {
+          "year": 2006,
+          "value": 1068.0
+        },
+        {
+          "year": 2007,
+          "value": 1899.0
+        },
+        {
+          "year": 2008,
+          "value": 2678.0
+        },
+        {
+          "year": 2009,
+          "value": 1442.0
+        }
+      ],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [
+        {
+          "year": 2009,
+          "value": 6786.0
+        }
+      ],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [],
+      "median_debt": [],
+      "default_rate": [
+        {
+          "year": 2011,
+          "value": 0.0
+        },
+        {
+          "year": 2012,
+          "value": 0.0
+        }
+      ],
+      "pell_share": [
+        {
+          "year": 2008,
+          "value": 0.0466
+        },
+        {
+          "year": 2009,
+          "value": 0.0468
+        }
+      ],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [
+        {
+          "year": 2005,
+          "value": 25600.0
+        },
+        {
+          "year": 2007,
+          "value": 17600.0
+        },
+        {
+          "year": 2009,
+          "value": 16200.0
+        },
+        {
+          "year": 2011,
+          "value": 16400.0
+        },
+        {
+          "year": 2012,
+          "value": 16800.0
+        },
+        {
+          "year": 2013,
+          "value": 17200.0
+        },
+        {
+          "year": 2014,
+          "value": 20100.0
+        },
+        {
+          "year": 2020,
+          "value": 26140.0
+        }
+      ],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "retention_rate",
+        "from_year": 2004,
+        "to_year": 2009,
+        "from_value": 0.22,
+        "to_value": 0.7159,
+        "pct_change": 2.254090909090909,
+        "direction": "rose"
+      },
+      {
+        "metric": "enrollment_undergrad",
+        "from_year": 1998,
+        "to_year": 2009,
+        "from_value": 9400.0,
+        "to_value": 1442.0,
+        "pct_change": -0.8465957446808511,
+        "direction": "fell"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "150%-time completion",
+        "summary": "150%-time completion at Pomona Unified School District Adult and Career Education rose 189% between 2006 and 2009 (30.0% → 86.9%).",
+        "magnitude_pct": 189.3,
+        "magnitude_abs": 0.57,
+        "baseline_year": 2006,
+        "recent_year": 2009,
+        "units": "%",
+        "history": [],
+        "metric": "completion_rate_150"
+      },
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "First-year retention",
+        "summary": "First-year retention at Pomona Unified School District Adult and Career Education rose 156% between 2006 and 2009 (28.0% → 71.6%).",
+        "magnitude_pct": 155.7,
+        "magnitude_abs": 0.44,
+        "baseline_year": 2006,
+        "recent_year": 2009,
+        "units": "%",
+        "history": [],
+        "metric": "retention_rate"
+      },
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "Undergraduate enrollment",
+        "summary": "Undergraduate enrollment at Pomona Unified School District Adult and Career Education rose 35% between 2006 and 2009 (1.1k → 1.4k).",
+        "magnitude_pct": 35.0,
+        "magnitude_abs": 374.0,
+        "baseline_year": 2006,
+        "recent_year": 2009,
+        "units": null,
+        "history": [],
+        "metric": "enrollment_undergrad"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "12": [
+      {
+        "slug": "1204-c1",
+        "cip_code": "1204",
+        "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": 21800,
+        "earnings_median_4yr": 17034,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 21800.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 17034.0
+          }
+        ],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 27,
+        "completers_single_year": 27,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 40.0
+          },
+          {
+            "year": 2015,
+            "value": 27.0
+          },
+          {
+            "year": 2016,
+            "value": 24.0
+          },
+          {
+            "year": 2017,
+            "value": 32.0
+          },
+          {
+            "year": 2018,
+            "value": 27.0
+          },
+          {
+            "year": 2019,
+            "value": 27.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1204-c2",
+        "cip_code": "1204",
+        "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      }
+    ],
+    "48": [
+      {
+        "slug": "4805-c1",
+        "cip_code": "4805",
+        "cip_desc": "Precision Metal Working.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": 39683,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 39683.0
+          }
+        ],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 2,
+        "completers_single_year": 10,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 18.0
+          },
+          {
+            "year": 2015,
+            "value": 13.0
+          },
+          {
+            "year": 2016,
+            "value": 19.0
+          },
+          {
+            "year": 2017,
+            "value": 12.0
+          },
+          {
+            "year": 2018,
+            "value": 10.0
+          },
+          {
+            "year": 2019,
+            "value": 2.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "51": [
+      {
+        "slug": "5107-c1",
+        "cip_code": "5107",
+        "cip_desc": "Health and Medical Administrative Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": 26,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 11.0
+          },
+          {
+            "year": 2015,
+            "value": 35.0
+          },
+          {
+            "year": 2016,
+            "value": 35.0
+          },
+          {
+            "year": 2017,
+            "value": 33.0
+          },
+          {
+            "year": 2018,
+            "value": 26.0
+          },
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "52": [
+      {
+        "slug": "5204-c1",
+        "cip_code": "5204",
+        "cip_desc": "Business Operations Support and Assistant Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 2,
+        "completers_single_year": 3,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 6.0
+          },
+          {
+            "year": 2015,
+            "value": 3.0
+          },
+          {
+            "year": 2016,
+            "value": 6.0
+          },
+          {
+            "year": 2017,
+            "value": 2.0
+          },
+          {
+            "year": 2018,
+            "value": 3.0
+          },
+          {
+            "year": 2019,
+            "value": 2.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5203-c1",
+        "cip_code": "5203",
+        "cip_desc": "Accounting and Related Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 3.0
+          },
+          {
+            "year": 2015,
+            "value": 3.0
+          },
+          {
+            "year": 2016,
+            "value": 3.0
+          },
+          {
+            "year": 2017,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "1204-c1",
+      "cip_code": "1204",
+      "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": 21800,
+      "earnings_median_4yr": 17034,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 21800.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 17034.0
+        }
+      ],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 27,
+      "completers_single_year": 27,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 40.0
+        },
+        {
+          "year": 2015,
+          "value": 27.0
+        },
+        {
+          "year": 2016,
+          "value": 24.0
+        },
+        {
+          "year": 2017,
+          "value": 32.0
+        },
+        {
+          "year": 2018,
+          "value": 27.0
+        },
+        {
+          "year": 2019,
+          "value": 27.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4805-c1",
+      "cip_code": "4805",
+      "cip_desc": "Precision Metal Working.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 39683,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 39683.0
+        }
+      ],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 2,
+      "completers_single_year": 10,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 18.0
+        },
+        {
+          "year": 2015,
+          "value": 13.0
+        },
+        {
+          "year": 2016,
+          "value": 19.0
+        },
+        {
+          "year": 2017,
+          "value": 12.0
+        },
+        {
+          "year": 2018,
+          "value": 10.0
+        },
+        {
+          "year": 2019,
+          "value": 2.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5204-c1",
+      "cip_code": "5204",
+      "cip_desc": "Business Operations Support and Assistant Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 2,
+      "completers_single_year": 3,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 6.0
+        },
+        {
+          "year": 2015,
+          "value": 3.0
+        },
+        {
+          "year": 2016,
+          "value": 6.0
+        },
+        {
+          "year": 2017,
+          "value": 2.0
+        },
+        {
+          "year": 2018,
+          "value": 3.0
+        },
+        {
+          "year": 2019,
+          "value": 2.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1204-c2",
+      "cip_code": "1204",
+      "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    },
+    {
+      "slug": "5107-c1",
+      "cip_code": "5107",
+      "cip_desc": "Health and Medical Administrative Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": 26,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 11.0
+        },
+        {
+          "year": 2015,
+          "value": 35.0
+        },
+        {
+          "year": 2016,
+          "value": 35.0
+        },
+        {
+          "year": 2017,
+          "value": 33.0
+        },
+        {
+          "year": 2018,
+          "value": 26.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5203-c1",
+      "cip_code": "5203",
+      "cip_desc": "Accounting and Related Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 3.0
+        },
+        {
+          "year": 2015,
+          "value": 3.0
+        },
+        {
+          "year": 2016,
+          "value": 3.0
+        },
+        {
+          "year": 2017,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    }
+  ],
+  "program_count": 6,
+  "similar": [
+    {
+      "slug": "charles-a-jones-career-and-education-center-123493",
+      "name": "Charles A Jones Career and Education Center",
+      "city": "Sacramento",
+      "control": "public",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 41047,
+      "completion_rate_150": 0.6774,
+      "enrollment_undergrad": 90
+    },
+    {
+      "slug": "beaumont-adult-school-449357",
+      "name": "Beaumont Adult School",
+      "city": "Beaumont",
+      "control": "public",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 50801,
+      "completion_rate_150": 1.0,
+      "enrollment_undergrad": 101
+    },
+    {
+      "slug": "riverside-county-office-of-education-school-of-career-education-481191",
+      "name": "Riverside County Office of Education-School of Career Education",
+      "city": "Riverside",
+      "control": "public",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.8451,
+      "enrollment_undergrad": 108
+    },
+    {
+      "slug": "ventura-adult-and-continuing-education-417123",
+      "name": "Ventura Adult and Continuing Education",
+      "city": "Ventura",
+      "control": "public",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 38232,
+      "completion_rate_150": 0.9667,
+      "enrollment_undergrad": 52
+    },
+    {
+      "slug": "butte-county-regional-occupational-program-487773",
+      "name": "Butte County Regional Occupational Program",
+      "city": "Chico",
+      "control": "public",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.6667,
+      "enrollment_undergrad": 41
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "institution_unitid": "219824",
+  "institution_name": "Chattanooga State Community College",
+  "institution_slug": "chattanooga-state-community-college-219824",
+  "state": "tn",
+  "cip_code": "1401",
+  "cip_desc": "Engineering, General.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "1401-c2",
+  "earnings_median_4yr": 70078,
+  "earnings_median_5yr": 82823,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 3,
+  "debt_median": 13125,
+  "completers": 26,
+  "completers_single_year": 44,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 70078.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 82823.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 10624.0
+      },
+      {
+        "year": 2015,
+        "value": 10500.0
+      },
+      {
+        "year": 2016,
+        "value": 12500.0
+      },
+      {
+        "year": 2017,
+        "value": 13750.0
+      },
+      {
+        "year": 2018,
+        "value": 13125.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 47.0
+      },
+      {
+        "year": 2015,
+        "value": 32.0
+      },
+      {
+        "year": 2016,
+        "value": 44.0
+      },
+      {
+        "year": 2017,
+        "value": 42.0
+      },
+      {
+        "year": 2018,
+        "value": 44.0
+      },
+      {
+        "year": 2019,
+        "value": 26.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 10624.0,
+      "to_value": 13125.0,
+      "pct_change": 0.23541039156626506,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Engineering, General at Chattanooga State Community College rose 24% between 2014 and 2018 ($10.6k → $13.1k).",
+      "magnitude_pct": 23.5,
+      "magnitude_abs": 2501.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "219824",
+    "slug": "chattanooga-state-community-college-219824",
+    "name": "Chattanooga State Community College",
+    "city": "Chattanooga",
+    "city_slug": "chattanooga",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "southern-adventist-university-221661",
+      "institution_name": "Southern Adventist University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 7047,
+      "cost_total_default": 14094,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 82823,
+      "earnings_anchor_year": 5,
+      "debt_median": 13125,
+      "cip_family": "14",
+      "hs_baseline_state": 34600
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 1192222,
+      "breakeven_year": 2
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

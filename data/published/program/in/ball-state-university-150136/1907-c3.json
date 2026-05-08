@@ -1,0 +1,216 @@
+{
+  "institution_unitid": "150136",
+  "institution_name": "Ball State University",
+  "institution_slug": "ball-state-university-150136",
+  "state": "in",
+  "cip_code": "1907",
+  "cip_desc": "Human Development, Family Studies, and Related Services.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1907-c3",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": 26125,
+  "completers": 37,
+  "completers_single_year": 45,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [
+      {
+        "year": 2016,
+        "value": 21249.0
+      },
+      {
+        "year": 2017,
+        "value": 23750.0
+      },
+      {
+        "year": 2018,
+        "value": 26125.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 2.0
+      },
+      {
+        "year": 2015,
+        "value": 3.0
+      },
+      {
+        "year": 2016,
+        "value": 45.0
+      },
+      {
+        "year": 2017,
+        "value": 50.0
+      },
+      {
+        "year": 2018,
+        "value": 45.0
+      },
+      {
+        "year": 2019,
+        "value": 37.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2016,
+      "to_year": 2018,
+      "from_value": 21249.0,
+      "to_value": 26125.0,
+      "pct_change": 0.22946962209986352,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Human Development, Family Studies, and Related Services at Ball State University rose 23% between 2016 and 2018 ($21.2k → $26.1k).",
+      "magnitude_pct": 22.9,
+      "magnitude_abs": 4876.0,
+      "baseline_year": 2016,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "150136",
+    "slug": "ball-state-university-150136",
+    "name": "Ball State University",
+    "city": "Muncie",
+    "city_slug": "muncie",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "purdue-university-main-campus-243780",
+      "institution_name": "Purdue University-Main Campus",
+      "earnings_median_5yr": 48608,
+      "earnings_median_4yr": 42338,
+      "debt_median": 14000,
+      "completers": 51,
+      "completers_single_year": 73,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "indiana-state-university-151324",
+      "institution_name": "Indiana State University",
+      "earnings_median_5yr": 42721,
+      "earnings_median_4yr": 35729,
+      "debt_median": 26119,
+      "completers": 24,
+      "completers_single_year": 43,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "purdue-university-northwest-490805",
+      "institution_name": "Purdue University Northwest",
+      "earnings_median_5yr": 37197,
+      "earnings_median_4yr": 30327,
+      "debt_median": 26298,
+      "completers": 17,
+      "completers_single_year": 28,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "anderson-university-150066",
+      "institution_name": "Anderson University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 43595,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "earlham-college-150455",
+      "institution_name": "Earlham College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "indiana-institute-of-technology-151290",
+      "institution_name": "Indiana Institute of Technology",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 14882,
+      "cost_total_default": 59528,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": 26125,
+      "cip_family": "19"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

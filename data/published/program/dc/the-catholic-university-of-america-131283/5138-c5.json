@@ -1,0 +1,218 @@
+{
+  "institution_unitid": "131283",
+  "institution_name": "The Catholic University of America",
+  "institution_slug": "the-catholic-university-of-america-131283",
+  "state": "dc",
+  "cip_code": "5138",
+  "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5138-c5",
+  "earnings_median_4yr": 106457,
+  "earnings_median_5yr": 117294,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 0,
+  "debt_median": 61500,
+  "completers": 18,
+  "completers_single_year": 19,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 106457.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 117294.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 37000.0
+      },
+      {
+        "year": 2015,
+        "value": 56000.0
+      },
+      {
+        "year": 2016,
+        "value": 61500.0
+      },
+      {
+        "year": 2017,
+        "value": 61500.0
+      },
+      {
+        "year": 2018,
+        "value": 61500.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 24.0
+      },
+      {
+        "year": 2015,
+        "value": 47.0
+      },
+      {
+        "year": 2016,
+        "value": 28.0
+      },
+      {
+        "year": 2017,
+        "value": 29.0
+      },
+      {
+        "year": 2018,
+        "value": 19.0
+      },
+      {
+        "year": 2019,
+        "value": 18.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 37000.0,
+      "to_value": 61500.0,
+      "pct_change": 0.6621621621621622,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing at The Catholic University of America rose 66% between 2014 and 2018 ($37.0k → $61.5k).",
+      "magnitude_pct": 66.2,
+      "magnitude_abs": 24500.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "131283",
+    "slug": "the-catholic-university-of-america-131283",
+    "name": "The Catholic University of America",
+    "city": "Washington",
+    "city_slug": "washington",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "george-washington-university-131469",
+      "institution_name": "George Washington University",
+      "earnings_median_5yr": 121358,
+      "earnings_median_4yr": 110856,
+      "debt_median": 52641,
+      "completers": 168,
+      "completers_single_year": 212,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "georgetown-university-131496",
+      "institution_name": "Georgetown University",
+      "earnings_median_5yr": 120851,
+      "earnings_median_4yr": 108576,
+      "debt_median": 127131,
+      "completers": 259,
+      "completers_single_year": 291,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "howard-university-131520",
+      "institution_name": "Howard University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "trinity-washington-university-131876",
+      "institution_name": "Trinity Washington University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 25667,
+      "cost_total_default": 154002,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 117294,
+      "earnings_anchor_year": 5,
+      "debt_median": 61500,
+      "cip_family": "51",
+      "hs_baseline_state": 47200
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 976766,
+      "breakeven_year": 10
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

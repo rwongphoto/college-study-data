@@ -1,0 +1,203 @@
+{
+  "institution_unitid": "238078",
+  "institution_name": "Wheeling University",
+  "institution_slug": "wheeling-university-238078",
+  "state": "wv",
+  "cip_code": "1304",
+  "cip_desc": "Educational Administration and Supervision.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "1304-c5",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": 67448,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 1,
+  "debt_median": null,
+  "completers": 16,
+  "completers_single_year": 10,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 67448.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2015,
+        "value": 20500.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 25.0
+      },
+      {
+        "year": 2015,
+        "value": 30.0
+      },
+      {
+        "year": 2016,
+        "value": 17.0
+      },
+      {
+        "year": 2017,
+        "value": 16.0
+      },
+      {
+        "year": 2018,
+        "value": 10.0
+      },
+      {
+        "year": 2019,
+        "value": 16.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "238078",
+    "slug": "wheeling-university-238078",
+    "name": "Wheeling University",
+    "city": "Wheeling",
+    "city_slug": "wheeling",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "american-public-university-system-449339",
+      "institution_name": "American Public University System",
+      "earnings_median_5yr": 78831,
+      "earnings_median_4yr": 67936,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "marshall-university-237525",
+      "institution_name": "Marshall University",
+      "earnings_median_5yr": 66526,
+      "earnings_median_4yr": 63181,
+      "debt_median": 27519,
+      "completers": 63,
+      "completers_single_year": 77,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "west-liberty-university-237932",
+      "institution_name": "West Liberty University",
+      "earnings_median_5yr": 45230,
+      "earnings_median_4yr": 42045,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "fairmont-state-university-237367",
+      "institution_name": "Fairmont State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "salem-university-237783",
+      "institution_name": "Salem University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 21,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "west-virginia-state-university-237899",
+      "institution_name": "West Virginia State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "west-virginia-university-238032",
+      "institution_name": "West Virginia University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 19257,
+      "cost_total_default": 115542,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 67448,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "13",
+      "hs_baseline_state": 32100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 377249,
+      "breakeven_year": 12
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

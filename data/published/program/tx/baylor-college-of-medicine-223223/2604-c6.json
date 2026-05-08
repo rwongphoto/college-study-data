@@ -1,0 +1,209 @@
+{
+  "institution_unitid": "223223",
+  "institution_name": "Baylor College of Medicine",
+  "institution_slug": "baylor-college-of-medicine-223223",
+  "state": "tx",
+  "cip_code": "2604",
+  "cip_desc": "Cell/Cellular Biology and Anatomical Sciences.",
+  "credential_level": 6,
+  "credential_desc": "Doctoral Degree",
+  "slug": "2604-c6",
+  "earnings_median_4yr": 68963,
+  "earnings_median_5yr": 88768,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 1,
+  "debt_median": null,
+  "completers": 28,
+  "completers_single_year": 28,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 68963.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 88768.0
+      }
+    ],
+    "debt_median": [],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 26.0
+      },
+      {
+        "year": 2015,
+        "value": 25.0
+      },
+      {
+        "year": 2016,
+        "value": 26.0
+      },
+      {
+        "year": 2017,
+        "value": 35.0
+      },
+      {
+        "year": 2018,
+        "value": 28.0
+      },
+      {
+        "year": 2019,
+        "value": 28.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "223223",
+    "slug": "baylor-college-of-medicine-223223",
+    "name": "Baylor College of Medicine",
+    "city": "Houston",
+    "city_slug": "houston",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-texas-southwestern-medical-center-228635",
+      "institution_name": "University of Texas Southwestern Medical Center",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-university-of-texas-health-science-center-at-san-antonio-228644",
+      "institution_name": "The University of Texas Health Science Center at San Antonio",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-university-of-texas-medical-branch-at-galveston-228653",
+      "institution_name": "The University of Texas Medical Branch at Galveston",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-university-of-texas-at-austin-228778",
+      "institution_name": "The University of Texas at Austin",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-university-of-texas-at-dallas-228787",
+      "institution_name": "The University of Texas at Dallas",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-university-of-texas-at-san-antonio-229027",
+      "institution_name": "The University of Texas at San Antonio",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-university-of-texas-health-science-center-at-houston-229300",
+      "institution_name": "The University of Texas Health Science Center at Houston",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "parker-university-243823",
+      "institution_name": "Parker University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 8,
+      "cost_per_year_default": null,
+      "cost_total_default": null,
+      "cost_source": null,
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 88768,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "26"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

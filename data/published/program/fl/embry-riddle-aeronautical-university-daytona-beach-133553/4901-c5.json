@@ -1,0 +1,184 @@
+{
+  "institution_unitid": "133553",
+  "institution_name": "Embry-Riddle Aeronautical University-Daytona Beach",
+  "institution_slug": "embry-riddle-aeronautical-university-daytona-beach-133553",
+  "state": "fl",
+  "cip_code": "4901",
+  "cip_desc": "Air Transportation.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "4901-c5",
+  "earnings_median_4yr": 92094,
+  "earnings_median_5yr": 105418,
+  "earnings_count_4yr": 41,
+  "earnings_count_5yr": 15,
+  "debt_median": 37674,
+  "completers": 44,
+  "completers_single_year": 39,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 92094.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 105418.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 41421.0
+      },
+      {
+        "year": 2015,
+        "value": 40728.0
+      },
+      {
+        "year": 2016,
+        "value": 36361.0
+      },
+      {
+        "year": 2017,
+        "value": 35515.0
+      },
+      {
+        "year": 2018,
+        "value": 37674.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 25.0
+      },
+      {
+        "year": 2015,
+        "value": 23.0
+      },
+      {
+        "year": 2016,
+        "value": 22.0
+      },
+      {
+        "year": 2017,
+        "value": 37.0
+      },
+      {
+        "year": 2018,
+        "value": 39.0
+      },
+      {
+        "year": 2019,
+        "value": 44.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "133553",
+    "slug": "embry-riddle-aeronautical-university-daytona-beach-133553",
+    "name": "Embry-Riddle Aeronautical University-Daytona Beach",
+    "city": "Daytona Beach",
+    "city_slug": "daytona-beach",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "florida-institute-of-technology-133881",
+      "institution_name": "Florida Institute of Technology",
+      "earnings_median_5yr": 101156,
+      "earnings_median_4yr": 88449,
+      "debt_median": null,
+      "completers": 15,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "everglades-university-385619",
+      "institution_name": "Everglades University",
+      "earnings_median_5yr": 95520,
+      "earnings_median_4yr": 55471,
+      "debt_median": 46629,
+      "completers": 35,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "jacksonville-university-134945",
+      "institution_name": "Jacksonville University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 15,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 39693,
+      "cost_total_default": 238158,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 105418,
+      "earnings_anchor_year": 5,
+      "debt_median": 37674,
+      "cip_family": "49",
+      "hs_baseline_state": 35400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 923504,
+      "breakeven_year": 12
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

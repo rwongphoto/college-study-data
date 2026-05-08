@@ -1,0 +1,293 @@
+{
+  "institution_unitid": "105145",
+  "institution_name": "GateWay Community College",
+  "institution_slug": "gateway-community-college-105145",
+  "state": "az",
+  "cip_code": "5108",
+  "cip_desc": "Allied Health and Medical Assisting Services.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "5108-c2",
+  "earnings_median_4yr": 53692,
+  "earnings_median_5yr": 48150,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 1,
+  "debt_median": 9000,
+  "completers": 37,
+  "completers_single_year": 40,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 53692.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 48150.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 14018.0
+      },
+      {
+        "year": 2015,
+        "value": 10500.0
+      },
+      {
+        "year": 2016,
+        "value": 9625.0
+      },
+      {
+        "year": 2017,
+        "value": 6875.0
+      },
+      {
+        "year": 2018,
+        "value": 9000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 31.0
+      },
+      {
+        "year": 2015,
+        "value": 39.0
+      },
+      {
+        "year": 2016,
+        "value": 36.0
+      },
+      {
+        "year": 2017,
+        "value": 34.0
+      },
+      {
+        "year": 2018,
+        "value": 40.0
+      },
+      {
+        "year": 2019,
+        "value": 37.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 14018.0,
+      "to_value": 9000.0,
+      "pct_change": -0.3579683264374376,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Allied Health and Medical Assisting Services at GateWay Community College fell 36% between 2014 and 2018 ($14.0k → $9.0k).",
+      "magnitude_pct": -35.8,
+      "magnitude_abs": -5018.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "105145",
+    "slug": "gateway-community-college-105145",
+    "name": "GateWay Community College",
+    "city": "Phoenix",
+    "city_slug": "phoenix",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "carrington-college-phoenix-north-103893",
+      "institution_name": "Carrington College-Phoenix North",
+      "earnings_median_5yr": 62764,
+      "earnings_median_4yr": 55565,
+      "debt_median": 28291,
+      "completers": 29,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "brookline-college-phoenix-104090",
+      "institution_name": "Brookline College-Phoenix",
+      "earnings_median_5yr": 58222,
+      "earnings_median_4yr": 51717,
+      "debt_median": 24055,
+      "completers": 18,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pima-medical-institute-tucson-105534",
+      "institution_name": "Pima Medical Institute-Tucson",
+      "earnings_median_5yr": 48302,
+      "earnings_median_4yr": 45661,
+      "debt_median": 26524,
+      "completers": 46,
+      "completers_single_year": 28,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mohave-community-college-105206",
+      "institution_name": "Mohave Community College",
+      "earnings_median_5yr": 36379,
+      "earnings_median_4yr": 30600,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "arizona-college-of-nursing-tempe-421708",
+      "institution_name": "Arizona College of Nursing-Tempe",
+      "earnings_median_5yr": 36189,
+      "earnings_median_4yr": 33850,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "arizona-western-college-104160",
+      "institution_name": "Arizona Western College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "central-arizona-college-104346",
+      "institution_name": "Central Arizona College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "eastern-arizona-college-104577",
+      "institution_name": "Eastern Arizona College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northland-pioneer-college-105349",
+      "institution_name": "Northland Pioneer College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "phoenix-college-105428",
+      "institution_name": "Phoenix College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pima-community-college-105525",
+      "institution_name": "Pima Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "yavapai-college-106148",
+      "institution_name": "Yavapai College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "estrella-mountain-community-college-384333",
+      "institution_name": "Estrella Mountain Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-phoenix-arizona-484613",
+      "institution_name": "University of Phoenix-Arizona",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

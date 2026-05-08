@@ -1,0 +1,204 @@
+{
+  "institution_unitid": "131469",
+  "institution_name": "George Washington University",
+  "institution_slug": "george-washington-university-131469",
+  "state": "dc",
+  "cip_code": "4509",
+  "cip_desc": "International Relations and National Security Studies.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "4509-c5",
+  "earnings_median_4yr": 91907,
+  "earnings_median_5yr": 109649,
+  "earnings_count_4yr": 7,
+  "earnings_count_5yr": 8,
+  "debt_median": 56634,
+  "completers": 381,
+  "completers_single_year": 343,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 91907.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 109649.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 61850.0
+      },
+      {
+        "year": 2015,
+        "value": 57405.0
+      },
+      {
+        "year": 2016,
+        "value": 59383.0
+      },
+      {
+        "year": 2017,
+        "value": 59108.0
+      },
+      {
+        "year": 2018,
+        "value": 56634.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 200.0
+      },
+      {
+        "year": 2015,
+        "value": 388.0
+      },
+      {
+        "year": 2016,
+        "value": 383.0
+      },
+      {
+        "year": 2017,
+        "value": 334.0
+      },
+      {
+        "year": 2018,
+        "value": 343.0
+      },
+      {
+        "year": 2019,
+        "value": 381.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "131469",
+    "slug": "george-washington-university-131469",
+    "name": "George Washington University",
+    "city": "Washington",
+    "city_slug": "washington",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "georgetown-university-131496",
+      "institution_name": "Georgetown University",
+      "earnings_median_5yr": 119853,
+      "earnings_median_4yr": 108290,
+      "debt_median": 74360,
+      "completers": 283,
+      "completers_single_year": 301,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "american-university-131159",
+      "institution_name": "American University",
+      "earnings_median_5yr": 101443,
+      "earnings_median_4yr": 87543,
+      "debt_median": 61500,
+      "completers": 279,
+      "completers_single_year": 317,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "institute-of-world-politics-455804",
+      "institution_name": "Institute of World Politics",
+      "earnings_median_5yr": 101277,
+      "earnings_median_4yr": 91635,
+      "debt_median": 60843,
+      "completers": 41,
+      "completers_single_year": 44,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-catholic-university-of-america-131283",
+      "institution_name": "The Catholic University of America",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "trinity-washington-university-131876",
+      "institution_name": "Trinity Washington University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 8,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 21863,
+      "cost_total_default": 131178,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 109649,
+      "earnings_anchor_year": 5,
+      "debt_median": 56634,
+      "cip_family": "45",
+      "hs_baseline_state": 47200
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 809609,
+      "breakeven_year": 10
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

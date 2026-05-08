@@ -1,0 +1,261 @@
+{
+  "institution": {
+    "unitid": "497365",
+    "opeid6": "043046",
+    "name": "Legends Barber College",
+    "slug": "legends-barber-college-497365",
+    "state": "tx",
+    "city": "Lufkin",
+    "city_slug": "lufkin",
+    "zip5": "75904",
+    "address": "1815 West Frank Avenue",
+    "latitude": 31.331903,
+    "longitude": -94.754951,
+    "control": "private_forprofit",
+    "pred_degree": "certificate",
+    "highest_degree": "certificate",
+    "main_campus": true,
+    "locale": "33",
+    "carnegie_basic": -2,
+    "sector_code": 9,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": 0.5,
+    "completion_rate_100": 0.25,
+    "retention_rate": 0.8571,
+    "admission_rate": null,
+    "enrollment_undergrad": 28,
+    "enrollment_total": null,
+    "cost_attendance": 15902,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": 11445,
+    "cost_by_income": {
+      "0_30k": 11126,
+      "30_48k": 12630,
+      "48_75k": 14280,
+      "75_110k": null,
+      "110k_plus": null,
+      "sticker": 15902,
+      "sector": "priv"
+    },
+    "median_debt": null,
+    "default_rate": null,
+    "pell_share": 0.7872,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [
+        {
+          "year": 2022,
+          "value": 0.3333
+        },
+        {
+          "year": 2023,
+          "value": 0.8571
+        },
+        {
+          "year": 2024,
+          "value": 0.8571
+        }
+      ],
+      "admission_rate": [],
+      "enrollment_undergrad": [
+        {
+          "year": 2022,
+          "value": 24.0
+        },
+        {
+          "year": 2023,
+          "value": 28.0
+        },
+        {
+          "year": 2024,
+          "value": 26.0
+        }
+      ],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [
+        {
+          "year": 2022,
+          "value": 10000.0
+        },
+        {
+          "year": 2023,
+          "value": 15902.0
+        },
+        {
+          "year": 2024,
+          "value": 16221.0
+        }
+      ],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [
+        {
+          "year": 2022,
+          "value": 6724.0
+        },
+        {
+          "year": 2023,
+          "value": 11445.0
+        },
+        {
+          "year": 2024,
+          "value": 11235.0
+        }
+      ],
+      "median_debt": [],
+      "default_rate": [],
+      "pell_share": [
+        {
+          "year": 2022,
+          "value": 0.3125
+        },
+        {
+          "year": 2023,
+          "value": 0.7872
+        },
+        {
+          "year": 2024,
+          "value": 0.5357
+        }
+      ],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "retention_rate",
+        "from_year": 2022,
+        "to_year": 2024,
+        "from_value": 0.3333,
+        "to_value": 0.8571,
+        "pct_change": 1.5715571557155719,
+        "direction": "rose"
+      },
+      {
+        "metric": "pell_share",
+        "from_year": 2022,
+        "to_year": 2024,
+        "from_value": 0.3125,
+        "to_value": 0.5357,
+        "pct_change": 0.7142399999999999,
+        "direction": "rose"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "First-year retention",
+        "summary": "First-year retention at Legends Barber College rose 157% between 2022 and 2024 (33.3% → 85.7%).",
+        "magnitude_pct": 157.2,
+        "magnitude_abs": 0.52,
+        "baseline_year": 2022,
+        "recent_year": 2024,
+        "units": "%",
+        "history": [],
+        "metric": "retention_rate"
+      }
+    ]
+  },
+  "programs_by_family": {},
+  "programs": [],
+  "program_count": 0,
+  "similar": [
+    {
+      "slug": "seguin-beauty-school-seguin-228088",
+      "name": "Seguin Beauty School-Seguin",
+      "city": "Seguin",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 21891,
+      "completion_rate_150": 0.5333,
+      "enrollment_undergrad": 26
+    },
+    {
+      "slug": "dallas-barber-stylist-college-443021",
+      "name": "Dallas Barber & Stylist College",
+      "city": "Dallas",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 20142,
+      "completion_rate_150": 0.7778,
+      "enrollment_undergrad": 30
+    },
+    {
+      "slug": "jay-s-technical-institute-443146",
+      "name": "Jay's Technical Institute",
+      "city": "Houston",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 15511,
+      "completion_rate_150": 0.5455,
+      "enrollment_undergrad": 26
+    },
+    {
+      "slug": "champion-beauty-college-449782",
+      "name": "Champion Beauty College",
+      "city": "Houston",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 21362,
+      "completion_rate_150": 0.7692,
+      "enrollment_undergrad": 26
+    },
+    {
+      "slug": "exposito-school-of-hair-design-224758",
+      "name": "Exposito School of Hair Design",
+      "city": "Amarillo",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 20397,
+      "completion_rate_150": 0.0909,
+      "enrollment_undergrad": 25
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

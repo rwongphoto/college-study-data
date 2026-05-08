@@ -1,0 +1,188 @@
+{
+  "institution_unitid": "150987",
+  "institution_name": "Ivy Tech Community College",
+  "institution_slug": "ivy-tech-community-college-150987",
+  "state": "in",
+  "cip_code": "4702",
+  "cip_desc": "Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "4702-c2",
+  "earnings_median_4yr": 42094,
+  "earnings_median_5yr": 45414,
+  "earnings_count_4yr": 13,
+  "earnings_count_5yr": 12,
+  "debt_median": 10819,
+  "completers": 88,
+  "completers_single_year": 70,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 42094.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 45414.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 13792.0
+      },
+      {
+        "year": 2015,
+        "value": 12381.0
+      },
+      {
+        "year": 2016,
+        "value": 12050.0
+      },
+      {
+        "year": 2017,
+        "value": 12153.0
+      },
+      {
+        "year": 2018,
+        "value": 10819.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 86.0
+      },
+      {
+        "year": 2015,
+        "value": 87.0
+      },
+      {
+        "year": 2016,
+        "value": 88.0
+      },
+      {
+        "year": 2017,
+        "value": 103.0
+      },
+      {
+        "year": 2018,
+        "value": 70.0
+      },
+      {
+        "year": 2019,
+        "value": 88.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 13792.0,
+      "to_value": 10819.0,
+      "pct_change": -0.21555974477958237,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR) at Ivy Tech Community College fell 22% between 2014 and 2018 ($13.8k → $10.8k).",
+      "magnitude_pct": -21.6,
+      "magnitude_abs": -2973.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "150987",
+    "slug": "ivy-tech-community-college-150987",
+    "name": "Ivy Tech Community College",
+    "city": "Indianapolis",
+    "city_slug": "indianapolis",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "vincennes-university-152637",
+      "institution_name": "Vincennes University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 12,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 8422,
+      "cost_total_default": 16844,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 45414,
+      "earnings_anchor_year": 5,
+      "debt_median": 10819,
+      "cip_family": "47",
+      "hs_baseline_state": 36400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 212276,
+      "breakeven_year": 8
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

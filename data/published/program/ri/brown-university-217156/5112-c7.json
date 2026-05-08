@@ -1,0 +1,190 @@
+{
+  "institution_unitid": "217156",
+  "institution_name": "Brown University",
+  "institution_slug": "brown-university-217156",
+  "state": "ri",
+  "cip_code": "5112",
+  "cip_desc": "Medicine.",
+  "credential_level": 7,
+  "credential_desc": "First Professional Degree",
+  "slug": "5112-c7",
+  "earnings_median_4yr": 97879,
+  "earnings_median_5yr": 134929,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 0,
+  "debt_median": 146880,
+  "completers": 120,
+  "completers_single_year": 137,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 97879.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 134929.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 120100.0
+      },
+      {
+        "year": 2015,
+        "value": 131550.0
+      },
+      {
+        "year": 2016,
+        "value": 130330.0
+      },
+      {
+        "year": 2017,
+        "value": 135785.0
+      },
+      {
+        "year": 2018,
+        "value": 146880.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 116.0
+      },
+      {
+        "year": 2015,
+        "value": 121.0
+      },
+      {
+        "year": 2016,
+        "value": 120.0
+      },
+      {
+        "year": 2017,
+        "value": 128.0
+      },
+      {
+        "year": 2018,
+        "value": 137.0
+      },
+      {
+        "year": 2019,
+        "value": 120.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 120100.0,
+      "to_value": 146880.0,
+      "pct_change": 0.22298084929225645,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 14.5% at Medicine at Brown University exceeds the 8% gainful-employment threshold ($146.9k debt amortized over 10 years vs $134.9k earnings).",
+      "magnitude_pct": 14.5,
+      "magnitude_abs": 6.5,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    },
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Medicine at Brown University rose 22% between 2014 and 2018 ($120.1k → $146.9k).",
+      "magnitude_pct": 22.3,
+      "magnitude_abs": 26780.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "217156",
+    "slug": "brown-university-217156",
+    "name": "Brown University",
+    "city": "Providence",
+    "city_slug": "providence",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 7,
+      "cost_per_year_default": 7757,
+      "cost_total_default": 54299,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 134929,
+      "earnings_anchor_year": 5,
+      "debt_median": 146880,
+      "cip_family": "51",
+      "hs_baseline_state": 38900
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 1381511,
+      "breakeven_year": 8
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

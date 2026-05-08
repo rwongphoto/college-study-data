@@ -1,0 +1,249 @@
+{
+  "institution_unitid": "241377",
+  "institution_name": "Caribbean University-Bayamon",
+  "institution_slug": "caribbean-university-bayamon-241377",
+  "state": "pr",
+  "cip_code": "1303",
+  "cip_desc": "Curriculum and Instruction.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "1303-c5",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": 37206,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 1,
+  "debt_median": 19291,
+  "completers": 19,
+  "completers_single_year": 15,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 37206.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2015,
+        "value": 15625.0
+      },
+      {
+        "year": 2016,
+        "value": 15125.0
+      },
+      {
+        "year": 2017,
+        "value": 21250.0
+      },
+      {
+        "year": 2018,
+        "value": 19291.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 24.0
+      },
+      {
+        "year": 2015,
+        "value": 17.0
+      },
+      {
+        "year": 2016,
+        "value": 15.0
+      },
+      {
+        "year": 2017,
+        "value": 14.0
+      },
+      {
+        "year": 2018,
+        "value": 15.0
+      },
+      {
+        "year": 2019,
+        "value": 19.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2015,
+      "to_year": 2018,
+      "from_value": 15625.0,
+      "to_value": 19291.0,
+      "pct_change": 0.234624,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Curriculum and Instruction at Caribbean University-Bayamon rose 23% between 2015 and 2018 ($15.6k → $19.3k).",
+      "magnitude_pct": 23.5,
+      "magnitude_abs": 3666.0,
+      "baseline_year": 2015,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "241377",
+    "slug": "caribbean-university-bayamon-241377",
+    "name": "Caribbean University-Bayamon",
+    "city": "Bayamon",
+    "city_slug": "bayamon",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "pontifical-catholic-university-of-puerto-rico-ponce-241410",
+      "institution_name": "Pontifical Catholic University of Puerto Rico-Ponce",
+      "earnings_median_5yr": 27095,
+      "earnings_median_4yr": 25405,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "universidad-ana-g-mendez-gurabo-campus-243601",
+      "institution_name": "Universidad Ana G. Mendez-Gurabo Campus",
+      "earnings_median_5yr": 25513,
+      "earnings_median_4yr": 24043,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "universidad-ana-g-mendez-cupey-campus-241739",
+      "institution_name": "Universidad Ana G. Mendez-Cupey Campus",
+      "earnings_median_5yr": 22378,
+      "earnings_median_4yr": 22196,
+      "debt_median": 33368,
+      "completers": 23,
+      "completers_single_year": 27,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "universidad-adventista-de-las-antillas-241191",
+      "institution_name": "Universidad Adventista de las Antillas",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "nuc-university-242972",
+      "institution_name": "NUC University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-puerto-rico-rio-piedras-243221",
+      "institution_name": "University of Puerto Rico-Rio Piedras",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "universidad-ana-g-mendez-carolina-campus-243346",
+      "institution_name": "Universidad Ana G. Mendez-Carolina Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "universidad-politecnica-de-puerto-rico-243577",
+      "institution_name": "Universidad Politecnica de Puerto Rico",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 6392,
+      "cost_total_default": 38352,
+      "cost_source": "NPT4_AVG",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 37206,
+      "earnings_anchor_year": 5,
+      "debt_median": 19291,
+      "cip_family": "13",
+      "hs_baseline_state": 22400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 153234,
+      "breakeven_year": 12
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

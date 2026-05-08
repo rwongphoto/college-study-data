@@ -1,0 +1,229 @@
+{
+  "institution_unitid": "129154",
+  "institution_name": "Goodwin University",
+  "institution_slug": "goodwin-university-129154",
+  "state": "ct",
+  "cip_code": "2401",
+  "cip_desc": "Liberal Arts and Sciences, General Studies and Humanities.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "2401-c2",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": null,
+  "completers": 4,
+  "completers_single_year": 6,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 8.0
+      },
+      {
+        "year": 2015,
+        "value": 7.0
+      },
+      {
+        "year": 2016,
+        "value": 4.0
+      },
+      {
+        "year": 2017,
+        "value": 5.0
+      },
+      {
+        "year": 2018,
+        "value": 6.0
+      },
+      {
+        "year": 2019,
+        "value": 4.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "129154",
+    "slug": "goodwin-university-129154",
+    "name": "Goodwin University",
+    "city": "East Hartford",
+    "city_slug": "east-hartford",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "albertus-magnus-college-128498",
+      "institution_name": "Albertus Magnus College",
+      "earnings_median_5yr": 55801,
+      "earnings_median_4yr": 52351,
+      "debt_median": 23281,
+      "completers": 20,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "charter-oak-state-college-128780",
+      "institution_name": "Charter Oak State College",
+      "earnings_median_5yr": 50074,
+      "earnings_median_4yr": 57709,
+      "debt_median": null,
+      "completers": 48,
+      "completers_single_year": 44,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-hartford-129525",
+      "institution_name": "University of Hartford",
+      "earnings_median_5yr": 43494,
+      "earnings_median_4yr": 34657,
+      "debt_median": 12000,
+      "completers": 68,
+      "completers_single_year": 97,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "connecticut-state-community-college-129367",
+      "institution_name": "Connecticut State Community College",
+      "earnings_median_5yr": 42979,
+      "earnings_median_4yr": 40478,
+      "debt_median": null,
+      "completers": 49,
+      "completers_single_year": 65,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-bridgeport-128744",
+      "institution_name": "University of Bridgeport",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 33500,
+      "completers": 9,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "eastern-connecticut-state-university-129215",
+      "institution_name": "Eastern Connecticut State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "holy-apostles-college-and-seminary-129534",
+      "institution_name": "Holy Apostles College and Seminary",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mitchell-college-129774",
+      "institution_name": "Mitchell College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-new-haven-129941",
+      "institution_name": "University of New Haven",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "sacred-heart-university-130253",
+      "institution_name": "Sacred Heart University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-connecticut-state-university-130776",
+      "institution_name": "Western Connecticut State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 30788,
+      "cost_total_default": 61576,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "24"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

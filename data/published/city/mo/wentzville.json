@@ -1,0 +1,269 @@
+{
+  "state": "mo",
+  "name": "Wentzville",
+  "slug": "wentzville",
+  "institution_count": 2,
+  "institutions": [
+    {
+      "unitid": "494685",
+      "slug": "urshan-college-494685",
+      "name": "Urshan College",
+      "city": "Wentzville",
+      "city_slug": "wentzville",
+      "control": "private_nonprofit",
+      "pred_degree": "bachelors",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": null
+        },
+        {
+          "year": 8,
+          "value": null
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": 0.55,
+      "completion_rate_history": [
+        {
+          "year": 2019,
+          "value": 0.2727
+        },
+        {
+          "year": 2020,
+          "value": 0.1176
+        },
+        {
+          "year": 2021,
+          "value": 0.3125
+        },
+        {
+          "year": 2022,
+          "value": 0.5714
+        },
+        {
+          "year": 2023,
+          "value": 0.55
+        },
+        {
+          "year": 2024,
+          "value": 0.4483
+        }
+      ],
+      "enrollment_undergrad": 512,
+      "enrollment_history": [
+        {
+          "year": 2019,
+          "value": 302.0
+        },
+        {
+          "year": 2020,
+          "value": 361.0
+        },
+        {
+          "year": 2021,
+          "value": 442.0
+        },
+        {
+          "year": 2022,
+          "value": 467.0
+        },
+        {
+          "year": 2023,
+          "value": 512.0
+        },
+        {
+          "year": 2024,
+          "value": 472.0
+        }
+      ],
+      "median_debt": 5500,
+      "default_rate": 0.0,
+      "tuition_in_state": 8506,
+      "tuition_out_of_state": 8506,
+      "long_arc": [
+        {
+          "metric": "completion_rate_150",
+          "from_year": 2019,
+          "to_year": 2024,
+          "from_value": 0.2727,
+          "to_value": 0.4483,
+          "pct_change": 0.6439310597726439,
+          "direction": "rose"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 2019,
+          "to_year": 2024,
+          "from_value": 302.0,
+          "to_value": 472.0,
+          "pct_change": 0.5629139072847682,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2019,
+          "to_year": 2024,
+          "from_value": 5556.0,
+          "to_value": 8756.0,
+          "pct_change": 0.5759539236861051,
+          "direction": "rose"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2019,
+          "to_year": 2024,
+          "from_value": 0.0,
+          "to_value": 0.3463,
+          "pct_change": 6.925999999999999,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "unitid": "455099",
+      "slug": "urshan-graduate-school-of-theology-455099",
+      "name": "Urshan Graduate School of Theology",
+      "city": "Wentzville",
+      "city_slug": "wentzville",
+      "control": "private_nonprofit",
+      "pred_degree": "graduate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": null
+        },
+        {
+          "year": 8,
+          "value": null
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": null,
+      "completion_rate_history": [],
+      "enrollment_undergrad": null,
+      "enrollment_history": [],
+      "median_debt": null,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": []
+    }
+  ],
+  "earnings_median_city": null,
+  "completion_rate_city": 0.55,
+  "completion_history_city": [
+    {
+      "year": 2019,
+      "value": 0.2727
+    },
+    {
+      "year": 2020,
+      "value": 0.1176
+    },
+    {
+      "year": 2021,
+      "value": 0.3125
+    },
+    {
+      "year": 2022,
+      "value": 0.5714
+    },
+    {
+      "year": 2023,
+      "value": 0.55
+    },
+    {
+      "year": 2024,
+      "value": 0.4483
+    }
+  ],
+  "enrollment_history_city": [
+    {
+      "year": 2019,
+      "value": 302.0
+    },
+    {
+      "year": 2020,
+      "value": 361.0
+    },
+    {
+      "year": 2021,
+      "value": 442.0
+    },
+    {
+      "year": 2022,
+      "value": 467.0
+    },
+    {
+      "year": 2023,
+      "value": 512.0
+    },
+    {
+      "year": 2024,
+      "value": 472.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

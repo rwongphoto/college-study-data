@@ -1,0 +1,236 @@
+{
+  "institution_unitid": "237312",
+  "institution_name": "University of Charleston",
+  "institution_slug": "university-of-charleston-237312",
+  "state": "wv",
+  "cip_code": "5108",
+  "cip_desc": "Allied Health and Medical Assisting Services.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "5108-c2",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 0,
+  "debt_median": 13000,
+  "completers": 23,
+  "completers_single_year": 22,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [
+      {
+        "year": 2015,
+        "value": 15750.0
+      },
+      {
+        "year": 2016,
+        "value": 14750.0
+      },
+      {
+        "year": 2017,
+        "value": 13648.0
+      },
+      {
+        "year": 2018,
+        "value": 13000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 27.0
+      },
+      {
+        "year": 2015,
+        "value": 26.0
+      },
+      {
+        "year": 2016,
+        "value": 20.0
+      },
+      {
+        "year": 2017,
+        "value": 23.0
+      },
+      {
+        "year": 2018,
+        "value": 22.0
+      },
+      {
+        "year": 2019,
+        "value": 23.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "237312",
+    "slug": "university-of-charleston-237312",
+    "name": "University of Charleston",
+    "city": "Charleston",
+    "city_slug": "charleston",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "pierpont-community-and-technical-college-443492",
+      "institution_name": "Pierpont Community and Technical College",
+      "earnings_median_5yr": 51476,
+      "earnings_median_4yr": 47197,
+      "debt_median": 13271,
+      "completers": 58,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "new-river-community-and-technical-college-447582",
+      "institution_name": "New River Community and Technical College",
+      "earnings_median_5yr": 45601,
+      "earnings_median_4yr": 32805,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "blue-ridge-community-and-technical-college-446774",
+      "institution_name": "Blue Ridge Community and Technical College",
+      "earnings_median_5yr": 44692,
+      "earnings_median_4yr": 36770,
+      "debt_median": 13479,
+      "completers": 22,
+      "completers_single_year": 28,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mountwest-community-and-technical-college-444954",
+      "institution_name": "Mountwest Community and Technical College",
+      "earnings_median_5yr": 34363,
+      "earnings_median_4yr": 30871,
+      "debt_median": 8250,
+      "completers": 26,
+      "completers_single_year": 36,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "huntington-junior-college-237437",
+      "institution_name": "Huntington Junior College",
+      "earnings_median_5yr": 20616,
+      "earnings_median_4yr": 20421,
+      "debt_median": 19395,
+      "completers": 15,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southern-west-virginia-community-and-technical-college-237817",
+      "institution_name": "Southern West Virginia Community and Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "west-virginia-junior-college-charleston-237987",
+      "institution_name": "West Virginia Junior College-Charleston",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 7195,
+      "completers": 41,
+      "completers_single_year": 27,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "west-virginia-junior-college-morgantown-237996",
+      "institution_name": "West Virginia Junior College-Morgantown",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 7395,
+      "completers": 84,
+      "completers_single_year": 99,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "west-virginia-northern-community-college-238014",
+      "institution_name": "West Virginia Northern Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bridgevalley-community-technical-college-484932",
+      "institution_name": "BridgeValley Community & Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 32319,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 21133,
+      "cost_total_default": 42266,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": 13000,
+      "cip_family": "51"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

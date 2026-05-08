@@ -1,0 +1,227 @@
+{
+  "institution_unitid": "176372",
+  "institution_name": "University of Southern Mississippi",
+  "institution_slug": "university-of-southern-mississippi-176372",
+  "state": "ms",
+  "cip_code": "5138",
+  "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+  "credential_level": 6,
+  "credential_desc": "Doctoral Degree",
+  "slug": "5138-c6",
+  "earnings_median_4yr": 184649,
+  "earnings_median_5yr": 233690,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": 143995,
+  "completers": 31,
+  "completers_single_year": 30,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 184649.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 233690.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2015,
+        "value": 115999.0
+      },
+      {
+        "year": 2016,
+        "value": 123622.0
+      },
+      {
+        "year": 2017,
+        "value": 146319.0
+      },
+      {
+        "year": 2018,
+        "value": 143995.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 21.0
+      },
+      {
+        "year": 2015,
+        "value": 28.0
+      },
+      {
+        "year": 2016,
+        "value": 22.0
+      },
+      {
+        "year": 2017,
+        "value": 32.0
+      },
+      {
+        "year": 2018,
+        "value": 30.0
+      },
+      {
+        "year": 2019,
+        "value": 31.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2015,
+      "to_year": 2018,
+      "from_value": 115999.0,
+      "to_value": 143995.0,
+      "pct_change": 0.24134690816300142,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 8.2% at Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing at University of Southern Mississippi exceeds the 8% gainful-employment threshold ($144.0k debt amortized over 10 years vs $233.7k earnings).",
+      "magnitude_pct": 8.2,
+      "magnitude_abs": 0.2,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    },
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing at University of Southern Mississippi rose 24% between 2015 and 2018 ($116.0k → $144.0k).",
+      "magnitude_pct": 24.1,
+      "magnitude_abs": 27996.0,
+      "baseline_year": 2015,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "176372",
+    "slug": "university-of-southern-mississippi-176372",
+    "name": "University of Southern Mississippi",
+    "city": "Hattiesburg",
+    "city_slug": "hattiesburg",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "delta-state-university-175616",
+      "institution_name": "Delta State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-mississippi-176017",
+      "institution_name": "University of Mississippi",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mississippi-university-for-women-176035",
+      "institution_name": "Mississippi University for Women",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "william-carey-university-176479",
+      "institution_name": "William Carey University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 8,
+      "cost_per_year_default": 16248,
+      "cost_total_default": 129984,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 233690,
+      "earnings_anchor_year": 5,
+      "debt_median": 143995,
+      "cip_family": "51",
+      "hs_baseline_state": 30200
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 2744538,
+      "breakeven_year": 9
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

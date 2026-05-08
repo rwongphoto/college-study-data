@@ -1,0 +1,181 @@
+{
+  "institution_unitid": "489779",
+  "institution_name": "Purdue University Global",
+  "institution_slug": "purdue-university-global-489779",
+  "state": "in",
+  "cip_code": "5100",
+  "cip_desc": "Health Services/Allied Health/Health Sciences, General.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "5100-c2",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": 4156,
+  "completers": 361,
+  "completers_single_year": 268,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [
+      {
+        "year": 2015,
+        "value": 6262.0
+      },
+      {
+        "year": 2016,
+        "value": 6102.0
+      },
+      {
+        "year": 2017,
+        "value": 5554.0
+      },
+      {
+        "year": 2018,
+        "value": 4156.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 0.0
+      },
+      {
+        "year": 2015,
+        "value": 0.0
+      },
+      {
+        "year": 2016,
+        "value": 1.0
+      },
+      {
+        "year": 2017,
+        "value": 357.0
+      },
+      {
+        "year": 2018,
+        "value": 268.0
+      },
+      {
+        "year": 2019,
+        "value": 361.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2015,
+      "to_year": 2018,
+      "from_value": 6262.0,
+      "to_value": 4156.0,
+      "pct_change": -0.3363142765889492,
+      "direction": "fell"
+    },
+    {
+      "metric": "completers",
+      "from_year": 2014,
+      "to_year": 2019,
+      "from_value": 0.0,
+      "to_value": 361.0,
+      "pct_change": 0.361,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Annual completers",
+      "summary": "Annual completers at Health Services/Allied Health/Health Sciences, General at Purdue University Global rose 36% between 2014 and 2019 (0 → 361).",
+      "magnitude_pct": 36.1,
+      "magnitude_abs": 361.0,
+      "baseline_year": 2014,
+      "recent_year": 2019,
+      "units": null,
+      "history": [],
+      "metric": "completers"
+    },
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Health Services/Allied Health/Health Sciences, General at Purdue University Global fell 34% between 2015 and 2018 ($6.3k → $4.2k).",
+      "magnitude_pct": -33.6,
+      "magnitude_abs": -2106.0,
+      "baseline_year": 2015,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "489779",
+    "slug": "purdue-university-global-489779",
+    "name": "Purdue University Global",
+    "city": "West Lafayette",
+    "city_slug": "west-lafayette",
+    "control": "public"
+  },
+  "peers_in_state": [],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 12267,
+      "cost_total_default": 24534,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": 4156,
+      "cip_family": "51"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "institution_unitid": "174783",
+  "institution_name": "Saint Cloud State University",
+  "institution_slug": "saint-cloud-state-university-174783",
+  "state": "mn",
+  "cip_code": "5107",
+  "cip_desc": "Health and Medical Administrative Services.",
+  "credential_level": 8,
+  "credential_desc": "Graduate/Professional Certificate",
+  "slug": "5107-c8",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": null,
+  "completers": 1,
+  "completers_single_year": 0,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 13.0
+      },
+      {
+        "year": 2015,
+        "value": 5.0
+      },
+      {
+        "year": 2016,
+        "value": 2.0
+      },
+      {
+        "year": 2017,
+        "value": 2.0
+      },
+      {
+        "year": 2018,
+        "value": 0.0
+      },
+      {
+        "year": 2019,
+        "value": 1.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "174783",
+    "slug": "saint-cloud-state-university-174783",
+    "name": "Saint Cloud State University",
+    "city": "Saint Cloud",
+    "city_slug": "saint-cloud",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-minnesota-twin-cities-174066",
+      "institution_name": "University of Minnesota-Twin Cities",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-college-of-saint-scholastica-174899",
+      "institution_name": "The College of Saint Scholastica",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "capella-university-413413",
+      "institution_name": "Capella University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 74137,
+      "debt_median": 38587,
+      "completers": 10,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 5,
+      "cost_per_year_default": 13125,
+      "cost_total_default": 65625,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "51"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

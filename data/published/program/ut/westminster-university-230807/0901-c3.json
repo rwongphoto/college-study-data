@@ -1,0 +1,216 @@
+{
+  "institution_unitid": "230807",
+  "institution_name": "Westminster University",
+  "institution_slug": "westminster-university-230807",
+  "state": "ut",
+  "cip_code": "0901",
+  "cip_desc": "Communication and Media Studies.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "0901-c3",
+  "earnings_median_4yr": 50739,
+  "earnings_median_5yr": 53741,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 1,
+  "debt_median": 25000,
+  "completers": 17,
+  "completers_single_year": 18,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 50739.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 53741.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 22500.0
+      },
+      {
+        "year": 2015,
+        "value": 20500.0
+      },
+      {
+        "year": 2018,
+        "value": 25000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 27.0
+      },
+      {
+        "year": 2015,
+        "value": 17.0
+      },
+      {
+        "year": 2016,
+        "value": 23.0
+      },
+      {
+        "year": 2017,
+        "value": 23.0
+      },
+      {
+        "year": 2018,
+        "value": 18.0
+      },
+      {
+        "year": 2019,
+        "value": 17.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "230807",
+    "slug": "westminster-university-230807",
+    "name": "Westminster University",
+    "city": "Salt Lake City",
+    "city_slug": "salt-lake-city",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "utah-valley-university-230737",
+      "institution_name": "Utah Valley University",
+      "earnings_median_5yr": 61012,
+      "earnings_median_4yr": 51811,
+      "debt_median": 13942,
+      "completers": 202,
+      "completers_single_year": 196,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-utah-230764",
+      "institution_name": "University of Utah",
+      "earnings_median_5yr": 58546,
+      "earnings_median_4yr": 53623,
+      "debt_median": 17500,
+      "completers": 336,
+      "completers_single_year": 347,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "weber-state-university-230782",
+      "institution_name": "Weber State University",
+      "earnings_median_5yr": 55670,
+      "earnings_median_4yr": 45678,
+      "debt_median": 16749,
+      "completers": 95,
+      "completers_single_year": 101,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "utah-tech-university-230171",
+      "institution_name": "Utah Tech University",
+      "earnings_median_5yr": 53376,
+      "earnings_median_4yr": 47417,
+      "debt_median": 19555,
+      "completers": 88,
+      "completers_single_year": 107,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southern-utah-university-230603",
+      "institution_name": "Southern Utah University",
+      "earnings_median_5yr": 50072,
+      "earnings_median_4yr": 43818,
+      "debt_median": 12450,
+      "completers": 86,
+      "completers_single_year": 79,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "brigham-young-university-230038",
+      "institution_name": "Brigham Young University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 19680,
+      "completers": 84,
+      "completers_single_year": 71,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "utah-state-university-230728",
+      "institution_name": "Utah State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 13960,
+      "completers": 54,
+      "completers_single_year": 69,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 21345,
+      "cost_total_default": 85380,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 53741,
+      "earnings_anchor_year": 5,
+      "debt_median": 25000,
+      "cip_family": "09",
+      "hs_baseline_state": 38000
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 226237,
+      "breakeven_year": 16
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

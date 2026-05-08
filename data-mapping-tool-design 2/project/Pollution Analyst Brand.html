@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Pollution Analyst — Brand Assets</title>
+  <link rel="icon" href="assets/favicon.ico"/>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg"/>
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --bg:#0E1116; --bg-2:#141821; --bg-3:#1B2030;
+      --fg:#E8ECF2; --fg-2:#BFC6D4; --fg-3:#8A93A6; --fg-4:#5C6577;
+      --line:#262C3A; --line-2:#3A4257;
+      --mono: 'JetBrains Mono', monospace;
+      --sans: 'Inter', sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body { margin:0; background: var(--bg); color: var(--fg); font-family: var(--sans); }
+    .wrap { max-width: 1200px; margin: 0 auto; padding: 56px 32px; }
+    h1 { font-size: 40px; font-weight: 600; letter-spacing: -0.02em; margin: 0; }
+    .sub { color: var(--fg-3); font-family: var(--mono); font-size: 12px; letter-spacing: 0.08em; margin-top: 8px; text-transform: uppercase; }
+    h2 { font-size: 16px; font-family: var(--mono); letter-spacing: 0.08em; color: var(--fg-3); text-transform: uppercase; margin: 56px 0 18px; font-weight: 500; border-top: 1px solid var(--line); padding-top: 22px; }
+
+    .grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 14px; }
+    .cell { background: var(--bg-2); border: 1px solid var(--line); border-radius: 6px; padding: 22px; display: flex; flex-direction: column; align-items: center; gap: 14px; }
+    .cell .lbl { font-family: var(--mono); font-size: 11px; color: var(--fg-3); letter-spacing: 0.06em; }
+    .frame { background: var(--bg); border: 1px dashed var(--line-2); border-radius: 4px; padding: 12px; }
+
+    .lockup-row { background: var(--bg-2); border: 1px solid var(--line); border-radius: 6px; padding: 32px; display: grid; gap: 32px; }
+    .lock-h { display: flex; align-items: center; gap: 16px; padding: 14px 18px; border: 1px solid var(--line); border-radius: 4px; background: var(--bg); }
+    .lock-h img { height: 44px; }
+    .lock-h .nav { margin-left: auto; display: flex; gap: 22px; color: var(--fg-3); font-size: 13px; }
+
+    .browser { background: var(--bg-2); border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+    .browser .bar { background: #20242E; padding: 10px 14px; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid var(--line); }
+    .browser .bar .dot { width: 12px; height: 12px; border-radius: 50%; background: var(--line-2); }
+    .browser .tabs { display: flex; gap: 0; padding: 6px 6px 0; background: #20242E; }
+    .browser .tab { background: var(--bg-2); padding: 8px 14px; display: flex; align-items: center; gap: 8px; font-size: 12px; border-radius: 6px 6px 0 0; color: var(--fg-2); }
+    .browser .tab img { width: 16px; height: 16px; }
+    .body { padding: 24px; color: var(--fg-3); font-size: 13px; }
+
+    .og-shot { background: var(--bg-2); border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+    .og-shot img { display: block; width: 100%; }
+    .og-meta { padding: 14px 18px; font-family: var(--mono); font-size: 11px; color: var(--fg-3); letter-spacing: 0.06em; }
+
+    .file-list { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .fr { background: var(--bg-2); border: 1px solid var(--line); border-radius: 6px; padding: 16px 20px; display: flex; justify-content: space-between; align-items: center; gap: 18px; }
+    .fr .nm { font-family: var(--mono); font-size: 13px; color: var(--fg); }
+    .fr .nt { font-size: 12px; color: var(--fg-3); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Pollution Analyst — brand assets</h1>
+    <div class="sub">Smokestacks mark · transparent BG · amber→red smoke gradient</div>
+
+    <h2>Favicon at all sizes</h2>
+    <div class="grid">
+      <div class="cell"><div class="frame"><img src="assets/favicon-16.png" width="16" height="16"/></div><div class="lbl">16×16</div></div>
+      <div class="cell"><div class="frame"><img src="assets/favicon-32.png" width="32" height="32"/></div><div class="lbl">32×32</div></div>
+      <div class="cell"><div class="frame"><img src="assets/favicon-48.png" width="48" height="48"/></div><div class="lbl">48×48</div></div>
+      <div class="cell"><div class="frame"><img src="assets/favicon-64.png" width="64" height="64"/></div><div class="lbl">64×64</div></div>
+      <div class="cell"><div class="frame"><img src="assets/apple-touch-icon.png" width="120" height="120"/></div><div class="lbl">apple 180</div></div>
+      <div class="cell"><div class="frame"><img src="assets/favicon-512.png" width="120" height="120"/></div><div class="lbl">512×512</div></div>
+    </div>
+
+    <h2>Browser tabs (real-world rendering)</h2>
+    <div class="browser">
+      <div class="bar">
+        <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+      </div>
+      <div class="tabs">
+        <div class="tab"><img src="assets/favicon-32.png"/>Pollution Analyst — Bay Area</div>
+        <div class="tab" style="opacity:0.55"><img src="assets/favicon-32.png"/>Tract 06001405100</div>
+      </div>
+      <div class="body">Browser tab preview · 16px favicon shown at 2× density</div>
+    </div>
+
+    <h2>Header lockup</h2>
+    <div class="lockup-row">
+      <div class="lock-h">
+        <img src="assets/logo-lockup.svg" alt="Pollution Analyst"/>
+        <div class="nav"><span>Region</span><span>Tracts</span><span>Correlations</span><span>Methodology</span></div>
+      </div>
+      <div class="lock-h" style="background: #fff;">
+        <img src="assets/logo-lockup.svg" alt="Pollution Analyst" style="filter: invert(1) hue-rotate(180deg);"/>
+        <div class="nav" style="color: #555;"><span>Region</span><span>Tracts</span><span>Correlations</span><span>Methodology</span></div>
+      </div>
+    </div>
+
+    <h2>Open-graph card (1200×630)</h2>
+    <div class="og-shot">
+      <img src="assets/og-card.png"/>
+      <div class="og-meta">og-card.png · social previews on Twitter, LinkedIn, Slack, etc.</div>
+    </div>
+
+    <h2>Files in /assets/</h2>
+    <div class="file-list">
+      <div class="fr"><span class="nm">favicon.svg</span><span class="nt">vector master · scales perfectly</span></div>
+      <div class="fr"><span class="nm">favicon.ico</span><span class="nt">multi-res · 16/32/48 in one file</span></div>
+      <div class="fr"><span class="nm">favicon-16.png</span><span class="nt">simplified silhouette for tabs</span></div>
+      <div class="fr"><span class="nm">favicon-32.png</span><span class="nt">retina tab</span></div>
+      <div class="fr"><span class="nm">favicon-48/64.png</span><span class="nt">Windows / pinned tabs</span></div>
+      <div class="fr"><span class="nm">apple-touch-icon.png</span><span class="nt">iOS home-screen 180px</span></div>
+      <div class="fr"><span class="nm">favicon-512.png</span><span class="nt">PWA manifest</span></div>
+      <div class="fr"><span class="nm">logo-lockup.svg</span><span class="nt">horizontal mark + wordmark</span></div>
+      <div class="fr"><span class="nm">og-card.png</span><span class="nt">1200×630 social card</span></div>
+    </div>
+  </div>
+</body>
+</html>

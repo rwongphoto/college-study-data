@@ -1,0 +1,174 @@
+{
+  "institution_unitid": "174066",
+  "institution_name": "University of Minnesota-Twin Cities",
+  "institution_slug": "university-of-minnesota-twin-cities-174066",
+  "state": "mn",
+  "cip_code": "1105",
+  "cip_desc": "Computer Systems Analysis.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1105-c3",
+  "earnings_median_4yr": 95664,
+  "earnings_median_5yr": 110382,
+  "earnings_count_4yr": 5,
+  "earnings_count_5yr": 3,
+  "debt_median": 20041,
+  "completers": 143,
+  "completers_single_year": 153,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 95664.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 110382.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 19856.0
+      },
+      {
+        "year": 2015,
+        "value": 20500.0
+      },
+      {
+        "year": 2016,
+        "value": 20281.0
+      },
+      {
+        "year": 2017,
+        "value": 20500.0
+      },
+      {
+        "year": 2018,
+        "value": 20041.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 112.0
+      },
+      {
+        "year": 2015,
+        "value": 102.0
+      },
+      {
+        "year": 2016,
+        "value": 119.0
+      },
+      {
+        "year": 2017,
+        "value": 138.0
+      },
+      {
+        "year": 2018,
+        "value": 153.0
+      },
+      {
+        "year": 2019,
+        "value": 143.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "174066",
+    "slug": "university-of-minnesota-twin-cities-174066",
+    "name": "University of Minnesota-Twin Cities",
+    "city": "Minneapolis",
+    "city_slug": "minneapolis",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "rasmussen-university-minnesota-175014",
+      "institution_name": "Rasmussen University-Minnesota",
+      "earnings_median_5yr": 86346,
+      "earnings_median_4yr": 77746,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "dunwoody-college-of-technology-175227",
+      "institution_name": "Dunwoody College of Technology",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 10861,
+      "cost_total_default": 43444,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 110382,
+      "earnings_anchor_year": 5,
+      "debt_median": 20041,
+      "cip_family": "11",
+      "hs_baseline_state": 39400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 1514863,
+      "breakeven_year": 5
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

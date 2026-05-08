@@ -1,0 +1,271 @@
+{
+  "institution_unitid": "238616",
+  "institution_name": "Concordia University-Wisconsin",
+  "institution_slug": "concordia-university-wisconsin-238616",
+  "state": "wi",
+  "cip_code": "5123",
+  "cip_desc": "Rehabilitation and Therapeutic Professions.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5123-c5",
+  "earnings_median_4yr": 66182,
+  "earnings_median_5yr": 73744,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 2,
+  "debt_median": 45750,
+  "completers": 59,
+  "completers_single_year": 27,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 66182.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 73744.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 33500.0
+      },
+      {
+        "year": 2015,
+        "value": 36418.0
+      },
+      {
+        "year": 2016,
+        "value": 45071.0
+      },
+      {
+        "year": 2017,
+        "value": 40983.0
+      },
+      {
+        "year": 2018,
+        "value": 45750.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 63.0
+      },
+      {
+        "year": 2015,
+        "value": 55.0
+      },
+      {
+        "year": 2016,
+        "value": 76.0
+      },
+      {
+        "year": 2017,
+        "value": 44.0
+      },
+      {
+        "year": 2018,
+        "value": 27.0
+      },
+      {
+        "year": 2019,
+        "value": 59.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 33500.0,
+      "to_value": 45750.0,
+      "pct_change": 0.3656716417910448,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 8.3% at Rehabilitation and Therapeutic Professions at Concordia University-Wisconsin exceeds the 8% gainful-employment threshold ($45.8k debt amortized over 10 years vs $73.7k earnings).",
+      "magnitude_pct": 8.3,
+      "magnitude_abs": 0.3,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    },
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Rehabilitation and Therapeutic Professions at Concordia University-Wisconsin rose 37% between 2014 and 2018 ($33.5k → $45.8k).",
+      "magnitude_pct": 36.6,
+      "magnitude_abs": 12250.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "238616",
+    "slug": "concordia-university-wisconsin-238616",
+    "name": "Concordia University-Wisconsin",
+    "city": "Mequon",
+    "city_slug": "mequon",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-wisconsin-madison-240444",
+      "institution_name": "University of Wisconsin-Madison",
+      "earnings_median_5yr": 73582,
+      "earnings_median_4yr": 65702,
+      "debt_median": 40685,
+      "completers": 36,
+      "completers_single_year": 35,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-la-crosse-240329",
+      "institution_name": "University of Wisconsin-La Crosse",
+      "earnings_median_5yr": 59985,
+      "earnings_median_4yr": 61670,
+      "debt_median": 41333,
+      "completers": 35,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mount-mary-university-239390",
+      "institution_name": "Mount Mary University",
+      "earnings_median_5yr": 53284,
+      "earnings_median_4yr": 53543,
+      "debt_median": 52515,
+      "completers": 102,
+      "completers_single_year": 108,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-milwaukee-240453",
+      "institution_name": "University of Wisconsin-Milwaukee",
+      "earnings_median_5yr": 52819,
+      "earnings_median_4yr": 56042,
+      "debt_median": 60250,
+      "completers": 31,
+      "completers_single_year": 29,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "carroll-university-238458",
+      "institution_name": "Carroll University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 51250,
+      "completers": 43,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "marquette-university-239105",
+      "institution_name": "Marquette University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-stout-240417",
+      "institution_name": "University of Wisconsin-Stout",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 29295,
+      "completers": 23,
+      "completers_single_year": 25,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-superior-240426",
+      "institution_name": "University of Wisconsin-Superior",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 24914,
+      "cost_total_default": 149484,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 73744,
+      "earnings_anchor_year": 5,
+      "debt_median": 45750,
+      "cip_family": "51",
+      "hs_baseline_state": 37100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 444846,
+      "breakeven_year": 14
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

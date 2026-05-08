@@ -1,0 +1,178 @@
+{
+  "institution_unitid": "131496",
+  "institution_name": "Georgetown University",
+  "institution_slug": "georgetown-university-131496",
+  "state": "dc",
+  "cip_code": "3005",
+  "cip_desc": "Peace Studies and Conflict Resolution.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "3005-c5",
+  "earnings_median_4yr": 74286,
+  "earnings_median_5yr": 90504,
+  "earnings_count_4yr": 4,
+  "earnings_count_5yr": 5,
+  "debt_median": 104270,
+  "completers": 25,
+  "completers_single_year": 17,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 74286.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 90504.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 91937.0
+      },
+      {
+        "year": 2015,
+        "value": 97610.0
+      },
+      {
+        "year": 2016,
+        "value": 97725.0
+      },
+      {
+        "year": 2017,
+        "value": 101738.0
+      },
+      {
+        "year": 2018,
+        "value": 104270.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 33.0
+      },
+      {
+        "year": 2015,
+        "value": 27.0
+      },
+      {
+        "year": 2016,
+        "value": 24.0
+      },
+      {
+        "year": 2017,
+        "value": 28.0
+      },
+      {
+        "year": 2018,
+        "value": 17.0
+      },
+      {
+        "year": 2019,
+        "value": 25.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 15.3% at Peace Studies and Conflict Resolution at Georgetown University exceeds the 8% gainful-employment threshold ($104.3k debt amortized over 10 years vs $90.5k earnings).",
+      "magnitude_pct": 15.3,
+      "magnitude_abs": 7.3,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "131496",
+    "slug": "georgetown-university-131496",
+    "name": "Georgetown University",
+    "city": "Washington",
+    "city_slug": "washington",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "american-university-131159",
+      "institution_name": "American University",
+      "earnings_median_5yr": 92285,
+      "earnings_median_4yr": 80653,
+      "debt_median": 62122,
+      "completers": 36,
+      "completers_single_year": 47,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 5,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 13464,
+      "cost_total_default": 80784,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 90504,
+      "earnings_anchor_year": 5,
+      "debt_median": 104270,
+      "cip_family": "30",
+      "hs_baseline_state": 47200
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 625441,
+      "breakeven_year": 10
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

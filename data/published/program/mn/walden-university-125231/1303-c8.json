@@ -1,0 +1,253 @@
+{
+  "institution_unitid": "125231",
+  "institution_name": "Walden University",
+  "institution_slug": "walden-university-125231",
+  "state": "mn",
+  "cip_code": "1303",
+  "cip_desc": "Curriculum and Instruction.",
+  "credential_level": 8,
+  "credential_desc": "Graduate/Professional Certificate",
+  "slug": "1303-c8",
+  "earnings_median_4yr": 62564,
+  "earnings_median_5yr": 70987,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 2,
+  "debt_median": 122882,
+  "completers": 2,
+  "completers_single_year": 3,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 62564.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 70987.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 65667.0
+      },
+      {
+        "year": 2015,
+        "value": 69146.0
+      },
+      {
+        "year": 2016,
+        "value": 81182.0
+      },
+      {
+        "year": 2017,
+        "value": 87851.0
+      },
+      {
+        "year": 2018,
+        "value": 122882.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2015,
+        "value": 0.0
+      },
+      {
+        "year": 2016,
+        "value": 0.0
+      },
+      {
+        "year": 2017,
+        "value": 1.0
+      },
+      {
+        "year": 2018,
+        "value": 3.0
+      },
+      {
+        "year": 2019,
+        "value": 2.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 65667.0,
+      "to_value": 122882.0,
+      "pct_change": 0.8712899934518099,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 23.1% at Curriculum and Instruction at Walden University exceeds the 8% gainful-employment threshold ($122.9k debt amortized over 10 years vs $71.0k earnings).",
+      "magnitude_pct": 23.1,
+      "magnitude_abs": 15.1,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    },
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Curriculum and Instruction at Walden University rose 87% between 2014 and 2018 ($65.7k → $122.9k).",
+      "magnitude_pct": 87.1,
+      "magnitude_abs": 57215.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "125231",
+    "slug": "walden-university-125231",
+    "name": "Walden University",
+    "city": "Minneapolis",
+    "city_slug": "minneapolis",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "concordia-university-saint-paul-173328",
+      "institution_name": "Concordia University-Saint Paul",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "minnesota-state-university-moorhead-174358",
+      "institution_name": "Minnesota State University Moorhead",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-mary-s-university-of-minnesota-174817",
+      "institution_name": "Saint Mary's University of Minnesota",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-college-of-saint-scholastica-174899",
+      "institution_name": "The College of Saint Scholastica",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-st-thomas-174914",
+      "institution_name": "University of St Thomas",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "winona-state-university-175272",
+      "institution_name": "Winona State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "capella-university-413413",
+      "institution_name": "Capella University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 64919,
+      "completers": 22,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 5,
+      "cost_per_year_default": null,
+      "cost_total_default": null,
+      "cost_source": null,
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 70987,
+      "earnings_anchor_year": 5,
+      "debt_median": 122882,
+      "cip_family": "13"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "institution_unitid": "220862",
+  "institution_name": "University of Memphis",
+  "institution_slug": "university-of-memphis-220862",
+  "state": "tn",
+  "cip_code": "1311",
+  "cip_desc": "Student Counseling and Personnel Services.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "1311-c5",
+  "earnings_median_4yr": 50328,
+  "earnings_median_5yr": 54679,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 3,
+  "debt_median": 39554,
+  "completers": 36,
+  "completers_single_year": 44,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 50328.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 54679.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 40336.0
+      },
+      {
+        "year": 2015,
+        "value": 42786.0
+      },
+      {
+        "year": 2016,
+        "value": 39311.0
+      },
+      {
+        "year": 2017,
+        "value": 33160.0
+      },
+      {
+        "year": 2018,
+        "value": 39554.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 44.0
+      },
+      {
+        "year": 2015,
+        "value": 40.0
+      },
+      {
+        "year": 2016,
+        "value": 32.0
+      },
+      {
+        "year": 2017,
+        "value": 26.0
+      },
+      {
+        "year": 2018,
+        "value": 44.0
+      },
+      {
+        "year": 2019,
+        "value": 36.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 9.6% at Student Counseling and Personnel Services at University of Memphis exceeds the 8% gainful-employment threshold ($39.6k debt amortized over 10 years vs $54.7k earnings).",
+      "magnitude_pct": 9.6,
+      "magnitude_abs": 1.6,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "220862",
+    "slug": "university-of-memphis-220862",
+    "name": "University of Memphis",
+    "city": "Memphis",
+    "city_slug": "memphis",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "vanderbilt-university-221999",
+      "institution_name": "Vanderbilt University",
+      "earnings_median_5yr": 57591,
+      "earnings_median_4yr": 51771,
+      "debt_median": 77250,
+      "completers": 42,
+      "completers_single_year": 51,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "middle-tennessee-state-university-220978",
+      "institution_name": "Middle Tennessee State University",
+      "earnings_median_5yr": 53913,
+      "earnings_median_4yr": 46510,
+      "debt_median": 39750,
+      "completers": 2,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-university-of-tennessee-martin-221768",
+      "institution_name": "The University of Tennessee-Martin",
+      "earnings_median_5yr": 53033,
+      "earnings_median_4yr": 47392,
+      "debt_median": 49814,
+      "completers": 18,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-university-of-tennessee-chattanooga-221740",
+      "institution_name": "The University of Tennessee-Chattanooga",
+      "earnings_median_5yr": 51069,
+      "earnings_median_4yr": 43472,
+      "debt_median": 37675,
+      "completers": 14,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "tennessee-technological-university-221847",
+      "institution_name": "Tennessee Technological University",
+      "earnings_median_5yr": 50438,
+      "earnings_median_4yr": 46056,
+      "debt_median": 37328,
+      "completers": 18,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-university-of-tennessee-knoxville-221759",
+      "institution_name": "The University of Tennessee-Knoxville",
+      "earnings_median_5yr": 48602,
+      "earnings_median_4yr": 46590,
+      "debt_median": 18950,
+      "completers": 17,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "austin-peay-state-university-219602",
+      "institution_name": "Austin Peay State University",
+      "earnings_median_5yr": 43621,
+      "earnings_median_4yr": 40680,
+      "debt_median": 41000,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "east-tennessee-state-university-220075",
+      "institution_name": "East Tennessee State University",
+      "earnings_median_5yr": 42478,
+      "earnings_median_4yr": 36695,
+      "debt_median": 34650,
+      "completers": 21,
+      "completers_single_year": 25,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "carson-newman-university-219806",
+      "institution_name": "Carson-Newman University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lipscomb-university-219976",
+      "institution_name": "Lipscomb University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "freed-hardeman-university-220215",
+      "institution_name": "Freed-Hardeman University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "johnson-university-220473",
+      "institution_name": "Johnson University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lee-university-220613",
+      "institution_name": "Lee University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lincoln-memorial-university-220631",
+      "institution_name": "Lincoln Memorial University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 41250,
+      "debt_median": 32500,
+      "completers": 7,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "tennessee-state-university-221838",
+      "institution_name": "Tennessee State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 15357,
+      "cost_total_default": 92142,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 54679,
+      "earnings_anchor_year": 5,
+      "debt_median": 39554,
+      "cip_family": "13",
+      "hs_baseline_state": 34600
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 165698,
+      "breakeven_year": 17
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

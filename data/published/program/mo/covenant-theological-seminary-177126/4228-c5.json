@@ -1,0 +1,282 @@
+{
+  "institution_unitid": "177126",
+  "institution_name": "Covenant Theological Seminary",
+  "institution_slug": "covenant-theological-seminary-177126",
+  "state": "mo",
+  "cip_code": "4228",
+  "cip_desc": "Clinical, Counseling and Applied Psychology.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "4228-c5",
+  "earnings_median_4yr": 40819,
+  "earnings_median_5yr": 43790,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 2,
+  "debt_median": 22500,
+  "completers": 39,
+  "completers_single_year": 29,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 40819.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 43790.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2015,
+        "value": 30600.0
+      },
+      {
+        "year": 2016,
+        "value": 29084.0
+      },
+      {
+        "year": 2017,
+        "value": 28600.0
+      },
+      {
+        "year": 2018,
+        "value": 22500.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2016,
+        "value": 36.0
+      },
+      {
+        "year": 2017,
+        "value": 31.0
+      },
+      {
+        "year": 2018,
+        "value": 29.0
+      },
+      {
+        "year": 2019,
+        "value": 39.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2015,
+      "to_year": 2018,
+      "from_value": 30600.0,
+      "to_value": 22500.0,
+      "pct_change": -0.2647058823529412,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Clinical, Counseling and Applied Psychology at Covenant Theological Seminary fell 26% between 2015 and 2018 ($30.6k → $22.5k).",
+      "magnitude_pct": -26.5,
+      "magnitude_abs": -8100.0,
+      "baseline_year": 2015,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "177126",
+    "slug": "covenant-theological-seminary-177126",
+    "name": "Covenant Theological Seminary",
+    "city": "Saint Louis",
+    "city_slug": "saint-louis",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-missouri-st-louis-178420",
+      "institution_name": "University of Missouri-St Louis",
+      "earnings_median_5yr": 55479,
+      "earnings_median_4yr": 50604,
+      "debt_median": 42593,
+      "completers": 13,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "avila-university-176628",
+      "institution_name": "Avila University",
+      "earnings_median_5yr": 53636,
+      "earnings_median_4yr": 47390,
+      "debt_median": 37772,
+      "completers": 43,
+      "completers_single_year": 34,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "evangel-university-177339",
+      "institution_name": "Evangel University",
+      "earnings_median_5yr": 50710,
+      "earnings_median_4yr": 40918,
+      "debt_median": 41000,
+      "completers": 13,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "webster-university-179894",
+      "institution_name": "Webster University",
+      "earnings_median_5yr": 47411,
+      "earnings_median_4yr": 44457,
+      "debt_median": 61283,
+      "completers": 118,
+      "completers_single_year": 168,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "central-methodist-university-college-of-liberal-arts-and-sciences-176947",
+      "institution_name": "Central Methodist University-College of Liberal Arts and Sciences",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 56615,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-central-missouri-176965",
+      "institution_name": "University of Central Missouri",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 35668,
+      "completers": 13,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "maryville-university-of-saint-louis-178059",
+      "institution_name": "Maryville University of Saint Louis",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-missouri-columbia-178396",
+      "institution_name": "University of Missouri-Columbia",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "missouri-university-of-science-and-technology-178411",
+      "institution_name": "Missouri University of Science and Technology",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 14,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-louis-university-179159",
+      "institution_name": "Saint Louis University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 19,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southeast-missouri-state-university-179557",
+      "institution_name": "Southeast Missouri State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 30189,
+      "completers": 18,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "missouri-state-university-springfield-179566",
+      "institution_name": "Missouri State University-Springfield",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": null,
+      "cost_total_default": null,
+      "cost_source": null,
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 43790,
+      "earnings_anchor_year": 5,
+      "debt_median": 22500,
+      "cip_family": "42"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

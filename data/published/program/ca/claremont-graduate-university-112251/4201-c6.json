@@ -1,0 +1,336 @@
+{
+  "institution_unitid": "112251",
+  "institution_name": "Claremont Graduate University",
+  "institution_slug": "claremont-graduate-university-112251",
+  "state": "ca",
+  "cip_code": "4201",
+  "cip_desc": "Psychology, General.",
+  "credential_level": 6,
+  "credential_desc": "Doctoral Degree",
+  "slug": "4201-c6",
+  "earnings_median_4yr": 93208,
+  "earnings_median_5yr": 85289,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 1,
+  "debt_median": 98030,
+  "completers": 16,
+  "completers_single_year": 24,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 93208.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 85289.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 162250.0
+      },
+      {
+        "year": 2015,
+        "value": 159358.0
+      },
+      {
+        "year": 2016,
+        "value": 146739.0
+      },
+      {
+        "year": 2017,
+        "value": 106000.0
+      },
+      {
+        "year": 2018,
+        "value": 98030.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 23.0
+      },
+      {
+        "year": 2015,
+        "value": 17.0
+      },
+      {
+        "year": 2016,
+        "value": 20.0
+      },
+      {
+        "year": 2017,
+        "value": 20.0
+      },
+      {
+        "year": 2018,
+        "value": 24.0
+      },
+      {
+        "year": 2019,
+        "value": 16.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 162250.0,
+      "to_value": 98030.0,
+      "pct_change": -0.39580893682588597,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 15.3% at Psychology, General at Claremont Graduate University exceeds the 8% gainful-employment threshold ($98.0k debt amortized over 10 years vs $85.3k earnings).",
+      "magnitude_pct": 15.3,
+      "magnitude_abs": 7.3,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    },
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Psychology, General at Claremont Graduate University fell 40% between 2014 and 2018 ($162.2k → $98.0k).",
+      "magnitude_pct": -39.6,
+      "magnitude_abs": -64220.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "112251",
+    "slug": "claremont-graduate-university-112251",
+    "name": "Claremont Graduate University",
+    "city": "Claremont",
+    "city_slug": "claremont",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "loma-linda-university-117636",
+      "institution_name": "Loma Linda University",
+      "earnings_median_5yr": 108593,
+      "earnings_median_4yr": 92475,
+      "debt_median": 235323,
+      "completers": 17,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northcentral-university-444130",
+      "institution_name": "Northcentral University",
+      "earnings_median_5yr": 102244,
+      "earnings_median_4yr": 97273,
+      "debt_median": 84513,
+      "completers": 88,
+      "completers_single_year": 57,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-california-los-angeles-110662",
+      "institution_name": "University of California-Los Angeles",
+      "earnings_median_5yr": 93867,
+      "earnings_median_4yr": 98189,
+      "debt_median": null,
+      "completers": 18,
+      "completers_single_year": 27,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saybrook-university-123095",
+      "institution_name": "Saybrook University",
+      "earnings_median_5yr": 70831,
+      "earnings_median_4yr": 72672,
+      "debt_median": 242174,
+      "completers": 18,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-california-berkeley-110635",
+      "institution_name": "University of California-Berkeley",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-california-davis-110644",
+      "institution_name": "University of California-Davis",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-california-irvine-110653",
+      "institution_name": "University of California-Irvine",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-california-riverside-110671",
+      "institution_name": "University of California-Riverside",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 81645,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-california-san-diego-110680",
+      "institution_name": "University of California-San Diego",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-california-santa-barbara-110705",
+      "institution_name": "University of California-Santa Barbara",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-california-santa-cruz-110714",
+      "institution_name": "University of California-Santa Cruz",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-san-francisco-122612",
+      "institution_name": "University of San Francisco",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-southern-california-123961",
+      "institution_name": "University of Southern California",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ashford-university-154022",
+      "institution_name": "Ashford University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "stanford-university-243744",
+      "institution_name": "Stanford University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-california-merced-445188",
+      "institution_name": "University of California-Merced",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-chicago-school-at-los-angeles-455664",
+      "institution_name": "The Chicago School at Los Angeles",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

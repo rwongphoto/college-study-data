@@ -1,0 +1,218 @@
+{
+  "institution_unitid": "218663",
+  "institution_name": "University of South Carolina-Columbia",
+  "institution_slug": "university-of-south-carolina-columbia-218663",
+  "state": "sc",
+  "cip_code": "5210",
+  "cip_desc": "Human Resources Management and Services.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5210-c5",
+  "earnings_median_4yr": 111528,
+  "earnings_median_5yr": 122353,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 4,
+  "debt_median": 30442,
+  "completers": 41,
+  "completers_single_year": 36,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 111528.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 122353.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 38847.0
+      },
+      {
+        "year": 2015,
+        "value": 37047.0
+      },
+      {
+        "year": 2016,
+        "value": 35979.0
+      },
+      {
+        "year": 2017,
+        "value": 34176.0
+      },
+      {
+        "year": 2018,
+        "value": 30442.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 41.0
+      },
+      {
+        "year": 2015,
+        "value": 45.0
+      },
+      {
+        "year": 2016,
+        "value": 43.0
+      },
+      {
+        "year": 2017,
+        "value": 37.0
+      },
+      {
+        "year": 2018,
+        "value": 36.0
+      },
+      {
+        "year": 2019,
+        "value": 41.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 38847.0,
+      "to_value": 30442.0,
+      "pct_change": -0.21636162380621413,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Human Resources Management and Services at University of South Carolina-Columbia fell 22% between 2014 and 2018 ($38.8k → $30.4k).",
+      "magnitude_pct": -21.6,
+      "magnitude_abs": -8405.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "218663",
+    "slug": "university-of-south-carolina-columbia-218663",
+    "name": "University of South Carolina-Columbia",
+    "city": "Columbia",
+    "city_slug": "columbia",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "clemson-university-217882",
+      "institution_name": "Clemson University",
+      "earnings_median_5yr": 76739,
+      "earnings_median_4yr": 68661,
+      "debt_median": null,
+      "completers": 61,
+      "completers_single_year": 28,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southern-wesleyan-university-217776",
+      "institution_name": "Southern Wesleyan University",
+      "earnings_median_5yr": 72496,
+      "earnings_median_4yr": 59297,
+      "debt_median": 31000,
+      "completers": 23,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "anderson-university-217633",
+      "institution_name": "Anderson University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "charleston-southern-university-217688",
+      "institution_name": "Charleston Southern University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 4,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 22744,
+      "cost_total_default": 136464,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 122353,
+      "earnings_anchor_year": 5,
+      "debt_median": 30442,
+      "cip_family": "52",
+      "hs_baseline_state": 33700
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 1356556,
+      "breakeven_year": 8
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

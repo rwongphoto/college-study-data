@@ -1,0 +1,163 @@
+{
+  "institution_unitid": "129525",
+  "institution_name": "University of Hartford",
+  "institution_slug": "university-of-hartford-129525",
+  "state": "ct",
+  "cip_code": "5123",
+  "cip_desc": "Rehabilitation and Therapeutic Professions.",
+  "credential_level": 6,
+  "credential_desc": "Doctoral Degree",
+  "slug": "5123-c6",
+  "earnings_median_4yr": 81992,
+  "earnings_median_5yr": 85437,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": 68142,
+  "completers": null,
+  "completers_single_year": null,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 81992.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 85437.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 67070.0
+      },
+      {
+        "year": 2015,
+        "value": 69625.0
+      },
+      {
+        "year": 2016,
+        "value": 67012.0
+      },
+      {
+        "year": 2017,
+        "value": 61500.0
+      },
+      {
+        "year": 2018,
+        "value": 68142.0
+      }
+    ],
+    "completers": []
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 10.6% at Rehabilitation and Therapeutic Professions at University of Hartford exceeds the 8% gainful-employment threshold ($68.1k debt amortized over 10 years vs $85.4k earnings).",
+      "magnitude_pct": 10.6,
+      "magnitude_abs": 2.6,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "129525",
+    "slug": "university-of-hartford-129525",
+    "name": "University of Hartford",
+    "city": "West Hartford",
+    "city_slug": "west-hartford",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "quinnipiac-university-130226",
+      "institution_name": "Quinnipiac University",
+      "earnings_median_5yr": 86132,
+      "earnings_median_4yr": 78263,
+      "debt_median": 72840,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-connecticut-129020",
+      "institution_name": "University of Connecticut",
+      "earnings_median_5yr": 80692,
+      "earnings_median_4yr": 75611,
+      "debt_median": 108471,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 8,
+      "cost_per_year_default": 26720,
+      "cost_total_default": 213760,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 85437,
+      "earnings_anchor_year": 5,
+      "debt_median": 68142,
+      "cip_family": "51",
+      "hs_baseline_state": 42300
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 395883,
+      "breakeven_year": 18
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

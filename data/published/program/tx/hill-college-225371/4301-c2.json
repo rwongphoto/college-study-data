@@ -1,0 +1,740 @@
+{
+  "institution_unitid": "225371",
+  "institution_name": "Hill College",
+  "institution_slug": "hill-college-225371",
+  "state": "tx",
+  "cip_code": "4301",
+  "cip_desc": "Criminal Justice and Corrections.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "4301-c2",
+  "earnings_median_4yr": 43932,
+  "earnings_median_5yr": 48514,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 3,
+  "debt_median": null,
+  "completers": 22,
+  "completers_single_year": 17,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 43932.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 48514.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2015,
+        "value": 15700.0
+      },
+      {
+        "year": 2016,
+        "value": 17750.0
+      },
+      {
+        "year": 2017,
+        "value": 19000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 25.0
+      },
+      {
+        "year": 2015,
+        "value": 11.0
+      },
+      {
+        "year": 2016,
+        "value": 23.0
+      },
+      {
+        "year": 2017,
+        "value": 23.0
+      },
+      {
+        "year": 2018,
+        "value": 17.0
+      },
+      {
+        "year": 2019,
+        "value": 22.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2015,
+      "to_year": 2017,
+      "from_value": 15700.0,
+      "to_value": 19000.0,
+      "pct_change": 0.21019108280254778,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Criminal Justice and Corrections at Hill College rose 21% between 2015 and 2017 ($15.7k → $19.0k).",
+      "magnitude_pct": 21.0,
+      "magnitude_abs": 3300.0,
+      "baseline_year": 2015,
+      "recent_year": 2017,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "225371",
+    "slug": "hill-college-225371",
+    "name": "Hill College",
+    "city": "Hillsboro",
+    "city_slug": "hillsboro",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "collin-county-community-college-district-247834",
+      "institution_name": "Collin County Community College District",
+      "earnings_median_5yr": 52157,
+      "earnings_median_4yr": 40177,
+      "debt_median": null,
+      "completers": 64,
+      "completers_single_year": 78,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "temple-college-228608",
+      "institution_name": "Temple College",
+      "earnings_median_5yr": 50659,
+      "earnings_median_4yr": 40842,
+      "debt_median": 10570,
+      "completers": 18,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southwest-texas-junior-college-228316",
+      "institution_name": "Southwest Texas Junior College",
+      "earnings_median_5yr": 48931,
+      "earnings_median_4yr": 41825,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "amarillo-college-222576",
+      "institution_name": "Amarillo College",
+      "earnings_median_5yr": 48011,
+      "earnings_median_4yr": 44892,
+      "debt_median": 16750,
+      "completers": 64,
+      "completers_single_year": 57,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mclennan-community-college-226578",
+      "institution_name": "McLennan Community College",
+      "earnings_median_5yr": 46309,
+      "earnings_median_4yr": 36950,
+      "debt_median": 11209,
+      "completers": 68,
+      "completers_single_year": 69,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "dallas-college-224615",
+      "institution_name": "Dallas College",
+      "earnings_median_5yr": 46162,
+      "earnings_median_4yr": 38906,
+      "debt_median": 13113,
+      "completers": 169,
+      "completers_single_year": 171,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "del-mar-college-224350",
+      "institution_name": "Del Mar College",
+      "earnings_median_5yr": 44768,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 69,
+      "completers_single_year": 46,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "blinn-college-district-223427",
+      "institution_name": "Blinn College District",
+      "earnings_median_5yr": 44392,
+      "earnings_median_4yr": 40580,
+      "debt_median": 14240,
+      "completers": 74,
+      "completers_single_year": 44,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lone-star-college-system-227182",
+      "institution_name": "Lone Star College System",
+      "earnings_median_5yr": 44374,
+      "earnings_median_4yr": 37056,
+      "debt_median": 9091,
+      "completers": 163,
+      "completers_single_year": 131,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "san-antonio-college-227924",
+      "institution_name": "San Antonio College",
+      "earnings_median_5yr": 42793,
+      "earnings_median_4yr": 38947,
+      "debt_median": 9711,
+      "completers": 32,
+      "completers_single_year": 37,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northwest-vista-college-420398",
+      "institution_name": "Northwest Vista College",
+      "earnings_median_5yr": 42633,
+      "earnings_median_4yr": 39605,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "austin-community-college-district-222992",
+      "institution_name": "Austin Community College District",
+      "earnings_median_5yr": 42478,
+      "earnings_median_4yr": 38669,
+      "debt_median": 12184,
+      "completers": 102,
+      "completers_single_year": 114,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "tyler-junior-college-229355",
+      "institution_name": "Tyler Junior College",
+      "earnings_median_5yr": 41922,
+      "earnings_median_4yr": 38951,
+      "debt_median": 8000,
+      "completers": 61,
+      "completers_single_year": 61,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "howard-college-225520",
+      "institution_name": "Howard College",
+      "earnings_median_5yr": 41556,
+      "earnings_median_4yr": 32965,
+      "debt_median": null,
+      "completers": 22,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "odessa-college-227304",
+      "institution_name": "Odessa College",
+      "earnings_median_5yr": 41411,
+      "earnings_median_4yr": 44442,
+      "debt_median": null,
+      "completers": 52,
+      "completers_single_year": 41,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "navarro-college-227146",
+      "institution_name": "Navarro College",
+      "earnings_median_5yr": 41125,
+      "earnings_median_4yr": 38002,
+      "debt_median": 12500,
+      "completers": 32,
+      "completers_single_year": 40,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "tarrant-county-college-district-228547",
+      "institution_name": "Tarrant County College District",
+      "earnings_median_5yr": 40832,
+      "earnings_median_4yr": 35249,
+      "debt_median": 13168,
+      "completers": 42,
+      "completers_single_year": 46,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "texas-southmost-college-227377",
+      "institution_name": "Texas Southmost College",
+      "earnings_median_5yr": 40587,
+      "earnings_median_4yr": 34742,
+      "debt_median": 8000,
+      "completers": 143,
+      "completers_single_year": 89,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "el-paso-community-college-224642",
+      "institution_name": "El Paso Community College",
+      "earnings_median_5yr": 38712,
+      "earnings_median_4yr": 31537,
+      "debt_median": 4308,
+      "completers": 272,
+      "completers_single_year": 275,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "trinity-valley-community-college-225308",
+      "institution_name": "Trinity Valley Community College",
+      "earnings_median_5yr": 38562,
+      "earnings_median_4yr": 40588,
+      "debt_median": 9500,
+      "completers": 5,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "weatherford-college-229799",
+      "institution_name": "Weatherford College",
+      "earnings_median_5yr": 37348,
+      "earnings_median_4yr": 29683,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "palo-alto-college-246354",
+      "institution_name": "Palo Alto College",
+      "earnings_median_5yr": 37299,
+      "earnings_median_4yr": 31397,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "south-plains-college-228158",
+      "institution_name": "South Plains College",
+      "earnings_median_5yr": 37071,
+      "earnings_median_4yr": 29345,
+      "debt_median": null,
+      "completers": 53,
+      "completers_single_year": 52,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "south-texas-college-409315",
+      "institution_name": "South Texas College",
+      "earnings_median_5yr": 36079,
+      "earnings_median_4yr": 30247,
+      "debt_median": null,
+      "completers": 328,
+      "completers_single_year": 383,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "laredo-college-226134",
+      "institution_name": "Laredo College",
+      "earnings_median_5yr": 35912,
+      "earnings_median_4yr": 38456,
+      "debt_median": null,
+      "completers": 32,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "remington-college-dallas-campus-223463",
+      "institution_name": "Remington College-Dallas Campus",
+      "earnings_median_5yr": 30721,
+      "earnings_median_4yr": 31462,
+      "debt_median": 20000,
+      "completers": 16,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "alvin-community-college-222567",
+      "institution_name": "Alvin Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 27,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "angelina-college-222822",
+      "institution_name": "Angelina College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 29,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "coastal-bend-college-223320",
+      "institution_name": "Coastal Bend College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "brazosport-college-223506",
+      "institution_name": "Brazosport College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "central-texas-college-223816",
+      "institution_name": "Central Texas College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 81,
+      "completers_single_year": 83,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cisco-college-223898",
+      "institution_name": "Cisco College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "clarendon-college-223922",
+      "institution_name": "Clarendon College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "north-central-texas-college-224110",
+      "institution_name": "North Central Texas College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 25,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "galveston-college-224961",
+      "institution_name": "Galveston College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "grayson-college-225070",
+      "institution_name": "Grayson College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 21,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "houston-community-college-225423",
+      "institution_name": "Houston Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 14,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "jarvis-christian-university-225885",
+      "institution_name": "Jarvis Christian University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "kilgore-college-226019",
+      "institution_name": "Kilgore College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lamar-state-college-orange-226107",
+      "institution_name": "Lamar State College-Orange",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lamar-state-college-port-arthur-226116",
+      "institution_name": "Lamar State College-Port Arthur",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lee-college-226204",
+      "institution_name": "Lee College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "college-of-the-mainland-226408",
+      "institution_name": "College of the Mainland",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 25,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "midland-college-226806",
+      "institution_name": "Midland College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 14,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northeast-texas-community-college-227225",
+      "institution_name": "Northeast Texas Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "paris-junior-college-227401",
+      "institution_name": "Paris Junior College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "st-philip-s-college-227854",
+      "institution_name": "St Philip's College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "san-jacinto-community-college-227979",
+      "institution_name": "San Jacinto Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 34,
+      "completers_single_year": 25,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "texarkana-college-228699",
+      "institution_name": "Texarkana College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 31,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "vernon-college-229504",
+      "institution_name": "Vernon College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "victoria-college-229540",
+      "institution_name": "Victoria College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wayland-baptist-university-229780",
+      "institution_name": "Wayland Baptist University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-texas-college-229832",
+      "institution_name": "Western Texas College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wharton-county-junior-college-229841",
+      "institution_name": "Wharton County Junior College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wiley-university-229887",
+      "institution_name": "Wiley University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lamar-institute-of-technology-441760",
+      "institution_name": "Lamar Institute of Technology",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 20,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northeast-lakeview-college-488730",
+      "institution_name": "Northeast Lakeview College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 7270,
+      "cost_total_default": 14540,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 48514,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "43",
+      "hs_baseline_state": 37300
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 261532,
+      "breakeven_year": 6
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

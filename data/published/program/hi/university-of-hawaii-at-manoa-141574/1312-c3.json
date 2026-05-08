@@ -1,0 +1,184 @@
+{
+  "institution_unitid": "141574",
+  "institution_name": "University of Hawaii at Manoa",
+  "institution_slug": "university-of-hawaii-at-manoa-141574",
+  "state": "hi",
+  "cip_code": "1312",
+  "cip_desc": "Teacher Education and Professional Development, Specific Levels and Methods.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1312-c3",
+  "earnings_median_4yr": 51376,
+  "earnings_median_5yr": 57532,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 9,
+  "debt_median": 18263,
+  "completers": 99,
+  "completers_single_year": 123,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 51376.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 57532.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 17896.0
+      },
+      {
+        "year": 2015,
+        "value": 18500.0
+      },
+      {
+        "year": 2016,
+        "value": 19299.0
+      },
+      {
+        "year": 2017,
+        "value": 18350.0
+      },
+      {
+        "year": 2018,
+        "value": 18263.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 140.0
+      },
+      {
+        "year": 2015,
+        "value": 83.0
+      },
+      {
+        "year": 2016,
+        "value": 93.0
+      },
+      {
+        "year": 2017,
+        "value": 80.0
+      },
+      {
+        "year": 2018,
+        "value": 123.0
+      },
+      {
+        "year": 2019,
+        "value": 99.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "141574",
+    "slug": "university-of-hawaii-at-manoa-141574",
+    "name": "University of Hawaii at Manoa",
+    "city": "Honolulu",
+    "city_slug": "honolulu",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "chaminade-university-of-honolulu-141486",
+      "institution_name": "Chaminade University of Honolulu",
+      "earnings_median_5yr": 54858,
+      "earnings_median_4yr": 50979,
+      "debt_median": null,
+      "completers": 34,
+      "completers_single_year": 36,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hawaii-pacific-university-141644",
+      "institution_name": "Hawaii Pacific University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "brigham-young-university-hawaii-230047",
+      "institution_name": "Brigham Young University-Hawaii",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 27,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 9,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 13381,
+      "cost_total_default": 53524,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 57532,
+      "earnings_anchor_year": 5,
+      "debt_median": 18263,
+      "cip_family": "13",
+      "hs_baseline_state": 39200
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 214195,
+      "breakeven_year": 10
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

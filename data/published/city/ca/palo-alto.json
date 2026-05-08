@@ -1,0 +1,221 @@
+{
+  "state": "ca",
+  "name": "Palo Alto",
+  "slug": "palo-alto",
+  "institution_count": 2,
+  "institutions": [
+    {
+      "unitid": "120698",
+      "slug": "palo-alto-university-120698",
+      "name": "Palo Alto University",
+      "city": "Palo Alto",
+      "city_slug": "palo-alto",
+      "control": "private_nonprofit",
+      "pred_degree": "bachelors",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 83187,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 63310
+        },
+        {
+          "year": 8,
+          "value": 65980
+        },
+        {
+          "year": 10,
+          "value": 83187
+        }
+      ],
+      "completion_rate_150": null,
+      "completion_rate_history": [],
+      "enrollment_undergrad": 19,
+      "enrollment_history": [
+        {
+          "year": 2006,
+          "value": 4.0
+        },
+        {
+          "year": 2007,
+          "value": 19.0
+        },
+        {
+          "year": 2008,
+          "value": 28.0
+        },
+        {
+          "year": 2009,
+          "value": 65.0
+        },
+        {
+          "year": 2010,
+          "value": 106.0
+        }
+      ],
+      "median_debt": 15000,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 2006,
+          "to_year": 2010,
+          "from_value": 4.0,
+          "to_value": 106.0,
+          "pct_change": 0.51,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.084,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2008,
+          "to_year": 2010,
+          "from_value": 0.3125,
+          "to_value": 0.2131,
+          "pct_change": -0.31808,
+          "direction": "fell"
+        }
+      ]
+    },
+    {
+      "unitid": "110778",
+      "slug": "sofia-university-110778",
+      "name": "Sofia University",
+      "city": "Palo Alto",
+      "city_slug": "palo-alto",
+      "control": "private_forprofit",
+      "pred_degree": "bachelors",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": null
+        },
+        {
+          "year": 8,
+          "value": null
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": null,
+      "completion_rate_history": [],
+      "enrollment_undergrad": 7,
+      "enrollment_history": [],
+      "median_debt": null,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.034,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2015,
+          "to_year": 2024,
+          "from_value": 0.6,
+          "to_value": 1.0,
+          "pct_change": 0.6666666666666667,
+          "direction": "rose"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": 83187,
+  "completion_rate_city": null,
+  "completion_history_city": [],
+  "enrollment_history_city": [
+    {
+      "year": 2006,
+      "value": 4.0
+    },
+    {
+      "year": 2007,
+      "value": 19.0
+    },
+    {
+      "year": 2008,
+      "value": 28.0
+    },
+    {
+      "year": 2009,
+      "value": 65.0
+    },
+    {
+      "year": 2010,
+      "value": 106.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

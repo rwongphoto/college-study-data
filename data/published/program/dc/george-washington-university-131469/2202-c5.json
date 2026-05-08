@@ -1,0 +1,198 @@
+{
+  "institution_unitid": "131469",
+  "institution_name": "George Washington University",
+  "institution_slug": "george-washington-university-131469",
+  "state": "dc",
+  "cip_code": "2202",
+  "cip_desc": "Legal Research and Advanced Professional Studies.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "2202-c5",
+  "earnings_median_4yr": 102646,
+  "earnings_median_5yr": 113751,
+  "earnings_count_4yr": 9,
+  "earnings_count_5yr": 5,
+  "debt_median": 78277,
+  "completers": 74,
+  "completers_single_year": 132,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 102646.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 113751.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 69520.0
+      },
+      {
+        "year": 2015,
+        "value": 69520.0
+      },
+      {
+        "year": 2016,
+        "value": 74318.0
+      },
+      {
+        "year": 2017,
+        "value": 76931.0
+      },
+      {
+        "year": 2018,
+        "value": 78277.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 144.0
+      },
+      {
+        "year": 2015,
+        "value": 164.0
+      },
+      {
+        "year": 2016,
+        "value": 134.0
+      },
+      {
+        "year": 2017,
+        "value": 146.0
+      },
+      {
+        "year": 2018,
+        "value": 132.0
+      },
+      {
+        "year": 2019,
+        "value": 74.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 9.2% at Legal Research and Advanced Professional Studies at George Washington University exceeds the 8% gainful-employment threshold ($78.3k debt amortized over 10 years vs $113.8k earnings).",
+      "magnitude_pct": 9.2,
+      "magnitude_abs": 1.2,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "131469",
+    "slug": "george-washington-university-131469",
+    "name": "George Washington University",
+    "city": "Washington",
+    "city_slug": "washington",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "georgetown-university-131496",
+      "institution_name": "Georgetown University",
+      "earnings_median_5yr": 169366,
+      "earnings_median_4yr": 142966,
+      "debt_median": 97008,
+      "completers": 315,
+      "completers_single_year": 648,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "american-university-131159",
+      "institution_name": "American University",
+      "earnings_median_5yr": 98927,
+      "earnings_median_4yr": 84372,
+      "debt_median": 65926,
+      "completers": 87,
+      "completers_single_year": 72,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-catholic-university-of-america-131283",
+      "institution_name": "The Catholic University of America",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 5,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 21863,
+      "cost_total_default": 131178,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 113751,
+      "earnings_anchor_year": 5,
+      "debt_median": 78277,
+      "cip_family": "22",
+      "hs_baseline_state": 47200
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 995577,
+      "breakeven_year": 10
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

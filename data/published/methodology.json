@@ -1,0 +1,86 @@
+{
+  "title": "Methodology",
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  },
+  "sections": [
+    {
+      "id": "sources",
+      "heading": "Federal sources",
+      "body": "All data on this site is published by the U.S. Department of Education. Institution-level metrics come from the College Scorecard Most-Recent-Cohorts release plus the historical bulk archive (MERGED<year>_<year+1>_PP.csv files, 1996–97 through 2010–11). Program-level earnings and debt come from College Scorecard Field of Study Data, derived from Treasury IRS tax records under federal data-sharing agreements; the FoS history covers 2014–15 through 2020–21 plus the 2025 most-recent vintage. Institution directory, address, and Carnegie classification come from IPEDS HD."
+    },
+    {
+      "id": "earnings",
+      "heading": "How earnings are reported",
+      "body": "Earnings are median annual earnings of working students 4, 5, 6, 8, or 10 years after enrollment (institution-level) or 4 or 5 years after completion (program-level), computed from federal tax records. They describe what former students earned, not what attending the institution causes. Selection effects (who enrolls, who completes, what fields they enter) are the dominant explanation of cross-institution variation."
+    },
+    {
+      "id": "long-arc",
+      "heading": "Long-arc shifts",
+      "body": "We surface descriptive multi-year change in completion, enrollment, tuition, median debt, and default rate when the change exceeds a metric-specific threshold and a materiality floor. These are past-tense observations of what the data shows over the available vintages, not forecasts. We never project future earnings or outcomes."
+    },
+    {
+      "id": "suppression",
+      "heading": "Why some cells are blank",
+      "body": "Federal privacy rules suppress earnings and debt cells when the underlying cohort is too small (typically <30 students). On this site those appear as — (em-dash). Suppression is per-metric: a program may publish earnings but suppress debt, or vice versa."
+    },
+    {
+      "id": "pooled-earnings",
+      "heading": "Pooled program earnings across system campuses",
+      "body": "When a campus's program earnings cohort is below the privacy threshold, College Scorecard sometimes publishes the parent OPEID's pooled value across branches. This is why a satellite campus may show the same program-level earnings as its main campus. We surface a 'pooled earnings' badge when this is detected so you can read the figure correctly."
+    },
+    {
+      "id": "completers",
+      "heading": "Completer counts",
+      "body": "Program-level completer counts use IPEDSCOUNT2 — the 4-year cumulative cohort matched to the earnings calculation. We also surface IPEDSCOUNT1 (latest single year of awards) for transparency. A small program may show 11 completers over four years because it's a small program, not because of a data issue."
+    },
+    {
+      "id": "ranking-slices",
+      "heading": "How the program rankings are sliced",
+      "body": "Three program-ranking surfaces draw from the same Field-of-Study pool: /rankings/programs lists every (program × institution × credential) row together, /rankings/credentials groups them by credential level (Undergraduate Certificate, Associate's, Bachelor's, Master's, Doctoral, First-Professional, Graduate Certificate — the codes published by Scorecard as CREDLEV), and /rankings/fields groups them by NCES CIP-2 family — the broad academic field (Engineering, Health Professions, Business, etc., identified by the first two digits of the six-digit CIP code). The slices exist because earnings distributions are very different across credentials and across fields: a global ranking is dominated by graduate-credential STEM programs, which is editorially less informative than a within-credential or within-field comparison. All three surfaces apply the same 1,000-undergrad floor on the parent institution to keep small specialty institutes from dominating the extremes. We do not aggregate metrics into a composite score — direction and method are reader-specific."
+    },
+    {
+      "id": "roi",
+      "heading": "How the ROI calculator works",
+      "body": "Program and institution pages carry a financial-outcomes calculator. It is an outcomes illustration, not a forecast. The math: net price by family-income bracket (Scorecard NPT4{1..5}_{PUB,PRIV}) is treated as the per-year cost; observed Scorecard 5-year-post-completion earnings are projected forward using a Mincer age-earnings curve (log earnings as a quadratic in work experience) with CIP-family-specific slopes from Heckman-Lochner-Todd 2006 and the Card 1999 returns-to-schooling survey. State-level median earnings of HS-only workers aged 22-30 (BLS CPS 2024 Educational Attainment) provide the counterfactual; future earnings are discounted at a user-chosen rate (default 5%). A toggle applies a Dale-Krueger selection shrinkage to the earnings premium — Dale & Krueger's 2002 and 2014 matched-applicant analyses showed the cross-sectional college premium overstates the causal return for non-STEM fields by roughly 50%; we apply per-CIP-family shrinkage factors of 0.10 for STEM rising to 0.60 for arts and education. The toggle ships off by default. When Scorecard suppresses earnings (cohort < 30) the calculator shows nothing — we don't impute. The result is a single NPV figure plus the year cumulative discounted earnings cross zero, under the user's assumptions. Constants are republished at every build to data/published/roi_constants.json with provenance stamps."
+    },
+    {
+      "id": "what-we-do-not-do",
+      "heading": "What this site does not do",
+      "body": "We do not forecast future earnings. We do not infer causation from outcomes. We do not surface star ratings or letter grades. We do not ingest reviews, survey-based reputation data, or any non-federal source. We do not slice outcomes by race or gender — the federal data exists in IPEDS GR but the causal-claim risk on demographic-conditioned outcomes is high enough that we hold the surface for an editorial review pass."
+    }
+  ]
+}

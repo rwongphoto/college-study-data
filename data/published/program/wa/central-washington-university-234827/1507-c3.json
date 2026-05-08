@@ -1,0 +1,153 @@
+{
+  "institution_unitid": "234827",
+  "institution_name": "Central Washington University",
+  "institution_slug": "central-washington-university-234827",
+  "state": "wa",
+  "cip_code": "1507",
+  "cip_desc": "Quality Control and Safety Technologies/Technicians.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1507-c3",
+  "earnings_median_4yr": 85825,
+  "earnings_median_5yr": 92822,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 0,
+  "debt_median": 25333,
+  "completers": 32,
+  "completers_single_year": 36,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 85825.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 92822.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 28540.0
+      },
+      {
+        "year": 2015,
+        "value": 23559.0
+      },
+      {
+        "year": 2016,
+        "value": 21983.0
+      },
+      {
+        "year": 2017,
+        "value": 21717.0
+      },
+      {
+        "year": 2018,
+        "value": 25333.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 28.0
+      },
+      {
+        "year": 2015,
+        "value": 41.0
+      },
+      {
+        "year": 2016,
+        "value": 30.0
+      },
+      {
+        "year": 2017,
+        "value": 25.0
+      },
+      {
+        "year": 2018,
+        "value": 36.0
+      },
+      {
+        "year": 2019,
+        "value": 32.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "234827",
+    "slug": "central-washington-university-234827",
+    "name": "Central Washington University",
+    "city": "Ellensburg",
+    "city_slug": "ellensburg",
+    "control": "public"
+  },
+  "peers_in_state": [],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 15182,
+      "cost_total_default": 60728,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 92822,
+      "earnings_anchor_year": 5,
+      "debt_median": 25333,
+      "cip_family": "15",
+      "hs_baseline_state": 41200
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 914425,
+      "breakeven_year": 6
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

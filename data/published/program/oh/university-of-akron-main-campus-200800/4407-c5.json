@@ -1,0 +1,268 @@
+{
+  "institution_unitid": "200800",
+  "institution_name": "University of Akron Main Campus",
+  "institution_slug": "university-of-akron-main-campus-200800",
+  "state": "oh",
+  "cip_code": "4407",
+  "cip_desc": "Social Work.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "4407-c5",
+  "earnings_median_4yr": 50157,
+  "earnings_median_5yr": 56521,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 6,
+  "debt_median": 37500,
+  "completers": 70,
+  "completers_single_year": 65,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 50157.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 56521.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 35826.0
+      },
+      {
+        "year": 2015,
+        "value": 36500.0
+      },
+      {
+        "year": 2016,
+        "value": 33950.0
+      },
+      {
+        "year": 2017,
+        "value": 33252.0
+      },
+      {
+        "year": 2018,
+        "value": 37500.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 59.0
+      },
+      {
+        "year": 2015,
+        "value": 70.0
+      },
+      {
+        "year": 2016,
+        "value": 69.0
+      },
+      {
+        "year": 2017,
+        "value": 90.0
+      },
+      {
+        "year": 2018,
+        "value": 65.0
+      },
+      {
+        "year": 2019,
+        "value": 70.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 8.8% at Social Work at University of Akron Main Campus exceeds the 8% gainful-employment threshold ($37.5k debt amortized over 10 years vs $56.5k earnings).",
+      "magnitude_pct": 8.8,
+      "magnitude_abs": 0.8,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "200800",
+    "slug": "university-of-akron-main-campus-200800",
+    "name": "University of Akron Main Campus",
+    "city": "Akron",
+    "city_slug": "akron",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "ohio-university-main-campus-204857",
+      "institution_name": "Ohio University-Main Campus",
+      "earnings_median_5yr": 60890,
+      "earnings_median_4yr": 53668,
+      "debt_median": 20500,
+      "completers": 28,
+      "completers_single_year": 50,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "case-western-reserve-university-201645",
+      "institution_name": "Case Western Reserve University",
+      "earnings_median_5yr": 60265,
+      "earnings_median_4yr": 53808,
+      "debt_median": 95735,
+      "completers": 197,
+      "completers_single_year": 223,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-toledo-206084",
+      "institution_name": "University of Toledo",
+      "earnings_median_5yr": 59455,
+      "earnings_median_4yr": 52280,
+      "debt_median": 30500,
+      "completers": 40,
+      "completers_single_year": 44,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ohio-state-university-main-campus-204796",
+      "institution_name": "Ohio State University-Main Campus",
+      "earnings_median_5yr": 58613,
+      "earnings_median_4yr": 51649,
+      "debt_median": 38169,
+      "completers": 356,
+      "completers_single_year": 365,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-cincinnati-main-campus-201885",
+      "institution_name": "University of Cincinnati-Main Campus",
+      "earnings_median_5yr": 58204,
+      "earnings_median_4yr": 50624,
+      "debt_median": 38950,
+      "completers": 63,
+      "completers_single_year": 82,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wright-state-university-main-campus-206604",
+      "institution_name": "Wright State University-Main Campus",
+      "earnings_median_5yr": 56930,
+      "earnings_median_4yr": 53445,
+      "debt_median": 35261,
+      "completers": 27,
+      "completers_single_year": 41,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cleveland-state-university-202134",
+      "institution_name": "Cleveland State University",
+      "earnings_median_5yr": 56700,
+      "earnings_median_4yr": 51530,
+      "debt_median": 37500,
+      "completers": 100,
+      "completers_single_year": 82,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "youngstown-state-university-206695",
+      "institution_name": "Youngstown State University",
+      "earnings_median_5yr": 53979,
+      "earnings_median_4yr": 49897,
+      "debt_median": 35338,
+      "completers": 63,
+      "completers_single_year": 71,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "miami-university-oxford-204024",
+      "institution_name": "Miami University-Oxford",
+      "earnings_median_5yr": 51997,
+      "earnings_median_4yr": 49759,
+      "debt_median": 32232,
+      "completers": 26,
+      "completers_single_year": 22,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bowling-green-state-university-main-campus-201441",
+      "institution_name": "Bowling Green State University-Main Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 39253,
+      "completers": 21,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 6,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 14771,
+      "cost_total_default": 88626,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 56521,
+      "earnings_anchor_year": 5,
+      "debt_median": 37500,
+      "cip_family": "44",
+      "hs_baseline_state": 36400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 242487,
+      "breakeven_year": 17
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

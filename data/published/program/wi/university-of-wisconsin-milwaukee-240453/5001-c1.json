@@ -1,0 +1,166 @@
+{
+  "institution_unitid": "240453",
+  "institution_name": "University of Wisconsin-Milwaukee",
+  "institution_slug": "university-of-wisconsin-milwaukee-240453",
+  "state": "wi",
+  "cip_code": "5001",
+  "cip_desc": "Visual and Performing Arts, General.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "5001-c1",
+  "earnings_median_4yr": 51845,
+  "earnings_median_5yr": 58504,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 3,
+  "debt_median": 24528,
+  "completers": 18,
+  "completers_single_year": 33,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 51845.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 58504.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 23112.0
+      },
+      {
+        "year": 2015,
+        "value": 24225.0
+      },
+      {
+        "year": 2016,
+        "value": 25226.0
+      },
+      {
+        "year": 2017,
+        "value": 25721.0
+      },
+      {
+        "year": 2018,
+        "value": 24528.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2016,
+        "value": 30.0
+      },
+      {
+        "year": 2017,
+        "value": 10.0
+      },
+      {
+        "year": 2018,
+        "value": 33.0
+      },
+      {
+        "year": 2019,
+        "value": 18.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "240453",
+    "slug": "university-of-wisconsin-milwaukee-240453",
+    "name": "University of Wisconsin-Milwaukee",
+    "city": "Milwaukee",
+    "city_slug": "milwaukee",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "milwaukee-area-technical-college-239248",
+      "institution_name": "Milwaukee Area Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-parkside-240374",
+      "institution_name": "University of Wisconsin-Parkside",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 15762,
+      "cost_total_default": 15762,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 58504,
+      "earnings_anchor_year": 5,
+      "debt_median": 24528,
+      "cip_family": "50",
+      "hs_baseline_state": 37100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 379838,
+      "breakeven_year": 2
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

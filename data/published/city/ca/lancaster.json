@@ -1,0 +1,837 @@
+{
+  "state": "ca",
+  "name": "Lancaster",
+  "slug": "lancaster",
+  "institution_count": 4,
+  "institutions": [
+    {
+      "unitid": "109350",
+      "slug": "antelope-valley-community-college-district-109350",
+      "name": "Antelope Valley Community College District",
+      "city": "Lancaster",
+      "city_slug": "lancaster",
+      "control": "public",
+      "pred_degree": "associates",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 36526,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 28110
+        },
+        {
+          "year": 8,
+          "value": 31267
+        },
+        {
+          "year": 10,
+          "value": 36526
+        }
+      ],
+      "completion_rate_150": 0.3061,
+      "completion_rate_history": [
+        {
+          "year": 1997,
+          "value": 0.4082
+        },
+        {
+          "year": 1998,
+          "value": 0.3148
+        },
+        {
+          "year": 1999,
+          "value": 0.3361
+        },
+        {
+          "year": 2000,
+          "value": 0.377
+        },
+        {
+          "year": 2001,
+          "value": 0.3055
+        },
+        {
+          "year": 2002,
+          "value": 0.4327
+        },
+        {
+          "year": 2003,
+          "value": 0.3994
+        },
+        {
+          "year": 2004,
+          "value": 0.3719
+        },
+        {
+          "year": 2005,
+          "value": 0.4243
+        },
+        {
+          "year": 2006,
+          "value": 0.3342
+        },
+        {
+          "year": 2007,
+          "value": 0.2445
+        },
+        {
+          "year": 2008,
+          "value": 0.2628
+        },
+        {
+          "year": 2009,
+          "value": 0.3407
+        },
+        {
+          "year": 2010,
+          "value": 0.2854
+        },
+        {
+          "year": 2016,
+          "value": 0.2864
+        },
+        {
+          "year": 2017,
+          "value": 0.2381
+        },
+        {
+          "year": 2018,
+          "value": 0.2647
+        },
+        {
+          "year": 2019,
+          "value": 0.2726
+        },
+        {
+          "year": 2020,
+          "value": 0.2732
+        },
+        {
+          "year": 2021,
+          "value": 0.2888
+        },
+        {
+          "year": 2022,
+          "value": 0.3036
+        },
+        {
+          "year": 2023,
+          "value": 0.3061
+        },
+        {
+          "year": 2024,
+          "value": 0.3438
+        }
+      ],
+      "enrollment_undergrad": 10905,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 7477.0
+        },
+        {
+          "year": 1997,
+          "value": 4851.0
+        },
+        {
+          "year": 1998,
+          "value": 5156.0
+        },
+        {
+          "year": 1999,
+          "value": 7001.0
+        },
+        {
+          "year": 2001,
+          "value": 3293.0
+        },
+        {
+          "year": 2002,
+          "value": 6895.0
+        },
+        {
+          "year": 2003,
+          "value": 6314.0
+        },
+        {
+          "year": 2004,
+          "value": 6859.0
+        },
+        {
+          "year": 2005,
+          "value": 7225.0
+        },
+        {
+          "year": 2006,
+          "value": 7895.0
+        },
+        {
+          "year": 2007,
+          "value": 8664.0
+        },
+        {
+          "year": 2008,
+          "value": 12888.0
+        },
+        {
+          "year": 2009,
+          "value": 13331.0
+        },
+        {
+          "year": 2010,
+          "value": 12465.0
+        }
+      ],
+      "median_debt": 8619,
+      "default_rate": 0.0,
+      "tuition_in_state": 1124,
+      "tuition_out_of_state": 8228,
+      "long_arc": [
+        {
+          "metric": "completion_rate_100",
+          "from_year": 2009,
+          "to_year": 2022,
+          "from_value": 0.1225,
+          "to_value": 0.3333,
+          "pct_change": 1.7208163265306122,
+          "direction": "rose"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 1996,
+          "to_year": 2010,
+          "from_value": 7477.0,
+          "to_value": 12465.0,
+          "pct_change": 0.6671124782666845,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_in_state",
+          "from_year": 2000,
+          "to_year": 2024,
+          "from_value": 360.0,
+          "to_value": 1124.0,
+          "pct_change": 0.764,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2000,
+          "to_year": 2024,
+          "from_value": 2928.0,
+          "to_value": 9548.0,
+          "pct_change": 2.260928961748634,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 1997,
+          "to_year": 2010,
+          "from_value": 2690.0,
+          "to_value": 5500.0,
+          "pct_change": 1.0446096654275092,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.332,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2008,
+          "to_year": 2024,
+          "from_value": 0.2433,
+          "to_value": 0.4186,
+          "pct_change": 0.7205096588573779,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_6yr",
+          "from_year": 2003,
+          "to_year": 2020,
+          "from_value": 22100.0,
+          "to_value": 28110.0,
+          "pct_change": 0.27194570135746604,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "unitid": "446118",
+      "slug": "career-care-institute-446118",
+      "name": "Career Care Institute",
+      "city": "Lancaster",
+      "city_slug": "lancaster",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 39888,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 36066
+        },
+        {
+          "year": 8,
+          "value": 38040
+        },
+        {
+          "year": 10,
+          "value": 39888
+        }
+      ],
+      "completion_rate_150": 0.7181,
+      "completion_rate_history": [
+        {
+          "year": 2005,
+          "value": 0.7449
+        },
+        {
+          "year": 2006,
+          "value": 0.7679
+        },
+        {
+          "year": 2007,
+          "value": 0.8469
+        },
+        {
+          "year": 2008,
+          "value": 0.577
+        },
+        {
+          "year": 2009,
+          "value": 0.6638
+        }
+      ],
+      "enrollment_undergrad": 649,
+      "enrollment_history": [
+        {
+          "year": 2005,
+          "value": 139.0
+        },
+        {
+          "year": 2006,
+          "value": 47.0
+        },
+        {
+          "year": 2007,
+          "value": 222.0
+        },
+        {
+          "year": 2008,
+          "value": 255.0
+        },
+        {
+          "year": 2009,
+          "value": 637.0
+        }
+      ],
+      "median_debt": 10296,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 2005,
+          "to_year": 2009,
+          "from_value": 139.0,
+          "to_value": 637.0,
+          "pct_change": 2.49,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 2005,
+          "to_year": 2009,
+          "from_value": 5300.0,
+          "to_value": 6692.0,
+          "pct_change": 0.26264150943396225,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.261,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "earnings_median_8yr",
+          "from_year": 2012,
+          "to_year": 2020,
+          "from_value": 29400.0,
+          "to_value": 38040.0,
+          "pct_change": 0.2938775510204082,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "unitid": "484002",
+      "slug": "high-desert-medical-college-484002",
+      "name": "High Desert Medical College",
+      "city": "Lancaster",
+      "city_slug": "lancaster",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 31486
+        },
+        {
+          "year": 8,
+          "value": 37904
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": 0.6602,
+      "completion_rate_history": [],
+      "enrollment_undergrad": 1721,
+      "enrollment_history": [],
+      "median_debt": 9500,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": []
+    },
+    {
+      "unitid": "117238",
+      "slug": "lancaster-beauty-school-117238",
+      "name": "Lancaster Beauty School",
+      "city": "Lancaster",
+      "city_slug": "lancaster",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 16220,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 13338
+        },
+        {
+          "year": 8,
+          "value": 25787
+        },
+        {
+          "year": 10,
+          "value": 16220
+        }
+      ],
+      "completion_rate_150": null,
+      "completion_rate_history": [
+        {
+          "year": 1997,
+          "value": 0.6718
+        },
+        {
+          "year": 1998,
+          "value": 0.6279
+        },
+        {
+          "year": 1999,
+          "value": 0.6239
+        },
+        {
+          "year": 2000,
+          "value": 0.6218
+        },
+        {
+          "year": 2001,
+          "value": 0.5985
+        },
+        {
+          "year": 2002,
+          "value": 0.7103
+        },
+        {
+          "year": 2003,
+          "value": 0.7191
+        },
+        {
+          "year": 2004,
+          "value": 0.6792
+        },
+        {
+          "year": 2005,
+          "value": 0.6825
+        },
+        {
+          "year": 2006,
+          "value": 0.6732
+        },
+        {
+          "year": 2007,
+          "value": 0.6496
+        },
+        {
+          "year": 2008,
+          "value": 0.604
+        },
+        {
+          "year": 2009,
+          "value": 0.6759
+        },
+        {
+          "year": 2010,
+          "value": 0.6792
+        }
+      ],
+      "enrollment_undergrad": 131,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 72.0
+        },
+        {
+          "year": 1997,
+          "value": 76.0
+        },
+        {
+          "year": 1998,
+          "value": 82.0
+        },
+        {
+          "year": 1999,
+          "value": 107.0
+        },
+        {
+          "year": 2001,
+          "value": 182.0
+        },
+        {
+          "year": 2002,
+          "value": 189.0
+        },
+        {
+          "year": 2003,
+          "value": 232.0
+        },
+        {
+          "year": 2004,
+          "value": 225.0
+        },
+        {
+          "year": 2005,
+          "value": 66.0
+        },
+        {
+          "year": 2006,
+          "value": 192.0
+        },
+        {
+          "year": 2007,
+          "value": 201.0
+        },
+        {
+          "year": 2008,
+          "value": 203.0
+        },
+        {
+          "year": 2009,
+          "value": 128.0
+        },
+        {
+          "year": 2010,
+          "value": 130.0
+        }
+      ],
+      "median_debt": 7250,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "retention_rate",
+          "from_year": 2004,
+          "to_year": 2010,
+          "from_value": 0.69,
+          "to_value": 0.8696,
+          "pct_change": 0.26028985507246394,
+          "direction": "rose"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 1996,
+          "to_year": 2010,
+          "from_value": 72.0,
+          "to_value": 130.0,
+          "pct_change": 0.29,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 2000,
+          "to_year": 2010,
+          "from_value": 2125.0,
+          "to_value": 7910.0,
+          "pct_change": 2.7223529411764704,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.164,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2008,
+          "to_year": 2010,
+          "from_value": 0.3314,
+          "to_value": 0.6301,
+          "pct_change": 0.9013277006638505,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_8yr",
+          "from_year": 2005,
+          "to_year": 2020,
+          "from_value": 13600.0,
+          "to_value": 25787.0,
+          "pct_change": 0.8124666666666667,
+          "direction": "rose"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": 36526,
+  "completion_rate_city": 0.6602,
+  "completion_history_city": [
+    {
+      "year": 1997,
+      "value": 0.54
+    },
+    {
+      "year": 1998,
+      "value": 0.47135000000000005
+    },
+    {
+      "year": 1999,
+      "value": 0.48
+    },
+    {
+      "year": 2000,
+      "value": 0.4994
+    },
+    {
+      "year": 2001,
+      "value": 0.452
+    },
+    {
+      "year": 2002,
+      "value": 0.5715
+    },
+    {
+      "year": 2003,
+      "value": 0.55925
+    },
+    {
+      "year": 2004,
+      "value": 0.52555
+    },
+    {
+      "year": 2005,
+      "value": 0.6825
+    },
+    {
+      "year": 2006,
+      "value": 0.6732
+    },
+    {
+      "year": 2007,
+      "value": 0.6496
+    },
+    {
+      "year": 2008,
+      "value": 0.577
+    },
+    {
+      "year": 2009,
+      "value": 0.6638
+    },
+    {
+      "year": 2010,
+      "value": 0.4823
+    },
+    {
+      "year": 2016,
+      "value": 0.2864
+    },
+    {
+      "year": 2017,
+      "value": 0.2381
+    },
+    {
+      "year": 2018,
+      "value": 0.2647
+    },
+    {
+      "year": 2019,
+      "value": 0.2726
+    },
+    {
+      "year": 2020,
+      "value": 0.2732
+    },
+    {
+      "year": 2021,
+      "value": 0.2888
+    },
+    {
+      "year": 2022,
+      "value": 0.3036
+    },
+    {
+      "year": 2023,
+      "value": 0.3061
+    },
+    {
+      "year": 2024,
+      "value": 0.3438
+    }
+  ],
+  "enrollment_history_city": [
+    {
+      "year": 1996,
+      "value": 7549.0
+    },
+    {
+      "year": 1997,
+      "value": 4927.0
+    },
+    {
+      "year": 1998,
+      "value": 5238.0
+    },
+    {
+      "year": 1999,
+      "value": 7108.0
+    },
+    {
+      "year": 2001,
+      "value": 3475.0
+    },
+    {
+      "year": 2002,
+      "value": 7084.0
+    },
+    {
+      "year": 2003,
+      "value": 6546.0
+    },
+    {
+      "year": 2004,
+      "value": 7084.0
+    },
+    {
+      "year": 2005,
+      "value": 7430.0
+    },
+    {
+      "year": 2006,
+      "value": 8134.0
+    },
+    {
+      "year": 2007,
+      "value": 9087.0
+    },
+    {
+      "year": 2008,
+      "value": 13346.0
+    },
+    {
+      "year": 2009,
+      "value": 14096.0
+    },
+    {
+      "year": 2010,
+      "value": 12595.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

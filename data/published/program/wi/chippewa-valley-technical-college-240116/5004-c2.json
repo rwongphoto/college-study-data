@@ -1,0 +1,193 @@
+{
+  "institution_unitid": "240116",
+  "institution_name": "Chippewa Valley Technical College",
+  "institution_slug": "chippewa-valley-technical-college-240116",
+  "state": "wi",
+  "cip_code": "5004",
+  "cip_desc": "Design and Applied Arts.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "5004-c2",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": null,
+  "earnings_count_5yr": null,
+  "debt_median": null,
+  "completers": 0,
+  "completers_single_year": 0,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [],
+    "completers": [
+      {
+        "year": 2018,
+        "value": 0.0
+      },
+      {
+        "year": 2019,
+        "value": 0.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "240116",
+    "slug": "chippewa-valley-technical-college-240116",
+    "name": "Chippewa Valley Technical College",
+    "city": "Eau Claire",
+    "city_slug": "eau-claire",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "milwaukee-area-technical-college-239248",
+      "institution_name": "Milwaukee Area Technical College",
+      "earnings_median_5yr": 43680,
+      "earnings_median_4yr": 33410,
+      "debt_median": null,
+      "completers": 27,
+      "completers_single_year": 27,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "herzing-university-madison-240392",
+      "institution_name": "Herzing University-Madison",
+      "earnings_median_5yr": 37778,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "fox-valley-technical-college-238722",
+      "institution_name": "Fox Valley Technical College",
+      "earnings_median_5yr": 36286,
+      "earnings_median_4yr": 32585,
+      "debt_median": 10684,
+      "completers": 47,
+      "completers_single_year": 45,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-technical-college-240170",
+      "institution_name": "Western Technical College",
+      "earnings_median_5yr": 34819,
+      "earnings_median_4yr": 32037,
+      "debt_median": 11479,
+      "completers": 28,
+      "completers_single_year": 42,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "waukesha-county-technical-college-240125",
+      "institution_name": "Waukesha County Technical College",
+      "earnings_median_5yr": 34755,
+      "earnings_median_4yr": 31069,
+      "debt_median": 15554,
+      "completers": 37,
+      "completers_single_year": 28,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "gateway-technical-college-238759",
+      "institution_name": "Gateway Technical College",
+      "earnings_median_5yr": 34173,
+      "earnings_median_4yr": 29235,
+      "debt_median": 14966,
+      "completers": 54,
+      "completers_single_year": 33,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "madison-area-technical-college-238263",
+      "institution_name": "Madison Area Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 12120,
+      "completers": 94,
+      "completers_single_year": 102,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "moraine-park-technical-college-239372",
+      "institution_name": "Moraine Park Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 26,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "nicolet-area-technical-college-239442",
+      "institution_name": "Nicolet Area Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 12577,
+      "cost_total_default": 25154,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "50"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

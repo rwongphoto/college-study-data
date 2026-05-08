@@ -1,0 +1,218 @@
+{
+  "institution_unitid": "174914",
+  "institution_name": "University of St Thomas",
+  "institution_slug": "university-of-st-thomas-174914",
+  "state": "mn",
+  "cip_code": "4504",
+  "cip_desc": "Criminology.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "4504-c3",
+  "earnings_median_4yr": 56600,
+  "earnings_median_5yr": 68406,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 1,
+  "debt_median": 26848,
+  "completers": 17,
+  "completers_single_year": 21,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 56600.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 68406.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 21854.0
+      },
+      {
+        "year": 2015,
+        "value": 27000.0
+      },
+      {
+        "year": 2016,
+        "value": 27000.0
+      },
+      {
+        "year": 2017,
+        "value": 24000.0
+      },
+      {
+        "year": 2018,
+        "value": 26848.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 14.0
+      },
+      {
+        "year": 2015,
+        "value": 19.0
+      },
+      {
+        "year": 2016,
+        "value": 13.0
+      },
+      {
+        "year": 2017,
+        "value": 18.0
+      },
+      {
+        "year": 2018,
+        "value": 21.0
+      },
+      {
+        "year": 2019,
+        "value": 17.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 21854.0,
+      "to_value": 26848.0,
+      "pct_change": 0.22851651871510936,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Criminology at University of St Thomas rose 23% between 2014 and 2018 ($21.9k → $26.8k).",
+      "magnitude_pct": 22.9,
+      "magnitude_abs": 4994.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "174914",
+    "slug": "university-of-st-thomas-174914",
+    "name": "University of St Thomas",
+    "city": "Saint Paul",
+    "city_slug": "saint-paul",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-minnesota-duluth-174233",
+      "institution_name": "University of Minnesota-Duluth",
+      "earnings_median_5yr": 64784,
+      "earnings_median_4yr": 51428,
+      "debt_median": 22885,
+      "completers": 46,
+      "completers_single_year": 59,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-minnesota-twin-cities-174066",
+      "institution_name": "University of Minnesota-Twin Cities",
+      "earnings_median_5yr": 61352,
+      "earnings_median_4yr": 50669,
+      "debt_median": 19500,
+      "completers": 151,
+      "completers_single_year": 114,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hamline-university-173665",
+      "institution_name": "Hamline University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 25000,
+      "completers": 37,
+      "completers_single_year": 38,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "crown-college-174862",
+      "institution_name": "Crown College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 26471,
+      "cost_total_default": 105884,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 68406,
+      "earnings_anchor_year": 5,
+      "debt_median": 26848,
+      "cip_family": "45",
+      "hs_baseline_state": 39400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 391834,
+      "breakeven_year": 11
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

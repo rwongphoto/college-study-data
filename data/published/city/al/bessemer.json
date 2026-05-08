@@ -1,0 +1,167 @@
+{
+  "state": "al",
+  "name": "Bessemer",
+  "slug": "bessemer",
+  "institution_count": 1,
+  "institutions": [
+    {
+      "unitid": "491695",
+      "slug": "brown-beauty-barber-school-491695",
+      "name": "Brown Beauty Barber School",
+      "city": "Bessemer",
+      "city_slug": "bessemer",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": null
+        },
+        {
+          "year": 8,
+          "value": null
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": 0.8333,
+      "completion_rate_history": [],
+      "enrollment_undergrad": 54,
+      "enrollment_history": [
+        {
+          "year": 2018,
+          "value": 21.0
+        },
+        {
+          "year": 2019,
+          "value": 43.0
+        },
+        {
+          "year": 2020,
+          "value": 44.0
+        },
+        {
+          "year": 2021,
+          "value": 48.0
+        },
+        {
+          "year": 2022,
+          "value": 37.0
+        },
+        {
+          "year": 2023,
+          "value": 54.0
+        },
+        {
+          "year": 2024,
+          "value": 54.0
+        }
+      ],
+      "median_debt": 9054,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "median_debt",
+          "from_year": 2019,
+          "to_year": 2020,
+          "from_value": 16500.0,
+          "to_value": 9833.0,
+          "pct_change": -0.40406060606060606,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2018,
+          "to_year": 2024,
+          "from_value": 0.5238,
+          "to_value": 0.8194,
+          "pct_change": 0.5643375334096983,
+          "direction": "rose"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": null,
+  "completion_rate_city": 0.8333,
+  "completion_history_city": [],
+  "enrollment_history_city": [
+    {
+      "year": 2018,
+      "value": 21.0
+    },
+    {
+      "year": 2019,
+      "value": 43.0
+    },
+    {
+      "year": 2020,
+      "value": 44.0
+    },
+    {
+      "year": 2021,
+      "value": 48.0
+    },
+    {
+      "year": 2022,
+      "value": 37.0
+    },
+    {
+      "year": 2023,
+      "value": 54.0
+    },
+    {
+      "year": 2024,
+      "value": 54.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

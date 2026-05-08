@@ -1,0 +1,218 @@
+{
+  "institution_unitid": "156125",
+  "institution_name": "Wichita State University",
+  "institution_slug": "wichita-state-university-156125",
+  "state": "ks",
+  "cip_code": "1419",
+  "cip_desc": "Mechanical Engineering.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1419-c3",
+  "earnings_median_4yr": 79722,
+  "earnings_median_5yr": 88218,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 3,
+  "debt_median": 19710,
+  "completers": 86,
+  "completers_single_year": 96,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 79722.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 88218.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 28000.0
+      },
+      {
+        "year": 2015,
+        "value": 26750.0
+      },
+      {
+        "year": 2016,
+        "value": 22250.0
+      },
+      {
+        "year": 2017,
+        "value": 18750.0
+      },
+      {
+        "year": 2018,
+        "value": 19710.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 84.0
+      },
+      {
+        "year": 2015,
+        "value": 99.0
+      },
+      {
+        "year": 2016,
+        "value": 113.0
+      },
+      {
+        "year": 2017,
+        "value": 109.0
+      },
+      {
+        "year": 2018,
+        "value": 96.0
+      },
+      {
+        "year": 2019,
+        "value": 86.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 28000.0,
+      "to_value": 19710.0,
+      "pct_change": -0.2960714285714286,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Mechanical Engineering at Wichita State University fell 30% between 2014 and 2018 ($28.0k → $19.7k).",
+      "magnitude_pct": -29.6,
+      "magnitude_abs": -8290.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "156125",
+    "slug": "wichita-state-university-156125",
+    "name": "Wichita State University",
+    "city": "Wichita",
+    "city_slug": "wichita",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-kansas-155317",
+      "institution_name": "University of Kansas",
+      "earnings_median_5yr": 94190,
+      "earnings_median_4yr": 79635,
+      "debt_median": 20500,
+      "completers": 132,
+      "completers_single_year": 118,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "kansas-state-university-155399",
+      "institution_name": "Kansas State University",
+      "earnings_median_5yr": 89754,
+      "earnings_median_4yr": 79131,
+      "debt_median": 22116,
+      "completers": 175,
+      "completers_single_year": 216,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "benedictine-college-154712",
+      "institution_name": "Benedictine College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 20,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "friends-university-155089",
+      "institution_name": "Friends University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 14240,
+      "cost_total_default": 56960,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 88218,
+      "earnings_anchor_year": 5,
+      "debt_median": 19710,
+      "cip_family": "14",
+      "hs_baseline_state": 36100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 1067246,
+      "breakeven_year": 6
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

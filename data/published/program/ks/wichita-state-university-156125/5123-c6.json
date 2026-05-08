@@ -1,0 +1,163 @@
+{
+  "institution_unitid": "156125",
+  "institution_name": "Wichita State University",
+  "institution_slug": "wichita-state-university-156125",
+  "state": "ks",
+  "cip_code": "5123",
+  "cip_desc": "Rehabilitation and Therapeutic Professions.",
+  "credential_level": 6,
+  "credential_desc": "Doctoral Degree",
+  "slug": "5123-c6",
+  "earnings_median_4yr": 70904,
+  "earnings_median_5yr": 79490,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 1,
+  "debt_median": 66364,
+  "completers": null,
+  "completers_single_year": null,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 70904.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 79490.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 68428.0
+      },
+      {
+        "year": 2015,
+        "value": 72368.0
+      },
+      {
+        "year": 2016,
+        "value": 72300.0
+      },
+      {
+        "year": 2017,
+        "value": 69334.0
+      },
+      {
+        "year": 2018,
+        "value": 66364.0
+      }
+    ],
+    "completers": []
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 11.1% at Rehabilitation and Therapeutic Professions at Wichita State University exceeds the 8% gainful-employment threshold ($66.4k debt amortized over 10 years vs $79.5k earnings).",
+      "magnitude_pct": 11.1,
+      "magnitude_abs": 3.1,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "156125",
+    "slug": "wichita-state-university-156125",
+    "name": "Wichita State University",
+    "city": "Wichita",
+    "city_slug": "wichita",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-saint-mary-155812",
+      "institution_name": "University of Saint Mary",
+      "earnings_median_5yr": 82472,
+      "earnings_median_4yr": 72733,
+      "debt_median": 128629,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-kansas-155317",
+      "institution_name": "University of Kansas",
+      "earnings_median_5yr": 76336,
+      "earnings_median_4yr": 77054,
+      "debt_median": 61500,
+      "completers": 5,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 8,
+      "cost_per_year_default": 14240,
+      "cost_total_default": 113920,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 79490,
+      "earnings_anchor_year": 5,
+      "debt_median": 66364,
+      "cip_family": "51",
+      "hs_baseline_state": 36100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 488985,
+      "breakeven_year": 14
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

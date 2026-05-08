@@ -1,0 +1,558 @@
+{
+  "institution_unitid": "407461",
+  "institution_name": "Eastland-Fairfield Career and Technical Schools",
+  "institution_slug": "eastland-fairfield-career-and-technical-schools-407461",
+  "state": "oh",
+  "cip_code": "4301",
+  "cip_desc": "Criminal Justice and Corrections.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "4301-c1",
+  "earnings_median_4yr": 55680,
+  "earnings_median_5yr": 63584,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 3,
+  "debt_median": 4558,
+  "completers": 33,
+  "completers_single_year": 21,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 55680.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 63584.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 6333.0
+      },
+      {
+        "year": 2015,
+        "value": 6333.0
+      },
+      {
+        "year": 2016,
+        "value": 7071.0
+      },
+      {
+        "year": 2017,
+        "value": 4558.0
+      },
+      {
+        "year": 2018,
+        "value": 4558.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 58.0
+      },
+      {
+        "year": 2015,
+        "value": 62.0
+      },
+      {
+        "year": 2016,
+        "value": 29.0
+      },
+      {
+        "year": 2017,
+        "value": 21.0
+      },
+      {
+        "year": 2018,
+        "value": 21.0
+      },
+      {
+        "year": 2019,
+        "value": 33.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 6333.0,
+      "to_value": 4558.0,
+      "pct_change": -0.2802779093636507,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Criminal Justice and Corrections at Eastland-Fairfield Career and Technical Schools fell 28% between 2014 and 2018 ($6.3k → $4.6k).",
+      "magnitude_pct": -28.0,
+      "magnitude_abs": -1775.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "407461",
+    "slug": "eastland-fairfield-career-and-technical-schools-407461",
+    "name": "Eastland-Fairfield Career and Technical Schools",
+    "city": "Groveport",
+    "city_slug": "groveport",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "ehove-career-center-202657",
+      "institution_name": "EHOVE Career Center",
+      "earnings_median_5yr": 65505,
+      "earnings_median_4yr": 49095,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "great-oaks-career-campuses-202949",
+      "institution_name": "Great Oaks Career Campuses",
+      "earnings_median_5yr": 65210,
+      "earnings_median_4yr": 58929,
+      "debt_median": 6992,
+      "completers": 48,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "polaris-career-center-390905",
+      "institution_name": "Polaris Career Center",
+      "earnings_median_5yr": 63196,
+      "earnings_median_4yr": 55423,
+      "debt_median": null,
+      "completers": 24,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "greene-county-career-center-365240",
+      "institution_name": "Greene County Career Center",
+      "earnings_median_5yr": 53670,
+      "earnings_median_4yr": 47012,
+      "debt_median": 5800,
+      "completers": 35,
+      "completers_single_year": 36,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "warren-county-career-center-407832",
+      "institution_name": "Warren County Career Center",
+      "earnings_median_5yr": 44765,
+      "earnings_median_4yr": 47196,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "scioto-county-career-technical-center-407577",
+      "institution_name": "Scioto County Career Technical Center",
+      "earnings_median_5yr": 41303,
+      "earnings_median_4yr": 36614,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "sinclair-community-college-205470",
+      "institution_name": "Sinclair Community College",
+      "earnings_median_5yr": 31556,
+      "earnings_median_4yr": 19247,
+      "debt_median": null,
+      "completers": 272,
+      "completers_single_year": 362,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "apollo-career-center-201034",
+      "institution_name": "Apollo Career Center",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "buckeye-hills-career-center-201478",
+      "institution_name": "Buckeye Hills Career Center",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "butler-technology-and-career-development-schools-201496",
+      "institution_name": "Butler Technology and Career Development Schools",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 6957,
+      "completers": 70,
+      "completers_single_year": 50,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "central-ohio-technical-college-201672",
+      "institution_name": "Central Ohio Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 41,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-cincinnati-main-campus-201885",
+      "institution_name": "University of Cincinnati-Main Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 45,
+      "completers_single_year": 34,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "clark-state-college-201973",
+      "institution_name": "Clark State College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 37,
+      "completers_single_year": 39,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "columbus-state-community-college-202222",
+      "institution_name": "Columbus State Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 28,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cuyahoga-community-college-district-202356",
+      "institution_name": "Cuyahoga Community College District",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "edison-state-community-college-202648",
+      "institution_name": "Edison State Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hocking-college-203155",
+      "institution_name": "Hocking College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 25,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "eastern-gateway-community-college-203331",
+      "institution_name": "Eastern Gateway Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "collins-career-technical-center-203614",
+      "institution_name": "Collins Career Technical Center",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "james-a-rhodes-state-college-203678",
+      "institution_name": "James A. Rhodes State College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lorain-county-community-college-203748",
+      "institution_name": "Lorain County Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 38,
+      "completers_single_year": 39,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "marion-technical-college-203881",
+      "institution_name": "Marion Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 20,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "medina-county-career-center-203942",
+      "institution_name": "Medina County Career Center",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "zane-state-college-204255",
+      "institution_name": "Zane State College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "north-central-state-college-204422",
+      "institution_name": "North Central State College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northwest-state-community-college-204440",
+      "institution_name": "Northwest State Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 15,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "owens-community-college-204945",
+      "institution_name": "Owens Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 8174,
+      "completers": 58,
+      "completers_single_year": 62,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "stark-state-college-205841",
+      "institution_name": "Stark State College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 19,
+      "completers_single_year": 25,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southern-state-community-college-205966",
+      "institution_name": "Southern State Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "terra-state-community-college-206011",
+      "institution_name": "Terra State Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "washington-state-community-college-206446",
+      "institution_name": "Washington State Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wright-state-university-main-campus-206604",
+      "institution_name": "Wright State University-Main Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "brown-clermont-adult-career-campuses-375568",
+      "institution_name": "Brown & Clermont Adult Career Campuses",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "buckeye-joint-vocational-school-383312",
+      "institution_name": "Buckeye Joint Vocational School",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "sandusky-career-center-383330",
+      "institution_name": "Sandusky Career Center",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "vantage-career-center-418278",
+      "institution_name": "Vantage Career Center",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wayne-county-schools-career-center-433138",
+      "institution_name": "Wayne County Schools Career Center",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lakewood-university-496706",
+      "institution_name": "Lakewood University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 22,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 14453,
+      "cost_total_default": 14453,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 63584,
+      "earnings_anchor_year": 5,
+      "debt_median": 4558,
+      "cip_family": "43",
+      "hs_baseline_state": 36400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 644932,
+      "breakeven_year": 2
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

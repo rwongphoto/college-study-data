@@ -1,0 +1,451 @@
+{
+  "state": "ca",
+  "name": "Monterey",
+  "slug": "monterey",
+  "institution_count": 2,
+  "institutions": [
+    {
+      "unitid": "119067",
+      "slug": "monterey-peninsula-college-119067",
+      "name": "Monterey Peninsula College",
+      "city": "Monterey",
+      "city_slug": "monterey",
+      "control": "public",
+      "pred_degree": "associates",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 42176,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 34496
+        },
+        {
+          "year": 8,
+          "value": 39059
+        },
+        {
+          "year": 10,
+          "value": 42176
+        }
+      ],
+      "completion_rate_150": 0.3018,
+      "completion_rate_history": [
+        {
+          "year": 1997,
+          "value": 0.0833
+        },
+        {
+          "year": 1998,
+          "value": 0.385
+        },
+        {
+          "year": 1999,
+          "value": 0.3816
+        },
+        {
+          "year": 2000,
+          "value": 0.4202
+        },
+        {
+          "year": 2001,
+          "value": 0.3704
+        },
+        {
+          "year": 2002,
+          "value": 0.4145
+        },
+        {
+          "year": 2003,
+          "value": 0.3705
+        },
+        {
+          "year": 2004,
+          "value": 0.3797
+        },
+        {
+          "year": 2005,
+          "value": 0.3833
+        },
+        {
+          "year": 2006,
+          "value": 0.3819
+        },
+        {
+          "year": 2007,
+          "value": 0.2188
+        },
+        {
+          "year": 2008,
+          "value": 0.2356
+        },
+        {
+          "year": 2009,
+          "value": 0.2249
+        },
+        {
+          "year": 2010,
+          "value": 0.259
+        }
+      ],
+      "enrollment_undergrad": 5759,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 4169.0
+        },
+        {
+          "year": 1997,
+          "value": 3021.0
+        },
+        {
+          "year": 1998,
+          "value": 2913.0
+        },
+        {
+          "year": 1999,
+          "value": 3726.0
+        },
+        {
+          "year": 2001,
+          "value": 3631.0
+        },
+        {
+          "year": 2002,
+          "value": 3773.0
+        },
+        {
+          "year": 2003,
+          "value": 3553.0
+        },
+        {
+          "year": 2004,
+          "value": 3557.0
+        },
+        {
+          "year": 2005,
+          "value": 3343.0
+        },
+        {
+          "year": 2006,
+          "value": 3458.0
+        },
+        {
+          "year": 2007,
+          "value": 3623.0
+        },
+        {
+          "year": 2008,
+          "value": 8541.0
+        },
+        {
+          "year": 2009,
+          "value": 8784.0
+        },
+        {
+          "year": 2010,
+          "value": 8881.0
+        }
+      ],
+      "median_debt": 8250,
+      "default_rate": 0.0,
+      "tuition_in_state": 1188,
+      "tuition_out_of_state": 9924,
+      "long_arc": [
+        {
+          "metric": "completion_rate_150",
+          "from_year": 1997,
+          "to_year": 2010,
+          "from_value": 0.0833,
+          "to_value": 0.259,
+          "pct_change": 2.109243697478992,
+          "direction": "rose"
+        },
+        {
+          "metric": "completion_rate_100",
+          "from_year": 2009,
+          "to_year": 2010,
+          "from_value": 0.0934,
+          "to_value": 0.0663,
+          "pct_change": -0.29014989293361887,
+          "direction": "fell"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 1996,
+          "to_year": 2010,
+          "from_value": 4169.0,
+          "to_value": 8881.0,
+          "pct_change": 1.1302470616454785,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_in_state",
+          "from_year": 2000,
+          "to_year": 2010,
+          "from_value": 306.0,
+          "to_value": 678.0,
+          "pct_change": 0.372,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2000,
+          "to_year": 2024,
+          "from_value": 3426.0,
+          "to_value": 10572.0,
+          "pct_change": 2.085814360770578,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 1997,
+          "to_year": 2010,
+          "from_value": 3042.0,
+          "to_value": 4500.0,
+          "pct_change": 0.47928994082840237,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.212,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2008,
+          "to_year": 2010,
+          "from_value": 0.0791,
+          "to_value": 0.1302,
+          "pct_change": 0.6460176991150443,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_8yr",
+          "from_year": 2005,
+          "to_year": 2020,
+          "from_value": 28700.0,
+          "to_value": 39059.0,
+          "pct_change": 0.36094076655052265,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_6yr",
+          "from_year": 2003,
+          "to_year": 2020,
+          "from_value": 26800.0,
+          "to_value": 34496.0,
+          "pct_change": 0.2871641791044776,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "unitid": "119678",
+      "slug": "naval-postgraduate-school-119678",
+      "name": "Naval Postgraduate School",
+      "city": "Monterey",
+      "city_slug": "monterey",
+      "control": "public",
+      "pred_degree": "graduate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": null
+        },
+        {
+          "year": 8,
+          "value": null
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": null,
+      "completion_rate_history": [],
+      "enrollment_undergrad": null,
+      "enrollment_history": [],
+      "median_debt": null,
+      "default_rate": null,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": []
+    }
+  ],
+  "earnings_median_city": 42176,
+  "completion_rate_city": 0.3018,
+  "completion_history_city": [
+    {
+      "year": 1997,
+      "value": 0.0833
+    },
+    {
+      "year": 1998,
+      "value": 0.385
+    },
+    {
+      "year": 1999,
+      "value": 0.3816
+    },
+    {
+      "year": 2000,
+      "value": 0.4202
+    },
+    {
+      "year": 2001,
+      "value": 0.3704
+    },
+    {
+      "year": 2002,
+      "value": 0.4145
+    },
+    {
+      "year": 2003,
+      "value": 0.3705
+    },
+    {
+      "year": 2004,
+      "value": 0.3797
+    },
+    {
+      "year": 2005,
+      "value": 0.3833
+    },
+    {
+      "year": 2006,
+      "value": 0.3819
+    },
+    {
+      "year": 2007,
+      "value": 0.2188
+    },
+    {
+      "year": 2008,
+      "value": 0.2356
+    },
+    {
+      "year": 2009,
+      "value": 0.2249
+    },
+    {
+      "year": 2010,
+      "value": 0.259
+    }
+  ],
+  "enrollment_history_city": [
+    {
+      "year": 1996,
+      "value": 4169.0
+    },
+    {
+      "year": 1997,
+      "value": 3021.0
+    },
+    {
+      "year": 1998,
+      "value": 2913.0
+    },
+    {
+      "year": 1999,
+      "value": 3726.0
+    },
+    {
+      "year": 2001,
+      "value": 3631.0
+    },
+    {
+      "year": 2002,
+      "value": 3773.0
+    },
+    {
+      "year": 2003,
+      "value": 3553.0
+    },
+    {
+      "year": 2004,
+      "value": 3557.0
+    },
+    {
+      "year": 2005,
+      "value": 3343.0
+    },
+    {
+      "year": 2006,
+      "value": 3458.0
+    },
+    {
+      "year": 2007,
+      "value": 3623.0
+    },
+    {
+      "year": 2008,
+      "value": 8541.0
+    },
+    {
+      "year": 2009,
+      "value": 8784.0
+    },
+    {
+      "year": 2010,
+      "value": 8881.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

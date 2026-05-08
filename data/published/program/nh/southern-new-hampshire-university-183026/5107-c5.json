@@ -1,0 +1,228 @@
+{
+  "institution_unitid": "183026",
+  "institution_name": "Southern New Hampshire University",
+  "institution_slug": "southern-new-hampshire-university-183026",
+  "state": "nh",
+  "cip_code": "5107",
+  "cip_desc": "Health and Medical Administrative Services.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5107-c5",
+  "earnings_median_4yr": 75021,
+  "earnings_median_5yr": 78894,
+  "earnings_count_4yr": 10,
+  "earnings_count_5yr": 8,
+  "debt_median": 36900,
+  "completers": 358,
+  "completers_single_year": 271,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 75021.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 78894.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 33821.0
+      },
+      {
+        "year": 2015,
+        "value": 38700.0
+      },
+      {
+        "year": 2016,
+        "value": 41000.0
+      },
+      {
+        "year": 2017,
+        "value": 38801.0
+      },
+      {
+        "year": 2018,
+        "value": 36900.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 116.0
+      },
+      {
+        "year": 2015,
+        "value": 135.0
+      },
+      {
+        "year": 2016,
+        "value": 212.0
+      },
+      {
+        "year": 2017,
+        "value": 271.0
+      },
+      {
+        "year": 2018,
+        "value": 271.0
+      },
+      {
+        "year": 2019,
+        "value": 358.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "completers",
+      "from_year": 2014,
+      "to_year": 2019,
+      "from_value": 116.0,
+      "to_value": 358.0,
+      "pct_change": 0.242,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Annual completers",
+      "summary": "Annual completers at Health and Medical Administrative Services at Southern New Hampshire University rose 24% between 2014 and 2019 (116 → 358).",
+      "magnitude_pct": 24.2,
+      "magnitude_abs": 242.0,
+      "baseline_year": 2014,
+      "recent_year": 2019,
+      "units": null,
+      "history": [],
+      "metric": "completers"
+    }
+  ],
+  "institution": {
+    "unitid": "183026",
+    "slug": "southern-new-hampshire-university-183026",
+    "name": "Southern New Hampshire University",
+    "city": "Manchester",
+    "city_slug": "manchester",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "new-england-college-182980",
+      "institution_name": "New England College",
+      "earnings_median_5yr": 117609,
+      "earnings_median_4yr": 121882,
+      "debt_median": 32680,
+      "completers": 28,
+      "completers_single_year": 45,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "dartmouth-college-182670",
+      "institution_name": "Dartmouth College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 35,
+      "completers_single_year": 41,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "franklin-pierce-university-182795",
+      "institution_name": "Franklin Pierce University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "plymouth-state-university-183080",
+      "institution_name": "Plymouth State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rivier-university-183211",
+      "institution_name": "Rivier University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 8,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 34048,
+      "cost_total_default": 204288,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 78894,
+      "earnings_anchor_year": 5,
+      "debt_median": 36900,
+      "cip_family": "51",
+      "hs_baseline_state": 40300
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 426459,
+      "breakeven_year": 16
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

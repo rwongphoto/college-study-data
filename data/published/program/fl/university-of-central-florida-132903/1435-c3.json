@@ -1,0 +1,218 @@
+{
+  "institution_unitid": "132903",
+  "institution_name": "University of Central Florida",
+  "institution_slug": "university-of-central-florida-132903",
+  "state": "fl",
+  "cip_code": "1435",
+  "cip_desc": "Industrial Engineering.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1435-c3",
+  "earnings_median_4yr": 78467,
+  "earnings_median_5yr": 83520,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": 23269,
+  "completers": 138,
+  "completers_single_year": 145,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 78467.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 83520.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 18824.0
+      },
+      {
+        "year": 2015,
+        "value": 18500.0
+      },
+      {
+        "year": 2016,
+        "value": 21500.0
+      },
+      {
+        "year": 2017,
+        "value": 21750.0
+      },
+      {
+        "year": 2018,
+        "value": 23269.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 103.0
+      },
+      {
+        "year": 2015,
+        "value": 134.0
+      },
+      {
+        "year": 2016,
+        "value": 125.0
+      },
+      {
+        "year": 2017,
+        "value": 95.0
+      },
+      {
+        "year": 2018,
+        "value": 145.0
+      },
+      {
+        "year": 2019,
+        "value": 138.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 18824.0,
+      "to_value": 23269.0,
+      "pct_change": 0.2361347216319592,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Industrial Engineering at University of Central Florida rose 24% between 2014 and 2018 ($18.8k → $23.3k).",
+      "magnitude_pct": 23.6,
+      "magnitude_abs": 4445.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "132903",
+    "slug": "university-of-central-florida-132903",
+    "name": "University of Central Florida",
+    "city": "Orlando",
+    "city_slug": "orlando",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-south-florida-137351",
+      "institution_name": "University of South Florida",
+      "earnings_median_5yr": 89514,
+      "earnings_median_4yr": 73234,
+      "debt_median": 20521,
+      "completers": 52,
+      "completers_single_year": 80,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-miami-135726",
+      "institution_name": "University of Miami",
+      "earnings_median_5yr": 85735,
+      "earnings_median_4yr": 76230,
+      "debt_median": 15110,
+      "completers": 48,
+      "completers_single_year": 46,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "florida-agricultural-and-mechanical-university-133650",
+      "institution_name": "Florida Agricultural and Mechanical University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "florida-state-university-134097",
+      "institution_name": "Florida State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 90074,
+      "debt_median": 19375,
+      "completers": 34,
+      "completers_single_year": 39,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 10684,
+      "cost_total_default": 42736,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 83520,
+      "earnings_anchor_year": 5,
+      "debt_median": 23269,
+      "cip_family": "14",
+      "hs_baseline_state": 35400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 998667,
+      "breakeven_year": 5
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

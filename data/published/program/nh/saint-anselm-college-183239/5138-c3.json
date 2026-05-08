@@ -1,0 +1,224 @@
+{
+  "institution_unitid": "183239",
+  "institution_name": "Saint Anselm College",
+  "institution_slug": "saint-anselm-college-183239",
+  "state": "nh",
+  "cip_code": "5138",
+  "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5138-c3",
+  "earnings_median_4yr": 78082,
+  "earnings_median_5yr": 92755,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 2,
+  "debt_median": 27000,
+  "completers": 95,
+  "completers_single_year": 91,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 78082.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 92755.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 27000.0
+      },
+      {
+        "year": 2015,
+        "value": 27000.0
+      },
+      {
+        "year": 2016,
+        "value": 27000.0
+      },
+      {
+        "year": 2017,
+        "value": 27000.0
+      },
+      {
+        "year": 2018,
+        "value": 27000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 78.0
+      },
+      {
+        "year": 2015,
+        "value": 80.0
+      },
+      {
+        "year": 2016,
+        "value": 104.0
+      },
+      {
+        "year": 2017,
+        "value": 83.0
+      },
+      {
+        "year": 2018,
+        "value": 91.0
+      },
+      {
+        "year": 2019,
+        "value": 95.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "183239",
+    "slug": "saint-anselm-college-183239",
+    "name": "Saint Anselm College",
+    "city": "Manchester",
+    "city_slug": "manchester",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "franklin-pierce-university-182795",
+      "institution_name": "Franklin Pierce University",
+      "earnings_median_5yr": 96768,
+      "earnings_median_4yr": 91236,
+      "debt_median": 9827,
+      "completers": 26,
+      "completers_single_year": 25,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southern-new-hampshire-university-183026",
+      "institution_name": "Southern New Hampshire University",
+      "earnings_median_5yr": 95420,
+      "earnings_median_4yr": 83728,
+      "debt_median": 16539,
+      "completers": 945,
+      "completers_single_year": 977,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "colby-sawyer-college-182634",
+      "institution_name": "Colby-Sawyer College",
+      "earnings_median_5yr": 88122,
+      "earnings_median_4yr": 74856,
+      "debt_median": 27000,
+      "completers": 46,
+      "completers_single_year": 43,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rivier-university-183211",
+      "institution_name": "Rivier University",
+      "earnings_median_5yr": 84892,
+      "earnings_median_4yr": 73734,
+      "debt_median": 26200,
+      "completers": 160,
+      "completers_single_year": 149,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "keene-state-college-183062",
+      "institution_name": "Keene State College",
+      "earnings_median_5yr": 83703,
+      "earnings_median_4yr": 76195,
+      "debt_median": 27000,
+      "completers": 12,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-new-hampshire-main-campus-183044",
+      "institution_name": "University of New Hampshire-Main Campus",
+      "earnings_median_5yr": 82473,
+      "earnings_median_4yr": 71346,
+      "debt_median": 27000,
+      "completers": 78,
+      "completers_single_year": 67,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "plymouth-state-university-183080",
+      "institution_name": "Plymouth State University",
+      "earnings_median_5yr": 74139,
+      "earnings_median_4yr": 69745,
+      "debt_median": 27000,
+      "completers": 27,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 27460,
+      "cost_total_default": 109840,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 92755,
+      "earnings_anchor_year": 5,
+      "debt_median": 27000,
+      "cip_family": "51",
+      "hs_baseline_state": 40300
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 865846,
+      "breakeven_year": 7
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

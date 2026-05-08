@@ -1,0 +1,188 @@
+{
+  "institution_unitid": "242972",
+  "institution_name": "NUC University",
+  "institution_slug": "nuc-university-242972",
+  "state": "pr",
+  "cip_code": "4702",
+  "cip_desc": "Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "4702-c1",
+  "earnings_median_4yr": 38980,
+  "earnings_median_5yr": 42697,
+  "earnings_count_4yr": 13,
+  "earnings_count_5yr": 14,
+  "debt_median": 13805,
+  "completers": 139,
+  "completers_single_year": 96,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 38980.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 42697.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 13875.0
+      },
+      {
+        "year": 2015,
+        "value": 13875.0
+      },
+      {
+        "year": 2016,
+        "value": 13874.0
+      },
+      {
+        "year": 2017,
+        "value": 13874.0
+      },
+      {
+        "year": 2018,
+        "value": 13805.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2018,
+        "value": 96.0
+      },
+      {
+        "year": 2019,
+        "value": 139.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "242972",
+    "slug": "nuc-university-242972",
+    "name": "NUC University",
+    "city": "Bayamon",
+    "city_slug": "bayamon",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "mech-tech-college-414461",
+      "institution_name": "Mech-Tech College",
+      "earnings_median_5yr": 34704,
+      "earnings_median_4yr": 25024,
+      "debt_median": 3175,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "automeca-technical-college-bayamon-419703",
+      "institution_name": "Automeca Technical College-Bayamon",
+      "earnings_median_5yr": 24785,
+      "earnings_median_4yr": null,
+      "debt_median": 2500,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "humacao-community-college-242121",
+      "institution_name": "Humacao Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "universal-technology-college-of-puerto-rico-376385",
+      "institution_name": "Universal Technology College of Puerto Rico",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "escuela-tecnica-de-electricidad-431123",
+      "institution_name": "Escuela Tecnica de Electricidad",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 51,
+      "completers_single_year": 28,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 14,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 8947,
+      "cost_total_default": 8947,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 42697,
+      "earnings_anchor_year": 5,
+      "debt_median": 13805,
+      "cip_family": "47",
+      "hs_baseline_state": 22400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 476057,
+      "breakeven_year": 1
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

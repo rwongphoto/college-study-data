@@ -1,0 +1,559 @@
+{
+  "state": "tx",
+  "name": "Brenham",
+  "slug": "brenham",
+  "institution_count": 2,
+  "institutions": [
+    {
+      "unitid": "223427",
+      "slug": "blinn-college-district-223427",
+      "name": "Blinn College District",
+      "city": "Brenham",
+      "city_slug": "brenham",
+      "control": "public",
+      "pred_degree": "associates",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 46318,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 38017
+        },
+        {
+          "year": 8,
+          "value": 42590
+        },
+        {
+          "year": 10,
+          "value": 46318
+        }
+      ],
+      "completion_rate_150": 0.1097,
+      "completion_rate_history": [
+        {
+          "year": 1997,
+          "value": 0.0792
+        },
+        {
+          "year": 1998,
+          "value": 0.1409
+        },
+        {
+          "year": 1999,
+          "value": 0.1692
+        },
+        {
+          "year": 2000,
+          "value": 0.1168
+        },
+        {
+          "year": 2001,
+          "value": 0.1042
+        },
+        {
+          "year": 2002,
+          "value": 0.1044
+        },
+        {
+          "year": 2003,
+          "value": 0.2102
+        },
+        {
+          "year": 2004,
+          "value": 0.1047
+        },
+        {
+          "year": 2005,
+          "value": 0.0898
+        },
+        {
+          "year": 2006,
+          "value": 0.1043
+        },
+        {
+          "year": 2007,
+          "value": 0.0654
+        },
+        {
+          "year": 2008,
+          "value": 0.0586
+        },
+        {
+          "year": 2009,
+          "value": 0.0709
+        }
+      ],
+      "enrollment_undergrad": 16156,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 9604.0
+        },
+        {
+          "year": 1997,
+          "value": 9927.0
+        },
+        {
+          "year": 1998,
+          "value": 10167.0
+        },
+        {
+          "year": 1999,
+          "value": 10961.0
+        },
+        {
+          "year": 2001,
+          "value": 12484.0
+        },
+        {
+          "year": 2002,
+          "value": 13806.0
+        },
+        {
+          "year": 2003,
+          "value": 10294.0
+        },
+        {
+          "year": 2004,
+          "value": 5138.0
+        },
+        {
+          "year": 2005,
+          "value": 11557.0
+        },
+        {
+          "year": 2006,
+          "value": 3825.0
+        },
+        {
+          "year": 2007,
+          "value": 3657.0
+        },
+        {
+          "year": 2008,
+          "value": 3940.0
+        },
+        {
+          "year": 2009,
+          "value": 16898.0
+        },
+        {
+          "year": 2010,
+          "value": 17350.0
+        },
+        {
+          "year": 2011,
+          "value": 16356.0
+        },
+        {
+          "year": 2012,
+          "value": 16143.0
+        },
+        {
+          "year": 2013,
+          "value": 16664.0
+        },
+        {
+          "year": 2014,
+          "value": 17095.0
+        },
+        {
+          "year": 2015,
+          "value": 18025.0
+        },
+        {
+          "year": 2016,
+          "value": 16850.0
+        },
+        {
+          "year": 2017,
+          "value": 17123.0
+        },
+        {
+          "year": 2018,
+          "value": 17717.0
+        },
+        {
+          "year": 2019,
+          "value": 17795.0
+        },
+        {
+          "year": 2020,
+          "value": 16276.0
+        },
+        {
+          "year": 2021,
+          "value": 15486.0
+        },
+        {
+          "year": 2022,
+          "value": 15389.0
+        },
+        {
+          "year": 2023,
+          "value": 16156.0
+        },
+        {
+          "year": 2024,
+          "value": 15535.0
+        }
+      ],
+      "median_debt": 5500,
+      "default_rate": 0.0,
+      "tuition_in_state": 4580,
+      "tuition_out_of_state": 11030,
+      "long_arc": [
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 1996,
+          "to_year": 2024,
+          "from_value": 9604.0,
+          "to_value": 15535.0,
+          "pct_change": 0.6175551853394419,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_in_state",
+          "from_year": 2000,
+          "to_year": 2024,
+          "from_value": 1016.0,
+          "to_value": 4890.0,
+          "pct_change": 3.812992125984252,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2000,
+          "to_year": 2024,
+          "from_value": 3248.0,
+          "to_value": 11370.0,
+          "pct_change": 2.500615763546798,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 1997,
+          "to_year": 2020,
+          "from_value": 2625.0,
+          "to_value": 11500.0,
+          "pct_change": 3.380952380952381,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_8yr",
+          "from_year": 2005,
+          "to_year": 2020,
+          "from_value": 34900.0,
+          "to_value": 42590.0,
+          "pct_change": 0.22034383954154727,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_6yr",
+          "from_year": 2003,
+          "to_year": 2020,
+          "from_value": 30500.0,
+          "to_value": 38017.0,
+          "pct_change": 0.24645901639344261,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "unitid": "494472",
+      "slug": "evvaylois-academy-school-of-beauty-494472",
+      "name": "Evvaylois Academy School of Beauty",
+      "city": "Brenham",
+      "city_slug": "brenham",
+      "control": "private_nonprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": null
+        },
+        {
+          "year": 8,
+          "value": null
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": 0.75,
+      "completion_rate_history": [],
+      "enrollment_undergrad": 14,
+      "enrollment_history": [
+        {
+          "year": 2020,
+          "value": 17.0
+        },
+        {
+          "year": 2021,
+          "value": 11.0
+        },
+        {
+          "year": 2022,
+          "value": 14.0
+        },
+        {
+          "year": 2023,
+          "value": 14.0
+        },
+        {
+          "year": 2024,
+          "value": 14.0
+        }
+      ],
+      "median_debt": null,
+      "default_rate": null,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "retention_rate",
+          "from_year": 2021,
+          "to_year": 2024,
+          "from_value": 0.8333,
+          "to_value": 1.0,
+          "pct_change": 0.20004800192007674,
+          "direction": "rose"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2020,
+          "to_year": 2024,
+          "from_value": 0.3182,
+          "to_value": 0.7,
+          "pct_change": 1.1998742928975488,
+          "direction": "rose"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": 46318,
+  "completion_rate_city": 0.42985,
+  "completion_history_city": [
+    {
+      "year": 1997,
+      "value": 0.0792
+    },
+    {
+      "year": 1998,
+      "value": 0.1409
+    },
+    {
+      "year": 1999,
+      "value": 0.1692
+    },
+    {
+      "year": 2000,
+      "value": 0.1168
+    },
+    {
+      "year": 2001,
+      "value": 0.1042
+    },
+    {
+      "year": 2002,
+      "value": 0.1044
+    },
+    {
+      "year": 2003,
+      "value": 0.2102
+    },
+    {
+      "year": 2004,
+      "value": 0.1047
+    },
+    {
+      "year": 2005,
+      "value": 0.0898
+    },
+    {
+      "year": 2006,
+      "value": 0.1043
+    },
+    {
+      "year": 2007,
+      "value": 0.0654
+    },
+    {
+      "year": 2008,
+      "value": 0.0586
+    },
+    {
+      "year": 2009,
+      "value": 0.0709
+    }
+  ],
+  "enrollment_history_city": [
+    {
+      "year": 1996,
+      "value": 9604.0
+    },
+    {
+      "year": 1997,
+      "value": 9927.0
+    },
+    {
+      "year": 1998,
+      "value": 10167.0
+    },
+    {
+      "year": 1999,
+      "value": 10961.0
+    },
+    {
+      "year": 2001,
+      "value": 12484.0
+    },
+    {
+      "year": 2002,
+      "value": 13806.0
+    },
+    {
+      "year": 2003,
+      "value": 10294.0
+    },
+    {
+      "year": 2004,
+      "value": 5138.0
+    },
+    {
+      "year": 2005,
+      "value": 11557.0
+    },
+    {
+      "year": 2006,
+      "value": 3825.0
+    },
+    {
+      "year": 2007,
+      "value": 3657.0
+    },
+    {
+      "year": 2008,
+      "value": 3940.0
+    },
+    {
+      "year": 2009,
+      "value": 16898.0
+    },
+    {
+      "year": 2010,
+      "value": 17350.0
+    },
+    {
+      "year": 2011,
+      "value": 16356.0
+    },
+    {
+      "year": 2012,
+      "value": 16143.0
+    },
+    {
+      "year": 2013,
+      "value": 16664.0
+    },
+    {
+      "year": 2014,
+      "value": 17095.0
+    },
+    {
+      "year": 2015,
+      "value": 18025.0
+    },
+    {
+      "year": 2016,
+      "value": 16850.0
+    },
+    {
+      "year": 2017,
+      "value": 17123.0
+    },
+    {
+      "year": 2018,
+      "value": 17717.0
+    },
+    {
+      "year": 2019,
+      "value": 17795.0
+    },
+    {
+      "year": 2020,
+      "value": 16293.0
+    },
+    {
+      "year": 2021,
+      "value": 15497.0
+    },
+    {
+      "year": 2022,
+      "value": 15403.0
+    },
+    {
+      "year": 2023,
+      "value": 16170.0
+    },
+    {
+      "year": 2024,
+      "value": 15549.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

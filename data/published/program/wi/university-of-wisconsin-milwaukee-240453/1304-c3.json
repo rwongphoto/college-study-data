@@ -1,0 +1,177 @@
+{
+  "institution_unitid": "240453",
+  "institution_name": "University of Wisconsin-Milwaukee",
+  "institution_slug": "university-of-wisconsin-milwaukee-240453",
+  "state": "wi",
+  "cip_code": "1304",
+  "cip_desc": "Educational Administration and Supervision.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1304-c3",
+  "earnings_median_4yr": 41552,
+  "earnings_median_5yr": 46490,
+  "earnings_count_4yr": 5,
+  "earnings_count_5yr": 4,
+  "debt_median": 27668,
+  "completers": 47,
+  "completers_single_year": 41,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 41552.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 46490.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 35278.0
+      },
+      {
+        "year": 2015,
+        "value": 30577.0
+      },
+      {
+        "year": 2016,
+        "value": 25000.0
+      },
+      {
+        "year": 2017,
+        "value": 26538.0
+      },
+      {
+        "year": 2018,
+        "value": 27668.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 45.0
+      },
+      {
+        "year": 2015,
+        "value": 35.0
+      },
+      {
+        "year": 2016,
+        "value": 48.0
+      },
+      {
+        "year": 2017,
+        "value": 42.0
+      },
+      {
+        "year": 2018,
+        "value": 41.0
+      },
+      {
+        "year": 2019,
+        "value": 47.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 35278.0,
+      "to_value": 27668.0,
+      "pct_change": -0.21571517659731276,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Educational Administration and Supervision at University of Wisconsin-Milwaukee fell 22% between 2014 and 2018 ($35.3k → $27.7k).",
+      "magnitude_pct": -21.6,
+      "magnitude_abs": -7610.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "240453",
+    "slug": "university-of-wisconsin-milwaukee-240453",
+    "name": "University of Wisconsin-Milwaukee",
+    "city": "Milwaukee",
+    "city_slug": "milwaukee",
+    "control": "public"
+  },
+  "peers_in_state": [],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 4,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 15762,
+      "cost_total_default": 63048,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 46490,
+      "earnings_anchor_year": 5,
+      "debt_median": 27668,
+      "cip_family": "13",
+      "hs_baseline_state": 37100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 56342,
+      "breakeven_year": 23
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

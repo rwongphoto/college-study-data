@@ -1,0 +1,253 @@
+{
+  "institution": {
+    "unitid": "497356",
+    "opeid6": "043047",
+    "name": "Barber Education Academy",
+    "slug": "barber-education-academy-497356",
+    "state": "tx",
+    "city": "Laredo",
+    "city_slug": "laredo",
+    "zip5": "78041",
+    "address": "1505 Calle Del Norte Suite 230",
+    "latitude": 27.555745,
+    "longitude": -99.48055,
+    "control": "private_forprofit",
+    "pred_degree": "certificate",
+    "highest_degree": "certificate",
+    "main_campus": true,
+    "locale": "11",
+    "carnegie_basic": -2,
+    "sector_code": 9,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": 0.6667,
+    "completion_rate_100": 0.0,
+    "retention_rate": 0.72,
+    "admission_rate": null,
+    "enrollment_undergrad": 43,
+    "enrollment_total": null,
+    "cost_attendance": 14468,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": 8748,
+    "cost_by_income": {
+      "0_30k": 8706,
+      "30_48k": 8998,
+      "48_75k": null,
+      "75_110k": null,
+      "110k_plus": null,
+      "sticker": 14468,
+      "sector": "priv"
+    },
+    "median_debt": null,
+    "default_rate": null,
+    "pell_share": 0.6833,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [
+        {
+          "year": 2022,
+          "value": 0.6667
+        },
+        {
+          "year": 2023,
+          "value": 0.72
+        },
+        {
+          "year": 2024,
+          "value": 0.7857
+        }
+      ],
+      "admission_rate": [],
+      "enrollment_undergrad": [
+        {
+          "year": 2022,
+          "value": 40.0
+        },
+        {
+          "year": 2023,
+          "value": 43.0
+        },
+        {
+          "year": 2024,
+          "value": 37.0
+        }
+      ],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [
+        {
+          "year": 2023,
+          "value": 14468.0
+        },
+        {
+          "year": 2024,
+          "value": 7647.0
+        }
+      ],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [
+        {
+          "year": 2023,
+          "value": 8748.0
+        },
+        {
+          "year": 2024,
+          "value": 2221.0
+        }
+      ],
+      "median_debt": [],
+      "default_rate": [],
+      "pell_share": [
+        {
+          "year": 2022,
+          "value": 0.0
+        },
+        {
+          "year": 2023,
+          "value": 0.6833
+        },
+        {
+          "year": 2024,
+          "value": 0.6892
+        }
+      ],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "retention_rate",
+        "from_year": 2022,
+        "to_year": 2024,
+        "from_value": 0.6667,
+        "to_value": 0.7857,
+        "pct_change": 0.1784910754462277,
+        "direction": "rose"
+      },
+      {
+        "metric": "pell_share",
+        "from_year": 2022,
+        "to_year": 2024,
+        "from_value": 0.0,
+        "to_value": 0.6892,
+        "pct_change": 13.784,
+        "direction": "rose"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "First-year retention",
+        "summary": "First-year retention at Barber Education Academy rose 18% between 2022 and 2024 (66.7% → 78.6%).",
+        "magnitude_pct": 17.8,
+        "magnitude_abs": 0.12,
+        "baseline_year": 2022,
+        "recent_year": 2024,
+        "units": "%",
+        "history": [],
+        "metric": "retention_rate"
+      }
+    ]
+  },
+  "programs_by_family": {},
+  "programs": [],
+  "program_count": 0,
+  "similar": [
+    {
+      "slug": "mid-cities-barber-college-423412",
+      "name": "Mid Cities Barber College",
+      "city": "Grand Prairie",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 24664,
+      "completion_rate_150": 0.5806,
+      "enrollment_undergrad": 44
+    },
+    {
+      "slug": "buckner-barber-school-461740",
+      "name": "Buckner Barber School",
+      "city": "Dallas",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 27850,
+      "completion_rate_150": 0.2727,
+      "enrollment_undergrad": 42
+    },
+    {
+      "slug": "yahweh-beauty-academy-484136",
+      "name": "Yahweh Beauty Academy",
+      "city": "Killeen",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.6875,
+      "enrollment_undergrad": 42
+    },
+    {
+      "slug": "fort-worth-beauty-school-224828",
+      "name": "Fort Worth Beauty School",
+      "city": "Benbrook",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 22139,
+      "completion_rate_150": 0.625,
+      "enrollment_undergrad": 41
+    },
+    {
+      "slug": "hands-on-therapy-455327",
+      "name": "Hands on Therapy",
+      "city": "Mesquite",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 28323,
+      "completion_rate_150": 0.5217,
+      "enrollment_undergrad": 41
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

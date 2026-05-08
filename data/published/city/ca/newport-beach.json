@@ -1,0 +1,284 @@
+{
+  "state": "ca",
+  "name": "Newport Beach",
+  "slug": "newport-beach",
+  "institution_count": 1,
+  "institutions": [
+    {
+      "unitid": "116226",
+      "slug": "interior-designers-institute-116226",
+      "name": "Interior Designers Institute",
+      "city": "Newport Beach",
+      "city_slug": "newport-beach",
+      "control": "private_forprofit",
+      "pred_degree": "associates",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 54974,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 51615
+        },
+        {
+          "year": 8,
+          "value": 40138
+        },
+        {
+          "year": 10,
+          "value": 54974
+        }
+      ],
+      "completion_rate_150": 0.875,
+      "completion_rate_history": [
+        {
+          "year": 2020,
+          "value": 0.5
+        },
+        {
+          "year": 2021,
+          "value": 0.6
+        },
+        {
+          "year": 2022,
+          "value": 1.0
+        },
+        {
+          "year": 2023,
+          "value": 0.875
+        }
+      ],
+      "enrollment_undergrad": 107,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 268.0
+        },
+        {
+          "year": 1997,
+          "value": 253.0
+        },
+        {
+          "year": 1998,
+          "value": 227.0
+        },
+        {
+          "year": 1999,
+          "value": 271.0
+        },
+        {
+          "year": 2001,
+          "value": 398.0
+        },
+        {
+          "year": 2002,
+          "value": 414.0
+        },
+        {
+          "year": 2003,
+          "value": 454.0
+        },
+        {
+          "year": 2004,
+          "value": 508.0
+        },
+        {
+          "year": 2005,
+          "value": 498.0
+        },
+        {
+          "year": 2006,
+          "value": 492.0
+        },
+        {
+          "year": 2007,
+          "value": 468.0
+        },
+        {
+          "year": 2008,
+          "value": 360.0
+        },
+        {
+          "year": 2009,
+          "value": 355.0
+        },
+        {
+          "year": 2010,
+          "value": 310.0
+        }
+      ],
+      "median_debt": 17667,
+      "default_rate": 0.0,
+      "tuition_in_state": 20250,
+      "tuition_out_of_state": 20250,
+      "long_arc": [
+        {
+          "metric": "completion_rate_150",
+          "from_year": 2020,
+          "to_year": 2023,
+          "from_value": 0.5,
+          "to_value": 0.875,
+          "pct_change": 0.75,
+          "direction": "rose"
+        },
+        {
+          "metric": "completion_rate_100",
+          "from_year": 2020,
+          "to_year": 2023,
+          "from_value": 0.5,
+          "to_value": 1.0,
+          "pct_change": 1.0,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 1997,
+          "to_year": 2010,
+          "from_value": 11307.0,
+          "to_value": 17832.0,
+          "pct_change": 0.5770761475192359,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.028,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "earnings_median_6yr",
+          "from_year": 2003,
+          "to_year": 2020,
+          "from_value": 40000.0,
+          "to_value": 51615.0,
+          "pct_change": 0.290375,
+          "direction": "rose"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": 54974,
+  "completion_rate_city": 0.875,
+  "completion_history_city": [
+    {
+      "year": 2020,
+      "value": 0.5
+    },
+    {
+      "year": 2021,
+      "value": 0.6
+    },
+    {
+      "year": 2022,
+      "value": 1.0
+    },
+    {
+      "year": 2023,
+      "value": 0.875
+    }
+  ],
+  "enrollment_history_city": [
+    {
+      "year": 1996,
+      "value": 268.0
+    },
+    {
+      "year": 1997,
+      "value": 253.0
+    },
+    {
+      "year": 1998,
+      "value": 227.0
+    },
+    {
+      "year": 1999,
+      "value": 271.0
+    },
+    {
+      "year": 2001,
+      "value": 398.0
+    },
+    {
+      "year": 2002,
+      "value": 414.0
+    },
+    {
+      "year": 2003,
+      "value": 454.0
+    },
+    {
+      "year": 2004,
+      "value": 508.0
+    },
+    {
+      "year": 2005,
+      "value": 498.0
+    },
+    {
+      "year": 2006,
+      "value": 492.0
+    },
+    {
+      "year": 2007,
+      "value": 468.0
+    },
+    {
+      "year": 2008,
+      "value": 360.0
+    },
+    {
+      "year": 2009,
+      "value": 355.0
+    },
+    {
+      "year": 2010,
+      "value": 310.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "institution_unitid": "161077",
+  "institution_name": "Central Maine Community College",
+  "institution_slug": "central-maine-community-college-161077",
+  "state": "me",
+  "cip_code": "5108",
+  "cip_desc": "Allied Health and Medical Assisting Services.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "5108-c2",
+  "earnings_median_4yr": 33289,
+  "earnings_median_5yr": 35712,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 1,
+  "debt_median": null,
+  "completers": 6,
+  "completers_single_year": 12,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 33289.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 35712.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 13240.0
+      },
+      {
+        "year": 2015,
+        "value": 13240.0
+      },
+      {
+        "year": 2016,
+        "value": 15750.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 29.0
+      },
+      {
+        "year": 2015,
+        "value": 23.0
+      },
+      {
+        "year": 2016,
+        "value": 12.0
+      },
+      {
+        "year": 2017,
+        "value": 10.0
+      },
+      {
+        "year": 2018,
+        "value": 12.0
+      },
+      {
+        "year": 2019,
+        "value": 6.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "161077",
+    "slug": "central-maine-community-college-161077",
+    "name": "Central Maine Community College",
+    "city": "Auburn",
+    "city_slug": "auburn",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "southern-maine-community-college-161545",
+      "institution_name": "Southern Maine Community College",
+      "earnings_median_5yr": 40057,
+      "earnings_median_4yr": 41006,
+      "debt_median": 12000,
+      "completers": 15,
+      "completers_single_year": 27,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "eastern-maine-community-college-161138",
+      "institution_name": "Eastern Maine Community College",
+      "earnings_median_5yr": 37800,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 22,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "kennebec-valley-community-college-161192",
+      "institution_name": "Kennebec Valley Community College",
+      "earnings_median_5yr": 36964,
+      "earnings_median_4yr": 37168,
+      "debt_median": 15000,
+      "completers": 41,
+      "completers_single_year": 33,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "beal-university-160995",
+      "institution_name": "Beal University",
+      "earnings_median_5yr": 33867,
+      "earnings_median_4yr": 33465,
+      "debt_median": 17676,
+      "completers": 6,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-maine-at-augusta-161217",
+      "institution_name": "University of Maine at Augusta",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-maine-at-presque-isle-161341",
+      "institution_name": "University of Maine at Presque Isle",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northern-maine-community-college-161484",
+      "institution_name": "Northern Maine Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 32135,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "washington-county-community-college-161581",
+      "institution_name": "Washington County Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "york-county-community-college-420440",
+      "institution_name": "York County Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 8699,
+      "cost_total_default": 17398,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 35712,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "51",
+      "hs_baseline_state": 36200
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 5250,
+      "breakeven_year": 37
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

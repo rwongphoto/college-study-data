@@ -1,0 +1,174 @@
+{
+  "institution_unitid": "240444",
+  "institution_name": "University of Wisconsin-Madison",
+  "institution_slug": "university-of-wisconsin-madison-240444",
+  "state": "wi",
+  "cip_code": "5218",
+  "cip_desc": "General Sales, Merchandising and Related Marketing Operations.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5218-c3",
+  "earnings_median_4yr": 64857,
+  "earnings_median_5yr": 73814,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 1,
+  "debt_median": 18737,
+  "completers": 165,
+  "completers_single_year": 138,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 64857.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 73814.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 21500.0
+      },
+      {
+        "year": 2015,
+        "value": 21500.0
+      },
+      {
+        "year": 2016,
+        "value": 18800.0
+      },
+      {
+        "year": 2017,
+        "value": 18562.0
+      },
+      {
+        "year": 2018,
+        "value": 18737.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 61.0
+      },
+      {
+        "year": 2015,
+        "value": 78.0
+      },
+      {
+        "year": 2016,
+        "value": 107.0
+      },
+      {
+        "year": 2017,
+        "value": 118.0
+      },
+      {
+        "year": 2018,
+        "value": 138.0
+      },
+      {
+        "year": 2019,
+        "value": 165.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "240444",
+    "slug": "university-of-wisconsin-madison-240444",
+    "name": "University of Wisconsin-Madison",
+    "city": "Madison",
+    "city_slug": "madison",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-wisconsin-oshkosh-240365",
+      "institution_name": "University of Wisconsin-Oshkosh",
+      "earnings_median_5yr": 65031,
+      "earnings_median_4yr": 57376,
+      "debt_median": 21500,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-stout-240417",
+      "institution_name": "University of Wisconsin-Stout",
+      "earnings_median_5yr": 58911,
+      "earnings_median_4yr": 47843,
+      "debt_median": 23250,
+      "completers": 19,
+      "completers_single_year": 34,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 9613,
+      "cost_total_default": 38452,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 73814,
+      "earnings_anchor_year": 5,
+      "debt_median": 18737,
+      "cip_family": "52",
+      "hs_baseline_state": 37100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 685707,
+      "breakeven_year": 6
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

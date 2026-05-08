@@ -1,0 +1,290 @@
+{
+  "institution_unitid": "150987",
+  "institution_name": "Ivy Tech Community College",
+  "institution_slug": "ivy-tech-community-college-150987",
+  "state": "in",
+  "cip_code": "5202",
+  "cip_desc": "Business Administration, Management and Operations.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "5202-c1",
+  "earnings_median_4yr": 35332,
+  "earnings_median_5yr": 39969,
+  "earnings_count_4yr": 27,
+  "earnings_count_5yr": 31,
+  "debt_median": 8250,
+  "completers": 2607,
+  "completers_single_year": 2574,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 35332.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 39969.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 14875.0
+      },
+      {
+        "year": 2015,
+        "value": 13750.0
+      },
+      {
+        "year": 2016,
+        "value": 13698.0
+      },
+      {
+        "year": 2017,
+        "value": 8500.0
+      },
+      {
+        "year": 2018,
+        "value": 8250.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 703.0
+      },
+      {
+        "year": 2015,
+        "value": 792.0
+      },
+      {
+        "year": 2016,
+        "value": 2319.0
+      },
+      {
+        "year": 2017,
+        "value": 2206.0
+      },
+      {
+        "year": 2018,
+        "value": 2574.0
+      },
+      {
+        "year": 2019,
+        "value": 2607.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 14875.0,
+      "to_value": 8250.0,
+      "pct_change": -0.44537815126050423,
+      "direction": "fell"
+    },
+    {
+      "metric": "completers",
+      "from_year": 2014,
+      "to_year": 2019,
+      "from_value": 703.0,
+      "to_value": 2607.0,
+      "pct_change": 1.904,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Annual completers",
+      "summary": "Annual completers at Business Administration, Management and Operations at Ivy Tech Community College rose 190% between 2014 and 2019 (703 → 2.6k).",
+      "magnitude_pct": 190.4,
+      "magnitude_abs": 1904.0,
+      "baseline_year": 2014,
+      "recent_year": 2019,
+      "units": null,
+      "history": [],
+      "metric": "completers"
+    },
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Business Administration, Management and Operations at Ivy Tech Community College fell 45% between 2014 and 2018 ($14.9k → $8.2k).",
+      "magnitude_pct": -44.5,
+      "magnitude_abs": -6625.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "150987",
+    "slug": "ivy-tech-community-college-150987",
+    "name": "Ivy Tech Community College",
+    "city": "Indianapolis",
+    "city_slug": "indianapolis",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "purdue-university-main-campus-243780",
+      "institution_name": "Purdue University-Main Campus",
+      "earnings_median_5yr": 76560,
+      "earnings_median_4yr": 61570,
+      "debt_median": 19500,
+      "completers": 486,
+      "completers_single_year": 459,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "indiana-university-indianapolis-151111",
+      "institution_name": "Indiana University-Indianapolis",
+      "earnings_median_5yr": 67769,
+      "earnings_median_4yr": 64862,
+      "debt_median": 17500,
+      "completers": 14,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "calumet-college-of-saint-joseph-150172",
+      "institution_name": "Calumet College of Saint Joseph",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-evansville-150534",
+      "institution_name": "University of Evansville",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "purdue-university-fort-wayne-151102",
+      "institution_name": "Purdue University Fort Wayne",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-southern-indiana-151306",
+      "institution_name": "University of Southern Indiana",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "indiana-university-southeast-151379",
+      "institution_name": "Indiana University-Southeast",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "vincennes-university-152637",
+      "institution_name": "Vincennes University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "purdue-university-global-489779",
+      "institution_name": "Purdue University Global",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 797,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 31,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 8422,
+      "cost_total_default": 8422,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 39969,
+      "earnings_anchor_year": 5,
+      "debt_median": 8250,
+      "cip_family": "52",
+      "hs_baseline_state": 36400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 146242,
+      "breakeven_year": 12
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

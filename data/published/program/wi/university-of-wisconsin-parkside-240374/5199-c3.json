@@ -1,0 +1,180 @@
+{
+  "institution_unitid": "240374",
+  "institution_name": "University of Wisconsin-Parkside",
+  "institution_slug": "university-of-wisconsin-parkside-240374",
+  "state": "wi",
+  "cip_code": "5199",
+  "cip_desc": "Health Professions and Related Clinical Sciences, Other.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5199-c3",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 0,
+  "debt_median": 15750,
+  "completers": 30,
+  "completers_single_year": 33,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [
+      {
+        "year": 2015,
+        "value": 23184.0
+      },
+      {
+        "year": 2016,
+        "value": 25851.0
+      },
+      {
+        "year": 2017,
+        "value": 23175.0
+      },
+      {
+        "year": 2018,
+        "value": 15750.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 27.0
+      },
+      {
+        "year": 2015,
+        "value": 26.0
+      },
+      {
+        "year": 2016,
+        "value": 31.0
+      },
+      {
+        "year": 2017,
+        "value": 17.0
+      },
+      {
+        "year": 2018,
+        "value": 33.0
+      },
+      {
+        "year": 2019,
+        "value": 30.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2015,
+      "to_year": 2018,
+      "from_value": 23184.0,
+      "to_value": 15750.0,
+      "pct_change": -0.32065217391304346,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Health Professions and Related Clinical Sciences, Other at University of Wisconsin-Parkside fell 32% between 2015 and 2018 ($23.2k → $15.8k).",
+      "magnitude_pct": -32.1,
+      "magnitude_abs": -7434.0,
+      "baseline_year": 2015,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "240374",
+    "slug": "university-of-wisconsin-parkside-240374",
+    "name": "University of Wisconsin-Parkside",
+    "city": "Kenosha",
+    "city_slug": "kenosha",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-wisconsin-stevens-point-240480",
+      "institution_name": "University of Wisconsin-Stevens Point",
+      "earnings_median_5yr": 56691,
+      "earnings_median_4yr": 44129,
+      "debt_median": 22372,
+      "completers": 51,
+      "completers_single_year": 66,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-oshkosh-240365",
+      "institution_name": "University of Wisconsin-Oshkosh",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 10670,
+      "cost_total_default": 42680,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": 15750,
+      "cip_family": "51"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

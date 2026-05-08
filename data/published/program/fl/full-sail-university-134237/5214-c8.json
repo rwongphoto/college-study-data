@@ -1,0 +1,206 @@
+{
+  "institution_unitid": "134237",
+  "institution_name": "Full Sail University",
+  "institution_slug": "full-sail-university-134237",
+  "state": "fl",
+  "cip_code": "5214",
+  "cip_desc": "Marketing.",
+  "credential_level": 8,
+  "credential_desc": "Graduate/Professional Certificate",
+  "slug": "5214-c8",
+  "earnings_median_4yr": 51783,
+  "earnings_median_5yr": 65262,
+  "earnings_count_4yr": 4,
+  "earnings_count_5yr": 8,
+  "debt_median": null,
+  "completers": 33,
+  "completers_single_year": 31,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 51783.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 65262.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 20500.0
+      },
+      {
+        "year": 2015,
+        "value": 16545.0
+      },
+      {
+        "year": 2016,
+        "value": 13077.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2015,
+        "value": 30.0
+      },
+      {
+        "year": 2016,
+        "value": 19.0
+      },
+      {
+        "year": 2017,
+        "value": 34.0
+      },
+      {
+        "year": 2018,
+        "value": 31.0
+      },
+      {
+        "year": 2019,
+        "value": 33.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2016,
+      "from_value": 20500.0,
+      "to_value": 13077.0,
+      "pct_change": -0.36209756097560974,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Marketing at Full Sail University fell 36% between 2014 and 2016 ($20.5k → $13.1k).",
+      "magnitude_pct": -36.2,
+      "magnitude_abs": -7423.0,
+      "baseline_year": 2014,
+      "recent_year": 2016,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "134237",
+    "slug": "full-sail-university-134237",
+    "name": "Full Sail University",
+    "city": "Winter Park",
+    "city_slug": "winter-park",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "lynn-university-132657",
+      "institution_name": "Lynn University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "nova-southeastern-university-136215",
+      "institution_name": "Nova Southeastern University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-leo-university-137032",
+      "institution_name": "Saint Leo University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "st-thomas-university-137476",
+      "institution_name": "St. Thomas University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 8,
+    "inputs": {
+      "years_to_complete": 5,
+      "cost_per_year_default": 31833,
+      "cost_total_default": 159165,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 65262,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "52",
+      "hs_baseline_state": 35400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 399635,
+      "breakeven_year": 15
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "institution_unitid": "184773",
+  "institution_name": "Georgian Court University",
+  "institution_slug": "georgian-court-university-184773",
+  "state": "nj",
+  "cip_code": "4407",
+  "cip_desc": "Social Work.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "4407-c3",
+  "earnings_median_4yr": 46868,
+  "earnings_median_5yr": 53743,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 2,
+  "debt_median": 19000,
+  "completers": 35,
+  "completers_single_year": 34,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 46868.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 53743.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 30500.0
+      },
+      {
+        "year": 2015,
+        "value": 29399.0
+      },
+      {
+        "year": 2016,
+        "value": 27000.0
+      },
+      {
+        "year": 2017,
+        "value": 25000.0
+      },
+      {
+        "year": 2018,
+        "value": 19000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 17.0
+      },
+      {
+        "year": 2015,
+        "value": 21.0
+      },
+      {
+        "year": 2016,
+        "value": 21.0
+      },
+      {
+        "year": 2017,
+        "value": 20.0
+      },
+      {
+        "year": 2018,
+        "value": 34.0
+      },
+      {
+        "year": 2019,
+        "value": 35.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 30500.0,
+      "to_value": 19000.0,
+      "pct_change": -0.3770491803278688,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Social Work at Georgian Court University fell 38% between 2014 and 2018 ($30.5k → $19.0k).",
+      "magnitude_pct": -37.7,
+      "magnitude_abs": -11500.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "184773",
+    "slug": "georgian-court-university-184773",
+    "name": "Georgian Court University",
+    "city": "Lakewood",
+    "city_slug": "lakewood",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "monmouth-university-185572",
+      "institution_name": "Monmouth University",
+      "earnings_median_5yr": 59332,
+      "earnings_median_4yr": 55265,
+      "debt_median": 27000,
+      "completers": 43,
+      "completers_single_year": 40,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ramapo-college-of-new-jersey-186201",
+      "institution_name": "Ramapo College of New Jersey",
+      "earnings_median_5yr": 58059,
+      "earnings_median_4yr": 52763,
+      "debt_median": 20750,
+      "completers": 61,
+      "completers_single_year": 56,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rutgers-university-new-brunswick-186380",
+      "institution_name": "Rutgers University-New Brunswick",
+      "earnings_median_5yr": 53428,
+      "earnings_median_4yr": 46912,
+      "debt_median": 22692,
+      "completers": 67,
+      "completers_single_year": 75,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "stockton-university-186876",
+      "institution_name": "Stockton University",
+      "earnings_median_5yr": 51954,
+      "earnings_median_4yr": 48414,
+      "debt_median": 25000,
+      "completers": 77,
+      "completers_single_year": 82,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "seton-hall-university-186584",
+      "institution_name": "Seton Hall University",
+      "earnings_median_5yr": 51459,
+      "earnings_median_4yr": 48702,
+      "debt_median": 23783,
+      "completers": 24,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "montclair-state-university-185590",
+      "institution_name": "Montclair State University",
+      "earnings_median_5yr": 39277,
+      "earnings_median_4yr": 37074,
+      "debt_median": 22375,
+      "completers": 66,
+      "completers_single_year": 55,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "centenary-university-183974",
+      "institution_name": "Centenary University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 50631,
+      "debt_median": 14148,
+      "completers": 13,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "kean-university-185262",
+      "institution_name": "Kean University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-elizabeth-university-186618",
+      "institution_name": "Saint Elizabeth University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 19676,
+      "cost_total_default": 78704,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 53743,
+      "earnings_anchor_year": 5,
+      "debt_median": 19000,
+      "cip_family": "44",
+      "hs_baseline_state": 41700
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 165416,
+      "breakeven_year": 19
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

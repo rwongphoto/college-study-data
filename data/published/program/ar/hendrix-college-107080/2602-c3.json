@@ -1,0 +1,169 @@
+{
+  "institution_unitid": "107080",
+  "institution_name": "Hendrix College",
+  "institution_slug": "hendrix-college-107080",
+  "state": "ar",
+  "cip_code": "2602",
+  "cip_desc": "Biochemistry, Biophysics and Molecular Biology.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "2602-c3",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": 21362,
+  "completers": 19,
+  "completers_single_year": 27,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 27000.0
+      },
+      {
+        "year": 2016,
+        "value": 27000.0
+      },
+      {
+        "year": 2017,
+        "value": 22250.0
+      },
+      {
+        "year": 2018,
+        "value": 21362.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 26.0
+      },
+      {
+        "year": 2015,
+        "value": 29.0
+      },
+      {
+        "year": 2016,
+        "value": 22.0
+      },
+      {
+        "year": 2017,
+        "value": 32.0
+      },
+      {
+        "year": 2018,
+        "value": 27.0
+      },
+      {
+        "year": 2019,
+        "value": 19.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 27000.0,
+      "to_value": 21362.0,
+      "pct_change": -0.20881481481481481,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Biochemistry, Biophysics and Molecular Biology at Hendrix College fell 21% between 2014 and 2018 ($27.0k → $21.4k).",
+      "magnitude_pct": -20.9,
+      "magnitude_abs": -5638.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "107080",
+    "slug": "hendrix-college-107080",
+    "name": "Hendrix College",
+    "city": "Conway",
+    "city_slug": "conway",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "harding-university-107044",
+      "institution_name": "Harding University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "john-brown-university-107141",
+      "institution_name": "John Brown University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ouachita-baptist-university-107512",
+      "institution_name": "Ouachita Baptist University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

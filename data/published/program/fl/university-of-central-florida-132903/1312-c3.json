@@ -1,0 +1,684 @@
+{
+  "institution_unitid": "132903",
+  "institution_name": "University of Central Florida",
+  "institution_slug": "university-of-central-florida-132903",
+  "state": "fl",
+  "cip_code": "1312",
+  "cip_desc": "Teacher Education and Professional Development, Specific Levels and Methods.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1312-c3",
+  "earnings_median_4yr": 45627,
+  "earnings_median_5yr": 50464,
+  "earnings_count_4yr": 4,
+  "earnings_count_5yr": 9,
+  "debt_median": 18750,
+  "completers": 471,
+  "completers_single_year": 465,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 45627.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 50464.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 18750.0
+      },
+      {
+        "year": 2015,
+        "value": 18750.0
+      },
+      {
+        "year": 2016,
+        "value": 18750.0
+      },
+      {
+        "year": 2017,
+        "value": 18250.0
+      },
+      {
+        "year": 2018,
+        "value": 18750.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 523.0
+      },
+      {
+        "year": 2015,
+        "value": 503.0
+      },
+      {
+        "year": 2016,
+        "value": 436.0
+      },
+      {
+        "year": 2017,
+        "value": 508.0
+      },
+      {
+        "year": 2018,
+        "value": 465.0
+      },
+      {
+        "year": 2019,
+        "value": 471.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "132903",
+    "slug": "university-of-central-florida-132903",
+    "name": "University of Central Florida",
+    "city": "Orlando",
+    "city_slug": "orlando",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "florida-atlantic-university-133669",
+      "institution_name": "Florida Atlantic University",
+      "earnings_median_5yr": 53645,
+      "earnings_median_4yr": 48520,
+      "debt_median": 16791,
+      "completers": 108,
+      "completers_single_year": 104,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "florida-international-university-133951",
+      "institution_name": "Florida International University",
+      "earnings_median_5yr": 53006,
+      "earnings_median_4yr": 48259,
+      "debt_median": 16100,
+      "completers": 333,
+      "completers_single_year": 321,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "nova-southeastern-university-136215",
+      "institution_name": "Nova Southeastern University",
+      "earnings_median_5yr": 52726,
+      "earnings_median_4yr": 44663,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "florida-agricultural-and-mechanical-university-133650",
+      "institution_name": "Florida Agricultural and Mechanical University",
+      "earnings_median_5yr": 52489,
+      "earnings_median_4yr": 46866,
+      "debt_median": null,
+      "completers": 22,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "florida-gulf-coast-university-433660",
+      "institution_name": "Florida Gulf Coast University",
+      "earnings_median_5yr": 52178,
+      "earnings_median_4yr": 46960,
+      "debt_median": 17989,
+      "completers": 81,
+      "completers_single_year": 113,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-north-florida-136172",
+      "institution_name": "University of North Florida",
+      "earnings_median_5yr": 50863,
+      "earnings_median_4yr": 45412,
+      "debt_median": 16487,
+      "completers": 117,
+      "completers_single_year": 133,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "palm-beach-atlantic-university-136330",
+      "institution_name": "Palm Beach Atlantic University",
+      "earnings_median_5yr": 50693,
+      "earnings_median_4yr": 45325,
+      "debt_median": 23616,
+      "completers": 11,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "st-petersburg-college-137078",
+      "institution_name": "St Petersburg College",
+      "earnings_median_5yr": 50624,
+      "earnings_median_4yr": 47672,
+      "debt_median": 19000,
+      "completers": 67,
+      "completers_single_year": 42,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "warner-university-138275",
+      "institution_name": "Warner University",
+      "earnings_median_5yr": 50122,
+      "earnings_median_4yr": 43612,
+      "debt_median": 19800,
+      "completers": 31,
+      "completers_single_year": 35,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "florida-southwestern-state-college-133508",
+      "institution_name": "Florida SouthWestern State College",
+      "earnings_median_5yr": 49991,
+      "earnings_median_4yr": 47028,
+      "debt_median": 10519,
+      "completers": 59,
+      "completers_single_year": 63,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-south-florida-137351",
+      "institution_name": "University of South Florida",
+      "earnings_median_5yr": 49950,
+      "earnings_median_4yr": 45537,
+      "debt_median": 18577,
+      "completers": 184,
+      "completers_single_year": 234,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "florida-state-university-134097",
+      "institution_name": "Florida State University",
+      "earnings_median_5yr": 49914,
+      "earnings_median_4yr": 44526,
+      "debt_median": 18110,
+      "completers": 88,
+      "completers_single_year": 81,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-university-of-tampa-137847",
+      "institution_name": "The University of Tampa",
+      "earnings_median_5yr": 49911,
+      "earnings_median_4yr": null,
+      "debt_median": 24250,
+      "completers": 46,
+      "completers_single_year": 36,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "florida-southern-college-134079",
+      "institution_name": "Florida Southern College",
+      "earnings_median_5yr": 49693,
+      "earnings_median_4yr": 45824,
+      "debt_median": 27000,
+      "completers": 17,
+      "completers_single_year": 30,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southeastern-university-137564",
+      "institution_name": "Southeastern University",
+      "earnings_median_5yr": 49680,
+      "earnings_median_4yr": 41514,
+      "debt_median": 26500,
+      "completers": 21,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "college-of-central-florida-132851",
+      "institution_name": "College of Central Florida",
+      "earnings_median_5yr": 48788,
+      "earnings_median_4yr": 43729,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-leo-university-137032",
+      "institution_name": "Saint Leo University",
+      "earnings_median_5yr": 48518,
+      "earnings_median_4yr": 43729,
+      "debt_median": 17380,
+      "completers": 74,
+      "completers_single_year": 69,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-johns-river-state-college-137281",
+      "institution_name": "Saint Johns River State College",
+      "earnings_median_5yr": 48158,
+      "earnings_median_4yr": 43092,
+      "debt_median": 12500,
+      "completers": 16,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "daytona-state-college-133386",
+      "institution_name": "Daytona State College",
+      "earnings_median_5yr": 47043,
+      "earnings_median_4yr": 43108,
+      "debt_median": 17073,
+      "completers": 35,
+      "completers_single_year": 54,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "stetson-university-137546",
+      "institution_name": "Stetson University",
+      "earnings_median_5yr": 46817,
+      "earnings_median_4yr": 46344,
+      "debt_median": 26000,
+      "completers": 9,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northwest-florida-state-college-136233",
+      "institution_name": "Northwest Florida State College",
+      "earnings_median_5yr": 46751,
+      "earnings_median_4yr": 40441,
+      "debt_median": 11750,
+      "completers": 23,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "flagler-college-133711",
+      "institution_name": "Flagler College",
+      "earnings_median_5yr": 44999,
+      "earnings_median_4yr": 42163,
+      "debt_median": 21300,
+      "completers": 27,
+      "completers_single_year": 29,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "chipola-college-133021",
+      "institution_name": "Chipola College",
+      "earnings_median_5yr": 44342,
+      "earnings_median_4yr": 38975,
+      "debt_median": null,
+      "completers": 21,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-west-florida-138354",
+      "institution_name": "University of West Florida",
+      "earnings_median_5yr": 43416,
+      "earnings_median_4yr": 36235,
+      "debt_median": null,
+      "completers": 31,
+      "completers_single_year": 25,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "florida-state-college-at-jacksonville-133702",
+      "institution_name": "Florida State College at Jacksonville",
+      "earnings_median_5yr": 43129,
+      "earnings_median_4yr": 40438,
+      "debt_median": null,
+      "completers": 42,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "baptist-university-of-florida-132408",
+      "institution_name": "Baptist University of Florida",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "barry-university-132471",
+      "institution_name": "Barry University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bethune-cookman-university-132602",
+      "institution_name": "Bethune-Cookman University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 31,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lynn-university-132657",
+      "institution_name": "Lynn University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 14,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "edward-waters-university-133526",
+      "institution_name": "Edward Waters University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 14,
+      "completers_single_year": 28,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "florida-college-133809",
+      "institution_name": "Florida College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "florida-memorial-university-133979",
+      "institution_name": "Florida Memorial University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-florida-134130",
+      "institution_name": "University of Florida",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 14757,
+      "completers": 65,
+      "completers_single_year": 87,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hobe-sound-bible-college-134510",
+      "institution_name": "Hobe Sound Bible College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "indian-river-state-college-134608",
+      "institution_name": "Indian River State College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 20,
+      "completers_single_year": 28,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "jacksonville-university-134945",
+      "institution_name": "Jacksonville University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "keiser-university-ft-lauderdale-135081",
+      "institution_name": "Keiser University-Ft Lauderdale",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "florida-gateway-college-135160",
+      "institution_name": "Florida Gateway College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 23,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "state-college-of-florida-manatee-sarasota-135391",
+      "institution_name": "State College of Florida-Manatee-Sarasota",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 34,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "miami-dade-college-135717",
+      "institution_name": "Miami Dade College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 34,
+      "completers_single_year": 43,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-miami-135726",
+      "institution_name": "University of Miami",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "polk-state-college-136516",
+      "institution_name": "Polk State College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 15000,
+      "completers": 40,
+      "completers_single_year": 38,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rollins-college-136950",
+      "institution_name": "Rollins College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 45892,
+      "debt_median": 25025,
+      "completers": 14,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "santa-fe-college-137096",
+      "institution_name": "Santa Fe College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 27,
+      "completers_single_year": 24,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "south-florida-state-college-137315",
+      "institution_name": "South Florida State College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "st-thomas-university-137476",
+      "institution_name": "St. Thomas University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "trinity-baptist-college-137953",
+      "institution_name": "Trinity Baptist College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "trinity-college-of-florida-137962",
+      "institution_name": "Trinity College of Florida",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "webber-international-university-138293",
+      "institution_name": "Webber International University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 22662,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southern-technical-college-366553",
+      "institution_name": "Southern Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southeastern-college-west-palm-beach-428170",
+      "institution_name": "Southeastern College-West Palm Beach",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ave-maria-university-446048",
+      "institution_name": "Ave Maria University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "jose-maria-vargas-university-461281",
+      "institution_name": "Jose Maria Vargas University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 9,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 10684,
+      "cost_total_default": 42736,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 50464,
+      "earnings_anchor_year": 5,
+      "debt_median": 18750,
+      "cip_family": "13",
+      "hs_baseline_state": 35400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 173387,
+      "breakeven_year": 11
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

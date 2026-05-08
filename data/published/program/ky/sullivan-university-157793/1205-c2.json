@@ -1,0 +1,258 @@
+{
+  "institution_unitid": "157793",
+  "institution_name": "Sullivan University",
+  "institution_slug": "sullivan-university-157793",
+  "state": "ky",
+  "cip_code": "1205",
+  "cip_desc": "Culinary Arts and Related Services.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "1205-c2",
+  "earnings_median_4yr": 29730,
+  "earnings_median_5yr": 33261,
+  "earnings_count_4yr": 11,
+  "earnings_count_5yr": 13,
+  "debt_median": 14727,
+  "completers": 80,
+  "completers_single_year": 117,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 29730.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 33261.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 19495.0
+      },
+      {
+        "year": 2015,
+        "value": 18215.0
+      },
+      {
+        "year": 2016,
+        "value": 15091.0
+      },
+      {
+        "year": 2017,
+        "value": 14727.0
+      },
+      {
+        "year": 2018,
+        "value": 14727.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 141.0
+      },
+      {
+        "year": 2015,
+        "value": 147.0
+      },
+      {
+        "year": 2016,
+        "value": 127.0
+      },
+      {
+        "year": 2017,
+        "value": 143.0
+      },
+      {
+        "year": 2018,
+        "value": 117.0
+      },
+      {
+        "year": 2019,
+        "value": 80.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 19495.0,
+      "to_value": 14727.0,
+      "pct_change": -0.24457553218774045,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Culinary Arts and Related Services at Sullivan University fell 24% between 2014 and 2018 ($19.5k → $14.7k).",
+      "magnitude_pct": -24.5,
+      "magnitude_abs": -4768.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "157793",
+    "slug": "sullivan-university-157793",
+    "name": "Sullivan University",
+    "city": "Louisville",
+    "city_slug": "louisville",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "ashland-community-and-technical-college-156231",
+      "institution_name": "Ashland Community and Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southcentral-kentucky-community-and-technical-college-156338",
+      "institution_name": "Southcentral Kentucky Community and Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "elizabethtown-community-and-technical-college-156648",
+      "institution_name": "Elizabethtown Community and Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "jefferson-community-and-technical-college-156921",
+      "institution_name": "Jefferson Community and Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "madisonville-community-college-157304",
+      "institution_name": "Madisonville Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "maysville-community-and-technical-college-157331",
+      "institution_name": "Maysville Community and Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "west-kentucky-community-and-technical-college-157483",
+      "institution_name": "West Kentucky Community and Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "somerset-community-college-157711",
+      "institution_name": "Somerset Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 13,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 30837,
+      "cost_total_default": 61674,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 33261,
+      "earnings_anchor_year": 5,
+      "debt_median": 14727,
+      "cip_family": "12",
+      "hs_baseline_state": 33900
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -36140,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

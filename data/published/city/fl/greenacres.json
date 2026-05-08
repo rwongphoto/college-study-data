@@ -1,0 +1,209 @@
+{
+  "state": "fl",
+  "name": "greenacres",
+  "slug": "greenacres",
+  "institution_count": 1,
+  "institutions": [
+    {
+      "unitid": "485485",
+      "slug": "latin-beauty-academy-485485",
+      "name": "Latin Beauty Academy",
+      "city": "greenacres",
+      "city_slug": "greenacres",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": null
+        },
+        {
+          "year": 8,
+          "value": null
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": 0.75,
+      "completion_rate_history": [],
+      "enrollment_undergrad": 214,
+      "enrollment_history": [
+        {
+          "year": 2015,
+          "value": 67.0
+        },
+        {
+          "year": 2016,
+          "value": 80.0
+        },
+        {
+          "year": 2017,
+          "value": 105.0
+        },
+        {
+          "year": 2018,
+          "value": 134.0
+        },
+        {
+          "year": 2019,
+          "value": 175.0
+        },
+        {
+          "year": 2020,
+          "value": 179.0
+        },
+        {
+          "year": 2021,
+          "value": 147.0
+        },
+        {
+          "year": 2022,
+          "value": 234.0
+        },
+        {
+          "year": 2023,
+          "value": 214.0
+        },
+        {
+          "year": 2024,
+          "value": 283.0
+        }
+      ],
+      "median_debt": 6334,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 2015,
+          "to_year": 2024,
+          "from_value": 67.0,
+          "to_value": 283.0,
+          "pct_change": 1.08,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 2016,
+          "to_year": 2020,
+          "from_value": 9417.0,
+          "to_value": 7333.0,
+          "pct_change": -0.22130190081767018,
+          "direction": "fell"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2019,
+          "to_year": 2024,
+          "from_value": 0.114,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2015,
+          "to_year": 2024,
+          "from_value": 0.2763,
+          "to_value": 0.3628,
+          "pct_change": 0.313065508505248,
+          "direction": "rose"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": null,
+  "completion_rate_city": 0.75,
+  "completion_history_city": [],
+  "enrollment_history_city": [
+    {
+      "year": 2015,
+      "value": 67.0
+    },
+    {
+      "year": 2016,
+      "value": 80.0
+    },
+    {
+      "year": 2017,
+      "value": 105.0
+    },
+    {
+      "year": 2018,
+      "value": 134.0
+    },
+    {
+      "year": 2019,
+      "value": 175.0
+    },
+    {
+      "year": 2020,
+      "value": 179.0
+    },
+    {
+      "year": 2021,
+      "value": 147.0
+    },
+    {
+      "year": 2022,
+      "value": 234.0
+    },
+    {
+      "year": 2023,
+      "value": 214.0
+    },
+    {
+      "year": 2024,
+      "value": 283.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

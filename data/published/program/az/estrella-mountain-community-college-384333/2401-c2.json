@@ -1,0 +1,383 @@
+{
+  "institution_unitid": "384333",
+  "institution_name": "Estrella Mountain Community College",
+  "institution_slug": "estrella-mountain-community-college-384333",
+  "state": "az",
+  "cip_code": "2401",
+  "cip_desc": "Liberal Arts and Sciences, General Studies and Humanities.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "2401-c2",
+  "earnings_median_4yr": 39751,
+  "earnings_median_5yr": 44994,
+  "earnings_count_4yr": 19,
+  "earnings_count_5yr": 22,
+  "debt_median": 7419,
+  "completers": 609,
+  "completers_single_year": 627,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 39751.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 44994.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 11000.0
+      },
+      {
+        "year": 2015,
+        "value": 9696.0
+      },
+      {
+        "year": 2016,
+        "value": 9212.0
+      },
+      {
+        "year": 2017,
+        "value": 4500.0
+      },
+      {
+        "year": 2018,
+        "value": 7419.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 651.0
+      },
+      {
+        "year": 2015,
+        "value": 679.0
+      },
+      {
+        "year": 2016,
+        "value": 738.0
+      },
+      {
+        "year": 2017,
+        "value": 742.0
+      },
+      {
+        "year": 2018,
+        "value": 627.0
+      },
+      {
+        "year": 2019,
+        "value": 609.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 11000.0,
+      "to_value": 7419.0,
+      "pct_change": -0.3255454545454545,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Liberal Arts and Sciences, General Studies and Humanities at Estrella Mountain Community College fell 33% between 2014 and 2018 ($11.0k → $7.4k).",
+      "magnitude_pct": -32.6,
+      "magnitude_abs": -3581.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "384333",
+    "slug": "estrella-mountain-community-college-384333",
+    "name": "Estrella Mountain Community College",
+    "city": "Avondale",
+    "city_slug": "avondale",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-phoenix-arizona-484613",
+      "institution_name": "University of Phoenix-Arizona",
+      "earnings_median_5yr": 61106,
+      "earnings_median_4yr": 50610,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rio-salado-college-105668",
+      "institution_name": "Rio Salado College",
+      "earnings_median_5yr": 55835,
+      "earnings_median_4yr": 42426,
+      "debt_median": 12250,
+      "completers": 414,
+      "completers_single_year": 442,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "scottsdale-community-college-105747",
+      "institution_name": "Scottsdale Community College",
+      "earnings_median_5yr": 50654,
+      "earnings_median_4yr": 40404,
+      "debt_median": 8000,
+      "completers": 277,
+      "completers_single_year": 364,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mesa-community-college-105154",
+      "institution_name": "Mesa Community College",
+      "earnings_median_5yr": 49609,
+      "earnings_median_4yr": 43433,
+      "debt_median": 9000,
+      "completers": 771,
+      "completers_single_year": 1118,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "phoenix-college-105428",
+      "institution_name": "Phoenix College",
+      "earnings_median_5yr": 48695,
+      "earnings_median_4yr": 41364,
+      "debt_median": 9000,
+      "completers": 331,
+      "completers_single_year": 452,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "gateway-community-college-105145",
+      "institution_name": "GateWay Community College",
+      "earnings_median_5yr": 46919,
+      "earnings_median_4yr": 46257,
+      "debt_median": null,
+      "completers": 114,
+      "completers_single_year": 147,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "paradise-valley-community-college-364016",
+      "institution_name": "Paradise Valley Community College",
+      "earnings_median_5yr": 46916,
+      "earnings_median_4yr": 44288,
+      "debt_median": null,
+      "completers": 348,
+      "completers_single_year": 448,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pima-community-college-105525",
+      "institution_name": "Pima Community College",
+      "earnings_median_5yr": 44831,
+      "earnings_median_4yr": 38613,
+      "debt_median": 6856,
+      "completers": 767,
+      "completers_single_year": 1022,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "arizona-western-college-104160",
+      "institution_name": "Arizona Western College",
+      "earnings_median_5yr": 44434,
+      "earnings_median_4yr": 41052,
+      "debt_median": null,
+      "completers": 348,
+      "completers_single_year": 583,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "glendale-community-college-104708",
+      "institution_name": "Glendale Community College",
+      "earnings_median_5yr": 44180,
+      "earnings_median_4yr": 39127,
+      "debt_median": 6176,
+      "completers": 888,
+      "completers_single_year": 1185,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "chandler-gilbert-community-college-364025",
+      "institution_name": "Chandler-Gilbert Community College",
+      "earnings_median_5yr": 44128,
+      "earnings_median_4yr": 38139,
+      "debt_median": 6000,
+      "completers": 533,
+      "completers_single_year": 657,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "south-mountain-community-college-105792",
+      "institution_name": "South Mountain Community College",
+      "earnings_median_5yr": 44016,
+      "earnings_median_4yr": 34518,
+      "debt_median": null,
+      "completers": 289,
+      "completers_single_year": 393,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "eastern-arizona-college-104577",
+      "institution_name": "Eastern Arizona College",
+      "earnings_median_5yr": 40032,
+      "earnings_median_4yr": 33151,
+      "debt_median": null,
+      "completers": 223,
+      "completers_single_year": 239,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "coconino-community-college-404426",
+      "institution_name": "Coconino Community College",
+      "earnings_median_5yr": 40015,
+      "earnings_median_4yr": 37083,
+      "debt_median": 8723,
+      "completers": 121,
+      "completers_single_year": 179,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cochise-county-community-college-district-104425",
+      "institution_name": "Cochise County Community College District",
+      "earnings_median_5yr": 38122,
+      "earnings_median_4yr": 32036,
+      "debt_median": 9702,
+      "completers": 167,
+      "completers_single_year": 127,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "yavapai-college-106148",
+      "institution_name": "Yavapai College",
+      "earnings_median_5yr": 35488,
+      "earnings_median_4yr": 29664,
+      "debt_median": 9500,
+      "completers": 389,
+      "completers_single_year": 335,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mohave-community-college-105206",
+      "institution_name": "Mohave Community College",
+      "earnings_median_5yr": 34891,
+      "earnings_median_4yr": 31710,
+      "debt_median": 11892,
+      "completers": 80,
+      "completers_single_year": 131,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "dine-college-105297",
+      "institution_name": "Dine College",
+      "earnings_median_5yr": 30261,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "central-arizona-college-104346",
+      "institution_name": "Central Arizona College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 9310,
+      "completers": 323,
+      "completers_single_year": 301,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northland-pioneer-college-105349",
+      "institution_name": "Northland Pioneer College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 37,
+      "completers_single_year": 74,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "arizona-christian-university-105899",
+      "institution_name": "Arizona Christian University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "tohono-o-odham-community-college-442781",
+      "institution_name": "Tohono O'odham Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "aspen-university-454829",
+      "institution_name": "Aspen University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

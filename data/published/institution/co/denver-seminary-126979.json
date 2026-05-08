@@ -1,0 +1,1438 @@
+{
+  "institution": {
+    "unitid": "126979",
+    "opeid6": "001352",
+    "name": "Denver Seminary",
+    "slug": "denver-seminary-126979",
+    "state": "co",
+    "city": "Littleton",
+    "city_slug": "littleton",
+    "zip5": "80120",
+    "address": "6399 S. Santa Fe Drive",
+    "latitude": 39.600595,
+    "longitude": -105.022363,
+    "control": "private_nonprofit",
+    "pred_degree": "graduate",
+    "highest_degree": "masters",
+    "main_campus": true,
+    "locale": "21",
+    "carnegie_basic": 24,
+    "sector_code": 2,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": null,
+    "completion_rate_100": null,
+    "retention_rate": null,
+    "admission_rate": null,
+    "enrollment_undergrad": null,
+    "enrollment_total": null,
+    "cost_attendance": null,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": null,
+    "cost_by_income": null,
+    "median_debt": null,
+    "default_rate": 0.0,
+    "pell_share": null,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [],
+      "admission_rate": [],
+      "enrollment_undergrad": [
+        {
+          "year": 1997,
+          "value": 1.0
+        }
+      ],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [],
+      "median_debt": [],
+      "default_rate": [
+        {
+          "year": 2011,
+          "value": 0.03
+        },
+        {
+          "year": 2012,
+          "value": 0.02
+        },
+        {
+          "year": 2013,
+          "value": 0.011
+        },
+        {
+          "year": 2014,
+          "value": 0.0
+        },
+        {
+          "year": 2015,
+          "value": 0.004
+        },
+        {
+          "year": 2016,
+          "value": 0.022
+        },
+        {
+          "year": 2017,
+          "value": 0.025
+        },
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 0.013
+        },
+        {
+          "year": 2020,
+          "value": 0.027
+        },
+        {
+          "year": 2021,
+          "value": 0.006
+        },
+        {
+          "year": 2022,
+          "value": 0.0
+        },
+        {
+          "year": 2023,
+          "value": 0.0
+        },
+        {
+          "year": 2024,
+          "value": 0.0
+        }
+      ],
+      "pell_share": [],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "default_rate",
+        "from_year": 2011,
+        "to_year": 2024,
+        "from_value": 0.03,
+        "to_value": 0.0,
+        "pct_change": -1.0,
+        "direction": "fell"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "3-year cohort default rate",
+        "summary": "3-year cohort default rate at Denver Seminary fell 100% between 2021 and 2024 (0.6% → 0.0%).",
+        "magnitude_pct": -100.0,
+        "magnitude_abs": -0.01,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": "%",
+        "history": [],
+        "metric": "default_rate"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "38": [
+      {
+        "slug": "3802-c5",
+        "cip_code": "3802",
+        "cip_desc": "Religion/Religious Studies.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": 64811,
+        "earnings_median_4yr": 48357,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 64811.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 48357.0
+          }
+        ],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 16,
+        "completers_single_year": 12,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 38.0
+          },
+          {
+            "year": 2015,
+            "value": 25.0
+          },
+          {
+            "year": 2016,
+            "value": 25.0
+          },
+          {
+            "year": 2017,
+            "value": 13.0
+          },
+          {
+            "year": 2018,
+            "value": 12.0
+          },
+          {
+            "year": 2019,
+            "value": 16.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "39": [
+      {
+        "slug": "3906-c5",
+        "cip_code": "3906",
+        "cip_desc": "Theological and Ministerial Studies.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": 64870,
+        "earnings_median_4yr": 56912,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 64870.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 56912.0
+          }
+        ],
+        "debt_median": 39208,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 46797.0
+          },
+          {
+            "year": 2015,
+            "value": 48115.0
+          },
+          {
+            "year": 2016,
+            "value": 40059.0
+          },
+          {
+            "year": 2017,
+            "value": 37000.0
+          },
+          {
+            "year": 2018,
+            "value": 39208.0
+          }
+        ],
+        "completers": 41,
+        "completers_single_year": 31,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 76.0
+          },
+          {
+            "year": 2015,
+            "value": 38.0
+          },
+          {
+            "year": 2016,
+            "value": 42.0
+          },
+          {
+            "year": 2017,
+            "value": 66.0
+          },
+          {
+            "year": 2018,
+            "value": 31.0
+          },
+          {
+            "year": 2019,
+            "value": 41.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "3902-c5",
+        "cip_code": "3902",
+        "cip_desc": "Bible/Biblical Studies.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [
+          {
+            "year": 2015,
+            "value": 33275.0
+          }
+        ],
+        "completers": 17,
+        "completers_single_year": 12,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 5.0
+          },
+          {
+            "year": 2015,
+            "value": 7.0
+          },
+          {
+            "year": 2016,
+            "value": 14.0
+          },
+          {
+            "year": 2017,
+            "value": 8.0
+          },
+          {
+            "year": 2018,
+            "value": 12.0
+          },
+          {
+            "year": 2019,
+            "value": 17.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "3906-c6",
+        "cip_code": "3906",
+        "cip_desc": "Theological and Ministerial Studies.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 16,
+        "completers_single_year": 5,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 12.0
+          },
+          {
+            "year": 2015,
+            "value": 8.0
+          },
+          {
+            "year": 2016,
+            "value": 12.0
+          },
+          {
+            "year": 2017,
+            "value": 11.0
+          },
+          {
+            "year": 2018,
+            "value": 5.0
+          },
+          {
+            "year": 2019,
+            "value": 16.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "3906-c8",
+        "cip_code": "3906",
+        "cip_desc": "Theological and Ministerial Studies.",
+        "credential_level": 8,
+        "credential_desc": "Graduate/Professional Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 9,
+        "completers_single_year": 5,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 15.0
+          },
+          {
+            "year": 2015,
+            "value": 16.0
+          },
+          {
+            "year": 2016,
+            "value": 13.0
+          },
+          {
+            "year": 2017,
+            "value": 22.0
+          },
+          {
+            "year": 2018,
+            "value": 5.0
+          },
+          {
+            "year": 2019,
+            "value": 9.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "3999-c5",
+        "cip_code": "3999",
+        "cip_desc": "Theology and Religious Vocations, Other.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": 51738,
+        "earnings_median_4yr": 47663,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 51738.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 47663.0
+          }
+        ],
+        "debt_median": null,
+        "debt_history": [
+          {
+            "year": 2015,
+            "value": 38148.0
+          }
+        ],
+        "completers": 7,
+        "completers_single_year": 6,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 32.0
+          },
+          {
+            "year": 2015,
+            "value": 20.0
+          },
+          {
+            "year": 2016,
+            "value": 18.0
+          },
+          {
+            "year": 2017,
+            "value": 13.0
+          },
+          {
+            "year": 2018,
+            "value": 6.0
+          },
+          {
+            "year": 2019,
+            "value": 7.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "3907-c5",
+        "cip_code": "3907",
+        "cip_desc": "Pastoral Counseling and Specialized Ministries.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": 46950,
+        "earnings_median_4yr": 44718,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 46950.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 44718.0
+          }
+        ],
+        "debt_median": null,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 39471.0
+          },
+          {
+            "year": 2015,
+            "value": 36867.0
+          }
+        ],
+        "completers": 1,
+        "completers_single_year": 4,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 9.0
+          },
+          {
+            "year": 2015,
+            "value": 4.0
+          },
+          {
+            "year": 2016,
+            "value": 9.0
+          },
+          {
+            "year": 2017,
+            "value": 0.0
+          },
+          {
+            "year": 2018,
+            "value": 4.0
+          },
+          {
+            "year": 2019,
+            "value": 1.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "3904-c4",
+        "cip_code": "3904",
+        "cip_desc": "Religious Education.",
+        "credential_level": 4,
+        "credential_desc": "Post-baccalaureate Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      },
+      {
+        "slug": "3904-c8",
+        "cip_code": "3904",
+        "cip_desc": "Religious Education.",
+        "credential_level": 8,
+        "credential_desc": "Graduate/Professional Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      }
+    ],
+    "42": [
+      {
+        "slug": "4228-c5",
+        "cip_code": "4228",
+        "cip_desc": "Clinical, Counseling and Applied Psychology.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": 56273,
+        "earnings_median_4yr": 48498,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 56273.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 48498.0
+          }
+        ],
+        "debt_median": 41930,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 41505.0
+          },
+          {
+            "year": 2015,
+            "value": 45866.0
+          },
+          {
+            "year": 2016,
+            "value": 46152.0
+          },
+          {
+            "year": 2017,
+            "value": 46391.0
+          },
+          {
+            "year": 2018,
+            "value": 41930.0
+          }
+        ],
+        "completers": 73,
+        "completers_single_year": 50,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 59.0
+          },
+          {
+            "year": 2015,
+            "value": 68.0
+          },
+          {
+            "year": 2016,
+            "value": 49.0
+          },
+          {
+            "year": 2017,
+            "value": 76.0
+          },
+          {
+            "year": 2018,
+            "value": 50.0
+          },
+          {
+            "year": 2019,
+            "value": 73.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "4228-c7",
+        "cip_code": "4228",
+        "cip_desc": "Clinical, Counseling and Applied Psychology.",
+        "credential_level": 7,
+        "credential_desc": "First Professional Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": null,
+        "completers_history": [
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "4228-c8",
+        "cip_code": "4228",
+        "cip_desc": "Clinical, Counseling and Applied Psychology.",
+        "credential_level": 8,
+        "credential_desc": "Graduate/Professional Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "4228-c5",
+      "cip_code": "4228",
+      "cip_desc": "Clinical, Counseling and Applied Psychology.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": 56273,
+      "earnings_median_4yr": 48498,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 56273.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 48498.0
+        }
+      ],
+      "debt_median": 41930,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 41505.0
+        },
+        {
+          "year": 2015,
+          "value": 45866.0
+        },
+        {
+          "year": 2016,
+          "value": 46152.0
+        },
+        {
+          "year": 2017,
+          "value": 46391.0
+        },
+        {
+          "year": 2018,
+          "value": 41930.0
+        }
+      ],
+      "completers": 73,
+      "completers_single_year": 50,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 59.0
+        },
+        {
+          "year": 2015,
+          "value": 68.0
+        },
+        {
+          "year": 2016,
+          "value": 49.0
+        },
+        {
+          "year": 2017,
+          "value": 76.0
+        },
+        {
+          "year": 2018,
+          "value": 50.0
+        },
+        {
+          "year": 2019,
+          "value": 73.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "3906-c5",
+      "cip_code": "3906",
+      "cip_desc": "Theological and Ministerial Studies.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": 64870,
+      "earnings_median_4yr": 56912,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 64870.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 56912.0
+        }
+      ],
+      "debt_median": 39208,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 46797.0
+        },
+        {
+          "year": 2015,
+          "value": 48115.0
+        },
+        {
+          "year": 2016,
+          "value": 40059.0
+        },
+        {
+          "year": 2017,
+          "value": 37000.0
+        },
+        {
+          "year": 2018,
+          "value": 39208.0
+        }
+      ],
+      "completers": 41,
+      "completers_single_year": 31,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 76.0
+        },
+        {
+          "year": 2015,
+          "value": 38.0
+        },
+        {
+          "year": 2016,
+          "value": 42.0
+        },
+        {
+          "year": 2017,
+          "value": 66.0
+        },
+        {
+          "year": 2018,
+          "value": 31.0
+        },
+        {
+          "year": 2019,
+          "value": 41.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "3902-c5",
+      "cip_code": "3902",
+      "cip_desc": "Bible/Biblical Studies.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [
+        {
+          "year": 2015,
+          "value": 33275.0
+        }
+      ],
+      "completers": 17,
+      "completers_single_year": 12,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 5.0
+        },
+        {
+          "year": 2015,
+          "value": 7.0
+        },
+        {
+          "year": 2016,
+          "value": 14.0
+        },
+        {
+          "year": 2017,
+          "value": 8.0
+        },
+        {
+          "year": 2018,
+          "value": 12.0
+        },
+        {
+          "year": 2019,
+          "value": 17.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "3802-c5",
+      "cip_code": "3802",
+      "cip_desc": "Religion/Religious Studies.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": 64811,
+      "earnings_median_4yr": 48357,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 64811.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 48357.0
+        }
+      ],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 16,
+      "completers_single_year": 12,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 38.0
+        },
+        {
+          "year": 2015,
+          "value": 25.0
+        },
+        {
+          "year": 2016,
+          "value": 25.0
+        },
+        {
+          "year": 2017,
+          "value": 13.0
+        },
+        {
+          "year": 2018,
+          "value": 12.0
+        },
+        {
+          "year": 2019,
+          "value": 16.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "3906-c6",
+      "cip_code": "3906",
+      "cip_desc": "Theological and Ministerial Studies.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 16,
+      "completers_single_year": 5,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 12.0
+        },
+        {
+          "year": 2015,
+          "value": 8.0
+        },
+        {
+          "year": 2016,
+          "value": 12.0
+        },
+        {
+          "year": 2017,
+          "value": 11.0
+        },
+        {
+          "year": 2018,
+          "value": 5.0
+        },
+        {
+          "year": 2019,
+          "value": 16.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "3906-c8",
+      "cip_code": "3906",
+      "cip_desc": "Theological and Ministerial Studies.",
+      "credential_level": 8,
+      "credential_desc": "Graduate/Professional Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 9,
+      "completers_single_year": 5,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 15.0
+        },
+        {
+          "year": 2015,
+          "value": 16.0
+        },
+        {
+          "year": 2016,
+          "value": 13.0
+        },
+        {
+          "year": 2017,
+          "value": 22.0
+        },
+        {
+          "year": 2018,
+          "value": 5.0
+        },
+        {
+          "year": 2019,
+          "value": 9.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "3999-c5",
+      "cip_code": "3999",
+      "cip_desc": "Theology and Religious Vocations, Other.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": 51738,
+      "earnings_median_4yr": 47663,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 51738.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 47663.0
+        }
+      ],
+      "debt_median": null,
+      "debt_history": [
+        {
+          "year": 2015,
+          "value": 38148.0
+        }
+      ],
+      "completers": 7,
+      "completers_single_year": 6,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 32.0
+        },
+        {
+          "year": 2015,
+          "value": 20.0
+        },
+        {
+          "year": 2016,
+          "value": 18.0
+        },
+        {
+          "year": 2017,
+          "value": 13.0
+        },
+        {
+          "year": 2018,
+          "value": 6.0
+        },
+        {
+          "year": 2019,
+          "value": 7.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "3907-c5",
+      "cip_code": "3907",
+      "cip_desc": "Pastoral Counseling and Specialized Ministries.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": 46950,
+      "earnings_median_4yr": 44718,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 46950.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 44718.0
+        }
+      ],
+      "debt_median": null,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 39471.0
+        },
+        {
+          "year": 2015,
+          "value": 36867.0
+        }
+      ],
+      "completers": 1,
+      "completers_single_year": 4,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 9.0
+        },
+        {
+          "year": 2015,
+          "value": 4.0
+        },
+        {
+          "year": 2016,
+          "value": 9.0
+        },
+        {
+          "year": 2017,
+          "value": 0.0
+        },
+        {
+          "year": 2018,
+          "value": 4.0
+        },
+        {
+          "year": 2019,
+          "value": 1.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "3904-c4",
+      "cip_code": "3904",
+      "cip_desc": "Religious Education.",
+      "credential_level": 4,
+      "credential_desc": "Post-baccalaureate Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    },
+    {
+      "slug": "3904-c8",
+      "cip_code": "3904",
+      "cip_desc": "Religious Education.",
+      "credential_level": 8,
+      "credential_desc": "Graduate/Professional Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    },
+    {
+      "slug": "4228-c7",
+      "cip_code": "4228",
+      "cip_desc": "Clinical, Counseling and Applied Psychology.",
+      "credential_level": 7,
+      "credential_desc": "First Professional Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": null,
+      "completers_history": [
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4228-c8",
+      "cip_code": "4228",
+      "cip_desc": "Clinical, Counseling and Applied Psychology.",
+      "credential_level": 8,
+      "credential_desc": "Graduate/Professional Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    }
+  ],
+  "program_count": 12,
+  "similar": [
+    {
+      "slug": "iliff-school-of-theology-127273",
+      "name": "Iliff School of Theology",
+      "city": "Denver",
+      "control": "private_nonprofit",
+      "pred_degree": "graduate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": null
+    },
+    {
+      "slug": "institute-of-taoist-education-and-acupuncture-454838",
+      "name": "Institute of Taoist Education and Acupuncture",
+      "city": "Louisville",
+      "control": "private_nonprofit",
+      "pred_degree": "graduate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": null
+    },
+    {
+      "slug": "nazarene-bible-college-127714",
+      "name": "Nazarene Bible College",
+      "city": "Colorado Springs",
+      "control": "private_nonprofit",
+      "pred_degree": "bachelors",
+      "earnings_median_10yr": 41450,
+      "completion_rate_150": null,
+      "enrollment_undergrad": 336
+    },
+    {
+      "slug": "montessori-education-center-of-the-rockies-127954",
+      "name": "Montessori Education Center of the Rockies",
+      "city": "Denver",
+      "control": "private_nonprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 44643,
+      "completion_rate_150": 0.9167,
+      "enrollment_undergrad": 6
+    },
+    {
+      "slug": "dr-ida-rolf-institute-262466",
+      "name": "Dr. Ida Rolf Institute",
+      "city": "Boulder",
+      "control": "private_nonprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 1.0,
+      "enrollment_undergrad": 24
+    }
+  ],
+  "roi": {
+    "default_program_slug": null,
+    "programs_available": [
+      {
+        "slug": "4228-c5",
+        "label": "Clinical, Counseling and Applied Psychology · Master's Degree",
+        "cip_family": "42",
+        "completers": 73,
+        "has_earnings": false,
+        "earnings_at_completion": 56273,
+        "earnings_anchor_year": 5,
+        "debt_median": 41930,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "3906-c5",
+        "label": "Theological and Ministerial Studies · Master's Degree",
+        "cip_family": "39",
+        "completers": 41,
+        "has_earnings": false,
+        "earnings_at_completion": 64870,
+        "earnings_anchor_year": 5,
+        "debt_median": 39208,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "3902-c5",
+        "label": "Bible/Biblical Studies · Master's Degree",
+        "cip_family": "39",
+        "completers": 17,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "3802-c5",
+        "label": "Religion/Religious Studies · Master's Degree",
+        "cip_family": "38",
+        "completers": 16,
+        "has_earnings": false,
+        "earnings_at_completion": 64811,
+        "earnings_anchor_year": 5,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "3906-c6",
+        "label": "Theological and Ministerial Studies · Doctoral Degree",
+        "cip_family": "39",
+        "completers": 16,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "3906-c8",
+        "label": "Theological and Ministerial Studies · Graduate/Professional Certificate",
+        "cip_family": "39",
+        "completers": 9,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "3999-c5",
+        "label": "Theology and Religious Vocations, Other · Master's Degree",
+        "cip_family": "39",
+        "completers": 7,
+        "has_earnings": false,
+        "earnings_at_completion": 51738,
+        "earnings_anchor_year": 5,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "3907-c5",
+        "label": "Pastoral Counseling and Specialized Ministries · Master's Degree",
+        "cip_family": "39",
+        "completers": 1,
+        "has_earnings": false,
+        "earnings_at_completion": 46950,
+        "earnings_anchor_year": 5,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "3904-c4",
+        "label": "Religious Education · Post-baccalaureate Certificate",
+        "cip_family": "39",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "3904-c8",
+        "label": "Religious Education · Graduate/Professional Certificate",
+        "cip_family": "39",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "4228-c7",
+        "label": "Clinical, Counseling and Applied Psychology · First Professional Degree",
+        "cip_family": "42",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 7,
+        "default_result": null
+      },
+      {
+        "slug": "4228-c8",
+        "label": "Clinical, Counseling and Applied Psychology · Graduate/Professional Certificate",
+        "cip_family": "42",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      }
+    ]
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

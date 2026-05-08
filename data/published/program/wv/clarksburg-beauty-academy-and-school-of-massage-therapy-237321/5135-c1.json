@@ -1,0 +1,177 @@
+{
+  "institution_unitid": "237321",
+  "institution_name": "Clarksburg Beauty Academy and School of Massage Therapy",
+  "institution_slug": "clarksburg-beauty-academy-and-school-of-massage-therapy-237321",
+  "state": "wv",
+  "cip_code": "5135",
+  "cip_desc": "Somatic Bodywork and Related Therapeutic Services.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "5135-c1",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": 25791,
+  "earnings_count_4yr": null,
+  "earnings_count_5yr": 7,
+  "debt_median": null,
+  "completers": 9,
+  "completers_single_year": 15,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 25791.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 6333.0
+      },
+      {
+        "year": 2015,
+        "value": 6333.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 17.0
+      },
+      {
+        "year": 2015,
+        "value": 9.0
+      },
+      {
+        "year": 2016,
+        "value": 6.0
+      },
+      {
+        "year": 2017,
+        "value": 14.0
+      },
+      {
+        "year": 2018,
+        "value": 15.0
+      },
+      {
+        "year": 2019,
+        "value": 9.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "237321",
+    "slug": "clarksburg-beauty-academy-and-school-of-massage-therapy-237321",
+    "name": "Clarksburg Beauty Academy and School of Massage Therapy",
+    "city": "Clarksburg",
+    "city_slug": "clarksburg",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "mountain-state-school-of-massage-448275",
+      "institution_name": "Mountain State School of Massage",
+      "earnings_median_5yr": 12963,
+      "earnings_median_4yr": 19567,
+      "debt_median": 8181,
+      "completers": 22,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "james-rumsey-technical-institute-237473",
+      "institution_name": "James Rumsey Technical Institute",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "morgantown-beauty-college-inc-237570",
+      "institution_name": "Morgantown Beauty College Inc",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "new-river-community-and-technical-college-447582",
+      "institution_name": "New River Community and Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 7,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 12317,
+      "cost_total_default": 12317,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 25791,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "51",
+      "hs_baseline_state": 32100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -108821,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

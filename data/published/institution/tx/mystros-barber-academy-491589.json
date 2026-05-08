@@ -1,0 +1,404 @@
+{
+  "institution": {
+    "unitid": "491589",
+    "opeid6": "042609",
+    "name": "Mystros Barber Academy",
+    "slug": "mystros-barber-academy-491589",
+    "state": "tx",
+    "city": "Houston",
+    "city_slug": "houston",
+    "zip5": "77090",
+    "address": "1434 Ste. B Cypress Creek Parkway",
+    "latitude": 30.014,
+    "longitude": -95.453049,
+    "control": "private_nonprofit",
+    "pred_degree": "certificate",
+    "highest_degree": "certificate",
+    "main_campus": true,
+    "locale": "11",
+    "carnegie_basic": -2,
+    "sector_code": 8,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": 0.75,
+    "completion_rate_100": 0.5,
+    "retention_rate": 1.0,
+    "admission_rate": null,
+    "enrollment_undergrad": 14,
+    "enrollment_total": null,
+    "cost_attendance": null,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": null,
+    "cost_by_income": null,
+    "median_debt": 7959,
+    "default_rate": 0.0,
+    "pell_share": 0.1,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [
+        {
+          "year": 2018,
+          "value": 0.75
+        },
+        {
+          "year": 2019,
+          "value": 0.6667
+        },
+        {
+          "year": 2020,
+          "value": 1.0
+        },
+        {
+          "year": 2021,
+          "value": 0.8333
+        },
+        {
+          "year": 2022,
+          "value": 1.0
+        },
+        {
+          "year": 2023,
+          "value": 1.0
+        },
+        {
+          "year": 2024,
+          "value": 1.0
+        }
+      ],
+      "admission_rate": [],
+      "enrollment_undergrad": [
+        {
+          "year": 2018,
+          "value": 7.0
+        },
+        {
+          "year": 2019,
+          "value": 35.0
+        },
+        {
+          "year": 2020,
+          "value": 33.0
+        },
+        {
+          "year": 2021,
+          "value": 31.0
+        },
+        {
+          "year": 2022,
+          "value": 26.0
+        },
+        {
+          "year": 2023,
+          "value": 14.0
+        },
+        {
+          "year": 2024,
+          "value": 50.0
+        }
+      ],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [
+        {
+          "year": 2019,
+          "value": 15214.0
+        },
+        {
+          "year": 2024,
+          "value": 23254.0
+        }
+      ],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [
+        {
+          "year": 2019,
+          "value": 13261.0
+        },
+        {
+          "year": 2024,
+          "value": 19086.0
+        }
+      ],
+      "median_debt": [],
+      "default_rate": [],
+      "pell_share": [
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 0.2414
+        },
+        {
+          "year": 2020,
+          "value": 0.1429
+        },
+        {
+          "year": 2021,
+          "value": 0.2692
+        },
+        {
+          "year": 2022,
+          "value": 0.2632
+        },
+        {
+          "year": 2023,
+          "value": 0.1
+        },
+        {
+          "year": 2024,
+          "value": 0.4815
+        }
+      ],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "retention_rate",
+        "from_year": 2018,
+        "to_year": 2024,
+        "from_value": 0.75,
+        "to_value": 1.0,
+        "pct_change": 0.3333333333333333,
+        "direction": "rose"
+      },
+      {
+        "metric": "enrollment_undergrad",
+        "from_year": 2018,
+        "to_year": 2024,
+        "from_value": 7.0,
+        "to_value": 50.0,
+        "pct_change": 0.215,
+        "direction": "rose"
+      },
+      {
+        "metric": "pell_share",
+        "from_year": 2018,
+        "to_year": 2024,
+        "from_value": 0.0,
+        "to_value": 0.4815,
+        "pct_change": 9.629999999999999,
+        "direction": "rose"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "Undergraduate enrollment",
+        "summary": "Undergraduate enrollment at Mystros Barber Academy rose 61% between 2021 and 2024 (31 → 50).",
+        "magnitude_pct": 61.3,
+        "magnitude_abs": 19.0,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": null,
+        "history": [],
+        "metric": "enrollment_undergrad"
+      },
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "First-year retention",
+        "summary": "First-year retention at Mystros Barber Academy rose 20% between 2021 and 2024 (83.3% → 100.0%).",
+        "magnitude_pct": 20.0,
+        "magnitude_abs": 0.17,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": "%",
+        "history": [],
+        "metric": "retention_rate"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "12": [
+      {
+        "slug": "1204-c1",
+        "cip_code": "1204",
+        "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 14,
+        "completers_single_year": 17,
+        "completers_history": [
+          {
+            "year": 2016,
+            "value": 24.0
+          },
+          {
+            "year": 2017,
+            "value": 9.0
+          },
+          {
+            "year": 2018,
+            "value": 17.0
+          },
+          {
+            "year": 2019,
+            "value": 14.0
+          }
+        ],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "1204-c1",
+      "cip_code": "1204",
+      "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 14,
+      "completers_single_year": 17,
+      "completers_history": [
+        {
+          "year": 2016,
+          "value": 24.0
+        },
+        {
+          "year": 2017,
+          "value": 9.0
+        },
+        {
+          "year": 2018,
+          "value": 17.0
+        },
+        {
+          "year": 2019,
+          "value": 14.0
+        }
+      ],
+      "long_arc": []
+    }
+  ],
+  "program_count": 1,
+  "similar": [
+    {
+      "slug": "evvaylois-academy-school-of-beauty-494472",
+      "name": "Evvaylois Academy School of Beauty",
+      "city": "Brenham",
+      "control": "private_nonprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.75,
+      "enrollment_undergrad": 14
+    },
+    {
+      "slug": "the-vocational-nursing-institute-inc-485360",
+      "name": "The Vocational Nursing Institute Inc",
+      "city": "Houston",
+      "control": "private_nonprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.3429,
+      "enrollment_undergrad": 20
+    },
+    {
+      "slug": "redeemers-university-north-america-497462",
+      "name": "Redeemers University North America",
+      "city": "Greenville",
+      "control": "private_nonprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": 6
+    },
+    {
+      "slug": "valley-grande-institute-for-academic-studies-443322",
+      "name": "Valley Grande Institute for Academic Studies",
+      "city": "Weslaco",
+      "control": "private_nonprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 33472,
+      "completion_rate_150": 0.88,
+      "enrollment_undergrad": 180
+    },
+    {
+      "slug": "covenant-school-of-nursing-and-allied-health-226675",
+      "name": "Covenant School of Nursing and Allied Health",
+      "city": "Lubbock",
+      "control": "private_nonprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 78724,
+      "completion_rate_150": null,
+      "enrollment_undergrad": 333
+    }
+  ],
+  "roi": {
+    "default_program_slug": null,
+    "programs_available": [
+      {
+        "slug": "1204-c1",
+        "label": "Cosmetology and Related Personal Grooming Services · Undergraduate Certificate or Diploma",
+        "cip_family": "12",
+        "completers": 14,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      }
+    ]
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

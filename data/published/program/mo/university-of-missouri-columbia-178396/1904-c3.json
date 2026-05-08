@@ -1,0 +1,173 @@
+{
+  "institution_unitid": "178396",
+  "institution_name": "University of Missouri-Columbia",
+  "institution_slug": "university-of-missouri-columbia-178396",
+  "state": "mo",
+  "cip_code": "1904",
+  "cip_desc": "Family and Consumer Economics and Related Studies.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1904-c3",
+  "earnings_median_4yr": 63412,
+  "earnings_median_5yr": 65217,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 2,
+  "debt_median": 27000,
+  "completers": null,
+  "completers_single_year": 55,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 63412.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 65217.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 18864.0
+      },
+      {
+        "year": 2015,
+        "value": 26000.0
+      },
+      {
+        "year": 2016,
+        "value": 26000.0
+      },
+      {
+        "year": 2017,
+        "value": 26500.0
+      },
+      {
+        "year": 2018,
+        "value": 27000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 38.0
+      },
+      {
+        "year": 2015,
+        "value": 64.0
+      },
+      {
+        "year": 2016,
+        "value": 83.0
+      },
+      {
+        "year": 2017,
+        "value": 77.0
+      },
+      {
+        "year": 2018,
+        "value": 55.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 18864.0,
+      "to_value": 27000.0,
+      "pct_change": 0.4312977099236641,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Family and Consumer Economics and Related Studies at University of Missouri-Columbia rose 43% between 2014 and 2018 ($18.9k → $27.0k).",
+      "magnitude_pct": 43.1,
+      "magnitude_abs": 8136.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "178396",
+    "slug": "university-of-missouri-columbia-178396",
+    "name": "University of Missouri-Columbia",
+    "city": "Columbia",
+    "city_slug": "columbia",
+    "control": "public"
+  },
+  "peers_in_state": [],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 15707,
+      "cost_total_default": 62828,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 65217,
+      "earnings_anchor_year": 5,
+      "debt_median": 27000,
+      "cip_family": "19",
+      "hs_baseline_state": 35100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 512178,
+      "breakeven_year": 8
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

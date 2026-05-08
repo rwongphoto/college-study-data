@@ -1,0 +1,338 @@
+{
+  "institution": {
+    "unitid": "497204",
+    "opeid6": "042962",
+    "name": "Mei Barber School",
+    "slug": "mei-barber-school-497204",
+    "state": "tx",
+    "city": "Brownsville",
+    "city_slug": "brownsville",
+    "zip5": "78520",
+    "address": "205 East Elizabeth Street",
+    "latitude": 25.907884,
+    "longitude": -97.505114,
+    "control": "private_forprofit",
+    "pred_degree": "certificate",
+    "highest_degree": "certificate",
+    "main_campus": true,
+    "locale": "12",
+    "carnegie_basic": -2,
+    "sector_code": 9,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": null,
+    "completion_rate_100": null,
+    "retention_rate": 1.0,
+    "admission_rate": null,
+    "enrollment_undergrad": 96,
+    "enrollment_total": null,
+    "cost_attendance": 9935,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": 4706,
+    "cost_by_income": {
+      "0_30k": 4371,
+      "30_48k": 5518,
+      "48_75k": 8774,
+      "75_110k": 8190,
+      "110k_plus": null,
+      "sticker": 9935,
+      "sector": "priv"
+    },
+    "median_debt": null,
+    "default_rate": null,
+    "pell_share": 0.4663,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [
+        {
+          "year": 2021,
+          "value": 0.8333
+        },
+        {
+          "year": 2022,
+          "value": 0.8571
+        },
+        {
+          "year": 2023,
+          "value": 1.0
+        },
+        {
+          "year": 2024,
+          "value": 0.875
+        }
+      ],
+      "admission_rate": [],
+      "enrollment_undergrad": [
+        {
+          "year": 2021,
+          "value": 47.0
+        },
+        {
+          "year": 2022,
+          "value": 107.0
+        },
+        {
+          "year": 2023,
+          "value": 96.0
+        },
+        {
+          "year": 2024,
+          "value": 91.0
+        }
+      ],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [
+        {
+          "year": 2022,
+          "value": 9026.0
+        },
+        {
+          "year": 2023,
+          "value": 9935.0
+        },
+        {
+          "year": 2024,
+          "value": 11008.0
+        }
+      ],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [
+        {
+          "year": 2022,
+          "value": 3873.0
+        },
+        {
+          "year": 2023,
+          "value": 4706.0
+        },
+        {
+          "year": 2024,
+          "value": 4409.0
+        }
+      ],
+      "median_debt": [],
+      "default_rate": [],
+      "pell_share": [
+        {
+          "year": 2021,
+          "value": 0.0
+        },
+        {
+          "year": 2022,
+          "value": 0.6701
+        },
+        {
+          "year": 2023,
+          "value": 0.4663
+        },
+        {
+          "year": 2024,
+          "value": 0.7583
+        }
+      ],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "enrollment_undergrad",
+        "from_year": 2021,
+        "to_year": 2024,
+        "from_value": 47.0,
+        "to_value": 91.0,
+        "pct_change": 0.22,
+        "direction": "rose"
+      },
+      {
+        "metric": "pell_share",
+        "from_year": 2021,
+        "to_year": 2024,
+        "from_value": 0.0,
+        "to_value": 0.7583,
+        "pct_change": 15.165999999999999,
+        "direction": "rose"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "Undergraduate enrollment",
+        "summary": "Undergraduate enrollment at Mei Barber School rose 94% between 2021 and 2024 (47 → 91).",
+        "magnitude_pct": 93.6,
+        "magnitude_abs": 44.0,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": null,
+        "history": [],
+        "metric": "enrollment_undergrad"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "12": [
+      {
+        "slug": "1204-c1",
+        "cip_code": "1204",
+        "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 15,
+        "completers_single_year": null,
+        "completers_history": [
+          {
+            "year": 2019,
+            "value": 15.0
+          }
+        ],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "1204-c1",
+      "cip_code": "1204",
+      "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 15,
+      "completers_single_year": null,
+      "completers_history": [
+        {
+          "year": 2019,
+          "value": 15.0
+        }
+      ],
+      "long_arc": []
+    }
+  ],
+  "program_count": 1,
+  "similar": [
+    {
+      "slug": "total-transformation-institute-of-cosmetology-483735",
+      "name": "Total Transformation Institute of Cosmetology",
+      "city": "San Marcos",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.5833,
+      "enrollment_undergrad": 94
+    },
+    {
+      "slug": "top-of-the-line-barber-school-497392",
+      "name": "Top of the Line Barber School",
+      "city": "San Antonio",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.5333,
+      "enrollment_undergrad": 98
+    },
+    {
+      "slug": "central-texas-beauty-college-round-rock-246460",
+      "name": "Central Texas Beauty College-Round Rock",
+      "city": "Round Rock",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 23338,
+      "completion_rate_150": 0.7063,
+      "enrollment_undergrad": 93
+    },
+    {
+      "slug": "ucas-university-of-cosmetology-arts-sciences-mcallen-229425",
+      "name": "UCAS University of Cosmetology Arts & Sciences-McAllen",
+      "city": "McAllen",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 19880,
+      "completion_rate_150": 0.7619,
+      "enrollment_undergrad": 92
+    },
+    {
+      "slug": "salon-spa-institute-459532",
+      "name": "Salon & Spa Institute",
+      "city": "Brownsville",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 21571,
+      "completion_rate_150": 1.0,
+      "enrollment_undergrad": 91
+    }
+  ],
+  "roi": {
+    "default_program_slug": null,
+    "programs_available": [
+      {
+        "slug": "1204-c1",
+        "label": "Cosmetology and Related Personal Grooming Services · Undergraduate Certificate or Diploma",
+        "cip_family": "12",
+        "completers": 15,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      }
+    ]
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

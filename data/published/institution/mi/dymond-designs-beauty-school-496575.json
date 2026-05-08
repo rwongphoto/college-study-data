@@ -1,0 +1,263 @@
+{
+  "institution": {
+    "unitid": "496575",
+    "opeid6": "043051",
+    "name": "Dymond Designs Beauty School",
+    "slug": "dymond-designs-beauty-school-496575",
+    "state": "mi",
+    "city": "Detroit",
+    "city_slug": "detroit",
+    "zip5": "48207",
+    "address": "3300 East Jefferson Suite 450",
+    "latitude": 42.341646,
+    "longitude": -83.013866,
+    "control": "private_forprofit",
+    "pred_degree": "certificate",
+    "highest_degree": "certificate",
+    "main_campus": true,
+    "locale": "11",
+    "carnegie_basic": -2,
+    "sector_code": 9,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": 1.0,
+    "completion_rate_100": 0.6,
+    "retention_rate": 0.8571,
+    "admission_rate": null,
+    "enrollment_undergrad": 69,
+    "enrollment_total": null,
+    "cost_attendance": 27082,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": 20750,
+    "cost_by_income": {
+      "0_30k": 20750,
+      "30_48k": null,
+      "48_75k": null,
+      "75_110k": null,
+      "110k_plus": null,
+      "sticker": 27082,
+      "sector": "priv"
+    },
+    "median_debt": null,
+    "default_rate": null,
+    "pell_share": 0.2444,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [
+        {
+          "year": 2023,
+          "value": 0.8571
+        },
+        {
+          "year": 2024,
+          "value": 0.3333
+        }
+      ],
+      "admission_rate": [],
+      "enrollment_undergrad": [
+        {
+          "year": 2023,
+          "value": 69.0
+        },
+        {
+          "year": 2024,
+          "value": 28.0
+        }
+      ],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [
+        {
+          "year": 2023,
+          "value": 26648.0
+        },
+        {
+          "year": 2024,
+          "value": 26299.0
+        }
+      ],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [
+        {
+          "year": 2023,
+          "value": 20316.0
+        },
+        {
+          "year": 2024,
+          "value": 16563.0
+        }
+      ],
+      "median_debt": [],
+      "default_rate": [],
+      "pell_share": [
+        {
+          "year": 2023,
+          "value": 0.2444
+        },
+        {
+          "year": 2024,
+          "value": 0.5868
+        }
+      ],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "retention_rate",
+        "from_year": 2023,
+        "to_year": 2024,
+        "from_value": 0.8571,
+        "to_value": 0.3333,
+        "pct_change": -0.6111305565278264,
+        "direction": "fell"
+      },
+      {
+        "metric": "enrollment_undergrad",
+        "from_year": 2023,
+        "to_year": 2024,
+        "from_value": 69.0,
+        "to_value": 28.0,
+        "pct_change": -0.205,
+        "direction": "fell"
+      },
+      {
+        "metric": "pell_share",
+        "from_year": 2023,
+        "to_year": 2024,
+        "from_value": 0.2444,
+        "to_value": 0.5868,
+        "pct_change": 1.4009819967266774,
+        "direction": "rose"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "First-year retention",
+        "summary": "First-year retention at Dymond Designs Beauty School fell 61% between 2023 and 2024 (85.7% → 33.3%).",
+        "magnitude_pct": -61.1,
+        "magnitude_abs": -0.52,
+        "baseline_year": 2023,
+        "recent_year": 2024,
+        "units": "%",
+        "history": [],
+        "metric": "retention_rate"
+      },
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "Undergraduate enrollment",
+        "summary": "Undergraduate enrollment at Dymond Designs Beauty School fell 59% between 2023 and 2024 (69 → 28).",
+        "magnitude_pct": -59.4,
+        "magnitude_abs": -41.0,
+        "baseline_year": 2023,
+        "recent_year": 2024,
+        "units": null,
+        "history": [],
+        "metric": "enrollment_undergrad"
+      }
+    ]
+  },
+  "programs_by_family": {},
+  "programs": [],
+  "program_count": 0,
+  "similar": [
+    {
+      "slug": "protege-academy-461944",
+      "name": "Protege Academy",
+      "city": "East Lansing",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 19499,
+      "completion_rate_150": 0.6667,
+      "enrollment_undergrad": 68
+    },
+    {
+      "slug": "the-salon-professional-academy-of-holland-496539",
+      "name": "The  Salon Professional Academy of Holland",
+      "city": "Holland",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.8261,
+      "enrollment_undergrad": 72
+    },
+    {
+      "slug": "paul-mitchell-the-school-great-lakes-446288",
+      "name": "Paul Mitchell the School-Great Lakes",
+      "city": "Port Huron",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 16715,
+      "completion_rate_150": 0.8571,
+      "enrollment_undergrad": 64
+    },
+    {
+      "slug": "motion-picture-institute-496478",
+      "name": "Motion Picture Institute",
+      "city": "Troy",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": 56
+    },
+    {
+      "slug": "paul-mitchell-the-school-grand-rapids-172680",
+      "name": "Paul Mitchell the School-Grand Rapids",
+      "city": "Kentwood",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.625,
+      "enrollment_undergrad": 84
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

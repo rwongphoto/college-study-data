@@ -1,0 +1,270 @@
+{
+  "institution_unitid": "207935",
+  "institution_name": "Tulsa Community College",
+  "institution_slug": "tulsa-community-college-207935",
+  "state": "ok",
+  "cip_code": "1101",
+  "cip_desc": "Computer and Information Sciences, General.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "1101-c2",
+  "earnings_median_4yr": 54598,
+  "earnings_median_5yr": 53812,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 1,
+  "debt_median": null,
+  "completers": 66,
+  "completers_single_year": 59,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 54598.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 53812.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2015,
+        "value": 8000.0
+      },
+      {
+        "year": 2016,
+        "value": 12352.0
+      },
+      {
+        "year": 2017,
+        "value": 11437.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 42.0
+      },
+      {
+        "year": 2015,
+        "value": 48.0
+      },
+      {
+        "year": 2016,
+        "value": 46.0
+      },
+      {
+        "year": 2017,
+        "value": 70.0
+      },
+      {
+        "year": 2018,
+        "value": 59.0
+      },
+      {
+        "year": 2019,
+        "value": 66.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2015,
+      "to_year": 2017,
+      "from_value": 8000.0,
+      "to_value": 11437.0,
+      "pct_change": 0.429625,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Computer and Information Sciences, General at Tulsa Community College rose 43% between 2015 and 2017 ($8.0k → $11.4k).",
+      "magnitude_pct": 43.0,
+      "magnitude_abs": 3437.0,
+      "baseline_year": 2015,
+      "recent_year": 2017,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "207935",
+    "slug": "tulsa-community-college-207935",
+    "name": "Tulsa Community College",
+    "city": "Tulsa",
+    "city_slug": "tulsa",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "cameron-university-206914",
+      "institution_name": "Cameron University",
+      "earnings_median_5yr": 66065,
+      "earnings_median_4yr": 52863,
+      "debt_median": 19750,
+      "completers": 17,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "oklahoma-city-community-college-207449",
+      "institution_name": "Oklahoma City Community College",
+      "earnings_median_5yr": 56233,
+      "earnings_median_4yr": 49599,
+      "debt_median": 12582,
+      "completers": 83,
+      "completers_single_year": 66,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "carl-albert-state-college-206923",
+      "institution_name": "Carl Albert State College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "eastern-oklahoma-state-college-207050",
+      "institution_name": "Eastern Oklahoma State College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "murray-state-college-207236",
+      "institution_name": "Murray State College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northern-oklahoma-college-207281",
+      "institution_name": "Northern Oklahoma College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northeastern-oklahoma-a-m-college-207290",
+      "institution_name": "Northeastern Oklahoma A&M College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "oklahoma-state-university-oklahoma-city-207397",
+      "institution_name": "Oklahoma State University-Oklahoma City",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 14,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "oklahoma-state-university-institute-of-technology-207564",
+      "institution_name": "Oklahoma State University Institute of Technology",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 58,
+      "completers_single_year": 39,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rogers-state-university-207661",
+      "institution_name": "Rogers State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 7401,
+      "cost_total_default": 14802,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 53812,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "11",
+      "hs_baseline_state": 33800
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 573483,
+      "breakeven_year": 4
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

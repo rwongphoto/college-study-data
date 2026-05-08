@@ -1,0 +1,406 @@
+{
+  "institution_unitid": "240189",
+  "institution_name": "University of Wisconsin-Whitewater",
+  "institution_slug": "university-of-wisconsin-whitewater-240189",
+  "state": "wi",
+  "cip_code": "2401",
+  "cip_desc": "Liberal Arts and Sciences, General Studies and Humanities.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "2401-c2",
+  "earnings_median_4yr": 33427,
+  "earnings_median_5yr": 41203,
+  "earnings_count_4yr": 10,
+  "earnings_count_5yr": 10,
+  "debt_median": 9500,
+  "completers": 153,
+  "completers_single_year": 185,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 33427.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 41203.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2017,
+        "value": 17559.0
+      },
+      {
+        "year": 2018,
+        "value": 9500.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 106.0
+      },
+      {
+        "year": 2015,
+        "value": 118.0
+      },
+      {
+        "year": 2016,
+        "value": 100.0
+      },
+      {
+        "year": 2017,
+        "value": 190.0
+      },
+      {
+        "year": 2018,
+        "value": 185.0
+      },
+      {
+        "year": 2019,
+        "value": 153.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2017,
+      "to_year": 2018,
+      "from_value": 17559.0,
+      "to_value": 9500.0,
+      "pct_change": -0.45896691155532776,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Liberal Arts and Sciences, General Studies and Humanities at University of Wisconsin-Whitewater fell 46% between 2017 and 2018 ($17.6k → $9.5k).",
+      "magnitude_pct": -45.9,
+      "magnitude_abs": -8059.0,
+      "baseline_year": 2017,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "240189",
+    "slug": "university-of-wisconsin-whitewater-240189",
+    "name": "University of Wisconsin-Whitewater",
+    "city": "Whitewater",
+    "city_slug": "whitewater",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-wisconsin-la-crosse-240329",
+      "institution_name": "University of Wisconsin-La Crosse",
+      "earnings_median_5yr": 55075,
+      "earnings_median_4yr": 39974,
+      "debt_median": null,
+      "completers": 50,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-milwaukee-240453",
+      "institution_name": "University of Wisconsin-Milwaukee",
+      "earnings_median_5yr": 47037,
+      "earnings_median_4yr": 38900,
+      "debt_median": 5202,
+      "completers": 236,
+      "completers_single_year": 327,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-oshkosh-240365",
+      "institution_name": "University of Wisconsin-Oshkosh",
+      "earnings_median_5yr": 46668,
+      "earnings_median_4yr": 41906,
+      "debt_median": 6217,
+      "completers": 323,
+      "completers_single_year": 261,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "nicolet-area-technical-college-239442",
+      "institution_name": "Nicolet Area Technical College",
+      "earnings_median_5yr": 45077,
+      "earnings_median_4yr": 35918,
+      "debt_median": 8500,
+      "completers": 48,
+      "completers_single_year": 45,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-green-bay-240277",
+      "institution_name": "University of Wisconsin-Green Bay",
+      "earnings_median_5yr": 44986,
+      "earnings_median_4yr": 39942,
+      "debt_median": 5837,
+      "completers": 158,
+      "completers_single_year": 164,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-stevens-point-240480",
+      "institution_name": "University of Wisconsin-Stevens Point",
+      "earnings_median_5yr": 44834,
+      "earnings_median_4yr": 41516,
+      "debt_median": 6500,
+      "completers": 83,
+      "completers_single_year": 116,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "madison-area-technical-college-238263",
+      "institution_name": "Madison Area Technical College",
+      "earnings_median_5yr": 44798,
+      "earnings_median_4yr": 40804,
+      "debt_median": 12750,
+      "completers": 430,
+      "completers_single_year": 360,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-eau-claire-240268",
+      "institution_name": "University of Wisconsin-Eau Claire",
+      "earnings_median_5yr": 41671,
+      "earnings_median_4yr": 34146,
+      "debt_median": null,
+      "completers": 75,
+      "completers_single_year": 52,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "milwaukee-area-technical-college-239248",
+      "institution_name": "Milwaukee Area Technical College",
+      "earnings_median_5yr": 40752,
+      "earnings_median_4yr": 36710,
+      "debt_median": 12000,
+      "completers": 126,
+      "completers_single_year": 96,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-platteville-240462",
+      "institution_name": "University of Wisconsin-Platteville",
+      "earnings_median_5yr": 40680,
+      "earnings_median_4yr": 37554,
+      "debt_median": 5500,
+      "completers": 82,
+      "completers_single_year": 101,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "alverno-college-238193",
+      "institution_name": "Alverno College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "concordia-university-wisconsin-238616",
+      "institution_name": "Concordia University-Wisconsin",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lakeland-university-238980",
+      "institution_name": "Lakeland University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "maranatha-baptist-university-239071",
+      "institution_name": "Maranatha Baptist University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mid-state-technical-college-239220",
+      "institution_name": "Mid-State Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "viterbo-university-240107",
+      "institution_name": "Viterbo University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 27,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "chippewa-valley-technical-college-240116",
+      "institution_name": "Chippewa Valley Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 18,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-technical-college-240170",
+      "institution_name": "Western Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-parkside-240374",
+      "institution_name": "University of Wisconsin-Parkside",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "herzing-university-madison-240392",
+      "institution_name": "Herzing University-Madison",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-superior-240426",
+      "institution_name": "University of Wisconsin-Superior",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 19,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-river-falls-240471",
+      "institution_name": "University of Wisconsin-River Falls",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 15,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lac-courte-oreilles-ojibwe-university-260372",
+      "institution_name": "Lac Courte Oreilles Ojibwe University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "college-of-menominee-nation-413617",
+      "institution_name": "College of Menominee Nation",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 10,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 14049,
+      "cost_total_default": 28098,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 41203,
+      "earnings_anchor_year": 5,
+      "debt_median": 9500,
+      "cip_family": "24",
+      "hs_baseline_state": 37100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 99349,
+      "breakeven_year": 18
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

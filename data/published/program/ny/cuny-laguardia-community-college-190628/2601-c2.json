@@ -1,0 +1,233 @@
+{
+  "institution_unitid": "190628",
+  "institution_name": "CUNY LaGuardia Community College",
+  "institution_slug": "cuny-laguardia-community-college-190628",
+  "state": "ny",
+  "cip_code": "2601",
+  "cip_desc": "Biology, General.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "2601-c2",
+  "earnings_median_4yr": 37370,
+  "earnings_median_5yr": 40194,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 1,
+  "debt_median": null,
+  "completers": 53,
+  "completers_single_year": 33,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 37370.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 40194.0
+      }
+    ],
+    "debt_median": [],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 27.0
+      },
+      {
+        "year": 2015,
+        "value": 30.0
+      },
+      {
+        "year": 2016,
+        "value": 34.0
+      },
+      {
+        "year": 2017,
+        "value": 38.0
+      },
+      {
+        "year": 2018,
+        "value": 33.0
+      },
+      {
+        "year": 2019,
+        "value": 53.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "190628",
+    "slug": "cuny-laguardia-community-college-190628",
+    "name": "CUNY LaGuardia Community College",
+    "city": "Long Island City",
+    "city_slug": "long-island-city",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "cuny-kingsborough-community-college-190619",
+      "institution_name": "CUNY Kingsborough Community College",
+      "earnings_median_5yr": 36720,
+      "earnings_median_4yr": 29769,
+      "debt_median": null,
+      "completers": 110,
+      "completers_single_year": 105,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cuny-queensborough-community-college-190673",
+      "institution_name": "CUNY Queensborough Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hudson-valley-community-college-191719",
+      "institution_name": "Hudson Valley Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 22,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "monroe-community-college-193326",
+      "institution_name": "Monroe Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 20,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "nassau-community-college-193478",
+      "institution_name": "Nassau Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "niagara-county-community-college-193946",
+      "institution_name": "Niagara County Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "suny-college-of-technology-at-alfred-196006",
+      "institution_name": "SUNY College of Technology at Alfred",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "suny-college-of-technology-at-delhi-196024",
+      "institution_name": "SUNY College of Technology at Delhi",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "suny-college-of-agriculture-and-technology-at-cobleskill-196033",
+      "institution_name": "SUNY College of Agriculture and Technology at Cobleskill",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "tompkins-cortland-community-college-196565",
+      "institution_name": "Tompkins Cortland Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 8505,
+      "cost_total_default": 17010,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 40194,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "26",
+      "hs_baseline_state": 40100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 21162,
+      "breakeven_year": 31
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

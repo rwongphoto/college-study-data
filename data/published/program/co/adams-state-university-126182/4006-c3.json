@@ -1,0 +1,199 @@
+{
+  "institution_unitid": "126182",
+  "institution_name": "Adams State University",
+  "institution_slug": "adams-state-university-126182",
+  "state": "co",
+  "cip_code": "4006",
+  "cip_desc": "Geological and Earth Sciences/Geosciences.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "4006-c3",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 0,
+  "debt_median": null,
+  "completers": 4,
+  "completers_single_year": 12,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 3.0
+      },
+      {
+        "year": 2015,
+        "value": 3.0
+      },
+      {
+        "year": 2016,
+        "value": 12.0
+      },
+      {
+        "year": 2017,
+        "value": 6.0
+      },
+      {
+        "year": 2018,
+        "value": 12.0
+      },
+      {
+        "year": 2019,
+        "value": 4.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "126182",
+    "slug": "adams-state-university-126182",
+    "name": "Adams State University",
+    "city": "Alamosa",
+    "city_slug": "alamosa",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "colorado-state-university-fort-collins-126818",
+      "institution_name": "Colorado State University-Fort Collins",
+      "earnings_median_5yr": 75612,
+      "earnings_median_4yr": 54347,
+      "debt_median": 22250,
+      "completers": 11,
+      "completers_single_year": 29,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-colorado-boulder-126614",
+      "institution_name": "University of Colorado Boulder",
+      "earnings_median_5yr": 61825,
+      "earnings_median_4yr": 49180,
+      "debt_median": 19500,
+      "completers": 46,
+      "completers_single_year": 51,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "fort-lewis-college-127185",
+      "institution_name": "Fort Lewis College",
+      "earnings_median_5yr": 49889,
+      "earnings_median_4yr": 58151,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-colorado-university-128391",
+      "institution_name": "Western Colorado University",
+      "earnings_median_5yr": 45525,
+      "earnings_median_4yr": 46914,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "colorado-college-126678",
+      "institution_name": "Colorado College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "colorado-mesa-university-127556",
+      "institution_name": "Colorado Mesa University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "metropolitan-state-university-of-denver-127565",
+      "institution_name": "Metropolitan State University of Denver",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-northern-colorado-127741",
+      "institution_name": "University of Northern Colorado",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 52921,
+      "debt_median": 24121,
+      "completers": 21,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 13658,
+      "cost_total_default": 54632,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "40"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

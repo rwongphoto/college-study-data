@@ -1,0 +1,411 @@
+{
+  "institution": {
+    "unitid": "491534",
+    "opeid6": "042543",
+    "name": "Pets Playground Grooming School",
+    "slug": "pets-playground-grooming-school-491534",
+    "state": "fl",
+    "city": "Pompano Beach",
+    "city_slug": "pompano-beach",
+    "zip5": "33062",
+    "address": "1294 N. Federal Highway",
+    "latitude": 26.248045,
+    "longitude": -80.100676,
+    "control": "private_forprofit",
+    "pred_degree": "certificate",
+    "highest_degree": "certificate",
+    "main_campus": true,
+    "locale": "12",
+    "carnegie_basic": -2,
+    "sector_code": 9,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": null,
+    "completion_rate_100": null,
+    "retention_rate": null,
+    "admission_rate": null,
+    "enrollment_undergrad": 18,
+    "enrollment_total": null,
+    "cost_attendance": null,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": null,
+    "cost_by_income": null,
+    "median_debt": null,
+    "default_rate": 0.0,
+    "pell_share": 0.381,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [],
+      "admission_rate": [],
+      "enrollment_undergrad": [
+        {
+          "year": 2018,
+          "value": 7.0
+        },
+        {
+          "year": 2019,
+          "value": 5.0
+        },
+        {
+          "year": 2020,
+          "value": 13.0
+        },
+        {
+          "year": 2021,
+          "value": 17.0
+        },
+        {
+          "year": 2022,
+          "value": 14.0
+        },
+        {
+          "year": 2023,
+          "value": 18.0
+        },
+        {
+          "year": 2024,
+          "value": 22.0
+        }
+      ],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [
+        {
+          "year": 2018,
+          "value": 12761.0
+        },
+        {
+          "year": 2019,
+          "value": 11761.0
+        }
+      ],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [
+        {
+          "year": 2018,
+          "value": 12761.0
+        },
+        {
+          "year": 2019,
+          "value": 7689.0
+        }
+      ],
+      "median_debt": [],
+      "default_rate": [
+        {
+          "year": 2020,
+          "value": 0.0
+        },
+        {
+          "year": 2021,
+          "value": 0.0
+        },
+        {
+          "year": 2022,
+          "value": 0.0
+        },
+        {
+          "year": 2023,
+          "value": 0.0
+        },
+        {
+          "year": 2024,
+          "value": 0.0
+        }
+      ],
+      "pell_share": [
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 0.2
+        },
+        {
+          "year": 2020,
+          "value": 0.2
+        },
+        {
+          "year": 2021,
+          "value": 0.28
+        },
+        {
+          "year": 2022,
+          "value": 0.3571
+        },
+        {
+          "year": 2023,
+          "value": 0.381
+        },
+        {
+          "year": 2024,
+          "value": 0.6
+        }
+      ],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "pell_share",
+        "from_year": 2018,
+        "to_year": 2024,
+        "from_value": 0.0,
+        "to_value": 0.6,
+        "pct_change": 11.999999999999998,
+        "direction": "rose"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "Undergraduate enrollment",
+        "summary": "Undergraduate enrollment at Pets Playground Grooming School rose 29% between 2021 and 2024 (17 → 22).",
+        "magnitude_pct": 29.4,
+        "magnitude_abs": 5.0,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": null,
+        "history": [],
+        "metric": "enrollment_undergrad"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "01": [
+      {
+        "slug": "0105-c1",
+        "cip_code": "0105",
+        "cip_desc": "Agricultural and Domestic Animal Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 12,
+        "completers_single_year": 4,
+        "completers_history": [
+          {
+            "year": 2016,
+            "value": 8.0
+          },
+          {
+            "year": 2017,
+            "value": 7.0
+          },
+          {
+            "year": 2018,
+            "value": 4.0
+          },
+          {
+            "year": 2019,
+            "value": 12.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "0101-c1",
+        "cip_code": "0101",
+        "cip_desc": "Agricultural Business and Management.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "0105-c1",
+      "cip_code": "0105",
+      "cip_desc": "Agricultural and Domestic Animal Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 12,
+      "completers_single_year": 4,
+      "completers_history": [
+        {
+          "year": 2016,
+          "value": 8.0
+        },
+        {
+          "year": 2017,
+          "value": 7.0
+        },
+        {
+          "year": 2018,
+          "value": 4.0
+        },
+        {
+          "year": 2019,
+          "value": 12.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "0101-c1",
+      "cip_code": "0101",
+      "cip_desc": "Agricultural Business and Management.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    }
+  ],
+  "program_count": 2,
+  "similar": [
+    {
+      "slug": "installer-institute-491932",
+      "name": "Installer Institute",
+      "city": "Holly Hill",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.9474,
+      "enrollment_undergrad": 14
+    },
+    {
+      "slug": "the-beauty-institute-444404",
+      "name": "The Beauty Institute",
+      "city": "West  Palm Beach",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 23023,
+      "completion_rate_150": 0.9048,
+      "enrollment_undergrad": 23
+    },
+    {
+      "slug": "center-for-neurosomatic-studies-488226",
+      "name": "Center for Neurosomatic Studies",
+      "city": "Clearwater",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.5294,
+      "enrollment_undergrad": 23
+    },
+    {
+      "slug": "academy-of-career-training-451097",
+      "name": "Academy of Career Training",
+      "city": "Kissimmee",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 22029,
+      "completion_rate_150": 0.9333,
+      "enrollment_undergrad": 24
+    },
+    {
+      "slug": "world-class-academy-of-beauty-careers-490142",
+      "name": "World Class Academy of Beauty Careers",
+      "city": "Tallahassee",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 1.0,
+      "enrollment_undergrad": 24
+    }
+  ],
+  "roi": {
+    "default_program_slug": null,
+    "programs_available": [
+      {
+        "slug": "0105-c1",
+        "label": "Agricultural and Domestic Animal Services · Undergraduate Certificate or Diploma",
+        "cip_family": "01",
+        "completers": 12,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "0101-c1",
+        "label": "Agricultural Business and Management · Undergraduate Certificate or Diploma",
+        "cip_family": "01",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      }
+    ]
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

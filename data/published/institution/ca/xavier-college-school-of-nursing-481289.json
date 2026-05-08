@@ -1,0 +1,406 @@
+{
+  "institution": {
+    "unitid": "481289",
+    "opeid6": "042119",
+    "name": "Xavier College School of Nursing",
+    "slug": "xavier-college-school-of-nursing-481289",
+    "state": "ca",
+    "city": "Stockton",
+    "city_slug": "stockton",
+    "zip5": "95202",
+    "address": "1340 North El Dorado Street",
+    "latitude": 37.966315,
+    "longitude": -121.293267,
+    "control": "private_forprofit",
+    "pred_degree": "certificate",
+    "highest_degree": "associates",
+    "main_campus": true,
+    "locale": "11",
+    "carnegie_basic": -2,
+    "sector_code": 6,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": 64647,
+    "earnings_median_8yr": 69706,
+    "earnings_median_10yr": null,
+    "completion_rate_150": null,
+    "completion_rate_100": null,
+    "retention_rate": null,
+    "admission_rate": null,
+    "enrollment_undergrad": 87,
+    "enrollment_total": null,
+    "cost_attendance": 19661,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": 18620,
+    "median_debt": 16156,
+    "default_rate": 0.0,
+    "pell_share": 0.4539,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [],
+      "admission_rate": [
+        {
+          "year": 2024,
+          "value": 0.3562
+        }
+      ],
+      "enrollment_undergrad": [],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [
+        {
+          "year": 2013,
+          "value": 11251.0
+        },
+        {
+          "year": 2015,
+          "value": 17570.0
+        },
+        {
+          "year": 2016,
+          "value": 17194.0
+        },
+        {
+          "year": 2017,
+          "value": 17019.0
+        },
+        {
+          "year": 2018,
+          "value": 17972.0
+        },
+        {
+          "year": 2019,
+          "value": 17131.0
+        },
+        {
+          "year": 2020,
+          "value": 18464.0
+        },
+        {
+          "year": 2021,
+          "value": 17698.0
+        },
+        {
+          "year": 2022,
+          "value": 17030.0
+        },
+        {
+          "year": 2023,
+          "value": 18620.0
+        },
+        {
+          "year": 2024,
+          "value": 14918.0
+        }
+      ],
+      "median_debt": [],
+      "default_rate": [
+        {
+          "year": 2016,
+          "value": 0.045
+        },
+        {
+          "year": 2017,
+          "value": 0.0
+        },
+        {
+          "year": 2018,
+          "value": 0.033
+        },
+        {
+          "year": 2019,
+          "value": 0.019
+        },
+        {
+          "year": 2020,
+          "value": 0.0
+        },
+        {
+          "year": 2021,
+          "value": 0.0
+        },
+        {
+          "year": 2022,
+          "value": 0.0
+        },
+        {
+          "year": 2023,
+          "value": 0.0
+        },
+        {
+          "year": 2024,
+          "value": 0.0
+        }
+      ],
+      "pell_share": [],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [
+        {
+          "year": 2020,
+          "value": 69706.0
+        }
+      ],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "default_rate",
+        "from_year": 2016,
+        "to_year": 2024,
+        "from_value": 0.045,
+        "to_value": 0.0,
+        "pct_change": -1.0,
+        "direction": "fell"
+      }
+    ],
+    "flags": []
+  },
+  "programs_by_family": {
+    "51": [
+      {
+        "slug": "5139-c1",
+        "cip_code": "5139",
+        "cip_desc": "Practical Nursing, Vocational Nursing and Nursing Assistants.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": 63992,
+        "earnings_median_4yr": 55352,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 63992.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 55352.0
+          }
+        ],
+        "debt_median": 16687,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 16407.0
+          },
+          {
+            "year": 2015,
+            "value": 16442.0
+          },
+          {
+            "year": 2016,
+            "value": 16615.0
+          },
+          {
+            "year": 2017,
+            "value": 16663.0
+          },
+          {
+            "year": 2018,
+            "value": 16687.0
+          }
+        ],
+        "completers": 72,
+        "completers_single_year": 64,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 50.0
+          },
+          {
+            "year": 2015,
+            "value": 47.0
+          },
+          {
+            "year": 2016,
+            "value": 69.0
+          },
+          {
+            "year": 2017,
+            "value": 76.0
+          },
+          {
+            "year": 2018,
+            "value": 64.0
+          },
+          {
+            "year": 2019,
+            "value": 72.0
+          }
+        ],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "5139-c1",
+      "cip_code": "5139",
+      "cip_desc": "Practical Nursing, Vocational Nursing and Nursing Assistants.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": 63992,
+      "earnings_median_4yr": 55352,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 63992.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 55352.0
+        }
+      ],
+      "debt_median": 16687,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 16407.0
+        },
+        {
+          "year": 2015,
+          "value": 16442.0
+        },
+        {
+          "year": 2016,
+          "value": 16615.0
+        },
+        {
+          "year": 2017,
+          "value": 16663.0
+        },
+        {
+          "year": 2018,
+          "value": 16687.0
+        }
+      ],
+      "completers": 72,
+      "completers_single_year": 64,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 50.0
+        },
+        {
+          "year": 2015,
+          "value": 47.0
+        },
+        {
+          "year": 2016,
+          "value": 69.0
+        },
+        {
+          "year": 2017,
+          "value": 76.0
+        },
+        {
+          "year": 2018,
+          "value": 64.0
+        },
+        {
+          "year": 2019,
+          "value": 72.0
+        }
+      ],
+      "long_arc": []
+    }
+  ],
+  "program_count": 1,
+  "similar": [
+    {
+      "slug": "coachella-valley-beauty-college-449393",
+      "name": "Coachella Valley Beauty College",
+      "city": "La Quinta",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 19665,
+      "completion_rate_150": 0.8421,
+      "enrollment_undergrad": 88
+    },
+    {
+      "slug": "advance-beauty-techs-academy-479974",
+      "name": "Advance Beauty Techs Academy",
+      "city": "San Jacinto",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.6207,
+      "enrollment_undergrad": 85
+    },
+    {
+      "slug": "professional-institute-of-beauty-121433",
+      "name": "Professional Institute of Beauty",
+      "city": "El Monte",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 16886,
+      "completion_rate_150": 0.6429,
+      "enrollment_undergrad": 90
+    },
+    {
+      "slug": "design-s-school-of-cosmetology-441256",
+      "name": "Design's School of Cosmetology",
+      "city": "Paso Robles",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 23937,
+      "completion_rate_150": 0.75,
+      "enrollment_undergrad": 93
+    },
+    {
+      "slug": "bridges-beauty-college-125082",
+      "name": "Bridges Beauty College",
+      "city": "Victorville",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 17287,
+      "completion_rate_150": 0.7419,
+      "enrollment_undergrad": 80
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

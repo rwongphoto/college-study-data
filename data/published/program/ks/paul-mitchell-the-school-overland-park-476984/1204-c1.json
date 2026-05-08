@@ -1,0 +1,368 @@
+{
+  "institution_unitid": "476984",
+  "institution_name": "Paul Mitchell the School-Overland Park",
+  "institution_slug": "paul-mitchell-the-school-overland-park-476984",
+  "state": "ks",
+  "cip_code": "1204",
+  "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "1204-c1",
+  "earnings_median_4yr": 27891,
+  "earnings_median_5yr": 28065,
+  "earnings_count_4yr": 15,
+  "earnings_count_5yr": 24,
+  "debt_median": 9833,
+  "completers": 78,
+  "completers_single_year": 87,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 27891.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 28065.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 12500.0
+      },
+      {
+        "year": 2015,
+        "value": 10682.0
+      },
+      {
+        "year": 2016,
+        "value": 11239.0
+      },
+      {
+        "year": 2017,
+        "value": 11470.0
+      },
+      {
+        "year": 2018,
+        "value": 9833.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 99.0
+      },
+      {
+        "year": 2015,
+        "value": 95.0
+      },
+      {
+        "year": 2016,
+        "value": 92.0
+      },
+      {
+        "year": 2017,
+        "value": 81.0
+      },
+      {
+        "year": 2018,
+        "value": 87.0
+      },
+      {
+        "year": 2019,
+        "value": 78.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 12500.0,
+      "to_value": 9833.0,
+      "pct_change": -0.21336,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Cosmetology and Related Personal Grooming Services at Paul Mitchell the School-Overland Park fell 21% between 2014 and 2018 ($12.5k → $9.8k).",
+      "magnitude_pct": -21.3,
+      "magnitude_abs": -2667.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "476984",
+    "slug": "paul-mitchell-the-school-overland-park-476984",
+    "name": "Paul Mitchell the School-Overland Park",
+    "city": "Overland Park",
+    "city_slug": "overland-park",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "johnson-county-community-college-155210",
+      "institution_name": "Johnson County Community College",
+      "earnings_median_5yr": 31476,
+      "earnings_median_4yr": 28635,
+      "debt_median": 5299,
+      "completers": 41,
+      "completers_single_year": 36,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mitsu-sato-hair-academy-476902",
+      "institution_name": "Mitsu Sato Hair Academy",
+      "earnings_median_5yr": 29029,
+      "earnings_median_4yr": 22370,
+      "debt_median": 9500,
+      "completers": 52,
+      "completers_single_year": 43,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "crave-beauty-academy-417503",
+      "institution_name": "Crave Beauty Academy",
+      "earnings_median_5yr": 25693,
+      "earnings_median_4yr": 23326,
+      "debt_median": 8765,
+      "completers": 183,
+      "completers_single_year": 142,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "eric-fisher-academy-457581",
+      "institution_name": "Eric Fisher Academy",
+      "earnings_median_5yr": 25094,
+      "earnings_median_4yr": 20582,
+      "debt_median": 9339,
+      "completers": 141,
+      "completers_single_year": 118,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hays-academy-of-hair-design-155159",
+      "institution_name": "Hays Academy of Hair Design",
+      "earnings_median_5yr": 24121,
+      "earnings_median_4yr": 21983,
+      "debt_median": 9833,
+      "completers": 46,
+      "completers_single_year": 42,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "paul-mitchell-the-school-wichita-408066",
+      "institution_name": "Paul Mitchell the School-Wichita",
+      "earnings_median_5yr": 22213,
+      "earnings_median_4yr": 22596,
+      "debt_median": 9833,
+      "completers": 87,
+      "completers_single_year": 74,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "z-hair-academy-451237",
+      "institution_name": "Z Hair Academy",
+      "earnings_median_5yr": 20933,
+      "earnings_median_4yr": 25166,
+      "debt_median": 10670,
+      "completers": 96,
+      "completers_single_year": 82,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "fort-scott-community-college-155098",
+      "institution_name": "Fort Scott Community College",
+      "earnings_median_5yr": 13723,
+      "earnings_median_4yr": 16439,
+      "debt_median": 4750,
+      "completers": 29,
+      "completers_single_year": 38,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "old-town-barber-college-wichita-155353",
+      "institution_name": "Old Town Barber College-Wichita",
+      "earnings_median_5yr": 13515,
+      "earnings_median_4yr": 12066,
+      "debt_median": 13000,
+      "completers": 49,
+      "completers_single_year": 34,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cowley-county-community-college-154952",
+      "institution_name": "Cowley County Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "dodge-city-community-college-154998",
+      "institution_name": "Dodge City Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "garden-city-community-college-155104",
+      "institution_name": "Garden City Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 5500,
+      "completers": 22,
+      "completers_single_year": 24,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hutchinson-community-college-155195",
+      "institution_name": "Hutchinson Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "independence-community-college-155201",
+      "institution_name": "Independence Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "kansas-city-kansas-community-college-155292",
+      "institution_name": "Kansas City Kansas Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 75,
+      "completers_single_year": 47,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northwest-kansas-technical-college-155618",
+      "institution_name": "Northwest Kansas Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "seward-county-community-college-155858",
+      "institution_name": "Seward County Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "washburn-university-156082",
+      "institution_name": "Washburn University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 6792,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "midwest-barber-college-493831",
+      "institution_name": "Midwest Barber College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 24,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 18979,
+      "cost_total_default": 18979,
+      "cost_source": "NPT4_AVG",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 28065,
+      "earnings_anchor_year": 5,
+      "debt_median": 9833,
+      "cip_family": "12",
+      "hs_baseline_state": 36100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -142025,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

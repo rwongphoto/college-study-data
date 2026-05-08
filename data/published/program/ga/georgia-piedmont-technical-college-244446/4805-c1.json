@@ -1,0 +1,400 @@
+{
+  "institution_unitid": "244446",
+  "institution_name": "Georgia Piedmont Technical College",
+  "institution_slug": "georgia-piedmont-technical-college-244446",
+  "state": "ga",
+  "cip_code": "4805",
+  "cip_desc": "Precision Metal Working.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "4805-c1",
+  "earnings_median_4yr": 32940,
+  "earnings_median_5yr": 35632,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 5,
+  "debt_median": null,
+  "completers": 68,
+  "completers_single_year": 129,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 32940.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 35632.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 9500.0
+      },
+      {
+        "year": 2015,
+        "value": 9500.0
+      },
+      {
+        "year": 2016,
+        "value": 6217.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 81.0
+      },
+      {
+        "year": 2015,
+        "value": 135.0
+      },
+      {
+        "year": 2016,
+        "value": 89.0
+      },
+      {
+        "year": 2017,
+        "value": 39.0
+      },
+      {
+        "year": 2018,
+        "value": 129.0
+      },
+      {
+        "year": 2019,
+        "value": 68.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2016,
+      "from_value": 9500.0,
+      "to_value": 6217.0,
+      "pct_change": -0.34557894736842104,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Precision Metal Working at Georgia Piedmont Technical College fell 35% between 2014 and 2016 ($9.5k → $6.2k).",
+      "magnitude_pct": -34.6,
+      "magnitude_abs": -3283.0,
+      "baseline_year": 2014,
+      "recent_year": 2016,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "244446",
+    "slug": "georgia-piedmont-technical-college-244446",
+    "name": "Georgia Piedmont Technical College",
+    "city": "Clarkston",
+    "city_slug": "clarkston",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "north-georgia-technical-college-140678",
+      "institution_name": "North Georgia Technical College",
+      "earnings_median_5yr": 51490,
+      "earnings_median_4yr": 45977,
+      "debt_median": null,
+      "completers": 70,
+      "completers_single_year": 69,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southern-crescent-technical-college-139986",
+      "institution_name": "Southern Crescent Technical College",
+      "earnings_median_5yr": 51092,
+      "earnings_median_4yr": 45198,
+      "debt_median": null,
+      "completers": 76,
+      "completers_single_year": 70,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "west-georgia-technical-college-139278",
+      "institution_name": "West Georgia Technical College",
+      "earnings_median_5yr": 50258,
+      "earnings_median_4yr": 40672,
+      "debt_median": null,
+      "completers": 289,
+      "completers_single_year": 333,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "coastal-pines-technical-college-485458",
+      "institution_name": "Coastal Pines Technical College",
+      "earnings_median_5yr": 48942,
+      "earnings_median_4yr": 41494,
+      "debt_median": null,
+      "completers": 221,
+      "completers_single_year": 217,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "chattahoochee-technical-college-140331",
+      "institution_name": "Chattahoochee Technical College",
+      "earnings_median_5yr": 47962,
+      "earnings_median_4yr": 40921,
+      "debt_median": null,
+      "completers": 211,
+      "completers_single_year": 127,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "oconee-fall-line-technical-college-420431",
+      "institution_name": "Oconee Fall Line Technical College",
+      "earnings_median_5yr": 47260,
+      "earnings_median_4yr": 34017,
+      "debt_median": null,
+      "completers": 186,
+      "completers_single_year": 165,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "columbus-technical-college-139357",
+      "institution_name": "Columbus Technical College",
+      "earnings_median_5yr": 46704,
+      "earnings_median_4yr": 46231,
+      "debt_median": null,
+      "completers": 127,
+      "completers_single_year": 86,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "gwinnett-technical-college-140012",
+      "institution_name": "Gwinnett Technical College",
+      "earnings_median_5yr": 45379,
+      "earnings_median_4yr": 48312,
+      "debt_median": null,
+      "completers": 80,
+      "completers_single_year": 113,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lanier-technical-college-140243",
+      "institution_name": "Lanier Technical College",
+      "earnings_median_5yr": 45249,
+      "earnings_median_4yr": 42252,
+      "debt_median": null,
+      "completers": 163,
+      "completers_single_year": 185,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "georgia-northwestern-technical-college-139384",
+      "institution_name": "Georgia Northwestern Technical College",
+      "earnings_median_5yr": 45040,
+      "earnings_median_4yr": 42450,
+      "debt_median": null,
+      "completers": 176,
+      "completers_single_year": 206,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "savannah-technical-college-140942",
+      "institution_name": "Savannah Technical College",
+      "earnings_median_5yr": 44468,
+      "earnings_median_4yr": 38846,
+      "debt_median": null,
+      "completers": 144,
+      "completers_single_year": 195,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "south-georgia-technical-college-141006",
+      "institution_name": "South Georgia Technical College",
+      "earnings_median_5yr": 43035,
+      "earnings_median_4yr": 36236,
+      "debt_median": null,
+      "completers": 93,
+      "completers_single_year": 95,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "albany-technical-college-138682",
+      "institution_name": "Albany Technical College",
+      "earnings_median_5yr": 41833,
+      "earnings_median_4yr": 31888,
+      "debt_median": null,
+      "completers": 76,
+      "completers_single_year": 94,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wiregrass-georgia-technical-college-141255",
+      "institution_name": "Wiregrass Georgia Technical College",
+      "earnings_median_5yr": 41010,
+      "earnings_median_4yr": 31688,
+      "debt_median": null,
+      "completers": 195,
+      "completers_single_year": 159,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "aviation-institute-of-maintenance-atlanta-440059",
+      "institution_name": "Aviation Institute of Maintenance-Atlanta",
+      "earnings_median_5yr": 39694,
+      "earnings_median_4yr": 34926,
+      "debt_median": 14750,
+      "completers": 15,
+      "completers_single_year": 22,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "augusta-technical-college-138956",
+      "institution_name": "Augusta Technical College",
+      "earnings_median_5yr": 36820,
+      "earnings_median_4yr": 34130,
+      "debt_median": null,
+      "completers": 122,
+      "completers_single_year": 149,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "atlanta-technical-college-138840",
+      "institution_name": "Atlanta Technical College",
+      "earnings_median_5yr": 33533,
+      "earnings_median_4yr": 24678,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 34,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "central-georgia-technical-college-483045",
+      "institution_name": "Central Georgia Technical College",
+      "earnings_median_5yr": 32887,
+      "earnings_median_4yr": 35296,
+      "debt_median": null,
+      "completers": 232,
+      "completers_single_year": 327,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "abraham-baldwin-agricultural-college-138558",
+      "institution_name": "Abraham Baldwin Agricultural College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "athens-technical-college-246813",
+      "institution_name": "Athens Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 81,
+      "completers_single_year": 77,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ogeechee-technical-college-366465",
+      "institution_name": "Ogeechee Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 55,
+      "completers_single_year": 55,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southeastern-technical-college-368911",
+      "institution_name": "Southeastern Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 43063,
+      "debt_median": null,
+      "completers": 54,
+      "completers_single_year": 57,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southern-regional-technical-college-487162",
+      "institution_name": "Southern Regional Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 116,
+      "completers_single_year": 114,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 5,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 9855,
+      "cost_total_default": 9855,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 35632,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "48",
+      "hs_baseline_state": 35800
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 41311,
+      "breakeven_year": 24
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

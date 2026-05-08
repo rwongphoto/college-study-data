@@ -1,0 +1,475 @@
+{
+  "institution": {
+    "unitid": "451121",
+    "opeid6": "041204",
+    "name": "Paul Mitchell the School-Miami",
+    "slug": "paul-mitchell-the-school-miami-451121",
+    "state": "fl",
+    "city": "Miami",
+    "city_slug": "miami",
+    "zip5": "33156",
+    "address": "8905 Dadeland Blvd",
+    "latitude": 25.68739,
+    "longitude": -80.313201,
+    "control": "private_forprofit",
+    "pred_degree": "certificate",
+    "highest_degree": "certificate",
+    "main_campus": true,
+    "locale": "13",
+    "carnegie_basic": -2,
+    "sector_code": 9,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": 18904,
+    "earnings_median_8yr": 20884,
+    "earnings_median_10yr": 25024,
+    "completion_rate_150": 0.9,
+    "completion_rate_100": 0.3,
+    "retention_rate": 1.0,
+    "admission_rate": null,
+    "enrollment_undergrad": 112,
+    "enrollment_total": null,
+    "cost_attendance": 24855,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": 20559,
+    "cost_by_income": {
+      "0_30k": 21407,
+      "30_48k": 18360,
+      "48_75k": 20435,
+      "75_110k": 24855,
+      "110k_plus": null,
+      "sticker": 24855,
+      "sector": "priv"
+    },
+    "median_debt": 7667,
+    "default_rate": null,
+    "pell_share": 0.4702,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [
+        {
+          "year": 2008,
+          "value": 0.7
+        },
+        {
+          "year": 2009,
+          "value": 0.8824
+        }
+      ],
+      "admission_rate": [],
+      "enrollment_undergrad": [
+        {
+          "year": 2008,
+          "value": 35.0
+        },
+        {
+          "year": 2009,
+          "value": 161.0
+        }
+      ],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [
+        {
+          "year": 2009,
+          "value": 18175.0
+        }
+      ],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [],
+      "median_debt": [
+        {
+          "year": 2008,
+          "value": 7332.0
+        },
+        {
+          "year": 2009,
+          "value": 5986.0
+        }
+      ],
+      "default_rate": [],
+      "pell_share": [
+        {
+          "year": 2008,
+          "value": 0.5263
+        },
+        {
+          "year": 2009,
+          "value": 0.7391
+        }
+      ],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "retention_rate",
+        "from_year": 2008,
+        "to_year": 2009,
+        "from_value": 0.7,
+        "to_value": 0.8824,
+        "pct_change": 0.2605714285714286,
+        "direction": "rose"
+      },
+      {
+        "metric": "enrollment_undergrad",
+        "from_year": 2008,
+        "to_year": 2009,
+        "from_value": 35.0,
+        "to_value": 161.0,
+        "pct_change": 0.63,
+        "direction": "rose"
+      },
+      {
+        "metric": "pell_share",
+        "from_year": 2008,
+        "to_year": 2009,
+        "from_value": 0.5263,
+        "to_value": 0.7391,
+        "pct_change": 0.4043321299638989,
+        "direction": "rose"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "Undergraduate enrollment",
+        "summary": "Undergraduate enrollment at Paul Mitchell the School-Miami rose 360% between 2008 and 2009 (35 → 161).",
+        "magnitude_pct": 360.0,
+        "magnitude_abs": 126.0,
+        "baseline_year": 2008,
+        "recent_year": 2009,
+        "units": null,
+        "history": [],
+        "metric": "enrollment_undergrad"
+      },
+      {
+        "type": "earnings_trend",
+        "severity": "improvement",
+        "label": "Earnings trend · post-entry horizons",
+        "summary": "Earnings 10 years post-entry at Paul Mitchell the School-Miami are 32% above 6-year earnings ($18.9k → $25.0k).",
+        "magnitude_pct": 32.4,
+        "magnitude_abs": 6120.0,
+        "baseline_year": 6,
+        "recent_year": 10,
+        "units": "$",
+        "history": [],
+        "metric": "earnings_progression"
+      },
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "First-year retention",
+        "summary": "First-year retention at Paul Mitchell the School-Miami rose 26% between 2008 and 2009 (70.0% → 88.2%).",
+        "magnitude_pct": 26.1,
+        "magnitude_abs": 0.18,
+        "baseline_year": 2008,
+        "recent_year": 2009,
+        "units": "%",
+        "history": [],
+        "metric": "retention_rate"
+      },
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "Median federal debt at exit",
+        "summary": "Median federal debt at exit at Paul Mitchell the School-Miami fell 18% between 2008 and 2009 ($7.3k → $6.0k).",
+        "magnitude_pct": -18.4,
+        "magnitude_abs": -1346.0,
+        "baseline_year": 2008,
+        "recent_year": 2009,
+        "units": null,
+        "history": [],
+        "metric": "median_debt"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "12": [
+      {
+        "slug": "1204-c1",
+        "cip_code": "1204",
+        "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": 21657,
+        "earnings_median_4yr": 21120,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 21657.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 21120.0
+          }
+        ],
+        "debt_median": 9000,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 11667.0
+          },
+          {
+            "year": 2015,
+            "value": 9500.0
+          },
+          {
+            "year": 2016,
+            "value": 9500.0
+          },
+          {
+            "year": 2017,
+            "value": 9292.0
+          },
+          {
+            "year": 2018,
+            "value": 9000.0
+          }
+        ],
+        "completers": 50,
+        "completers_single_year": 61,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 41.0
+          },
+          {
+            "year": 2015,
+            "value": 55.0
+          },
+          {
+            "year": 2016,
+            "value": 54.0
+          },
+          {
+            "year": 2017,
+            "value": 70.0
+          },
+          {
+            "year": 2018,
+            "value": 61.0
+          },
+          {
+            "year": 2019,
+            "value": 50.0
+          }
+        ],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2014,
+            "to_year": 2018,
+            "from_value": 11667.0,
+            "to_value": 9000.0,
+            "pct_change": -0.2285934687580355,
+            "direction": "fell"
+          }
+        ]
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "1204-c1",
+      "cip_code": "1204",
+      "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": 21657,
+      "earnings_median_4yr": 21120,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 21657.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 21120.0
+        }
+      ],
+      "debt_median": 9000,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 11667.0
+        },
+        {
+          "year": 2015,
+          "value": 9500.0
+        },
+        {
+          "year": 2016,
+          "value": 9500.0
+        },
+        {
+          "year": 2017,
+          "value": 9292.0
+        },
+        {
+          "year": 2018,
+          "value": 9000.0
+        }
+      ],
+      "completers": 50,
+      "completers_single_year": 61,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 41.0
+        },
+        {
+          "year": 2015,
+          "value": 55.0
+        },
+        {
+          "year": 2016,
+          "value": 54.0
+        },
+        {
+          "year": 2017,
+          "value": 70.0
+        },
+        {
+          "year": 2018,
+          "value": 61.0
+        },
+        {
+          "year": 2019,
+          "value": 50.0
+        }
+      ],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2014,
+          "to_year": 2018,
+          "from_value": 11667.0,
+          "to_value": 9000.0,
+          "pct_change": -0.2285934687580355,
+          "direction": "fell"
+        }
+      ]
+    }
+  ],
+  "program_count": 1,
+  "similar": [
+    {
+      "slug": "palm-beach-academy-of-health-beauty-449490",
+      "name": "Palm Beach Academy of Health & Beauty",
+      "city": "West Palm Beach",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 30784,
+      "completion_rate_150": 0.6032,
+      "enrollment_undergrad": 116
+    },
+    {
+      "slug": "paul-mitchell-the-school-jacksonville-136109",
+      "name": "Paul Mitchell the School-Jacksonville",
+      "city": "Jacksonville",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 34949,
+      "completion_rate_150": 0.8444,
+      "enrollment_undergrad": 117
+    },
+    {
+      "slug": "the-salon-professional-academy-ft-myers-459347",
+      "name": "The Salon Professional Academy-Ft Myers",
+      "city": "Fort Myers",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 26408,
+      "completion_rate_150": 0.7241,
+      "enrollment_undergrad": 104
+    },
+    {
+      "slug": "florida-professional-institute-495299",
+      "name": "Florida Professional Institute",
+      "city": "Miami",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 1.0,
+      "enrollment_undergrad": 104
+    },
+    {
+      "slug": "academy-of-cosmetology-372462",
+      "name": "Academy of Cosmetology",
+      "city": "Merritt Island",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 20144,
+      "completion_rate_150": 0.3871,
+      "enrollment_undergrad": 121
+    }
+  ],
+  "roi": {
+    "default_program_slug": "1204-c1",
+    "programs_available": [
+      {
+        "slug": "1204-c1",
+        "label": "Cosmetology and Related Personal Grooming Services · Undergraduate Certificate or Diploma",
+        "cip_family": "12",
+        "completers": 50,
+        "has_earnings": true,
+        "earnings_at_completion": 21657,
+        "earnings_anchor_year": 5,
+        "debt_median": 9000,
+        "years_to_complete": 1,
+        "default_result": {
+          "npv": -271289,
+          "breakeven_year": null
+        }
+      }
+    ]
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

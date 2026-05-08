@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Pollution Analyst — Favicon Preview</title>
+<link rel="icon" type="image/svg+xml" href="assets/pollution-favicon.svg"/>
+<link rel="alternate icon" href="assets/pollution-favicon.ico"/>
+<link rel="apple-touch-icon" href="assets/apple-touch-icon-pollution.png"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet"/>
+<style>
+  body { margin: 0; background: #0E1116; color: #E8ECF2; font-family: Inter, system-ui, sans-serif; padding: 56px; }
+  h1 { font-weight: 600; letter-spacing: -0.02em; font-size: 32px; margin: 0 0 8px; }
+  p.lead { color: #BFC6D4; max-width: 60ch; line-height: 1.6; margin: 0 0 40px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(160px,1fr)); gap: 24px; margin-bottom: 48px; }
+  .card { background: #141821; border: 1px solid #2A3142; border-radius: 8px; padding: 22px; display: flex; flex-direction: column; align-items: center; gap: 14px; }
+  .card .px { font-family: JetBrains Mono, monospace; color: #8A93A6; font-size: 11px; letter-spacing: 0.08em; }
+  .row { display: flex; align-items: center; gap: 16px; padding: 16px 20px; background: #141821; border: 1px solid #2A3142; border-radius: 8px; margin-bottom: 12px; }
+  .row.light { background: #f5f1e8; border-color: #d8d2c4; }
+  .row.light .wm-text { color: #1a1a1a; }
+  .wm-text { font-weight: 600; font-size: 22px; letter-spacing: -0.5px; }
+  .wm-sub { font-family: JetBrains Mono, monospace; font-size: 10px; letter-spacing: 0.18em; color: #8A93A6; margin-top: 2px; }
+  h2 { font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase; color: #8A93A6; font-weight: 500; margin: 32px 0 16px; }
+  .tabsim { display: inline-flex; align-items: center; gap: 8px; background: #1B2030; border: 1px solid #3A4257; border-radius: 4px 4px 0 0; padding: 6px 14px 6px 10px; }
+  .tabsim img { width: 16px; height: 16px; }
+</style>
+</head>
+<body>
+  <h1>Pollution Analyst — Favicon &amp; Lockup</h1>
+  <p class="lead">Smokestack mark with amber→red particle smoke, transparent background. The favicon simplifies for 16/32 sizes; the wordmark sits beside the icon in the site header.</p>
+
+  <h2>Favicon at intended sizes</h2>
+  <div class="grid">
+    <div class="card"><img src="assets/pollution-favicon-16.png" width="16" height="16" alt=""/><span class="px">16 × 16</span></div>
+    <div class="card"><img src="assets/pollution-favicon-32.png" width="32" height="32" alt=""/><span class="px">32 × 32</span></div>
+    <div class="card"><img src="assets/pollution-favicon-48.png" width="48" height="48" alt=""/><span class="px">48 × 48</span></div>
+    <div class="card"><img src="assets/pollution-favicon-64.png" width="64" height="64" alt=""/><span class="px">64 × 64</span></div>
+    <div class="card"><img src="assets/apple-touch-icon-pollution.png" width="120" height="120" alt=""/><span class="px">180 × 180 · Apple touch</span></div>
+    <div class="card"><img src="assets/pollution-favicon-512.png" width="160" height="160" alt=""/><span class="px">512 × 512</span></div>
+  </div>
+
+  <h2>Browser tab simulation</h2>
+  <div class="tabsim"><img src="assets/pollution-favicon-32.png" alt=""/><span style="font-size: 13px; color: #BFC6D4">Pollution Analyst — Bay Area</span></div>
+
+  <h2>Header lockup — dark</h2>
+  <div class="row">
+    <img src="assets/pollution-favicon-64.png" width="32" height="32" alt=""/>
+    <div>
+      <div class="wm-text">Pollution Analyst</div>
+      <div class="wm-sub">EPA · CDC · CENSUS</div>
+    </div>
+  </div>
+
+  <h2>Header lockup — light</h2>
+  <div class="row light">
+    <img src="assets/pollution-favicon-64.png" width="32" height="32" alt=""/>
+    <div>
+      <div class="wm-text">Pollution Analyst</div>
+      <div class="wm-sub" style="color: #6a6a6a">EPA · CDC · CENSUS</div>
+    </div>
+  </div>
+
+  <h2>SVG wordmark (single asset)</h2>
+  <div class="row">
+    <img src="assets/pollution-wordmark.svg" height="56" alt=""/>
+  </div>
+
+  <h2>Files in /assets/</h2>
+  <p style="font-family: JetBrains Mono, monospace; color: #BFC6D4; font-size: 13px; line-height: 2;">
+    pollution-favicon.svg · pollution-favicon-16-master.svg<br>
+    pollution-favicon-{16,32,48,64,512}.png<br>
+    apple-touch-icon-pollution.png<br>
+    pollution-favicon.ico<br>
+    pollution-wordmark.svg
+  </p>
+</body>
+</html>

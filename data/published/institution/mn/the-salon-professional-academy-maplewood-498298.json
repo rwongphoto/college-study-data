@@ -1,0 +1,232 @@
+{
+  "institution": {
+    "unitid": "498298",
+    "opeid6": "043085",
+    "name": "The Salon Professional Academy Maplewood",
+    "slug": "the-salon-professional-academy-maplewood-498298",
+    "state": "mn",
+    "city": "Maplewood",
+    "city_slug": "maplewood",
+    "zip5": "55109",
+    "address": "3000 White Bear Ave Suite 27",
+    "latitude": 45.032418,
+    "longitude": -93.014643,
+    "control": "private_forprofit",
+    "pred_degree": "certificate",
+    "highest_degree": "certificate",
+    "main_campus": true,
+    "locale": "21",
+    "carnegie_basic": -2,
+    "sector_code": 9,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": 0.8824,
+    "completion_rate_100": 0.4412,
+    "retention_rate": 0.9583,
+    "admission_rate": null,
+    "enrollment_undergrad": 73,
+    "enrollment_total": null,
+    "cost_attendance": 16979,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": 12523,
+    "cost_by_income": {
+      "0_30k": 10241,
+      "30_48k": 13634,
+      "48_75k": 14034,
+      "75_110k": 15234,
+      "110k_plus": null,
+      "sticker": 16979,
+      "sector": "priv"
+    },
+    "median_debt": null,
+    "default_rate": null,
+    "pell_share": 0.2115,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [
+        {
+          "year": 2023,
+          "value": 0.9583
+        },
+        {
+          "year": 2024,
+          "value": 0.9565
+        }
+      ],
+      "admission_rate": [],
+      "enrollment_undergrad": [
+        {
+          "year": 2023,
+          "value": 73.0
+        },
+        {
+          "year": 2024,
+          "value": 85.0
+        }
+      ],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [
+        {
+          "year": 2023,
+          "value": 16979.0
+        },
+        {
+          "year": 2024,
+          "value": 24780.0
+        }
+      ],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [
+        {
+          "year": 2023,
+          "value": 12523.0
+        },
+        {
+          "year": 2024,
+          "value": 22283.0
+        }
+      ],
+      "median_debt": [],
+      "default_rate": [],
+      "pell_share": [
+        {
+          "year": 2023,
+          "value": 0.2115
+        },
+        {
+          "year": 2024,
+          "value": 0.2975
+        }
+      ],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "pell_share",
+        "from_year": 2023,
+        "to_year": 2024,
+        "from_value": 0.2115,
+        "to_value": 0.2975,
+        "pct_change": 0.4066193853427896,
+        "direction": "rose"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "Undergraduate enrollment",
+        "summary": "Undergraduate enrollment at The Salon Professional Academy Maplewood rose 16% between 2023 and 2024 (73 → 85).",
+        "magnitude_pct": 16.4,
+        "magnitude_abs": 12.0,
+        "baseline_year": 2023,
+        "recent_year": 2024,
+        "units": null,
+        "history": [],
+        "metric": "enrollment_undergrad"
+      }
+    ]
+  },
+  "programs_by_family": {},
+  "programs": [],
+  "program_count": 0,
+  "similar": [
+    {
+      "slug": "nova-academy-of-cosmetology-woodbury-174190",
+      "name": "Nova Academy of Cosmetology Woodbury",
+      "city": "WOODBURY",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 31961,
+      "completion_rate_150": 0.8077,
+      "enrollment_undergrad": 56
+    },
+    {
+      "slug": "model-college-of-hair-design-174321",
+      "name": "Model College of Hair Design",
+      "city": "Saint Cloud",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 25410,
+      "completion_rate_150": 0.614,
+      "enrollment_undergrad": 108
+    },
+    {
+      "slug": "avalon-school-of-cosmetology-457679",
+      "name": "Avalon School of Cosmetology",
+      "city": "Worthington",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 28336,
+      "completion_rate_150": 0.7,
+      "enrollment_undergrad": 18
+    },
+    {
+      "slug": "hastings-beauty-school-417600",
+      "name": "Hastings Beauty School",
+      "city": "Hastings",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 26258,
+      "completion_rate_150": 0.6923,
+      "enrollment_undergrad": 11
+    },
+    {
+      "slug": "nova-academy-of-cosmetology-459426",
+      "name": "Nova Academy of Cosmetology",
+      "city": "Rochester",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 32156,
+      "completion_rate_150": 0.8132,
+      "enrollment_undergrad": 174
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

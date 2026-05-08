@@ -1,0 +1,218 @@
+{
+  "institution_unitid": "131469",
+  "institution_name": "George Washington University",
+  "institution_slug": "george-washington-university-131469",
+  "state": "dc",
+  "cip_code": "5107",
+  "cip_desc": "Health and Medical Administrative Services.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5107-c5",
+  "earnings_median_4yr": 106598,
+  "earnings_median_5yr": 122503,
+  "earnings_count_4yr": 8,
+  "earnings_count_5yr": 6,
+  "debt_median": 66000,
+  "completers": 274,
+  "completers_single_year": 297,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 106598.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 122503.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 55000.0
+      },
+      {
+        "year": 2015,
+        "value": 60000.0
+      },
+      {
+        "year": 2016,
+        "value": 68278.0
+      },
+      {
+        "year": 2017,
+        "value": 68778.0
+      },
+      {
+        "year": 2018,
+        "value": 66000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 151.0
+      },
+      {
+        "year": 2015,
+        "value": 188.0
+      },
+      {
+        "year": 2016,
+        "value": 230.0
+      },
+      {
+        "year": 2017,
+        "value": 282.0
+      },
+      {
+        "year": 2018,
+        "value": 297.0
+      },
+      {
+        "year": 2019,
+        "value": 274.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 55000.0,
+      "to_value": 66000.0,
+      "pct_change": 0.2,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Health and Medical Administrative Services at George Washington University rose 20% between 2014 and 2018 ($55.0k → $66.0k).",
+      "magnitude_pct": 20.0,
+      "magnitude_abs": 11000.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "131469",
+    "slug": "george-washington-university-131469",
+    "name": "George Washington University",
+    "city": "Washington",
+    "city_slug": "washington",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "georgetown-university-131496",
+      "institution_name": "Georgetown University",
+      "earnings_median_5yr": 120217,
+      "earnings_median_4yr": 103988,
+      "debt_median": 80900,
+      "completers": 8,
+      "completers_single_year": 24,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "strayer-university-district-of-columbia-131803",
+      "institution_name": "Strayer University-District of Columbia",
+      "earnings_median_5yr": 55397,
+      "earnings_median_4yr": 48777,
+      "debt_median": 81207,
+      "completers": 6,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "american-university-131159",
+      "institution_name": "American University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 15,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-the-potomac-washington-dc-campus-384412",
+      "institution_name": "University of the Potomac-Washington DC Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 6,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 21863,
+      "cost_total_default": 131178,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 122503,
+      "earnings_anchor_year": 5,
+      "debt_median": 66000,
+      "cip_family": "51",
+      "hs_baseline_state": 47200
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 1081070,
+      "breakeven_year": 9
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

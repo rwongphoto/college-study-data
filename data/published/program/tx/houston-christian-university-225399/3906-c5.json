@@ -1,0 +1,376 @@
+{
+  "institution_unitid": "225399",
+  "institution_name": "Houston Christian University",
+  "institution_slug": "houston-christian-university-225399",
+  "state": "tx",
+  "cip_code": "3906",
+  "cip_desc": "Theological and Ministerial Studies.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "3906-c5",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 2,
+  "debt_median": 41000,
+  "completers": 39,
+  "completers_single_year": 44,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [
+      {
+        "year": 2016,
+        "value": 32500.0
+      },
+      {
+        "year": 2017,
+        "value": 39792.0
+      },
+      {
+        "year": 2018,
+        "value": 41000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 12.0
+      },
+      {
+        "year": 2015,
+        "value": 28.0
+      },
+      {
+        "year": 2016,
+        "value": 31.0
+      },
+      {
+        "year": 2017,
+        "value": 44.0
+      },
+      {
+        "year": 2018,
+        "value": 44.0
+      },
+      {
+        "year": 2019,
+        "value": 39.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2016,
+      "to_year": 2018,
+      "from_value": 32500.0,
+      "to_value": 41000.0,
+      "pct_change": 0.26153846153846155,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Theological and Ministerial Studies at Houston Christian University rose 26% between 2016 and 2018 ($32.5k → $41.0k).",
+      "magnitude_pct": 26.2,
+      "magnitude_abs": 8500.0,
+      "baseline_year": 2016,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "225399",
+    "slug": "houston-christian-university-225399",
+    "name": "Houston Christian University",
+    "city": "Houston",
+    "city_slug": "houston",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "austin-presbyterian-theological-seminary-223001",
+      "institution_name": "Austin Presbyterian Theological Seminary",
+      "earnings_median_5yr": 67335,
+      "earnings_median_4yr": 59268,
+      "debt_median": null,
+      "completers": 21,
+      "completers_single_year": 24,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southern-methodist-university-228246",
+      "institution_name": "Southern Methodist University",
+      "earnings_median_5yr": 59381,
+      "earnings_median_4yr": 56711,
+      "debt_median": 66844,
+      "completers": 68,
+      "completers_single_year": 46,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "dallas-theological-seminary-224305",
+      "institution_name": "Dallas Theological Seminary",
+      "earnings_median_5yr": 58384,
+      "earnings_median_4yr": 49660,
+      "debt_median": 26509,
+      "completers": 148,
+      "completers_single_year": 158,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-king-s-university-439701",
+      "institution_name": "The King's University",
+      "earnings_median_5yr": 55832,
+      "earnings_median_4yr": 39261,
+      "debt_median": 41000,
+      "completers": 33,
+      "completers_single_year": 38,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "texas-christian-university-228875",
+      "institution_name": "Texas Christian University",
+      "earnings_median_5yr": 54132,
+      "earnings_median_4yr": 61140,
+      "debt_median": 72411,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "baylor-university-223232",
+      "institution_name": "Baylor University",
+      "earnings_median_5yr": 47424,
+      "earnings_median_4yr": 43660,
+      "debt_median": 40158,
+      "completers": 63,
+      "completers_single_year": 76,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "abilene-christian-university-222178",
+      "institution_name": "Abilene Christian University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 25,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "arlington-baptist-university-222877",
+      "institution_name": "Arlington Baptist University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "dallas-baptist-university-224226",
+      "institution_name": "Dallas Baptist University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-dallas-224323",
+      "institution_name": "University of Dallas",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "east-texas-baptist-university-224527",
+      "institution_name": "East Texas Baptist University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "episcopal-theological-seminary-of-the-southwest-224712",
+      "institution_name": "Episcopal Theological Seminary of the Southwest",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hardin-simmons-university-225247",
+      "institution_name": "Hardin-Simmons University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 29,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "howard-payne-university-225548",
+      "institution_name": "Howard Payne University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lubbock-christian-university-226383",
+      "institution_name": "Lubbock Christian University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "oblate-school-of-theology-227289",
+      "institution_name": "Oblate School of Theology",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 26,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-st-thomas-227863",
+      "institution_name": "University of St Thomas",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 22,
+      "completers_single_year": 38,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "st-mary-s-university-228149",
+      "institution_name": "St. Mary's University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southwestern-assemblies-of-god-university-228325",
+      "institution_name": "Southwestern Assemblies of God University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 51686,
+      "completers": 20,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wayland-baptist-university-229780",
+      "institution_name": "Wayland Baptist University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "criswell-college-475608",
+      "institution_name": "Criswell College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "grace-school-of-theology-481401",
+      "institution_name": "Grace School of Theology",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 47,
+      "completers_single_year": 25,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 20618,
+      "cost_total_default": 123708,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": 41000,
+      "cip_family": "39"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

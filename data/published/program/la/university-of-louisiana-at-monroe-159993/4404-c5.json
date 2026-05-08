@@ -1,0 +1,172 @@
+{
+  "institution_unitid": "159993",
+  "institution_name": "University of Louisiana at Monroe",
+  "institution_slug": "university-of-louisiana-at-monroe-159993",
+  "state": "la",
+  "cip_code": "4404",
+  "cip_desc": "Public Administration.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "4404-c5",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": null,
+  "earnings_count_5yr": null,
+  "debt_median": 25948,
+  "completers": 28,
+  "completers_single_year": 39,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [
+      {
+        "year": 2016,
+        "value": 24255.0
+      },
+      {
+        "year": 2017,
+        "value": 30675.0
+      },
+      {
+        "year": 2018,
+        "value": 25948.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 0.0
+      },
+      {
+        "year": 2015,
+        "value": 17.0
+      },
+      {
+        "year": 2016,
+        "value": 19.0
+      },
+      {
+        "year": 2017,
+        "value": 22.0
+      },
+      {
+        "year": 2018,
+        "value": 39.0
+      },
+      {
+        "year": 2019,
+        "value": 28.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "159993",
+    "slug": "university-of-louisiana-at-monroe-159993",
+    "name": "University of Louisiana at Monroe",
+    "city": "Monroe",
+    "city_slug": "monroe",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "southern-university-and-a-m-college-160621",
+      "institution_name": "Southern University and A & M College",
+      "earnings_median_5yr": 66719,
+      "earnings_median_4yr": 59974,
+      "debt_median": 45137,
+      "completers": 41,
+      "completers_single_year": 32,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "grambling-state-university-159009",
+      "institution_name": "Grambling State University",
+      "earnings_median_5yr": 51082,
+      "earnings_median_4yr": 46227,
+      "debt_median": 73228,
+      "completers": 4,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "louisiana-state-university-and-agricultural-mechanical-college-159391",
+      "institution_name": "Louisiana State University and Agricultural & Mechanical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 34893,
+      "completers": 27,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-new-orleans-159939",
+      "institution_name": "University of New Orleans",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 12001,
+      "cost_total_default": 72006,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": 25948,
+      "cip_family": "44"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

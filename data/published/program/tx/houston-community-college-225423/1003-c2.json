@@ -1,0 +1,248 @@
+{
+  "institution_unitid": "225423",
+  "institution_name": "Houston Community College",
+  "institution_slug": "houston-community-college-225423",
+  "state": "tx",
+  "cip_code": "1003",
+  "cip_desc": "Graphic Communications.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "1003-c2",
+  "earnings_median_4yr": 28839,
+  "earnings_median_5yr": 39213,
+  "earnings_count_4yr": 7,
+  "earnings_count_5yr": 8,
+  "debt_median": null,
+  "completers": 29,
+  "completers_single_year": 48,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 28839.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 39213.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2015,
+        "value": 11540.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 50.0
+      },
+      {
+        "year": 2015,
+        "value": 50.0
+      },
+      {
+        "year": 2016,
+        "value": 44.0
+      },
+      {
+        "year": 2017,
+        "value": 32.0
+      },
+      {
+        "year": 2018,
+        "value": 48.0
+      },
+      {
+        "year": 2019,
+        "value": 29.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "225423",
+    "slug": "houston-community-college-225423",
+    "name": "Houston Community College",
+    "city": "Houston",
+    "city_slug": "houston",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "austin-community-college-district-222992",
+      "institution_name": "Austin Community College District",
+      "earnings_median_5yr": 42691,
+      "earnings_median_4yr": 35111,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "central-texas-college-223816",
+      "institution_name": "Central Texas College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "dallas-college-224615",
+      "institution_name": "Dallas College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 61,
+      "completers_single_year": 57,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lee-college-226204",
+      "institution_name": "Lee College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lone-star-college-system-227182",
+      "institution_name": "Lone Star College System",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "tarrant-county-college-district-228547",
+      "institution_name": "Tarrant County College District",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 20,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "tyler-junior-college-229355",
+      "institution_name": "Tyler Junior College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 14,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "weatherford-college-229799",
+      "institution_name": "Weatherford College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wharton-county-junior-college-229841",
+      "institution_name": "Wharton County Junior College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northwest-vista-college-420398",
+      "institution_name": "Northwest Vista College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 39,
+      "completers_single_year": 27,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "texas-state-technical-college-487320",
+      "institution_name": "Texas State Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 8,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 8980,
+      "cost_total_default": 17960,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 39213,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "10",
+      "hs_baseline_state": 37300
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 63662,
+      "breakeven_year": 22
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

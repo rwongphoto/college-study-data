@@ -1,0 +1,378 @@
+{
+  "institution_unitid": "174817",
+  "institution_name": "Saint Mary's University of Minnesota",
+  "institution_slug": "saint-mary-s-university-of-minnesota-174817",
+  "state": "mn",
+  "cip_code": "5214",
+  "cip_desc": "Marketing.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5214-c3",
+  "earnings_median_4yr": 59070,
+  "earnings_median_5yr": 67180,
+  "earnings_count_4yr": 4,
+  "earnings_count_5yr": 3,
+  "debt_median": 15332,
+  "completers": 19,
+  "completers_single_year": 16,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 59070.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 67180.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 25000.0
+      },
+      {
+        "year": 2015,
+        "value": 25000.0
+      },
+      {
+        "year": 2016,
+        "value": 23836.0
+      },
+      {
+        "year": 2017,
+        "value": 21958.0
+      },
+      {
+        "year": 2018,
+        "value": 15332.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 55.0
+      },
+      {
+        "year": 2015,
+        "value": 33.0
+      },
+      {
+        "year": 2016,
+        "value": 43.0
+      },
+      {
+        "year": 2017,
+        "value": 26.0
+      },
+      {
+        "year": 2018,
+        "value": 16.0
+      },
+      {
+        "year": 2019,
+        "value": 19.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 25000.0,
+      "to_value": 15332.0,
+      "pct_change": -0.38672,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Marketing at Saint Mary's University of Minnesota fell 39% between 2014 and 2018 ($25.0k → $15.3k).",
+      "magnitude_pct": -38.7,
+      "magnitude_abs": -9668.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "174817",
+    "slug": "saint-mary-s-university-of-minnesota-174817",
+    "name": "Saint Mary's University of Minnesota",
+    "city": "Winona",
+    "city_slug": "winona",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-minnesota-twin-cities-174066",
+      "institution_name": "University of Minnesota-Twin Cities",
+      "earnings_median_5yr": 90462,
+      "earnings_median_4yr": 76482,
+      "debt_median": 22136,
+      "completers": 212,
+      "completers_single_year": 188,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-st-thomas-174914",
+      "institution_name": "University of St Thomas",
+      "earnings_median_5yr": 76644,
+      "earnings_median_4yr": 66692,
+      "debt_median": 26481,
+      "completers": 114,
+      "completers_single_year": 117,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-minnesota-duluth-174233",
+      "institution_name": "University of Minnesota-Duluth",
+      "earnings_median_5yr": 74486,
+      "earnings_median_4yr": 63722,
+      "debt_median": 24250,
+      "completers": 132,
+      "completers_single_year": 152,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "minnesota-state-university-mankato-173920",
+      "institution_name": "Minnesota State University-Mankato",
+      "earnings_median_5yr": 72946,
+      "earnings_median_4yr": 63775,
+      "debt_median": 21500,
+      "completers": 101,
+      "completers_single_year": 96,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "capella-university-413413",
+      "institution_name": "Capella University",
+      "earnings_median_5yr": 70182,
+      "earnings_median_4yr": null,
+      "debt_median": 37999,
+      "completers": 10,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hamline-university-173665",
+      "institution_name": "Hamline University",
+      "earnings_median_5yr": 69209,
+      "earnings_median_4yr": 64425,
+      "debt_median": null,
+      "completers": 19,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "augsburg-university-173045",
+      "institution_name": "Augsburg University",
+      "earnings_median_5yr": 68931,
+      "earnings_median_4yr": 58652,
+      "debt_median": 25000,
+      "completers": 33,
+      "completers_single_year": 41,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-cloud-state-university-174783",
+      "institution_name": "Saint Cloud State University",
+      "earnings_median_5yr": 64751,
+      "earnings_median_4yr": 56662,
+      "debt_median": 20000,
+      "completers": 53,
+      "completers_single_year": 57,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-college-of-saint-scholastica-174899",
+      "institution_name": "The College of Saint Scholastica",
+      "earnings_median_5yr": 63886,
+      "earnings_median_4yr": 52354,
+      "debt_median": 25000,
+      "completers": 16,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "winona-state-university-175272",
+      "institution_name": "Winona State University",
+      "earnings_median_5yr": 63079,
+      "earnings_median_4yr": 54778,
+      "debt_median": 24269,
+      "completers": 55,
+      "completers_single_year": 66,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rasmussen-university-minnesota-175014",
+      "institution_name": "Rasmussen University-Minnesota",
+      "earnings_median_5yr": 61087,
+      "earnings_median_4yr": 58760,
+      "debt_median": 26609,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "concordia-university-saint-paul-173328",
+      "institution_name": "Concordia University-Saint Paul",
+      "earnings_median_5yr": 61078,
+      "earnings_median_4yr": 57161,
+      "debt_median": 17694,
+      "completers": 35,
+      "completers_single_year": 32,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "metropolitan-state-university-174020",
+      "institution_name": "Metropolitan State University",
+      "earnings_median_5yr": 61040,
+      "earnings_median_4yr": 56170,
+      "debt_median": 16625,
+      "completers": 44,
+      "completers_single_year": 45,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southwest-minnesota-state-university-175078",
+      "institution_name": "Southwest Minnesota State University",
+      "earnings_median_5yr": 54828,
+      "earnings_median_4yr": 50032,
+      "debt_median": 19747,
+      "completers": 7,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-northwestern-st-paul-174491",
+      "institution_name": "University of Northwestern-St Paul",
+      "earnings_median_5yr": 53351,
+      "earnings_median_4yr": 47748,
+      "debt_median": 17750,
+      "completers": 15,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-minnesota-crookston-174075",
+      "institution_name": "University of Minnesota-Crookston",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 18500,
+      "completers": 25,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "north-central-university-174437",
+      "institution_name": "North Central University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 21250,
+      "completers": 7,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "oak-hills-christian-college-174525",
+      "institution_name": "Oak Hills Christian College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "crown-college-174862",
+      "institution_name": "Crown College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "st-catherine-university-175005",
+      "institution_name": "St Catherine University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 15,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 14418,
+      "cost_total_default": 57672,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 67180,
+      "earnings_anchor_year": 5,
+      "debt_median": 15332,
+      "cip_family": "52",
+      "hs_baseline_state": 39400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 500836,
+      "breakeven_year": 8
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

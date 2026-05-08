@@ -1,0 +1,416 @@
+{
+  "institution": {
+    "unitid": "494719",
+    "opeid6": "042865",
+    "name": "Tonsorial Arts Barber College",
+    "slug": "tonsorial-arts-barber-college-494719",
+    "state": "tx",
+    "city": "Texarkana",
+    "city_slug": "texarkana",
+    "zip5": "75501",
+    "address": "2831 New Boston Road",
+    "latitude": 33.435351,
+    "longitude": -94.079302,
+    "control": "private_forprofit",
+    "pred_degree": "certificate",
+    "highest_degree": "certificate",
+    "main_campus": true,
+    "locale": "13",
+    "carnegie_basic": -2,
+    "sector_code": 9,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": 0.625,
+    "completion_rate_100": 0.0,
+    "retention_rate": 0.8125,
+    "admission_rate": null,
+    "enrollment_undergrad": 107,
+    "enrollment_total": null,
+    "cost_attendance": 25593,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": 19240,
+    "cost_by_income": {
+      "0_30k": 19338,
+      "30_48k": 18698,
+      "48_75k": null,
+      "75_110k": null,
+      "110k_plus": null,
+      "sticker": 25593,
+      "sector": "priv"
+    },
+    "median_debt": 9500,
+    "default_rate": 0.0,
+    "pell_share": 0.8934,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [
+        {
+          "year": 2019,
+          "value": 1.0
+        },
+        {
+          "year": 2020,
+          "value": 0.9231
+        },
+        {
+          "year": 2021,
+          "value": 1.0
+        },
+        {
+          "year": 2022,
+          "value": 0.7143
+        },
+        {
+          "year": 2023,
+          "value": 0.8125
+        },
+        {
+          "year": 2024,
+          "value": 0.5714
+        }
+      ],
+      "admission_rate": [],
+      "enrollment_undergrad": [
+        {
+          "year": 2019,
+          "value": 29.0
+        },
+        {
+          "year": 2020,
+          "value": 47.0
+        },
+        {
+          "year": 2021,
+          "value": 35.0
+        },
+        {
+          "year": 2022,
+          "value": 73.0
+        },
+        {
+          "year": 2023,
+          "value": 107.0
+        },
+        {
+          "year": 2024,
+          "value": 170.0
+        }
+      ],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [
+        {
+          "year": 2020,
+          "value": 33545.0
+        },
+        {
+          "year": 2021,
+          "value": 27932.0
+        },
+        {
+          "year": 2022,
+          "value": 28579.0
+        },
+        {
+          "year": 2023,
+          "value": 25593.0
+        },
+        {
+          "year": 2024,
+          "value": 26215.0
+        }
+      ],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [
+        {
+          "year": 2020,
+          "value": 27702.0
+        },
+        {
+          "year": 2021,
+          "value": 22651.0
+        },
+        {
+          "year": 2022,
+          "value": 23562.0
+        },
+        {
+          "year": 2023,
+          "value": 19240.0
+        },
+        {
+          "year": 2024,
+          "value": 20484.0
+        }
+      ],
+      "median_debt": [],
+      "default_rate": [],
+      "pell_share": [
+        {
+          "year": 2019,
+          "value": 0.0
+        },
+        {
+          "year": 2020,
+          "value": 0.7609
+        },
+        {
+          "year": 2021,
+          "value": 0.8986
+        },
+        {
+          "year": 2022,
+          "value": 0.9714
+        },
+        {
+          "year": 2023,
+          "value": 0.8934
+        },
+        {
+          "year": 2024,
+          "value": 0.8903
+        }
+      ],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "retention_rate",
+        "from_year": 2019,
+        "to_year": 2024,
+        "from_value": 1.0,
+        "to_value": 0.5714,
+        "pct_change": -0.4286,
+        "direction": "fell"
+      },
+      {
+        "metric": "enrollment_undergrad",
+        "from_year": 2019,
+        "to_year": 2024,
+        "from_value": 29.0,
+        "to_value": 170.0,
+        "pct_change": 0.705,
+        "direction": "rose"
+      },
+      {
+        "metric": "pell_share",
+        "from_year": 2019,
+        "to_year": 2024,
+        "from_value": 0.0,
+        "to_value": 0.8903,
+        "pct_change": 17.805999999999997,
+        "direction": "rose"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "First-year retention",
+        "summary": "First-year retention at Tonsorial Arts Barber College fell 43% between 2021 and 2024 (100.0% → 57.1%).",
+        "magnitude_pct": -42.9,
+        "magnitude_abs": -0.43,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": "%",
+        "history": [],
+        "metric": "retention_rate"
+      },
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "Undergraduate enrollment",
+        "summary": "Undergraduate enrollment at Tonsorial Arts Barber College rose 386% between 2021 and 2024 (35 → 170).",
+        "magnitude_pct": 385.7,
+        "magnitude_abs": 135.0,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": null,
+        "history": [],
+        "metric": "enrollment_undergrad"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "12": [
+      {
+        "slug": "1204-c1",
+        "cip_code": "1204",
+        "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 26,
+        "completers_single_year": 4,
+        "completers_history": [
+          {
+            "year": 2017,
+            "value": 12.0
+          },
+          {
+            "year": 2018,
+            "value": 4.0
+          },
+          {
+            "year": 2019,
+            "value": 26.0
+          }
+        ],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "1204-c1",
+      "cip_code": "1204",
+      "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 26,
+      "completers_single_year": 4,
+      "completers_history": [
+        {
+          "year": 2017,
+          "value": 12.0
+        },
+        {
+          "year": 2018,
+          "value": 4.0
+        },
+        {
+          "year": 2019,
+          "value": 26.0
+        }
+      ],
+      "long_arc": []
+    }
+  ],
+  "program_count": 1,
+  "similar": [
+    {
+      "slug": "deluxe-barber-college-493804",
+      "name": "Deluxe Barber College",
+      "city": "San Antonio",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.6304,
+      "enrollment_undergrad": 103
+    },
+    {
+      "slug": "school-of-automotive-machinists-technology-377218",
+      "name": "School of Automotive Machinists & Technology",
+      "city": "Houston",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 57529,
+      "completion_rate_150": 0.931,
+      "enrollment_undergrad": 102
+    },
+    {
+      "slug": "salon-professional-academy-of-san-antonio-491835",
+      "name": "Salon Professional Academy of San Antonio",
+      "city": "San Antonio",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.8542,
+      "enrollment_undergrad": 114
+    },
+    {
+      "slug": "top-of-the-line-barber-school-497392",
+      "name": "Top of the Line Barber School",
+      "city": "San Antonio",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.5333,
+      "enrollment_undergrad": 98
+    },
+    {
+      "slug": "mci-493549",
+      "name": "MCI",
+      "city": "McAllen",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.8398,
+      "enrollment_undergrad": 117
+    }
+  ],
+  "roi": {
+    "default_program_slug": null,
+    "programs_available": [
+      {
+        "slug": "1204-c1",
+        "label": "Cosmetology and Related Personal Grooming Services · Undergraduate Certificate or Diploma",
+        "cip_family": "12",
+        "completers": 26,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      }
+    ]
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "institution_unitid": "164988",
+  "institution_name": "Boston University",
+  "institution_slug": "boston-university-164988",
+  "state": "ma",
+  "cip_code": "5122",
+  "cip_desc": "Public Health.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5122-c5",
+  "earnings_median_4yr": 72740,
+  "earnings_median_5yr": 81182,
+  "earnings_count_4yr": 4,
+  "earnings_count_5yr": 4,
+  "debt_median": 62334,
+  "completers": 220,
+  "completers_single_year": 297,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 72740.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 81182.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 58740.0
+      },
+      {
+        "year": 2015,
+        "value": 59834.0
+      },
+      {
+        "year": 2016,
+        "value": 60463.0
+      },
+      {
+        "year": 2017,
+        "value": 62207.0
+      },
+      {
+        "year": 2018,
+        "value": 62334.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 60.0
+      },
+      {
+        "year": 2015,
+        "value": 55.0
+      },
+      {
+        "year": 2016,
+        "value": 165.0
+      },
+      {
+        "year": 2017,
+        "value": 302.0
+      },
+      {
+        "year": 2018,
+        "value": 297.0
+      },
+      {
+        "year": 2019,
+        "value": 220.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 10.2% at Public Health at Boston University exceeds the 8% gainful-employment threshold ($62.3k debt amortized over 10 years vs $81.2k earnings).",
+      "magnitude_pct": 10.2,
+      "magnitude_abs": 2.2,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "164988",
+    "slug": "boston-university-164988",
+    "name": "Boston University",
+    "city": "Boston",
+    "city_slug": "boston",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "harvard-university-166027",
+      "institution_name": "Harvard University",
+      "earnings_median_5yr": 204275,
+      "earnings_median_4yr": 165376,
+      "debt_median": 49681,
+      "completers": 354,
+      "completers_single_year": 339,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mcphs-university-166656",
+      "institution_name": "MCPHS University",
+      "earnings_median_5yr": 118686,
+      "earnings_median_4yr": null,
+      "debt_median": 47832,
+      "completers": 75,
+      "completers_single_year": 36,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "tufts-university-168148",
+      "institution_name": "Tufts University",
+      "earnings_median_5yr": 111063,
+      "earnings_median_4yr": 87954,
+      "debt_median": 96582,
+      "completers": 65,
+      "completers_single_year": 66,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-massachusetts-amherst-166629",
+      "institution_name": "University of Massachusetts-Amherst",
+      "earnings_median_5yr": 92131,
+      "earnings_median_4yr": 80321,
+      "debt_median": 30775,
+      "completers": 86,
+      "completers_single_year": 99,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "american-international-college-164447",
+      "institution_name": "American International College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bay-path-university-164632",
+      "institution_name": "Bay Path University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "clark-university-165334",
+      "institution_name": "Clark University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-massachusetts-lowell-166513",
+      "institution_name": "University of Massachusetts-Lowell",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 38228,
+      "completers": 43,
+      "completers_single_year": 51,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-massachusetts-boston-166638",
+      "institution_name": "University of Massachusetts-Boston",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "merrimack-college-166850",
+      "institution_name": "Merrimack College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northeastern-university-167358",
+      "institution_name": "Northeastern University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 41000,
+      "completers": 2,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "simmons-university-167783",
+      "institution_name": "Simmons University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "springfield-college-167899",
+      "institution_name": "Springfield College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "suffolk-university-168005",
+      "institution_name": "Suffolk University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 4,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 13639,
+      "cost_total_default": 81834,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 81182,
+      "earnings_anchor_year": 5,
+      "debt_median": 62334,
+      "cip_family": "51",
+      "hs_baseline_state": 42600
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 534197,
+      "breakeven_year": 10
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "institution_unitid": "144892",
+  "institution_name": "Eastern Illinois University",
+  "institution_slug": "eastern-illinois-university-144892",
+  "state": "il",
+  "cip_code": "1901",
+  "cip_desc": "Family and Consumer Sciences/Human Sciences, General.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "1901-c5",
+  "earnings_median_4yr": 48715,
+  "earnings_median_5yr": 61034,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": 19043,
+  "completers": 23,
+  "completers_single_year": 25,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 48715.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 61034.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 32450.0
+      },
+      {
+        "year": 2015,
+        "value": 22357.0
+      },
+      {
+        "year": 2016,
+        "value": 20500.0
+      },
+      {
+        "year": 2018,
+        "value": 19043.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 29.0
+      },
+      {
+        "year": 2015,
+        "value": 35.0
+      },
+      {
+        "year": 2016,
+        "value": 17.0
+      },
+      {
+        "year": 2017,
+        "value": 17.0
+      },
+      {
+        "year": 2018,
+        "value": 25.0
+      },
+      {
+        "year": 2019,
+        "value": 23.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 32450.0,
+      "to_value": 19043.0,
+      "pct_change": -0.4131587057010786,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Family and Consumer Sciences/Human Sciences, General at Eastern Illinois University fell 41% between 2014 and 2018 ($32.5k → $19.0k).",
+      "magnitude_pct": -41.3,
+      "magnitude_abs": -13407.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "144892",
+    "slug": "eastern-illinois-university-144892",
+    "name": "Eastern Illinois University",
+    "city": "Charleston",
+    "city_slug": "charleston",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "illinois-state-university-145813",
+      "institution_name": "Illinois State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 31,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 12371,
+      "cost_total_default": 74226,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 61034,
+      "earnings_anchor_year": 5,
+      "debt_median": 19043,
+      "cip_family": "19",
+      "hs_baseline_state": 38300
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 297526,
+      "breakeven_year": 14
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

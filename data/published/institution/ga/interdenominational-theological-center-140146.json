@@ -1,0 +1,657 @@
+{
+  "institution": {
+    "unitid": "140146",
+    "opeid6": "001568",
+    "name": "Interdenominational Theological Center",
+    "slug": "interdenominational-theological-center-140146",
+    "state": "ga",
+    "city": "Atlanta",
+    "city_slug": "atlanta",
+    "zip5": "30314",
+    "address": "700 Martin Luther King Jr Dr SW",
+    "latitude": 33.752338,
+    "longitude": -84.409207,
+    "control": "private_nonprofit",
+    "pred_degree": "graduate",
+    "highest_degree": "masters",
+    "main_campus": true,
+    "locale": "11",
+    "carnegie_basic": 24,
+    "sector_code": 2,
+    "hbcu": true,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": null,
+    "completion_rate_100": null,
+    "retention_rate": null,
+    "admission_rate": null,
+    "enrollment_undergrad": null,
+    "enrollment_total": null,
+    "cost_attendance": null,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": null,
+    "cost_by_income": null,
+    "median_debt": null,
+    "default_rate": 0.0,
+    "pell_share": null,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [],
+      "admission_rate": [],
+      "enrollment_undergrad": [],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [],
+      "median_debt": [],
+      "default_rate": [
+        {
+          "year": 2011,
+          "value": 0.116
+        },
+        {
+          "year": 2012,
+          "value": 0.173
+        },
+        {
+          "year": 2013,
+          "value": 0.127
+        },
+        {
+          "year": 2014,
+          "value": 0.104
+        },
+        {
+          "year": 2015,
+          "value": 0.078
+        },
+        {
+          "year": 2016,
+          "value": 0.152
+        },
+        {
+          "year": 2017,
+          "value": 0.108
+        },
+        {
+          "year": 2018,
+          "value": 0.127
+        },
+        {
+          "year": 2019,
+          "value": 0.123
+        },
+        {
+          "year": 2020,
+          "value": 0.079
+        },
+        {
+          "year": 2021,
+          "value": 0.022
+        },
+        {
+          "year": 2022,
+          "value": 0.0
+        },
+        {
+          "year": 2023,
+          "value": 0.0
+        },
+        {
+          "year": 2024,
+          "value": 0.0
+        }
+      ],
+      "pell_share": [],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "default_rate",
+        "from_year": 2011,
+        "to_year": 2024,
+        "from_value": 0.116,
+        "to_value": 0.0,
+        "pct_change": -1.0,
+        "direction": "fell"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "3-year cohort default rate",
+        "summary": "3-year cohort default rate at Interdenominational Theological Center fell 100% between 2021 and 2024 (2.2% → 0.0%).",
+        "magnitude_pct": -100.0,
+        "magnitude_abs": -0.02,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": "%",
+        "history": [],
+        "metric": "default_rate"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "39": [
+      {
+        "slug": "3906-c5",
+        "cip_code": "3906",
+        "cip_desc": "Theological and Ministerial Studies.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": 41598,
+        "earnings_median_4yr": 37215,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 41598.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 37215.0
+          }
+        ],
+        "debt_median": 82000,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 61500.0
+          },
+          {
+            "year": 2015,
+            "value": 72470.0
+          },
+          {
+            "year": 2016,
+            "value": 74465.0
+          },
+          {
+            "year": 2017,
+            "value": 75692.0
+          },
+          {
+            "year": 2018,
+            "value": 82000.0
+          }
+        ],
+        "completers": 41,
+        "completers_single_year": 40,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 53.0
+          },
+          {
+            "year": 2015,
+            "value": 39.0
+          },
+          {
+            "year": 2016,
+            "value": 38.0
+          },
+          {
+            "year": 2017,
+            "value": 48.0
+          },
+          {
+            "year": 2018,
+            "value": 40.0
+          },
+          {
+            "year": 2019,
+            "value": 41.0
+          }
+        ],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2014,
+            "to_year": 2018,
+            "from_value": 61500.0,
+            "to_value": 82000.0,
+            "pct_change": 0.3333333333333333,
+            "direction": "rose"
+          }
+        ]
+      },
+      {
+        "slug": "3999-c6",
+        "cip_code": "3999",
+        "cip_desc": "Theology and Religious Vocations, Other.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 12,
+        "completers_single_year": 1,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 8.0
+          },
+          {
+            "year": 2015,
+            "value": 12.0
+          },
+          {
+            "year": 2016,
+            "value": 28.0
+          },
+          {
+            "year": 2017,
+            "value": 22.0
+          },
+          {
+            "year": 2018,
+            "value": 1.0
+          },
+          {
+            "year": 2019,
+            "value": 12.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "3904-c5",
+        "cip_code": "3904",
+        "cip_desc": "Religious Education.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      },
+      {
+        "slug": "3906-c6",
+        "cip_code": "3906",
+        "cip_desc": "Theological and Ministerial Studies.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": 41000,
+        "debt_history": [
+          {
+            "year": 2016,
+            "value": 92157.0
+          },
+          {
+            "year": 2017,
+            "value": 59224.0
+          },
+          {
+            "year": 2018,
+            "value": 41000.0
+          }
+        ],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2016,
+            "to_year": 2018,
+            "from_value": 92157.0,
+            "to_value": 41000.0,
+            "pct_change": -0.5551070455852513,
+            "direction": "fell"
+          }
+        ]
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "3906-c5",
+      "cip_code": "3906",
+      "cip_desc": "Theological and Ministerial Studies.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": 41598,
+      "earnings_median_4yr": 37215,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 41598.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 37215.0
+        }
+      ],
+      "debt_median": 82000,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 61500.0
+        },
+        {
+          "year": 2015,
+          "value": 72470.0
+        },
+        {
+          "year": 2016,
+          "value": 74465.0
+        },
+        {
+          "year": 2017,
+          "value": 75692.0
+        },
+        {
+          "year": 2018,
+          "value": 82000.0
+        }
+      ],
+      "completers": 41,
+      "completers_single_year": 40,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 53.0
+        },
+        {
+          "year": 2015,
+          "value": 39.0
+        },
+        {
+          "year": 2016,
+          "value": 38.0
+        },
+        {
+          "year": 2017,
+          "value": 48.0
+        },
+        {
+          "year": 2018,
+          "value": 40.0
+        },
+        {
+          "year": 2019,
+          "value": 41.0
+        }
+      ],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2014,
+          "to_year": 2018,
+          "from_value": 61500.0,
+          "to_value": 82000.0,
+          "pct_change": 0.3333333333333333,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "slug": "3999-c6",
+      "cip_code": "3999",
+      "cip_desc": "Theology and Religious Vocations, Other.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 12,
+      "completers_single_year": 1,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 8.0
+        },
+        {
+          "year": 2015,
+          "value": 12.0
+        },
+        {
+          "year": 2016,
+          "value": 28.0
+        },
+        {
+          "year": 2017,
+          "value": 22.0
+        },
+        {
+          "year": 2018,
+          "value": 1.0
+        },
+        {
+          "year": 2019,
+          "value": 12.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "3904-c5",
+      "cip_code": "3904",
+      "cip_desc": "Religious Education.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    },
+    {
+      "slug": "3906-c6",
+      "cip_code": "3906",
+      "cip_desc": "Theological and Ministerial Studies.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": 41000,
+      "debt_history": [
+        {
+          "year": 2016,
+          "value": 92157.0
+        },
+        {
+          "year": 2017,
+          "value": 59224.0
+        },
+        {
+          "year": 2018,
+          "value": 41000.0
+        }
+      ],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2016,
+          "to_year": 2018,
+          "from_value": 92157.0,
+          "to_value": 41000.0,
+          "pct_change": -0.5551070455852513,
+          "direction": "fell"
+        }
+      ]
+    }
+  ],
+  "program_count": 4,
+  "similar": [
+    {
+      "slug": "columbia-theological-seminary-139348",
+      "name": "Columbia Theological Seminary",
+      "city": "Decatur",
+      "control": "private_nonprofit",
+      "pred_degree": "graduate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": null
+    },
+    {
+      "slug": "morehouse-school-of-medicine-140562",
+      "name": "Morehouse School of Medicine",
+      "city": "Atlanta",
+      "control": "private_nonprofit",
+      "pred_degree": "graduate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": null
+    },
+    {
+      "slug": "beulah-heights-university-139153",
+      "name": "Beulah Heights University",
+      "city": "Atlanta",
+      "control": "private_nonprofit",
+      "pred_degree": "bachelors",
+      "earnings_median_10yr": 35236,
+      "completion_rate_150": 0.1667,
+      "enrollment_undergrad": 158
+    },
+    {
+      "slug": "luther-rice-college-seminary-135364",
+      "name": "Luther Rice College & Seminary",
+      "city": "Lithonia",
+      "control": "private_nonprofit",
+      "pred_degree": "bachelors",
+      "earnings_median_10yr": 47003,
+      "completion_rate_150": null,
+      "enrollment_undergrad": 195
+    },
+    {
+      "slug": "college-of-athens-493974",
+      "name": "College of Athens",
+      "city": "Watkinsville",
+      "control": "private_nonprofit",
+      "pred_degree": "bachelors",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": 70
+    }
+  ],
+  "roi": {
+    "default_program_slug": null,
+    "programs_available": [
+      {
+        "slug": "3906-c5",
+        "label": "Theological and Ministerial Studies · Master's Degree",
+        "cip_family": "39",
+        "completers": 41,
+        "has_earnings": false,
+        "earnings_at_completion": 41598,
+        "earnings_anchor_year": 5,
+        "debt_median": 82000,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "3999-c6",
+        "label": "Theology and Religious Vocations, Other · Doctoral Degree",
+        "cip_family": "39",
+        "completers": 12,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "3904-c5",
+        "label": "Religious Education · Master's Degree",
+        "cip_family": "39",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "3906-c6",
+        "label": "Theological and Ministerial Studies · Doctoral Degree",
+        "cip_family": "39",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": 41000,
+        "years_to_complete": 8,
+        "default_result": null
+      }
+    ]
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

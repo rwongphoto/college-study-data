@@ -1,0 +1,174 @@
+{
+  "institution_unitid": "218724",
+  "institution_name": "Coastal Carolina University",
+  "institution_slug": "coastal-carolina-university-218724",
+  "state": "sc",
+  "cip_code": "2613",
+  "cip_desc": "Ecology, Evolution, Systematics, and Population Biology.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "2613-c3",
+  "earnings_median_4yr": 35413,
+  "earnings_median_5yr": 41398,
+  "earnings_count_4yr": 7,
+  "earnings_count_5yr": 9,
+  "debt_median": 23973,
+  "completers": 114,
+  "completers_single_year": 132,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 35413.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 41398.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 25600.0
+      },
+      {
+        "year": 2015,
+        "value": 25250.0
+      },
+      {
+        "year": 2016,
+        "value": 25000.0
+      },
+      {
+        "year": 2017,
+        "value": 26000.0
+      },
+      {
+        "year": 2018,
+        "value": 23973.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 119.0
+      },
+      {
+        "year": 2015,
+        "value": 123.0
+      },
+      {
+        "year": 2016,
+        "value": 143.0
+      },
+      {
+        "year": 2017,
+        "value": 125.0
+      },
+      {
+        "year": 2018,
+        "value": 132.0
+      },
+      {
+        "year": 2019,
+        "value": 114.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "218724",
+    "slug": "coastal-carolina-university-218724",
+    "name": "Coastal Carolina University",
+    "city": "Conway",
+    "city_slug": "conway",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-south-carolina-columbia-218663",
+      "institution_name": "University of South Carolina-Columbia",
+      "earnings_median_5yr": 47536,
+      "earnings_median_4yr": 37752,
+      "debt_median": 18965,
+      "completers": 64,
+      "completers_single_year": 54,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "college-of-charleston-217819",
+      "institution_name": "College of Charleston",
+      "earnings_median_5yr": 46285,
+      "earnings_median_4yr": 39696,
+      "debt_median": 25000,
+      "completers": 19,
+      "completers_single_year": 29,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 9,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 13209,
+      "cost_total_default": 52836,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 41398,
+      "earnings_anchor_year": 5,
+      "debt_median": 23973,
+      "cip_family": "26",
+      "hs_baseline_state": 33700
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 98046,
+      "breakeven_year": 21
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

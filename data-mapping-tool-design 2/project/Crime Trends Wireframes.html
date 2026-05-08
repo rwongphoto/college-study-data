@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Crime Trends — Wireframes</title>
+<link rel="stylesheet" href="wireframes.css" />
+</head>
+<body>
+<div id="root"></div>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+<script type="text/babel" src="tweaks-panel.jsx"></script>
+<script type="text/babel" src="wf-primitives.jsx"></script>
+<script type="text/babel" src="wf-city.jsx"></script>
+<script type="text/babel" src="wf-nbhd.jsx"></script>
+
+<script type="text/babel">
+const { useState, useEffect } = React;
+
+const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
+  "showAnnotations": true,
+  "paperTexture": true,
+  "showShadow": true
+}/*EDITMODE-END*/;
+
+const FRAMES = [
+  {
+    group: "City page",
+    id: "v1",
+    num: "01",
+    title: "Faithful — exploration with side panel & rankings",
+    desc: "Closest to the Review Velocity inspiration. Map dominant, neighborhood selection opens a summary side panel, ranking table fixed at the bottom. Default for users who want to explore spatially.",
+    Comp: () => <CityV1 />,
+  },
+  {
+    group: "City page",
+    id: "v2",
+    num: "02",
+    title: "Story-led — anomaly headlines first, map secondary",
+    desc: "Editorial framing. Treats this month's flags as the lede. Map shrinks to a confirmation glance on the right. Best for journalists, civic readers, and recurring monthly visits.",
+    Comp: () => <CityV2 />,
+  },
+  {
+    group: "City page",
+    id: "v3",
+    num: "03",
+    title: "Analyst-grade — dense dashboard with timeline rail",
+    desc: "Three columns: filter rail, dark Mapbox-style canvas, persistent neighborhood inspector. Timeline scrubber spans the bottom of the map. For power users running a 30-minute sweep.",
+    Comp: () => <CityV3 />,
+  },
+  {
+    group: "Neighborhood page",
+    id: "v4",
+    num: "04",
+    title: "Vertical narrative — long-form editorial scroll",
+    desc: "Reads like a feature article. Hero → what & where → who → 12-month numbers → small multiples → flags as prose → forecast. Best for SEO and civic readers landing from search.",
+    Comp: () => <NbhdV4 />,
+  },
+  {
+    group: "Neighborhood page",
+    id: "v5",
+    num: "05",
+    title: "Summary cards — TL;DR top, drill-downs below",
+    desc: "Dashboard-style. Top strip surfaces 12mo total + biggest spike + biggest drop + rare event. Tabs underneath for trends, flags, forecast, compare. Locator + flag list in the side rail.",
+    Comp: () => <NbhdV5 />,
+  },
+  {
+    group: "Neighborhood page",
+    id: "v6",
+    num: "06",
+    title: "Sidebar-anchored — TOC left, content middle, meta right",
+    desc: "Wikipedia / docs-style reference layout. Persistent TOC, sticky 'at-a-glance' meta. Each section is permalinkable. Best for power users, repeated returning, and analysts citing sections.",
+    Comp: () => <NbhdV6 />,
+  },
+];
+
+function App() {
+  const [tw, setTweak] = useTweaks(TWEAK_DEFAULTS);
+  const [active, setActive] = useState("v1");
+
+  useEffect(() => {
+    document.documentElement.dataset.showAnno = tw.showAnnotations ? "true" : "false";
+    document.documentElement.dataset.tweakMode = !tw.showShadow ? "lofi" : (!tw.paperTexture ? "comp" : "default");
+    document.body.style.backgroundImage = tw.paperTexture
+      ? `url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.08  0 0 0 0 0.08  0 0 0 0 0.08  0 0 0 0.04 0'/></filter><rect width='200' height='200' filter='url(%23n)'/></svg>")`
+      : "none";
+  }, [tw.showAnnotations, tw.paperTexture, tw.showShadow]);
+
+  const current = FRAMES.find(f => f.id === active) || FRAMES[0];
+  const groups = [...new Set(FRAMES.map(f => f.group))];
+
+  return (
+    <div className="app">
+      <div className="app-head">
+        <div>
+          <h1 className="app-title">Crime Trends <em>SF</em> — wireframes</h1>
+          <div className="app-sub">
+            Six low-fi directions for the trend intelligence platform. Three for the city explore page (the "where is what"
+            surface) and three for the programmatic neighborhood page (the "how has this place changed" surface). Sketchy
+            on purpose — these are about structure and flow, not pixels.
+          </div>
+        </div>
+        <div className="app-meta">
+          based on crime_trend_plan.md<br/>
+          Apr 2026 · 6 frames · 2 surfaces
+        </div>
+      </div>
+
+      <div className="tabs">
+        {groups.map(g => (
+          <React.Fragment key={g}>
+            <span className="tab-group-label">{g}</span>
+            {FRAMES.filter(f => f.group === g).map(f => (
+              <button
+                key={f.id}
+                className={`tab ${active === f.id ? "active" : ""}`}
+                onClick={() => setActive(f.id)}
+                data-screen-label={`${f.num} ${f.title}`}
+              >
+                <span className="tab-num">{f.num}</span>{f.title.split(" — ")[0]}
+              </button>
+            ))}
+          </React.Fragment>
+        ))}
+      </div>
+
+      <div className="frame-caption">
+        <div className="num">{current.num}</div>
+        <div>
+          <div className="title">{current.title}</div>
+          <div className="desc">{current.desc}</div>
+        </div>
+      </div>
+
+      <div className="frame-wrap" data-screen-label={`${current.num} ${current.title}`}>
+        <current.Comp />
+      </div>
+
+      <TweaksPanel title="Tweaks">
+        <TweakSection title="Wireframe vibe">
+          <TweakToggle label="Annotations" value={tw.showAnnotations} onChange={v => setTweak("showAnnotations", v)} />
+          <TweakToggle label="Paper texture" value={tw.paperTexture} onChange={v => setTweak("paperTexture", v)} />
+          <TweakToggle label="Frame shadow" value={tw.showShadow} onChange={v => setTweak("showShadow", v)} />
+        </TweakSection>
+        <TweakSection title="Jump to">
+          <TweakSelect
+            label="Frame"
+            value={active}
+            options={FRAMES.map(f => ({ value: f.id, label: `${f.num} · ${f.title.split(" — ")[0]}` }))}
+            onChange={setActive}
+          />
+        </TweakSection>
+      </TweaksPanel>
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+</script>
+</body>
+</html>

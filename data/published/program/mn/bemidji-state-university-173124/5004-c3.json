@@ -1,0 +1,308 @@
+{
+  "institution_unitid": "173124",
+  "institution_name": "Bemidji State University",
+  "institution_slug": "bemidji-state-university-173124",
+  "state": "mn",
+  "cip_code": "5004",
+  "cip_desc": "Design and Applied Arts.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5004-c3",
+  "earnings_median_4yr": 37053,
+  "earnings_median_5yr": 34819,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 0,
+  "debt_median": 21908,
+  "completers": 23,
+  "completers_single_year": 18,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 37053.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 34819.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 23250.0
+      },
+      {
+        "year": 2015,
+        "value": 21000.0
+      },
+      {
+        "year": 2016,
+        "value": 25202.0
+      },
+      {
+        "year": 2017,
+        "value": 25500.0
+      },
+      {
+        "year": 2018,
+        "value": 21908.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 34.0
+      },
+      {
+        "year": 2015,
+        "value": 16.0
+      },
+      {
+        "year": 2016,
+        "value": 16.0
+      },
+      {
+        "year": 2017,
+        "value": 16.0
+      },
+      {
+        "year": 2018,
+        "value": 18.0
+      },
+      {
+        "year": 2019,
+        "value": 23.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 8.4% at Design and Applied Arts at Bemidji State University exceeds the 8% gainful-employment threshold ($21.9k debt amortized over 10 years vs $34.8k earnings).",
+      "magnitude_pct": 8.4,
+      "magnitude_abs": 0.4,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "173124",
+    "slug": "bemidji-state-university-173124",
+    "name": "Bemidji State University",
+    "city": "Bemidji",
+    "city_slug": "bemidji",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-minnesota-twin-cities-174066",
+      "institution_name": "University of Minnesota-Twin Cities",
+      "earnings_median_5yr": 61564,
+      "earnings_median_4yr": 56160,
+      "debt_median": 22500,
+      "completers": 116,
+      "completers_single_year": 128,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "minnesota-state-university-moorhead-174358",
+      "institution_name": "Minnesota State University Moorhead",
+      "earnings_median_5yr": 46027,
+      "earnings_median_4yr": 44640,
+      "debt_median": 26100,
+      "completers": 12,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "minneapolis-college-of-art-and-design-174127",
+      "institution_name": "Minneapolis College of Art and Design",
+      "earnings_median_5yr": 45820,
+      "earnings_median_4yr": 36890,
+      "debt_median": 26950,
+      "completers": 67,
+      "completers_single_year": 57,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-minnesota-duluth-174233",
+      "institution_name": "University of Minnesota-Duluth",
+      "earnings_median_5yr": 43529,
+      "earnings_median_4yr": 38265,
+      "debt_median": 24275,
+      "completers": 44,
+      "completers_single_year": 49,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "augsburg-university-173045",
+      "institution_name": "Augsburg University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 14,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bethany-lutheran-college-173142",
+      "institution_name": "Bethany Lutheran College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bethel-university-173160",
+      "institution_name": "Bethel University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "concordia-university-saint-paul-173328",
+      "institution_name": "Concordia University-Saint Paul",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-northwestern-st-paul-174491",
+      "institution_name": "University of Northwestern-St Paul",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-cloud-state-university-174783",
+      "institution_name": "Saint Cloud State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-mary-s-university-of-minnesota-174817",
+      "institution_name": "Saint Mary's University of Minnesota",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "st-catherine-university-175005",
+      "institution_name": "St Catherine University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rasmussen-university-minnesota-175014",
+      "institution_name": "Rasmussen University-Minnesota",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 29332,
+      "completers": 2,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "dunwoody-college-of-technology-175227",
+      "institution_name": "Dunwoody College of Technology",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 13262,
+      "cost_total_default": 53048,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 34819,
+      "earnings_anchor_year": 5,
+      "debt_median": 21908,
+      "cip_family": "50",
+      "hs_baseline_state": 39400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -184473,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

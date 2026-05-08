@@ -1,0 +1,214 @@
+{
+  "institution_unitid": "476975",
+  "institution_name": "Colorado State University Global",
+  "institution_slug": "colorado-state-university-global-476975",
+  "state": "co",
+  "cip_code": "4501",
+  "cip_desc": "Social Sciences, General.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "4501-c3",
+  "earnings_median_4yr": 49127,
+  "earnings_median_5yr": 53776,
+  "earnings_count_4yr": 13,
+  "earnings_count_5yr": 11,
+  "debt_median": 26899,
+  "completers": 18,
+  "completers_single_year": 38,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 49127.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 53776.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 26379.0
+      },
+      {
+        "year": 2015,
+        "value": 26926.0
+      },
+      {
+        "year": 2016,
+        "value": 23552.0
+      },
+      {
+        "year": 2017,
+        "value": 21875.0
+      },
+      {
+        "year": 2018,
+        "value": 26899.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 67.0
+      },
+      {
+        "year": 2015,
+        "value": 58.0
+      },
+      {
+        "year": 2016,
+        "value": 52.0
+      },
+      {
+        "year": 2017,
+        "value": 53.0
+      },
+      {
+        "year": 2018,
+        "value": 38.0
+      },
+      {
+        "year": 2019,
+        "value": 18.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "476975",
+    "slug": "colorado-state-university-global-476975",
+    "name": "Colorado State University Global",
+    "city": "Aurora",
+    "city_slug": "aurora",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "colorado-christian-university-126669",
+      "institution_name": "Colorado Christian University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "colorado-mesa-university-127556",
+      "institution_name": "Colorado Mesa University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-northern-colorado-127741",
+      "institution_name": "University of Northern Colorado",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "regis-university-127918",
+      "institution_name": "Regis University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "colorado-state-university-pueblo-128106",
+      "institution_name": "Colorado State University Pueblo",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "united-states-air-force-academy-128328",
+      "institution_name": "United States Air Force Academy",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 11,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 16004,
+      "cost_total_default": 64016,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 53776,
+      "earnings_anchor_year": 5,
+      "debt_median": 26899,
+      "cip_family": "45",
+      "hs_baseline_state": 40100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 160484,
+      "breakeven_year": 16
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

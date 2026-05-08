@@ -1,0 +1,254 @@
+{
+  "institution_unitid": "206437",
+  "institution_name": "Walsh University",
+  "institution_slug": "walsh-university-206437",
+  "state": "oh",
+  "cip_code": "1399",
+  "cip_desc": "Education, Other.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "1399-c5",
+  "earnings_median_4yr": 51576,
+  "earnings_median_5yr": 57728,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": 27257,
+  "completers": 31,
+  "completers_single_year": 31,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 51576.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 57728.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2015,
+        "value": 36099.0
+      },
+      {
+        "year": 2016,
+        "value": 26839.0
+      },
+      {
+        "year": 2017,
+        "value": 30858.0
+      },
+      {
+        "year": 2018,
+        "value": 27257.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 20.0
+      },
+      {
+        "year": 2015,
+        "value": 27.0
+      },
+      {
+        "year": 2016,
+        "value": 24.0
+      },
+      {
+        "year": 2017,
+        "value": 36.0
+      },
+      {
+        "year": 2018,
+        "value": 31.0
+      },
+      {
+        "year": 2019,
+        "value": 31.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2015,
+      "to_year": 2018,
+      "from_value": 36099.0,
+      "to_value": 27257.0,
+      "pct_change": -0.24493753289564807,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Education, Other at Walsh University fell 24% between 2015 and 2018 ($36.1k → $27.3k).",
+      "magnitude_pct": -24.5,
+      "magnitude_abs": -8842.0,
+      "baseline_year": 2015,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "206437",
+    "slug": "walsh-university-206437",
+    "name": "Walsh University",
+    "city": "North Canton",
+    "city_slug": "north-canton",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "lourdes-university-203757",
+      "institution_name": "Lourdes University",
+      "earnings_median_5yr": 59431,
+      "earnings_median_4yr": 54566,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cleveland-state-university-202134",
+      "institution_name": "Cleveland State University",
+      "earnings_median_5yr": 56152,
+      "earnings_median_4yr": 52617,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wright-state-university-main-campus-206604",
+      "institution_name": "Wright State University-Main Campus",
+      "earnings_median_5yr": 47729,
+      "earnings_median_4yr": 41866,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "central-state-university-201690",
+      "institution_name": "Central State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-dayton-202480",
+      "institution_name": "University of Dayton",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "franklin-university-202806",
+      "institution_name": "Franklin University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "kent-state-university-at-kent-203517",
+      "institution_name": "Kent State University at Kent",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ursuline-college-206349",
+      "institution_name": "Ursuline College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 19692,
+      "cost_total_default": 118152,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 57728,
+      "earnings_anchor_year": 5,
+      "debt_median": 27257,
+      "cip_family": "13",
+      "hs_baseline_state": 36400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 158532,
+      "breakeven_year": 19
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

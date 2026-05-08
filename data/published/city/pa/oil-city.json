@@ -1,0 +1,330 @@
+{
+  "state": "pa",
+  "name": "Oil City",
+  "slug": "oil-city",
+  "institution_count": 1,
+  "institutions": [
+    {
+      "unitid": "418524",
+      "slug": "venango-county-area-vocational-technical-school-418524",
+      "name": "Venango County Area Vocational Technical School",
+      "city": "Oil City",
+      "city_slug": "oil-city",
+      "control": "public",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 38161,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 38241
+        },
+        {
+          "year": 8,
+          "value": 39391
+        },
+        {
+          "year": 10,
+          "value": 38161
+        }
+      ],
+      "completion_rate_150": 0.5217,
+      "completion_rate_history": [
+        {
+          "year": 1997,
+          "value": 0.5714
+        },
+        {
+          "year": 1998,
+          "value": 0.5
+        },
+        {
+          "year": 1999,
+          "value": 0.5319
+        },
+        {
+          "year": 2000,
+          "value": 0.5517
+        },
+        {
+          "year": 2001,
+          "value": 0.8621
+        },
+        {
+          "year": 2002,
+          "value": 0.7308
+        },
+        {
+          "year": 2003,
+          "value": 0.85
+        },
+        {
+          "year": 2004,
+          "value": 0.8065
+        },
+        {
+          "year": 2005,
+          "value": 0.8065
+        },
+        {
+          "year": 2006,
+          "value": 0.8621
+        },
+        {
+          "year": 2007,
+          "value": 0.6429
+        },
+        {
+          "year": 2008,
+          "value": 0.8889
+        },
+        {
+          "year": 2009,
+          "value": 0.6667
+        }
+      ],
+      "enrollment_undergrad": 57,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 54.0
+        },
+        {
+          "year": 1997,
+          "value": 29.0
+        },
+        {
+          "year": 1998,
+          "value": 29.0
+        },
+        {
+          "year": 1999,
+          "value": 26.0
+        },
+        {
+          "year": 2001,
+          "value": 31.0
+        },
+        {
+          "year": 2002,
+          "value": 28.0
+        },
+        {
+          "year": 2003,
+          "value": 27.0
+        },
+        {
+          "year": 2004,
+          "value": 28.0
+        },
+        {
+          "year": 2005,
+          "value": 30.0
+        },
+        {
+          "year": 2006,
+          "value": 28.0
+        },
+        {
+          "year": 2007,
+          "value": 30.0
+        },
+        {
+          "year": 2008,
+          "value": 32.0
+        },
+        {
+          "year": 2009,
+          "value": 71.0
+        }
+      ],
+      "median_debt": 9500,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "retention_rate",
+          "from_year": 2004,
+          "to_year": 2024,
+          "from_value": 0.82,
+          "to_value": 0.4643,
+          "pct_change": -0.43378048780487805,
+          "direction": "fell"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 1997,
+          "to_year": 2020,
+          "from_value": 5470.0,
+          "to_value": 13500.0,
+          "pct_change": 1.4680073126142597,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.156,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": 38161,
+  "completion_rate_city": 0.5217,
+  "completion_history_city": [
+    {
+      "year": 1997,
+      "value": 0.5714
+    },
+    {
+      "year": 1998,
+      "value": 0.5
+    },
+    {
+      "year": 1999,
+      "value": 0.5319
+    },
+    {
+      "year": 2000,
+      "value": 0.5517
+    },
+    {
+      "year": 2001,
+      "value": 0.8621
+    },
+    {
+      "year": 2002,
+      "value": 0.7308
+    },
+    {
+      "year": 2003,
+      "value": 0.85
+    },
+    {
+      "year": 2004,
+      "value": 0.8065
+    },
+    {
+      "year": 2005,
+      "value": 0.8065
+    },
+    {
+      "year": 2006,
+      "value": 0.8621
+    },
+    {
+      "year": 2007,
+      "value": 0.6429
+    },
+    {
+      "year": 2008,
+      "value": 0.8889
+    },
+    {
+      "year": 2009,
+      "value": 0.6667
+    }
+  ],
+  "enrollment_history_city": [
+    {
+      "year": 1996,
+      "value": 54.0
+    },
+    {
+      "year": 1997,
+      "value": 29.0
+    },
+    {
+      "year": 1998,
+      "value": 29.0
+    },
+    {
+      "year": 1999,
+      "value": 26.0
+    },
+    {
+      "year": 2001,
+      "value": 31.0
+    },
+    {
+      "year": 2002,
+      "value": 28.0
+    },
+    {
+      "year": 2003,
+      "value": 27.0
+    },
+    {
+      "year": 2004,
+      "value": 28.0
+    },
+    {
+      "year": 2005,
+      "value": 30.0
+    },
+    {
+      "year": 2006,
+      "value": 28.0
+    },
+    {
+      "year": 2007,
+      "value": 30.0
+    },
+    {
+      "year": 2008,
+      "value": 32.0
+    },
+    {
+      "year": 2009,
+      "value": 71.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

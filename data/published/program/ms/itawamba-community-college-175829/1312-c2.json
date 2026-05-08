@@ -1,0 +1,304 @@
+{
+  "institution_unitid": "175829",
+  "institution_name": "Itawamba Community College",
+  "institution_slug": "itawamba-community-college-175829",
+  "state": "ms",
+  "cip_code": "1312",
+  "cip_desc": "Teacher Education and Professional Development, Specific Levels and Methods.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "1312-c2",
+  "earnings_median_4yr": 29042,
+  "earnings_median_5yr": 35014,
+  "earnings_count_4yr": 6,
+  "earnings_count_5yr": 9,
+  "debt_median": null,
+  "completers": 41,
+  "completers_single_year": 64,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 29042.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 35014.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 5290.0
+      },
+      {
+        "year": 2015,
+        "value": 5000.0
+      },
+      {
+        "year": 2016,
+        "value": 7304.0
+      },
+      {
+        "year": 2017,
+        "value": 6804.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 76.0
+      },
+      {
+        "year": 2015,
+        "value": 52.0
+      },
+      {
+        "year": 2016,
+        "value": 75.0
+      },
+      {
+        "year": 2017,
+        "value": 54.0
+      },
+      {
+        "year": 2018,
+        "value": 64.0
+      },
+      {
+        "year": 2019,
+        "value": 41.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2017,
+      "from_value": 5290.0,
+      "to_value": 6804.0,
+      "pct_change": 0.2862003780718336,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Teacher Education and Professional Development, Specific Levels and Methods at Itawamba Community College rose 29% between 2014 and 2017 ($5.3k → $6.8k).",
+      "magnitude_pct": 28.6,
+      "magnitude_abs": 1514.0,
+      "baseline_year": 2014,
+      "recent_year": 2017,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "175829",
+    "slug": "itawamba-community-college-175829",
+    "name": "Itawamba Community College",
+    "city": "Fulton",
+    "city_slug": "fulton",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "northwest-mississippi-community-college-176178",
+      "institution_name": "Northwest Mississippi Community College",
+      "earnings_median_5yr": 38640,
+      "earnings_median_4yr": 34075,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northeast-mississippi-community-college-176169",
+      "institution_name": "Northeast Mississippi Community College",
+      "earnings_median_5yr": 36050,
+      "earnings_median_4yr": 33842,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "east-mississippi-community-college-175652",
+      "institution_name": "East Mississippi Community College",
+      "earnings_median_5yr": 30624,
+      "earnings_median_4yr": 29674,
+      "debt_median": null,
+      "completers": 29,
+      "completers_single_year": 36,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "holmes-community-college-175810",
+      "institution_name": "Holmes Community College",
+      "earnings_median_5yr": 27039,
+      "earnings_median_4yr": 30961,
+      "debt_median": 5500,
+      "completers": 69,
+      "completers_single_year": 79,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "jones-county-junior-college-175883",
+      "institution_name": "Jones County Junior College",
+      "earnings_median_5yr": 26886,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mississippi-gulf-coast-community-college-176071",
+      "institution_name": "Mississippi Gulf Coast Community College",
+      "earnings_median_5yr": 25812,
+      "earnings_median_4yr": 28720,
+      "debt_median": 10960,
+      "completers": 8,
+      "completers_single_year": 51,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "copiah-lincoln-community-college-175573",
+      "institution_name": "Copiah-Lincoln Community College",
+      "earnings_median_5yr": 24519,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 37,
+      "completers_single_year": 37,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "coahoma-community-college-175519",
+      "institution_name": "Coahoma Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hinds-community-college-175786",
+      "institution_name": "Hinds Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mississippi-delta-community-college-176008",
+      "institution_name": "Mississippi Delta Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pearl-river-community-college-176239",
+      "institution_name": "Pearl River Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rust-college-176318",
+      "institution_name": "Rust College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "tougaloo-college-176406",
+      "institution_name": "Tougaloo College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 9,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 6475,
+      "cost_total_default": 12950,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 35014,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "13",
+      "hs_baseline_state": 30200
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 58060,
+      "breakeven_year": 12
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

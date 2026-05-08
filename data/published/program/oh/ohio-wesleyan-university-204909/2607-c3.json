@@ -1,0 +1,206 @@
+{
+  "institution_unitid": "204909",
+  "institution_name": "Ohio Wesleyan University",
+  "institution_slug": "ohio-wesleyan-university-204909",
+  "state": "oh",
+  "cip_code": "2607",
+  "cip_desc": "Zoology/Animal Biology.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "2607-c3",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 0,
+  "debt_median": 24000,
+  "completers": 24,
+  "completers_single_year": 24,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 27000.0
+      },
+      {
+        "year": 2015,
+        "value": 27000.0
+      },
+      {
+        "year": 2016,
+        "value": 27000.0
+      },
+      {
+        "year": 2018,
+        "value": 24000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 34.0
+      },
+      {
+        "year": 2015,
+        "value": 35.0
+      },
+      {
+        "year": 2016,
+        "value": 22.0
+      },
+      {
+        "year": 2017,
+        "value": 24.0
+      },
+      {
+        "year": 2018,
+        "value": 24.0
+      },
+      {
+        "year": 2019,
+        "value": 24.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "204909",
+    "slug": "ohio-wesleyan-university-204909",
+    "name": "Ohio Wesleyan University",
+    "city": "Delaware",
+    "city_slug": "delaware",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "ohio-university-main-campus-204857",
+      "institution_name": "Ohio University-Main Campus",
+      "earnings_median_5yr": 54995,
+      "earnings_median_4yr": 42761,
+      "debt_median": 23356,
+      "completers": 197,
+      "completers_single_year": 179,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "miami-university-oxford-204024",
+      "institution_name": "Miami University-Oxford",
+      "earnings_median_5yr": 49706,
+      "earnings_median_4yr": 32644,
+      "debt_median": 22500,
+      "completers": 44,
+      "completers_single_year": 55,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ohio-state-university-main-campus-204796",
+      "institution_name": "Ohio State University-Main Campus",
+      "earnings_median_5yr": 48205,
+      "earnings_median_4yr": 39750,
+      "debt_median": 21375,
+      "completers": 84,
+      "completers_single_year": 95,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "kent-state-university-at-kent-203517",
+      "institution_name": "Kent State University at Kent",
+      "earnings_median_5yr": 37701,
+      "earnings_median_4yr": 31034,
+      "debt_median": 25000,
+      "completers": 43,
+      "completers_single_year": 50,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-akron-main-campus-200800",
+      "institution_name": "University of Akron Main Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "malone-university-203775",
+      "institution_name": "Malone University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "muskingum-university-204264",
+      "institution_name": "Muskingum University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 15819,
+      "cost_total_default": 63276,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": 24000,
+      "cip_family": "26"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

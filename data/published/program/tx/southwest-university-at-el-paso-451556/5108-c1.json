@@ -1,0 +1,704 @@
+{
+  "institution_unitid": "451556",
+  "institution_name": "Southwest University at El Paso",
+  "institution_slug": "southwest-university-at-el-paso-451556",
+  "state": "tx",
+  "cip_code": "5108",
+  "cip_desc": "Allied Health and Medical Assisting Services.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "5108-c1",
+  "earnings_median_4yr": 23960,
+  "earnings_median_5yr": 27546,
+  "earnings_count_4yr": 69,
+  "earnings_count_5yr": 69,
+  "debt_median": null,
+  "completers": 14,
+  "completers_single_year": 9,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 23960.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 27546.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 11149.0
+      },
+      {
+        "year": 2015,
+        "value": 10583.0
+      },
+      {
+        "year": 2016,
+        "value": 11100.0
+      },
+      {
+        "year": 2017,
+        "value": 9792.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 298.0
+      },
+      {
+        "year": 2015,
+        "value": 179.0
+      },
+      {
+        "year": 2016,
+        "value": 37.0
+      },
+      {
+        "year": 2017,
+        "value": 7.0
+      },
+      {
+        "year": 2018,
+        "value": 9.0
+      },
+      {
+        "year": 2019,
+        "value": 14.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "completers",
+      "from_year": 2014,
+      "to_year": 2019,
+      "from_value": 298.0,
+      "to_value": 14.0,
+      "pct_change": -0.284,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Annual completers",
+      "summary": "Annual completers at Allied Health and Medical Assisting Services at Southwest University at El Paso fell 28% between 2014 and 2019 (298 → 14).",
+      "magnitude_pct": -28.4,
+      "magnitude_abs": -284.0,
+      "baseline_year": 2014,
+      "recent_year": 2019,
+      "units": null,
+      "history": [],
+      "metric": "completers"
+    }
+  ],
+  "institution": {
+    "unitid": "451556",
+    "slug": "southwest-university-at-el-paso-451556",
+    "name": "Southwest University at El Paso",
+    "city": "El Paso",
+    "city_slug": "el-paso",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "san-jacinto-community-college-227979",
+      "institution_name": "San Jacinto Community College",
+      "earnings_median_5yr": 39444,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 127,
+      "completers_single_year": 142,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "el-paso-community-college-224642",
+      "institution_name": "El Paso Community College",
+      "earnings_median_5yr": 38083,
+      "earnings_median_4yr": 35694,
+      "debt_median": null,
+      "completers": 28,
+      "completers_single_year": 28,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "houston-community-college-225423",
+      "institution_name": "Houston Community College",
+      "earnings_median_5yr": 37840,
+      "earnings_median_4yr": 37034,
+      "debt_median": null,
+      "completers": 103,
+      "completers_single_year": 107,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "angelina-college-222822",
+      "institution_name": "Angelina College",
+      "earnings_median_5yr": 35178,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-college-of-health-care-professions-austin-437635",
+      "institution_name": "The College of Health Care Professions-Austin",
+      "earnings_median_5yr": 33885,
+      "earnings_median_4yr": 30781,
+      "debt_median": 8598,
+      "completers": 189,
+      "completers_single_year": 180,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "arlington-career-institute-222886",
+      "institution_name": "Arlington Career Institute",
+      "earnings_median_5yr": 33117,
+      "earnings_median_4yr": 31586,
+      "debt_median": null,
+      "completers": 49,
+      "completers_single_year": 68,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "concorde-career-college-grand-prairie-441742",
+      "institution_name": "Concorde Career College-Grand Prairie",
+      "earnings_median_5yr": 32811,
+      "earnings_median_4yr": 27666,
+      "debt_median": 9500,
+      "completers": 160,
+      "completers_single_year": 143,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-college-of-health-care-professions-northwest-392257",
+      "institution_name": "The College of Health Care Professions-Northwest",
+      "earnings_median_5yr": 32228,
+      "earnings_median_4yr": 28493,
+      "debt_median": 9428,
+      "completers": 513,
+      "completers_single_year": 291,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pci-health-training-center-369783",
+      "institution_name": "PCI Health Training Center",
+      "earnings_median_5yr": 32040,
+      "earnings_median_4yr": 27777,
+      "debt_median": 8498,
+      "completers": 313,
+      "completers_single_year": 286,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "panola-college-227386",
+      "institution_name": "Panola College",
+      "earnings_median_5yr": 30159,
+      "earnings_median_4yr": 24391,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "texas-health-school-448196",
+      "institution_name": "Texas Health School",
+      "earnings_median_5yr": 30159,
+      "earnings_median_4yr": 27955,
+      "debt_median": 7100,
+      "completers": 10,
+      "completers_single_year": 11,
+      "pooled_earnings": true
+    },
+    {
+      "institution_slug": "rio-grande-valley-college-476726",
+      "institution_name": "Rio Grande Valley College",
+      "earnings_median_5yr": 30064,
+      "earnings_median_4yr": 27542,
+      "debt_median": 8233,
+      "completers": 103,
+      "completers_single_year": 102,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "remington-college-dallas-campus-223463",
+      "institution_name": "Remington College-Dallas Campus",
+      "earnings_median_5yr": 29811,
+      "earnings_median_4yr": 26469,
+      "debt_median": 14120,
+      "completers": 166,
+      "completers_single_year": 131,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "milan-institute-san-antonio-ingram-437778",
+      "institution_name": "Milan Institute-San Antonio Ingram",
+      "earnings_median_5yr": 28930,
+      "earnings_median_4yr": 26477,
+      "debt_median": 9235,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-technical-college-224679",
+      "institution_name": "Western Technical College",
+      "earnings_median_5yr": 28828,
+      "earnings_median_4yr": 23597,
+      "debt_median": 11247,
+      "completers": 94,
+      "completers_single_year": 75,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "south-texas-college-409315",
+      "institution_name": "South Texas College",
+      "earnings_median_5yr": 28192,
+      "earnings_median_4yr": 24305,
+      "debt_median": null,
+      "completers": 55,
+      "completers_single_year": 87,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "texas-state-technical-college-487320",
+      "institution_name": "Texas State Technical College",
+      "earnings_median_5yr": 27951,
+      "earnings_median_4yr": 23916,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southern-careers-institute-austin-226903",
+      "institution_name": "Southern Careers Institute-Austin",
+      "earnings_median_5yr": 27409,
+      "earnings_median_4yr": 23143,
+      "debt_median": 9500,
+      "completers": 148,
+      "completers_single_year": 125,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cybertex-institute-of-technology-480888",
+      "institution_name": "CyberTex Institute of Technology",
+      "earnings_median_5yr": 27117,
+      "earnings_median_4yr": 25953,
+      "debt_median": 6933,
+      "completers": 199,
+      "completers_single_year": 179,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southwest-school-of-business-and-technical-careers-san-antonio-228282",
+      "institution_name": "Southwest School of Business and Technical Careers-San Antonio",
+      "earnings_median_5yr": 25940,
+      "earnings_median_4yr": 21184,
+      "debt_median": 7387,
+      "completers": 39,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "south-texas-training-center-455974",
+      "institution_name": "South Texas Training Center",
+      "earnings_median_5yr": 23695,
+      "earnings_median_4yr": 21534,
+      "debt_median": 4008,
+      "completers": 154,
+      "completers_single_year": 100,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "alvin-community-college-222567",
+      "institution_name": "Alvin Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "amarillo-college-222576",
+      "institution_name": "Amarillo College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 29,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "austin-community-college-district-222992",
+      "institution_name": "Austin Community College District",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 36,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cisco-college-223898",
+      "institution_name": "Cisco College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "del-mar-college-224350",
+      "institution_name": "Del Mar College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "dallas-college-224615",
+      "institution_name": "Dallas College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 30,
+      "completers_single_year": 36,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "trinity-valley-community-college-225308",
+      "institution_name": "Trinity Valley Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "howard-college-225520",
+      "institution_name": "Howard College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 25,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lamar-state-college-orange-226107",
+      "institution_name": "Lamar State College-Orange",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "laredo-college-226134",
+      "institution_name": "Laredo College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "college-of-the-mainland-226408",
+      "institution_name": "College of the Mainland",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 33,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "midland-college-226806",
+      "institution_name": "Midland College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lone-star-college-system-227182",
+      "institution_name": "Lone Star College System",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 36759,
+      "debt_median": 5625,
+      "completers": 99,
+      "completers_single_year": 66,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northeast-texas-community-college-227225",
+      "institution_name": "Northeast Texas Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "odessa-college-227304",
+      "institution_name": "Odessa College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "san-antonio-college-227924",
+      "institution_name": "San Antonio College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "tarrant-county-college-district-228547",
+      "institution_name": "Tarrant County College District",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 14,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "texarkana-college-228699",
+      "institution_name": "Texarkana College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "vernon-college-229504",
+      "institution_name": "Vernon College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-texas-college-229832",
+      "institution_name": "Western Texas College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "collin-county-community-college-district-247834",
+      "institution_name": "Collin County Community College District",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northwest-educational-center-369686",
+      "institution_name": "Northwest Educational Center",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 87,
+      "completers_single_year": 76,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northwest-vista-college-420398",
+      "institution_name": "Northwest Vista College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lamar-institute-of-technology-441760",
+      "institution_name": "Lamar Institute of Technology",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "valley-grande-institute-for-academic-studies-443322",
+      "institution_name": "Valley Grande Institute for Academic Studies",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 9500,
+      "completers": 9,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cci-training-center-arlington-449773",
+      "institution_name": "CCI Training Center-Arlington",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 8360,
+      "completers": 67,
+      "completers_single_year": 81,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southeast-texas-career-institute-449807",
+      "institution_name": "Southeast Texas Career Institute",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 7600,
+      "completers": 9,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "peloton-college-459514",
+      "institution_name": "Peloton College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 73,
+      "completers_single_year": 75,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "texas-healthtech-institute-494694",
+      "institution_name": "Texas Healthtech Institute",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 6967,
+      "completers": 75,
+      "completers_single_year": 32,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "austin-career-institute-495129",
+      "institution_name": "Austin Career Institute",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ctk-healthcare-career-institute-496715",
+      "institution_name": "CTK Healthcare & Career Institute",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 23,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "institute-of-allied-healthcare-496751",
+      "institution_name": "Institute of Allied Healthcare",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 67,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 69,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 21909,
+      "cost_total_default": 21909,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 27546,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "51",
+      "hs_baseline_state": 37300
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -187313,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

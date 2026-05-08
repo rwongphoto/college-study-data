@@ -1,0 +1,229 @@
+{
+  "institution_unitid": "177214",
+  "institution_name": "Drury University",
+  "institution_slug": "drury-university-177214",
+  "state": "mo",
+  "cip_code": "0904",
+  "cip_desc": "Journalism.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "0904-c3",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 1,
+  "debt_median": null,
+  "completers": 8,
+  "completers_single_year": 7,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 7.0
+      },
+      {
+        "year": 2015,
+        "value": 5.0
+      },
+      {
+        "year": 2016,
+        "value": 7.0
+      },
+      {
+        "year": 2017,
+        "value": 5.0
+      },
+      {
+        "year": 2018,
+        "value": 7.0
+      },
+      {
+        "year": 2019,
+        "value": 8.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "177214",
+    "slug": "drury-university-177214",
+    "name": "Drury University",
+    "city": "Springfield",
+    "city_slug": "springfield",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-missouri-columbia-178396",
+      "institution_name": "University of Missouri-Columbia",
+      "earnings_median_5yr": 68004,
+      "earnings_median_4yr": 58169,
+      "debt_median": 21000,
+      "completers": 428,
+      "completers_single_year": 451,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "missouri-state-university-springfield-179566",
+      "institution_name": "Missouri State University-Springfield",
+      "earnings_median_5yr": 43814,
+      "earnings_median_4yr": 37643,
+      "debt_median": null,
+      "completers": 15,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "evangel-university-177339",
+      "institution_name": "Evangel University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lincoln-university-177940",
+      "institution_name": "Lincoln University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 32313,
+      "completers": 10,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lindenwood-university-177968",
+      "institution_name": "Lindenwood University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "missouri-baptist-university-178244",
+      "institution_name": "Missouri Baptist University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northwest-missouri-state-university-178624",
+      "institution_name": "Northwest Missouri State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "college-of-the-ozarks-178697",
+      "institution_name": "College of the Ozarks",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "washington-university-in-st-louis-179867",
+      "institution_name": "Washington University in St Louis",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "webster-university-179894",
+      "institution_name": "Webster University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "westminster-college-179946",
+      "institution_name": "Westminster College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 19602,
+      "cost_total_default": 78408,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "09"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "institution_unitid": "219091",
+  "institution_name": "Dakota Wesleyan University",
+  "institution_slug": "dakota-wesleyan-university-219091",
+  "state": "sd",
+  "cip_code": "5109",
+  "cip_desc": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5109-c3",
+  "earnings_median_4yr": 64969,
+  "earnings_median_5yr": 62124,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": null,
+  "completers": null,
+  "completers_single_year": null,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 64969.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 62124.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2015,
+        "value": 27000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 16.0
+      },
+      {
+        "year": 2015,
+        "value": 7.0
+      },
+      {
+        "year": 2016,
+        "value": 10.0
+      },
+      {
+        "year": 2017,
+        "value": 8.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "219091",
+    "slug": "dakota-wesleyan-university-219091",
+    "name": "Dakota Wesleyan University",
+    "city": "Mitchell",
+    "city_slug": "mitchell",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "dakota-state-university-219082",
+      "institution_name": "Dakota State University",
+      "earnings_median_5yr": 66685,
+      "earnings_median_4yr": 64006,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "south-dakota-state-university-219356",
+      "institution_name": "South Dakota State University",
+      "earnings_median_5yr": 53736,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "augustana-university-219000",
+      "institution_name": "Augustana University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mount-marty-university-219198",
+      "institution_name": "Mount Marty University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-sioux-falls-219383",
+      "institution_name": "University of Sioux Falls",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-south-dakota-219471",
+      "institution_name": "University of South Dakota",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 17457,
+      "cost_total_default": 69828,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 62124,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "51",
+      "hs_baseline_state": 35900
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 421904,
+      "breakeven_year": 9
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

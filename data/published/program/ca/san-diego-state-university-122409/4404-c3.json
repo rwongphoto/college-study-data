@@ -1,0 +1,283 @@
+{
+  "institution_unitid": "122409",
+  "institution_name": "San Diego State University",
+  "institution_slug": "san-diego-state-university-122409",
+  "state": "ca",
+  "cip_code": "4404",
+  "cip_desc": "Public Administration.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "4404-c3",
+  "earnings_median_4yr": 47513,
+  "earnings_median_5yr": 50842,
+  "earnings_count_4yr": 8,
+  "earnings_count_5yr": 5,
+  "debt_median": 14999,
+  "completers": 106,
+  "completers_single_year": 98,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 47513.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 50842.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 12309.0
+      },
+      {
+        "year": 2015,
+        "value": 12309.0
+      },
+      {
+        "year": 2016,
+        "value": 15500.0
+      },
+      {
+        "year": 2017,
+        "value": 15437.0
+      },
+      {
+        "year": 2018,
+        "value": 14999.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 125.0
+      },
+      {
+        "year": 2015,
+        "value": 116.0
+      },
+      {
+        "year": 2016,
+        "value": 127.0
+      },
+      {
+        "year": 2017,
+        "value": 98.0
+      },
+      {
+        "year": 2018,
+        "value": 98.0
+      },
+      {
+        "year": 2019,
+        "value": 106.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 12309.0,
+      "to_value": 14999.0,
+      "pct_change": 0.2185392802014786,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Public Administration at San Diego State University rose 22% between 2014 and 2018 ($12.3k → $15.0k).",
+      "magnitude_pct": 21.9,
+      "magnitude_abs": 2690.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "122409",
+    "slug": "san-diego-state-university-122409",
+    "name": "San Diego State University",
+    "city": "San Diego",
+    "city_slug": "san-diego",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-la-verne-117140",
+      "institution_name": "University of La Verne",
+      "earnings_median_5yr": 85403,
+      "earnings_median_4yr": 63388,
+      "debt_median": 25666,
+      "completers": 27,
+      "completers_single_year": 25,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-state-university-fullerton-110565",
+      "institution_name": "California State University-Fullerton",
+      "earnings_median_5yr": 68007,
+      "earnings_median_4yr": 57169,
+      "debt_median": 12981,
+      "completers": 33,
+      "completers_single_year": 40,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-state-university-dominguez-hills-110547",
+      "institution_name": "California State University-Dominguez Hills",
+      "earnings_median_5yr": 65441,
+      "earnings_median_4yr": 58104,
+      "debt_median": 17250,
+      "completers": 47,
+      "completers_single_year": 42,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ashford-university-154022",
+      "institution_name": "Ashford University",
+      "earnings_median_5yr": 64804,
+      "earnings_median_4yr": 60271,
+      "debt_median": 33349,
+      "completers": 10,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-state-university-bakersfield-110486",
+      "institution_name": "California State University-Bakersfield",
+      "earnings_median_5yr": 63595,
+      "earnings_median_4yr": 54809,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-state-university-san-bernardino-110510",
+      "institution_name": "California State University-San Bernardino",
+      "earnings_median_5yr": 54225,
+      "earnings_median_4yr": 50540,
+      "debt_median": 12904,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-baptist-university-110361",
+      "institution_name": "California Baptist University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 36707,
+      "completers": 16,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-state-university-chico-110538",
+      "institution_name": "California State University-Chico",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 48377,
+      "debt_median": null,
+      "completers": 14,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-state-university-fresno-110556",
+      "institution_name": "California State University-Fresno",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-state-university-northridge-110608",
+      "institution_name": "California State University-Northridge",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 36442,
+      "completers": 44,
+      "completers_single_year": 41,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-california-riverside-110671",
+      "institution_name": "University of California-Riverside",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "national-university-119605",
+      "institution_name": "National University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 85093,
+      "debt_median": 29181,
+      "completers": 14,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-san-francisco-122612",
+      "institution_name": "University of San Francisco",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

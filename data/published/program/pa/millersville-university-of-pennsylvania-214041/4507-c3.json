@@ -1,0 +1,265 @@
+{
+  "institution_unitid": "214041",
+  "institution_name": "Millersville University of Pennsylvania",
+  "institution_slug": "millersville-university-of-pennsylvania-214041",
+  "state": "pa",
+  "cip_code": "4507",
+  "cip_desc": "Geography and Cartography.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "4507-c3",
+  "earnings_median_4yr": 39819,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": null,
+  "completers": 12,
+  "completers_single_year": 16,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 39819.0
+      }
+    ],
+    "earnings_median_5yr": [],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 19500.0
+      },
+      {
+        "year": 2015,
+        "value": 24859.0
+      },
+      {
+        "year": 2016,
+        "value": 26500.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 15.0
+      },
+      {
+        "year": 2015,
+        "value": 27.0
+      },
+      {
+        "year": 2016,
+        "value": 8.0
+      },
+      {
+        "year": 2017,
+        "value": 15.0
+      },
+      {
+        "year": 2018,
+        "value": 16.0
+      },
+      {
+        "year": 2019,
+        "value": 12.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2016,
+      "from_value": 19500.0,
+      "to_value": 26500.0,
+      "pct_change": 0.358974358974359,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Geography and Cartography at Millersville University of Pennsylvania rose 36% between 2014 and 2016 ($19.5k → $26.5k).",
+      "magnitude_pct": 35.9,
+      "magnitude_abs": 7000.0,
+      "baseline_year": 2014,
+      "recent_year": 2016,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "214041",
+    "slug": "millersville-university-of-pennsylvania-214041",
+    "name": "Millersville University of Pennsylvania",
+    "city": "Millersville",
+    "city_slug": "millersville",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "west-chester-university-of-pennsylvania-216764",
+      "institution_name": "West Chester University of Pennsylvania",
+      "earnings_median_5yr": 66381,
+      "earnings_median_4yr": 58950,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "temple-university-216339",
+      "institution_name": "Temple University",
+      "earnings_median_5yr": 53400,
+      "earnings_median_4yr": 42149,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "indiana-university-of-pennsylvania-main-campus-213020",
+      "institution_name": "Indiana University of Pennsylvania-Main Campus",
+      "earnings_median_5yr": 52182,
+      "earnings_median_4yr": 49607,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "slippery-rock-university-of-pennsylvania-216038",
+      "institution_name": "Slippery Rock University of Pennsylvania",
+      "earnings_median_5yr": 51520,
+      "earnings_median_4yr": 44323,
+      "debt_median": null,
+      "completers": 14,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "kutztown-university-of-pennsylvania-213349",
+      "institution_name": "Kutztown University of Pennsylvania",
+      "earnings_median_5yr": 51355,
+      "earnings_median_4yr": 49316,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bucknell-university-211291",
+      "institution_name": "Bucknell University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cheyney-university-of-pennsylvania-211608",
+      "institution_name": "Cheyney University of Pennsylvania",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-pittsburgh-pittsburgh-campus-215293",
+      "institution_name": "University of Pittsburgh-Pittsburgh Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "shippensburg-university-of-pennsylvania-216010",
+      "institution_name": "Shippensburg University of Pennsylvania",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "villanova-university-216597",
+      "institution_name": "Villanova University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 18988,
+      "cost_total_default": 75952,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 39819,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "45",
+      "hs_baseline_state": 38100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -27876,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

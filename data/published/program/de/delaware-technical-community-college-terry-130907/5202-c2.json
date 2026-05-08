@@ -1,0 +1,198 @@
+{
+  "institution_unitid": "130907",
+  "institution_name": "Delaware Technical Community College-Terry",
+  "institution_slug": "delaware-technical-community-college-terry-130907",
+  "state": "de",
+  "cip_code": "5202",
+  "cip_desc": "Business Administration, Management and Operations.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "5202-c2",
+  "earnings_median_4yr": 40807,
+  "earnings_median_5yr": 44434,
+  "earnings_count_4yr": 10,
+  "earnings_count_5yr": 11,
+  "debt_median": 11875,
+  "completers": 93,
+  "completers_single_year": 90,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 40807.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 44434.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 8000.0
+      },
+      {
+        "year": 2015,
+        "value": 8000.0
+      },
+      {
+        "year": 2016,
+        "value": 5500.0
+      },
+      {
+        "year": 2017,
+        "value": 7100.0
+      },
+      {
+        "year": 2018,
+        "value": 11875.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 111.0
+      },
+      {
+        "year": 2015,
+        "value": 130.0
+      },
+      {
+        "year": 2016,
+        "value": 106.0
+      },
+      {
+        "year": 2017,
+        "value": 117.0
+      },
+      {
+        "year": 2018,
+        "value": 90.0
+      },
+      {
+        "year": 2019,
+        "value": 93.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 8000.0,
+      "to_value": 11875.0,
+      "pct_change": 0.484375,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Business Administration, Management and Operations at Delaware Technical Community College-Terry rose 48% between 2014 and 2018 ($8.0k → $11.9k).",
+      "magnitude_pct": 48.4,
+      "magnitude_abs": 3875.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "130907",
+    "slug": "delaware-technical-community-college-terry-130907",
+    "name": "Delaware Technical Community College-Terry",
+    "city": "Dover",
+    "city_slug": "dover",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "goldey-beacom-college-130989",
+      "institution_name": "Goldey-Beacom College",
+      "earnings_median_5yr": 35934,
+      "earnings_median_4yr": 37616,
+      "debt_median": null,
+      "completers": 14,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wilmington-university-131113",
+      "institution_name": "Wilmington University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 11,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 9048,
+      "cost_total_default": 18096,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 44434,
+      "earnings_anchor_year": 5,
+      "debt_median": 11875,
+      "cip_family": "52",
+      "hs_baseline_state": 38900
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 161087,
+      "breakeven_year": 14
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

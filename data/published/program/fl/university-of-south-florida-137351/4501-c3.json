@@ -1,0 +1,298 @@
+{
+  "institution_unitid": "137351",
+  "institution_name": "University of South Florida",
+  "institution_slug": "university-of-south-florida-137351",
+  "state": "fl",
+  "cip_code": "4501",
+  "cip_desc": "Social Sciences, General.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "4501-c3",
+  "earnings_median_4yr": 42070,
+  "earnings_median_5yr": 45753,
+  "earnings_count_4yr": 15,
+  "earnings_count_5yr": 21,
+  "debt_median": 20500,
+  "completers": 158,
+  "completers_single_year": 153,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 42070.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 45753.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 28000.0
+      },
+      {
+        "year": 2015,
+        "value": 24500.0
+      },
+      {
+        "year": 2016,
+        "value": 22500.0
+      },
+      {
+        "year": 2017,
+        "value": 21206.0
+      },
+      {
+        "year": 2018,
+        "value": 20500.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 93.0
+      },
+      {
+        "year": 2015,
+        "value": 88.0
+      },
+      {
+        "year": 2016,
+        "value": 101.0
+      },
+      {
+        "year": 2017,
+        "value": 95.0
+      },
+      {
+        "year": 2018,
+        "value": 153.0
+      },
+      {
+        "year": 2019,
+        "value": 158.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 28000.0,
+      "to_value": 20500.0,
+      "pct_change": -0.26785714285714285,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Social Sciences, General at University of South Florida fell 27% between 2014 and 2018 ($28.0k → $20.5k).",
+      "magnitude_pct": -26.8,
+      "magnitude_abs": -7500.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "137351",
+    "slug": "university-of-south-florida-137351",
+    "name": "University of South Florida",
+    "city": "Tampa",
+    "city_slug": "tampa",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "florida-state-university-134097",
+      "institution_name": "Florida State University",
+      "earnings_median_5yr": 59852,
+      "earnings_median_4yr": 47057,
+      "debt_median": 20000,
+      "completers": 301,
+      "completers_single_year": 292,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "florida-atlantic-university-133669",
+      "institution_name": "Florida Atlantic University",
+      "earnings_median_5yr": 51893,
+      "earnings_median_4yr": 47076,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-west-florida-138354",
+      "institution_name": "University of West Florida",
+      "earnings_median_5yr": 46751,
+      "earnings_median_4yr": 38598,
+      "debt_median": 21500,
+      "completers": 40,
+      "completers_single_year": 42,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-central-florida-132903",
+      "institution_name": "University of Central Florida",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 21857,
+      "completers": 41,
+      "completers_single_year": 33,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "florida-agricultural-and-mechanical-university-133650",
+      "institution_name": "Florida Agricultural and Mechanical University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "flagler-college-133711",
+      "institution_name": "Flagler College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "florida-southern-college-134079",
+      "institution_name": "Florida Southern College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "jacksonville-university-134945",
+      "institution_name": "Jacksonville University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 25821,
+      "completers": 11,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "keiser-university-ft-lauderdale-135081",
+      "institution_name": "Keiser University-Ft Lauderdale",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "palm-beach-atlantic-university-136330",
+      "institution_name": "Palm Beach Atlantic University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "stetson-university-137546",
+      "institution_name": "Stetson University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "webber-international-university-138293",
+      "institution_name": "Webber International University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 21,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 10649,
+      "cost_total_default": 42596,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 45753,
+      "earnings_anchor_year": 5,
+      "debt_median": 20500,
+      "cip_family": "45",
+      "hs_baseline_state": 35400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 124338,
+      "breakeven_year": 16
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

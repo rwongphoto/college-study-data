@@ -1,0 +1,168 @@
+{
+  "state": "ny",
+  "name": "Seneca Falls",
+  "slug": "seneca-falls",
+  "institution_count": 1,
+  "institutions": [
+    {
+      "unitid": "193751",
+      "slug": "northeast-college-of-health-sciences-193751",
+      "name": "Northeast College of Health Sciences",
+      "city": "Seneca Falls",
+      "city_slug": "seneca-falls",
+      "control": "private_nonprofit",
+      "pred_degree": "graduate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": null
+        },
+        {
+          "year": 8,
+          "value": null
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": null,
+      "completion_rate_history": [],
+      "enrollment_undergrad": null,
+      "enrollment_history": [
+        {
+          "year": 2005,
+          "value": 0.0
+        },
+        {
+          "year": 2006,
+          "value": 9.0
+        },
+        {
+          "year": 2007,
+          "value": 37.0
+        },
+        {
+          "year": 2008,
+          "value": 0.0
+        },
+        {
+          "year": 2009,
+          "value": 0.0
+        },
+        {
+          "year": 2024,
+          "value": 71.0
+        }
+      ],
+      "median_debt": null,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 2005,
+          "to_year": 2024,
+          "from_value": 0.0,
+          "to_value": 71.0,
+          "pct_change": 0.355,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 2008,
+          "to_year": 2015,
+          "from_value": 3000.0,
+          "to_value": 12000.0,
+          "pct_change": 3.0,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.019,
+          "to_value": 0.0,
+          "pct_change": -0.95,
+          "direction": "fell"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": null,
+  "completion_rate_city": null,
+  "completion_history_city": [],
+  "enrollment_history_city": [
+    {
+      "year": 2005,
+      "value": 0.0
+    },
+    {
+      "year": 2006,
+      "value": 9.0
+    },
+    {
+      "year": 2007,
+      "value": 37.0
+    },
+    {
+      "year": 2008,
+      "value": 0.0
+    },
+    {
+      "year": 2009,
+      "value": 0.0
+    },
+    {
+      "year": 2024,
+      "value": 71.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

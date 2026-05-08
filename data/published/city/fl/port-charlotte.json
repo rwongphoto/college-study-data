@@ -1,0 +1,453 @@
+{
+  "state": "fl",
+  "name": "Port Charlotte",
+  "slug": "port-charlotte",
+  "institution_count": 1,
+  "institutions": [
+    {
+      "unitid": "132976",
+      "slug": "charlotte-technical-college-132976",
+      "name": "Charlotte Technical College",
+      "city": "Port Charlotte",
+      "city_slug": "port-charlotte",
+      "control": "public",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 36349,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 31469
+        },
+        {
+          "year": 8,
+          "value": 41667
+        },
+        {
+          "year": 10,
+          "value": 36349
+        }
+      ],
+      "completion_rate_150": 0.7248,
+      "completion_rate_history": [
+        {
+          "year": 2000,
+          "value": 1.0
+        },
+        {
+          "year": 2001,
+          "value": 1.0
+        },
+        {
+          "year": 2002,
+          "value": 1.0
+        },
+        {
+          "year": 2003,
+          "value": 1.0
+        },
+        {
+          "year": 2004,
+          "value": 0.8
+        },
+        {
+          "year": 2005,
+          "value": 0.7387
+        },
+        {
+          "year": 2006,
+          "value": 0.6394
+        },
+        {
+          "year": 2007,
+          "value": 0.7749
+        },
+        {
+          "year": 2008,
+          "value": 0.494
+        },
+        {
+          "year": 2009,
+          "value": 0.5826
+        }
+      ],
+      "enrollment_undergrad": 295,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 329.0
+        },
+        {
+          "year": 1997,
+          "value": 362.0
+        },
+        {
+          "year": 1998,
+          "value": 345.0
+        },
+        {
+          "year": 1999,
+          "value": 810.0
+        },
+        {
+          "year": 2001,
+          "value": 586.0
+        },
+        {
+          "year": 2002,
+          "value": 833.0
+        },
+        {
+          "year": 2003,
+          "value": 805.0
+        },
+        {
+          "year": 2004,
+          "value": 349.0
+        },
+        {
+          "year": 2005,
+          "value": 898.0
+        },
+        {
+          "year": 2006,
+          "value": 905.0
+        },
+        {
+          "year": 2007,
+          "value": 505.0
+        },
+        {
+          "year": 2008,
+          "value": 449.0
+        },
+        {
+          "year": 2009,
+          "value": 461.0
+        },
+        {
+          "year": 2010,
+          "value": 404.0
+        },
+        {
+          "year": 2011,
+          "value": 319.0
+        },
+        {
+          "year": 2012,
+          "value": 252.0
+        },
+        {
+          "year": 2013,
+          "value": 225.0
+        },
+        {
+          "year": 2014,
+          "value": 204.0
+        },
+        {
+          "year": 2015,
+          "value": 160.0
+        },
+        {
+          "year": 2016,
+          "value": 194.0
+        },
+        {
+          "year": 2017,
+          "value": 215.0
+        },
+        {
+          "year": 2018,
+          "value": 272.0
+        },
+        {
+          "year": 2019,
+          "value": 248.0
+        },
+        {
+          "year": 2020,
+          "value": 208.0
+        },
+        {
+          "year": 2021,
+          "value": 243.0
+        },
+        {
+          "year": 2022,
+          "value": 313.0
+        },
+        {
+          "year": 2023,
+          "value": 333.0
+        },
+        {
+          "year": 2024,
+          "value": 298.0
+        }
+      ],
+      "median_debt": null,
+      "default_rate": 0.0,
+      "tuition_in_state": 3100,
+      "tuition_out_of_state": 12100,
+      "long_arc": [
+        {
+          "metric": "completion_rate_150",
+          "from_year": 2000,
+          "to_year": 2009,
+          "from_value": 1.0,
+          "to_value": 0.5826,
+          "pct_change": -0.4174,
+          "direction": "fell"
+        },
+        {
+          "metric": "tuition_in_state",
+          "from_year": 2000,
+          "to_year": 2024,
+          "from_value": 1800.0,
+          "to_value": 3110.0,
+          "pct_change": 0.7277777777777777,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2000,
+          "to_year": 2024,
+          "from_value": 3600.0,
+          "to_value": 12110.0,
+          "pct_change": 2.363888888888889,
+          "direction": "rose"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2008,
+          "to_year": 2024,
+          "from_value": 0.2218,
+          "to_value": 0.3348,
+          "pct_change": 0.5094679891794409,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_10yr",
+          "from_year": 2009,
+          "to_year": 2020,
+          "from_value": 29800.0,
+          "to_value": 36349.0,
+          "pct_change": 0.21976510067114094,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_8yr",
+          "from_year": 2007,
+          "to_year": 2020,
+          "from_value": 30700.0,
+          "to_value": 41667.0,
+          "pct_change": 0.3572312703583062,
+          "direction": "rose"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": 36349,
+  "completion_rate_city": 0.7248,
+  "completion_history_city": [
+    {
+      "year": 2000,
+      "value": 1.0
+    },
+    {
+      "year": 2001,
+      "value": 1.0
+    },
+    {
+      "year": 2002,
+      "value": 1.0
+    },
+    {
+      "year": 2003,
+      "value": 1.0
+    },
+    {
+      "year": 2004,
+      "value": 0.8
+    },
+    {
+      "year": 2005,
+      "value": 0.7387
+    },
+    {
+      "year": 2006,
+      "value": 0.6394
+    },
+    {
+      "year": 2007,
+      "value": 0.7749
+    },
+    {
+      "year": 2008,
+      "value": 0.494
+    },
+    {
+      "year": 2009,
+      "value": 0.5826
+    }
+  ],
+  "enrollment_history_city": [
+    {
+      "year": 1996,
+      "value": 329.0
+    },
+    {
+      "year": 1997,
+      "value": 362.0
+    },
+    {
+      "year": 1998,
+      "value": 345.0
+    },
+    {
+      "year": 1999,
+      "value": 810.0
+    },
+    {
+      "year": 2001,
+      "value": 586.0
+    },
+    {
+      "year": 2002,
+      "value": 833.0
+    },
+    {
+      "year": 2003,
+      "value": 805.0
+    },
+    {
+      "year": 2004,
+      "value": 349.0
+    },
+    {
+      "year": 2005,
+      "value": 898.0
+    },
+    {
+      "year": 2006,
+      "value": 905.0
+    },
+    {
+      "year": 2007,
+      "value": 505.0
+    },
+    {
+      "year": 2008,
+      "value": 449.0
+    },
+    {
+      "year": 2009,
+      "value": 461.0
+    },
+    {
+      "year": 2010,
+      "value": 404.0
+    },
+    {
+      "year": 2011,
+      "value": 319.0
+    },
+    {
+      "year": 2012,
+      "value": 252.0
+    },
+    {
+      "year": 2013,
+      "value": 225.0
+    },
+    {
+      "year": 2014,
+      "value": 204.0
+    },
+    {
+      "year": 2015,
+      "value": 160.0
+    },
+    {
+      "year": 2016,
+      "value": 194.0
+    },
+    {
+      "year": 2017,
+      "value": 215.0
+    },
+    {
+      "year": 2018,
+      "value": 272.0
+    },
+    {
+      "year": 2019,
+      "value": 248.0
+    },
+    {
+      "year": 2020,
+      "value": 208.0
+    },
+    {
+      "year": 2021,
+      "value": 243.0
+    },
+    {
+      "year": 2022,
+      "value": 313.0
+    },
+    {
+      "year": 2023,
+      "value": 333.0
+    },
+    {
+      "year": 2024,
+      "value": 298.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

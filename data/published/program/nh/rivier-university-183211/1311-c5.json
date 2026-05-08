@@ -1,0 +1,221 @@
+{
+  "institution_unitid": "183211",
+  "institution_name": "Rivier University",
+  "institution_slug": "rivier-university-183211",
+  "state": "nh",
+  "cip_code": "1311",
+  "cip_desc": "Student Counseling and Personnel Services.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "1311-c5",
+  "earnings_median_4yr": 48654,
+  "earnings_median_5yr": 52753,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 1,
+  "debt_median": 40440,
+  "completers": 14,
+  "completers_single_year": 16,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 48654.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 52753.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 33500.0
+      },
+      {
+        "year": 2015,
+        "value": 32500.0
+      },
+      {
+        "year": 2016,
+        "value": 36460.0
+      },
+      {
+        "year": 2017,
+        "value": 40440.0
+      },
+      {
+        "year": 2018,
+        "value": 40440.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 17.0
+      },
+      {
+        "year": 2015,
+        "value": 14.0
+      },
+      {
+        "year": 2016,
+        "value": 18.0
+      },
+      {
+        "year": 2017,
+        "value": 17.0
+      },
+      {
+        "year": 2018,
+        "value": 16.0
+      },
+      {
+        "year": 2019,
+        "value": 14.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 33500.0,
+      "to_value": 40440.0,
+      "pct_change": 0.20716417910447762,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 10.2% at Student Counseling and Personnel Services at Rivier University exceeds the 8% gainful-employment threshold ($40.4k debt amortized over 10 years vs $52.8k earnings).",
+      "magnitude_pct": 10.2,
+      "magnitude_abs": 2.2,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    },
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Student Counseling and Personnel Services at Rivier University rose 21% between 2014 and 2018 ($33.5k → $40.4k).",
+      "magnitude_pct": 20.7,
+      "magnitude_abs": 6940.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "183211",
+    "slug": "rivier-university-183211",
+    "name": "Rivier University",
+    "city": "Nashua",
+    "city_slug": "nashua",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "plymouth-state-university-183080",
+      "institution_name": "Plymouth State University",
+      "earnings_median_5yr": 57569,
+      "earnings_median_4yr": 55376,
+      "debt_median": null,
+      "completers": 14,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-new-hampshire-main-campus-183044",
+      "institution_name": "University of New Hampshire-Main Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "keene-state-college-183062",
+      "institution_name": "Keene State College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 24462,
+      "cost_total_default": 146772,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 52753,
+      "earnings_anchor_year": 5,
+      "debt_median": 40440,
+      "cip_family": "13",
+      "hs_baseline_state": 40300
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -5678,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

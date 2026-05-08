@@ -1,0 +1,246 @@
+{
+  "institution_unitid": "178420",
+  "institution_name": "University of Missouri-St Louis",
+  "institution_slug": "university-of-missouri-st-louis-178420",
+  "state": "mo",
+  "cip_code": "5212",
+  "cip_desc": "Management Information Systems and Services.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5212-c3",
+  "earnings_median_4yr": 81856,
+  "earnings_median_5yr": 90391,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 3,
+  "debt_median": null,
+  "completers": null,
+  "completers_single_year": null,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 81856.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 90391.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 24500.0
+      },
+      {
+        "year": 2015,
+        "value": 25000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 52.0
+      },
+      {
+        "year": 2015,
+        "value": 5.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "178420",
+    "slug": "university-of-missouri-st-louis-178420",
+    "name": "University of Missouri-St Louis",
+    "city": "Saint Louis",
+    "city_slug": "saint-louis",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "park-university-178721",
+      "institution_name": "Park University",
+      "earnings_median_5yr": 88597,
+      "earnings_median_4yr": 60060,
+      "debt_median": 17546,
+      "completers": 35,
+      "completers_single_year": 64,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "missouri-state-university-springfield-179566",
+      "institution_name": "Missouri State University-Springfield",
+      "earnings_median_5yr": 80791,
+      "earnings_median_4yr": 68407,
+      "debt_median": 25845,
+      "completers": 2,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "columbia-college-177065",
+      "institution_name": "Columbia College",
+      "earnings_median_5yr": 70772,
+      "earnings_median_4yr": 61945,
+      "debt_median": 26033,
+      "completers": 56,
+      "completers_single_year": 54,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "drury-university-177214",
+      "institution_name": "Drury University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "harris-stowe-state-university-177551",
+      "institution_name": "Harris-Stowe State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lindenwood-university-177968",
+      "institution_name": "Lindenwood University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "maryville-university-of-saint-louis-178059",
+      "institution_name": "Maryville University of Saint Louis",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northwest-missouri-state-university-178624",
+      "institution_name": "Northwest Missouri State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-louis-university-179159",
+      "institution_name": "Saint Louis University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 21920,
+      "completers": 6,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "washington-university-in-st-louis-179867",
+      "institution_name": "Washington University in St Louis",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "westminster-college-179946",
+      "institution_name": "Westminster College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "william-woods-university-179964",
+      "institution_name": "William Woods University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 12980,
+      "cost_total_default": 51920,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 90391,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "52",
+      "hs_baseline_state": 35100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 1022494,
+      "breakeven_year": 5
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

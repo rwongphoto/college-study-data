@@ -1,0 +1,268 @@
+{
+  "institution_unitid": "218663",
+  "institution_name": "University of South Carolina-Columbia",
+  "institution_slug": "university-of-south-carolina-columbia-218663",
+  "state": "sc",
+  "cip_code": "0301",
+  "cip_desc": "Natural Resources Conservation and Research.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "0301-c3",
+  "earnings_median_4yr": 49481,
+  "earnings_median_5yr": 63196,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 1,
+  "debt_median": 24000,
+  "completers": 47,
+  "completers_single_year": 57,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 49481.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 63196.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 17750.0
+      },
+      {
+        "year": 2015,
+        "value": 22319.0
+      },
+      {
+        "year": 2016,
+        "value": 23589.0
+      },
+      {
+        "year": 2017,
+        "value": 24430.0
+      },
+      {
+        "year": 2018,
+        "value": 24000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 34.0
+      },
+      {
+        "year": 2015,
+        "value": 45.0
+      },
+      {
+        "year": 2016,
+        "value": 39.0
+      },
+      {
+        "year": 2017,
+        "value": 38.0
+      },
+      {
+        "year": 2018,
+        "value": 57.0
+      },
+      {
+        "year": 2019,
+        "value": 47.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 17750.0,
+      "to_value": 24000.0,
+      "pct_change": 0.352112676056338,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Natural Resources Conservation and Research at University of South Carolina-Columbia rose 35% between 2014 and 2018 ($17.8k → $24.0k).",
+      "magnitude_pct": 35.2,
+      "magnitude_abs": 6250.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "218663",
+    "slug": "university-of-south-carolina-columbia-218663",
+    "name": "University of South Carolina-Columbia",
+    "city": "Columbia",
+    "city_slug": "columbia",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "clemson-university-217882",
+      "institution_name": "Clemson University",
+      "earnings_median_5yr": 52586,
+      "earnings_median_4yr": 47753,
+      "debt_median": 21200,
+      "completers": 35,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "anderson-university-217633",
+      "institution_name": "Anderson University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southern-wesleyan-university-217776",
+      "institution_name": "Southern Wesleyan University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "claflin-university-217873",
+      "institution_name": "Claflin University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "columbia-college-217934",
+      "institution_name": "Columbia College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lander-university-218229",
+      "institution_name": "Lander University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-south-carolina-upstate-218742",
+      "institution_name": "University of South Carolina-Upstate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "winthrop-university-218964",
+      "institution_name": "Winthrop University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wofford-college-218973",
+      "institution_name": "Wofford College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 16500,
+      "completers": 16,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 22744,
+      "cost_total_default": 90976,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 63196,
+      "earnings_anchor_year": 5,
+      "debt_median": 24000,
+      "cip_family": "03",
+      "hs_baseline_state": 33700
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 473954,
+      "breakeven_year": 10
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

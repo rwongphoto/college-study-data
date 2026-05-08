@@ -1,0 +1,169 @@
+{
+  "institution_unitid": "372329",
+  "institution_name": "IBMC College",
+  "institution_slug": "ibmc-college-372329",
+  "state": "co",
+  "cip_code": "5106",
+  "cip_desc": "Dental Support Services and Allied Professions.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "5106-c2",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 2,
+  "debt_median": null,
+  "completers": 1,
+  "completers_single_year": 2,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 1.0
+      },
+      {
+        "year": 2015,
+        "value": 1.0
+      },
+      {
+        "year": 2016,
+        "value": 1.0
+      },
+      {
+        "year": 2017,
+        "value": 3.0
+      },
+      {
+        "year": 2018,
+        "value": 2.0
+      },
+      {
+        "year": 2019,
+        "value": 1.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "372329",
+    "slug": "ibmc-college-372329",
+    "name": "IBMC College",
+    "city": "Fort Collins",
+    "city_slug": "fort-collins",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "concorde-career-college-aurora-126687",
+      "institution_name": "Concorde Career College-Aurora",
+      "earnings_median_5yr": 69174,
+      "earnings_median_4yr": 67065,
+      "debt_median": 25250,
+      "completers": 46,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "community-college-of-denver-126942",
+      "institution_name": "Community College of Denver",
+      "earnings_median_5yr": 66188,
+      "earnings_median_4yr": 62109,
+      "debt_median": 21000,
+      "completers": 21,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pueblo-community-college-127884",
+      "institution_name": "Pueblo Community College",
+      "earnings_median_5yr": 62629,
+      "earnings_median_4yr": 56691,
+      "debt_median": null,
+      "completers": 21,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "colorado-northwestern-community-college-126748",
+      "institution_name": "Colorado Northwestern Community College",
+      "earnings_median_5yr": 60198,
+      "earnings_median_4yr": 55603,
+      "debt_median": 13000,
+      "completers": 23,
+      "completers_single_year": 22,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pikes-peak-state-college-127820",
+      "institution_name": "Pikes Peak State College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 24824,
+      "cost_total_default": 49648,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "51"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

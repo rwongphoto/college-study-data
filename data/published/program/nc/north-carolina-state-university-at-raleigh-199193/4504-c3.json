@@ -1,0 +1,204 @@
+{
+  "institution_unitid": "199193",
+  "institution_name": "North Carolina State University at Raleigh",
+  "institution_slug": "north-carolina-state-university-at-raleigh-199193",
+  "state": "nc",
+  "cip_code": "4504",
+  "cip_desc": "Criminology.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "4504-c3",
+  "earnings_median_4yr": 56907,
+  "earnings_median_5yr": 64069,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 1,
+  "debt_median": 20374,
+  "completers": 55,
+  "completers_single_year": 46,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 56907.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 64069.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 22382.0
+      },
+      {
+        "year": 2015,
+        "value": 22382.0
+      },
+      {
+        "year": 2016,
+        "value": 20771.0
+      },
+      {
+        "year": 2017,
+        "value": 20248.0
+      },
+      {
+        "year": 2018,
+        "value": 20374.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 57.0
+      },
+      {
+        "year": 2015,
+        "value": 51.0
+      },
+      {
+        "year": 2016,
+        "value": 43.0
+      },
+      {
+        "year": 2017,
+        "value": 38.0
+      },
+      {
+        "year": 2018,
+        "value": 46.0
+      },
+      {
+        "year": 2019,
+        "value": 55.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "199193",
+    "slug": "north-carolina-state-university-at-raleigh-199193",
+    "name": "North Carolina State University at Raleigh",
+    "city": "Raleigh",
+    "city_slug": "raleigh",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-north-carolina-wilmington-199218",
+      "institution_name": "University of North Carolina Wilmington",
+      "earnings_median_5yr": 48855,
+      "earnings_median_4yr": 41747,
+      "debt_median": 20000,
+      "completers": 111,
+      "completers_single_year": 101,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "johnson-c-smith-university-198756",
+      "institution_name": "Johnson C Smith University",
+      "earnings_median_5yr": 45538,
+      "earnings_median_4yr": 35897,
+      "debt_median": 30500,
+      "completers": 20,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "meredith-college-198950",
+      "institution_name": "Meredith College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "william-peace-university-199272",
+      "institution_name": "William Peace University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 22737,
+      "completers": 22,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "salem-college-199607",
+      "institution_name": "Salem College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 13992,
+      "cost_total_default": 55968,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 64069,
+      "earnings_anchor_year": 5,
+      "debt_median": 20374,
+      "cip_family": "45",
+      "hs_baseline_state": 35600
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 430807,
+      "breakeven_year": 8
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

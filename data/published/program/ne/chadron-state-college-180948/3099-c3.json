@@ -1,0 +1,194 @@
+{
+  "institution_unitid": "180948",
+  "institution_name": "Chadron State College",
+  "institution_slug": "chadron-state-college-180948",
+  "state": "ne",
+  "cip_code": "3099",
+  "cip_desc": "Multi/Interdisciplinary Studies, Other.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "3099-c3",
+  "earnings_median_4yr": 34967,
+  "earnings_median_5yr": 38641,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": 14980,
+  "completers": 38,
+  "completers_single_year": 34,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 34967.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 38641.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 16768.0
+      },
+      {
+        "year": 2015,
+        "value": 19791.0
+      },
+      {
+        "year": 2016,
+        "value": 16089.0
+      },
+      {
+        "year": 2017,
+        "value": 13472.0
+      },
+      {
+        "year": 2018,
+        "value": 14980.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 32.0
+      },
+      {
+        "year": 2015,
+        "value": 40.0
+      },
+      {
+        "year": 2016,
+        "value": 41.0
+      },
+      {
+        "year": 2017,
+        "value": 34.0
+      },
+      {
+        "year": 2018,
+        "value": 34.0
+      },
+      {
+        "year": 2019,
+        "value": 38.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "180948",
+    "slug": "chadron-state-college-180948",
+    "name": "Chadron State College",
+    "city": "Chadron",
+    "city_slug": "chadron",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "concordia-university-nebraska-180984",
+      "institution_name": "Concordia University-Nebraska",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hastings-college-181127",
+      "institution_name": "Hastings College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 28,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-nebraska-at-omaha-181394",
+      "institution_name": "University of Nebraska at Omaha",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wayne-state-college-181783",
+      "institution_name": "Wayne State College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 26,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 13550,
+      "cost_total_default": 54200,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 38641,
+      "earnings_anchor_year": 5,
+      "debt_median": 14980,
+      "cip_family": "30",
+      "hs_baseline_state": 36900
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -4247,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

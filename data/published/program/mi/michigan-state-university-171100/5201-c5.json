@@ -1,0 +1,198 @@
+{
+  "institution_unitid": "171100",
+  "institution_name": "Michigan State University",
+  "institution_slug": "michigan-state-university-171100",
+  "state": "mi",
+  "cip_code": "5201",
+  "cip_desc": "Business/Commerce, General.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5201-c5",
+  "earnings_median_4yr": 147253,
+  "earnings_median_5yr": 162832,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 3,
+  "debt_median": 78686,
+  "completers": 120,
+  "completers_single_year": 91,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 147253.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 162832.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 56502.0
+      },
+      {
+        "year": 2015,
+        "value": 61500.0
+      },
+      {
+        "year": 2016,
+        "value": 63000.0
+      },
+      {
+        "year": 2017,
+        "value": 65024.0
+      },
+      {
+        "year": 2018,
+        "value": 78686.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 122.0
+      },
+      {
+        "year": 2015,
+        "value": 135.0
+      },
+      {
+        "year": 2016,
+        "value": 112.0
+      },
+      {
+        "year": 2017,
+        "value": 107.0
+      },
+      {
+        "year": 2018,
+        "value": 91.0
+      },
+      {
+        "year": 2019,
+        "value": 120.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 56502.0,
+      "to_value": 78686.0,
+      "pct_change": 0.3926232699727443,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Business/Commerce, General at Michigan State University rose 39% between 2014 and 2018 ($56.5k → $78.7k).",
+      "magnitude_pct": 39.3,
+      "magnitude_abs": 22184.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "171100",
+    "slug": "michigan-state-university-171100",
+    "name": "Michigan State University",
+    "city": "East Lansing",
+    "city_slug": "east-lansing",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "grand-valley-state-university-170082",
+      "institution_name": "Grand Valley State University",
+      "earnings_median_5yr": 112479,
+      "earnings_median_4yr": 92029,
+      "debt_median": 30124,
+      "completers": 95,
+      "completers_single_year": 68,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "davenport-university-169479",
+      "institution_name": "Davenport University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 20378,
+      "cost_total_default": 122268,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 162832,
+      "earnings_anchor_year": 5,
+      "debt_median": 78686,
+      "cip_family": "52",
+      "hs_baseline_state": 36900
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 1989198,
+      "breakeven_year": 7
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

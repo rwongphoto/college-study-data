@@ -1,0 +1,308 @@
+{
+  "institution_unitid": "236948",
+  "institution_name": "University of Washington-Seattle Campus",
+  "institution_slug": "university-of-washington-seattle-campus-236948",
+  "state": "wa",
+  "cip_code": "1107",
+  "cip_desc": "Computer Science.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1107-c3",
+  "earnings_median_4yr": 144297,
+  "earnings_median_5yr": 162117,
+  "earnings_count_4yr": 11,
+  "earnings_count_5yr": 13,
+  "debt_median": 15351,
+  "completers": 417,
+  "completers_single_year": 378,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 144297.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 162117.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 14000.0
+      },
+      {
+        "year": 2015,
+        "value": 15688.0
+      },
+      {
+        "year": 2016,
+        "value": 15109.0
+      },
+      {
+        "year": 2017,
+        "value": 15437.0
+      },
+      {
+        "year": 2018,
+        "value": 15351.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 184.0
+      },
+      {
+        "year": 2015,
+        "value": 206.0
+      },
+      {
+        "year": 2016,
+        "value": 289.0
+      },
+      {
+        "year": 2017,
+        "value": 360.0
+      },
+      {
+        "year": 2018,
+        "value": 378.0
+      },
+      {
+        "year": 2019,
+        "value": 417.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "completers",
+      "from_year": 2014,
+      "to_year": 2019,
+      "from_value": 184.0,
+      "to_value": 417.0,
+      "pct_change": 0.233,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Annual completers",
+      "summary": "Annual completers at Computer Science at University of Washington-Seattle Campus rose 23% between 2014 and 2019 (184 → 417).",
+      "magnitude_pct": 23.3,
+      "magnitude_abs": 233.0,
+      "baseline_year": 2014,
+      "recent_year": 2019,
+      "units": null,
+      "history": [],
+      "metric": "completers"
+    }
+  ],
+  "institution": {
+    "unitid": "236948",
+    "slug": "university-of-washington-seattle-campus-236948",
+    "name": "University of Washington-Seattle Campus",
+    "city": "Seattle",
+    "city_slug": "seattle",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "seattle-university-236595",
+      "institution_name": "Seattle University",
+      "earnings_median_5yr": 132713,
+      "earnings_median_4yr": 117447,
+      "debt_median": 21530,
+      "completers": 91,
+      "completers_single_year": 58,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "gonzaga-university-235316",
+      "institution_name": "Gonzaga University",
+      "earnings_median_5yr": 114331,
+      "earnings_median_4yr": 96165,
+      "debt_median": 27000,
+      "completers": 44,
+      "completers_single_year": 56,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "whitworth-university-237066",
+      "institution_name": "Whitworth University",
+      "earnings_median_5yr": 109771,
+      "earnings_median_4yr": 95883,
+      "debt_median": 27000,
+      "completers": 29,
+      "completers_single_year": 30,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "washington-state-university-236939",
+      "institution_name": "Washington State University",
+      "earnings_median_5yr": 108566,
+      "earnings_median_4yr": 93485,
+      "debt_median": 20000,
+      "completers": 176,
+      "completers_single_year": 165,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "central-washington-university-234827",
+      "institution_name": "Central Washington University",
+      "earnings_median_5yr": 106796,
+      "earnings_median_4yr": 93387,
+      "debt_median": 19435,
+      "completers": 43,
+      "completers_single_year": 45,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-puget-sound-236328",
+      "institution_name": "University of Puget Sound",
+      "earnings_median_5yr": 101929,
+      "earnings_median_4yr": 91488,
+      "debt_median": 25000,
+      "completers": 18,
+      "completers_single_year": 38,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bellevue-college-234669",
+      "institution_name": "Bellevue College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 32,
+      "completers_single_year": 40,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "city-university-of-seattle-234915",
+      "institution_name": "City University of Seattle",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "heritage-university-235422",
+      "institution_name": "Heritage University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-martin-s-university-236452",
+      "institution_name": "Saint Martin's University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "seattle-pacific-university-236577",
+      "institution_name": "Seattle Pacific University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 18908,
+      "completers": 27,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "walla-walla-university-236896",
+      "institution_name": "Walla Walla University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "whitman-college-237057",
+      "institution_name": "Whitman College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 13,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 7817,
+      "cost_total_default": 31268,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 162117,
+      "earnings_anchor_year": 5,
+      "debt_median": 15351,
+      "cip_family": "11",
+      "hs_baseline_state": 41200
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 2557271,
+      "breakeven_year": 4
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

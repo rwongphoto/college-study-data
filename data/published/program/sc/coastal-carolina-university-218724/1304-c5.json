@@ -1,0 +1,318 @@
+{
+  "institution_unitid": "218724",
+  "institution_name": "Coastal Carolina University",
+  "institution_slug": "coastal-carolina-university-218724",
+  "state": "sc",
+  "cip_code": "1304",
+  "cip_desc": "Educational Administration and Supervision.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "1304-c5",
+  "earnings_median_4yr": 62386,
+  "earnings_median_5yr": 72471,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": 30750,
+  "completers": 20,
+  "completers_single_year": 35,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 62386.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 72471.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 24277.0
+      },
+      {
+        "year": 2015,
+        "value": 19973.0
+      },
+      {
+        "year": 2016,
+        "value": 20500.0
+      },
+      {
+        "year": 2017,
+        "value": 24739.0
+      },
+      {
+        "year": 2018,
+        "value": 30750.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 29.0
+      },
+      {
+        "year": 2015,
+        "value": 43.0
+      },
+      {
+        "year": 2016,
+        "value": 47.0
+      },
+      {
+        "year": 2017,
+        "value": 34.0
+      },
+      {
+        "year": 2018,
+        "value": 35.0
+      },
+      {
+        "year": 2019,
+        "value": 20.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 24277.0,
+      "to_value": 30750.0,
+      "pct_change": 0.2666309675824855,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Educational Administration and Supervision at Coastal Carolina University rose 27% between 2014 and 2018 ($24.3k → $30.8k).",
+      "magnitude_pct": 26.7,
+      "magnitude_abs": 6473.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "218724",
+    "slug": "coastal-carolina-university-218724",
+    "name": "Coastal Carolina University",
+    "city": "Conway",
+    "city_slug": "conway",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "charleston-southern-university-217688",
+      "institution_name": "Charleston Southern University",
+      "earnings_median_5yr": 75959,
+      "earnings_median_4yr": 58363,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 37,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "winthrop-university-218964",
+      "institution_name": "Winthrop University",
+      "earnings_median_5yr": 71529,
+      "earnings_median_4yr": 64207,
+      "debt_median": 33997,
+      "completers": 12,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "converse-university-217961",
+      "institution_name": "Converse University",
+      "earnings_median_5yr": 69884,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-south-carolina-columbia-218663",
+      "institution_name": "University of South Carolina-Columbia",
+      "earnings_median_5yr": 68542,
+      "earnings_median_4yr": 62806,
+      "debt_median": 32251,
+      "completers": 73,
+      "completers_single_year": 43,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "anderson-university-217633",
+      "institution_name": "Anderson University",
+      "earnings_median_5yr": 66910,
+      "earnings_median_4yr": 61529,
+      "debt_median": 27177,
+      "completers": 25,
+      "completers_single_year": 32,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southern-wesleyan-university-217776",
+      "institution_name": "Southern Wesleyan University",
+      "earnings_median_5yr": 64054,
+      "earnings_median_4yr": 58586,
+      "debt_median": 31566,
+      "completers": 32,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bob-jones-university-217749",
+      "institution_name": "Bob Jones University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "citadel-military-college-of-south-carolina-217864",
+      "institution_name": "Citadel Military College of South Carolina",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 27980,
+      "completers": 13,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "clemson-university-217882",
+      "institution_name": "Clemson University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "columbia-international-university-217925",
+      "institution_name": "Columbia International University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "columbia-college-217934",
+      "institution_name": "Columbia College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 19329,
+      "completers": 24,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "furman-university-218070",
+      "institution_name": "Furman University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "north-greenville-university-218441",
+      "institution_name": "North Greenville University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-south-carolina-aiken-218645",
+      "institution_name": "University of South Carolina Aiken",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 13209,
+      "cost_total_default": 79254,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 72471,
+      "earnings_anchor_year": 5,
+      "debt_median": 30750,
+      "cip_family": "13",
+      "hs_baseline_state": 33700
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 458261,
+      "breakeven_year": 9
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

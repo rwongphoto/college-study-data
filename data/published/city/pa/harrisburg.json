@@ -1,0 +1,688 @@
+{
+  "state": "pa",
+  "name": "Harrisburg",
+  "slug": "harrisburg",
+  "institution_count": 3,
+  "institutions": [
+    {
+      "unitid": "483346",
+      "slug": "barber-and-beauty-academy-of-pennsylvania-483346",
+      "name": "Barber and Beauty Academy of Pennsylvania",
+      "city": "Harrisburg",
+      "city_slug": "harrisburg",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 23257
+        },
+        {
+          "year": 8,
+          "value": null
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": 0.8333,
+      "completion_rate_history": [],
+      "enrollment_undergrad": 44,
+      "enrollment_history": [],
+      "median_debt": 3167,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "median_debt",
+          "from_year": 2014,
+          "to_year": 2017,
+          "from_value": 3419.5,
+          "to_value": 7687.0,
+          "pct_change": 1.2479894721450504,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2016,
+          "to_year": 2024,
+          "from_value": 0.125,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2014,
+          "to_year": 2024,
+          "from_value": 0.5,
+          "to_value": 0.1314,
+          "pct_change": -0.7372000000000001,
+          "direction": "fell"
+        }
+      ]
+    },
+    {
+      "unitid": "212878",
+      "slug": "harrisburg-area-community-college-212878",
+      "name": "Harrisburg Area Community College",
+      "city": "Harrisburg",
+      "city_slug": "harrisburg",
+      "control": "public",
+      "pred_degree": "associates",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 42007,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 36499
+        },
+        {
+          "year": 8,
+          "value": 39606
+        },
+        {
+          "year": 10,
+          "value": 42007
+        }
+      ],
+      "completion_rate_150": 0.2054,
+      "completion_rate_history": [
+        {
+          "year": 1997,
+          "value": 0.1719
+        },
+        {
+          "year": 1998,
+          "value": 0.1945
+        },
+        {
+          "year": 1999,
+          "value": 0.1798
+        },
+        {
+          "year": 2000,
+          "value": 0.1744
+        },
+        {
+          "year": 2001,
+          "value": 0.1588
+        },
+        {
+          "year": 2002,
+          "value": 0.1789
+        },
+        {
+          "year": 2003,
+          "value": 0.1617
+        },
+        {
+          "year": 2004,
+          "value": 0.214
+        },
+        {
+          "year": 2005,
+          "value": 0.2256
+        },
+        {
+          "year": 2006,
+          "value": 0.1949
+        },
+        {
+          "year": 2007,
+          "value": 0.1768
+        },
+        {
+          "year": 2008,
+          "value": 0.1706
+        },
+        {
+          "year": 2009,
+          "value": 0.1394
+        }
+      ],
+      "enrollment_undergrad": 9802,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 6426.0
+        },
+        {
+          "year": 1997,
+          "value": 6408.0
+        },
+        {
+          "year": 1998,
+          "value": 6319.0
+        },
+        {
+          "year": 1999,
+          "value": 6521.0
+        },
+        {
+          "year": 2001,
+          "value": 3615.0
+        },
+        {
+          "year": 2002,
+          "value": 4376.0
+        },
+        {
+          "year": 2003,
+          "value": 4928.0
+        },
+        {
+          "year": 2004,
+          "value": 5090.0
+        },
+        {
+          "year": 2005,
+          "value": 5485.0
+        },
+        {
+          "year": 2006,
+          "value": 6279.0
+        },
+        {
+          "year": 2007,
+          "value": 5967.0
+        },
+        {
+          "year": 2008,
+          "value": 5866.0
+        },
+        {
+          "year": 2009,
+          "value": 13547.0
+        },
+        {
+          "year": 2010,
+          "value": 14376.0
+        },
+        {
+          "year": 2011,
+          "value": 14164.0
+        },
+        {
+          "year": 2012,
+          "value": 13698.0
+        },
+        {
+          "year": 2013,
+          "value": 13321.0
+        },
+        {
+          "year": 2014,
+          "value": 18349.0
+        },
+        {
+          "year": 2015,
+          "value": 17235.0
+        },
+        {
+          "year": 2016,
+          "value": 16655.0
+        },
+        {
+          "year": 2017,
+          "value": 15968.0
+        },
+        {
+          "year": 2018,
+          "value": 15099.0
+        },
+        {
+          "year": 2019,
+          "value": 14458.0
+        },
+        {
+          "year": 2020,
+          "value": 12616.0
+        },
+        {
+          "year": 2021,
+          "value": 11295.0
+        },
+        {
+          "year": 2022,
+          "value": 9854.0
+        },
+        {
+          "year": 2023,
+          "value": 9802.0
+        },
+        {
+          "year": 2024,
+          "value": 9533.0
+        }
+      ],
+      "median_debt": 9500,
+      "default_rate": 0.0,
+      "tuition_in_state": 7373,
+      "tuition_out_of_state": 11400,
+      "long_arc": [
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 1996,
+          "to_year": 2024,
+          "from_value": 6426.0,
+          "to_value": 9533.0,
+          "pct_change": 0.4835045129162776,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_in_state",
+          "from_year": 2000,
+          "to_year": 2024,
+          "from_value": 2175.0,
+          "to_value": 6975.0,
+          "pct_change": 2.206896551724138,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2000,
+          "to_year": 2009,
+          "from_value": 6225.0,
+          "to_value": 8790.0,
+          "pct_change": 0.41204819277108434,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 1997,
+          "to_year": 2020,
+          "from_value": 2795.0,
+          "to_value": 17500.0,
+          "pct_change": 5.261180679785331,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.126,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2008,
+          "to_year": 2024,
+          "from_value": 0.2236,
+          "to_value": 0.3323,
+          "pct_change": 0.4861359570661896,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_8yr",
+          "from_year": 2005,
+          "to_year": 2020,
+          "from_value": 32900.0,
+          "to_value": 39606.0,
+          "pct_change": 0.20382978723404255,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "unitid": "446640",
+      "slug": "harrisburg-university-of-science-and-technology-446640",
+      "name": "Harrisburg University of Science and Technology",
+      "city": "Harrisburg",
+      "city_slug": "harrisburg",
+      "control": "private_nonprofit",
+      "pred_degree": "bachelors",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 52374,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 34365
+        },
+        {
+          "year": 8,
+          "value": 41842
+        },
+        {
+          "year": 10,
+          "value": 52374
+        }
+      ],
+      "completion_rate_150": 0.4337,
+      "completion_rate_history": [],
+      "enrollment_undergrad": 650,
+      "enrollment_history": [
+        {
+          "year": 2006,
+          "value": 92.0
+        },
+        {
+          "year": 2007,
+          "value": 142.0
+        },
+        {
+          "year": 2008,
+          "value": 142.0
+        },
+        {
+          "year": 2009,
+          "value": 141.0
+        }
+      ],
+      "median_debt": 11848,
+      "default_rate": 0.0,
+      "tuition_in_state": 23900,
+      "tuition_out_of_state": 23900,
+      "long_arc": [
+        {
+          "metric": "completion_rate_100",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.0303,
+          "to_value": 0.2312,
+          "pct_change": 6.63036303630363,
+          "direction": "rose"
+        },
+        {
+          "metric": "retention_rate",
+          "from_year": 2006,
+          "to_year": 2024,
+          "from_value": 0.36,
+          "to_value": 0.7388,
+          "pct_change": 1.0522222222222224,
+          "direction": "rose"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 2006,
+          "to_year": 2009,
+          "from_value": 92.0,
+          "to_value": 141.0,
+          "pct_change": 0.245,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_in_state",
+          "from_year": 2006,
+          "to_year": 2024,
+          "from_value": 14000.0,
+          "to_value": 24400.0,
+          "pct_change": 0.7428571428571429,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 2006,
+          "to_year": 2020,
+          "from_value": 4500.0,
+          "to_value": 27000.0,
+          "pct_change": 5.0,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.193,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "earnings_median_8yr",
+          "from_year": 2014,
+          "to_year": 2020,
+          "from_value": 31200.0,
+          "to_value": 41842.0,
+          "pct_change": 0.3410897435897436,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_6yr",
+          "from_year": 2013,
+          "to_year": 2020,
+          "from_value": 27800.0,
+          "to_value": 34365.0,
+          "pct_change": 0.23615107913669064,
+          "direction": "rose"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": 47190,
+  "completion_rate_city": 0.4337,
+  "completion_history_city": [
+    {
+      "year": 1997,
+      "value": 0.1719
+    },
+    {
+      "year": 1998,
+      "value": 0.1945
+    },
+    {
+      "year": 1999,
+      "value": 0.1798
+    },
+    {
+      "year": 2000,
+      "value": 0.1744
+    },
+    {
+      "year": 2001,
+      "value": 0.1588
+    },
+    {
+      "year": 2002,
+      "value": 0.1789
+    },
+    {
+      "year": 2003,
+      "value": 0.1617
+    },
+    {
+      "year": 2004,
+      "value": 0.214
+    },
+    {
+      "year": 2005,
+      "value": 0.2256
+    },
+    {
+      "year": 2006,
+      "value": 0.1949
+    },
+    {
+      "year": 2007,
+      "value": 0.1768
+    },
+    {
+      "year": 2008,
+      "value": 0.1706
+    },
+    {
+      "year": 2009,
+      "value": 0.1394
+    }
+  ],
+  "enrollment_history_city": [
+    {
+      "year": 1996,
+      "value": 6426.0
+    },
+    {
+      "year": 1997,
+      "value": 6408.0
+    },
+    {
+      "year": 1998,
+      "value": 6319.0
+    },
+    {
+      "year": 1999,
+      "value": 6521.0
+    },
+    {
+      "year": 2001,
+      "value": 3615.0
+    },
+    {
+      "year": 2002,
+      "value": 4376.0
+    },
+    {
+      "year": 2003,
+      "value": 4928.0
+    },
+    {
+      "year": 2004,
+      "value": 5090.0
+    },
+    {
+      "year": 2005,
+      "value": 5485.0
+    },
+    {
+      "year": 2006,
+      "value": 6371.0
+    },
+    {
+      "year": 2007,
+      "value": 6109.0
+    },
+    {
+      "year": 2008,
+      "value": 6008.0
+    },
+    {
+      "year": 2009,
+      "value": 13688.0
+    },
+    {
+      "year": 2010,
+      "value": 14376.0
+    },
+    {
+      "year": 2011,
+      "value": 14164.0
+    },
+    {
+      "year": 2012,
+      "value": 13698.0
+    },
+    {
+      "year": 2013,
+      "value": 13321.0
+    },
+    {
+      "year": 2014,
+      "value": 18349.0
+    },
+    {
+      "year": 2015,
+      "value": 17235.0
+    },
+    {
+      "year": 2016,
+      "value": 16655.0
+    },
+    {
+      "year": 2017,
+      "value": 15968.0
+    },
+    {
+      "year": 2018,
+      "value": 15099.0
+    },
+    {
+      "year": 2019,
+      "value": 14458.0
+    },
+    {
+      "year": 2020,
+      "value": 12616.0
+    },
+    {
+      "year": 2021,
+      "value": 11295.0
+    },
+    {
+      "year": 2022,
+      "value": 9854.0
+    },
+    {
+      "year": 2023,
+      "value": 9802.0
+    },
+    {
+      "year": 2024,
+      "value": 9533.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

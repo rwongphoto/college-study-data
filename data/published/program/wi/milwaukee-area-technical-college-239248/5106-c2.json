@@ -1,0 +1,240 @@
+{
+  "institution_unitid": "239248",
+  "institution_name": "Milwaukee Area Technical College",
+  "institution_slug": "milwaukee-area-technical-college-239248",
+  "state": "wi",
+  "cip_code": "5106",
+  "cip_desc": "Dental Support Services and Allied Professions.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "5106-c2",
+  "earnings_median_4yr": 54011,
+  "earnings_median_5yr": 54989,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 3,
+  "debt_median": 15750,
+  "completers": 37,
+  "completers_single_year": 30,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 54011.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 54989.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 13500.0
+      },
+      {
+        "year": 2015,
+        "value": 12375.0
+      },
+      {
+        "year": 2016,
+        "value": 10225.0
+      },
+      {
+        "year": 2018,
+        "value": 15750.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 33.0
+      },
+      {
+        "year": 2015,
+        "value": 30.0
+      },
+      {
+        "year": 2016,
+        "value": 29.0
+      },
+      {
+        "year": 2017,
+        "value": 37.0
+      },
+      {
+        "year": 2018,
+        "value": 30.0
+      },
+      {
+        "year": 2019,
+        "value": 37.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "239248",
+    "slug": "milwaukee-area-technical-college-239248",
+    "name": "Milwaukee Area Technical College",
+    "city": "Milwaukee",
+    "city_slug": "milwaukee",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "waukesha-county-technical-college-240125",
+      "institution_name": "Waukesha County Technical College",
+      "earnings_median_5yr": 61400,
+      "earnings_median_4yr": 50207,
+      "debt_median": 18091,
+      "completers": 14,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northeast-wisconsin-technical-college-239488",
+      "institution_name": "Northeast Wisconsin Technical College",
+      "earnings_median_5yr": 57466,
+      "earnings_median_4yr": 50628,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "herzing-university-madison-240392",
+      "institution_name": "Herzing University-Madison",
+      "earnings_median_5yr": 54421,
+      "earnings_median_4yr": 50191,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northcentral-technical-college-239460",
+      "institution_name": "Northcentral Technical College",
+      "earnings_median_5yr": 47371,
+      "earnings_median_4yr": 46241,
+      "debt_median": 9499,
+      "completers": 36,
+      "completers_single_year": 28,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "fox-valley-technical-college-238722",
+      "institution_name": "Fox Valley Technical College",
+      "earnings_median_5yr": 46354,
+      "earnings_median_4yr": 41288,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "madison-area-technical-college-238263",
+      "institution_name": "Madison Area Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 14407,
+      "completers": 33,
+      "completers_single_year": 32,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "nicolet-area-technical-college-239442",
+      "institution_name": "Nicolet Area Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southwest-wisconsin-technical-college-239910",
+      "institution_name": "Southwest Wisconsin Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "chippewa-valley-technical-college-240116",
+      "institution_name": "Chippewa Valley Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 52505,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 10820,
+      "cost_total_default": 21640,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 54989,
+      "earnings_anchor_year": 5,
+      "debt_median": 15750,
+      "cip_family": "51",
+      "hs_baseline_state": 37100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 382395,
+      "breakeven_year": 4
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

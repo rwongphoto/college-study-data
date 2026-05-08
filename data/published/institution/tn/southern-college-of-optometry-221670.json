@@ -1,0 +1,559 @@
+{
+  "institution": {
+    "unitid": "221670",
+    "opeid6": "003517",
+    "name": "Southern College of Optometry",
+    "slug": "southern-college-of-optometry-221670",
+    "state": "tn",
+    "city": "Memphis",
+    "city_slug": "memphis",
+    "zip5": "38104",
+    "address": "1245 Madison Ave",
+    "latitude": 35.138252,
+    "longitude": -90.019856,
+    "control": "private_nonprofit",
+    "pred_degree": "graduate",
+    "highest_degree": "masters",
+    "main_campus": true,
+    "locale": "11",
+    "carnegie_basic": 26,
+    "sector_code": 2,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": null,
+    "completion_rate_100": null,
+    "retention_rate": null,
+    "admission_rate": null,
+    "enrollment_undergrad": null,
+    "enrollment_total": null,
+    "cost_attendance": null,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": null,
+    "cost_by_income": null,
+    "median_debt": null,
+    "default_rate": 0.0,
+    "pell_share": null,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [],
+      "admission_rate": [],
+      "enrollment_undergrad": [],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [],
+      "median_debt": [
+        {
+          "year": 2008,
+          "value": 1752.0
+        },
+        {
+          "year": 2009,
+          "value": 3723.0
+        }
+      ],
+      "default_rate": [
+        {
+          "year": 2011,
+          "value": 0.0
+        },
+        {
+          "year": 2012,
+          "value": 0.008
+        },
+        {
+          "year": 2013,
+          "value": 0.0
+        },
+        {
+          "year": 2014,
+          "value": 0.0
+        },
+        {
+          "year": 2015,
+          "value": 0.0
+        },
+        {
+          "year": 2016,
+          "value": 0.0
+        },
+        {
+          "year": 2017,
+          "value": 0.0
+        },
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        },
+        {
+          "year": 2020,
+          "value": 0.0
+        },
+        {
+          "year": 2021,
+          "value": 0.0
+        },
+        {
+          "year": 2022,
+          "value": 0.0
+        },
+        {
+          "year": 2023,
+          "value": 0.0
+        },
+        {
+          "year": 2024,
+          "value": 0.0
+        }
+      ],
+      "pell_share": [],
+      "earnings_median_6yr": [
+        {
+          "year": 2005,
+          "value": 84100.0
+        },
+        {
+          "year": 2009,
+          "value": 87200.0
+        },
+        {
+          "year": 2011,
+          "value": 87300.0
+        },
+        {
+          "year": 2012,
+          "value": 89300.0
+        },
+        {
+          "year": 2013,
+          "value": 94800.0
+        },
+        {
+          "year": 2014,
+          "value": 99300.0
+        }
+      ],
+      "earnings_median_8yr": [
+        {
+          "year": 2007,
+          "value": 89900.0
+        },
+        {
+          "year": 2011,
+          "value": 86500.0
+        },
+        {
+          "year": 2012,
+          "value": 84800.0
+        },
+        {
+          "year": 2013,
+          "value": 87800.0
+        },
+        {
+          "year": 2014,
+          "value": 97600.0
+        }
+      ],
+      "earnings_median_10yr": [
+        {
+          "year": 2009,
+          "value": 100100.0
+        },
+        {
+          "year": 2012,
+          "value": 83800.0
+        },
+        {
+          "year": 2013,
+          "value": 86000.0
+        },
+        {
+          "year": 2014,
+          "value": 89300.0
+        }
+      ]
+    },
+    "long_arc": [
+      {
+        "metric": "median_debt",
+        "from_year": 2008,
+        "to_year": 2009,
+        "from_value": 1752.0,
+        "to_value": 3723.0,
+        "pct_change": 1.125,
+        "direction": "rose"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "Median federal debt at exit",
+        "summary": "Median federal debt at exit at Southern College of Optometry rose 112% between 2008 and 2009 ($1.8k → $3.7k).",
+        "magnitude_pct": 112.5,
+        "magnitude_abs": 1971.0,
+        "baseline_year": 2008,
+        "recent_year": 2009,
+        "units": null,
+        "history": [],
+        "metric": "median_debt"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "51": [
+      {
+        "slug": "5117-c7",
+        "cip_code": "5117",
+        "cip_desc": "Optometry.",
+        "credential_level": 7,
+        "credential_desc": "First Professional Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 134,
+        "completers_single_year": 129,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 128.0
+          },
+          {
+            "year": 2015,
+            "value": 124.0
+          },
+          {
+            "year": 2016,
+            "value": 131.0
+          },
+          {
+            "year": 2017,
+            "value": 132.0
+          },
+          {
+            "year": 2018,
+            "value": 129.0
+          },
+          {
+            "year": 2019,
+            "value": 134.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5117-c5",
+        "cip_code": "5117",
+        "cip_desc": "Optometry.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      },
+      {
+        "slug": "5117-c6",
+        "cip_code": "5117",
+        "cip_desc": "Optometry.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": 126422,
+        "earnings_median_4yr": 114757,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 126422.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 114757.0
+          }
+        ],
+        "debt_median": null,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 128283.0
+          },
+          {
+            "year": 2015,
+            "value": 135208.0
+          },
+          {
+            "year": 2016,
+            "value": 143922.0
+          },
+          {
+            "year": 2017,
+            "value": 149682.0
+          }
+        ],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "5117-c7",
+      "cip_code": "5117",
+      "cip_desc": "Optometry.",
+      "credential_level": 7,
+      "credential_desc": "First Professional Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 134,
+      "completers_single_year": 129,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 128.0
+        },
+        {
+          "year": 2015,
+          "value": 124.0
+        },
+        {
+          "year": 2016,
+          "value": 131.0
+        },
+        {
+          "year": 2017,
+          "value": 132.0
+        },
+        {
+          "year": 2018,
+          "value": 129.0
+        },
+        {
+          "year": 2019,
+          "value": 134.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5117-c5",
+      "cip_code": "5117",
+      "cip_desc": "Optometry.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    },
+    {
+      "slug": "5117-c6",
+      "cip_code": "5117",
+      "cip_desc": "Optometry.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": 126422,
+      "earnings_median_4yr": 114757,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 126422.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 114757.0
+        }
+      ],
+      "debt_median": null,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 128283.0
+        },
+        {
+          "year": 2015,
+          "value": 135208.0
+        },
+        {
+          "year": 2016,
+          "value": 143922.0
+        },
+        {
+          "year": 2017,
+          "value": 149682.0
+        }
+      ],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    }
+  ],
+  "program_count": 3,
+  "similar": [
+    {
+      "slug": "middle-tennessee-school-of-anesthesia-inc-220996",
+      "name": "Middle Tennessee School of Anesthesia Inc",
+      "city": "Madison",
+      "control": "private_nonprofit",
+      "pred_degree": "graduate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": null
+    },
+    {
+      "slug": "richmont-graduate-university-441104",
+      "name": "Richmont Graduate University",
+      "city": "Chattanooga",
+      "control": "private_nonprofit",
+      "pred_degree": "graduate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": null
+    },
+    {
+      "slug": "meharry-medical-college-220792",
+      "name": "Meharry Medical College",
+      "city": "Nashville",
+      "control": "private_nonprofit",
+      "pred_degree": "graduate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": null
+    },
+    {
+      "slug": "memphis-theological-seminary-220871",
+      "name": "Memphis Theological Seminary",
+      "city": "Memphis",
+      "control": "private_nonprofit",
+      "pred_degree": "graduate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": null
+    },
+    {
+      "slug": "omega-graduate-school-461120",
+      "name": "Omega Graduate School",
+      "city": "Dayton",
+      "control": "private_nonprofit",
+      "pred_degree": "graduate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": null
+    }
+  ],
+  "roi": {
+    "default_program_slug": null,
+    "programs_available": [
+      {
+        "slug": "5117-c7",
+        "label": "Optometry · First Professional Degree",
+        "cip_family": "51",
+        "completers": 134,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 7,
+        "default_result": null
+      },
+      {
+        "slug": "5117-c5",
+        "label": "Optometry · Master's Degree",
+        "cip_family": "51",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "5117-c6",
+        "label": "Optometry · Doctoral Degree",
+        "cip_family": "51",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": 126422,
+        "earnings_anchor_year": 5,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      }
+    ]
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

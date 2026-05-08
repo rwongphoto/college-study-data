@@ -1,0 +1,172 @@
+{
+  "institution_unitid": "172477",
+  "institution_name": "Thomas M Cooley Law School",
+  "institution_slug": "thomas-m-cooley-law-school-172477",
+  "state": "mi",
+  "cip_code": "2202",
+  "cip_desc": "Legal Research and Advanced Professional Studies.",
+  "credential_level": 7,
+  "credential_desc": "First Professional Degree",
+  "slug": "2202-c7",
+  "earnings_median_4yr": 72647,
+  "earnings_median_5yr": 84113,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 1,
+  "debt_median": 199224,
+  "completers": null,
+  "completers_single_year": null,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 72647.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 84113.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 136901.0
+      },
+      {
+        "year": 2015,
+        "value": 130683.0
+      },
+      {
+        "year": 2016,
+        "value": 172291.0
+      },
+      {
+        "year": 2017,
+        "value": 153980.0
+      },
+      {
+        "year": 2018,
+        "value": 199224.0
+      }
+    ],
+    "completers": []
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 136901.0,
+      "to_value": 199224.0,
+      "pct_change": 0.4552413788065829,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 31.6% at Legal Research and Advanced Professional Studies at Thomas M Cooley Law School exceeds the 8% gainful-employment threshold ($199.2k debt amortized over 10 years vs $84.1k earnings).",
+      "magnitude_pct": 31.6,
+      "magnitude_abs": 23.6,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    },
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Legal Research and Advanced Professional Studies at Thomas M Cooley Law School rose 46% between 2014 and 2018 ($136.9k → $199.2k).",
+      "magnitude_pct": 45.5,
+      "magnitude_abs": 62323.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "172477",
+    "slug": "thomas-m-cooley-law-school-172477",
+    "name": "Thomas M Cooley Law School",
+    "city": "Lansing",
+    "city_slug": "lansing",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "michigan-state-university-171100",
+      "institution_name": "Michigan State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 7,
+      "cost_per_year_default": null,
+      "cost_total_default": null,
+      "cost_source": null,
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 84113,
+      "earnings_anchor_year": 5,
+      "debt_median": 199224,
+      "cip_family": "22"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

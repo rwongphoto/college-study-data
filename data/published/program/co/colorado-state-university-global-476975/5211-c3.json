@@ -1,0 +1,123 @@
+{
+  "institution_unitid": "476975",
+  "institution_name": "Colorado State University Global",
+  "institution_slug": "colorado-state-university-global-476975",
+  "state": "co",
+  "cip_code": "5211",
+  "cip_desc": "International Business.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5211-c3",
+  "earnings_median_4yr": 59539,
+  "earnings_median_5yr": 77129,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 3,
+  "debt_median": null,
+  "completers": null,
+  "completers_single_year": null,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 59539.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 77129.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 18135.0
+      }
+    ],
+    "completers": []
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "476975",
+    "slug": "colorado-state-university-global-476975",
+    "name": "Colorado State University Global",
+    "city": "Aurora",
+    "city_slug": "aurora",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-denver-127060",
+      "institution_name": "University of Denver",
+      "earnings_median_5yr": 83881,
+      "earnings_median_4yr": 64023,
+      "debt_median": 21742,
+      "completers": 33,
+      "completers_single_year": 35,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 16004,
+      "cost_total_default": 64016,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 77129,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "52",
+      "hs_baseline_state": 40100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 670136,
+      "breakeven_year": 7
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

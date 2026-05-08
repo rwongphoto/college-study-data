@@ -1,0 +1,248 @@
+{
+  "institution_unitid": "178396",
+  "institution_name": "University of Missouri-Columbia",
+  "institution_slug": "university-of-missouri-columbia-178396",
+  "state": "mo",
+  "cip_code": "5138",
+  "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+  "credential_level": 6,
+  "credential_desc": "Doctoral Degree",
+  "slug": "5138-c6",
+  "earnings_median_4yr": 110806,
+  "earnings_median_5yr": 120764,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 1,
+  "debt_median": 28485,
+  "completers": 56,
+  "completers_single_year": 51,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 110806.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 120764.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 70000.0
+      },
+      {
+        "year": 2015,
+        "value": 61579.0
+      },
+      {
+        "year": 2016,
+        "value": 60834.0
+      },
+      {
+        "year": 2017,
+        "value": 53500.0
+      },
+      {
+        "year": 2018,
+        "value": 28485.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 38.0
+      },
+      {
+        "year": 2015,
+        "value": 57.0
+      },
+      {
+        "year": 2016,
+        "value": 53.0
+      },
+      {
+        "year": 2017,
+        "value": 54.0
+      },
+      {
+        "year": 2018,
+        "value": 51.0
+      },
+      {
+        "year": 2019,
+        "value": 56.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 70000.0,
+      "to_value": 28485.0,
+      "pct_change": -0.5930714285714286,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing at University of Missouri-Columbia fell 59% between 2014 and 2018 ($70.0k → $28.5k).",
+      "magnitude_pct": -59.3,
+      "magnitude_abs": -41515.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "178396",
+    "slug": "university-of-missouri-columbia-178396",
+    "name": "University of Missouri-Columbia",
+    "city": "Columbia",
+    "city_slug": "columbia",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-missouri-kansas-city-178402",
+      "institution_name": "University of Missouri-Kansas City",
+      "earnings_median_5yr": 224447,
+      "earnings_median_4yr": 206670,
+      "debt_median": 105723,
+      "completers": 52,
+      "completers_single_year": 63,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "maryville-university-of-saint-louis-178059",
+      "institution_name": "Maryville University of Saint Louis",
+      "earnings_median_5yr": 130972,
+      "earnings_median_4yr": 126349,
+      "debt_median": 79690,
+      "completers": 77,
+      "completers_single_year": 50,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "barnes-jewish-college-goldfarb-school-of-nursing-177719",
+      "institution_name": "Barnes-Jewish College Goldfarb School of Nursing",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-missouri-st-louis-178420",
+      "institution_name": "University of Missouri-St Louis",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 59000,
+      "completers": 41,
+      "completers_single_year": 33,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-louis-university-179159",
+      "institution_name": "Saint Louis University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "missouri-state-university-springfield-179566",
+      "institution_name": "Missouri State University-Springfield",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 69145,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "washington-university-in-st-louis-179867",
+      "institution_name": "Washington University in St Louis",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 8,
+      "cost_per_year_default": 15707,
+      "cost_total_default": 125656,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 120764,
+      "earnings_anchor_year": 5,
+      "debt_median": 28485,
+      "cip_family": "51",
+      "hs_baseline_state": 35100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 1077766,
+      "breakeven_year": 10
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

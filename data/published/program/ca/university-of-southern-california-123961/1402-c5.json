@@ -1,0 +1,253 @@
+{
+  "institution_unitid": "123961",
+  "institution_name": "University of Southern California",
+  "institution_slug": "university-of-southern-california-123961",
+  "state": "ca",
+  "cip_code": "1402",
+  "cip_desc": "Aerospace, Aeronautical and Astronautical Engineering.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "1402-c5",
+  "earnings_median_4yr": 124292,
+  "earnings_median_5yr": 142250,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 3,
+  "debt_median": 55288,
+  "completers": 108,
+  "completers_single_year": 91,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 124292.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 142250.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 30750.0
+      },
+      {
+        "year": 2015,
+        "value": 49166.0
+      },
+      {
+        "year": 2016,
+        "value": 49770.0
+      },
+      {
+        "year": 2017,
+        "value": 44168.0
+      },
+      {
+        "year": 2018,
+        "value": 55288.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 76.0
+      },
+      {
+        "year": 2015,
+        "value": 90.0
+      },
+      {
+        "year": 2016,
+        "value": 88.0
+      },
+      {
+        "year": 2017,
+        "value": 92.0
+      },
+      {
+        "year": 2018,
+        "value": 91.0
+      },
+      {
+        "year": 2019,
+        "value": 108.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 30750.0,
+      "to_value": 55288.0,
+      "pct_change": 0.7979837398373983,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Aerospace, Aeronautical and Astronautical Engineering at University of Southern California rose 80% between 2014 and 2018 ($30.8k → $55.3k).",
+      "magnitude_pct": 79.8,
+      "magnitude_abs": 24538.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "123961",
+    "slug": "university-of-southern-california-123961",
+    "name": "University of Southern California",
+    "city": "Los Angeles",
+    "city_slug": "los-angeles",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "stanford-university-243744",
+      "institution_name": "Stanford University",
+      "earnings_median_5yr": 144702,
+      "earnings_median_4yr": 130927,
+      "debt_median": null,
+      "completers": 67,
+      "completers_single_year": 65,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-institute-of-technology-110404",
+      "institution_name": "California Institute of Technology",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-polytechnic-state-university-san-luis-obispo-110422",
+      "institution_name": "California Polytechnic State University-San Luis Obispo",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-state-university-long-beach-110583",
+      "institution_name": "California State University-Long Beach",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-california-los-angeles-110662",
+      "institution_name": "University of California-Los Angeles",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 29,
+      "completers_single_year": 29,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-california-san-diego-110680",
+      "institution_name": "University of California-San Diego",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 15,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "naval-postgraduate-school-119678",
+      "institution_name": "Naval Postgraduate School",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 32,
+      "completers_single_year": 54,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "san-diego-state-university-122409",
+      "institution_name": "San Diego State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "san-jose-state-university-122755",
+      "institution_name": "San Jose State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 22,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "santa-clara-university-122931",
+      "institution_name": "Santa Clara University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

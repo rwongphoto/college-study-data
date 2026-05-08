@@ -1,0 +1,188 @@
+{
+  "institution_unitid": "175342",
+  "institution_name": "Alcorn State University",
+  "institution_slug": "alcorn-state-university-175342",
+  "state": "ms",
+  "cip_code": "0101",
+  "cip_desc": "Agricultural Business and Management.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "0101-c3",
+  "earnings_median_4yr": 53012,
+  "earnings_median_5yr": 57006,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 2,
+  "debt_median": 25125,
+  "completers": 24,
+  "completers_single_year": 21,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 53012.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 57006.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 38000.0
+      },
+      {
+        "year": 2015,
+        "value": 35000.0
+      },
+      {
+        "year": 2016,
+        "value": 32625.0
+      },
+      {
+        "year": 2017,
+        "value": 32000.0
+      },
+      {
+        "year": 2018,
+        "value": 25125.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 15.0
+      },
+      {
+        "year": 2015,
+        "value": 18.0
+      },
+      {
+        "year": 2016,
+        "value": 17.0
+      },
+      {
+        "year": 2017,
+        "value": 15.0
+      },
+      {
+        "year": 2018,
+        "value": 21.0
+      },
+      {
+        "year": 2019,
+        "value": 24.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 38000.0,
+      "to_value": 25125.0,
+      "pct_change": -0.33881578947368424,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Agricultural Business and Management at Alcorn State University fell 34% between 2014 and 2018 ($38.0k → $25.1k).",
+      "magnitude_pct": -33.9,
+      "magnitude_abs": -12875.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "175342",
+    "slug": "alcorn-state-university-175342",
+    "name": "Alcorn State University",
+    "city": "Alcorn State",
+    "city_slug": "alcorn-state",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "mississippi-state-university-176080",
+      "institution_name": "Mississippi State University",
+      "earnings_median_5yr": 61250,
+      "earnings_median_4yr": 55090,
+      "debt_median": 19500,
+      "completers": 51,
+      "completers_single_year": 33,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 16450,
+      "cost_total_default": 65800,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 57006,
+      "earnings_anchor_year": 5,
+      "debt_median": 25125,
+      "cip_family": "01",
+      "hs_baseline_state": 30200
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 446280,
+      "breakeven_year": 9
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

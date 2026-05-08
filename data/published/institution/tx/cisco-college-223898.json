@@ -1,0 +1,5009 @@
+{
+  "institution": {
+    "unitid": "223898",
+    "opeid6": "003553",
+    "name": "Cisco College",
+    "slug": "cisco-college-223898",
+    "state": "tx",
+    "city": "Cisco",
+    "city_slug": "cisco",
+    "zip5": "76437",
+    "address": "101 College Heights",
+    "latitude": 32.401132,
+    "longitude": -98.985206,
+    "control": "public",
+    "pred_degree": "certificate",
+    "highest_degree": "associates",
+    "main_campus": true,
+    "locale": "43",
+    "carnegie_basic": 2,
+    "sector_code": 4,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": 34134,
+    "earnings_median_8yr": 34954,
+    "earnings_median_10yr": 39092,
+    "completion_rate_150": 0.3058,
+    "completion_rate_100": 0.0948,
+    "retention_rate": 0.5744,
+    "admission_rate": null,
+    "enrollment_undergrad": 2913,
+    "enrollment_total": null,
+    "cost_attendance": 16346,
+    "tuition_in_state": 4110,
+    "tuition_out_of_state": 5760,
+    "avg_net_price_pub": 9099,
+    "avg_net_price_priv": null,
+    "cost_by_income": {
+      "0_30k": 8820,
+      "30_48k": 8836,
+      "48_75k": 10228,
+      "75_110k": 8402,
+      "110k_plus": null,
+      "sticker": 16346,
+      "sector": "pub"
+    },
+    "median_debt": 6500,
+    "default_rate": 0.0,
+    "pell_share": 0.2419,
+    "history": {
+      "completion_rate_150": [
+        {
+          "year": 1999,
+          "value": 0.1854
+        },
+        {
+          "year": 2000,
+          "value": 0.1441
+        },
+        {
+          "year": 2001,
+          "value": 0.1355
+        },
+        {
+          "year": 2002,
+          "value": 0.1332
+        },
+        {
+          "year": 2003,
+          "value": 0.1483
+        },
+        {
+          "year": 2004,
+          "value": 0.1919
+        },
+        {
+          "year": 2005,
+          "value": 0.1736
+        },
+        {
+          "year": 2006,
+          "value": 0.1461
+        },
+        {
+          "year": 2007,
+          "value": 0.1151
+        },
+        {
+          "year": 2008,
+          "value": 0.1298
+        },
+        {
+          "year": 2009,
+          "value": 0.0848
+        }
+      ],
+      "completion_rate_100": [
+        {
+          "year": 2009,
+          "value": 0.0731
+        }
+      ],
+      "retention_rate": [
+        {
+          "year": 2004,
+          "value": 0.56
+        },
+        {
+          "year": 2005,
+          "value": 0.68
+        },
+        {
+          "year": 2006,
+          "value": 0.42
+        },
+        {
+          "year": 2007,
+          "value": 0.4185
+        },
+        {
+          "year": 2008,
+          "value": 0.4505
+        },
+        {
+          "year": 2009,
+          "value": 0.5194
+        },
+        {
+          "year": 2010,
+          "value": 0.5299
+        },
+        {
+          "year": 2011,
+          "value": 0.3188
+        },
+        {
+          "year": 2012,
+          "value": 0.2559
+        },
+        {
+          "year": 2013,
+          "value": 0.2466
+        },
+        {
+          "year": 2014,
+          "value": 0.5164
+        },
+        {
+          "year": 2015,
+          "value": 0.5172
+        },
+        {
+          "year": 2016,
+          "value": 0.4769
+        },
+        {
+          "year": 2017,
+          "value": 0.4797
+        },
+        {
+          "year": 2018,
+          "value": 0.5127
+        },
+        {
+          "year": 2019,
+          "value": 0.495
+        },
+        {
+          "year": 2020,
+          "value": 0.505
+        },
+        {
+          "year": 2021,
+          "value": 0.5719
+        },
+        {
+          "year": 2022,
+          "value": 0.5648
+        },
+        {
+          "year": 2023,
+          "value": 0.5744
+        },
+        {
+          "year": 2024,
+          "value": 0.6677
+        }
+      ],
+      "admission_rate": [],
+      "enrollment_undergrad": [
+        {
+          "year": 1996,
+          "value": 2583.0
+        },
+        {
+          "year": 1997,
+          "value": 2312.0
+        },
+        {
+          "year": 1998,
+          "value": 2443.0
+        },
+        {
+          "year": 1999,
+          "value": 2636.0
+        },
+        {
+          "year": 2001,
+          "value": 2502.0
+        },
+        {
+          "year": 2002,
+          "value": 2735.0
+        },
+        {
+          "year": 2003,
+          "value": 3032.0
+        },
+        {
+          "year": 2004,
+          "value": 3465.0
+        },
+        {
+          "year": 2005,
+          "value": 3379.0
+        },
+        {
+          "year": 2006,
+          "value": 2788.0
+        },
+        {
+          "year": 2007,
+          "value": 2628.0
+        },
+        {
+          "year": 2008,
+          "value": 3421.0
+        },
+        {
+          "year": 2009,
+          "value": 3898.0
+        },
+        {
+          "year": 2010,
+          "value": 4334.0
+        },
+        {
+          "year": 2011,
+          "value": 4229.0
+        },
+        {
+          "year": 2012,
+          "value": 3758.0
+        },
+        {
+          "year": 2013,
+          "value": 3496.0
+        },
+        {
+          "year": 2014,
+          "value": 3480.0
+        },
+        {
+          "year": 2015,
+          "value": 3183.0
+        },
+        {
+          "year": 2016,
+          "value": 3130.0
+        },
+        {
+          "year": 2017,
+          "value": 3160.0
+        },
+        {
+          "year": 2018,
+          "value": 3253.0
+        },
+        {
+          "year": 2019,
+          "value": 3442.0
+        },
+        {
+          "year": 2020,
+          "value": 3132.0
+        },
+        {
+          "year": 2021,
+          "value": 3019.0
+        },
+        {
+          "year": 2022,
+          "value": 2797.0
+        },
+        {
+          "year": 2023,
+          "value": 2913.0
+        },
+        {
+          "year": 2024,
+          "value": 1620.0
+        }
+      ],
+      "tuition_in_state": [
+        {
+          "year": 2000,
+          "value": 796.0
+        },
+        {
+          "year": 2001,
+          "value": 1036.0
+        },
+        {
+          "year": 2002,
+          "value": 1132.0
+        },
+        {
+          "year": 2003,
+          "value": 1372.0
+        },
+        {
+          "year": 2004,
+          "value": 1468.0
+        },
+        {
+          "year": 2005,
+          "value": 1564.0
+        },
+        {
+          "year": 2006,
+          "value": 1564.0
+        },
+        {
+          "year": 2007,
+          "value": 1594.0
+        },
+        {
+          "year": 2008,
+          "value": 1594.0
+        },
+        {
+          "year": 2009,
+          "value": 2028.0
+        },
+        {
+          "year": 2010,
+          "value": 2088.0
+        },
+        {
+          "year": 2011,
+          "value": 2088.0
+        },
+        {
+          "year": 2012,
+          "value": 2280.0
+        },
+        {
+          "year": 2013,
+          "value": 3060.0
+        },
+        {
+          "year": 2014,
+          "value": 3360.0
+        },
+        {
+          "year": 2015,
+          "value": 3510.0
+        },
+        {
+          "year": 2016,
+          "value": 3810.0
+        },
+        {
+          "year": 2017,
+          "value": 3810.0
+        },
+        {
+          "year": 2018,
+          "value": 3810.0
+        },
+        {
+          "year": 2019,
+          "value": 3810.0
+        },
+        {
+          "year": 2020,
+          "value": 3810.0
+        },
+        {
+          "year": 2021,
+          "value": 3810.0
+        },
+        {
+          "year": 2022,
+          "value": 4110.0
+        },
+        {
+          "year": 2023,
+          "value": 4110.0
+        },
+        {
+          "year": 2024,
+          "value": 4710.0
+        }
+      ],
+      "tuition_out_of_state": [
+        {
+          "year": 2000,
+          "value": 1246.0
+        },
+        {
+          "year": 2001,
+          "value": 1486.0
+        },
+        {
+          "year": 2002,
+          "value": 1750.0
+        },
+        {
+          "year": 2003,
+          "value": 1822.0
+        },
+        {
+          "year": 2004,
+          "value": 1918.0
+        },
+        {
+          "year": 2005,
+          "value": 2056.0
+        },
+        {
+          "year": 2006,
+          "value": 2134.0
+        },
+        {
+          "year": 2007,
+          "value": 2164.0
+        },
+        {
+          "year": 2008,
+          "value": 2284.0
+        },
+        {
+          "year": 2009,
+          "value": 2754.0
+        },
+        {
+          "year": 2010,
+          "value": 2874.0
+        },
+        {
+          "year": 2011,
+          "value": 3642.0
+        },
+        {
+          "year": 2012,
+          "value": 3842.0
+        },
+        {
+          "year": 2013,
+          "value": 3960.0
+        },
+        {
+          "year": 2014,
+          "value": 4260.0
+        },
+        {
+          "year": 2015,
+          "value": 4410.0
+        },
+        {
+          "year": 2016,
+          "value": 4710.0
+        },
+        {
+          "year": 2017,
+          "value": 4710.0
+        },
+        {
+          "year": 2018,
+          "value": 4710.0
+        },
+        {
+          "year": 2019,
+          "value": 4800.0
+        },
+        {
+          "year": 2020,
+          "value": 4860.0
+        },
+        {
+          "year": 2021,
+          "value": 5010.0
+        },
+        {
+          "year": 2022,
+          "value": 5310.0
+        },
+        {
+          "year": 2023,
+          "value": 5760.0
+        },
+        {
+          "year": 2024,
+          "value": 7140.0
+        }
+      ],
+      "cost_attendance": [
+        {
+          "year": 2009,
+          "value": 8693.0
+        },
+        {
+          "year": 2010,
+          "value": 8867.0
+        },
+        {
+          "year": 2011,
+          "value": 9997.0
+        },
+        {
+          "year": 2012,
+          "value": 11544.0
+        },
+        {
+          "year": 2013,
+          "value": 12321.0
+        },
+        {
+          "year": 2014,
+          "value": 12263.0
+        },
+        {
+          "year": 2015,
+          "value": 12971.0
+        },
+        {
+          "year": 2016,
+          "value": 13242.0
+        },
+        {
+          "year": 2017,
+          "value": 14119.0
+        },
+        {
+          "year": 2018,
+          "value": 14125.0
+        },
+        {
+          "year": 2019,
+          "value": 14931.0
+        },
+        {
+          "year": 2020,
+          "value": 15385.0
+        },
+        {
+          "year": 2021,
+          "value": 15135.0
+        },
+        {
+          "year": 2022,
+          "value": 14946.0
+        },
+        {
+          "year": 2023,
+          "value": 16346.0
+        },
+        {
+          "year": 2024,
+          "value": 17469.0
+        }
+      ],
+      "avg_net_price_pub": [
+        {
+          "year": 2009,
+          "value": 4065.0
+        },
+        {
+          "year": 2010,
+          "value": 3483.0
+        },
+        {
+          "year": 2011,
+          "value": 4761.0
+        },
+        {
+          "year": 2012,
+          "value": 6629.0
+        },
+        {
+          "year": 2013,
+          "value": 7434.0
+        },
+        {
+          "year": 2014,
+          "value": 6884.0
+        },
+        {
+          "year": 2015,
+          "value": 7877.0
+        },
+        {
+          "year": 2016,
+          "value": 7581.0
+        },
+        {
+          "year": 2017,
+          "value": 8457.0
+        },
+        {
+          "year": 2018,
+          "value": 8224.0
+        },
+        {
+          "year": 2019,
+          "value": 8650.0
+        },
+        {
+          "year": 2020,
+          "value": 7983.0
+        },
+        {
+          "year": 2021,
+          "value": 6984.0
+        },
+        {
+          "year": 2022,
+          "value": 5917.0
+        },
+        {
+          "year": 2023,
+          "value": 9099.0
+        },
+        {
+          "year": 2024,
+          "value": 9624.0
+        }
+      ],
+      "avg_net_price_priv": [],
+      "median_debt": [
+        {
+          "year": 1997,
+          "value": 2625.0
+        },
+        {
+          "year": 1998,
+          "value": 2625.0
+        },
+        {
+          "year": 1999,
+          "value": 2625.0
+        },
+        {
+          "year": 2000,
+          "value": 2625.0
+        },
+        {
+          "year": 2001,
+          "value": 2625.0
+        },
+        {
+          "year": 2002,
+          "value": 2625.0
+        },
+        {
+          "year": 2003,
+          "value": 2625.0
+        },
+        {
+          "year": 2004,
+          "value": 6125.0
+        },
+        {
+          "year": 2005,
+          "value": 5445.0
+        },
+        {
+          "year": 2006,
+          "value": 4437.5
+        },
+        {
+          "year": 2007,
+          "value": 4150.0
+        },
+        {
+          "year": 2008,
+          "value": 7029.0
+        },
+        {
+          "year": 2009,
+          "value": 9250.0
+        },
+        {
+          "year": 2010,
+          "value": 10933.0
+        },
+        {
+          "year": 2011,
+          "value": 8025.0
+        },
+        {
+          "year": 2012,
+          "value": 8025.0
+        },
+        {
+          "year": 2013,
+          "value": 10062.5
+        },
+        {
+          "year": 2014,
+          "value": 10062.5
+        },
+        {
+          "year": 2020,
+          "value": 9500.0
+        }
+      ],
+      "default_rate": [],
+      "pell_share": [
+        {
+          "year": 2008,
+          "value": 0.3423
+        },
+        {
+          "year": 2009,
+          "value": 0.3373
+        },
+        {
+          "year": 2010,
+          "value": 0.3967
+        },
+        {
+          "year": 2011,
+          "value": 0.3556
+        },
+        {
+          "year": 2012,
+          "value": 0.3494
+        },
+        {
+          "year": 2013,
+          "value": 0.343
+        },
+        {
+          "year": 2014,
+          "value": 0.3249
+        },
+        {
+          "year": 2015,
+          "value": 0.2578
+        },
+        {
+          "year": 2016,
+          "value": 0.2872
+        },
+        {
+          "year": 2017,
+          "value": 0.2737
+        },
+        {
+          "year": 2018,
+          "value": 0.3005
+        },
+        {
+          "year": 2019,
+          "value": 0.3059
+        },
+        {
+          "year": 2020,
+          "value": 0.2826
+        },
+        {
+          "year": 2021,
+          "value": 0.2626
+        },
+        {
+          "year": 2022,
+          "value": 0.2873
+        },
+        {
+          "year": 2023,
+          "value": 0.2419
+        },
+        {
+          "year": 2024,
+          "value": 0.2582
+        }
+      ],
+      "earnings_median_6yr": [
+        {
+          "year": 2003,
+          "value": 26500.0
+        },
+        {
+          "year": 2005,
+          "value": 24900.0
+        },
+        {
+          "year": 2007,
+          "value": 25300.0
+        },
+        {
+          "year": 2009,
+          "value": 24800.0
+        },
+        {
+          "year": 2011,
+          "value": 23600.0
+        },
+        {
+          "year": 2012,
+          "value": 24600.0
+        },
+        {
+          "year": 2013,
+          "value": 25600.0
+        },
+        {
+          "year": 2014,
+          "value": 26700.0
+        },
+        {
+          "year": 2020,
+          "value": 34134.0
+        }
+      ],
+      "earnings_median_8yr": [
+        {
+          "year": 2005,
+          "value": 29600.0
+        },
+        {
+          "year": 2007,
+          "value": 28100.0
+        },
+        {
+          "year": 2009,
+          "value": 28000.0
+        },
+        {
+          "year": 2011,
+          "value": 27700.0
+        },
+        {
+          "year": 2012,
+          "value": 26900.0
+        },
+        {
+          "year": 2013,
+          "value": 26900.0
+        },
+        {
+          "year": 2014,
+          "value": 29400.0
+        },
+        {
+          "year": 2020,
+          "value": 34954.0
+        }
+      ],
+      "earnings_median_10yr": [
+        {
+          "year": 2007,
+          "value": 32900.0
+        },
+        {
+          "year": 2009,
+          "value": 32000.0
+        },
+        {
+          "year": 2011,
+          "value": 30400.0
+        },
+        {
+          "year": 2012,
+          "value": 30200.0
+        },
+        {
+          "year": 2013,
+          "value": 30600.0
+        },
+        {
+          "year": 2014,
+          "value": 30400.0
+        },
+        {
+          "year": 2020,
+          "value": 39092.0
+        }
+      ]
+    },
+    "long_arc": [
+      {
+        "metric": "completion_rate_150",
+        "from_year": 1999,
+        "to_year": 2009,
+        "from_value": 0.1854,
+        "to_value": 0.0848,
+        "pct_change": -0.5426105717367854,
+        "direction": "fell"
+      },
+      {
+        "metric": "retention_rate",
+        "from_year": 2004,
+        "to_year": 2024,
+        "from_value": 0.56,
+        "to_value": 0.6677,
+        "pct_change": 0.1923214285714284,
+        "direction": "rose"
+      },
+      {
+        "metric": "enrollment_undergrad",
+        "from_year": 1996,
+        "to_year": 2024,
+        "from_value": 2583.0,
+        "to_value": 1620.0,
+        "pct_change": -0.37282229965156793,
+        "direction": "fell"
+      },
+      {
+        "metric": "tuition_in_state",
+        "from_year": 2000,
+        "to_year": 2024,
+        "from_value": 796.0,
+        "to_value": 4710.0,
+        "pct_change": 3.914,
+        "direction": "rose"
+      },
+      {
+        "metric": "tuition_out_of_state",
+        "from_year": 2000,
+        "to_year": 2024,
+        "from_value": 1246.0,
+        "to_value": 7140.0,
+        "pct_change": 4.730337078651686,
+        "direction": "rose"
+      },
+      {
+        "metric": "median_debt",
+        "from_year": 1997,
+        "to_year": 2020,
+        "from_value": 2625.0,
+        "to_value": 9500.0,
+        "pct_change": 2.619047619047619,
+        "direction": "rose"
+      },
+      {
+        "metric": "pell_share",
+        "from_year": 2008,
+        "to_year": 2024,
+        "from_value": 0.3423,
+        "to_value": 0.2582,
+        "pct_change": -0.24569091440257088,
+        "direction": "fell"
+      },
+      {
+        "metric": "earnings_median_6yr",
+        "from_year": 2003,
+        "to_year": 2020,
+        "from_value": 26500.0,
+        "to_value": 34134.0,
+        "pct_change": 0.2880754716981132,
+        "direction": "rose"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "Undergraduate enrollment",
+        "summary": "Undergraduate enrollment at Cisco College fell 46% between 2021 and 2024 (3.0k → 1.6k).",
+        "magnitude_pct": -46.3,
+        "magnitude_abs": -1399.0,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": null,
+        "history": [],
+        "metric": "enrollment_undergrad"
+      },
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "Out-of-state tuition",
+        "summary": "Out-of-state tuition at Cisco College rose 43% between 2021 and 2024 ($5.0k → $7.1k).",
+        "magnitude_pct": 42.5,
+        "magnitude_abs": 2130.0,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": null,
+        "history": [],
+        "metric": "tuition_out_of_state"
+      },
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "150%-time completion",
+        "summary": "150%-time completion at Cisco College fell 42% between 2006 and 2009 (14.6% → 8.5%).",
+        "magnitude_pct": -42.0,
+        "magnitude_abs": -0.06,
+        "baseline_year": 2006,
+        "recent_year": 2009,
+        "units": "%",
+        "history": [],
+        "metric": "completion_rate_150"
+      },
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "In-state tuition",
+        "summary": "In-state tuition at Cisco College rose 24% between 2021 and 2024 ($3.8k → $4.7k).",
+        "magnitude_pct": 23.6,
+        "magnitude_abs": 900.0,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": null,
+        "history": [],
+        "metric": "tuition_in_state"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "01": [
+      {
+        "slug": "0100-c2",
+        "cip_code": "0100",
+        "cip_desc": "Agriculture, General.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      }
+    ],
+    "11": [
+      {
+        "slug": "1101-c2",
+        "cip_code": "1101",
+        "cip_desc": "Computer and Information Sciences, General.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 1,
+        "completers_single_year": 6,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 1.0
+          },
+          {
+            "year": 2015,
+            "value": 4.0
+          },
+          {
+            "year": 2016,
+            "value": 4.0
+          },
+          {
+            "year": 2017,
+            "value": 3.0
+          },
+          {
+            "year": 2018,
+            "value": 6.0
+          },
+          {
+            "year": 2019,
+            "value": 1.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "12": [
+      {
+        "slug": "1204-c1",
+        "cip_code": "1204",
+        "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 12,
+        "completers_single_year": 9,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 8.0
+          },
+          {
+            "year": 2015,
+            "value": 4.0
+          },
+          {
+            "year": 2016,
+            "value": 3.0
+          },
+          {
+            "year": 2017,
+            "value": 11.0
+          },
+          {
+            "year": 2018,
+            "value": 9.0
+          },
+          {
+            "year": 2019,
+            "value": 12.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1204-c2",
+        "cip_code": "1204",
+        "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": 1,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 0.0
+          },
+          {
+            "year": 2017,
+            "value": 1.0
+          },
+          {
+            "year": 2018,
+            "value": 1.0
+          },
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "13": [
+      {
+        "slug": "1301-c2",
+        "cip_code": "1301",
+        "cip_desc": "Education, General.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 1,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 0.0
+          },
+          {
+            "year": 2015,
+            "value": 0.0
+          },
+          {
+            "year": 2016,
+            "value": 0.0
+          },
+          {
+            "year": 2017,
+            "value": 0.0
+          },
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 1.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1312-c2",
+        "cip_code": "1312",
+        "cip_desc": "Teacher Education and Professional Development, Specific Levels and Methods.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 1.0
+          },
+          {
+            "year": 2015,
+            "value": 1.0
+          },
+          {
+            "year": 2016,
+            "value": 0.0
+          },
+          {
+            "year": 2017,
+            "value": 0.0
+          },
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1313-c2",
+        "cip_code": "1313",
+        "cip_desc": "Teacher Education and Professional Development, Specific Subject Areas.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      }
+    ],
+    "14": [
+      {
+        "slug": "1401-c2",
+        "cip_code": "1401",
+        "cip_desc": "Engineering, General.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      }
+    ],
+    "19": [
+      {
+        "slug": "1907-c1",
+        "cip_code": "1907",
+        "cip_desc": "Human Development, Family Studies, and Related Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 20,
+        "completers_single_year": 17,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 32.0
+          },
+          {
+            "year": 2015,
+            "value": 28.0
+          },
+          {
+            "year": 2016,
+            "value": 11.0
+          },
+          {
+            "year": 2017,
+            "value": 6.0
+          },
+          {
+            "year": 2018,
+            "value": 17.0
+          },
+          {
+            "year": 2019,
+            "value": 20.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1907-c2",
+        "cip_code": "1907",
+        "cip_desc": "Human Development, Family Studies, and Related Services.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 5,
+        "completers_single_year": 7,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 17.0
+          },
+          {
+            "year": 2015,
+            "value": 15.0
+          },
+          {
+            "year": 2016,
+            "value": 15.0
+          },
+          {
+            "year": 2017,
+            "value": 3.0
+          },
+          {
+            "year": 2018,
+            "value": 7.0
+          },
+          {
+            "year": 2019,
+            "value": 5.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "24": [
+      {
+        "slug": "2401-c2",
+        "cip_code": "2401",
+        "cip_desc": "Liberal Arts and Sciences, General Studies and Humanities.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": 14250,
+        "debt_history": [
+          {
+            "year": 2018,
+            "value": 14250.0
+          }
+        ],
+        "completers": 270,
+        "completers_single_year": 305,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 233.0
+          },
+          {
+            "year": 2015,
+            "value": 209.0
+          },
+          {
+            "year": 2016,
+            "value": 282.0
+          },
+          {
+            "year": 2017,
+            "value": 341.0
+          },
+          {
+            "year": 2018,
+            "value": 305.0
+          },
+          {
+            "year": 2019,
+            "value": 270.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "2401-c1",
+        "cip_code": "2401",
+        "cip_desc": "Liberal Arts and Sciences, General Studies and Humanities.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 35,
+        "completers_single_year": 97,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 159.0
+          },
+          {
+            "year": 2015,
+            "value": 17.0
+          },
+          {
+            "year": 2016,
+            "value": 197.0
+          },
+          {
+            "year": 2017,
+            "value": 31.0
+          },
+          {
+            "year": 2018,
+            "value": 97.0
+          },
+          {
+            "year": 2019,
+            "value": 35.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "26": [
+      {
+        "slug": "2601-c2",
+        "cip_code": "2601",
+        "cip_desc": "Biology, General.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      }
+    ],
+    "27": [
+      {
+        "slug": "2701-c2",
+        "cip_code": "2701",
+        "cip_desc": "Mathematics.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      }
+    ],
+    "40": [
+      {
+        "slug": "4005-c2",
+        "cip_code": "4005",
+        "cip_desc": "Chemistry.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      }
+    ],
+    "41": [
+      {
+        "slug": "4101-c1",
+        "cip_code": "4101",
+        "cip_desc": "Biology Technician/Biotechnology Laboratory Technician.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 5.0
+          },
+          {
+            "year": 2015,
+            "value": 0.0
+          },
+          {
+            "year": 2016,
+            "value": 0.0
+          },
+          {
+            "year": 2017,
+            "value": 0.0
+          },
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "42": [
+      {
+        "slug": "4201-c2",
+        "cip_code": "4201",
+        "cip_desc": "Psychology, General.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      }
+    ],
+    "43": [
+      {
+        "slug": "4301-c2",
+        "cip_code": "4301",
+        "cip_desc": "Criminal Justice and Corrections.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 7,
+        "completers_single_year": 7,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 10.0
+          },
+          {
+            "year": 2015,
+            "value": 11.0
+          },
+          {
+            "year": 2016,
+            "value": 6.0
+          },
+          {
+            "year": 2017,
+            "value": 12.0
+          },
+          {
+            "year": 2018,
+            "value": 7.0
+          },
+          {
+            "year": 2019,
+            "value": 7.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "4302-c2",
+        "cip_code": "4302",
+        "cip_desc": "Fire Protection.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 1,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 1.0
+          },
+          {
+            "year": 2015,
+            "value": 1.0
+          },
+          {
+            "year": 2016,
+            "value": 0.0
+          },
+          {
+            "year": 2017,
+            "value": 3.0
+          },
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 1.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "4301-c1",
+        "cip_code": "4301",
+        "cip_desc": "Criminal Justice and Corrections.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": 10,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 26.0
+          },
+          {
+            "year": 2015,
+            "value": 26.0
+          },
+          {
+            "year": 2016,
+            "value": 11.0
+          },
+          {
+            "year": 2017,
+            "value": 22.0
+          },
+          {
+            "year": 2018,
+            "value": 10.0
+          },
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "4302-c1",
+        "cip_code": "4302",
+        "cip_desc": "Fire Protection.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": 16,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 15.0
+          },
+          {
+            "year": 2015,
+            "value": 22.0
+          },
+          {
+            "year": 2016,
+            "value": 11.0
+          },
+          {
+            "year": 2017,
+            "value": 16.0
+          },
+          {
+            "year": 2018,
+            "value": 16.0
+          },
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "44": [
+      {
+        "slug": "4407-c2",
+        "cip_code": "4407",
+        "cip_desc": "Social Work.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      }
+    ],
+    "46": [
+      {
+        "slug": "4604-c1",
+        "cip_code": "4604",
+        "cip_desc": "Building/Construction Finishing, Management, and Inspection.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 2,
+        "completers_single_year": 9,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 3.0
+          },
+          {
+            "year": 2015,
+            "value": 8.0
+          },
+          {
+            "year": 2016,
+            "value": 9.0
+          },
+          {
+            "year": 2017,
+            "value": 13.0
+          },
+          {
+            "year": 2018,
+            "value": 9.0
+          },
+          {
+            "year": 2019,
+            "value": 2.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "4604-c2",
+        "cip_code": "4604",
+        "cip_desc": "Building/Construction Finishing, Management, and Inspection.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": 8,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 2.0
+          },
+          {
+            "year": 2015,
+            "value": 4.0
+          },
+          {
+            "year": 2016,
+            "value": 1.0
+          },
+          {
+            "year": 2017,
+            "value": 7.0
+          },
+          {
+            "year": 2018,
+            "value": 8.0
+          },
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "47": [
+      {
+        "slug": "4706-c1",
+        "cip_code": "4706",
+        "cip_desc": "Vehicle Maintenance and Repair Technologies.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 34,
+        "completers_single_year": 27,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 41.0
+          },
+          {
+            "year": 2015,
+            "value": 52.0
+          },
+          {
+            "year": 2016,
+            "value": 17.0
+          },
+          {
+            "year": 2017,
+            "value": 25.0
+          },
+          {
+            "year": 2018,
+            "value": 27.0
+          },
+          {
+            "year": 2019,
+            "value": 34.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "4702-c1",
+        "cip_code": "4702",
+        "cip_desc": "Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 12,
+        "completers_single_year": 12,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 8.0
+          },
+          {
+            "year": 2015,
+            "value": 13.0
+          },
+          {
+            "year": 2016,
+            "value": 12.0
+          },
+          {
+            "year": 2017,
+            "value": 13.0
+          },
+          {
+            "year": 2018,
+            "value": 12.0
+          },
+          {
+            "year": 2019,
+            "value": 12.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "4706-c2",
+        "cip_code": "4706",
+        "cip_desc": "Vehicle Maintenance and Repair Technologies.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 1,
+        "completers_single_year": 4,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 4.0
+          },
+          {
+            "year": 2015,
+            "value": 5.0
+          },
+          {
+            "year": 2016,
+            "value": 2.0
+          },
+          {
+            "year": 2017,
+            "value": 4.0
+          },
+          {
+            "year": 2018,
+            "value": 4.0
+          },
+          {
+            "year": 2019,
+            "value": 1.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "4702-c2",
+        "cip_code": "4702",
+        "cip_desc": "Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2015,
+            "value": 1.0
+          },
+          {
+            "year": 2016,
+            "value": 0.0
+          },
+          {
+            "year": 2017,
+            "value": 0.0
+          },
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "48": [
+      {
+        "slug": "4805-c1",
+        "cip_code": "4805",
+        "cip_desc": "Precision Metal Working.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 28,
+        "completers_single_year": 23,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 53.0
+          },
+          {
+            "year": 2015,
+            "value": 47.0
+          },
+          {
+            "year": 2016,
+            "value": 30.0
+          },
+          {
+            "year": 2017,
+            "value": 44.0
+          },
+          {
+            "year": 2018,
+            "value": 23.0
+          },
+          {
+            "year": 2019,
+            "value": 28.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "4805-c2",
+        "cip_code": "4805",
+        "cip_desc": "Precision Metal Working.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 0.0
+          },
+          {
+            "year": 2015,
+            "value": 0.0
+          },
+          {
+            "year": 2016,
+            "value": 0.0
+          },
+          {
+            "year": 2017,
+            "value": 0.0
+          },
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "50": [
+      {
+        "slug": "5006-c2",
+        "cip_code": "5006",
+        "cip_desc": "Film/Video and Photographic Arts.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      },
+      {
+        "slug": "5007-c2",
+        "cip_code": "5007",
+        "cip_desc": "Fine and Studio Arts.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      },
+      {
+        "slug": "5009-c2",
+        "cip_code": "5009",
+        "cip_desc": "Music.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      }
+    ],
+    "51": [
+      {
+        "slug": "5139-c1",
+        "cip_code": "5139",
+        "cip_desc": "Practical Nursing, Vocational Nursing and Nursing Assistants.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 52,
+        "completers_single_year": 72,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 39.0
+          },
+          {
+            "year": 2015,
+            "value": 52.0
+          },
+          {
+            "year": 2016,
+            "value": 54.0
+          },
+          {
+            "year": 2017,
+            "value": 46.0
+          },
+          {
+            "year": 2018,
+            "value": 72.0
+          },
+          {
+            "year": 2019,
+            "value": 52.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5138-c2",
+        "cip_code": "5138",
+        "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 47,
+        "completers_single_year": 83,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 38.0
+          },
+          {
+            "year": 2015,
+            "value": 50.0
+          },
+          {
+            "year": 2016,
+            "value": 48.0
+          },
+          {
+            "year": 2017,
+            "value": 55.0
+          },
+          {
+            "year": 2018,
+            "value": 83.0
+          },
+          {
+            "year": 2019,
+            "value": 47.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5109-c2",
+        "cip_code": "5109",
+        "cip_desc": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 16,
+        "completers_single_year": 16,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 8.0
+          },
+          {
+            "year": 2015,
+            "value": 8.0
+          },
+          {
+            "year": 2016,
+            "value": 11.0
+          },
+          {
+            "year": 2017,
+            "value": 9.0
+          },
+          {
+            "year": 2018,
+            "value": 16.0
+          },
+          {
+            "year": 2019,
+            "value": 16.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5109-c1",
+        "cip_code": "5109",
+        "cip_desc": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 7,
+        "completers_single_year": 10,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 2.0
+          },
+          {
+            "year": 2015,
+            "value": 5.0
+          },
+          {
+            "year": 2016,
+            "value": 9.0
+          },
+          {
+            "year": 2017,
+            "value": 7.0
+          },
+          {
+            "year": 2018,
+            "value": 10.0
+          },
+          {
+            "year": 2019,
+            "value": 7.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5108-c2",
+        "cip_code": "5108",
+        "cip_desc": "Allied Health and Medical Assisting Services.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 4,
+        "completers_single_year": 10,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 3.0
+          },
+          {
+            "year": 2015,
+            "value": 3.0
+          },
+          {
+            "year": 2016,
+            "value": 6.0
+          },
+          {
+            "year": 2017,
+            "value": 3.0
+          },
+          {
+            "year": 2018,
+            "value": 10.0
+          },
+          {
+            "year": 2019,
+            "value": 4.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5108-c1",
+        "cip_code": "5108",
+        "cip_desc": "Allied Health and Medical Assisting Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 1,
+        "completers_single_year": 15,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 18.0
+          },
+          {
+            "year": 2015,
+            "value": 11.0
+          },
+          {
+            "year": 2016,
+            "value": 19.0
+          },
+          {
+            "year": 2017,
+            "value": 21.0
+          },
+          {
+            "year": 2018,
+            "value": 15.0
+          },
+          {
+            "year": 2019,
+            "value": 1.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5111-c2",
+        "cip_code": "5111",
+        "cip_desc": "Health/Medical Preparatory Programs.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      }
+    ],
+    "52": [
+      {
+        "slug": "5215-c1",
+        "cip_code": "5215",
+        "cip_desc": "Real Estate.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 15,
+        "completers_single_year": 12,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 17.0
+          },
+          {
+            "year": 2015,
+            "value": 6.0
+          },
+          {
+            "year": 2016,
+            "value": 11.0
+          },
+          {
+            "year": 2017,
+            "value": 6.0
+          },
+          {
+            "year": 2018,
+            "value": 12.0
+          },
+          {
+            "year": 2019,
+            "value": 15.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5201-c2",
+        "cip_code": "5201",
+        "cip_desc": "Business/Commerce, General.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 2,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 0.0
+          },
+          {
+            "year": 2015,
+            "value": 0.0
+          },
+          {
+            "year": 2016,
+            "value": 0.0
+          },
+          {
+            "year": 2017,
+            "value": 0.0
+          },
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 2.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5202-c2",
+        "cip_code": "5202",
+        "cip_desc": "Business Administration, Management and Operations.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 1,
+        "completers_single_year": 2,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 11.0
+          },
+          {
+            "year": 2015,
+            "value": 9.0
+          },
+          {
+            "year": 2016,
+            "value": 9.0
+          },
+          {
+            "year": 2017,
+            "value": 5.0
+          },
+          {
+            "year": 2018,
+            "value": 2.0
+          },
+          {
+            "year": 2019,
+            "value": 1.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5202-c1",
+        "cip_code": "5202",
+        "cip_desc": "Business Administration, Management and Operations.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": 1,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 28.0
+          },
+          {
+            "year": 2015,
+            "value": 6.0
+          },
+          {
+            "year": 2016,
+            "value": 16.0
+          },
+          {
+            "year": 2017,
+            "value": 10.0
+          },
+          {
+            "year": 2018,
+            "value": 1.0
+          },
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5203-c2",
+        "cip_code": "5203",
+        "cip_desc": "Accounting and Related Services.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      },
+      {
+        "slug": "5204-c1",
+        "cip_code": "5204",
+        "cip_desc": "Business Operations Support and Assistant Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": 7,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 8.0
+          },
+          {
+            "year": 2015,
+            "value": 9.0
+          },
+          {
+            "year": 2016,
+            "value": 6.0
+          },
+          {
+            "year": 2017,
+            "value": 5.0
+          },
+          {
+            "year": 2018,
+            "value": 7.0
+          },
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5204-c2",
+        "cip_code": "5204",
+        "cip_desc": "Business Operations Support and Assistant Services.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 1.0
+          },
+          {
+            "year": 2015,
+            "value": 0.0
+          },
+          {
+            "year": 2016,
+            "value": 0.0
+          },
+          {
+            "year": 2017,
+            "value": 0.0
+          },
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "2401-c2",
+      "cip_code": "2401",
+      "cip_desc": "Liberal Arts and Sciences, General Studies and Humanities.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": 14250,
+      "debt_history": [
+        {
+          "year": 2018,
+          "value": 14250.0
+        }
+      ],
+      "completers": 270,
+      "completers_single_year": 305,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 233.0
+        },
+        {
+          "year": 2015,
+          "value": 209.0
+        },
+        {
+          "year": 2016,
+          "value": 282.0
+        },
+        {
+          "year": 2017,
+          "value": 341.0
+        },
+        {
+          "year": 2018,
+          "value": 305.0
+        },
+        {
+          "year": 2019,
+          "value": 270.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5139-c1",
+      "cip_code": "5139",
+      "cip_desc": "Practical Nursing, Vocational Nursing and Nursing Assistants.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 52,
+      "completers_single_year": 72,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 39.0
+        },
+        {
+          "year": 2015,
+          "value": 52.0
+        },
+        {
+          "year": 2016,
+          "value": 54.0
+        },
+        {
+          "year": 2017,
+          "value": 46.0
+        },
+        {
+          "year": 2018,
+          "value": 72.0
+        },
+        {
+          "year": 2019,
+          "value": 52.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5138-c2",
+      "cip_code": "5138",
+      "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 47,
+      "completers_single_year": 83,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 38.0
+        },
+        {
+          "year": 2015,
+          "value": 50.0
+        },
+        {
+          "year": 2016,
+          "value": 48.0
+        },
+        {
+          "year": 2017,
+          "value": 55.0
+        },
+        {
+          "year": 2018,
+          "value": 83.0
+        },
+        {
+          "year": 2019,
+          "value": 47.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "2401-c1",
+      "cip_code": "2401",
+      "cip_desc": "Liberal Arts and Sciences, General Studies and Humanities.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 35,
+      "completers_single_year": 97,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 159.0
+        },
+        {
+          "year": 2015,
+          "value": 17.0
+        },
+        {
+          "year": 2016,
+          "value": 197.0
+        },
+        {
+          "year": 2017,
+          "value": 31.0
+        },
+        {
+          "year": 2018,
+          "value": 97.0
+        },
+        {
+          "year": 2019,
+          "value": 35.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4706-c1",
+      "cip_code": "4706",
+      "cip_desc": "Vehicle Maintenance and Repair Technologies.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 34,
+      "completers_single_year": 27,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 41.0
+        },
+        {
+          "year": 2015,
+          "value": 52.0
+        },
+        {
+          "year": 2016,
+          "value": 17.0
+        },
+        {
+          "year": 2017,
+          "value": 25.0
+        },
+        {
+          "year": 2018,
+          "value": 27.0
+        },
+        {
+          "year": 2019,
+          "value": 34.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4805-c1",
+      "cip_code": "4805",
+      "cip_desc": "Precision Metal Working.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 28,
+      "completers_single_year": 23,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 53.0
+        },
+        {
+          "year": 2015,
+          "value": 47.0
+        },
+        {
+          "year": 2016,
+          "value": 30.0
+        },
+        {
+          "year": 2017,
+          "value": 44.0
+        },
+        {
+          "year": 2018,
+          "value": 23.0
+        },
+        {
+          "year": 2019,
+          "value": 28.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1907-c1",
+      "cip_code": "1907",
+      "cip_desc": "Human Development, Family Studies, and Related Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 20,
+      "completers_single_year": 17,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 32.0
+        },
+        {
+          "year": 2015,
+          "value": 28.0
+        },
+        {
+          "year": 2016,
+          "value": 11.0
+        },
+        {
+          "year": 2017,
+          "value": 6.0
+        },
+        {
+          "year": 2018,
+          "value": 17.0
+        },
+        {
+          "year": 2019,
+          "value": 20.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5109-c2",
+      "cip_code": "5109",
+      "cip_desc": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 16,
+      "completers_single_year": 16,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 8.0
+        },
+        {
+          "year": 2015,
+          "value": 8.0
+        },
+        {
+          "year": 2016,
+          "value": 11.0
+        },
+        {
+          "year": 2017,
+          "value": 9.0
+        },
+        {
+          "year": 2018,
+          "value": 16.0
+        },
+        {
+          "year": 2019,
+          "value": 16.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5215-c1",
+      "cip_code": "5215",
+      "cip_desc": "Real Estate.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 15,
+      "completers_single_year": 12,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 17.0
+        },
+        {
+          "year": 2015,
+          "value": 6.0
+        },
+        {
+          "year": 2016,
+          "value": 11.0
+        },
+        {
+          "year": 2017,
+          "value": 6.0
+        },
+        {
+          "year": 2018,
+          "value": 12.0
+        },
+        {
+          "year": 2019,
+          "value": 15.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1204-c1",
+      "cip_code": "1204",
+      "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 12,
+      "completers_single_year": 9,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 8.0
+        },
+        {
+          "year": 2015,
+          "value": 4.0
+        },
+        {
+          "year": 2016,
+          "value": 3.0
+        },
+        {
+          "year": 2017,
+          "value": 11.0
+        },
+        {
+          "year": 2018,
+          "value": 9.0
+        },
+        {
+          "year": 2019,
+          "value": 12.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4702-c1",
+      "cip_code": "4702",
+      "cip_desc": "Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 12,
+      "completers_single_year": 12,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 8.0
+        },
+        {
+          "year": 2015,
+          "value": 13.0
+        },
+        {
+          "year": 2016,
+          "value": 12.0
+        },
+        {
+          "year": 2017,
+          "value": 13.0
+        },
+        {
+          "year": 2018,
+          "value": 12.0
+        },
+        {
+          "year": 2019,
+          "value": 12.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4301-c2",
+      "cip_code": "4301",
+      "cip_desc": "Criminal Justice and Corrections.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 7,
+      "completers_single_year": 7,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 10.0
+        },
+        {
+          "year": 2015,
+          "value": 11.0
+        },
+        {
+          "year": 2016,
+          "value": 6.0
+        },
+        {
+          "year": 2017,
+          "value": 12.0
+        },
+        {
+          "year": 2018,
+          "value": 7.0
+        },
+        {
+          "year": 2019,
+          "value": 7.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5109-c1",
+      "cip_code": "5109",
+      "cip_desc": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 7,
+      "completers_single_year": 10,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 2.0
+        },
+        {
+          "year": 2015,
+          "value": 5.0
+        },
+        {
+          "year": 2016,
+          "value": 9.0
+        },
+        {
+          "year": 2017,
+          "value": 7.0
+        },
+        {
+          "year": 2018,
+          "value": 10.0
+        },
+        {
+          "year": 2019,
+          "value": 7.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1907-c2",
+      "cip_code": "1907",
+      "cip_desc": "Human Development, Family Studies, and Related Services.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 5,
+      "completers_single_year": 7,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 17.0
+        },
+        {
+          "year": 2015,
+          "value": 15.0
+        },
+        {
+          "year": 2016,
+          "value": 15.0
+        },
+        {
+          "year": 2017,
+          "value": 3.0
+        },
+        {
+          "year": 2018,
+          "value": 7.0
+        },
+        {
+          "year": 2019,
+          "value": 5.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5108-c2",
+      "cip_code": "5108",
+      "cip_desc": "Allied Health and Medical Assisting Services.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 4,
+      "completers_single_year": 10,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 3.0
+        },
+        {
+          "year": 2015,
+          "value": 3.0
+        },
+        {
+          "year": 2016,
+          "value": 6.0
+        },
+        {
+          "year": 2017,
+          "value": 3.0
+        },
+        {
+          "year": 2018,
+          "value": 10.0
+        },
+        {
+          "year": 2019,
+          "value": 4.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4604-c1",
+      "cip_code": "4604",
+      "cip_desc": "Building/Construction Finishing, Management, and Inspection.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 2,
+      "completers_single_year": 9,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 3.0
+        },
+        {
+          "year": 2015,
+          "value": 8.0
+        },
+        {
+          "year": 2016,
+          "value": 9.0
+        },
+        {
+          "year": 2017,
+          "value": 13.0
+        },
+        {
+          "year": 2018,
+          "value": 9.0
+        },
+        {
+          "year": 2019,
+          "value": 2.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5201-c2",
+      "cip_code": "5201",
+      "cip_desc": "Business/Commerce, General.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 2,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 0.0
+        },
+        {
+          "year": 2015,
+          "value": 0.0
+        },
+        {
+          "year": 2016,
+          "value": 0.0
+        },
+        {
+          "year": 2017,
+          "value": 0.0
+        },
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 2.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1101-c2",
+      "cip_code": "1101",
+      "cip_desc": "Computer and Information Sciences, General.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 1,
+      "completers_single_year": 6,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 1.0
+        },
+        {
+          "year": 2015,
+          "value": 4.0
+        },
+        {
+          "year": 2016,
+          "value": 4.0
+        },
+        {
+          "year": 2017,
+          "value": 3.0
+        },
+        {
+          "year": 2018,
+          "value": 6.0
+        },
+        {
+          "year": 2019,
+          "value": 1.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1301-c2",
+      "cip_code": "1301",
+      "cip_desc": "Education, General.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 1,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 0.0
+        },
+        {
+          "year": 2015,
+          "value": 0.0
+        },
+        {
+          "year": 2016,
+          "value": 0.0
+        },
+        {
+          "year": 2017,
+          "value": 0.0
+        },
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 1.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4302-c2",
+      "cip_code": "4302",
+      "cip_desc": "Fire Protection.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 1,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 1.0
+        },
+        {
+          "year": 2015,
+          "value": 1.0
+        },
+        {
+          "year": 2016,
+          "value": 0.0
+        },
+        {
+          "year": 2017,
+          "value": 3.0
+        },
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 1.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4706-c2",
+      "cip_code": "4706",
+      "cip_desc": "Vehicle Maintenance and Repair Technologies.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 1,
+      "completers_single_year": 4,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 4.0
+        },
+        {
+          "year": 2015,
+          "value": 5.0
+        },
+        {
+          "year": 2016,
+          "value": 2.0
+        },
+        {
+          "year": 2017,
+          "value": 4.0
+        },
+        {
+          "year": 2018,
+          "value": 4.0
+        },
+        {
+          "year": 2019,
+          "value": 1.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5108-c1",
+      "cip_code": "5108",
+      "cip_desc": "Allied Health and Medical Assisting Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 1,
+      "completers_single_year": 15,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 18.0
+        },
+        {
+          "year": 2015,
+          "value": 11.0
+        },
+        {
+          "year": 2016,
+          "value": 19.0
+        },
+        {
+          "year": 2017,
+          "value": 21.0
+        },
+        {
+          "year": 2018,
+          "value": 15.0
+        },
+        {
+          "year": 2019,
+          "value": 1.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5202-c2",
+      "cip_code": "5202",
+      "cip_desc": "Business Administration, Management and Operations.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 1,
+      "completers_single_year": 2,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 11.0
+        },
+        {
+          "year": 2015,
+          "value": 9.0
+        },
+        {
+          "year": 2016,
+          "value": 9.0
+        },
+        {
+          "year": 2017,
+          "value": 5.0
+        },
+        {
+          "year": 2018,
+          "value": 2.0
+        },
+        {
+          "year": 2019,
+          "value": 1.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "0100-c2",
+      "cip_code": "0100",
+      "cip_desc": "Agriculture, General.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    },
+    {
+      "slug": "1204-c2",
+      "cip_code": "1204",
+      "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": 1,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 0.0
+        },
+        {
+          "year": 2017,
+          "value": 1.0
+        },
+        {
+          "year": 2018,
+          "value": 1.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1312-c2",
+      "cip_code": "1312",
+      "cip_desc": "Teacher Education and Professional Development, Specific Levels and Methods.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 1.0
+        },
+        {
+          "year": 2015,
+          "value": 1.0
+        },
+        {
+          "year": 2016,
+          "value": 0.0
+        },
+        {
+          "year": 2017,
+          "value": 0.0
+        },
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1313-c2",
+      "cip_code": "1313",
+      "cip_desc": "Teacher Education and Professional Development, Specific Subject Areas.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    },
+    {
+      "slug": "1401-c2",
+      "cip_code": "1401",
+      "cip_desc": "Engineering, General.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    },
+    {
+      "slug": "2601-c2",
+      "cip_code": "2601",
+      "cip_desc": "Biology, General.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    },
+    {
+      "slug": "2701-c2",
+      "cip_code": "2701",
+      "cip_desc": "Mathematics.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    },
+    {
+      "slug": "4005-c2",
+      "cip_code": "4005",
+      "cip_desc": "Chemistry.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    },
+    {
+      "slug": "4101-c1",
+      "cip_code": "4101",
+      "cip_desc": "Biology Technician/Biotechnology Laboratory Technician.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 5.0
+        },
+        {
+          "year": 2015,
+          "value": 0.0
+        },
+        {
+          "year": 2016,
+          "value": 0.0
+        },
+        {
+          "year": 2017,
+          "value": 0.0
+        },
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4201-c2",
+      "cip_code": "4201",
+      "cip_desc": "Psychology, General.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    },
+    {
+      "slug": "4301-c1",
+      "cip_code": "4301",
+      "cip_desc": "Criminal Justice and Corrections.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": 10,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 26.0
+        },
+        {
+          "year": 2015,
+          "value": 26.0
+        },
+        {
+          "year": 2016,
+          "value": 11.0
+        },
+        {
+          "year": 2017,
+          "value": 22.0
+        },
+        {
+          "year": 2018,
+          "value": 10.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4302-c1",
+      "cip_code": "4302",
+      "cip_desc": "Fire Protection.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": 16,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 15.0
+        },
+        {
+          "year": 2015,
+          "value": 22.0
+        },
+        {
+          "year": 2016,
+          "value": 11.0
+        },
+        {
+          "year": 2017,
+          "value": 16.0
+        },
+        {
+          "year": 2018,
+          "value": 16.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4407-c2",
+      "cip_code": "4407",
+      "cip_desc": "Social Work.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    },
+    {
+      "slug": "4604-c2",
+      "cip_code": "4604",
+      "cip_desc": "Building/Construction Finishing, Management, and Inspection.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": 8,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 2.0
+        },
+        {
+          "year": 2015,
+          "value": 4.0
+        },
+        {
+          "year": 2016,
+          "value": 1.0
+        },
+        {
+          "year": 2017,
+          "value": 7.0
+        },
+        {
+          "year": 2018,
+          "value": 8.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4702-c2",
+      "cip_code": "4702",
+      "cip_desc": "Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2015,
+          "value": 1.0
+        },
+        {
+          "year": 2016,
+          "value": 0.0
+        },
+        {
+          "year": 2017,
+          "value": 0.0
+        },
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4805-c2",
+      "cip_code": "4805",
+      "cip_desc": "Precision Metal Working.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 0.0
+        },
+        {
+          "year": 2015,
+          "value": 0.0
+        },
+        {
+          "year": 2016,
+          "value": 0.0
+        },
+        {
+          "year": 2017,
+          "value": 0.0
+        },
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5006-c2",
+      "cip_code": "5006",
+      "cip_desc": "Film/Video and Photographic Arts.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    },
+    {
+      "slug": "5007-c2",
+      "cip_code": "5007",
+      "cip_desc": "Fine and Studio Arts.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    },
+    {
+      "slug": "5009-c2",
+      "cip_code": "5009",
+      "cip_desc": "Music.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    },
+    {
+      "slug": "5111-c2",
+      "cip_code": "5111",
+      "cip_desc": "Health/Medical Preparatory Programs.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    },
+    {
+      "slug": "5202-c1",
+      "cip_code": "5202",
+      "cip_desc": "Business Administration, Management and Operations.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": 1,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 28.0
+        },
+        {
+          "year": 2015,
+          "value": 6.0
+        },
+        {
+          "year": 2016,
+          "value": 16.0
+        },
+        {
+          "year": 2017,
+          "value": 10.0
+        },
+        {
+          "year": 2018,
+          "value": 1.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5203-c2",
+      "cip_code": "5203",
+      "cip_desc": "Accounting and Related Services.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    },
+    {
+      "slug": "5204-c1",
+      "cip_code": "5204",
+      "cip_desc": "Business Operations Support and Assistant Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": 7,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 8.0
+        },
+        {
+          "year": 2015,
+          "value": 9.0
+        },
+        {
+          "year": 2016,
+          "value": 6.0
+        },
+        {
+          "year": 2017,
+          "value": 5.0
+        },
+        {
+          "year": 2018,
+          "value": 7.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5204-c2",
+      "cip_code": "5204",
+      "cip_desc": "Business Operations Support and Assistant Services.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 1.0
+        },
+        {
+          "year": 2015,
+          "value": 0.0
+        },
+        {
+          "year": 2016,
+          "value": 0.0
+        },
+        {
+          "year": 2017,
+          "value": 0.0
+        },
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    }
+  ],
+  "program_count": 47,
+  "similar": [
+    {
+      "slug": "grayson-college-225070",
+      "name": "Grayson College",
+      "city": "Denison",
+      "control": "public",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 40873,
+      "completion_rate_150": 0.2007,
+      "enrollment_undergrad": 2890
+    },
+    {
+      "slug": "angelina-college-222822",
+      "name": "Angelina College",
+      "city": "Lufkin",
+      "control": "public",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 37301,
+      "completion_rate_150": 0.2733,
+      "enrollment_undergrad": 2355
+    },
+    {
+      "slug": "paris-junior-college-227401",
+      "name": "Paris Junior College",
+      "city": "Paris",
+      "control": "public",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 36515,
+      "completion_rate_150": 0.3662,
+      "enrollment_undergrad": 2265
+    },
+    {
+      "slug": "vernon-college-229504",
+      "name": "Vernon College",
+      "city": "Vernon",
+      "control": "public",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 40464,
+      "completion_rate_150": 0.1844,
+      "enrollment_undergrad": 1656
+    },
+    {
+      "slug": "galveston-college-224961",
+      "name": "Galveston College",
+      "city": "Galveston",
+      "control": "public",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 37233,
+      "completion_rate_150": 0.3235,
+      "enrollment_undergrad": 1524
+    }
+  ],
+  "roi": {
+    "default_program_slug": null,
+    "programs_available": [
+      {
+        "slug": "2401-c2",
+        "label": "Liberal Arts and Sciences, General Studies and Humanities · Associate's Degree",
+        "cip_family": "24",
+        "completers": 270,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": 14250,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "5139-c1",
+        "label": "Practical Nursing, Vocational Nursing and Nursing Assistants · Undergraduate Certificate or Diploma",
+        "cip_family": "51",
+        "completers": 52,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "5138-c2",
+        "label": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing · Associate's Degree",
+        "cip_family": "51",
+        "completers": 47,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "2401-c1",
+        "label": "Liberal Arts and Sciences, General Studies and Humanities · Undergraduate Certificate or Diploma",
+        "cip_family": "24",
+        "completers": 35,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "4706-c1",
+        "label": "Vehicle Maintenance and Repair Technologies · Undergraduate Certificate or Diploma",
+        "cip_family": "47",
+        "completers": 34,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "4805-c1",
+        "label": "Precision Metal Working · Undergraduate Certificate or Diploma",
+        "cip_family": "48",
+        "completers": 28,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "1907-c1",
+        "label": "Human Development, Family Studies, and Related Services · Undergraduate Certificate or Diploma",
+        "cip_family": "19",
+        "completers": 20,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "5109-c2",
+        "label": "Allied Health Diagnostic, Intervention, and Treatment Professions · Associate's Degree",
+        "cip_family": "51",
+        "completers": 16,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "5215-c1",
+        "label": "Real Estate · Undergraduate Certificate or Diploma",
+        "cip_family": "52",
+        "completers": 15,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "1204-c1",
+        "label": "Cosmetology and Related Personal Grooming Services · Undergraduate Certificate or Diploma",
+        "cip_family": "12",
+        "completers": 12,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "4702-c1",
+        "label": "Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR) · Undergraduate Certificate or Diploma",
+        "cip_family": "47",
+        "completers": 12,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "4301-c2",
+        "label": "Criminal Justice and Corrections · Associate's Degree",
+        "cip_family": "43",
+        "completers": 7,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "5109-c1",
+        "label": "Allied Health Diagnostic, Intervention, and Treatment Professions · Undergraduate Certificate or Diploma",
+        "cip_family": "51",
+        "completers": 7,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "1907-c2",
+        "label": "Human Development, Family Studies, and Related Services · Associate's Degree",
+        "cip_family": "19",
+        "completers": 5,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "5108-c2",
+        "label": "Allied Health and Medical Assisting Services · Associate's Degree",
+        "cip_family": "51",
+        "completers": 4,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "4604-c1",
+        "label": "Building/Construction Finishing, Management, and Inspection · Undergraduate Certificate or Diploma",
+        "cip_family": "46",
+        "completers": 2,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "5201-c2",
+        "label": "Business/Commerce, General · Associate's Degree",
+        "cip_family": "52",
+        "completers": 2,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "1101-c2",
+        "label": "Computer and Information Sciences, General · Associate's Degree",
+        "cip_family": "11",
+        "completers": 1,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "1301-c2",
+        "label": "Education, General · Associate's Degree",
+        "cip_family": "13",
+        "completers": 1,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "4302-c2",
+        "label": "Fire Protection · Associate's Degree",
+        "cip_family": "43",
+        "completers": 1,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "4706-c2",
+        "label": "Vehicle Maintenance and Repair Technologies · Associate's Degree",
+        "cip_family": "47",
+        "completers": 1,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "5108-c1",
+        "label": "Allied Health and Medical Assisting Services · Undergraduate Certificate or Diploma",
+        "cip_family": "51",
+        "completers": 1,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "5202-c2",
+        "label": "Business Administration, Management and Operations · Associate's Degree",
+        "cip_family": "52",
+        "completers": 1,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "0100-c2",
+        "label": "Agriculture, General · Associate's Degree",
+        "cip_family": "01",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "1204-c2",
+        "label": "Cosmetology and Related Personal Grooming Services · Associate's Degree",
+        "cip_family": "12",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "1312-c2",
+        "label": "Teacher Education and Professional Development, Specific Levels and Methods · Associate's Degree",
+        "cip_family": "13",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "1313-c2",
+        "label": "Teacher Education and Professional Development, Specific Subject Areas · Associate's Degree",
+        "cip_family": "13",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "1401-c2",
+        "label": "Engineering, General · Associate's Degree",
+        "cip_family": "14",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "2601-c2",
+        "label": "Biology, General · Associate's Degree",
+        "cip_family": "26",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "2701-c2",
+        "label": "Mathematics · Associate's Degree",
+        "cip_family": "27",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "4005-c2",
+        "label": "Chemistry · Associate's Degree",
+        "cip_family": "40",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "4101-c1",
+        "label": "Biology Technician/Biotechnology Laboratory Technician · Undergraduate Certificate or Diploma",
+        "cip_family": "41",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "4201-c2",
+        "label": "Psychology, General · Associate's Degree",
+        "cip_family": "42",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "4301-c1",
+        "label": "Criminal Justice and Corrections · Undergraduate Certificate or Diploma",
+        "cip_family": "43",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "4302-c1",
+        "label": "Fire Protection · Undergraduate Certificate or Diploma",
+        "cip_family": "43",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "4407-c2",
+        "label": "Social Work · Associate's Degree",
+        "cip_family": "44",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "4604-c2",
+        "label": "Building/Construction Finishing, Management, and Inspection · Associate's Degree",
+        "cip_family": "46",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "4702-c2",
+        "label": "Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR) · Associate's Degree",
+        "cip_family": "47",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "4805-c2",
+        "label": "Precision Metal Working · Associate's Degree",
+        "cip_family": "48",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "5006-c2",
+        "label": "Film/Video and Photographic Arts · Associate's Degree",
+        "cip_family": "50",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "5007-c2",
+        "label": "Fine and Studio Arts · Associate's Degree",
+        "cip_family": "50",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "5009-c2",
+        "label": "Music · Associate's Degree",
+        "cip_family": "50",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "5111-c2",
+        "label": "Health/Medical Preparatory Programs · Associate's Degree",
+        "cip_family": "51",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "5202-c1",
+        "label": "Business Administration, Management and Operations · Undergraduate Certificate or Diploma",
+        "cip_family": "52",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "5203-c2",
+        "label": "Accounting and Related Services · Associate's Degree",
+        "cip_family": "52",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "5204-c1",
+        "label": "Business Operations Support and Assistant Services · Undergraduate Certificate or Diploma",
+        "cip_family": "52",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "5204-c2",
+        "label": "Business Operations Support and Assistant Services · Associate's Degree",
+        "cip_family": "52",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      }
+    ]
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "institution": {
+    "unitid": "490443",
+    "opeid6": "042677",
+    "name": "The Esthetic Institute",
+    "slug": "the-esthetic-institute-490443",
+    "state": "va",
+    "city": "Vienna",
+    "city_slug": "vienna",
+    "zip5": "22182",
+    "address": "8381 Old Courthouse Road STE 200",
+    "latitude": 38.914385,
+    "longitude": -77.234171,
+    "control": "private_forprofit",
+    "pred_degree": "certificate",
+    "highest_degree": "certificate",
+    "main_campus": true,
+    "locale": "21",
+    "carnegie_basic": -2,
+    "sector_code": 9,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": 0.7857,
+    "completion_rate_100": 0.7857,
+    "retention_rate": null,
+    "admission_rate": null,
+    "enrollment_undergrad": 107,
+    "enrollment_total": null,
+    "cost_attendance": 23672,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": 20717,
+    "cost_by_income": {
+      "0_30k": 19453,
+      "30_48k": 19883,
+      "48_75k": 22657,
+      "75_110k": 22290,
+      "110k_plus": 23672,
+      "sticker": 23672,
+      "sector": "priv"
+    },
+    "median_debt": 6333,
+    "default_rate": 0.0,
+    "pell_share": 0.45,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [],
+      "admission_rate": [],
+      "enrollment_undergrad": [
+        {
+          "year": 2017,
+          "value": 147.0
+        },
+        {
+          "year": 2018,
+          "value": 145.0
+        },
+        {
+          "year": 2019,
+          "value": 141.0
+        },
+        {
+          "year": 2020,
+          "value": 126.0
+        },
+        {
+          "year": 2021,
+          "value": 107.0
+        },
+        {
+          "year": 2022,
+          "value": 115.0
+        },
+        {
+          "year": 2023,
+          "value": 107.0
+        },
+        {
+          "year": 2024,
+          "value": 66.0
+        }
+      ],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [
+        {
+          "year": 2022,
+          "value": 24130.0
+        },
+        {
+          "year": 2023,
+          "value": 23672.0
+        },
+        {
+          "year": 2024,
+          "value": 25235.0
+        }
+      ],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [],
+      "median_debt": [],
+      "default_rate": [
+        {
+          "year": 2019,
+          "value": 0.0
+        },
+        {
+          "year": 2020,
+          "value": 0.0
+        },
+        {
+          "year": 2021,
+          "value": 0.0
+        },
+        {
+          "year": 2022,
+          "value": 0.0
+        },
+        {
+          "year": 2023,
+          "value": 0.0
+        },
+        {
+          "year": 2024,
+          "value": 0.0
+        }
+      ],
+      "pell_share": [
+        {
+          "year": 2017,
+          "value": 0.0059
+        },
+        {
+          "year": 2018,
+          "value": 0.2234
+        },
+        {
+          "year": 2019,
+          "value": 0.2358
+        },
+        {
+          "year": 2020,
+          "value": 0.2298
+        },
+        {
+          "year": 2021,
+          "value": 0.2329
+        },
+        {
+          "year": 2022,
+          "value": 0.3933
+        },
+        {
+          "year": 2023,
+          "value": 0.45
+        },
+        {
+          "year": 2024,
+          "value": 0.2899
+        }
+      ],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "enrollment_undergrad",
+        "from_year": 2017,
+        "to_year": 2024,
+        "from_value": 147.0,
+        "to_value": 66.0,
+        "pct_change": -0.405,
+        "direction": "fell"
+      },
+      {
+        "metric": "pell_share",
+        "from_year": 2017,
+        "to_year": 2024,
+        "from_value": 0.0059,
+        "to_value": 0.2899,
+        "pct_change": 5.679999999999999,
+        "direction": "rose"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "Undergraduate enrollment",
+        "summary": "Undergraduate enrollment at The Esthetic Institute fell 38% between 2021 and 2024 (107 → 66).",
+        "magnitude_pct": -38.3,
+        "magnitude_abs": -41.0,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": null,
+        "history": [],
+        "metric": "enrollment_undergrad"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "12": [
+      {
+        "slug": "1204-c1",
+        "cip_code": "1204",
+        "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": 6333,
+        "debt_history": [
+          {
+            "year": 2017,
+            "value": 6333.0
+          },
+          {
+            "year": 2018,
+            "value": 6333.0
+          }
+        ],
+        "completers": 148,
+        "completers_single_year": 140,
+        "completers_history": [
+          {
+            "year": 2015,
+            "value": 77.0
+          },
+          {
+            "year": 2016,
+            "value": 120.0
+          },
+          {
+            "year": 2017,
+            "value": 137.0
+          },
+          {
+            "year": 2018,
+            "value": 140.0
+          },
+          {
+            "year": 2019,
+            "value": 148.0
+          }
+        ],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "1204-c1",
+      "cip_code": "1204",
+      "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": 6333,
+      "debt_history": [
+        {
+          "year": 2017,
+          "value": 6333.0
+        },
+        {
+          "year": 2018,
+          "value": 6333.0
+        }
+      ],
+      "completers": 148,
+      "completers_single_year": 140,
+      "completers_history": [
+        {
+          "year": 2015,
+          "value": 77.0
+        },
+        {
+          "year": 2016,
+          "value": 120.0
+        },
+        {
+          "year": 2017,
+          "value": 137.0
+        },
+        {
+          "year": 2018,
+          "value": 140.0
+        },
+        {
+          "year": 2019,
+          "value": 148.0
+        }
+      ],
+      "long_arc": []
+    }
+  ],
+  "program_count": 1,
+  "similar": [
+    {
+      "slug": "medical-solutions-academy-498757",
+      "name": "Medical Solutions Academy",
+      "city": "Danville",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.94,
+      "enrollment_undergrad": 106
+    },
+    {
+      "slug": "american-massage-bodywork-institute-492643",
+      "name": "American Massage & Bodywork Institute",
+      "city": "Vienna",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.7407,
+      "enrollment_undergrad": 105
+    },
+    {
+      "slug": "asher-institute-of-hampton-234119",
+      "name": "Asher Institute of Hampton",
+      "city": "Hampton",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 18710,
+      "completion_rate_150": 0.45,
+      "enrollment_undergrad": 118
+    },
+    {
+      "slug": "northern-virginia-school-of-therapeutic-massage-461412",
+      "name": "Northern Virginia School of Therapeutic Massage",
+      "city": "Falls Church",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 44892,
+      "completion_rate_150": null,
+      "enrollment_undergrad": 87
+    },
+    {
+      "slug": "another-level-barbering-and-cosmetology-school-491978",
+      "name": "Another Level Barbering and Cosmetology School",
+      "city": "Petersburg",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": 77
+    }
+  ],
+  "roi": {
+    "default_program_slug": null,
+    "programs_available": [
+      {
+        "slug": "1204-c1",
+        "label": "Cosmetology and Related Personal Grooming Services · Undergraduate Certificate or Diploma",
+        "cip_family": "12",
+        "completers": 148,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": 6333,
+        "years_to_complete": 1,
+        "default_result": null
+      }
+    ]
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

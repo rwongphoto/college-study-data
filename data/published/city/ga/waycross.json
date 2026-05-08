@@ -1,0 +1,244 @@
+{
+  "state": "ga",
+  "name": "Waycross",
+  "slug": "waycross",
+  "institution_count": 1,
+  "institutions": [
+    {
+      "unitid": "485458",
+      "slug": "coastal-pines-technical-college-485458",
+      "name": "Coastal Pines Technical College",
+      "city": "Waycross",
+      "city_slug": "waycross",
+      "control": "public",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 30214,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 29888
+        },
+        {
+          "year": 8,
+          "value": 30681
+        },
+        {
+          "year": 10,
+          "value": 30214
+        }
+      ],
+      "completion_rate_150": 0.4565,
+      "completion_rate_history": [],
+      "enrollment_undergrad": 1688,
+      "enrollment_history": [
+        {
+          "year": 2014,
+          "value": 1782.0
+        },
+        {
+          "year": 2015,
+          "value": 1660.0
+        },
+        {
+          "year": 2016,
+          "value": 1650.0
+        },
+        {
+          "year": 2017,
+          "value": 1570.0
+        },
+        {
+          "year": 2018,
+          "value": 1639.0
+        },
+        {
+          "year": 2019,
+          "value": 1801.0
+        },
+        {
+          "year": 2020,
+          "value": 1750.0
+        },
+        {
+          "year": 2021,
+          "value": 1920.0
+        },
+        {
+          "year": 2022,
+          "value": 1580.0
+        },
+        {
+          "year": 2023,
+          "value": 1688.0
+        },
+        {
+          "year": 2024,
+          "value": 1648.0
+        }
+      ],
+      "median_debt": null,
+      "default_rate": null,
+      "tuition_in_state": 3040,
+      "tuition_out_of_state": 5440,
+      "long_arc": [
+        {
+          "metric": "retention_rate",
+          "from_year": 2014,
+          "to_year": 2024,
+          "from_value": 0.1871,
+          "to_value": 0.663,
+          "pct_change": 2.5435595938001074,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_in_state",
+          "from_year": 2014,
+          "to_year": 2024,
+          "from_value": 4770.0,
+          "to_value": 3268.0,
+          "pct_change": -0.3148846960167715,
+          "direction": "fell"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2014,
+          "to_year": 2024,
+          "from_value": 8775.0,
+          "to_value": 5836.0,
+          "pct_change": -0.33492877492877493,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2014,
+          "to_year": 2024,
+          "from_value": 0.654,
+          "to_value": 0.2809,
+          "pct_change": -0.5704892966360857,
+          "direction": "fell"
+        },
+        {
+          "metric": "earnings_median_10yr",
+          "from_year": 2014,
+          "to_year": 2020,
+          "from_value": 23700.0,
+          "to_value": 30214.0,
+          "pct_change": 0.2748523206751055,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_8yr",
+          "from_year": 2014,
+          "to_year": 2020,
+          "from_value": 22700.0,
+          "to_value": 30681.0,
+          "pct_change": 0.3515859030837004,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_6yr",
+          "from_year": 2014,
+          "to_year": 2020,
+          "from_value": 20700.0,
+          "to_value": 29888.0,
+          "pct_change": 0.4438647342995169,
+          "direction": "rose"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": 30214,
+  "completion_rate_city": 0.4565,
+  "completion_history_city": [],
+  "enrollment_history_city": [
+    {
+      "year": 2014,
+      "value": 1782.0
+    },
+    {
+      "year": 2015,
+      "value": 1660.0
+    },
+    {
+      "year": 2016,
+      "value": 1650.0
+    },
+    {
+      "year": 2017,
+      "value": 1570.0
+    },
+    {
+      "year": 2018,
+      "value": 1639.0
+    },
+    {
+      "year": 2019,
+      "value": 1801.0
+    },
+    {
+      "year": 2020,
+      "value": 1750.0
+    },
+    {
+      "year": 2021,
+      "value": 1920.0
+    },
+    {
+      "year": 2022,
+      "value": 1580.0
+    },
+    {
+      "year": 2023,
+      "value": 1688.0
+    },
+    {
+      "year": 2024,
+      "value": 1648.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

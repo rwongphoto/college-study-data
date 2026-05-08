@@ -1,0 +1,219 @@
+{
+  "institution_unitid": "220978",
+  "institution_name": "Middle Tennessee State University",
+  "institution_slug": "middle-tennessee-state-university-220978",
+  "state": "tn",
+  "cip_code": "5122",
+  "cip_desc": "Public Health.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5122-c3",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": 48323,
+  "earnings_count_4yr": null,
+  "earnings_count_5yr": 5,
+  "debt_median": 27000,
+  "completers": 38,
+  "completers_single_year": 33,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 48323.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 26380.0
+      },
+      {
+        "year": 2015,
+        "value": 28561.0
+      },
+      {
+        "year": 2016,
+        "value": 31000.0
+      },
+      {
+        "year": 2017,
+        "value": 31000.0
+      },
+      {
+        "year": 2018,
+        "value": 27000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 30.0
+      },
+      {
+        "year": 2015,
+        "value": 58.0
+      },
+      {
+        "year": 2016,
+        "value": 52.0
+      },
+      {
+        "year": 2017,
+        "value": 44.0
+      },
+      {
+        "year": 2018,
+        "value": 33.0
+      },
+      {
+        "year": 2019,
+        "value": 38.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "220978",
+    "slug": "middle-tennessee-state-university-220978",
+    "name": "Middle Tennessee State University",
+    "city": "Murfreesboro",
+    "city_slug": "murfreesboro",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "east-tennessee-state-university-220075",
+      "institution_name": "East Tennessee State University",
+      "earnings_median_5yr": 53377,
+      "earnings_median_4yr": 46950,
+      "debt_median": 22299,
+      "completers": 35,
+      "completers_single_year": 34,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "baptist-health-sciences-university-219639",
+      "institution_name": "Baptist Health Sciences University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "belmont-university-219709",
+      "institution_name": "Belmont University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "christian-brothers-university-219833",
+      "institution_name": "Christian Brothers University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "johnson-university-220473",
+      "institution_name": "Johnson University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southern-adventist-university-221661",
+      "institution_name": "Southern Adventist University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "tennessee-state-university-221838",
+      "institution_name": "Tennessee State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 39,
+      "completers_single_year": 46,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 5,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 12840,
+      "cost_total_default": 51360,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 48323,
+      "earnings_anchor_year": 5,
+      "debt_median": 27000,
+      "cip_family": "51",
+      "hs_baseline_state": 34600
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 209922,
+      "breakeven_year": 13
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "institution_unitid": "163453",
+  "institution_name": "Morgan State University",
+  "institution_slug": "morgan-state-university-163453",
+  "state": "md",
+  "cip_code": "5122",
+  "cip_desc": "Public Health.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5122-c5",
+  "earnings_median_4yr": 68076,
+  "earnings_median_5yr": 83423,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 1,
+  "debt_median": 41000,
+  "completers": 15,
+  "completers_single_year": 22,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 68076.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 83423.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 40394.0
+      },
+      {
+        "year": 2015,
+        "value": 41000.0
+      },
+      {
+        "year": 2018,
+        "value": 41000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 18.0
+      },
+      {
+        "year": 2015,
+        "value": 17.0
+      },
+      {
+        "year": 2016,
+        "value": 16.0
+      },
+      {
+        "year": 2017,
+        "value": 14.0
+      },
+      {
+        "year": 2018,
+        "value": 22.0
+      },
+      {
+        "year": 2019,
+        "value": 15.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "163453",
+    "slug": "morgan-state-university-163453",
+    "name": "Morgan State University",
+    "city": "Baltimore",
+    "city_slug": "baltimore",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "johns-hopkins-university-162928",
+      "institution_name": "Johns Hopkins University",
+      "earnings_median_5yr": 102525,
+      "earnings_median_4yr": 87345,
+      "debt_median": 65952,
+      "completers": 499,
+      "completers_single_year": 520,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-maryland-college-park-163286",
+      "institution_name": "University of Maryland-College Park",
+      "earnings_median_5yr": 93644,
+      "earnings_median_4yr": 86599,
+      "debt_median": 41326,
+      "completers": 88,
+      "completers_single_year": 89,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-maryland-global-campus-163204",
+      "institution_name": "University of Maryland Global Campus",
+      "earnings_median_5yr": 90672,
+      "earnings_median_4yr": 82577,
+      "debt_median": 41000,
+      "completers": 61,
+      "completers_single_year": 63,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-baltimore-161873",
+      "institution_name": "University of Baltimore",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 27,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-maryland-baltimore-163259",
+      "institution_name": "University of Maryland Baltimore",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 15,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "maryland-university-of-integrative-health-164085",
+      "institution_name": "Maryland University of Integrative Health",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 16670,
+      "cost_total_default": 100020,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 83423,
+      "earnings_anchor_year": 5,
+      "debt_median": 41000,
+      "cip_family": "51",
+      "hs_baseline_state": 41100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 578939,
+      "breakeven_year": 11
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

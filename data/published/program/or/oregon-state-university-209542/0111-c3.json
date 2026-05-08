@@ -1,0 +1,153 @@
+{
+  "institution_unitid": "209542",
+  "institution_name": "Oregon State University",
+  "institution_slug": "oregon-state-university-209542",
+  "state": "or",
+  "cip_code": "0111",
+  "cip_desc": "Plant Sciences.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "0111-c3",
+  "earnings_median_4yr": 44549,
+  "earnings_median_5yr": 53355,
+  "earnings_count_4yr": 8,
+  "earnings_count_5yr": 7,
+  "debt_median": 24005,
+  "completers": 53,
+  "completers_single_year": 53,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 44549.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 53355.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 26000.0
+      },
+      {
+        "year": 2015,
+        "value": 24231.0
+      },
+      {
+        "year": 2016,
+        "value": 22500.0
+      },
+      {
+        "year": 2017,
+        "value": 22916.0
+      },
+      {
+        "year": 2018,
+        "value": 24005.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 67.0
+      },
+      {
+        "year": 2015,
+        "value": 68.0
+      },
+      {
+        "year": 2016,
+        "value": 54.0
+      },
+      {
+        "year": 2017,
+        "value": 66.0
+      },
+      {
+        "year": 2018,
+        "value": 53.0
+      },
+      {
+        "year": 2019,
+        "value": 53.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "209542",
+    "slug": "oregon-state-university-209542",
+    "name": "Oregon State University",
+    "city": "Corvallis",
+    "city_slug": "corvallis",
+    "control": "public"
+  },
+  "peers_in_state": [],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 7,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 16992,
+      "cost_total_default": 67968,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 53355,
+      "earnings_anchor_year": 5,
+      "debt_median": 24005,
+      "cip_family": "01",
+      "hs_baseline_state": 38420
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 227687,
+      "breakeven_year": 15
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

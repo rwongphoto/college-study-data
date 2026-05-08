@@ -1,0 +1,148 @@
+{
+  "institution_unitid": "104151",
+  "institution_name": "Arizona State University Campus Immersion",
+  "institution_slug": "arizona-state-university-campus-immersion-104151",
+  "state": "az",
+  "cip_code": "5007",
+  "cip_desc": "Fine and Studio Arts.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5007-c5",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": 41170,
+  "earnings_count_4yr": null,
+  "earnings_count_5yr": 1,
+  "debt_median": 61500,
+  "completers": 19,
+  "completers_single_year": 22,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 41170.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 54872.0
+      },
+      {
+        "year": 2015,
+        "value": 54872.0
+      },
+      {
+        "year": 2016,
+        "value": 46153.0
+      },
+      {
+        "year": 2017,
+        "value": 48306.0
+      },
+      {
+        "year": 2018,
+        "value": 61500.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 20.0
+      },
+      {
+        "year": 2015,
+        "value": 24.0
+      },
+      {
+        "year": 2016,
+        "value": 24.0
+      },
+      {
+        "year": 2017,
+        "value": 22.0
+      },
+      {
+        "year": 2018,
+        "value": 22.0
+      },
+      {
+        "year": 2019,
+        "value": 19.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 19.9% at Fine and Studio Arts at Arizona State University Campus Immersion exceeds the 8% gainful-employment threshold ($61.5k debt amortized over 10 years vs $41.2k earnings).",
+      "magnitude_pct": 19.9,
+      "magnitude_abs": 11.9,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "104151",
+    "slug": "arizona-state-university-campus-immersion-104151",
+    "name": "Arizona State University Campus Immersion",
+    "city": "Tempe",
+    "city_slug": "tempe",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-arizona-104179",
+      "institution_name": "University of Arizona",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 29037,
+      "completers": 17,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

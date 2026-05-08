@@ -1,0 +1,200 @@
+{
+  "institution_unitid": "207324",
+  "institution_name": "Oklahoma Christian University",
+  "institution_slug": "oklahoma-christian-university-207324",
+  "state": "ok",
+  "cip_code": "5210",
+  "cip_desc": "Human Resources Management and Services.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5210-c5",
+  "earnings_median_4yr": 54685,
+  "earnings_median_5yr": 71688,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 0,
+  "debt_median": null,
+  "completers": 17,
+  "completers_single_year": 25,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 54685.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 71688.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 30000.0
+      },
+      {
+        "year": 2015,
+        "value": 25500.0
+      },
+      {
+        "year": 2016,
+        "value": 22690.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 37.0
+      },
+      {
+        "year": 2015,
+        "value": 38.0
+      },
+      {
+        "year": 2016,
+        "value": 32.0
+      },
+      {
+        "year": 2017,
+        "value": 28.0
+      },
+      {
+        "year": 2018,
+        "value": 25.0
+      },
+      {
+        "year": 2019,
+        "value": 17.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2016,
+      "from_value": 30000.0,
+      "to_value": 22690.0,
+      "pct_change": -0.24366666666666667,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Human Resources Management and Services at Oklahoma Christian University fell 24% between 2014 and 2016 ($30.0k → $22.7k).",
+      "magnitude_pct": -24.4,
+      "magnitude_abs": -7310.0,
+      "baseline_year": 2014,
+      "recent_year": 2016,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "207324",
+    "slug": "oklahoma-christian-university-207324",
+    "name": "Oklahoma Christian University",
+    "city": "Edmond",
+    "city_slug": "edmond",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-oklahoma-norman-campus-207500",
+      "institution_name": "University of Oklahoma-Norman Campus",
+      "earnings_median_5yr": 61030,
+      "earnings_median_4yr": 57011,
+      "debt_median": 43760,
+      "completers": 126,
+      "completers_single_year": 235,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "east-central-university-207041",
+      "institution_name": "East Central University",
+      "earnings_median_5yr": 54799,
+      "earnings_median_4yr": 47807,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "oklahoma-city-university-207458",
+      "institution_name": "Oklahoma City University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 19389,
+      "cost_total_default": 116334,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 71688,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "52",
+      "hs_baseline_state": 33800
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 530660,
+      "breakeven_year": 12
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

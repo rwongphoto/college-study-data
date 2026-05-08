@@ -1,0 +1,338 @@
+{
+  "institution_unitid": "196264",
+  "institution_name": "Empire State University",
+  "institution_slug": "empire-state-university-196264",
+  "state": "ny",
+  "cip_code": "5201",
+  "cip_desc": "Business/Commerce, General.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "5201-c2",
+  "earnings_median_4yr": 44964,
+  "earnings_median_5yr": 44720,
+  "earnings_count_4yr": 5,
+  "earnings_count_5yr": 5,
+  "debt_median": 14250,
+  "completers": 82,
+  "completers_single_year": 82,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 44964.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 44720.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 20000.0
+      },
+      {
+        "year": 2015,
+        "value": 21046.0
+      },
+      {
+        "year": 2016,
+        "value": 23750.0
+      },
+      {
+        "year": 2017,
+        "value": 20396.0
+      },
+      {
+        "year": 2018,
+        "value": 14250.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 124.0
+      },
+      {
+        "year": 2015,
+        "value": 101.0
+      },
+      {
+        "year": 2016,
+        "value": 114.0
+      },
+      {
+        "year": 2017,
+        "value": 96.0
+      },
+      {
+        "year": 2018,
+        "value": 82.0
+      },
+      {
+        "year": 2019,
+        "value": 82.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 20000.0,
+      "to_value": 14250.0,
+      "pct_change": -0.2875,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Business/Commerce, General at Empire State University fell 29% between 2014 and 2018 ($20.0k → $14.2k).",
+      "magnitude_pct": -28.7,
+      "magnitude_abs": -5750.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "196264",
+    "slug": "empire-state-university-196264",
+    "name": "Empire State University",
+    "city": "Saratoga Springs",
+    "city_slug": "saratoga-springs",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "college-of-staten-island-cuny-190558",
+      "institution_name": "College of Staten Island CUNY",
+      "earnings_median_5yr": 68883,
+      "earnings_median_4yr": 61691,
+      "debt_median": 9500,
+      "completers": 79,
+      "completers_single_year": 97,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bryant-stratton-college-buffalo-189583",
+      "institution_name": "Bryant & Stratton College-Buffalo",
+      "earnings_median_5yr": 35439,
+      "earnings_median_4yr": 30648,
+      "debt_median": 20000,
+      "completers": 29,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "metropolitan-college-of-new-york-190114",
+      "institution_name": "Metropolitan College of New York",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "columbia-greene-community-college-190169",
+      "institution_name": "Columbia-Greene Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "herkimer-county-community-college-191612",
+      "institution_name": "Herkimer County Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "houghton-university-191676",
+      "institution_name": "Houghton University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "jefferson-community-college-192022",
+      "institution_name": "Jefferson Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-mount-saint-vincent-193399",
+      "institution_name": "University of Mount Saint Vincent",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "new-york-university-193900",
+      "institution_name": "New York University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "niagara-county-community-college-193946",
+      "institution_name": "Niagara County Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "niagara-university-193973",
+      "institution_name": "Niagara University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "onondaga-community-college-194222",
+      "institution_name": "Onondaga Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rochester-institute-of-technology-195003",
+      "institution_name": "Rochester Institute of Technology",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-at-buffalo-196088",
+      "institution_name": "University at Buffalo",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "excelsior-university-196680",
+      "institution_name": "Excelsior University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "villa-maria-college-197142",
+      "institution_name": "Villa Maria College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 5,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 11882,
+      "cost_total_default": 23764,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 44720,
+      "earnings_anchor_year": 5,
+      "debt_median": 14250,
+      "cip_family": "52",
+      "hs_baseline_state": 40100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 137891,
+      "breakeven_year": 16
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

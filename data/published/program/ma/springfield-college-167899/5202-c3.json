@@ -1,0 +1,534 @@
+{
+  "institution_unitid": "167899",
+  "institution_name": "Springfield College",
+  "institution_slug": "springfield-college-167899",
+  "state": "ma",
+  "cip_code": "5202",
+  "cip_desc": "Business Administration, Management and Operations.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5202-c3",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 1,
+  "debt_median": null,
+  "completers": 28,
+  "completers_single_year": 15,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [
+      {
+        "year": 2015,
+        "value": 27000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 17.0
+      },
+      {
+        "year": 2015,
+        "value": 14.0
+      },
+      {
+        "year": 2016,
+        "value": 2.0
+      },
+      {
+        "year": 2017,
+        "value": 5.0
+      },
+      {
+        "year": 2018,
+        "value": 15.0
+      },
+      {
+        "year": 2019,
+        "value": 28.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "167899",
+    "slug": "springfield-college-167899",
+    "name": "Springfield College",
+    "city": "Springfield",
+    "city_slug": "springfield",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "babson-college-164580",
+      "institution_name": "Babson College",
+      "earnings_median_5yr": 110754,
+      "earnings_median_4yr": 89884,
+      "debt_median": 22766,
+      "completers": 607,
+      "completers_single_year": 654,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "boston-university-164988",
+      "institution_name": "Boston University",
+      "earnings_median_5yr": 102943,
+      "earnings_median_4yr": 86755,
+      "debt_median": 23196,
+      "completers": 638,
+      "completers_single_year": 691,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "boston-college-164924",
+      "institution_name": "Boston College",
+      "earnings_median_5yr": 94664,
+      "earnings_median_4yr": 86804,
+      "debt_median": 18125,
+      "completers": 94,
+      "completers_single_year": 100,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bentley-university-164739",
+      "institution_name": "Bentley University",
+      "earnings_median_5yr": 94417,
+      "earnings_median_4yr": 86432,
+      "debt_median": 25000,
+      "completers": 140,
+      "completers_single_year": 144,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "stonehill-college-167996",
+      "institution_name": "Stonehill College",
+      "earnings_median_5yr": 92115,
+      "earnings_median_4yr": 74052,
+      "debt_median": 25000,
+      "completers": 30,
+      "completers_single_year": 37,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-massachusetts-amherst-166629",
+      "institution_name": "University of Massachusetts-Amherst",
+      "earnings_median_5yr": 91248,
+      "earnings_median_4yr": 75408,
+      "debt_median": 20500,
+      "completers": 280,
+      "completers_single_year": 266,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "endicott-college-165699",
+      "institution_name": "Endicott College",
+      "earnings_median_5yr": 87579,
+      "earnings_median_4yr": 74318,
+      "debt_median": 26495,
+      "completers": 85,
+      "completers_single_year": 83,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northeastern-university-167358",
+      "institution_name": "Northeastern University",
+      "earnings_median_5yr": 85729,
+      "earnings_median_4yr": 77773,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wentworth-institute-of-technology-168227",
+      "institution_name": "Wentworth Institute of Technology",
+      "earnings_median_5yr": 85022,
+      "earnings_median_4yr": 88200,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "gordon-college-165936",
+      "institution_name": "Gordon College",
+      "earnings_median_5yr": 83795,
+      "earnings_median_4yr": 69149,
+      "debt_median": 23489,
+      "completers": 44,
+      "completers_single_year": 36,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "merrimack-college-166850",
+      "institution_name": "Merrimack College",
+      "earnings_median_5yr": 78193,
+      "earnings_median_4yr": 67946,
+      "debt_median": 27000,
+      "completers": 84,
+      "completers_single_year": 79,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "suffolk-university-168005",
+      "institution_name": "Suffolk University",
+      "earnings_median_5yr": 76970,
+      "earnings_median_4yr": 60982,
+      "debt_median": 26926,
+      "completers": 103,
+      "completers_single_year": 138,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lesley-university-166452",
+      "institution_name": "Lesley University",
+      "earnings_median_5yr": 76642,
+      "earnings_median_4yr": 73468,
+      "debt_median": 18292,
+      "completers": 42,
+      "completers_single_year": 40,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "emmanuel-college-165671",
+      "institution_name": "Emmanuel College",
+      "earnings_median_5yr": 76393,
+      "earnings_median_4yr": 66840,
+      "debt_median": 24719,
+      "completers": 37,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "simmons-university-167783",
+      "institution_name": "Simmons University",
+      "earnings_median_5yr": 75275,
+      "earnings_median_4yr": 67024,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "nichols-college-167260",
+      "institution_name": "Nichols College",
+      "earnings_median_5yr": 72053,
+      "earnings_median_4yr": 62043,
+      "debt_median": 27000,
+      "completers": 22,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-massachusetts-boston-166638",
+      "institution_name": "University of Massachusetts-Boston",
+      "earnings_median_5yr": 71306,
+      "earnings_median_4yr": 62057,
+      "debt_median": 21062,
+      "completers": 456,
+      "completers_single_year": 459,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lasell-university-166391",
+      "institution_name": "Lasell University",
+      "earnings_median_5yr": 70191,
+      "earnings_median_4yr": 54077,
+      "debt_median": 26000,
+      "completers": 16,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "assumption-university-164562",
+      "institution_name": "Assumption University",
+      "earnings_median_5yr": 70081,
+      "earnings_median_4yr": 62476,
+      "debt_median": 27000,
+      "completers": 38,
+      "completers_single_year": 57,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-massachusetts-lowell-166513",
+      "institution_name": "University of Massachusetts-Lowell",
+      "earnings_median_5yr": 69684,
+      "earnings_median_4yr": 60494,
+      "debt_median": 21500,
+      "completers": 623,
+      "completers_single_year": 612,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bay-path-university-164632",
+      "institution_name": "Bay Path University",
+      "earnings_median_5yr": 69455,
+      "earnings_median_4yr": 60438,
+      "debt_median": 24875,
+      "completers": 172,
+      "completers_single_year": 107,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "worcester-state-university-168430",
+      "institution_name": "Worcester State University",
+      "earnings_median_5yr": 68157,
+      "earnings_median_4yr": 57782,
+      "debt_median": 19500,
+      "completers": 176,
+      "completers_single_year": 183,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "fisher-college-165802",
+      "institution_name": "Fisher College",
+      "earnings_median_5yr": 66674,
+      "earnings_median_4yr": 64866,
+      "debt_median": 27000,
+      "completers": 42,
+      "completers_single_year": 36,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "eastern-nazarene-college-165644",
+      "institution_name": "Eastern Nazarene College",
+      "earnings_median_5yr": 65725,
+      "earnings_median_4yr": 64091,
+      "debt_median": 27000,
+      "completers": 18,
+      "completers_single_year": 45,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "salem-state-university-167729",
+      "institution_name": "Salem State University",
+      "earnings_median_5yr": 65310,
+      "earnings_median_4yr": 55904,
+      "debt_median": 24250,
+      "completers": 73,
+      "completers_single_year": 83,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cambridge-college-165167",
+      "institution_name": "Cambridge College",
+      "earnings_median_5yr": 64869,
+      "earnings_median_4yr": 53036,
+      "debt_median": 22000,
+      "completers": 131,
+      "completers_single_year": 57,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wheaton-college-massachusetts-168281",
+      "institution_name": "Wheaton College (Massachusetts)",
+      "earnings_median_5yr": 64254,
+      "earnings_median_4yr": 60188,
+      "debt_median": 27000,
+      "completers": 54,
+      "completers_single_year": 59,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "curry-college-165529",
+      "institution_name": "Curry College",
+      "earnings_median_5yr": 63328,
+      "earnings_median_4yr": 60049,
+      "debt_median": 25000,
+      "completers": 58,
+      "completers_single_year": 100,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "fitchburg-state-university-165820",
+      "institution_name": "Fitchburg State University",
+      "earnings_median_5yr": 62928,
+      "earnings_median_4yr": 54925,
+      "debt_median": 24250,
+      "completers": 96,
+      "completers_single_year": 107,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-massachusetts-dartmouth-167987",
+      "institution_name": "University of Massachusetts-Dartmouth",
+      "earnings_median_5yr": 55612,
+      "earnings_median_4yr": 49862,
+      "debt_median": 25000,
+      "completers": 110,
+      "completers_single_year": 113,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "dean-college-165574",
+      "institution_name": "Dean College",
+      "earnings_median_5yr": 53029,
+      "earnings_median_4yr": 52171,
+      "debt_median": 26000,
+      "completers": 30,
+      "completers_single_year": 37,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "massachusetts-college-of-liberal-arts-167288",
+      "institution_name": "Massachusetts College of Liberal Arts",
+      "earnings_median_5yr": 52945,
+      "earnings_median_4yr": 44266,
+      "debt_median": 22166,
+      "completers": 39,
+      "completers_single_year": 49,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hult-international-business-school-164368",
+      "institution_name": "Hult International Business School",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 180,
+      "completers_single_year": 89,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "american-international-college-164447",
+      "institution_name": "American International College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 28495,
+      "completers": 20,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "anna-maria-college-164492",
+      "institution_name": "Anna Maria College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 25000,
+      "completers": 33,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "clark-university-165334",
+      "institution_name": "Clark University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 25250,
+      "completers": 50,
+      "completers_single_year": 54,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hampshire-college-166018",
+      "institution_name": "Hampshire College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "harvard-university-166027",
+      "institution_name": "Harvard University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hellenic-college-holy-cross-greek-orthodox-school-of-theology-166054",
+      "institution_name": "Hellenic College-Holy Cross Greek Orthodox School of Theology",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "college-of-our-lady-of-the-elms-167394",
+      "institution_name": "College of Our Lady of the Elms",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 26000,
+      "completers": 15,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-new-england-university-168254",
+      "institution_name": "Western New England University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 24226,
+      "cost_total_default": 96904,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "52"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

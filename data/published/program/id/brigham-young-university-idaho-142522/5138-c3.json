@@ -1,0 +1,194 @@
+{
+  "institution_unitid": "142522",
+  "institution_name": "Brigham Young University-Idaho",
+  "institution_slug": "brigham-young-university-idaho-142522",
+  "state": "id",
+  "cip_code": "5138",
+  "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5138-c3",
+  "earnings_median_4yr": 56925,
+  "earnings_median_5yr": 69875,
+  "earnings_count_4yr": 20,
+  "earnings_count_5yr": 24,
+  "debt_median": 11145,
+  "completers": 276,
+  "completers_single_year": 276,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 56925.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 69875.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 11250.0
+      },
+      {
+        "year": 2015,
+        "value": 10000.0
+      },
+      {
+        "year": 2016,
+        "value": 9896.0
+      },
+      {
+        "year": 2017,
+        "value": 11953.0
+      },
+      {
+        "year": 2018,
+        "value": 11145.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 182.0
+      },
+      {
+        "year": 2015,
+        "value": 197.0
+      },
+      {
+        "year": 2016,
+        "value": 246.0
+      },
+      {
+        "year": 2017,
+        "value": 259.0
+      },
+      {
+        "year": 2018,
+        "value": 276.0
+      },
+      {
+        "year": 2019,
+        "value": 276.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "142522",
+    "slug": "brigham-young-university-idaho-142522",
+    "name": "Brigham Young University-Idaho",
+    "city": "Rexburg",
+    "city_slug": "rexburg",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "boise-state-university-142115",
+      "institution_name": "Boise State University",
+      "earnings_median_5yr": 82246,
+      "earnings_median_4yr": 73200,
+      "debt_median": 17033,
+      "completers": 476,
+      "completers_single_year": 420,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lewis-clark-state-college-142328",
+      "institution_name": "Lewis-Clark State College",
+      "earnings_median_5yr": 81832,
+      "earnings_median_4yr": 75325,
+      "debt_median": 15838,
+      "completers": 196,
+      "completers_single_year": 160,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northwest-nazarene-university-142461",
+      "institution_name": "Northwest Nazarene University",
+      "earnings_median_5yr": 77323,
+      "earnings_median_4yr": 72896,
+      "debt_median": 27000,
+      "completers": 51,
+      "completers_single_year": 44,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "idaho-state-university-142276",
+      "institution_name": "Idaho State University",
+      "earnings_median_5yr": 75043,
+      "earnings_median_4yr": 63213,
+      "debt_median": 25000,
+      "completers": 143,
+      "completers_single_year": 130,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 24,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 5457,
+      "cost_total_default": 21828,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 69875,
+      "earnings_anchor_year": 5,
+      "debt_median": 11145,
+      "cip_family": "51",
+      "hs_baseline_state": 35100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 623029,
+      "breakeven_year": 5
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

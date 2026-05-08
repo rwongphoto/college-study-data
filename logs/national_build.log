@@ -1,0 +1,53 @@
+
+> college-study-data-frontend@0.1.0 build
+> next build
+
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/richardwong/package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * /Users/richardwong/college-study-data/frontend/package-lock.json
+
+▲ Next.js 16.2.4 (Turbopack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 45s
+  Running TypeScript ...
+  Finished TypeScript in 3.5s ...
+  Collecting page data using 12 workers ...
+  Generating static pages using 12 workers (0/7564) ...
+  Generating static pages using 12 workers (1891/7564) 
+  Generating static pages using 12 workers (3782/7564) 
+  Generating static pages using 12 workers (5673/7564) 
+✓ Generating static pages using 12 workers (7564/7564) in 37.6s
+  Finalizing page optimization ...
+
+Route (app)                                                    Revalidate  Expire
+┌ ○ /
+├ ○ /_not-found
+├ ○ /methodology
+├ ○ /rankings/cities
+├ ○ /rankings/institutions
+├ ○ /rankings/programs
+├ ○ /rankings/states
+├ ● /state/[state]                                                     1d      1y
+│ ├ /state/alaska                                                      1d      1y
+│ ├ /state/alabama                                                     1d      1y
+│ ├ /state/arkansas                                                    1d      1y
+│ └ [+49 more paths]
+├ ● /state/[state]/city/[slug]                                         1d      1y
+│ ├ /state/alaska/city/anchorage                                       1d      1y
+│ ├ /state/alaska/city/barrow                                          1d      1y
+│ ├ /state/alaska/city/fairbanks                                       1d      1y
+│ └ [+2442 more paths]
+└ ● /state/[state]/institution/[slug]                                  1d      1y
+  ├ /state/alaska/institution/alaska-bible-college-102580              1d      1y
+  ├ /state/alaska/institution/alaska-career-college-103501             1d      1y
+  ├ /state/alaska/institution/alaska-christian-college-442523          1d      1y
+  └ [+5056 more paths]
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+

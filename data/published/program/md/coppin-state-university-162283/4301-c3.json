@@ -1,0 +1,254 @@
+{
+  "institution_unitid": "162283",
+  "institution_name": "Coppin State University",
+  "institution_slug": "coppin-state-university-162283",
+  "state": "md",
+  "cip_code": "4301",
+  "cip_desc": "Criminal Justice and Corrections.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "4301-c3",
+  "earnings_median_4yr": 49642,
+  "earnings_median_5yr": 51571,
+  "earnings_count_4yr": 5,
+  "earnings_count_5yr": 3,
+  "debt_median": 25000,
+  "completers": 54,
+  "completers_single_year": 35,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 49642.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 51571.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 23500.0
+      },
+      {
+        "year": 2015,
+        "value": 23500.0
+      },
+      {
+        "year": 2016,
+        "value": 24000.0
+      },
+      {
+        "year": 2017,
+        "value": 25000.0
+      },
+      {
+        "year": 2018,
+        "value": 25000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 63.0
+      },
+      {
+        "year": 2015,
+        "value": 46.0
+      },
+      {
+        "year": 2016,
+        "value": 43.0
+      },
+      {
+        "year": 2017,
+        "value": 31.0
+      },
+      {
+        "year": 2018,
+        "value": 35.0
+      },
+      {
+        "year": 2019,
+        "value": 54.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "162283",
+    "slug": "coppin-state-university-162283",
+    "name": "Coppin State University",
+    "city": "Baltimore",
+    "city_slug": "baltimore",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-maryland-global-campus-163204",
+      "institution_name": "University of Maryland Global Campus",
+      "earnings_median_5yr": 68673,
+      "earnings_median_4yr": 59490,
+      "debt_median": 20406,
+      "completers": 367,
+      "completers_single_year": 321,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "frostburg-state-university-162584",
+      "institution_name": "Frostburg State University",
+      "earnings_median_5yr": 64259,
+      "earnings_median_4yr": 59575,
+      "debt_median": 25000,
+      "completers": 47,
+      "completers_single_year": 58,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-baltimore-161873",
+      "institution_name": "University of Baltimore",
+      "earnings_median_5yr": 63341,
+      "earnings_median_4yr": 55376,
+      "debt_median": 17250,
+      "completers": 60,
+      "completers_single_year": 33,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "stevenson-university-164173",
+      "institution_name": "Stevenson University",
+      "earnings_median_5yr": 60453,
+      "earnings_median_4yr": 50767,
+      "debt_median": 26425,
+      "completers": 40,
+      "completers_single_year": 53,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bowie-state-university-162007",
+      "institution_name": "Bowie State University",
+      "earnings_median_5yr": 59864,
+      "earnings_median_4yr": 57571,
+      "debt_median": 21500,
+      "completers": 89,
+      "completers_single_year": 92,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-maryland-eastern-shore-163338",
+      "institution_name": "University of Maryland Eastern Shore",
+      "earnings_median_5yr": 47903,
+      "earnings_median_4yr": 42929,
+      "debt_median": 28000,
+      "completers": 56,
+      "completers_single_year": 68,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "goucher-college-162654",
+      "institution_name": "Goucher College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hood-college-162760",
+      "institution_name": "Hood College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 25000,
+      "completers": 16,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-maryland-college-park-163286",
+      "institution_name": "University of Maryland-College Park",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mcdaniel-college-164270",
+      "institution_name": "McDaniel College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 8140,
+      "cost_total_default": 32560,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 51571,
+      "earnings_anchor_year": 5,
+      "debt_median": 25000,
+      "cip_family": "43",
+      "hs_baseline_state": 41100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 179048,
+      "breakeven_year": 15
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

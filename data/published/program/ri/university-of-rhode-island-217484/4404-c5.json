@@ -1,0 +1,190 @@
+{
+  "institution_unitid": "217484",
+  "institution_name": "University of Rhode Island",
+  "institution_slug": "university-of-rhode-island-217484",
+  "state": "ri",
+  "cip_code": "4404",
+  "cip_desc": "Public Administration.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "4404-c5",
+  "earnings_median_4yr": 68012,
+  "earnings_median_5yr": 78798,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 1,
+  "debt_median": null,
+  "completers": 24,
+  "completers_single_year": 19,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 68012.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 78798.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 21248.0
+      },
+      {
+        "year": 2015,
+        "value": 37670.0
+      },
+      {
+        "year": 2016,
+        "value": 33284.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 19.0
+      },
+      {
+        "year": 2015,
+        "value": 21.0
+      },
+      {
+        "year": 2016,
+        "value": 29.0
+      },
+      {
+        "year": 2017,
+        "value": 21.0
+      },
+      {
+        "year": 2018,
+        "value": 19.0
+      },
+      {
+        "year": 2019,
+        "value": 24.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2016,
+      "from_value": 21248.0,
+      "to_value": 33284.0,
+      "pct_change": 0.5664533132530121,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Public Administration at University of Rhode Island rose 57% between 2014 and 2016 ($21.2k → $33.3k).",
+      "magnitude_pct": 56.6,
+      "magnitude_abs": 12036.0,
+      "baseline_year": 2014,
+      "recent_year": 2016,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "217484",
+    "slug": "university-of-rhode-island-217484",
+    "name": "University of Rhode Island",
+    "city": "Kingston",
+    "city_slug": "kingston",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "johnson-wales-university-providence-217235",
+      "institution_name": "Johnson & Wales University-Providence",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "roger-williams-university-217518",
+      "institution_name": "Roger Williams University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 34500,
+      "completers": 14,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 16578,
+      "cost_total_default": 99468,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 78798,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "44",
+      "hs_baseline_state": 38900
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 554878,
+      "breakeven_year": 11
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "institution_unitid": "197869",
+  "institution_name": "Appalachian State University",
+  "institution_slug": "appalachian-state-university-197869",
+  "state": "nc",
+  "cip_code": "5220",
+  "cip_desc": "Construction Management.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5220-c3",
+  "earnings_median_4yr": 69955,
+  "earnings_median_5yr": 76819,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 1,
+  "debt_median": 18750,
+  "completers": 131,
+  "completers_single_year": 98,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 69955.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 76819.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 19500.0
+      },
+      {
+        "year": 2015,
+        "value": 20500.0
+      },
+      {
+        "year": 2016,
+        "value": 21876.0
+      },
+      {
+        "year": 2017,
+        "value": 21256.0
+      },
+      {
+        "year": 2018,
+        "value": 18750.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 57.0
+      },
+      {
+        "year": 2015,
+        "value": 63.0
+      },
+      {
+        "year": 2016,
+        "value": 80.0
+      },
+      {
+        "year": 2017,
+        "value": 82.0
+      },
+      {
+        "year": 2018,
+        "value": 98.0
+      },
+      {
+        "year": 2019,
+        "value": 131.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "197869",
+    "slug": "appalachian-state-university-197869",
+    "name": "Appalachian State University",
+    "city": "Boone",
+    "city_slug": "boone",
+    "control": "public"
+  },
+  "peers_in_state": [],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 15766,
+      "cost_total_default": 63064,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 76819,
+      "earnings_anchor_year": 5,
+      "debt_median": 18750,
+      "cip_family": "52",
+      "hs_baseline_state": 35600
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 746741,
+      "breakeven_year": 7
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

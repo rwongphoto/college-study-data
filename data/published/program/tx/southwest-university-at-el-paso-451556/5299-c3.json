@@ -1,0 +1,163 @@
+{
+  "institution_unitid": "451556",
+  "institution_name": "Southwest University at El Paso",
+  "institution_slug": "southwest-university-at-el-paso-451556",
+  "state": "tx",
+  "cip_code": "5299",
+  "cip_desc": "Business, Management, Marketing, and Related Support Services, Other.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5299-c3",
+  "earnings_median_4yr": 33676,
+  "earnings_median_5yr": 40101,
+  "earnings_count_4yr": 6,
+  "earnings_count_5yr": 12,
+  "debt_median": 47083,
+  "completers": null,
+  "completers_single_year": null,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 33676.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 40101.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 50936.0
+      },
+      {
+        "year": 2015,
+        "value": 49868.0
+      },
+      {
+        "year": 2016,
+        "value": 48000.0
+      },
+      {
+        "year": 2017,
+        "value": 46830.0
+      },
+      {
+        "year": 2018,
+        "value": 47083.0
+      }
+    ],
+    "completers": []
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 15.6% at Business, Management, Marketing, and Related Support Services, Other at Southwest University at El Paso exceeds the 8% gainful-employment threshold ($47.1k debt amortized over 10 years vs $40.1k earnings).",
+      "magnitude_pct": 15.6,
+      "magnitude_abs": 7.6,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "451556",
+    "slug": "southwest-university-at-el-paso-451556",
+    "name": "Southwest University at El Paso",
+    "city": "El Paso",
+    "city_slug": "el-paso",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "baylor-university-223232",
+      "institution_name": "Baylor University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "east-texas-baptist-university-224527",
+      "institution_name": "East Texas Baptist University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 12,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 21909,
+      "cost_total_default": 87636,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 40101,
+      "earnings_anchor_year": 5,
+      "debt_median": 47083,
+      "cip_family": "52",
+      "hs_baseline_state": 37300
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -393,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

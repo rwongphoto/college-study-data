@@ -1,0 +1,194 @@
+{
+  "institution_unitid": "385503",
+  "institution_name": "Fortis Institute-Scranton",
+  "institution_slug": "fortis-institute-scranton-385503",
+  "state": "pa",
+  "cip_code": "5139",
+  "cip_desc": "Practical Nursing, Vocational Nursing and Nursing Assistants.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "5139-c2",
+  "earnings_median_4yr": 44505,
+  "earnings_median_5yr": 48989,
+  "earnings_count_4yr": 4,
+  "earnings_count_5yr": 2,
+  "debt_median": 20000,
+  "completers": 19,
+  "completers_single_year": 31,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 44505.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 48989.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 20000.0
+      },
+      {
+        "year": 2015,
+        "value": 20000.0
+      },
+      {
+        "year": 2016,
+        "value": 20000.0
+      },
+      {
+        "year": 2017,
+        "value": 20000.0
+      },
+      {
+        "year": 2018,
+        "value": 20000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 40.0
+      },
+      {
+        "year": 2015,
+        "value": 30.0
+      },
+      {
+        "year": 2016,
+        "value": 26.0
+      },
+      {
+        "year": 2017,
+        "value": 26.0
+      },
+      {
+        "year": 2018,
+        "value": 31.0
+      },
+      {
+        "year": 2019,
+        "value": 19.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "385503",
+    "slug": "fortis-institute-scranton-385503",
+    "name": "Fortis Institute-Scranton",
+    "city": "Scranton",
+    "city_slug": "scranton",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "pennsylvania-institute-of-technology-214582",
+      "institution_name": "Pennsylvania Institute of Technology",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pennsylvania-college-of-technology-366252",
+      "institution_name": "Pennsylvania College of Technology",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 17496,
+      "completers": 20,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "central-pennsylvania-institute-of-science-and-technology-369668",
+      "institution_name": "Central Pennsylvania Institute of Science and Technology",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pitc-institute-444811",
+      "institution_name": "PITC Institute",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 54,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 25348,
+      "cost_total_default": 50696,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 48989,
+      "earnings_anchor_year": 5,
+      "debt_median": 20000,
+      "cip_family": "51",
+      "hs_baseline_state": 38100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 209994,
+      "breakeven_year": 12
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

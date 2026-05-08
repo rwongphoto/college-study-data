@@ -1,0 +1,192 @@
+{
+  "institution_unitid": "201885",
+  "institution_name": "University of Cincinnati-Main Campus",
+  "institution_slug": "university-of-cincinnati-main-campus-201885",
+  "state": "oh",
+  "cip_code": "5120",
+  "cip_desc": "Pharmacy, Pharmaceutical Sciences, and Administration.",
+  "credential_level": 6,
+  "credential_desc": "Doctoral Degree",
+  "slug": "5120-c6",
+  "earnings_median_4yr": 135213,
+  "earnings_median_5yr": 134149,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 3,
+  "debt_median": null,
+  "completers": 4,
+  "completers_single_year": 2,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 135213.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 134149.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 102559.0
+      },
+      {
+        "year": 2015,
+        "value": 106000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 7.0
+      },
+      {
+        "year": 2015,
+        "value": 4.0
+      },
+      {
+        "year": 2016,
+        "value": 8.0
+      },
+      {
+        "year": 2017,
+        "value": 5.0
+      },
+      {
+        "year": 2018,
+        "value": 2.0
+      },
+      {
+        "year": 2019,
+        "value": 4.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "201885",
+    "slug": "university-of-cincinnati-main-campus-201885",
+    "name": "University of Cincinnati-Main Campus",
+    "city": "Cincinnati",
+    "city_slug": "cincinnati",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-toledo-206084",
+      "institution_name": "University of Toledo",
+      "earnings_median_5yr": 139586,
+      "earnings_median_4yr": 126976,
+      "debt_median": 63987,
+      "completers": 5,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cedarville-university-201654",
+      "institution_name": "Cedarville University",
+      "earnings_median_5yr": 137659,
+      "earnings_median_4yr": 130123,
+      "debt_median": 125673,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ohio-northern-university-204635",
+      "institution_name": "Ohio Northern University",
+      "earnings_median_5yr": 136241,
+      "earnings_median_4yr": 126130,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northeast-ohio-medical-university-204477",
+      "institution_name": "Northeast Ohio Medical University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ohio-state-university-main-campus-204796",
+      "institution_name": "Ohio State University-Main Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 8,
+      "cost_per_year_default": 20607,
+      "cost_total_default": 164856,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 134149,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "51",
+      "hs_baseline_state": 36400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 1214440,
+      "breakeven_year": 11
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

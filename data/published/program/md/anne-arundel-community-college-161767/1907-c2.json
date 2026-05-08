@@ -1,0 +1,229 @@
+{
+  "institution_unitid": "161767",
+  "institution_name": "Anne Arundel Community College",
+  "institution_slug": "anne-arundel-community-college-161767",
+  "state": "md",
+  "cip_code": "1907",
+  "cip_desc": "Human Development, Family Studies, and Related Services.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "1907-c2",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 3,
+  "debt_median": null,
+  "completers": 12,
+  "completers_single_year": 7,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 21.0
+      },
+      {
+        "year": 2015,
+        "value": 17.0
+      },
+      {
+        "year": 2016,
+        "value": 5.0
+      },
+      {
+        "year": 2017,
+        "value": 7.0
+      },
+      {
+        "year": 2018,
+        "value": 7.0
+      },
+      {
+        "year": 2019,
+        "value": 12.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "161767",
+    "slug": "anne-arundel-community-college-161767",
+    "name": "Anne Arundel Community College",
+    "city": "Arnold",
+    "city_slug": "arnold",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "baltimore-city-community-college-161864",
+      "institution_name": "Baltimore City Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 35594,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "college-of-southern-maryland-162122",
+      "institution_name": "College of Southern Maryland",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "chesapeake-college-162168",
+      "institution_name": "Chesapeake College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "frederick-community-college-162557",
+      "institution_name": "Frederick Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hagerstown-community-college-162690",
+      "institution_name": "Hagerstown Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "howard-community-college-162779",
+      "institution_name": "Howard Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "montgomery-college-163426",
+      "institution_name": "Montgomery College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 25,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "prince-george-s-community-college-163657",
+      "institution_name": "Prince George's Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wor-wic-community-college-164313",
+      "institution_name": "Wor-Wic Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "carroll-community-college-405872",
+      "institution_name": "Carroll Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "community-college-of-baltimore-county-434672",
+      "institution_name": "Community College of Baltimore County",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 16798,
+      "cost_total_default": 33596,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "19"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

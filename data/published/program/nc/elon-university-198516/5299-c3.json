@@ -1,0 +1,131 @@
+{
+  "institution_unitid": "198516",
+  "institution_name": "Elon University",
+  "institution_slug": "elon-university-198516",
+  "state": "nc",
+  "cip_code": "5299",
+  "cip_desc": "Business, Management, Marketing, and Related Support Services, Other.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5299-c3",
+  "earnings_median_4yr": 92616,
+  "earnings_median_5yr": 84875,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": 19500,
+  "completers": null,
+  "completers_single_year": null,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 92616.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 84875.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 21250.0
+      },
+      {
+        "year": 2017,
+        "value": 23250.0
+      },
+      {
+        "year": 2018,
+        "value": 19500.0
+      }
+    ],
+    "completers": []
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "198516",
+    "slug": "elon-university-198516",
+    "name": "Elon University",
+    "city": "Elon",
+    "city_slug": "elon",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "william-peace-university-199272",
+      "institution_name": "William Peace University",
+      "earnings_median_5yr": 66362,
+      "earnings_median_4yr": 53472,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 32133,
+      "cost_total_default": 128532,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 84875,
+      "earnings_anchor_year": 5,
+      "debt_median": 19500,
+      "cip_family": "52",
+      "hs_baseline_state": 35600
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 837946,
+      "breakeven_year": 8
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "institution_unitid": "181297",
+  "institution_name": "Nebraska Methodist College of Nursing & Allied Health",
+  "institution_slug": "nebraska-methodist-college-of-nursing-allied-health-181297",
+  "state": "ne",
+  "cip_code": "5132",
+  "cip_desc": "Bioethics/Medical Ethics.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5132-c5",
+  "earnings_median_4yr": 79615,
+  "earnings_median_5yr": 94066,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 1,
+  "debt_median": null,
+  "completers": 21,
+  "completers_single_year": 23,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 79615.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 94066.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 4682.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2018,
+        "value": 23.0
+      },
+      {
+        "year": 2019,
+        "value": 21.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "181297",
+    "slug": "nebraska-methodist-college-of-nursing-allied-health-181297",
+    "name": "Nebraska Methodist College of Nursing & Allied Health",
+    "city": "Omaha",
+    "city_slug": "omaha",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "clarkson-college-180832",
+      "institution_name": "Clarkson College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bryan-college-of-health-sciences-180878",
+      "institution_name": "Bryan College of Health Sciences",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "creighton-university-181002",
+      "institution_name": "Creighton University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 17532,
+      "cost_total_default": 105192,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 94066,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "51",
+      "hs_baseline_state": 36900
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 815319,
+      "breakeven_year": 9
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

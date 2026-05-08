@@ -1,0 +1,568 @@
+{
+  "institution_unitid": "408844",
+  "institution_name": "Florida National University-Main Campus",
+  "institution_slug": "florida-national-university-main-campus-408844",
+  "state": "fl",
+  "cip_code": "5106",
+  "cip_desc": "Dental Support Services and Allied Professions.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "5106-c1",
+  "earnings_median_4yr": 20579,
+  "earnings_median_5yr": 26215,
+  "earnings_count_4yr": 28,
+  "earnings_count_5yr": 34,
+  "debt_median": 7125,
+  "completers": 68,
+  "completers_single_year": 81,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 20579.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 26215.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 5231.0
+      },
+      {
+        "year": 2015,
+        "value": 5901.0
+      },
+      {
+        "year": 2016,
+        "value": 5906.0
+      },
+      {
+        "year": 2017,
+        "value": 5924.0
+      },
+      {
+        "year": 2018,
+        "value": 7125.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 99.0
+      },
+      {
+        "year": 2015,
+        "value": 125.0
+      },
+      {
+        "year": 2016,
+        "value": 116.0
+      },
+      {
+        "year": 2017,
+        "value": 136.0
+      },
+      {
+        "year": 2018,
+        "value": 81.0
+      },
+      {
+        "year": 2019,
+        "value": 68.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 5231.0,
+      "to_value": 7125.0,
+      "pct_change": 0.3620722615178742,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Dental Support Services and Allied Professions at Florida National University-Main Campus rose 36% between 2014 and 2018 ($5.2k → $7.1k).",
+      "magnitude_pct": 36.2,
+      "magnitude_abs": 1894.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "408844",
+    "slug": "florida-national-university-main-campus-408844",
+    "name": "Florida National University-Main Campus",
+    "city": "Hialeah",
+    "city_slug": "hialeah",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "concorde-career-institute-tampa-133863",
+      "institution_name": "Concorde Career Institute-Tampa",
+      "earnings_median_5yr": 33695,
+      "earnings_median_4yr": 31850,
+      "debt_median": 9500,
+      "completers": 82,
+      "completers_single_year": 83,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "daytona-state-college-133386",
+      "institution_name": "Daytona State College",
+      "earnings_median_5yr": 33018,
+      "earnings_median_4yr": 29348,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "concorde-career-institute-jacksonville-133845",
+      "institution_name": "Concorde Career Institute-Jacksonville",
+      "earnings_median_5yr": 32076,
+      "earnings_median_4yr": 26765,
+      "debt_median": 9500,
+      "completers": 48,
+      "completers_single_year": 43,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "fortis-college-orange-park-439792",
+      "institution_name": "Fortis College-Orange Park",
+      "earnings_median_5yr": 31663,
+      "earnings_median_4yr": 24581,
+      "debt_median": 13000,
+      "completers": 35,
+      "completers_single_year": 30,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "charlotte-technical-college-132976",
+      "institution_name": "Charlotte Technical College",
+      "earnings_median_5yr": 31472,
+      "earnings_median_4yr": 34468,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ultimate-medical-academy-441371",
+      "institution_name": "Ultimate Medical Academy",
+      "earnings_median_5yr": 30192,
+      "earnings_median_4yr": 25786,
+      "debt_median": 8998,
+      "completers": 35,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "concorde-career-institute-miramar-133854",
+      "institution_name": "Concorde Career Institute-Miramar",
+      "earnings_median_5yr": 27427,
+      "earnings_median_4yr": 24718,
+      "debt_median": 9500,
+      "completers": 56,
+      "completers_single_year": 57,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "compu-med-vocational-careers-corp-423120",
+      "institution_name": "Compu-Med Vocational Careers Corp",
+      "earnings_median_5yr": 23733,
+      "earnings_median_4yr": 22246,
+      "debt_median": null,
+      "completers": 75,
+      "completers_single_year": 74,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "atlantic-technical-college-132374",
+      "institution_name": "Atlantic Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "eastern-florida-state-college-132693",
+      "institution_name": "Eastern Florida State College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "broward-college-132709",
+      "institution_name": "Broward College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 30,
+      "completers_single_year": 34,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "college-of-central-florida-132851",
+      "institution_name": "College of Central Florida",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 15,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lorenzo-walker-technical-college-133155",
+      "institution_name": "Lorenzo Walker Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 44,
+      "completers_single_year": 35,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "florida-state-college-at-jacksonville-133702",
+      "institution_name": "Florida State College at Jacksonville",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "florida-career-college-miami-133997",
+      "institution_name": "Florida Career College-Miami",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 9500,
+      "completers": 23,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "gulf-coast-state-college-134343",
+      "institution_name": "Gulf Coast State College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hillsborough-community-college-134495",
+      "institution_name": "Hillsborough Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 21,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "indian-river-state-college-134608",
+      "institution_name": "Indian River State College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lindsey-hopkins-technical-college-135294",
+      "institution_name": "Lindsey Hopkins Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 14,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "manatee-technical-college-135407",
+      "institution_name": "Manatee Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 18,
+      "completers_single_year": 27,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "traviss-technical-college-135522",
+      "institution_name": "Traviss Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "miami-lakes-educational-center-and-technical-college-135647",
+      "institution_name": "Miami Lakes Educational Center and Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northwest-florida-state-college-136233",
+      "institution_name": "Northwest Florida State College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "orange-technical-college-136303",
+      "institution_name": "Orange Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 33,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "palm-beach-state-college-136358",
+      "institution_name": "Palm Beach State College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 20,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pasco-hernando-state-college-136400",
+      "institution_name": "Pasco-Hernando State College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "robert-morgan-educational-center-and-technical-college-136826",
+      "institution_name": "Robert Morgan Educational Center and Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "first-coast-technical-college-137023",
+      "institution_name": "First Coast Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 33,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pinellas-technical-college-st-petersburg-137087",
+      "institution_name": "Pinellas Technical College-St. Petersburg",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "santa-fe-college-137096",
+      "institution_name": "Santa Fe College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 20,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "south-florida-state-college-137315",
+      "institution_name": "South Florida State College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "tallahassee-community-college-137759",
+      "institution_name": "Tallahassee Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "william-t-mcfatter-technical-college-138479",
+      "institution_name": "William T McFatter Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "meridian-college-244279",
+      "institution_name": "Meridian College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 9500,
+      "completers": 12,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "erwin-technical-college-369419",
+      "institution_name": "Erwin Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "osceola-technical-college-427991",
+      "institution_name": "Osceola Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 14,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "praxis-institute-430582",
+      "institution_name": "Praxis Institute",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 9080,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cape-coral-technical-college-431558",
+      "institution_name": "Cape Coral Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 19,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "prestige-health-beauty-sciences-academy-481368",
+      "institution_name": "Prestige Health & Beauty Sciences Academy",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 34,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 26950,
+      "cost_total_default": 26950,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 26215,
+      "earnings_anchor_year": 5,
+      "debt_median": 7125,
+      "cip_family": "51",
+      "hs_baseline_state": 35400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -182343,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

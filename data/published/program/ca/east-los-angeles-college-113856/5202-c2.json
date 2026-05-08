@@ -1,0 +1,1452 @@
+{
+  "institution_unitid": "113856",
+  "institution_name": "East Los Angeles College",
+  "institution_slug": "east-los-angeles-college-113856",
+  "state": "ca",
+  "cip_code": "5202",
+  "cip_desc": "Business Administration, Management and Operations.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "5202-c2",
+  "earnings_median_4yr": 45040,
+  "earnings_median_5yr": 42937,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 2,
+  "debt_median": null,
+  "completers": 414,
+  "completers_single_year": 268,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 45040.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 42937.0
+      }
+    ],
+    "debt_median": [],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 15.0
+      },
+      {
+        "year": 2015,
+        "value": 43.0
+      },
+      {
+        "year": 2016,
+        "value": 183.0
+      },
+      {
+        "year": 2017,
+        "value": 246.0
+      },
+      {
+        "year": 2018,
+        "value": 268.0
+      },
+      {
+        "year": 2019,
+        "value": 414.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "completers",
+      "from_year": 2014,
+      "to_year": 2019,
+      "from_value": 15.0,
+      "to_value": 414.0,
+      "pct_change": 0.399,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Annual completers",
+      "summary": "Annual completers at Business Administration, Management and Operations at East Los Angeles College rose 40% between 2014 and 2019 (15 → 414).",
+      "magnitude_pct": 39.9,
+      "magnitude_abs": 399.0,
+      "baseline_year": 2014,
+      "recent_year": 2019,
+      "units": null,
+      "history": [],
+      "metric": "completers"
+    }
+  ],
+  "institution": {
+    "unitid": "113856",
+    "slug": "east-los-angeles-college-113856",
+    "name": "East Los Angeles College",
+    "city": "Monterey Park",
+    "city_slug": "monterey-park",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "college-of-marin-118347",
+      "institution_name": "College of Marin",
+      "earnings_median_5yr": 75568,
+      "earnings_median_4yr": 52292,
+      "debt_median": null,
+      "completers": 24,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saddleback-college-122205",
+      "institution_name": "Saddleback College",
+      "earnings_median_5yr": 72376,
+      "earnings_median_4yr": 55167,
+      "debt_median": null,
+      "completers": 329,
+      "completers_single_year": 381,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "folsom-lake-college-444219",
+      "institution_name": "Folsom Lake College",
+      "earnings_median_5yr": 70915,
+      "earnings_median_4yr": 59936,
+      "debt_median": null,
+      "completers": 154,
+      "completers_single_year": 139,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "solano-community-college-123563",
+      "institution_name": "Solano Community College",
+      "earnings_median_5yr": 69217,
+      "earnings_median_4yr": 45243,
+      "debt_median": null,
+      "completers": 102,
+      "completers_single_year": 116,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "palomar-college-120971",
+      "institution_name": "Palomar College",
+      "earnings_median_5yr": 65947,
+      "earnings_median_4yr": 61426,
+      "debt_median": null,
+      "completers": 172,
+      "completers_single_year": 180,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "laney-college-117247",
+      "institution_name": "Laney College",
+      "earnings_median_5yr": 65237,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 79,
+      "completers_single_year": 91,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "evergreen-valley-college-114266",
+      "institution_name": "Evergreen Valley College",
+      "earnings_median_5yr": 62666,
+      "earnings_median_4yr": 49401,
+      "debt_median": null,
+      "completers": 200,
+      "completers_single_year": 149,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "irvine-valley-college-116439",
+      "institution_name": "Irvine Valley College",
+      "earnings_median_5yr": 62559,
+      "earnings_median_4yr": 45180,
+      "debt_median": null,
+      "completers": 299,
+      "completers_single_year": 353,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "santa-rosa-junior-college-123013",
+      "institution_name": "Santa Rosa Junior College",
+      "earnings_median_5yr": 62124,
+      "earnings_median_4yr": 54772,
+      "debt_median": null,
+      "completers": 174,
+      "completers_single_year": 190,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "miracosta-college-118912",
+      "institution_name": "MiraCosta College",
+      "earnings_median_5yr": 61778,
+      "earnings_median_4yr": 46668,
+      "debt_median": null,
+      "completers": 239,
+      "completers_single_year": 206,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "napa-valley-college-119331",
+      "institution_name": "Napa Valley College",
+      "earnings_median_5yr": 58874,
+      "earnings_median_4yr": 58055,
+      "debt_median": null,
+      "completers": 50,
+      "completers_single_year": 29,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cypress-college-113236",
+      "institution_name": "Cypress College",
+      "earnings_median_5yr": 58816,
+      "earnings_median_4yr": 47575,
+      "debt_median": null,
+      "completers": 237,
+      "completers_single_year": 242,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cosumnes-river-college-113096",
+      "institution_name": "Cosumnes River College",
+      "earnings_median_5yr": 58609,
+      "earnings_median_4yr": 47063,
+      "debt_median": null,
+      "completers": 224,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mission-college-118930",
+      "institution_name": "Mission College",
+      "earnings_median_5yr": 58384,
+      "earnings_median_4yr": 47744,
+      "debt_median": null,
+      "completers": 72,
+      "completers_single_year": 80,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "santa-monica-college-122977",
+      "institution_name": "Santa Monica College",
+      "earnings_median_5yr": 58293,
+      "earnings_median_4yr": 43398,
+      "debt_median": null,
+      "completers": 347,
+      "completers_single_year": 349,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "chabot-college-111920",
+      "institution_name": "Chabot College",
+      "earnings_median_5yr": 58263,
+      "earnings_median_4yr": 57962,
+      "debt_median": null,
+      "completers": 177,
+      "completers_single_year": 141,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "american-river-college-109208",
+      "institution_name": "American River College",
+      "earnings_median_5yr": 58167,
+      "earnings_median_4yr": 50750,
+      "debt_median": null,
+      "completers": 277,
+      "completers_single_year": 240,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "coastline-community-college-112385",
+      "institution_name": "Coastline Community College",
+      "earnings_median_5yr": 57293,
+      "earnings_median_4yr": 54344,
+      "debt_median": null,
+      "completers": 653,
+      "completers_single_year": 649,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "college-of-san-mateo-122791",
+      "institution_name": "College of San Mateo",
+      "earnings_median_5yr": 56998,
+      "earnings_median_4yr": 58942,
+      "debt_median": null,
+      "completers": 131,
+      "completers_single_year": 108,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pasadena-city-college-121044",
+      "institution_name": "Pasadena City College",
+      "earnings_median_5yr": 56767,
+      "earnings_median_4yr": 44411,
+      "debt_median": null,
+      "completers": 1232,
+      "completers_single_year": 1182,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cuesta-college-113193",
+      "institution_name": "Cuesta College",
+      "earnings_median_5yr": 56729,
+      "earnings_median_4yr": 47178,
+      "debt_median": null,
+      "completers": 145,
+      "completers_single_year": 130,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "skyline-college-123509",
+      "institution_name": "Skyline College",
+      "earnings_median_5yr": 56110,
+      "earnings_median_4yr": 48932,
+      "debt_median": null,
+      "completers": 96,
+      "completers_single_year": 141,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "san-diego-mesa-college-122375",
+      "institution_name": "San Diego Mesa College",
+      "earnings_median_5yr": 55898,
+      "earnings_median_4yr": 50046,
+      "debt_median": null,
+      "completers": 353,
+      "completers_single_year": 300,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "san-diego-miramar-college-122384",
+      "institution_name": "San Diego Miramar College",
+      "earnings_median_5yr": 55451,
+      "earnings_median_4yr": 48158,
+      "debt_median": null,
+      "completers": 205,
+      "completers_single_year": 164,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "antelope-valley-community-college-district-109350",
+      "institution_name": "Antelope Valley Community College District",
+      "earnings_median_5yr": 54701,
+      "earnings_median_4yr": 39848,
+      "debt_median": 10500,
+      "completers": 122,
+      "completers_single_year": 103,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "college-of-the-desert-113573",
+      "institution_name": "College of the Desert",
+      "earnings_median_5yr": 54334,
+      "earnings_median_4yr": 31622,
+      "debt_median": null,
+      "completers": 159,
+      "completers_single_year": 176,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "norco-college-460464",
+      "institution_name": "Norco College",
+      "earnings_median_5yr": 54313,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 149,
+      "completers_single_year": 119,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "orange-coast-college-120342",
+      "institution_name": "Orange Coast College",
+      "earnings_median_5yr": 53747,
+      "earnings_median_4yr": 42637,
+      "debt_median": null,
+      "completers": 356,
+      "completers_single_year": 415,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southwestern-college-123800",
+      "institution_name": "Southwestern College",
+      "earnings_median_5yr": 52315,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 233,
+      "completers_single_year": 217,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "san-diego-city-college-122339",
+      "institution_name": "San Diego City College",
+      "earnings_median_5yr": 52169,
+      "earnings_median_4yr": 40405,
+      "debt_median": null,
+      "completers": 80,
+      "completers_single_year": 76,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ventura-college-125028",
+      "institution_name": "Ventura College",
+      "earnings_median_5yr": 51276,
+      "earnings_median_4yr": 34998,
+      "debt_median": null,
+      "completers": 175,
+      "completers_single_year": 188,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "sacramento-city-college-122180",
+      "institution_name": "Sacramento City College",
+      "earnings_median_5yr": 50695,
+      "earnings_median_4yr": 38893,
+      "debt_median": 9500,
+      "completers": 201,
+      "completers_single_year": 194,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cerritos-college-111887",
+      "institution_name": "Cerritos College",
+      "earnings_median_5yr": 49951,
+      "earnings_median_4yr": 50540,
+      "debt_median": null,
+      "completers": 361,
+      "completers_single_year": 386,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "crafton-hills-college-113111",
+      "institution_name": "Crafton Hills College",
+      "earnings_median_5yr": 48924,
+      "earnings_median_4yr": 38376,
+      "debt_median": null,
+      "completers": 80,
+      "completers_single_year": 63,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "santa-ana-college-121619",
+      "institution_name": "Santa Ana College",
+      "earnings_median_5yr": 48762,
+      "earnings_median_4yr": 47968,
+      "debt_median": null,
+      "completers": 209,
+      "completers_single_year": 235,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cuyamaca-college-113218",
+      "institution_name": "Cuyamaca College",
+      "earnings_median_5yr": 48616,
+      "earnings_median_4yr": 32231,
+      "debt_median": null,
+      "completers": 129,
+      "completers_single_year": 126,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "grossmont-college-115296",
+      "institution_name": "Grossmont College",
+      "earnings_median_5yr": 48576,
+      "earnings_median_4yr": 48613,
+      "debt_median": null,
+      "completers": 233,
+      "completers_single_year": 264,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rio-hondo-college-121886",
+      "institution_name": "Rio Hondo College",
+      "earnings_median_5yr": 48176,
+      "earnings_median_4yr": 42105,
+      "debt_median": null,
+      "completers": 256,
+      "completers_single_year": 246,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "moorpark-college-119137",
+      "institution_name": "Moorpark College",
+      "earnings_median_5yr": 48072,
+      "earnings_median_4yr": 43122,
+      "debt_median": null,
+      "completers": 229,
+      "completers_single_year": 209,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "el-camino-community-college-district-113980",
+      "institution_name": "El Camino Community College District",
+      "earnings_median_5yr": 47193,
+      "earnings_median_4yr": 44519,
+      "debt_median": null,
+      "completers": 377,
+      "completers_single_year": 327,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "oxnard-college-120421",
+      "institution_name": "Oxnard College",
+      "earnings_median_5yr": 47004,
+      "earnings_median_4yr": 35089,
+      "debt_median": null,
+      "completers": 86,
+      "completers_single_year": 69,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "imperial-valley-college-115861",
+      "institution_name": "Imperial Valley College",
+      "earnings_median_5yr": 46467,
+      "earnings_median_4yr": 40017,
+      "debt_median": null,
+      "completers": 92,
+      "completers_single_year": 80,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "los-angeles-pierce-college-117706",
+      "institution_name": "Los Angeles Pierce College",
+      "earnings_median_5yr": 46248,
+      "earnings_median_4yr": 43796,
+      "debt_median": null,
+      "completers": 116,
+      "completers_single_year": 173,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lemoore-college-448594",
+      "institution_name": "Lemoore College",
+      "earnings_median_5yr": 46209,
+      "earnings_median_4yr": 39120,
+      "debt_median": null,
+      "completers": 57,
+      "completers_single_year": 64,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "fresno-city-college-114789",
+      "institution_name": "Fresno City College",
+      "earnings_median_5yr": 46195,
+      "earnings_median_4yr": 39936,
+      "debt_median": null,
+      "completers": 277,
+      "completers_single_year": 254,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "san-bernardino-valley-college-123527",
+      "institution_name": "San Bernardino Valley College",
+      "earnings_median_5yr": 46090,
+      "earnings_median_4yr": 39440,
+      "debt_median": null,
+      "completers": 141,
+      "completers_single_year": 155,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "reedley-college-117052",
+      "institution_name": "Reedley College",
+      "earnings_median_5yr": 42858,
+      "earnings_median_4yr": 38864,
+      "debt_median": null,
+      "completers": 89,
+      "completers_single_year": 94,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mendocino-college-118684",
+      "institution_name": "Mendocino College",
+      "earnings_median_5yr": 42458,
+      "earnings_median_4yr": 41540,
+      "debt_median": null,
+      "completers": 65,
+      "completers_single_year": 82,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "yuba-college-126119",
+      "institution_name": "Yuba College",
+      "earnings_median_5yr": 41929,
+      "earnings_median_4yr": 40197,
+      "debt_median": null,
+      "completers": 60,
+      "completers_single_year": 76,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "merced-college-118718",
+      "institution_name": "Merced College",
+      "earnings_median_5yr": 41926,
+      "earnings_median_4yr": 30882,
+      "debt_median": null,
+      "completers": 107,
+      "completers_single_year": 135,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "allan-hancock-college-108807",
+      "institution_name": "Allan Hancock College",
+      "earnings_median_5yr": 41290,
+      "earnings_median_4yr": 31506,
+      "debt_median": null,
+      "completers": 167,
+      "completers_single_year": 138,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "modesto-junior-college-118976",
+      "institution_name": "Modesto Junior College",
+      "earnings_median_5yr": 41094,
+      "earnings_median_4yr": 24094,
+      "debt_median": null,
+      "completers": 221,
+      "completers_single_year": 182,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ashford-university-154022",
+      "institution_name": "Ashford University",
+      "earnings_median_5yr": 39153,
+      "earnings_median_4yr": 35496,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "laurus-college-454786",
+      "institution_name": "Laurus College",
+      "earnings_median_5yr": 35985,
+      "earnings_median_4yr": 28504,
+      "debt_median": 33000,
+      "completers": 33,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "platt-college-los-angeles-260789",
+      "institution_name": "Platt College-Los Angeles",
+      "earnings_median_5yr": 31286,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "college-of-alameda-108667",
+      "institution_name": "College of Alameda",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 40,
+      "completers_single_year": 48,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bakersfield-college-109819",
+      "institution_name": "Bakersfield College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 203,
+      "completers_single_year": 160,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "barstow-community-college-109907",
+      "institution_name": "Barstow Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 70,
+      "completers_single_year": 46,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "butte-college-110246",
+      "institution_name": "Butte College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 47018,
+      "debt_median": null,
+      "completers": 91,
+      "completers_single_year": 131,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cabrillo-college-110334",
+      "institution_name": "Cabrillo College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 67,
+      "completers_single_year": 51,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "canada-college-111434",
+      "institution_name": "Canada College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 70,
+      "completers_single_year": 59,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "college-of-the-canyons-111461",
+      "institution_name": "College of the Canyons",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 275,
+      "completers_single_year": 279,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cerro-coso-community-college-111896",
+      "institution_name": "Cerro Coso Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 46,
+      "completers_single_year": 38,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "chaffey-college-111939",
+      "institution_name": "Chaffey College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 449,
+      "completers_single_year": 356,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "citrus-college-112172",
+      "institution_name": "Citrus College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 401,
+      "completers_single_year": 397,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "city-college-of-san-francisco-112190",
+      "institution_name": "City College of San Francisco",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 83,
+      "completers_single_year": 68,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "columbia-college-112561",
+      "institution_name": "Columbia College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "compton-college-112686",
+      "institution_name": "Compton College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 31,
+      "completers_single_year": 28,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "contra-costa-college-112826",
+      "institution_name": "Contra Costa College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 99,
+      "completers_single_year": 91,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "de-anza-college-113333",
+      "institution_name": "De Anza College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 6500,
+      "completers": 437,
+      "completers_single_year": 350,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "diablo-valley-college-113634",
+      "institution_name": "Diablo Valley College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 189,
+      "completers_single_year": 218,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "feather-river-community-college-district-114433",
+      "institution_name": "Feather River Community College District",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "foothill-college-114716",
+      "institution_name": "Foothill College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 144,
+      "completers_single_year": 135,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "fullerton-college-114859",
+      "institution_name": "Fullerton College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 322,
+      "completers_single_year": 379,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "gavilan-college-114938",
+      "institution_name": "Gavilan College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 54,
+      "completers_single_year": 57,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "glendale-community-college-115001",
+      "institution_name": "Glendale Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 218,
+      "completers_single_year": 236,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "golden-gate-university-115083",
+      "institution_name": "Golden Gate University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "golden-west-college-115126",
+      "institution_name": "Golden West College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 184,
+      "completers_single_year": 165,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hartnell-college-115393",
+      "institution_name": "Hartnell College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 93,
+      "completers_single_year": 100,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "humphreys-university-stockton-and-modesto-campuses-115773",
+      "institution_name": "Humphreys University-Stockton and Modesto Campuses",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lake-tahoe-community-college-117195",
+      "institution_name": "Lake Tahoe Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 21,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lassen-community-college-117274",
+      "institution_name": "Lassen Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 21,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "long-beach-city-college-117645",
+      "institution_name": "Long Beach City College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 335,
+      "completers_single_year": 301,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "los-angeles-harbor-college-117690",
+      "institution_name": "Los Angeles Harbor College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 85,
+      "completers_single_year": 83,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "los-angeles-southwest-college-117715",
+      "institution_name": "Los Angeles Southwest College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 54,
+      "completers_single_year": 57,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "los-angeles-trade-technical-college-117724",
+      "institution_name": "Los Angeles Trade Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 28,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "los-angeles-valley-college-117733",
+      "institution_name": "Los Angeles Valley College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 156,
+      "completers_single_year": 167,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "los-angeles-city-college-117788",
+      "institution_name": "Los Angeles City College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 150,
+      "completers_single_year": 93,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "los-angeles-mission-college-117867",
+      "institution_name": "Los Angeles Mission College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 82,
+      "completers_single_year": 88,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "los-medanos-college-117894",
+      "institution_name": "Los Medanos College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 89,
+      "completers_single_year": 82,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mti-college-118198",
+      "institution_name": "MTI College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 12161,
+      "completers": 1,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "merritt-college-118772",
+      "institution_name": "Merritt College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 35,
+      "completers_single_year": 27,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "monterey-peninsula-college-119067",
+      "institution_name": "Monterey Peninsula College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 90,
+      "completers_single_year": 109,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mt-san-antonio-college-119164",
+      "institution_name": "Mt San Antonio College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 381,
+      "completers_single_year": 308,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mount-saint-mary-s-university-119173",
+      "institution_name": "Mount Saint Mary's University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 34323,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mt-san-jacinto-community-college-district-119216",
+      "institution_name": "Mt San Jacinto Community College District",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 261,
+      "completers_single_year": 218,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "national-university-119605",
+      "institution_name": "National University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ohlone-college-120290",
+      "institution_name": "Ohlone College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 73,
+      "completers_single_year": 99,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hope-international-university-120537",
+      "institution_name": "Hope International University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "palo-verde-college-120953",
+      "institution_name": "Palo Verde College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 23,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "porterville-college-121363",
+      "institution_name": "Porterville College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 50,
+      "completers_single_year": 63,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "college-of-the-redwoods-121707",
+      "institution_name": "College of the Redwoods",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 28,
+      "completers_single_year": 37,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "riverside-city-college-121901",
+      "institution_name": "Riverside City College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 302,
+      "completers_single_year": 246,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "san-joaquin-delta-college-122658",
+      "institution_name": "San Joaquin Delta College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 110,
+      "completers_single_year": 58,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "san-jose-city-college-122746",
+      "institution_name": "San Jose City College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 97,
+      "completers_single_year": 72,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "santa-barbara-city-college-122889",
+      "institution_name": "Santa Barbara City College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 115,
+      "completers_single_year": 97,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "college-of-the-sequoias-123217",
+      "institution_name": "College of the Sequoias",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 103,
+      "completers_single_year": 100,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "shasta-college-123299",
+      "institution_name": "Shasta College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 70,
+      "completers_single_year": 87,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "sierra-college-123341",
+      "institution_name": "Sierra College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 357,
+      "completers_single_year": 412,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "college-of-the-siskiyous-123484",
+      "institution_name": "College of the Siskiyous",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "taft-college-124113",
+      "institution_name": "Taft College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 40,
+      "completers_single_year": 41,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "uei-college-huntington-park-124681",
+      "institution_name": "UEI College-Huntington Park",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "victor-valley-college-125091",
+      "institution_name": "Victor Valley College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 33,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "berkeley-city-college-125170",
+      "institution_name": "Berkeley City College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 48,
+      "completers_single_year": 52,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "coalinga-college-125462",
+      "institution_name": "Coalinga College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 23,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "west-los-angeles-college-125471",
+      "institution_name": "West Los Angeles College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 131,
+      "completers_single_year": 153,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "west-valley-college-125499",
+      "institution_name": "West Valley College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 147,
+      "completers_single_year": 122,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "carrington-college-sacramento-125532",
+      "institution_name": "Carrington College-Sacramento",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-massachusetts-global-262086",
+      "institution_name": "University of Massachusetts Global",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "las-positas-college-366401",
+      "institution_name": "Las Positas College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 139,
+      "completers_single_year": 155,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "fremont-university-372073",
+      "institution_name": "Fremont University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "copper-mountain-community-college-395362",
+      "institution_name": "Copper Mountain Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 28,
+      "completers_single_year": 29,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "santiago-canyon-college-399212",
+      "institution_name": "Santiago Canyon College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 159,
+      "completers_single_year": 167,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "intercoast-colleges-west-covina-443571",
+      "institution_name": "InterCoast Colleges-West Covina",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "woodland-community-college-455512",
+      "institution_name": "Woodland Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 49,
+      "completers_single_year": 52,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "moreno-valley-college-460394",
+      "institution_name": "Moreno Valley College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 70,
+      "completers_single_year": 62,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-miramar-university-480781",
+      "institution_name": "California Miramar University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "abraham-lincoln-university-488031",
+      "institution_name": "Abraham Lincoln University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "clovis-community-college-489201",
+      "institution_name": "Clovis Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 125,
+      "completers_single_year": 134,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "westcliff-university-490133",
+      "institution_name": "Westcliff University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "agape-college-of-business-and-science-496399",
+      "institution_name": "Agape College of Business and Science",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "madera-community-college-497046",
+      "institution_name": "Madera Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 28,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

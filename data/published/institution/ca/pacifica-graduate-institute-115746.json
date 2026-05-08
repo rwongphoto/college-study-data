@@ -1,0 +1,1005 @@
+{
+  "institution": {
+    "unitid": "115746",
+    "opeid6": "031268",
+    "name": "Pacifica Graduate Institute",
+    "slug": "pacifica-graduate-institute-115746",
+    "state": "ca",
+    "city": "Carpinteria",
+    "city_slug": "carpinteria",
+    "zip5": "93013",
+    "address": "249 Lambert Rd",
+    "latitude": 34.420881,
+    "longitude": -119.580414,
+    "control": "private_forprofit",
+    "pred_degree": "graduate",
+    "highest_degree": "masters",
+    "main_campus": true,
+    "locale": "41",
+    "carnegie_basic": 17,
+    "sector_code": 3,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": null,
+    "completion_rate_100": null,
+    "retention_rate": null,
+    "admission_rate": null,
+    "enrollment_undergrad": null,
+    "enrollment_total": null,
+    "cost_attendance": null,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": null,
+    "median_debt": null,
+    "default_rate": 0.0,
+    "pell_share": null,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [],
+      "admission_rate": [],
+      "enrollment_undergrad": [],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [],
+      "median_debt": [],
+      "default_rate": [
+        {
+          "year": 2011,
+          "value": 0.04
+        },
+        {
+          "year": 2012,
+          "value": 0.033
+        },
+        {
+          "year": 2013,
+          "value": 0.03
+        },
+        {
+          "year": 2014,
+          "value": 0.029
+        },
+        {
+          "year": 2015,
+          "value": 0.03
+        },
+        {
+          "year": 2016,
+          "value": 0.047
+        },
+        {
+          "year": 2017,
+          "value": 0.047
+        },
+        {
+          "year": 2018,
+          "value": 0.034
+        },
+        {
+          "year": 2019,
+          "value": 0.026
+        },
+        {
+          "year": 2020,
+          "value": 0.03
+        },
+        {
+          "year": 2021,
+          "value": 0.005
+        },
+        {
+          "year": 2022,
+          "value": 0.0
+        },
+        {
+          "year": 2023,
+          "value": 0.0
+        },
+        {
+          "year": 2024,
+          "value": 0.0
+        }
+      ],
+      "pell_share": [],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "default_rate",
+        "from_year": 2011,
+        "to_year": 2024,
+        "from_value": 0.04,
+        "to_value": 0.0,
+        "pct_change": -1.0,
+        "direction": "fell"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "3-year cohort default rate",
+        "summary": "3-year cohort default rate at Pacifica Graduate Institute fell 100% between 2021 and 2024 (0.5% → 0.0%).",
+        "magnitude_pct": -100.0,
+        "magnitude_abs": -0.01,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": "%",
+        "history": [],
+        "metric": "default_rate"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "24": [
+      {
+        "slug": "2401-c5",
+        "cip_code": "2401",
+        "cip_desc": "Liberal Arts and Sciences, General Studies and Humanities.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 17,
+        "completers_single_year": 21,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 33.0
+          },
+          {
+            "year": 2015,
+            "value": 28.0
+          },
+          {
+            "year": 2016,
+            "value": 26.0
+          },
+          {
+            "year": 2017,
+            "value": 18.0
+          },
+          {
+            "year": 2018,
+            "value": 21.0
+          },
+          {
+            "year": 2019,
+            "value": 17.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "2401-c6",
+        "cip_code": "2401",
+        "cip_desc": "Liberal Arts and Sciences, General Studies and Humanities.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": 190629,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 151977.0
+          },
+          {
+            "year": 2015,
+            "value": 166352.0
+          },
+          {
+            "year": 2016,
+            "value": 199115.0
+          },
+          {
+            "year": 2018,
+            "value": 190629.0
+          }
+        ],
+        "completers": 7,
+        "completers_single_year": 17,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 25.0
+          },
+          {
+            "year": 2015,
+            "value": 19.0
+          },
+          {
+            "year": 2016,
+            "value": 10.0
+          },
+          {
+            "year": 2017,
+            "value": 13.0
+          },
+          {
+            "year": 2018,
+            "value": 17.0
+          },
+          {
+            "year": 2019,
+            "value": 7.0
+          }
+        ],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2014,
+            "to_year": 2018,
+            "from_value": 151977.0,
+            "to_value": 190629.0,
+            "pct_change": 0.2543279575198879,
+            "direction": "rose"
+          }
+        ]
+      }
+    ],
+    "42": [
+      {
+        "slug": "4228-c5",
+        "cip_code": "4228",
+        "cip_desc": "Clinical, Counseling and Applied Psychology.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": 57752,
+        "earnings_median_4yr": 56186,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 57752.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 56186.0
+          }
+        ],
+        "debt_median": 105107,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 96362.0
+          },
+          {
+            "year": 2015,
+            "value": 98314.0
+          },
+          {
+            "year": 2016,
+            "value": 107000.0
+          },
+          {
+            "year": 2017,
+            "value": 111422.0
+          },
+          {
+            "year": 2018,
+            "value": 105107.0
+          }
+        ],
+        "completers": 90,
+        "completers_single_year": 71,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 89.0
+          },
+          {
+            "year": 2015,
+            "value": 81.0
+          },
+          {
+            "year": 2016,
+            "value": 81.0
+          },
+          {
+            "year": 2017,
+            "value": 75.0
+          },
+          {
+            "year": 2018,
+            "value": 71.0
+          },
+          {
+            "year": 2019,
+            "value": 90.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "4299-c6",
+        "cip_code": "4299",
+        "cip_desc": "Psychology, Other.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": 57804,
+        "earnings_median_4yr": 69820,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 57804.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 69820.0
+          }
+        ],
+        "debt_median": 183866,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 174374.0
+          },
+          {
+            "year": 2015,
+            "value": 188804.0
+          },
+          {
+            "year": 2016,
+            "value": 183393.0
+          },
+          {
+            "year": 2017,
+            "value": 142952.0
+          },
+          {
+            "year": 2018,
+            "value": 183866.0
+          }
+        ],
+        "completers": 50,
+        "completers_single_year": 37,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 33.0
+          },
+          {
+            "year": 2015,
+            "value": 50.0
+          },
+          {
+            "year": 2016,
+            "value": 39.0
+          },
+          {
+            "year": 2017,
+            "value": 41.0
+          },
+          {
+            "year": 2018,
+            "value": 37.0
+          },
+          {
+            "year": 2019,
+            "value": 50.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "4299-c5",
+        "cip_code": "4299",
+        "cip_desc": "Psychology, Other.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": 124162,
+        "debt_history": [
+          {
+            "year": 2018,
+            "value": 124162.0
+          }
+        ],
+        "completers": 34,
+        "completers_single_year": 39,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 34.0
+          },
+          {
+            "year": 2015,
+            "value": 44.0
+          },
+          {
+            "year": 2016,
+            "value": 42.0
+          },
+          {
+            "year": 2017,
+            "value": 56.0
+          },
+          {
+            "year": 2018,
+            "value": 39.0
+          },
+          {
+            "year": 2019,
+            "value": 34.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "4228-c6",
+        "cip_code": "4228",
+        "cip_desc": "Clinical, Counseling and Applied Psychology.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": 55070,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 55070.0
+          }
+        ],
+        "debt_median": 220842,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 145211.0
+          },
+          {
+            "year": 2015,
+            "value": 165438.0
+          },
+          {
+            "year": 2016,
+            "value": 168231.0
+          },
+          {
+            "year": 2017,
+            "value": 214131.0
+          },
+          {
+            "year": 2018,
+            "value": 220842.0
+          }
+        ],
+        "completers": 17,
+        "completers_single_year": 23,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 35.0
+          },
+          {
+            "year": 2015,
+            "value": 29.0
+          },
+          {
+            "year": 2016,
+            "value": 15.0
+          },
+          {
+            "year": 2017,
+            "value": 20.0
+          },
+          {
+            "year": 2018,
+            "value": 23.0
+          },
+          {
+            "year": 2019,
+            "value": 17.0
+          }
+        ],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2014,
+            "to_year": 2018,
+            "from_value": 145211.0,
+            "to_value": 220842.0,
+            "pct_change": 0.5208351984353803,
+            "direction": "rose"
+          }
+        ]
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "4228-c5",
+      "cip_code": "4228",
+      "cip_desc": "Clinical, Counseling and Applied Psychology.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": 57752,
+      "earnings_median_4yr": 56186,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 57752.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 56186.0
+        }
+      ],
+      "debt_median": 105107,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 96362.0
+        },
+        {
+          "year": 2015,
+          "value": 98314.0
+        },
+        {
+          "year": 2016,
+          "value": 107000.0
+        },
+        {
+          "year": 2017,
+          "value": 111422.0
+        },
+        {
+          "year": 2018,
+          "value": 105107.0
+        }
+      ],
+      "completers": 90,
+      "completers_single_year": 71,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 89.0
+        },
+        {
+          "year": 2015,
+          "value": 81.0
+        },
+        {
+          "year": 2016,
+          "value": 81.0
+        },
+        {
+          "year": 2017,
+          "value": 75.0
+        },
+        {
+          "year": 2018,
+          "value": 71.0
+        },
+        {
+          "year": 2019,
+          "value": 90.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4299-c6",
+      "cip_code": "4299",
+      "cip_desc": "Psychology, Other.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": 57804,
+      "earnings_median_4yr": 69820,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 57804.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 69820.0
+        }
+      ],
+      "debt_median": 183866,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 174374.0
+        },
+        {
+          "year": 2015,
+          "value": 188804.0
+        },
+        {
+          "year": 2016,
+          "value": 183393.0
+        },
+        {
+          "year": 2017,
+          "value": 142952.0
+        },
+        {
+          "year": 2018,
+          "value": 183866.0
+        }
+      ],
+      "completers": 50,
+      "completers_single_year": 37,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 33.0
+        },
+        {
+          "year": 2015,
+          "value": 50.0
+        },
+        {
+          "year": 2016,
+          "value": 39.0
+        },
+        {
+          "year": 2017,
+          "value": 41.0
+        },
+        {
+          "year": 2018,
+          "value": 37.0
+        },
+        {
+          "year": 2019,
+          "value": 50.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4299-c5",
+      "cip_code": "4299",
+      "cip_desc": "Psychology, Other.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": 124162,
+      "debt_history": [
+        {
+          "year": 2018,
+          "value": 124162.0
+        }
+      ],
+      "completers": 34,
+      "completers_single_year": 39,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 34.0
+        },
+        {
+          "year": 2015,
+          "value": 44.0
+        },
+        {
+          "year": 2016,
+          "value": 42.0
+        },
+        {
+          "year": 2017,
+          "value": 56.0
+        },
+        {
+          "year": 2018,
+          "value": 39.0
+        },
+        {
+          "year": 2019,
+          "value": 34.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "2401-c5",
+      "cip_code": "2401",
+      "cip_desc": "Liberal Arts and Sciences, General Studies and Humanities.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 17,
+      "completers_single_year": 21,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 33.0
+        },
+        {
+          "year": 2015,
+          "value": 28.0
+        },
+        {
+          "year": 2016,
+          "value": 26.0
+        },
+        {
+          "year": 2017,
+          "value": 18.0
+        },
+        {
+          "year": 2018,
+          "value": 21.0
+        },
+        {
+          "year": 2019,
+          "value": 17.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4228-c6",
+      "cip_code": "4228",
+      "cip_desc": "Clinical, Counseling and Applied Psychology.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 55070,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 55070.0
+        }
+      ],
+      "debt_median": 220842,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 145211.0
+        },
+        {
+          "year": 2015,
+          "value": 165438.0
+        },
+        {
+          "year": 2016,
+          "value": 168231.0
+        },
+        {
+          "year": 2017,
+          "value": 214131.0
+        },
+        {
+          "year": 2018,
+          "value": 220842.0
+        }
+      ],
+      "completers": 17,
+      "completers_single_year": 23,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 35.0
+        },
+        {
+          "year": 2015,
+          "value": 29.0
+        },
+        {
+          "year": 2016,
+          "value": 15.0
+        },
+        {
+          "year": 2017,
+          "value": 20.0
+        },
+        {
+          "year": 2018,
+          "value": 23.0
+        },
+        {
+          "year": 2019,
+          "value": 17.0
+        }
+      ],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2014,
+          "to_year": 2018,
+          "from_value": 145211.0,
+          "to_value": 220842.0,
+          "pct_change": 0.5208351984353803,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "slug": "2401-c6",
+      "cip_code": "2401",
+      "cip_desc": "Liberal Arts and Sciences, General Studies and Humanities.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": 190629,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 151977.0
+        },
+        {
+          "year": 2015,
+          "value": 166352.0
+        },
+        {
+          "year": 2016,
+          "value": 199115.0
+        },
+        {
+          "year": 2018,
+          "value": 190629.0
+        }
+      ],
+      "completers": 7,
+      "completers_single_year": 17,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 25.0
+        },
+        {
+          "year": 2015,
+          "value": 19.0
+        },
+        {
+          "year": 2016,
+          "value": 10.0
+        },
+        {
+          "year": 2017,
+          "value": 13.0
+        },
+        {
+          "year": 2018,
+          "value": 17.0
+        },
+        {
+          "year": 2019,
+          "value": 7.0
+        }
+      ],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2014,
+          "to_year": 2018,
+          "from_value": 151977.0,
+          "to_value": 190629.0,
+          "pct_change": 0.2543279575198879,
+          "direction": "rose"
+        }
+      ]
+    }
+  ],
+  "program_count": 6,
+  "similar": [
+    {
+      "slug": "emperor-s-college-of-traditional-oriental-medicine-114114",
+      "name": "Emperor's College of Traditional Oriental Medicine",
+      "city": "Santa Monica",
+      "control": "private_forprofit",
+      "pred_degree": "graduate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": null
+    },
+    {
+      "slug": "empire-college-114123",
+      "name": "Empire College",
+      "city": "Santa Rosa",
+      "control": "private_forprofit",
+      "pred_degree": "graduate",
+      "earnings_median_10yr": 43090,
+      "completion_rate_150": 0.6466,
+      "enrollment_undergrad": null
+    },
+    {
+      "slug": "five-branches-university-114585",
+      "name": "Five Branches University",
+      "city": "Santa Cruz",
+      "control": "private_forprofit",
+      "pred_degree": "graduate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": null
+    },
+    {
+      "slug": "university-of-st-augustine-for-health-sciences-367954",
+      "name": "University of St. Augustine for Health Sciences",
+      "city": "San Marcos",
+      "control": "private_forprofit",
+      "pred_degree": "graduate",
+      "earnings_median_10yr": 79150,
+      "completion_rate_150": null,
+      "enrollment_undergrad": null
+    },
+    {
+      "slug": "university-of-east-west-medicine-447801",
+      "name": "University of East-West Medicine",
+      "city": "Sunnyvale",
+      "control": "private_forprofit",
+      "pred_degree": "graduate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": null
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

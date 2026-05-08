@@ -1,0 +1,280 @@
+{
+  "institution_unitid": "133669",
+  "institution_name": "Florida Atlantic University",
+  "institution_slug": "florida-atlantic-university-133669",
+  "state": "fl",
+  "cip_code": "5138",
+  "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+  "credential_level": 6,
+  "credential_desc": "Doctoral Degree",
+  "slug": "5138-c6",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 1,
+  "debt_median": 54476,
+  "completers": 9,
+  "completers_single_year": 8,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [
+      {
+        "year": 2015,
+        "value": 30122.0
+      },
+      {
+        "year": 2016,
+        "value": 30275.0
+      },
+      {
+        "year": 2017,
+        "value": 47155.0
+      },
+      {
+        "year": 2018,
+        "value": 54476.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 7.0
+      },
+      {
+        "year": 2015,
+        "value": 6.0
+      },
+      {
+        "year": 2016,
+        "value": 9.0
+      },
+      {
+        "year": 2017,
+        "value": 5.0
+      },
+      {
+        "year": 2018,
+        "value": 8.0
+      },
+      {
+        "year": 2019,
+        "value": 9.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2015,
+      "to_year": 2018,
+      "from_value": 30122.0,
+      "to_value": 54476.0,
+      "pct_change": 0.80851205099263,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing at Florida Atlantic University rose 81% between 2015 and 2018 ($30.1k → $54.5k).",
+      "magnitude_pct": 80.9,
+      "magnitude_abs": 24354.0,
+      "baseline_year": 2015,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "133669",
+    "slug": "florida-atlantic-university-133669",
+    "name": "Florida Atlantic University",
+    "city": "Boca Raton",
+    "city_slug": "boca-raton",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "barry-university-132471",
+      "institution_name": "Barry University",
+      "earnings_median_5yr": 149877,
+      "earnings_median_4yr": 118549,
+      "debt_median": 82685,
+      "completers": 16,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "nova-southeastern-university-136215",
+      "institution_name": "Nova Southeastern University",
+      "earnings_median_5yr": 133990,
+      "earnings_median_4yr": 123406,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-south-florida-137351",
+      "institution_name": "University of South Florida",
+      "earnings_median_5yr": 133440,
+      "earnings_median_4yr": 123008,
+      "debt_median": 38646,
+      "completers": 4,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "florida-state-university-134097",
+      "institution_name": "Florida State University",
+      "earnings_median_5yr": 118251,
+      "earnings_median_4yr": 111506,
+      "debt_median": 68875,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-florida-134130",
+      "institution_name": "University of Florida",
+      "earnings_median_5yr": 116198,
+      "earnings_median_4yr": 106913,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-central-florida-132903",
+      "institution_name": "University of Central Florida",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "florida-international-university-133951",
+      "institution_name": "Florida International University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "jacksonville-university-134945",
+      "institution_name": "Jacksonville University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "keiser-university-ft-lauderdale-135081",
+      "institution_name": "Keiser University-Ft Lauderdale",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-miami-135726",
+      "institution_name": "University of Miami",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 201589,
+      "completers": 2,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-north-florida-136172",
+      "institution_name": "University of North Florida",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 46955,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "palm-beach-atlantic-university-136330",
+      "institution_name": "Palm Beach Atlantic University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 64401,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 8,
+      "cost_per_year_default": 8772,
+      "cost_total_default": 70176,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": 54476,
+      "cip_family": "51"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

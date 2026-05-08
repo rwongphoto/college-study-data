@@ -1,0 +1,384 @@
+{
+  "institution_unitid": "187046",
+  "institution_name": "Thomas Edison State University",
+  "institution_slug": "thomas-edison-state-university-187046",
+  "state": "nj",
+  "cip_code": "5138",
+  "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5138-c3",
+  "earnings_median_4yr": 92693,
+  "earnings_median_5yr": 99603,
+  "earnings_count_4yr": 6,
+  "earnings_count_5yr": 5,
+  "debt_median": 15000,
+  "completers": 189,
+  "completers_single_year": 193,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 92693.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 99603.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 15046.0
+      },
+      {
+        "year": 2015,
+        "value": 15625.0
+      },
+      {
+        "year": 2016,
+        "value": 15852.0
+      },
+      {
+        "year": 2017,
+        "value": 16890.0
+      },
+      {
+        "year": 2018,
+        "value": 15000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 482.0
+      },
+      {
+        "year": 2015,
+        "value": 340.0
+      },
+      {
+        "year": 2016,
+        "value": 232.0
+      },
+      {
+        "year": 2017,
+        "value": 252.0
+      },
+      {
+        "year": 2018,
+        "value": 193.0
+      },
+      {
+        "year": 2019,
+        "value": 189.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "completers",
+      "from_year": 2014,
+      "to_year": 2019,
+      "from_value": 482.0,
+      "to_value": 189.0,
+      "pct_change": -0.293,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Annual completers",
+      "summary": "Annual completers at Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing at Thomas Edison State University fell 29% between 2014 and 2019 (482 → 189).",
+      "magnitude_pct": -29.3,
+      "magnitude_abs": -293.0,
+      "baseline_year": 2014,
+      "recent_year": 2019,
+      "units": null,
+      "history": [],
+      "metric": "completers"
+    }
+  ],
+  "institution": {
+    "unitid": "187046",
+    "slug": "thomas-edison-state-university-187046",
+    "name": "Thomas Edison State University",
+    "city": "Trenton",
+    "city_slug": "trenton",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "felician-university-184612",
+      "institution_name": "Felician University",
+      "earnings_median_5yr": 111022,
+      "earnings_median_4yr": 94608,
+      "debt_median": 25000,
+      "completers": 182,
+      "completers_single_year": 112,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "kean-university-185262",
+      "institution_name": "Kean University",
+      "earnings_median_5yr": 104865,
+      "earnings_median_4yr": 94150,
+      "debt_median": 18009,
+      "completers": 49,
+      "completers_single_year": 40,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-elizabeth-university-186618",
+      "institution_name": "Saint Elizabeth University",
+      "earnings_median_5yr": 103983,
+      "earnings_median_4yr": 96309,
+      "debt_median": 12500,
+      "completers": 76,
+      "completers_single_year": 94,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ramapo-college-of-new-jersey-186201",
+      "institution_name": "Ramapo College of New Jersey",
+      "earnings_median_5yr": 101973,
+      "earnings_median_4yr": 90432,
+      "debt_median": 25000,
+      "completers": 126,
+      "completers_single_year": 135,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-peter-s-university-186432",
+      "institution_name": "Saint Peter's University",
+      "earnings_median_5yr": 101499,
+      "earnings_median_4yr": 86630,
+      "debt_median": 16487,
+      "completers": 50,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bloomfield-college-183822",
+      "institution_name": "Bloomfield College",
+      "earnings_median_5yr": 101148,
+      "earnings_median_4yr": 86260,
+      "debt_median": 29125,
+      "completers": 51,
+      "completers_single_year": 48,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "new-jersey-city-university-185129",
+      "institution_name": "New Jersey City University",
+      "earnings_median_5yr": 101035,
+      "earnings_median_4yr": 92118,
+      "debt_median": 12500,
+      "completers": 181,
+      "completers_single_year": 155,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "caldwell-university-183910",
+      "institution_name": "Caldwell University",
+      "earnings_median_5yr": 100169,
+      "earnings_median_4yr": 85900,
+      "debt_median": 26000,
+      "completers": 58,
+      "completers_single_year": 60,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "fairleigh-dickinson-university-metropolitan-campus-184603",
+      "institution_name": "Fairleigh Dickinson University-Metropolitan Campus",
+      "earnings_median_5yr": 100017,
+      "earnings_median_4yr": 94288,
+      "debt_median": 23000,
+      "completers": 37,
+      "completers_single_year": 28,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-college-of-new-jersey-187134",
+      "institution_name": "The College of New Jersey",
+      "earnings_median_5yr": 98401,
+      "earnings_median_4yr": 84646,
+      "debt_median": 27000,
+      "completers": 73,
+      "completers_single_year": 91,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "stockton-university-186876",
+      "institution_name": "Stockton University",
+      "earnings_median_5yr": 98203,
+      "earnings_median_4yr": 85398,
+      "debt_median": 27000,
+      "completers": 58,
+      "completers_single_year": 58,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "william-paterson-university-of-new-jersey-187444",
+      "institution_name": "William Paterson University of New Jersey",
+      "earnings_median_5yr": 96443,
+      "earnings_median_4yr": 85837,
+      "debt_median": 21793,
+      "completers": 106,
+      "completers_single_year": 87,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "seton-hall-university-186584",
+      "institution_name": "Seton Hall University",
+      "earnings_median_5yr": 95840,
+      "earnings_median_4yr": 86863,
+      "debt_median": 22250,
+      "completers": 109,
+      "completers_single_year": 94,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rowan-university-184782",
+      "institution_name": "Rowan University",
+      "earnings_median_5yr": 95178,
+      "earnings_median_4yr": 72917,
+      "debt_median": 12500,
+      "completers": 73,
+      "completers_single_year": 45,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rutgers-university-new-brunswick-186380",
+      "institution_name": "Rutgers University-New Brunswick",
+      "earnings_median_5yr": 93912,
+      "earnings_median_4yr": 86247,
+      "debt_median": 24952,
+      "completers": 351,
+      "completers_single_year": 356,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "georgian-court-university-184773",
+      "institution_name": "Georgian Court University",
+      "earnings_median_5yr": 90484,
+      "earnings_median_4yr": 82750,
+      "debt_median": 22500,
+      "completers": 100,
+      "completers_single_year": 82,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "berkeley-college-woodland-park-183789",
+      "institution_name": "Berkeley College-Woodland Park",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 31394,
+      "completers": 39,
+      "completers_single_year": 24,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "monmouth-university-185572",
+      "institution_name": "Monmouth University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 27000,
+      "completers": 26,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "montclair-state-university-185590",
+      "institution_name": "Montclair State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 50,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rider-university-186283",
+      "institution_name": "Rider University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "eastern-international-college-jersey-city-421878",
+      "institution_name": "Eastern International College-Jersey City",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 5,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": null,
+      "cost_total_default": null,
+      "cost_source": null,
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 99603,
+      "earnings_anchor_year": 5,
+      "debt_median": 15000,
+      "cip_family": "51"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "institution_unitid": "241331",
+  "institution_name": "Albizu University-San Juan",
+  "institution_slug": "albizu-university-san-juan-241331",
+  "state": "pr",
+  "cip_code": "4228",
+  "cip_desc": "Clinical, Counseling and Applied Psychology.",
+  "credential_level": 6,
+  "credential_desc": "Doctoral Degree",
+  "slug": "4228-c6",
+  "earnings_median_4yr": 74588,
+  "earnings_median_5yr": 77562,
+  "earnings_count_4yr": 5,
+  "earnings_count_5yr": 8,
+  "debt_median": 151353,
+  "completers": 59,
+  "completers_single_year": 40,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 74588.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 77562.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 165750.0
+      },
+      {
+        "year": 2015,
+        "value": 166250.0
+      },
+      {
+        "year": 2016,
+        "value": 194653.0
+      },
+      {
+        "year": 2017,
+        "value": 176776.0
+      },
+      {
+        "year": 2018,
+        "value": 151353.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 126.0
+      },
+      {
+        "year": 2015,
+        "value": 56.0
+      },
+      {
+        "year": 2016,
+        "value": 45.0
+      },
+      {
+        "year": 2017,
+        "value": 43.0
+      },
+      {
+        "year": 2018,
+        "value": 40.0
+      },
+      {
+        "year": 2019,
+        "value": 59.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 26.0% at Clinical, Counseling and Applied Psychology at Albizu University-San Juan exceeds the 8% gainful-employment threshold ($151.4k debt amortized over 10 years vs $77.6k earnings).",
+      "magnitude_pct": 26.0,
+      "magnitude_abs": 18.0,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "241331",
+    "slug": "albizu-university-san-juan-241331",
+    "name": "Albizu University-San Juan",
+    "city": "San Juan",
+    "city_slug": "san-juan",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "ponce-health-sciences-university-243081",
+      "institution_name": "Ponce Health Sciences University",
+      "earnings_median_5yr": 58992,
+      "earnings_median_4yr": 48776,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "inter-american-university-of-puerto-rico-metro-242653",
+      "institution_name": "Inter American University of Puerto Rico-Metro",
+      "earnings_median_5yr": 45569,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pontifical-catholic-university-of-puerto-rico-ponce-241410",
+      "institution_name": "Pontifical Catholic University of Puerto Rico-Ponce",
+      "earnings_median_5yr": 39353,
+      "earnings_median_4yr": 28679,
+      "debt_median": 113951,
+      "completers": 37,
+      "completers_single_year": 32,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "inter-american-university-of-puerto-rico-san-german-242617",
+      "institution_name": "Inter American University of Puerto Rico-San German",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "universidad-ana-g-mendez-gurabo-campus-243601",
+      "institution_name": "Universidad Ana G. Mendez-Gurabo Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 8,
+    "inputs": {
+      "years_to_complete": 8,
+      "cost_per_year_default": 15489,
+      "cost_total_default": 123912,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 77562,
+      "earnings_anchor_year": 5,
+      "debt_median": 151353,
+      "cip_family": "42",
+      "hs_baseline_state": 22400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 609499,
+      "breakeven_year": 12
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

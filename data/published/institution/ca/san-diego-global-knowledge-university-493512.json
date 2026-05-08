@@ -1,0 +1,428 @@
+{
+  "institution": {
+    "unitid": "493512",
+    "opeid6": "042657",
+    "name": "San Diego Global Knowledge University",
+    "slug": "san-diego-global-knowledge-university-493512",
+    "state": "ca",
+    "city": "San Diego",
+    "city_slug": "san-diego",
+    "zip5": "92101",
+    "address": "1095 K Street, Suite B",
+    "latitude": 32.708222,
+    "longitude": -117.154966,
+    "control": "private_forprofit",
+    "pred_degree": "certificate",
+    "highest_degree": "masters",
+    "main_campus": true,
+    "locale": "11",
+    "carnegie_basic": -2,
+    "sector_code": 3,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": null,
+    "completion_rate_100": null,
+    "retention_rate": 1.0,
+    "admission_rate": null,
+    "enrollment_undergrad": 98,
+    "enrollment_total": null,
+    "cost_attendance": null,
+    "tuition_in_state": 13774,
+    "tuition_out_of_state": 13774,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": null,
+    "median_debt": null,
+    "default_rate": null,
+    "pell_share": 0.053,
+    "history": {
+      "completion_rate_150": [
+        {
+          "year": 2024,
+          "value": 0.4545
+        }
+      ],
+      "completion_rate_100": [],
+      "retention_rate": [],
+      "admission_rate": [],
+      "enrollment_undergrad": [],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [
+        {
+          "year": 2019,
+          "value": 13185.0
+        },
+        {
+          "year": 2020,
+          "value": 6476.0
+        },
+        {
+          "year": 2021,
+          "value": 17210.0
+        },
+        {
+          "year": 2022,
+          "value": 17750.0
+        },
+        {
+          "year": 2023,
+          "value": 13774.0
+        },
+        {
+          "year": 2024,
+          "value": 13774.0
+        }
+      ],
+      "cost_attendance": [],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [],
+      "median_debt": [],
+      "default_rate": [],
+      "pell_share": [],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "Out-of-state tuition",
+        "summary": "Out-of-state tuition at San Diego Global Knowledge University fell 20% between 2021 and 2024 ($17.2k → $13.8k).",
+        "magnitude_pct": -20.0,
+        "magnitude_abs": -3436.0,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": null,
+        "history": [],
+        "metric": "tuition_out_of_state"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "11": [
+      {
+        "slug": "1108-c1",
+        "cip_code": "1108",
+        "cip_desc": "Computer Software and Media Applications.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 48,
+        "completers_single_year": 40,
+        "completers_history": [
+          {
+            "year": 2018,
+            "value": 40.0
+          },
+          {
+            "year": 2019,
+            "value": 48.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1110-c5",
+        "cip_code": "1110",
+        "cip_desc": "Computer/Information Technology Administration and Management.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 1,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 1.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "52": [
+      {
+        "slug": "5202-c3",
+        "cip_code": "5202",
+        "cip_desc": "Business Administration, Management and Operations.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 23,
+        "completers_single_year": 35,
+        "completers_history": [
+          {
+            "year": 2017,
+            "value": 20.0
+          },
+          {
+            "year": 2018,
+            "value": 35.0
+          },
+          {
+            "year": 2019,
+            "value": 23.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5213-c5",
+        "cip_code": "5213",
+        "cip_desc": "Management Sciences and Quantitative Methods.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2017,
+            "value": 2.0
+          },
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "1108-c1",
+      "cip_code": "1108",
+      "cip_desc": "Computer Software and Media Applications.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 48,
+      "completers_single_year": 40,
+      "completers_history": [
+        {
+          "year": 2018,
+          "value": 40.0
+        },
+        {
+          "year": 2019,
+          "value": 48.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5202-c3",
+      "cip_code": "5202",
+      "cip_desc": "Business Administration, Management and Operations.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 23,
+      "completers_single_year": 35,
+      "completers_history": [
+        {
+          "year": 2017,
+          "value": 20.0
+        },
+        {
+          "year": 2018,
+          "value": 35.0
+        },
+        {
+          "year": 2019,
+          "value": 23.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1110-c5",
+      "cip_code": "1110",
+      "cip_desc": "Computer/Information Technology Administration and Management.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 1,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 1.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5213-c5",
+      "cip_code": "5213",
+      "cip_desc": "Management Sciences and Quantitative Methods.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2017,
+          "value": 2.0
+        },
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    }
+  ],
+  "program_count": 4,
+  "similar": [
+    {
+      "slug": "modern-technology-school-371928",
+      "name": "Modern Technology School",
+      "city": "Fountain Valley",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 50667,
+      "completion_rate_150": 0.7857,
+      "enrollment_undergrad": 99
+    },
+    {
+      "slug": "hoss-lee-academy-488411",
+      "name": "Hoss Lee Academy",
+      "city": "Roseville",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.8099,
+      "enrollment_undergrad": 97
+    },
+    {
+      "slug": "victory-career-college-491899",
+      "name": "Victory Career College",
+      "city": "Carson",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 1.0,
+      "enrollment_undergrad": 97
+    },
+    {
+      "slug": "coba-academy-112455",
+      "name": "Coba Academy",
+      "city": "Anaheim",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 21208,
+      "completion_rate_150": 0.58,
+      "enrollment_undergrad": 100
+    },
+    {
+      "slug": "shasta-school-of-cosmetology-121637",
+      "name": "Shasta School of Cosmetology",
+      "city": "Redding",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.7778,
+      "enrollment_undergrad": 101
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

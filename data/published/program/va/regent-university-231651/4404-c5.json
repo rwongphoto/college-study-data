@@ -1,0 +1,208 @@
+{
+  "institution_unitid": "231651",
+  "institution_name": "Regent University",
+  "institution_slug": "regent-university-231651",
+  "state": "va",
+  "cip_code": "4404",
+  "cip_desc": "Public Administration.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "4404-c5",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 2,
+  "debt_median": null,
+  "completers": 32,
+  "completers_single_year": 21,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [
+      {
+        "year": 2016,
+        "value": 48014.0
+      },
+      {
+        "year": 2017,
+        "value": 53566.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 10.0
+      },
+      {
+        "year": 2015,
+        "value": 12.0
+      },
+      {
+        "year": 2016,
+        "value": 21.0
+      },
+      {
+        "year": 2017,
+        "value": 19.0
+      },
+      {
+        "year": 2018,
+        "value": 21.0
+      },
+      {
+        "year": 2019,
+        "value": 32.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "231651",
+    "slug": "regent-university-231651",
+    "name": "Regent University",
+    "city": "Virginia Beach",
+    "city_slug": "virginia-beach",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "virginia-polytechnic-institute-and-state-university-233921",
+      "institution_name": "Virginia Polytechnic Institute and State University",
+      "earnings_median_5yr": 111122,
+      "earnings_median_4yr": 103346,
+      "debt_median": null,
+      "completers": 14,
+      "completers_single_year": 37,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "george-mason-university-232186",
+      "institution_name": "George Mason University",
+      "earnings_median_5yr": 100653,
+      "earnings_median_4yr": 85070,
+      "debt_median": 41000,
+      "completers": 81,
+      "completers_single_year": 61,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "old-dominion-university-232982",
+      "institution_name": "Old Dominion University",
+      "earnings_median_5yr": 83088,
+      "earnings_median_4yr": 73468,
+      "debt_median": 39794,
+      "completers": 38,
+      "completers_single_year": 58,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "james-madison-university-232423",
+      "institution_name": "James Madison University",
+      "earnings_median_5yr": 82861,
+      "earnings_median_4yr": 73867,
+      "debt_median": null,
+      "completers": 20,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "virginia-commonwealth-university-234030",
+      "institution_name": "Virginia Commonwealth University",
+      "earnings_median_5yr": 70867,
+      "earnings_median_4yr": 66870,
+      "debt_median": 26604,
+      "completers": 20,
+      "completers_single_year": 25,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "liberty-university-232557",
+      "institution_name": "Liberty University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 30556,
+      "completers": 161,
+      "completers_single_year": 97,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-management-and-technology-437097",
+      "institution_name": "University of Management and Technology",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "fairfax-university-of-america-460376",
+      "institution_name": "Fairfax University of America",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 16647,
+      "cost_total_default": 99882,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "44"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

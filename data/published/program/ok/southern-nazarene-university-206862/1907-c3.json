@@ -1,0 +1,258 @@
+{
+  "institution_unitid": "206862",
+  "institution_name": "Southern Nazarene University",
+  "institution_slug": "southern-nazarene-university-206862",
+  "state": "ok",
+  "cip_code": "1907",
+  "cip_desc": "Human Development, Family Studies, and Related Services.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1907-c3",
+  "earnings_median_4yr": 41533,
+  "earnings_median_5yr": 44355,
+  "earnings_count_4yr": 4,
+  "earnings_count_5yr": 6,
+  "debt_median": 24062,
+  "completers": 30,
+  "completers_single_year": 43,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 41533.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 44355.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 18750.0
+      },
+      {
+        "year": 2015,
+        "value": 18750.0
+      },
+      {
+        "year": 2016,
+        "value": 18750.0
+      },
+      {
+        "year": 2017,
+        "value": 18750.0
+      },
+      {
+        "year": 2018,
+        "value": 24062.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 53.0
+      },
+      {
+        "year": 2015,
+        "value": 56.0
+      },
+      {
+        "year": 2016,
+        "value": 40.0
+      },
+      {
+        "year": 2017,
+        "value": 40.0
+      },
+      {
+        "year": 2018,
+        "value": 43.0
+      },
+      {
+        "year": 2019,
+        "value": 30.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 18750.0,
+      "to_value": 24062.0,
+      "pct_change": 0.28330666666666665,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Human Development, Family Studies, and Related Services at Southern Nazarene University rose 28% between 2014 and 2018 ($18.8k → $24.1k).",
+      "magnitude_pct": 28.3,
+      "magnitude_abs": 5312.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "206862",
+    "slug": "southern-nazarene-university-206862",
+    "name": "Southern Nazarene University",
+    "city": "Bethany",
+    "city_slug": "bethany",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "oklahoma-state-university-main-campus-207388",
+      "institution_name": "Oklahoma State University-Main Campus",
+      "earnings_median_5yr": 48102,
+      "earnings_median_4yr": 45585,
+      "debt_median": 21515,
+      "completers": 105,
+      "completers_single_year": 136,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-central-oklahoma-206941",
+      "institution_name": "University of Central Oklahoma",
+      "earnings_median_5yr": 43118,
+      "earnings_median_4yr": 37289,
+      "debt_median": 23300,
+      "completers": 19,
+      "completers_single_year": 33,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "oklahoma-christian-university-207324",
+      "institution_name": "Oklahoma Christian University",
+      "earnings_median_5yr": 39695,
+      "earnings_median_4yr": 37336,
+      "debt_median": null,
+      "completers": 14,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bacone-college-206817",
+      "institution_name": "Bacone College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cameron-university-206914",
+      "institution_name": "Cameron University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "oklahoma-baptist-university-207403",
+      "institution_name": "Oklahoma Baptist University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 19500,
+      "completers": 10,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southeastern-oklahoma-state-university-207847",
+      "institution_name": "Southeastern Oklahoma State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 16045,
+      "completers": 21,
+      "completers_single_year": 29,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southwestern-christian-university-207856",
+      "institution_name": "Southwestern Christian University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 6,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 19579,
+      "cost_total_default": 78316,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 44355,
+      "earnings_anchor_year": 5,
+      "debt_median": 24062,
+      "cip_family": "19",
+      "hs_baseline_state": 33800
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 135246,
+      "breakeven_year": 20
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

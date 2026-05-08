@@ -1,0 +1,434 @@
+{
+  "institution_unitid": "213233",
+  "institution_name": "Johnson College",
+  "institution_slug": "johnson-college-213233",
+  "state": "pa",
+  "cip_code": "5108",
+  "cip_desc": "Allied Health and Medical Assisting Services.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "5108-c2",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": null,
+  "completers": 9,
+  "completers_single_year": 9,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [
+      {
+        "year": 2016,
+        "value": 12000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 30.0
+      },
+      {
+        "year": 2015,
+        "value": 22.0
+      },
+      {
+        "year": 2016,
+        "value": 28.0
+      },
+      {
+        "year": 2017,
+        "value": 14.0
+      },
+      {
+        "year": 2018,
+        "value": 9.0
+      },
+      {
+        "year": 2019,
+        "value": 9.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "213233",
+    "slug": "johnson-college-213233",
+    "name": "Johnson College",
+    "city": "Scranton",
+    "city_slug": "scranton",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "harcum-college-212869",
+      "institution_name": "Harcum College",
+      "earnings_median_5yr": 55576,
+      "earnings_median_4yr": 51157,
+      "debt_median": 20000,
+      "completers": 61,
+      "completers_single_year": 60,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lackawanna-college-213376",
+      "institution_name": "Lackawanna College",
+      "earnings_median_5yr": 44444,
+      "earnings_median_4yr": 38100,
+      "debt_median": null,
+      "completers": 33,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "community-college-of-allegheny-county-210605",
+      "institution_name": "Community College of Allegheny County",
+      "earnings_median_5yr": 43754,
+      "earnings_median_4yr": 38809,
+      "debt_median": 13770,
+      "completers": 59,
+      "completers_single_year": 32,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "central-penn-college-211477",
+      "institution_name": "Central Penn College",
+      "earnings_median_5yr": 42858,
+      "earnings_median_4yr": 36385,
+      "debt_median": 14529,
+      "completers": 86,
+      "completers_single_year": 91,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lehigh-carbon-community-college-213525",
+      "institution_name": "Lehigh Carbon Community College",
+      "earnings_median_5yr": 42437,
+      "earnings_median_4yr": 42793,
+      "debt_median": 15088,
+      "completers": 67,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mercyhurst-university-213987",
+      "institution_name": "Mercyhurst University",
+      "earnings_median_5yr": 38746,
+      "earnings_median_4yr": 39051,
+      "debt_median": 20000,
+      "completers": 19,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mount-aloysius-college-214166",
+      "institution_name": "Mount Aloysius College",
+      "earnings_median_5yr": 37043,
+      "earnings_median_4yr": 33182,
+      "debt_median": 17500,
+      "completers": 21,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "south-hills-school-of-business-technology-216083",
+      "institution_name": "South Hills School of Business & Technology",
+      "earnings_median_5yr": 36236,
+      "earnings_median_4yr": 32164,
+      "debt_median": 12000,
+      "completers": 21,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-pittsburgh-pittsburgh-campus-215293",
+      "institution_name": "University of Pittsburgh-Pittsburgh Campus",
+      "earnings_median_5yr": 36117,
+      "earnings_median_4yr": 30805,
+      "debt_median": 15625,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pennsylvania-institute-of-technology-214582",
+      "institution_name": "Pennsylvania Institute of Technology",
+      "earnings_median_5yr": 35751,
+      "earnings_median_4yr": 32514,
+      "debt_median": 17584,
+      "completers": 31,
+      "completers_single_year": 34,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "laurel-technical-institute-215992",
+      "institution_name": "Laurel Technical Institute",
+      "earnings_median_5yr": 35741,
+      "earnings_median_4yr": 27957,
+      "debt_median": 12593,
+      "completers": 20,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "yti-career-institute-york-217077",
+      "institution_name": "YTI Career Institute-York",
+      "earnings_median_5yr": 34630,
+      "earnings_median_4yr": 31373,
+      "debt_median": 14913,
+      "completers": 37,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "yti-career-institute-altoona-375939",
+      "institution_name": "YTI Career Institute-Altoona",
+      "earnings_median_5yr": 33476,
+      "earnings_median_4yr": 29787,
+      "debt_median": 15333,
+      "completers": null,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "fortis-institute-scranton-385503",
+      "institution_name": "Fortis Institute-Scranton",
+      "earnings_median_5yr": 31462,
+      "earnings_median_4yr": 27644,
+      "debt_median": 18917,
+      "completers": 4,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pennsylvania-highlands-community-college-414911",
+      "institution_name": "Pennsylvania Highlands Community College",
+      "earnings_median_5yr": 25904,
+      "earnings_median_4yr": 28234,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bucks-county-community-college-211307",
+      "institution_name": "Bucks County Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "butler-county-community-college-211343",
+      "institution_name": "Butler County Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "delaware-county-community-college-211927",
+      "institution_name": "Delaware County Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 18,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "douglas-education-center-212045",
+      "institution_name": "Douglas Education Center",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "eastern-university-212133",
+      "institution_name": "Eastern University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "harrisburg-area-community-college-212878",
+      "institution_name": "Harrisburg Area Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lansdale-school-of-business-213473",
+      "institution_name": "Lansdale School of Business",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 14,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "montgomery-county-community-college-214111",
+      "institution_name": "Montgomery County Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "penn-commercial-business-technical-school-214892",
+      "institution_name": "Penn Commercial Business/Technical School",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "community-college-of-philadelphia-215239",
+      "institution_name": "Community College of Philadelphia",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 32998,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pittsburgh-technical-college-215415",
+      "institution_name": "Pittsburgh Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "widener-university-216852",
+      "institution_name": "Widener University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 15000,
+      "completers": 14,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "laurel-business-institute-250027",
+      "institution_name": "Laurel Business Institute",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pennsylvania-college-of-technology-366252",
+      "institution_name": "Pennsylvania College of Technology",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 30,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lancaster-county-career-and-technology-center-418533",
+      "institution_name": "Lancaster County Career and Technology Center",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "institute-of-medical-careers-461218",
+      "institution_name": "Institute of Medical Careers",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 20210,
+      "completers": 20,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 21019,
+      "cost_total_default": 42038,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "51"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

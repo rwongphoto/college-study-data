@@ -1,0 +1,2154 @@
+{
+  "institution": {
+    "unitid": "164085",
+    "opeid6": "025784",
+    "name": "Maryland University of Integrative Health",
+    "slug": "maryland-university-of-integrative-health-164085",
+    "state": "md",
+    "city": "Laurel",
+    "city_slug": "laurel",
+    "zip5": "20723",
+    "address": "7750 Montpelier Road",
+    "latitude": 39.165872,
+    "longitude": -76.888025,
+    "control": "private_nonprofit",
+    "pred_degree": "graduate",
+    "highest_degree": "masters",
+    "main_campus": true,
+    "locale": "21",
+    "carnegie_basic": 20,
+    "sector_code": 2,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": null,
+    "completion_rate_100": null,
+    "retention_rate": null,
+    "admission_rate": null,
+    "enrollment_undergrad": null,
+    "enrollment_total": null,
+    "cost_attendance": null,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": null,
+    "cost_by_income": null,
+    "median_debt": null,
+    "default_rate": 0.0,
+    "pell_share": null,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [],
+      "admission_rate": [],
+      "enrollment_undergrad": [],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [],
+      "median_debt": [
+        {
+          "year": 2003,
+          "value": 6500.0
+        }
+      ],
+      "default_rate": [
+        {
+          "year": 2011,
+          "value": 0.014
+        },
+        {
+          "year": 2012,
+          "value": 0.058
+        },
+        {
+          "year": 2013,
+          "value": 0.018
+        },
+        {
+          "year": 2014,
+          "value": 0.01
+        },
+        {
+          "year": 2015,
+          "value": 0.019
+        },
+        {
+          "year": 2016,
+          "value": 0.022
+        },
+        {
+          "year": 2017,
+          "value": 0.027
+        },
+        {
+          "year": 2018,
+          "value": 0.025
+        },
+        {
+          "year": 2019,
+          "value": 0.045
+        },
+        {
+          "year": 2020,
+          "value": 0.033
+        },
+        {
+          "year": 2021,
+          "value": 0.006
+        },
+        {
+          "year": 2022,
+          "value": 0.0
+        },
+        {
+          "year": 2023,
+          "value": 0.0
+        },
+        {
+          "year": 2024,
+          "value": 0.0
+        }
+      ],
+      "pell_share": [],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "default_rate",
+        "from_year": 2011,
+        "to_year": 2024,
+        "from_value": 0.014,
+        "to_value": 0.0,
+        "pct_change": -0.7,
+        "direction": "fell"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "3-year cohort default rate",
+        "summary": "3-year cohort default rate at Maryland University of Integrative Health fell 100% between 2021 and 2024 (0.6% → 0.0%).",
+        "magnitude_pct": -100.0,
+        "magnitude_abs": -0.01,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": "%",
+        "history": [],
+        "metric": "default_rate"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "30": [
+      {
+        "slug": "3017-c5",
+        "cip_code": "3017",
+        "cip_desc": "Behavioral Sciences.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 6.0
+          },
+          {
+            "year": 2015,
+            "value": 4.0
+          },
+          {
+            "year": 2016,
+            "value": 0.0
+          },
+          {
+            "year": 2017,
+            "value": 0.0
+          },
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "3017-c8",
+        "cip_code": "3017",
+        "cip_desc": "Behavioral Sciences.",
+        "credential_level": 8,
+        "credential_desc": "Graduate/Professional Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 0.0
+          },
+          {
+            "year": 2015,
+            "value": 0.0
+          },
+          {
+            "year": 2016,
+            "value": 0.0
+          },
+          {
+            "year": 2017,
+            "value": 0.0
+          },
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "3099-c5",
+        "cip_code": "3099",
+        "cip_desc": "Multi/Interdisciplinary Studies, Other.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 0.0
+          },
+          {
+            "year": 2015,
+            "value": 0.0
+          },
+          {
+            "year": 2016,
+            "value": 0.0
+          },
+          {
+            "year": 2017,
+            "value": 0.0
+          },
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "51": [
+      {
+        "slug": "5131-c5",
+        "cip_code": "5131",
+        "cip_desc": "Dietetics and Clinical Nutrition Services.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": 50794,
+        "earnings_median_4yr": 30395,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 50794.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 30395.0
+          }
+        ],
+        "debt_median": 51250,
+        "debt_history": [
+          {
+            "year": 2015,
+            "value": 51250.0
+          },
+          {
+            "year": 2016,
+            "value": 54666.0
+          },
+          {
+            "year": 2017,
+            "value": 51250.0
+          },
+          {
+            "year": 2018,
+            "value": 51250.0
+          }
+        ],
+        "completers": 109,
+        "completers_single_year": 130,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 66.0
+          },
+          {
+            "year": 2015,
+            "value": 91.0
+          },
+          {
+            "year": 2016,
+            "value": 113.0
+          },
+          {
+            "year": 2017,
+            "value": 141.0
+          },
+          {
+            "year": 2018,
+            "value": 130.0
+          },
+          {
+            "year": 2019,
+            "value": 109.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5134-c5",
+        "cip_code": "5134",
+        "cip_desc": "Alternative and Complementary Medical Support Services.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": 41000,
+        "debt_history": [
+          {
+            "year": 2015,
+            "value": 46700.0
+          },
+          {
+            "year": 2016,
+            "value": 43278.0
+          },
+          {
+            "year": 2017,
+            "value": 41000.0
+          },
+          {
+            "year": 2018,
+            "value": 41000.0
+          }
+        ],
+        "completers": 53,
+        "completers_single_year": 56,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 30.0
+          },
+          {
+            "year": 2015,
+            "value": 40.0
+          },
+          {
+            "year": 2016,
+            "value": 69.0
+          },
+          {
+            "year": 2017,
+            "value": 67.0
+          },
+          {
+            "year": 2018,
+            "value": 56.0
+          },
+          {
+            "year": 2019,
+            "value": 53.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5136-c5",
+        "cip_code": "5136",
+        "cip_desc": "Movement and Mind-Body Therapies and Education.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 27,
+        "completers_single_year": 17,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 32.0
+          },
+          {
+            "year": 2015,
+            "value": 12.0
+          },
+          {
+            "year": 2016,
+            "value": 15.0
+          },
+          {
+            "year": 2017,
+            "value": 20.0
+          },
+          {
+            "year": 2018,
+            "value": 17.0
+          },
+          {
+            "year": 2019,
+            "value": 27.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5137-c8",
+        "cip_code": "5137",
+        "cip_desc": "Energy and Biologically Based Therapies.",
+        "credential_level": 8,
+        "credential_desc": "Graduate/Professional Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 23,
+        "completers_single_year": 19,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 22.0
+          },
+          {
+            "year": 2015,
+            "value": 14.0
+          },
+          {
+            "year": 2016,
+            "value": 23.0
+          },
+          {
+            "year": 2017,
+            "value": 9.0
+          },
+          {
+            "year": 2018,
+            "value": 19.0
+          },
+          {
+            "year": 2019,
+            "value": 23.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5133-c8",
+        "cip_code": "5133",
+        "cip_desc": "Alternative and Complementary Medicine and Medical Systems.",
+        "credential_level": 8,
+        "credential_desc": "Graduate/Professional Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 20,
+        "completers_single_year": 20,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 27.0
+          },
+          {
+            "year": 2015,
+            "value": 4.0
+          },
+          {
+            "year": 2016,
+            "value": 23.0
+          },
+          {
+            "year": 2017,
+            "value": 15.0
+          },
+          {
+            "year": 2018,
+            "value": 20.0
+          },
+          {
+            "year": 2019,
+            "value": 20.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5133-c5",
+        "cip_code": "5133",
+        "cip_desc": "Alternative and Complementary Medicine and Medical Systems.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": 30879,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 30879.0
+          }
+        ],
+        "debt_median": 109500,
+        "debt_history": [
+          {
+            "year": 2015,
+            "value": 110500.0
+          },
+          {
+            "year": 2016,
+            "value": 103333.0
+          },
+          {
+            "year": 2017,
+            "value": 81483.0
+          },
+          {
+            "year": 2018,
+            "value": 109500.0
+          }
+        ],
+        "completers": 18,
+        "completers_single_year": 25,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 55.0
+          },
+          {
+            "year": 2015,
+            "value": 46.0
+          },
+          {
+            "year": 2016,
+            "value": 61.0
+          },
+          {
+            "year": 2017,
+            "value": 39.0
+          },
+          {
+            "year": 2018,
+            "value": 25.0
+          },
+          {
+            "year": 2019,
+            "value": 18.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5131-c7",
+        "cip_code": "5131",
+        "cip_desc": "Dietetics and Clinical Nutrition Services.",
+        "credential_level": 7,
+        "credential_desc": "First Professional Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 17,
+        "completers_single_year": 14,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 0.0
+          },
+          {
+            "year": 2015,
+            "value": 0.0
+          },
+          {
+            "year": 2016,
+            "value": 19.0
+          },
+          {
+            "year": 2017,
+            "value": 16.0
+          },
+          {
+            "year": 2018,
+            "value": 14.0
+          },
+          {
+            "year": 2019,
+            "value": 17.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5131-c8",
+        "cip_code": "5131",
+        "cip_desc": "Dietetics and Clinical Nutrition Services.",
+        "credential_level": 8,
+        "credential_desc": "Graduate/Professional Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 13,
+        "completers_single_year": 5,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 7.0
+          },
+          {
+            "year": 2015,
+            "value": 4.0
+          },
+          {
+            "year": 2016,
+            "value": 16.0
+          },
+          {
+            "year": 2017,
+            "value": 9.0
+          },
+          {
+            "year": 2018,
+            "value": 5.0
+          },
+          {
+            "year": 2019,
+            "value": 13.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5137-c5",
+        "cip_code": "5137",
+        "cip_desc": "Energy and Biologically Based Therapies.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": 75167,
+        "debt_history": [
+          {
+            "year": 2018,
+            "value": 75167.0
+          }
+        ],
+        "completers": 13,
+        "completers_single_year": 20,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 16.0
+          },
+          {
+            "year": 2015,
+            "value": 18.0
+          },
+          {
+            "year": 2016,
+            "value": 9.0
+          },
+          {
+            "year": 2017,
+            "value": 15.0
+          },
+          {
+            "year": 2018,
+            "value": 20.0
+          },
+          {
+            "year": 2019,
+            "value": 13.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5134-c8",
+        "cip_code": "5134",
+        "cip_desc": "Alternative and Complementary Medical Support Services.",
+        "credential_level": 8,
+        "credential_desc": "Graduate/Professional Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 12,
+        "completers_single_year": 25,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 40.0
+          },
+          {
+            "year": 2015,
+            "value": 83.0
+          },
+          {
+            "year": 2016,
+            "value": 89.0
+          },
+          {
+            "year": 2017,
+            "value": 44.0
+          },
+          {
+            "year": 2018,
+            "value": 25.0
+          },
+          {
+            "year": 2019,
+            "value": 12.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5133-c7",
+        "cip_code": "5133",
+        "cip_desc": "Alternative and Complementary Medicine and Medical Systems.",
+        "credential_level": 7,
+        "credential_desc": "First Professional Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 11,
+        "completers_single_year": 17,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 0.0
+          },
+          {
+            "year": 2015,
+            "value": 54.0
+          },
+          {
+            "year": 2016,
+            "value": 36.0
+          },
+          {
+            "year": 2017,
+            "value": 21.0
+          },
+          {
+            "year": 2018,
+            "value": 17.0
+          },
+          {
+            "year": 2019,
+            "value": 11.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5122-c5",
+        "cip_code": "5122",
+        "cip_desc": "Public Health.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [
+          {
+            "year": 2016,
+            "value": 37000.0
+          },
+          {
+            "year": 2017,
+            "value": 41000.0
+          }
+        ],
+        "completers": 5,
+        "completers_single_year": 10,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 10.0
+          },
+          {
+            "year": 2015,
+            "value": 17.0
+          },
+          {
+            "year": 2016,
+            "value": 17.0
+          },
+          {
+            "year": 2017,
+            "value": 17.0
+          },
+          {
+            "year": 2018,
+            "value": 10.0
+          },
+          {
+            "year": 2019,
+            "value": 5.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5131-c6",
+        "cip_code": "5131",
+        "cip_desc": "Dietetics and Clinical Nutrition Services.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": 67086,
+        "debt_history": [
+          {
+            "year": 2017,
+            "value": 54667.0
+          },
+          {
+            "year": 2018,
+            "value": 67086.0
+          }
+        ],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2017,
+            "to_year": 2018,
+            "from_value": 54667.0,
+            "to_value": 67086.0,
+            "pct_change": 0.2271754440521704,
+            "direction": "rose"
+          }
+        ]
+      },
+      {
+        "slug": "5133-c4",
+        "cip_code": "5133",
+        "cip_desc": "Alternative and Complementary Medicine and Medical Systems.",
+        "credential_level": 4,
+        "credential_desc": "Post-baccalaureate Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      },
+      {
+        "slug": "5133-c6",
+        "cip_code": "5133",
+        "cip_desc": "Alternative and Complementary Medicine and Medical Systems.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": 144500,
+        "debt_history": [
+          {
+            "year": 2015,
+            "value": 142755.0
+          },
+          {
+            "year": 2016,
+            "value": 141378.0
+          },
+          {
+            "year": 2017,
+            "value": 177463.0
+          },
+          {
+            "year": 2018,
+            "value": 144500.0
+          }
+        ],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      },
+      {
+        "slug": "5134-c4",
+        "cip_code": "5134",
+        "cip_desc": "Alternative and Complementary Medical Support Services.",
+        "credential_level": 4,
+        "credential_desc": "Post-baccalaureate Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      },
+      {
+        "slug": "5137-c4",
+        "cip_code": "5137",
+        "cip_desc": "Energy and Biologically Based Therapies.",
+        "credential_level": 4,
+        "credential_desc": "Post-baccalaureate Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "5131-c5",
+      "cip_code": "5131",
+      "cip_desc": "Dietetics and Clinical Nutrition Services.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": 50794,
+      "earnings_median_4yr": 30395,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 50794.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 30395.0
+        }
+      ],
+      "debt_median": 51250,
+      "debt_history": [
+        {
+          "year": 2015,
+          "value": 51250.0
+        },
+        {
+          "year": 2016,
+          "value": 54666.0
+        },
+        {
+          "year": 2017,
+          "value": 51250.0
+        },
+        {
+          "year": 2018,
+          "value": 51250.0
+        }
+      ],
+      "completers": 109,
+      "completers_single_year": 130,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 66.0
+        },
+        {
+          "year": 2015,
+          "value": 91.0
+        },
+        {
+          "year": 2016,
+          "value": 113.0
+        },
+        {
+          "year": 2017,
+          "value": 141.0
+        },
+        {
+          "year": 2018,
+          "value": 130.0
+        },
+        {
+          "year": 2019,
+          "value": 109.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5134-c5",
+      "cip_code": "5134",
+      "cip_desc": "Alternative and Complementary Medical Support Services.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": 41000,
+      "debt_history": [
+        {
+          "year": 2015,
+          "value": 46700.0
+        },
+        {
+          "year": 2016,
+          "value": 43278.0
+        },
+        {
+          "year": 2017,
+          "value": 41000.0
+        },
+        {
+          "year": 2018,
+          "value": 41000.0
+        }
+      ],
+      "completers": 53,
+      "completers_single_year": 56,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 30.0
+        },
+        {
+          "year": 2015,
+          "value": 40.0
+        },
+        {
+          "year": 2016,
+          "value": 69.0
+        },
+        {
+          "year": 2017,
+          "value": 67.0
+        },
+        {
+          "year": 2018,
+          "value": 56.0
+        },
+        {
+          "year": 2019,
+          "value": 53.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5136-c5",
+      "cip_code": "5136",
+      "cip_desc": "Movement and Mind-Body Therapies and Education.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 27,
+      "completers_single_year": 17,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 32.0
+        },
+        {
+          "year": 2015,
+          "value": 12.0
+        },
+        {
+          "year": 2016,
+          "value": 15.0
+        },
+        {
+          "year": 2017,
+          "value": 20.0
+        },
+        {
+          "year": 2018,
+          "value": 17.0
+        },
+        {
+          "year": 2019,
+          "value": 27.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5137-c8",
+      "cip_code": "5137",
+      "cip_desc": "Energy and Biologically Based Therapies.",
+      "credential_level": 8,
+      "credential_desc": "Graduate/Professional Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 23,
+      "completers_single_year": 19,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 22.0
+        },
+        {
+          "year": 2015,
+          "value": 14.0
+        },
+        {
+          "year": 2016,
+          "value": 23.0
+        },
+        {
+          "year": 2017,
+          "value": 9.0
+        },
+        {
+          "year": 2018,
+          "value": 19.0
+        },
+        {
+          "year": 2019,
+          "value": 23.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5133-c8",
+      "cip_code": "5133",
+      "cip_desc": "Alternative and Complementary Medicine and Medical Systems.",
+      "credential_level": 8,
+      "credential_desc": "Graduate/Professional Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 20,
+      "completers_single_year": 20,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 27.0
+        },
+        {
+          "year": 2015,
+          "value": 4.0
+        },
+        {
+          "year": 2016,
+          "value": 23.0
+        },
+        {
+          "year": 2017,
+          "value": 15.0
+        },
+        {
+          "year": 2018,
+          "value": 20.0
+        },
+        {
+          "year": 2019,
+          "value": 20.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5133-c5",
+      "cip_code": "5133",
+      "cip_desc": "Alternative and Complementary Medicine and Medical Systems.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 30879,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 30879.0
+        }
+      ],
+      "debt_median": 109500,
+      "debt_history": [
+        {
+          "year": 2015,
+          "value": 110500.0
+        },
+        {
+          "year": 2016,
+          "value": 103333.0
+        },
+        {
+          "year": 2017,
+          "value": 81483.0
+        },
+        {
+          "year": 2018,
+          "value": 109500.0
+        }
+      ],
+      "completers": 18,
+      "completers_single_year": 25,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 55.0
+        },
+        {
+          "year": 2015,
+          "value": 46.0
+        },
+        {
+          "year": 2016,
+          "value": 61.0
+        },
+        {
+          "year": 2017,
+          "value": 39.0
+        },
+        {
+          "year": 2018,
+          "value": 25.0
+        },
+        {
+          "year": 2019,
+          "value": 18.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5131-c7",
+      "cip_code": "5131",
+      "cip_desc": "Dietetics and Clinical Nutrition Services.",
+      "credential_level": 7,
+      "credential_desc": "First Professional Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 17,
+      "completers_single_year": 14,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 0.0
+        },
+        {
+          "year": 2015,
+          "value": 0.0
+        },
+        {
+          "year": 2016,
+          "value": 19.0
+        },
+        {
+          "year": 2017,
+          "value": 16.0
+        },
+        {
+          "year": 2018,
+          "value": 14.0
+        },
+        {
+          "year": 2019,
+          "value": 17.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5131-c8",
+      "cip_code": "5131",
+      "cip_desc": "Dietetics and Clinical Nutrition Services.",
+      "credential_level": 8,
+      "credential_desc": "Graduate/Professional Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 13,
+      "completers_single_year": 5,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 7.0
+        },
+        {
+          "year": 2015,
+          "value": 4.0
+        },
+        {
+          "year": 2016,
+          "value": 16.0
+        },
+        {
+          "year": 2017,
+          "value": 9.0
+        },
+        {
+          "year": 2018,
+          "value": 5.0
+        },
+        {
+          "year": 2019,
+          "value": 13.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5137-c5",
+      "cip_code": "5137",
+      "cip_desc": "Energy and Biologically Based Therapies.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": 75167,
+      "debt_history": [
+        {
+          "year": 2018,
+          "value": 75167.0
+        }
+      ],
+      "completers": 13,
+      "completers_single_year": 20,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 16.0
+        },
+        {
+          "year": 2015,
+          "value": 18.0
+        },
+        {
+          "year": 2016,
+          "value": 9.0
+        },
+        {
+          "year": 2017,
+          "value": 15.0
+        },
+        {
+          "year": 2018,
+          "value": 20.0
+        },
+        {
+          "year": 2019,
+          "value": 13.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5134-c8",
+      "cip_code": "5134",
+      "cip_desc": "Alternative and Complementary Medical Support Services.",
+      "credential_level": 8,
+      "credential_desc": "Graduate/Professional Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 12,
+      "completers_single_year": 25,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 40.0
+        },
+        {
+          "year": 2015,
+          "value": 83.0
+        },
+        {
+          "year": 2016,
+          "value": 89.0
+        },
+        {
+          "year": 2017,
+          "value": 44.0
+        },
+        {
+          "year": 2018,
+          "value": 25.0
+        },
+        {
+          "year": 2019,
+          "value": 12.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5133-c7",
+      "cip_code": "5133",
+      "cip_desc": "Alternative and Complementary Medicine and Medical Systems.",
+      "credential_level": 7,
+      "credential_desc": "First Professional Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 11,
+      "completers_single_year": 17,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 0.0
+        },
+        {
+          "year": 2015,
+          "value": 54.0
+        },
+        {
+          "year": 2016,
+          "value": 36.0
+        },
+        {
+          "year": 2017,
+          "value": 21.0
+        },
+        {
+          "year": 2018,
+          "value": 17.0
+        },
+        {
+          "year": 2019,
+          "value": 11.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5122-c5",
+      "cip_code": "5122",
+      "cip_desc": "Public Health.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [
+        {
+          "year": 2016,
+          "value": 37000.0
+        },
+        {
+          "year": 2017,
+          "value": 41000.0
+        }
+      ],
+      "completers": 5,
+      "completers_single_year": 10,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 10.0
+        },
+        {
+          "year": 2015,
+          "value": 17.0
+        },
+        {
+          "year": 2016,
+          "value": 17.0
+        },
+        {
+          "year": 2017,
+          "value": 17.0
+        },
+        {
+          "year": 2018,
+          "value": 10.0
+        },
+        {
+          "year": 2019,
+          "value": 5.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "3017-c5",
+      "cip_code": "3017",
+      "cip_desc": "Behavioral Sciences.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 6.0
+        },
+        {
+          "year": 2015,
+          "value": 4.0
+        },
+        {
+          "year": 2016,
+          "value": 0.0
+        },
+        {
+          "year": 2017,
+          "value": 0.0
+        },
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "3017-c8",
+      "cip_code": "3017",
+      "cip_desc": "Behavioral Sciences.",
+      "credential_level": 8,
+      "credential_desc": "Graduate/Professional Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 0.0
+        },
+        {
+          "year": 2015,
+          "value": 0.0
+        },
+        {
+          "year": 2016,
+          "value": 0.0
+        },
+        {
+          "year": 2017,
+          "value": 0.0
+        },
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "3099-c5",
+      "cip_code": "3099",
+      "cip_desc": "Multi/Interdisciplinary Studies, Other.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 0.0
+        },
+        {
+          "year": 2015,
+          "value": 0.0
+        },
+        {
+          "year": 2016,
+          "value": 0.0
+        },
+        {
+          "year": 2017,
+          "value": 0.0
+        },
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5131-c6",
+      "cip_code": "5131",
+      "cip_desc": "Dietetics and Clinical Nutrition Services.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": 67086,
+      "debt_history": [
+        {
+          "year": 2017,
+          "value": 54667.0
+        },
+        {
+          "year": 2018,
+          "value": 67086.0
+        }
+      ],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2017,
+          "to_year": 2018,
+          "from_value": 54667.0,
+          "to_value": 67086.0,
+          "pct_change": 0.2271754440521704,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "slug": "5133-c4",
+      "cip_code": "5133",
+      "cip_desc": "Alternative and Complementary Medicine and Medical Systems.",
+      "credential_level": 4,
+      "credential_desc": "Post-baccalaureate Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    },
+    {
+      "slug": "5133-c6",
+      "cip_code": "5133",
+      "cip_desc": "Alternative and Complementary Medicine and Medical Systems.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": 144500,
+      "debt_history": [
+        {
+          "year": 2015,
+          "value": 142755.0
+        },
+        {
+          "year": 2016,
+          "value": 141378.0
+        },
+        {
+          "year": 2017,
+          "value": 177463.0
+        },
+        {
+          "year": 2018,
+          "value": 144500.0
+        }
+      ],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    },
+    {
+      "slug": "5134-c4",
+      "cip_code": "5134",
+      "cip_desc": "Alternative and Complementary Medical Support Services.",
+      "credential_level": 4,
+      "credential_desc": "Post-baccalaureate Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    },
+    {
+      "slug": "5137-c4",
+      "cip_code": "5137",
+      "cip_desc": "Energy and Biologically Based Therapies.",
+      "credential_level": 4,
+      "credential_desc": "Post-baccalaureate Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    }
+  ],
+  "program_count": 20,
+  "similar": [
+    {
+      "slug": "stevenson-university-164173",
+      "name": "Stevenson University",
+      "city": "Owings Mills",
+      "control": "private_nonprofit",
+      "pred_degree": "bachelors",
+      "earnings_median_10yr": 62079,
+      "completion_rate_150": 0.6642,
+      "enrollment_undergrad": 3027
+    },
+    {
+      "slug": "yeshiva-college-of-the-nations-capital-434937",
+      "name": "Yeshiva College of the Nations Capital",
+      "city": "Silver  Spring",
+      "control": "private_nonprofit",
+      "pred_degree": "bachelors",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.5,
+      "enrollment_undergrad": 57
+    },
+    {
+      "slug": "bais-hamedrash-and-mesivta-of-baltimore-476601",
+      "name": "Bais HaMedrash and Mesivta of Baltimore",
+      "city": "Baltimore",
+      "control": "private_nonprofit",
+      "pred_degree": "bachelors",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.12,
+      "enrollment_undergrad": 91
+    },
+    {
+      "slug": "women-s-institute-of-torah-seminary-and-college-491631",
+      "name": "Women's Institute of Torah Seminary and College",
+      "city": "Baltimore",
+      "control": "private_nonprofit",
+      "pred_degree": "bachelors",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 1.0,
+      "enrollment_undergrad": 141
+    },
+    {
+      "slug": "capitol-technology-university-162061",
+      "name": "Capitol Technology University",
+      "city": "Laurel",
+      "control": "private_nonprofit",
+      "pred_degree": "bachelors",
+      "earnings_median_10yr": 85035,
+      "completion_rate_150": 0.4667,
+      "enrollment_undergrad": 259
+    }
+  ],
+  "roi": {
+    "default_program_slug": null,
+    "programs_available": [
+      {
+        "slug": "5131-c5",
+        "label": "Dietetics and Clinical Nutrition Services · Master's Degree",
+        "cip_family": "51",
+        "completers": 109,
+        "has_earnings": false,
+        "earnings_at_completion": 50794,
+        "earnings_anchor_year": 5,
+        "debt_median": 51250,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "5134-c5",
+        "label": "Alternative and Complementary Medical Support Services · Master's Degree",
+        "cip_family": "51",
+        "completers": 53,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": 41000,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "5136-c5",
+        "label": "Movement and Mind-Body Therapies and Education · Master's Degree",
+        "cip_family": "51",
+        "completers": 27,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "5137-c8",
+        "label": "Energy and Biologically Based Therapies · Graduate/Professional Certificate",
+        "cip_family": "51",
+        "completers": 23,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "5133-c8",
+        "label": "Alternative and Complementary Medicine and Medical Systems · Graduate/Professional Certificate",
+        "cip_family": "51",
+        "completers": 20,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "5133-c5",
+        "label": "Alternative and Complementary Medicine and Medical Systems · Master's Degree",
+        "cip_family": "51",
+        "completers": 18,
+        "has_earnings": false,
+        "earnings_at_completion": 30879,
+        "earnings_anchor_year": 4,
+        "debt_median": 109500,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "5131-c7",
+        "label": "Dietetics and Clinical Nutrition Services · First Professional Degree",
+        "cip_family": "51",
+        "completers": 17,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 7,
+        "default_result": null
+      },
+      {
+        "slug": "5131-c8",
+        "label": "Dietetics and Clinical Nutrition Services · Graduate/Professional Certificate",
+        "cip_family": "51",
+        "completers": 13,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "5137-c5",
+        "label": "Energy and Biologically Based Therapies · Master's Degree",
+        "cip_family": "51",
+        "completers": 13,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": 75167,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "5134-c8",
+        "label": "Alternative and Complementary Medical Support Services · Graduate/Professional Certificate",
+        "cip_family": "51",
+        "completers": 12,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "5133-c7",
+        "label": "Alternative and Complementary Medicine and Medical Systems · First Professional Degree",
+        "cip_family": "51",
+        "completers": 11,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 7,
+        "default_result": null
+      },
+      {
+        "slug": "5122-c5",
+        "label": "Public Health · Master's Degree",
+        "cip_family": "51",
+        "completers": 5,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "3017-c5",
+        "label": "Behavioral Sciences · Master's Degree",
+        "cip_family": "30",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "3017-c8",
+        "label": "Behavioral Sciences · Graduate/Professional Certificate",
+        "cip_family": "30",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "3099-c5",
+        "label": "Multi/Interdisciplinary Studies, Other · Master's Degree",
+        "cip_family": "30",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "5131-c6",
+        "label": "Dietetics and Clinical Nutrition Services · Doctoral Degree",
+        "cip_family": "51",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": 67086,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "5133-c4",
+        "label": "Alternative and Complementary Medicine and Medical Systems · Post-baccalaureate Certificate",
+        "cip_family": "51",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "5133-c6",
+        "label": "Alternative and Complementary Medicine and Medical Systems · Doctoral Degree",
+        "cip_family": "51",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": 144500,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "5134-c4",
+        "label": "Alternative and Complementary Medical Support Services · Post-baccalaureate Certificate",
+        "cip_family": "51",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "5137-c4",
+        "label": "Energy and Biologically Based Therapies · Post-baccalaureate Certificate",
+        "cip_family": "51",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      }
+    ]
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

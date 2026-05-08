@@ -1,0 +1,184 @@
+{
+  "institution_unitid": "159993",
+  "institution_name": "University of Louisiana at Monroe",
+  "institution_slug": "university-of-louisiana-at-monroe-159993",
+  "state": "la",
+  "cip_code": "5120",
+  "cip_desc": "Pharmacy, Pharmaceutical Sciences, and Administration.",
+  "credential_level": 7,
+  "credential_desc": "First Professional Degree",
+  "slug": "5120-c7",
+  "earnings_median_4yr": 130541,
+  "earnings_median_5yr": 137992,
+  "earnings_count_4yr": 6,
+  "earnings_count_5yr": 5,
+  "debt_median": null,
+  "completers": 81,
+  "completers_single_year": 87,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 130541.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 137992.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 126666.0
+      },
+      {
+        "year": 2015,
+        "value": 117871.0
+      },
+      {
+        "year": 2016,
+        "value": 42470.0
+      },
+      {
+        "year": 2017,
+        "value": 35777.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 98.0
+      },
+      {
+        "year": 2015,
+        "value": 95.0
+      },
+      {
+        "year": 2016,
+        "value": 93.0
+      },
+      {
+        "year": 2017,
+        "value": 93.0
+      },
+      {
+        "year": 2018,
+        "value": 87.0
+      },
+      {
+        "year": 2019,
+        "value": 81.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2017,
+      "from_value": 126666.0,
+      "to_value": 35777.0,
+      "pct_change": -0.7175485134132285,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Pharmacy, Pharmaceutical Sciences, and Administration at University of Louisiana at Monroe fell 72% between 2014 and 2017 ($126.7k → $35.8k).",
+      "magnitude_pct": -71.8,
+      "magnitude_abs": -90889.0,
+      "baseline_year": 2014,
+      "recent_year": 2017,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "159993",
+    "slug": "university-of-louisiana-at-monroe-159993",
+    "name": "University of Louisiana at Monroe",
+    "city": "Monroe",
+    "city_slug": "monroe",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "xavier-university-of-louisiana-160904",
+      "institution_name": "Xavier University of Louisiana",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 145,
+      "completers_single_year": 143,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 5,
+    "inputs": {
+      "years_to_complete": 7,
+      "cost_per_year_default": 12001,
+      "cost_total_default": 84007,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 137992,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "51",
+      "hs_baseline_state": 32800
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 1497806,
+      "breakeven_year": 8
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

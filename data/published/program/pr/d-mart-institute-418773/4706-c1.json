@@ -1,0 +1,213 @@
+{
+  "institution_unitid": "418773",
+  "institution_name": "D'Mart Institute",
+  "institution_slug": "d-mart-institute-418773",
+  "state": "pr",
+  "cip_code": "4706",
+  "cip_desc": "Vehicle Maintenance and Repair Technologies.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "4706-c1",
+  "earnings_median_4yr": 15990,
+  "earnings_median_5yr": 21424,
+  "earnings_count_4yr": 21,
+  "earnings_count_5yr": 22,
+  "debt_median": null,
+  "completers": 9,
+  "completers_single_year": 16,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 15990.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 21424.0
+      }
+    ],
+    "debt_median": [],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 33.0
+      },
+      {
+        "year": 2015,
+        "value": 16.0
+      },
+      {
+        "year": 2016,
+        "value": 17.0
+      },
+      {
+        "year": 2017,
+        "value": 20.0
+      },
+      {
+        "year": 2018,
+        "value": 16.0
+      },
+      {
+        "year": 2019,
+        "value": 9.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "418773",
+    "slug": "d-mart-institute-418773",
+    "name": "D'Mart Institute",
+    "city": "Barranquitas",
+    "city_slug": "barranquitas",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "mech-tech-college-414461",
+      "institution_name": "Mech-Tech College",
+      "earnings_median_5yr": 23651,
+      "earnings_median_4yr": 19120,
+      "debt_median": 3500,
+      "completers": 708,
+      "completers_single_year": 612,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "automeca-technical-college-bayamon-419703",
+      "institution_name": "Automeca Technical College-Bayamon",
+      "earnings_median_5yr": 23354,
+      "earnings_median_4yr": 19507,
+      "debt_median": 2950,
+      "completers": 307,
+      "completers_single_year": 320,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "industrial-technical-college-444671",
+      "institution_name": "Industrial Technical College",
+      "earnings_median_5yr": 17630,
+      "earnings_median_4yr": 16976,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "colegio-mayor-de-tecnologia-inc-376242",
+      "institution_name": "Colegio Mayor de Tecnologia Inc",
+      "earnings_median_5yr": 16335,
+      "earnings_median_4yr": 17029,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "liceo-de-arte-y-tecnologia-242820",
+      "institution_name": "Liceo de Arte y Tecnologia",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 45,
+      "completers_single_year": 40,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "professional-technical-institution-409193",
+      "institution_name": "Professional Technical Institution",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "american-technical-institute-461625",
+      "institution_name": "American Technical Institute",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 18069,
+      "debt_median": null,
+      "completers": 25,
+      "completers_single_year": 28,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "caribbean-aviation-training-institute-inc-489256",
+      "institution_name": "Caribbean Aviation Training Institute Inc",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 74,
+      "completers_single_year": 74,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 22,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 8080,
+      "cost_total_default": 8080,
+      "cost_source": "NPT4_AVG",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 21424,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "47",
+      "hs_baseline_state": 22400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 4598,
+      "breakeven_year": 35
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

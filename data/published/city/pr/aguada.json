@@ -1,0 +1,328 @@
+{
+  "state": "pr",
+  "name": "Aguada",
+  "slug": "aguada",
+  "institution_count": 2,
+  "institutions": [
+    {
+      "unitid": "445498",
+      "slug": "colegio-tecnico-de-electricidad-galloza-445498",
+      "name": "Colegio Tecnico de Electricidad Galloza",
+      "city": "Aguada",
+      "city_slug": "aguada",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 22859,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": null
+        },
+        {
+          "year": 8,
+          "value": 26484
+        },
+        {
+          "year": 10,
+          "value": 22859
+        }
+      ],
+      "completion_rate_150": 0.8261,
+      "completion_rate_history": [
+        {
+          "year": 2004,
+          "value": 0.7273
+        },
+        {
+          "year": 2005,
+          "value": 1.0
+        },
+        {
+          "year": 2006,
+          "value": 0.7826
+        },
+        {
+          "year": 2007,
+          "value": 0.8824
+        },
+        {
+          "year": 2008,
+          "value": 0.8235
+        },
+        {
+          "year": 2009,
+          "value": 0.7222
+        }
+      ],
+      "enrollment_undergrad": 7,
+      "enrollment_history": [
+        {
+          "year": 2004,
+          "value": 41.0
+        },
+        {
+          "year": 2005,
+          "value": 43.0
+        },
+        {
+          "year": 2006,
+          "value": 50.0
+        },
+        {
+          "year": 2007,
+          "value": 82.0
+        },
+        {
+          "year": 2008,
+          "value": 76.0
+        },
+        {
+          "year": 2009,
+          "value": 74.0
+        }
+      ],
+      "median_debt": null,
+      "default_rate": null,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "retention_rate",
+          "from_year": 2004,
+          "to_year": 2024,
+          "from_value": 0.75,
+          "to_value": 1.0,
+          "pct_change": 0.3333333333333333,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_8yr",
+          "from_year": 2013,
+          "to_year": 2020,
+          "from_value": 15700.0,
+          "to_value": 26484.0,
+          "pct_change": 0.6868789808917197,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "unitid": "446516",
+      "slug": "rosslyn-training-academy-of-cosmetology-446516",
+      "name": "Rosslyn Training Academy of Cosmetology",
+      "city": "Aguada",
+      "city_slug": "aguada",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 11998,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": null
+        },
+        {
+          "year": 8,
+          "value": null
+        },
+        {
+          "year": 10,
+          "value": 11998
+        }
+      ],
+      "completion_rate_150": 0.75,
+      "completion_rate_history": [
+        {
+          "year": 2005,
+          "value": 1.0
+        },
+        {
+          "year": 2006,
+          "value": 0.6029
+        }
+      ],
+      "enrollment_undergrad": 6,
+      "enrollment_history": [
+        {
+          "year": 2005,
+          "value": 68.0
+        },
+        {
+          "year": 2006,
+          "value": 56.0
+        },
+        {
+          "year": 2009,
+          "value": 10.0
+        }
+      ],
+      "median_debt": null,
+      "default_rate": null,
+      "tuition_in_state": 7277,
+      "tuition_out_of_state": 7277,
+      "long_arc": [
+        {
+          "metric": "completion_rate_150",
+          "from_year": 2005,
+          "to_year": 2006,
+          "from_value": 1.0,
+          "to_value": 0.6029,
+          "pct_change": -0.3971,
+          "direction": "fell"
+        },
+        {
+          "metric": "retention_rate",
+          "from_year": 2006,
+          "to_year": 2024,
+          "from_value": 0.6,
+          "to_value": 1.0,
+          "pct_change": 0.6666666666666667,
+          "direction": "rose"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 2005,
+          "to_year": 2009,
+          "from_value": 68.0,
+          "to_value": 10.0,
+          "pct_change": -0.29,
+          "direction": "fell"
+        },
+        {
+          "metric": "tuition_in_state",
+          "from_year": 2009,
+          "to_year": 2024,
+          "from_value": 4559.0,
+          "to_value": 7277.0,
+          "pct_change": 0.5961833735468305,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2009,
+          "to_year": 2024,
+          "from_value": 4559.0,
+          "to_value": 7277.0,
+          "pct_change": 0.5961833735468305,
+          "direction": "rose"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2009,
+          "to_year": 2024,
+          "from_value": 1.0,
+          "to_value": 0.6667,
+          "pct_change": -0.33330000000000004,
+          "direction": "fell"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": 17428,
+  "completion_rate_city": 0.7880499999999999,
+  "completion_history_city": [
+    {
+      "year": 2004,
+      "value": 0.7273
+    },
+    {
+      "year": 2005,
+      "value": 1.0
+    },
+    {
+      "year": 2006,
+      "value": 0.69275
+    },
+    {
+      "year": 2007,
+      "value": 0.8824
+    },
+    {
+      "year": 2008,
+      "value": 0.8235
+    },
+    {
+      "year": 2009,
+      "value": 0.7222
+    }
+  ],
+  "enrollment_history_city": [
+    {
+      "year": 2004,
+      "value": 41.0
+    },
+    {
+      "year": 2005,
+      "value": 111.0
+    },
+    {
+      "year": 2006,
+      "value": 106.0
+    },
+    {
+      "year": 2007,
+      "value": 82.0
+    },
+    {
+      "year": 2008,
+      "value": 76.0
+    },
+    {
+      "year": 2009,
+      "value": 84.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

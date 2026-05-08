@@ -1,0 +1,804 @@
+{
+  "institution_unitid": "215929",
+  "institution_name": "University of Scranton",
+  "institution_slug": "university-of-scranton-215929",
+  "state": "pa",
+  "cip_code": "5202",
+  "cip_desc": "Business Administration, Management and Operations.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5202-c5",
+  "earnings_median_4yr": 104547,
+  "earnings_median_5yr": 114396,
+  "earnings_count_4yr": 7,
+  "earnings_count_5yr": 8,
+  "debt_median": 35011,
+  "completers": 80,
+  "completers_single_year": 115,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 104547.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 114396.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 40457.0
+      },
+      {
+        "year": 2015,
+        "value": 42834.0
+      },
+      {
+        "year": 2016,
+        "value": 42276.0
+      },
+      {
+        "year": 2017,
+        "value": 39226.0
+      },
+      {
+        "year": 2018,
+        "value": 35011.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 118.0
+      },
+      {
+        "year": 2015,
+        "value": 110.0
+      },
+      {
+        "year": 2016,
+        "value": 124.0
+      },
+      {
+        "year": 2017,
+        "value": 98.0
+      },
+      {
+        "year": 2018,
+        "value": 115.0
+      },
+      {
+        "year": 2019,
+        "value": 80.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "215929",
+    "slug": "university-of-scranton-215929",
+    "name": "University of Scranton",
+    "city": "Scranton",
+    "city_slug": "scranton",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-pennsylvania-215062",
+      "institution_name": "University of Pennsylvania",
+      "earnings_median_5yr": 253891,
+      "earnings_median_4yr": 221017,
+      "debt_median": 41420,
+      "completers": 465,
+      "completers_single_year": 524,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "carnegie-mellon-university-211440",
+      "institution_name": "Carnegie Mellon University",
+      "earnings_median_5yr": 193021,
+      "earnings_median_4yr": 164350,
+      "debt_median": 110500,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "villanova-university-216597",
+      "institution_name": "Villanova University",
+      "earnings_median_5yr": 156016,
+      "earnings_median_4yr": 142263,
+      "debt_median": 40193,
+      "completers": 317,
+      "completers_single_year": 278,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "temple-university-216339",
+      "institution_name": "Temple University",
+      "earnings_median_5yr": 138380,
+      "earnings_median_4yr": 121267,
+      "debt_median": 45067,
+      "completers": 331,
+      "completers_single_year": 445,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "drexel-university-212054",
+      "institution_name": "Drexel University",
+      "earnings_median_5yr": 124559,
+      "earnings_median_4yr": 125681,
+      "debt_median": 51311,
+      "completers": 19,
+      "completers_single_year": 24,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "west-chester-university-of-pennsylvania-216764",
+      "institution_name": "West Chester University of Pennsylvania",
+      "earnings_median_5yr": 123053,
+      "earnings_median_4yr": 119953,
+      "debt_median": null,
+      "completers": 217,
+      "completers_single_year": 231,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "la-salle-university-213367",
+      "institution_name": "La Salle University",
+      "earnings_median_5yr": 118552,
+      "earnings_median_4yr": 106244,
+      "debt_median": 41000,
+      "completers": 54,
+      "completers_single_year": 80,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "holy-family-university-212984",
+      "institution_name": "Holy Family University",
+      "earnings_median_5yr": 112251,
+      "earnings_median_4yr": 101196,
+      "debt_median": 36259,
+      "completers": 32,
+      "completers_single_year": 33,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lebanon-valley-college-213507",
+      "institution_name": "Lebanon Valley College",
+      "earnings_median_5yr": 106181,
+      "earnings_median_4yr": 94136,
+      "debt_median": null,
+      "completers": 41,
+      "completers_single_year": 29,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "widener-university-216852",
+      "institution_name": "Widener University",
+      "earnings_median_5yr": 105132,
+      "earnings_median_4yr": null,
+      "debt_median": 61500,
+      "completers": 38,
+      "completers_single_year": 51,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "desales-university-210739",
+      "institution_name": "DeSales University",
+      "earnings_median_5yr": 100633,
+      "earnings_median_4yr": 89726,
+      "debt_median": 35731,
+      "completers": 120,
+      "completers_single_year": 119,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "duquesne-university-212106",
+      "institution_name": "Duquesne University",
+      "earnings_median_5yr": 99292,
+      "earnings_median_4yr": 83625,
+      "debt_median": 40750,
+      "completers": 101,
+      "completers_single_year": 92,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "delaware-valley-university-211981",
+      "institution_name": "Delaware Valley University",
+      "earnings_median_5yr": 93289,
+      "earnings_median_4yr": 82977,
+      "debt_median": 20908,
+      "completers": 31,
+      "completers_single_year": 37,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "carlow-university-211431",
+      "institution_name": "Carlow University",
+      "earnings_median_5yr": 91632,
+      "earnings_median_4yr": 81455,
+      "debt_median": 41000,
+      "completers": 43,
+      "completers_single_year": 46,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "shippensburg-university-of-pennsylvania-216010",
+      "institution_name": "Shippensburg University of Pennsylvania",
+      "earnings_median_5yr": 90947,
+      "earnings_median_4yr": 79200,
+      "debt_median": 20750,
+      "completers": 78,
+      "completers_single_year": 73,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "alvernia-university-210775",
+      "institution_name": "Alvernia University",
+      "earnings_median_5yr": 90616,
+      "earnings_median_4yr": 81372,
+      "debt_median": 37677,
+      "completers": 51,
+      "completers_single_year": 81,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "robert-morris-university-215655",
+      "institution_name": "Robert Morris University",
+      "earnings_median_5yr": 90345,
+      "earnings_median_4yr": 83211,
+      "debt_median": 31582,
+      "completers": 116,
+      "completers_single_year": 109,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "waynesburg-university-216694",
+      "institution_name": "Waynesburg University",
+      "earnings_median_5yr": 89760,
+      "earnings_median_4yr": 88719,
+      "debt_median": 23951,
+      "completers": 67,
+      "completers_single_year": 71,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "chatham-university-211556",
+      "institution_name": "Chatham University",
+      "earnings_median_5yr": 89095,
+      "earnings_median_4yr": 79946,
+      "debt_median": 36163,
+      "completers": 20,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "thomas-jefferson-university-216366",
+      "institution_name": "Thomas Jefferson University",
+      "earnings_median_5yr": 87748,
+      "earnings_median_4yr": 75144,
+      "debt_median": 53701,
+      "completers": 67,
+      "completers_single_year": 90,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "seton-hill-university-215947",
+      "institution_name": "Seton Hill University",
+      "earnings_median_5yr": 87345,
+      "earnings_median_4yr": 79698,
+      "debt_median": 31325,
+      "completers": 47,
+      "completers_single_year": 58,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "gannon-university-212601",
+      "institution_name": "Gannon University",
+      "earnings_median_5yr": 84100,
+      "earnings_median_4yr": 74032,
+      "debt_median": 37433,
+      "completers": 34,
+      "completers_single_year": 34,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "point-park-university-215442",
+      "institution_name": "Point Park University",
+      "earnings_median_5yr": 83363,
+      "earnings_median_4yr": 73850,
+      "debt_median": 35228,
+      "completers": 92,
+      "completers_single_year": 151,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wilkes-university-216931",
+      "institution_name": "Wilkes University",
+      "earnings_median_5yr": 82118,
+      "earnings_median_4yr": 75368,
+      "debt_median": 39600,
+      "completers": 42,
+      "completers_single_year": 39,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rosemont-college-215691",
+      "institution_name": "Rosemont College",
+      "earnings_median_5yr": 80068,
+      "earnings_median_4yr": 68087,
+      "debt_median": 26900,
+      "completers": 33,
+      "completers_single_year": 37,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "neumann-university-214272",
+      "institution_name": "Neumann University",
+      "earnings_median_5yr": 78122,
+      "earnings_median_4yr": 64426,
+      "debt_median": 34166,
+      "completers": 17,
+      "completers_single_year": 30,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "gwynedd-mercy-university-212832",
+      "institution_name": "Gwynedd Mercy University",
+      "earnings_median_5yr": 76937,
+      "earnings_median_4yr": 68671,
+      "debt_median": 30250,
+      "completers": 28,
+      "completers_single_year": 54,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "indiana-university-of-pennsylvania-main-campus-213020",
+      "institution_name": "Indiana University of Pennsylvania-Main Campus",
+      "earnings_median_5yr": 76297,
+      "earnings_median_4yr": 75230,
+      "debt_median": 20500,
+      "completers": 126,
+      "completers_single_year": 195,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "eastern-university-212133",
+      "institution_name": "Eastern University",
+      "earnings_median_5yr": 73760,
+      "earnings_median_4yr": 71272,
+      "debt_median": 37675,
+      "completers": 48,
+      "completers_single_year": 56,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "slippery-rock-university-of-pennsylvania-216038",
+      "institution_name": "Slippery Rock University of Pennsylvania",
+      "earnings_median_5yr": 73183,
+      "earnings_median_4yr": 69563,
+      "debt_median": 20500,
+      "completers": 41,
+      "completers_single_year": 29,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "misericordia-university-214069",
+      "institution_name": "Misericordia University",
+      "earnings_median_5yr": 70301,
+      "earnings_median_4yr": 64017,
+      "debt_median": 28837,
+      "completers": 38,
+      "completers_single_year": 28,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mount-aloysius-college-214166",
+      "institution_name": "Mount Aloysius College",
+      "earnings_median_5yr": 61600,
+      "earnings_median_4yr": 54620,
+      "debt_median": 20830,
+      "completers": 22,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "geneva-college-212656",
+      "institution_name": "Geneva College",
+      "earnings_median_5yr": 58787,
+      "earnings_median_4yr": 53208,
+      "debt_median": 44063,
+      "completers": 18,
+      "completers_single_year": 32,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "american-college-of-financial-services-210809",
+      "institution_name": "American College of Financial Services",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 32,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "arcadia-university-211088",
+      "institution_name": "Arcadia University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cabrini-university-211352",
+      "institution_name": "Cabrini University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cedar-crest-college-211468",
+      "institution_name": "Cedar Crest College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 18,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "central-penn-college-211477",
+      "institution_name": "Central Penn College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "chestnut-hill-college-211583",
+      "institution_name": "Chestnut Hill College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "elizabethtown-college-212197",
+      "institution_name": "Elizabethtown College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 26273,
+      "completers": 22,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "gratz-college-212771",
+      "institution_name": "Gratz College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "immaculata-university-213011",
+      "institution_name": "Immaculata University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "juniata-college-213251",
+      "institution_name": "Juniata College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "keystone-college-213303",
+      "institution_name": "Keystone College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "kutztown-university-of-pennsylvania-213349",
+      "institution_name": "Kutztown University of Pennsylvania",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lancaster-bible-college-213400",
+      "institution_name": "Lancaster Bible College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 24,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lehigh-university-213543",
+      "institution_name": "Lehigh University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 129685,
+      "debt_median": null,
+      "completers": 37,
+      "completers_single_year": 43,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lincoln-university-213598",
+      "institution_name": "Lincoln University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 27334,
+      "completers": 9,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "marywood-university-213826",
+      "institution_name": "Marywood University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 33334,
+      "completers": 5,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mercyhurst-university-213987",
+      "institution_name": "Mercyhurst University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 29,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "messiah-university-213996",
+      "institution_name": "Messiah University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 25,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "moravian-university-214157",
+      "institution_name": "Moravian University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 40,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "muhlenberg-college-214175",
+      "institution_name": "Muhlenberg College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "peirce-college-214883",
+      "institution_name": "Peirce College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 39041,
+      "completers": 21,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cairn-university-langhorne-215114",
+      "institution_name": "Cairn University-Langhorne",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 19,
+      "completers_single_year": 41,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "philadelphia-college-of-osteopathic-medicine-215123",
+      "institution_name": "Philadelphia College of Osteopathic Medicine",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-pittsburgh-pittsburgh-campus-215293",
+      "institution_name": "University of Pittsburgh-Pittsburgh Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 157,
+      "completers_single_year": 219,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-francis-university-215743",
+      "institution_name": "Saint Francis University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 34849,
+      "completers": 50,
+      "completers_single_year": 48,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-joseph-s-university-215770",
+      "institution_name": "Saint Joseph's University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-vincent-college-215798",
+      "institution_name": "Saint Vincent College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 18,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "thiel-college-216357",
+      "institution_name": "Thiel College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-valley-forge-216542",
+      "institution_name": "University of Valley Forge",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "westminster-college-216807",
+      "institution_name": "Westminster College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "york-college-of-pennsylvania-217059",
+      "institution_name": "York College of Pennsylvania",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 20500,
+      "completers": 27,
+      "completers_single_year": 34,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "harrisburg-university-of-science-and-technology-446640",
+      "institution_name": "Harrisburg University of Science and Technology",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 8,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 24999,
+      "cost_total_default": 149994,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 114396,
+      "earnings_anchor_year": 5,
+      "debt_median": 35011,
+      "cip_family": "52",
+      "hs_baseline_state": 38100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 1139698,
+      "breakeven_year": 9
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "institution_unitid": "223232",
+  "institution_name": "Baylor University",
+  "institution_slug": "baylor-university-223232",
+  "state": "tx",
+  "cip_code": "5219",
+  "cip_desc": "Specialized Sales, Merchandising and  Marketing Operations.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5219-c3",
+  "earnings_median_4yr": 56399,
+  "earnings_median_5yr": 77422,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 1,
+  "debt_median": 20625,
+  "completers": 42,
+  "completers_single_year": 53,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 56399.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 77422.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 27000.0
+      },
+      {
+        "year": 2015,
+        "value": 24625.0
+      },
+      {
+        "year": 2016,
+        "value": 25399.0
+      },
+      {
+        "year": 2017,
+        "value": 24525.0
+      },
+      {
+        "year": 2018,
+        "value": 20625.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 62.0
+      },
+      {
+        "year": 2015,
+        "value": 51.0
+      },
+      {
+        "year": 2016,
+        "value": 68.0
+      },
+      {
+        "year": 2017,
+        "value": 64.0
+      },
+      {
+        "year": 2018,
+        "value": 53.0
+      },
+      {
+        "year": 2019,
+        "value": 42.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 27000.0,
+      "to_value": 20625.0,
+      "pct_change": -0.2361111111111111,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Specialized Sales, Merchandising and  Marketing Operations at Baylor University fell 24% between 2014 and 2018 ($27.0k → $20.6k).",
+      "magnitude_pct": -23.6,
+      "magnitude_abs": -6375.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "223232",
+    "slug": "baylor-university-223232",
+    "name": "Baylor University",
+    "city": "Waco",
+    "city_slug": "waco",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "texas-state-university-228459",
+      "institution_name": "Texas State University",
+      "earnings_median_5yr": 58224,
+      "earnings_median_4yr": 48908,
+      "debt_median": 22014,
+      "completers": 104,
+      "completers_single_year": 88,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "texas-woman-s-university-229179",
+      "institution_name": "Texas Woman's University",
+      "earnings_median_5yr": 57539,
+      "earnings_median_4yr": 45697,
+      "debt_median": 20950,
+      "completers": 20,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-north-texas-227216",
+      "institution_name": "University of North Texas",
+      "earnings_median_5yr": 56709,
+      "earnings_median_4yr": 48283,
+      "debt_median": 21250,
+      "completers": 153,
+      "completers_single_year": 117,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "sam-houston-state-university-227881",
+      "institution_name": "Sam Houston State University",
+      "earnings_median_5yr": 55164,
+      "earnings_median_4yr": 48505,
+      "debt_median": 25000,
+      "completers": 18,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "texas-tech-university-229115",
+      "institution_name": "Texas Tech University",
+      "earnings_median_5yr": 53186,
+      "earnings_median_4yr": 50192,
+      "debt_median": 21500,
+      "completers": 0,
+      "completers_single_year": 29,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "texas-christian-university-228875",
+      "institution_name": "Texas Christian University",
+      "earnings_median_5yr": 52239,
+      "earnings_median_4yr": 49823,
+      "debt_median": 17750,
+      "completers": 41,
+      "completers_single_year": 27,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "stephen-f-austin-state-university-228431",
+      "institution_name": "Stephen F Austin State University",
+      "earnings_median_5yr": 50026,
+      "earnings_median_4yr": 43631,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 32236,
+      "cost_total_default": 128944,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 77422,
+      "earnings_anchor_year": 5,
+      "debt_median": 20625,
+      "cip_family": "52",
+      "hs_baseline_state": 37300
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 665990,
+      "breakeven_year": 10
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

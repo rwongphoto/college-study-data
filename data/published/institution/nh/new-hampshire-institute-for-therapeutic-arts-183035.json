@@ -1,0 +1,404 @@
+{
+  "institution": {
+    "unitid": "183035",
+    "opeid6": "037293",
+    "name": "New Hampshire Institute for Therapeutic Arts",
+    "slug": "new-hampshire-institute-for-therapeutic-arts-183035",
+    "state": "nh",
+    "city": "Nashua",
+    "city_slug": "nashua",
+    "zip5": "03060",
+    "address": "48 Bridge Street #6",
+    "latitude": 42.764338,
+    "longitude": -71.448163,
+    "control": "private_forprofit",
+    "pred_degree": "certificate",
+    "highest_degree": "certificate",
+    "main_campus": true,
+    "locale": "13",
+    "carnegie_basic": -2,
+    "sector_code": 9,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": 1.0,
+    "completion_rate_100": 1.0,
+    "retention_rate": null,
+    "admission_rate": null,
+    "enrollment_undergrad": 24,
+    "enrollment_total": null,
+    "cost_attendance": 23510,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": 20682,
+    "cost_by_income": {
+      "0_30k": 20182,
+      "30_48k": 21015,
+      "48_75k": null,
+      "75_110k": null,
+      "110k_plus": null,
+      "sticker": 23510,
+      "sector": "priv"
+    },
+    "median_debt": null,
+    "default_rate": 0.0,
+    "pell_share": 0.2391,
+    "history": {
+      "completion_rate_150": [
+        {
+          "year": 2005,
+          "value": 0.973
+        },
+        {
+          "year": 2007,
+          "value": 0.7656
+        },
+        {
+          "year": 2008,
+          "value": 0.75
+        },
+        {
+          "year": 2009,
+          "value": 0.8615
+        }
+      ],
+      "completion_rate_100": [
+        {
+          "year": 2009,
+          "value": 0.8615
+        }
+      ],
+      "retention_rate": [],
+      "admission_rate": [],
+      "enrollment_undergrad": [
+        {
+          "year": 2004,
+          "value": 16.0
+        },
+        {
+          "year": 2005,
+          "value": 77.0
+        },
+        {
+          "year": 2006,
+          "value": 64.0
+        },
+        {
+          "year": 2007,
+          "value": 40.0
+        },
+        {
+          "year": 2008,
+          "value": 47.0
+        },
+        {
+          "year": 2009,
+          "value": 44.0
+        }
+      ],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [
+        {
+          "year": 2009,
+          "value": 19872.0
+        }
+      ],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [],
+      "median_debt": [
+        {
+          "year": 2004,
+          "value": 5889.0
+        },
+        {
+          "year": 2005,
+          "value": 5889.0
+        },
+        {
+          "year": 2006,
+          "value": 5521.0
+        },
+        {
+          "year": 2007,
+          "value": 6625.0
+        },
+        {
+          "year": 2008,
+          "value": 6625.0
+        },
+        {
+          "year": 2009,
+          "value": 7500.0
+        }
+      ],
+      "default_rate": [],
+      "pell_share": [
+        {
+          "year": 2008,
+          "value": 0.3696
+        },
+        {
+          "year": 2009,
+          "value": 0.4247
+        }
+      ],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "median_debt",
+        "from_year": 2004,
+        "to_year": 2009,
+        "from_value": 5889.0,
+        "to_value": 7500.0,
+        "pct_change": 0.27356087620988284,
+        "direction": "rose"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "Median federal debt at exit",
+        "summary": "Median federal debt at exit at New Hampshire Institute for Therapeutic Arts rose 36% between 2006 and 2009 ($5.5k → $7.5k).",
+        "magnitude_pct": 35.8,
+        "magnitude_abs": 1979.0,
+        "baseline_year": 2006,
+        "recent_year": 2009,
+        "units": null,
+        "history": [],
+        "metric": "median_debt"
+      },
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "Undergraduate enrollment",
+        "summary": "Undergraduate enrollment at New Hampshire Institute for Therapeutic Arts fell 31% between 2006 and 2009 (64 → 44).",
+        "magnitude_pct": -31.2,
+        "magnitude_abs": -20.0,
+        "baseline_year": 2006,
+        "recent_year": 2009,
+        "units": null,
+        "history": [],
+        "metric": "enrollment_undergrad"
+      },
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "150%-time completion",
+        "summary": "150%-time completion at New Hampshire Institute for Therapeutic Arts rose 13% between 2007 and 2009 (76.6% → 86.2%).",
+        "magnitude_pct": 12.5,
+        "magnitude_abs": 0.1,
+        "baseline_year": 2007,
+        "recent_year": 2009,
+        "units": "%",
+        "history": [],
+        "metric": "completion_rate_150"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "51": [
+      {
+        "slug": "5135-c1",
+        "cip_code": "5135",
+        "cip_desc": "Somatic Bodywork and Related Therapeutic Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 16,
+        "completers_single_year": 15,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 31.0
+          },
+          {
+            "year": 2015,
+            "value": 31.0
+          },
+          {
+            "year": 2016,
+            "value": 20.0
+          },
+          {
+            "year": 2017,
+            "value": 24.0
+          },
+          {
+            "year": 2018,
+            "value": 15.0
+          },
+          {
+            "year": 2019,
+            "value": 16.0
+          }
+        ],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "5135-c1",
+      "cip_code": "5135",
+      "cip_desc": "Somatic Bodywork and Related Therapeutic Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 16,
+      "completers_single_year": 15,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 31.0
+        },
+        {
+          "year": 2015,
+          "value": 31.0
+        },
+        {
+          "year": 2016,
+          "value": 20.0
+        },
+        {
+          "year": 2017,
+          "value": 24.0
+        },
+        {
+          "year": 2018,
+          "value": 15.0
+        },
+        {
+          "year": 2019,
+          "value": 16.0
+        }
+      ],
+      "long_arc": []
+    }
+  ],
+  "program_count": 1,
+  "similar": [
+    {
+      "slug": "paul-mitchell-the-school-portsmouth-183202",
+      "name": "Paul Mitchell the School-Portsmouth",
+      "city": "Portsmouth",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.8214,
+      "enrollment_undergrad": 61
+    },
+    {
+      "slug": "keene-beauty-academy-182892",
+      "name": "Keene Beauty Academy",
+      "city": "Keene",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.7143,
+      "enrollment_undergrad": 93
+    },
+    {
+      "slug": "harmony-health-care-institute-490382",
+      "name": "Harmony Health Care Institute",
+      "city": "Merrimack",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.6,
+      "enrollment_undergrad": 164
+    },
+    {
+      "slug": "empire-beauty-school-somersworth-182722",
+      "name": "Empire Beauty School-Somersworth",
+      "city": "Somersworth",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.5714,
+      "enrollment_undergrad": 168
+    },
+    {
+      "slug": "empire-beauty-school-hooksett-450641",
+      "name": "Empire Beauty School-Hooksett",
+      "city": "Hooksett",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 33546,
+      "completion_rate_150": 0.7143,
+      "enrollment_undergrad": 327
+    }
+  ],
+  "roi": {
+    "default_program_slug": null,
+    "programs_available": [
+      {
+        "slug": "5135-c1",
+        "label": "Somatic Bodywork and Related Therapeutic Services · Undergraduate Certificate or Diploma",
+        "cip_family": "51",
+        "completers": 16,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      }
+    ]
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

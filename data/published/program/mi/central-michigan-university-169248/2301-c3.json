@@ -1,0 +1,468 @@
+{
+  "institution_unitid": "169248",
+  "institution_name": "Central Michigan University",
+  "institution_slug": "central-michigan-university-169248",
+  "state": "mi",
+  "cip_code": "2301",
+  "cip_desc": "English Language and Literature, General.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "2301-c3",
+  "earnings_median_4yr": 36145,
+  "earnings_median_5yr": 43271,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": 27000,
+  "completers": 27,
+  "completers_single_year": 34,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 36145.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 43271.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 28250.0
+      },
+      {
+        "year": 2015,
+        "value": 27000.0
+      },
+      {
+        "year": 2016,
+        "value": 29086.0
+      },
+      {
+        "year": 2017,
+        "value": 28000.0
+      },
+      {
+        "year": 2018,
+        "value": 27000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 25.0
+      },
+      {
+        "year": 2015,
+        "value": 22.0
+      },
+      {
+        "year": 2016,
+        "value": 42.0
+      },
+      {
+        "year": 2017,
+        "value": 39.0
+      },
+      {
+        "year": 2018,
+        "value": 34.0
+      },
+      {
+        "year": 2019,
+        "value": 27.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 8.3% at English Language and Literature, General at Central Michigan University exceeds the 8% gainful-employment threshold ($27.0k debt amortized over 10 years vs $43.3k earnings).",
+      "magnitude_pct": 8.3,
+      "magnitude_abs": 0.3,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "169248",
+    "slug": "central-michigan-university-169248",
+    "name": "Central Michigan University",
+    "city": "Mount Pleasant",
+    "city_slug": "mount-pleasant",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-michigan-ann-arbor-170976",
+      "institution_name": "University of Michigan-Ann Arbor",
+      "earnings_median_5yr": 56880,
+      "earnings_median_4yr": 48367,
+      "debt_median": 16887,
+      "completers": 129,
+      "completers_single_year": 124,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-michigan-dearborn-171137",
+      "institution_name": "University of Michigan-Dearborn",
+      "earnings_median_5yr": 55665,
+      "earnings_median_4yr": 45159,
+      "debt_median": 31000,
+      "completers": 25,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "oakland-university-171571",
+      "institution_name": "Oakland University",
+      "earnings_median_5yr": 52242,
+      "earnings_median_4yr": 43138,
+      "debt_median": 25418,
+      "completers": 46,
+      "completers_single_year": 61,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "michigan-state-university-171100",
+      "institution_name": "Michigan State University",
+      "earnings_median_5yr": 51627,
+      "earnings_median_4yr": 44513,
+      "debt_median": 24966,
+      "completers": 74,
+      "completers_single_year": 107,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "kalamazoo-college-170532",
+      "institution_name": "Kalamazoo College",
+      "earnings_median_5yr": 48592,
+      "earnings_median_4yr": 49257,
+      "debt_median": 25456,
+      "completers": 31,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "eastern-michigan-university-169798",
+      "institution_name": "Eastern Michigan University",
+      "earnings_median_5yr": 48087,
+      "earnings_median_4yr": 36652,
+      "debt_median": 30558,
+      "completers": 12,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "grand-valley-state-university-170082",
+      "institution_name": "Grand Valley State University",
+      "earnings_median_5yr": 47325,
+      "earnings_median_4yr": 41299,
+      "debt_median": 27036,
+      "completers": 100,
+      "completers_single_year": 118,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-michigan-flint-171146",
+      "institution_name": "University of Michigan-Flint",
+      "earnings_median_5yr": 44187,
+      "earnings_median_4yr": 32701,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-michigan-university-172699",
+      "institution_name": "Western Michigan University",
+      "earnings_median_5yr": 40673,
+      "earnings_median_4yr": 39200,
+      "debt_median": 27000,
+      "completers": 7,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "alma-college-168591",
+      "institution_name": "Alma College",
+      "earnings_median_5yr": 40063,
+      "earnings_median_4yr": null,
+      "debt_median": 27000,
+      "completers": 14,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "aquinas-college-168786",
+      "institution_name": "Aquinas College",
+      "earnings_median_5yr": 39091,
+      "earnings_median_4yr": 35886,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wayne-state-university-172644",
+      "institution_name": "Wayne State University",
+      "earnings_median_5yr": 36703,
+      "earnings_median_4yr": 27648,
+      "debt_median": 24113,
+      "completers": 52,
+      "completers_single_year": 59,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northern-michigan-university-171456",
+      "institution_name": "Northern Michigan University",
+      "earnings_median_5yr": 32503,
+      "earnings_median_4yr": 26004,
+      "debt_median": null,
+      "completers": 15,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "adrian-college-168528",
+      "institution_name": "Adrian College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "albion-college-168546",
+      "institution_name": "Albion College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "andrews-university-168740",
+      "institution_name": "Andrews University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "calvin-university-169080",
+      "institution_name": "Calvin University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-detroit-mercy-169716",
+      "institution_name": "University of Detroit Mercy",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cornerstone-university-170037",
+      "institution_name": "Cornerstone University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hillsdale-college-170286",
+      "institution_name": "Hillsdale College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 30,
+      "completers_single_year": 43,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hope-college-170301",
+      "institution_name": "Hope College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 36273,
+      "debt_median": 24499,
+      "completers": 30,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lawrence-technological-university-170675",
+      "institution_name": "Lawrence Technological University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "madonna-university-170806",
+      "institution_name": "Madonna University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rochester-university-170967",
+      "institution_name": "Rochester University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "michigan-technological-university-171128",
+      "institution_name": "Michigan Technological University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-university-of-olivet-171599",
+      "institution_name": "The University of Olivet",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "kuyper-college-171881",
+      "institution_name": "Kuyper College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saginaw-valley-state-university-172051",
+      "institution_name": "Saginaw Valley State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 28625,
+      "completers": 14,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "siena-heights-university-172264",
+      "institution_name": "Siena Heights University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "spring-arbor-university-172334",
+      "institution_name": "Spring Arbor University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 14182,
+      "cost_total_default": 56728,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 43271,
+      "earnings_anchor_year": 5,
+      "debt_median": 27000,
+      "cip_family": "23",
+      "hs_baseline_state": 36900
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 47296,
+      "breakeven_year": 27
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

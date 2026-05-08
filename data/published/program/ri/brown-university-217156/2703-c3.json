@@ -1,0 +1,198 @@
+{
+  "institution_unitid": "217156",
+  "institution_name": "Brown University",
+  "institution_slug": "brown-university-217156",
+  "state": "ri",
+  "cip_code": "2703",
+  "cip_desc": "Applied Mathematics.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "2703-c3",
+  "earnings_median_4yr": 125979,
+  "earnings_median_5yr": 135511,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 3,
+  "debt_median": 10000,
+  "completers": 131,
+  "completers_single_year": 178,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 125979.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 135511.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 12500.0
+      },
+      {
+        "year": 2015,
+        "value": 13750.0
+      },
+      {
+        "year": 2016,
+        "value": 15500.0
+      },
+      {
+        "year": 2017,
+        "value": 13778.0
+      },
+      {
+        "year": 2018,
+        "value": 10000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 111.0
+      },
+      {
+        "year": 2015,
+        "value": 138.0
+      },
+      {
+        "year": 2016,
+        "value": 121.0
+      },
+      {
+        "year": 2017,
+        "value": 146.0
+      },
+      {
+        "year": 2018,
+        "value": 178.0
+      },
+      {
+        "year": 2019,
+        "value": 131.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 12500.0,
+      "to_value": 10000.0,
+      "pct_change": -0.2,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Applied Mathematics at Brown University fell 20% between 2014 and 2018 ($12.5k → $10.0k).",
+      "magnitude_pct": -20.0,
+      "magnitude_abs": -2500.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "217156",
+    "slug": "brown-university-217156",
+    "name": "Brown University",
+    "city": "Providence",
+    "city_slug": "providence",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "bryant-university-217165",
+      "institution_name": "Bryant University",
+      "earnings_median_5yr": 94973,
+      "earnings_median_4yr": 80370,
+      "debt_median": 26000,
+      "completers": 34,
+      "completers_single_year": 42,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "roger-williams-university-217518",
+      "institution_name": "Roger Williams University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 7757,
+      "cost_total_default": 31028,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 135511,
+      "earnings_anchor_year": 5,
+      "debt_median": 10000,
+      "cip_family": "27",
+      "hs_baseline_state": 38900
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 1934203,
+      "breakeven_year": 4
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

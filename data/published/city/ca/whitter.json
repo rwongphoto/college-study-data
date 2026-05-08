@@ -1,0 +1,250 @@
+{
+  "state": "ca",
+  "name": "Whitter",
+  "slug": "whitter",
+  "institution_count": 1,
+  "institutions": [
+    {
+      "unitid": "444325",
+      "slug": "ati-college-whittier-444325",
+      "name": "ATI College-Whittier",
+      "city": "Whitter",
+      "city_slug": "whitter",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 38938,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 36256
+        },
+        {
+          "year": 8,
+          "value": 40275
+        },
+        {
+          "year": 10,
+          "value": 38938
+        }
+      ],
+      "completion_rate_150": 0.2,
+      "completion_rate_history": [
+        {
+          "year": 2005,
+          "value": 0.875
+        },
+        {
+          "year": 2006,
+          "value": 0.9375
+        },
+        {
+          "year": 2007,
+          "value": 0.7188
+        },
+        {
+          "year": 2008,
+          "value": 0.7152
+        },
+        {
+          "year": 2009,
+          "value": 0.6878
+        },
+        {
+          "year": 2019,
+          "value": 0.78
+        },
+        {
+          "year": 2020,
+          "value": 0.6
+        },
+        {
+          "year": 2021,
+          "value": 0.9
+        },
+        {
+          "year": 2023,
+          "value": 0.2
+        },
+        {
+          "year": 2024,
+          "value": 0.7222
+        }
+      ],
+      "enrollment_undergrad": 141,
+      "enrollment_history": [
+        {
+          "year": 2004,
+          "value": 129.0
+        },
+        {
+          "year": 2005,
+          "value": 86.0
+        },
+        {
+          "year": 2006,
+          "value": 121.0
+        },
+        {
+          "year": 2007,
+          "value": 163.0
+        },
+        {
+          "year": 2008,
+          "value": 151.0
+        },
+        {
+          "year": 2009,
+          "value": 159.0
+        }
+      ],
+      "median_debt": 11853,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "median_debt",
+          "from_year": 2006,
+          "to_year": 2009,
+          "from_value": 5725.0,
+          "to_value": 13528.0,
+          "pct_change": 1.3629694323144106,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.181,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "earnings_median_8yr",
+          "from_year": 2013,
+          "to_year": 2020,
+          "from_value": 28100.0,
+          "to_value": 40275.0,
+          "pct_change": 0.4332740213523132,
+          "direction": "rose"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": 38938,
+  "completion_rate_city": 0.2,
+  "completion_history_city": [
+    {
+      "year": 2005,
+      "value": 0.875
+    },
+    {
+      "year": 2006,
+      "value": 0.9375
+    },
+    {
+      "year": 2007,
+      "value": 0.7188
+    },
+    {
+      "year": 2008,
+      "value": 0.7152
+    },
+    {
+      "year": 2009,
+      "value": 0.6878
+    },
+    {
+      "year": 2019,
+      "value": 0.78
+    },
+    {
+      "year": 2020,
+      "value": 0.6
+    },
+    {
+      "year": 2021,
+      "value": 0.9
+    },
+    {
+      "year": 2023,
+      "value": 0.2
+    },
+    {
+      "year": 2024,
+      "value": 0.7222
+    }
+  ],
+  "enrollment_history_city": [
+    {
+      "year": 2004,
+      "value": 129.0
+    },
+    {
+      "year": 2005,
+      "value": 86.0
+    },
+    {
+      "year": 2006,
+      "value": 121.0
+    },
+    {
+      "year": 2007,
+      "value": 163.0
+    },
+    {
+      "year": 2008,
+      "value": 151.0
+    },
+    {
+      "year": 2009,
+      "value": 159.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

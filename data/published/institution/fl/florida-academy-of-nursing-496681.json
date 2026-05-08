@@ -1,0 +1,394 @@
+{
+  "institution": {
+    "unitid": "496681",
+    "opeid6": "042923",
+    "name": "Florida Academy of Nursing",
+    "slug": "florida-academy-of-nursing-496681",
+    "state": "fl",
+    "city": "Miramar",
+    "city_slug": "miramar",
+    "zip5": "33025",
+    "address": "12002 Miramar Parkway",
+    "latitude": 25.978064,
+    "longitude": -80.306128,
+    "control": "private_forprofit",
+    "pred_degree": "certificate",
+    "highest_degree": "bachelors",
+    "main_campus": true,
+    "locale": "21",
+    "carnegie_basic": -2,
+    "sector_code": 3,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": null,
+    "completion_rate_100": null,
+    "retention_rate": null,
+    "admission_rate": null,
+    "enrollment_undergrad": 54,
+    "enrollment_total": null,
+    "cost_attendance": 19428,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": 15028,
+    "cost_by_income": {
+      "0_30k": 15571,
+      "30_48k": 17973,
+      "48_75k": 8993,
+      "75_110k": null,
+      "110k_plus": null,
+      "sticker": 19428,
+      "sector": "priv"
+    },
+    "median_debt": null,
+    "default_rate": null,
+    "pell_share": 0.662,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [
+        {
+          "year": 2021,
+          "value": 1.0
+        },
+        {
+          "year": 2022,
+          "value": 1.0
+        }
+      ],
+      "admission_rate": [
+        {
+          "year": 2021,
+          "value": 0.3088
+        },
+        {
+          "year": 2024,
+          "value": 0.0549
+        }
+      ],
+      "enrollment_undergrad": [
+        {
+          "year": 2021,
+          "value": 239.0
+        },
+        {
+          "year": 2022,
+          "value": 131.0
+        },
+        {
+          "year": 2023,
+          "value": 54.0
+        },
+        {
+          "year": 2024,
+          "value": 21.0
+        }
+      ],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [
+        {
+          "year": 2021,
+          "value": 18087.0
+        },
+        {
+          "year": 2022,
+          "value": 21490.0
+        },
+        {
+          "year": 2023,
+          "value": 19428.0
+        },
+        {
+          "year": 2024,
+          "value": 14262.0
+        }
+      ],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [
+        {
+          "year": 2021,
+          "value": 14956.0
+        },
+        {
+          "year": 2022,
+          "value": 17849.0
+        },
+        {
+          "year": 2023,
+          "value": 15028.0
+        },
+        {
+          "year": 2024,
+          "value": 10054.0
+        }
+      ],
+      "median_debt": [],
+      "default_rate": [],
+      "pell_share": [
+        {
+          "year": 2021,
+          "value": 0.5
+        },
+        {
+          "year": 2022,
+          "value": 0.7202
+        },
+        {
+          "year": 2023,
+          "value": 0.662
+        },
+        {
+          "year": 2024,
+          "value": 0.5282
+        }
+      ],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "enrollment_undergrad",
+        "from_year": 2021,
+        "to_year": 2024,
+        "from_value": 239.0,
+        "to_value": 21.0,
+        "pct_change": -0.9121338912133892,
+        "direction": "fell"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "Undergraduate enrollment",
+        "summary": "Undergraduate enrollment at Florida Academy of Nursing fell 91% between 2021 and 2024 (239 → 21).",
+        "magnitude_pct": -91.2,
+        "magnitude_abs": -218.0,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": null,
+        "history": [],
+        "metric": "enrollment_undergrad"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "51": [
+      {
+        "slug": "5139-c1",
+        "cip_code": "5139",
+        "cip_desc": "Practical Nursing, Vocational Nursing and Nursing Assistants.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 19,
+        "completers_single_year": null,
+        "completers_history": [
+          {
+            "year": 2019,
+            "value": 19.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5138-c3",
+        "cip_code": "5138",
+        "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 1,
+        "completers_single_year": null,
+        "completers_history": [
+          {
+            "year": 2019,
+            "value": 1.0
+          }
+        ],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "5139-c1",
+      "cip_code": "5139",
+      "cip_desc": "Practical Nursing, Vocational Nursing and Nursing Assistants.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 19,
+      "completers_single_year": null,
+      "completers_history": [
+        {
+          "year": 2019,
+          "value": 19.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5138-c3",
+      "cip_code": "5138",
+      "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 1,
+      "completers_single_year": null,
+      "completers_history": [
+        {
+          "year": 2019,
+          "value": 1.0
+        }
+      ],
+      "long_arc": []
+    }
+  ],
+  "program_count": 2,
+  "similar": [
+    {
+      "slug": "nouvelle-institute-409032",
+      "name": "Nouvelle Institute",
+      "city": "Miami",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 16138,
+      "completion_rate_150": 0.8571,
+      "enrollment_undergrad": 54
+    },
+    {
+      "slug": "hca-florida-mercy-hospital-school-of-practical-nursing-419217",
+      "name": "HCA Florida Mercy Hospital School of Practical Nursing",
+      "city": "Miami",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 72275,
+      "completion_rate_150": 1.0,
+      "enrollment_undergrad": 54
+    },
+    {
+      "slug": "pensacola-school-of-massage-therapy-health-careers-449533",
+      "name": "Pensacola School of Massage Therapy & Health Careers",
+      "city": "Pensacola",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 28828,
+      "completion_rate_150": 0.6552,
+      "enrollment_undergrad": 56
+    },
+    {
+      "slug": "first-coast-barber-academy-484075",
+      "name": "First Coast Barber Academy",
+      "city": "Jacksonville",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.6567,
+      "enrollment_undergrad": 50
+    },
+    {
+      "slug": "tenaj-salon-institute-457448",
+      "name": "Tenaj Salon Institute",
+      "city": "The Villages",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 25196,
+      "completion_rate_150": 0.6316,
+      "enrollment_undergrad": 62
+    }
+  ],
+  "roi": {
+    "default_program_slug": null,
+    "programs_available": [
+      {
+        "slug": "5139-c1",
+        "label": "Practical Nursing, Vocational Nursing and Nursing Assistants · Undergraduate Certificate or Diploma",
+        "cip_family": "51",
+        "completers": 19,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "5138-c3",
+        "label": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing · Bachelor's Degree",
+        "cip_family": "51",
+        "completers": 1,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 4,
+        "default_result": null
+      }
+    ]
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

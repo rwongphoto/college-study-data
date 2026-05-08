@@ -1,0 +1,332 @@
+{
+  "institution_unitid": "239442",
+  "institution_name": "Nicolet Area Technical College",
+  "institution_slug": "nicolet-area-technical-college-239442",
+  "state": "wi",
+  "cip_code": "5108",
+  "cip_desc": "Allied Health and Medical Assisting Services.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "5108-c1",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 1,
+  "debt_median": null,
+  "completers": 23,
+  "completers_single_year": 9,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [
+      {
+        "year": 2015,
+        "value": 5500.0
+      },
+      {
+        "year": 2016,
+        "value": 7050.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 13.0
+      },
+      {
+        "year": 2015,
+        "value": 24.0
+      },
+      {
+        "year": 2016,
+        "value": 20.0
+      },
+      {
+        "year": 2017,
+        "value": 12.0
+      },
+      {
+        "year": 2018,
+        "value": 9.0
+      },
+      {
+        "year": 2019,
+        "value": 23.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2015,
+      "to_year": 2016,
+      "from_value": 5500.0,
+      "to_value": 7050.0,
+      "pct_change": 0.2818181818181818,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Allied Health and Medical Assisting Services at Nicolet Area Technical College rose 28% between 2015 and 2016 ($5.5k → $7.0k).",
+      "magnitude_pct": 28.2,
+      "magnitude_abs": 1550.0,
+      "baseline_year": 2015,
+      "recent_year": 2016,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "239442",
+    "slug": "nicolet-area-technical-college-239442",
+    "name": "Nicolet Area Technical College",
+    "city": "Rhinelander",
+    "city_slug": "rhinelander",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "milwaukee-area-technical-college-239248",
+      "institution_name": "Milwaukee Area Technical College",
+      "earnings_median_5yr": 43167,
+      "earnings_median_4yr": 37079,
+      "debt_median": 8652,
+      "completers": 74,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "waukesha-county-technical-college-240125",
+      "institution_name": "Waukesha County Technical College",
+      "earnings_median_5yr": 39276,
+      "earnings_median_4yr": 34538,
+      "debt_median": null,
+      "completers": 21,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "blackhawk-technical-college-238397",
+      "institution_name": "Blackhawk Technical College",
+      "earnings_median_5yr": 37666,
+      "earnings_median_4yr": 34091,
+      "debt_median": null,
+      "completers": 22,
+      "completers_single_year": 27,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "moraine-park-technical-college-239372",
+      "institution_name": "Moraine Park Technical College",
+      "earnings_median_5yr": 37568,
+      "earnings_median_4yr": 36193,
+      "debt_median": 6999,
+      "completers": 42,
+      "completers_single_year": 49,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mid-state-technical-college-239220",
+      "institution_name": "Mid-State Technical College",
+      "earnings_median_5yr": 36952,
+      "earnings_median_4yr": 32578,
+      "debt_median": 6500,
+      "completers": 30,
+      "completers_single_year": 35,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-technical-college-240170",
+      "institution_name": "Western Technical College",
+      "earnings_median_5yr": 36299,
+      "earnings_median_4yr": 31102,
+      "debt_median": 9208,
+      "completers": 38,
+      "completers_single_year": 42,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "chippewa-valley-technical-college-240116",
+      "institution_name": "Chippewa Valley Technical College",
+      "earnings_median_5yr": 36053,
+      "earnings_median_4yr": 34768,
+      "debt_median": 9994,
+      "completers": 24,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "fox-valley-technical-college-238722",
+      "institution_name": "Fox Valley Technical College",
+      "earnings_median_5yr": 35820,
+      "earnings_median_4yr": 32994,
+      "debt_median": 7135,
+      "completers": 35,
+      "completers_single_year": 56,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southwest-wisconsin-technical-college-239910",
+      "institution_name": "Southwest Wisconsin Technical College",
+      "earnings_median_5yr": 34655,
+      "earnings_median_4yr": 27766,
+      "debt_median": 5771,
+      "completers": 28,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northwood-technical-college-240198",
+      "institution_name": "Northwood Technical College",
+      "earnings_median_5yr": 34542,
+      "earnings_median_4yr": 28912,
+      "debt_median": 5500,
+      "completers": 44,
+      "completers_single_year": 22,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northeast-wisconsin-technical-college-239488",
+      "institution_name": "Northeast Wisconsin Technical College",
+      "earnings_median_5yr": 34444,
+      "earnings_median_4yr": 30659,
+      "debt_median": 9500,
+      "completers": 149,
+      "completers_single_year": 132,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "gateway-technical-college-238759",
+      "institution_name": "Gateway Technical College",
+      "earnings_median_5yr": 34095,
+      "earnings_median_4yr": 29718,
+      "debt_median": 8250,
+      "completers": 25,
+      "completers_single_year": 60,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lakeshore-technical-college-239008",
+      "institution_name": "Lakeshore Technical College",
+      "earnings_median_5yr": 33987,
+      "earnings_median_4yr": 32323,
+      "debt_median": 6999,
+      "completers": 36,
+      "completers_single_year": 30,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "herzing-university-madison-240392",
+      "institution_name": "Herzing University-Madison",
+      "earnings_median_5yr": 33717,
+      "earnings_median_4yr": 29950,
+      "debt_median": 18701,
+      "completers": 30,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "milwaukee-career-college-449861",
+      "institution_name": "Milwaukee Career College",
+      "earnings_median_5yr": 33402,
+      "earnings_median_4yr": 29134,
+      "debt_median": 7046,
+      "completers": 38,
+      "completers_single_year": 28,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northcentral-technical-college-239460",
+      "institution_name": "Northcentral Technical College",
+      "earnings_median_5yr": 33277,
+      "earnings_median_4yr": 28246,
+      "debt_median": 5250,
+      "completers": 37,
+      "completers_single_year": 24,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "madison-area-technical-college-238263",
+      "institution_name": "Madison Area Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 14250,
+      "completers": 35,
+      "completers_single_year": 37,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "concordia-university-wisconsin-238616",
+      "institution_name": "Concordia University-Wisconsin",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 12773,
+      "completers": 8,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 10506,
+      "cost_total_default": 10506,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "51"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

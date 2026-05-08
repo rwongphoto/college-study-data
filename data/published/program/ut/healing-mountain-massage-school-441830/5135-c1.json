@@ -1,0 +1,204 @@
+{
+  "institution_unitid": "441830",
+  "institution_name": "Healing Mountain Massage School",
+  "institution_slug": "healing-mountain-massage-school-441830",
+  "state": "ut",
+  "cip_code": "5135",
+  "cip_desc": "Somatic Bodywork and Related Therapeutic Services.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "5135-c1",
+  "earnings_median_4yr": 27090,
+  "earnings_median_5yr": 29869,
+  "earnings_count_4yr": 20,
+  "earnings_count_5yr": 21,
+  "debt_median": 7708,
+  "completers": 60,
+  "completers_single_year": 73,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 27090.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 29869.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 8315.0
+      },
+      {
+        "year": 2015,
+        "value": 6950.0
+      },
+      {
+        "year": 2016,
+        "value": 8162.0
+      },
+      {
+        "year": 2017,
+        "value": 9440.0
+      },
+      {
+        "year": 2018,
+        "value": 7708.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 61.0
+      },
+      {
+        "year": 2015,
+        "value": 69.0
+      },
+      {
+        "year": 2016,
+        "value": 73.0
+      },
+      {
+        "year": 2017,
+        "value": 71.0
+      },
+      {
+        "year": 2018,
+        "value": 73.0
+      },
+      {
+        "year": 2019,
+        "value": 60.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "441830",
+    "slug": "healing-mountain-massage-school-441830",
+    "name": "Healing Mountain Massage School",
+    "city": "Salt Lake City",
+    "city_slug": "salt-lake-city",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "myotherapy-massage-college-406486",
+      "institution_name": "Myotherapy Massage College",
+      "earnings_median_5yr": 26481,
+      "earnings_median_4yr": 21839,
+      "debt_median": 8233,
+      "completers": 78,
+      "completers_single_year": 86,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "provo-college-380438",
+      "institution_name": "Provo College",
+      "earnings_median_5yr": 23435,
+      "earnings_median_4yr": 14627,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "eagle-gate-college-murray-230366",
+      "institution_name": "Eagle Gate College-Murray",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "aveda-institute-provo-451574",
+      "institution_name": "Aveda Institute-Provo",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 4238,
+      "completers": 21,
+      "completers_single_year": 24,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "zion-massage-college-495101",
+      "institution_name": "Zion Massage College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 41,
+      "completers_single_year": 32,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 21,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 22694,
+      "cost_total_default": 22694,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 29869,
+      "earnings_anchor_year": 5,
+      "debt_median": 7708,
+      "cip_family": "51",
+      "hs_baseline_state": 38000
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -151498,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

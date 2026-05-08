@@ -1,0 +1,571 @@
+{
+  "institution": {
+    "unitid": "485519",
+    "opeid6": "042434",
+    "name": "Lionel University",
+    "slug": "lionel-university-485519",
+    "state": "ca",
+    "city": "Carpinteria",
+    "city_slug": "carpinteria",
+    "zip5": "93013",
+    "address": "1013 Mark Avenue",
+    "latitude": 34.38768,
+    "longitude": -119.486417,
+    "control": "private_forprofit",
+    "pred_degree": "associates",
+    "highest_degree": "bachelors",
+    "main_campus": true,
+    "locale": "22",
+    "carnegie_basic": -2,
+    "sector_code": 3,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": 0.3837,
+    "completion_rate_100": null,
+    "retention_rate": 0.6667,
+    "admission_rate": null,
+    "enrollment_undergrad": 480,
+    "enrollment_total": null,
+    "cost_attendance": 31812,
+    "tuition_in_state": 15288,
+    "tuition_out_of_state": 15288,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": 29539,
+    "median_debt": 6334,
+    "default_rate": 0.0,
+    "pell_share": 0.3686,
+    "history": {
+      "completion_rate_150": [
+        {
+          "year": 2020,
+          "value": 0.0
+        },
+        {
+          "year": 2021,
+          "value": 1.0
+        },
+        {
+          "year": 2022,
+          "value": 0.7895
+        },
+        {
+          "year": 2023,
+          "value": 0.3837
+        },
+        {
+          "year": 2024,
+          "value": 0.6712
+        }
+      ],
+      "completion_rate_100": [
+        {
+          "year": 2024,
+          "value": 0.0548
+        }
+      ],
+      "retention_rate": [],
+      "admission_rate": [],
+      "enrollment_undergrad": [],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [
+        {
+          "year": 2015,
+          "value": 8528.0
+        },
+        {
+          "year": 2020,
+          "value": 10107.0
+        },
+        {
+          "year": 2021,
+          "value": 10107.0
+        },
+        {
+          "year": 2022,
+          "value": 15288.0
+        },
+        {
+          "year": 2023,
+          "value": 15288.0
+        },
+        {
+          "year": 2024,
+          "value": 15265.0
+        }
+      ],
+      "cost_attendance": [],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [
+        {
+          "year": 2020,
+          "value": 17176.0
+        },
+        {
+          "year": 2021,
+          "value": 13213.0
+        },
+        {
+          "year": 2022,
+          "value": 23512.0
+        },
+        {
+          "year": 2023,
+          "value": 29539.0
+        },
+        {
+          "year": 2024,
+          "value": 29453.0
+        }
+      ],
+      "median_debt": [],
+      "default_rate": [
+        {
+          "year": 2018,
+          "value": 0.181
+        },
+        {
+          "year": 2019,
+          "value": 0.142
+        },
+        {
+          "year": 2020,
+          "value": 0.0
+        },
+        {
+          "year": 2021,
+          "value": 0.043
+        },
+        {
+          "year": 2022,
+          "value": 0.0
+        },
+        {
+          "year": 2023,
+          "value": 0.0
+        },
+        {
+          "year": 2024,
+          "value": 0.0
+        }
+      ],
+      "pell_share": [],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "completion_rate_150",
+        "from_year": 2020,
+        "to_year": 2024,
+        "from_value": 0.0,
+        "to_value": 0.6712,
+        "pct_change": 13.424,
+        "direction": "rose"
+      },
+      {
+        "metric": "tuition_out_of_state",
+        "from_year": 2015,
+        "to_year": 2024,
+        "from_value": 8528.0,
+        "to_value": 15265.0,
+        "pct_change": 0.7899859287054409,
+        "direction": "rose"
+      },
+      {
+        "metric": "default_rate",
+        "from_year": 2018,
+        "to_year": 2024,
+        "from_value": 0.181,
+        "to_value": 0.0,
+        "pct_change": -1.0,
+        "direction": "fell"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "Out-of-state tuition",
+        "summary": "Out-of-state tuition at Lionel University rose 51% between 2021 and 2024 ($10.1k → $15.3k).",
+        "magnitude_pct": 51.0,
+        "magnitude_abs": 5158.0,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": null,
+        "history": [],
+        "metric": "tuition_out_of_state"
+      },
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "150%-time completion",
+        "summary": "150%-time completion at Lionel University fell 33% between 2021 and 2024 (100.0% → 67.1%).",
+        "magnitude_pct": -32.9,
+        "magnitude_abs": -0.33,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": "%",
+        "history": [],
+        "metric": "completion_rate_150"
+      },
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "3-year cohort default rate",
+        "summary": "3-year cohort default rate at Lionel University fell 100% between 2021 and 2024 (4.3% → 0.0%).",
+        "magnitude_pct": -100.0,
+        "magnitude_abs": -0.04,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": "%",
+        "history": [],
+        "metric": "default_rate"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "26": [
+      {
+        "slug": "2609-c3",
+        "cip_code": "2609",
+        "cip_desc": "Physiology, Pathology and Related Sciences.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 15,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 15.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "31": [
+      {
+        "slug": "3105-c2",
+        "cip_code": "3105",
+        "cip_desc": "Health and Physical Education/Fitness.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": 11975,
+        "debt_history": [
+          {
+            "year": 2015,
+            "value": 8880.0
+          },
+          {
+            "year": 2016,
+            "value": 10500.0
+          },
+          {
+            "year": 2017,
+            "value": 10625.0
+          },
+          {
+            "year": 2018,
+            "value": 11975.0
+          }
+        ],
+        "completers": 113,
+        "completers_single_year": 121,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 120.0
+          },
+          {
+            "year": 2015,
+            "value": 120.0
+          },
+          {
+            "year": 2016,
+            "value": 106.0
+          },
+          {
+            "year": 2017,
+            "value": 82.0
+          },
+          {
+            "year": 2018,
+            "value": 121.0
+          },
+          {
+            "year": 2019,
+            "value": 113.0
+          }
+        ],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2015,
+            "to_year": 2018,
+            "from_value": 8880.0,
+            "to_value": 11975.0,
+            "pct_change": 0.34853603603603606,
+            "direction": "rose"
+          }
+        ]
+      },
+      {
+        "slug": "3105-c1",
+        "cip_code": "3105",
+        "cip_desc": "Health and Physical Education/Fitness.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 14,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 14.0
+          }
+        ],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "3105-c2",
+      "cip_code": "3105",
+      "cip_desc": "Health and Physical Education/Fitness.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": 11975,
+      "debt_history": [
+        {
+          "year": 2015,
+          "value": 8880.0
+        },
+        {
+          "year": 2016,
+          "value": 10500.0
+        },
+        {
+          "year": 2017,
+          "value": 10625.0
+        },
+        {
+          "year": 2018,
+          "value": 11975.0
+        }
+      ],
+      "completers": 113,
+      "completers_single_year": 121,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 120.0
+        },
+        {
+          "year": 2015,
+          "value": 120.0
+        },
+        {
+          "year": 2016,
+          "value": 106.0
+        },
+        {
+          "year": 2017,
+          "value": 82.0
+        },
+        {
+          "year": 2018,
+          "value": 121.0
+        },
+        {
+          "year": 2019,
+          "value": 113.0
+        }
+      ],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2015,
+          "to_year": 2018,
+          "from_value": 8880.0,
+          "to_value": 11975.0,
+          "pct_change": 0.34853603603603606,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "slug": "2609-c3",
+      "cip_code": "2609",
+      "cip_desc": "Physiology, Pathology and Related Sciences.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 15,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 15.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "3105-c1",
+      "cip_code": "3105",
+      "cip_desc": "Health and Physical Education/Fitness.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 14,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 14.0
+        }
+      ],
+      "long_arc": []
+    }
+  ],
+  "program_count": 3,
+  "similar": [
+    {
+      "slug": "national-polytechnic-college-447759",
+      "name": "National Polytechnic College",
+      "city": "Lakewood",
+      "control": "private_forprofit",
+      "pred_degree": "associates",
+      "earnings_median_10yr": 30781,
+      "completion_rate_150": 0.7273,
+      "enrollment_undergrad": 299
+    },
+    {
+      "slug": "asher-college-447777",
+      "name": "Asher College",
+      "city": "Sacramento",
+      "control": "private_forprofit",
+      "pred_degree": "associates",
+      "earnings_median_10yr": 45468,
+      "completion_rate_150": 0.8571,
+      "enrollment_undergrad": 699
+    },
+    {
+      "slug": "american-medical-sciences-center-461263",
+      "name": "American Medical Sciences Center",
+      "city": "Glendale",
+      "control": "private_forprofit",
+      "pred_degree": "associates",
+      "earnings_median_10yr": 29972,
+      "completion_rate_150": 1.0,
+      "enrollment_undergrad": 200
+    },
+    {
+      "slug": "california-career-college-447713",
+      "name": "California Career College",
+      "city": "Canoga Park",
+      "control": "private_forprofit",
+      "pred_degree": "associates",
+      "earnings_median_10yr": 51684,
+      "completion_rate_150": 1.0,
+      "enrollment_undergrad": 195
+    },
+    {
+      "slug": "pci-college-439871",
+      "name": "PCI College",
+      "city": "Cerritos",
+      "control": "private_forprofit",
+      "pred_degree": "associates",
+      "earnings_median_10yr": 36141,
+      "completion_rate_150": 0.7692,
+      "enrollment_undergrad": 168
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

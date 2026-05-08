@@ -1,0 +1,228 @@
+{
+  "institution_unitid": "187897",
+  "institution_name": "New Mexico Highlands University",
+  "institution_slug": "new-mexico-highlands-university-187897",
+  "state": "nm",
+  "cip_code": "5202",
+  "cip_desc": "Business Administration, Management and Operations.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5202-c5",
+  "earnings_median_4yr": 67394,
+  "earnings_median_5yr": 78181,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 3,
+  "debt_median": 28531,
+  "completers": 69,
+  "completers_single_year": 67,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 67394.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 78181.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 17860.0
+      },
+      {
+        "year": 2015,
+        "value": 27462.0
+      },
+      {
+        "year": 2016,
+        "value": 27462.0
+      },
+      {
+        "year": 2017,
+        "value": 29613.0
+      },
+      {
+        "year": 2018,
+        "value": 28531.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 60.0
+      },
+      {
+        "year": 2015,
+        "value": 75.0
+      },
+      {
+        "year": 2016,
+        "value": 84.0
+      },
+      {
+        "year": 2017,
+        "value": 102.0
+      },
+      {
+        "year": 2018,
+        "value": 67.0
+      },
+      {
+        "year": 2019,
+        "value": 69.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 17860.0,
+      "to_value": 28531.0,
+      "pct_change": 0.5974804031354983,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Business Administration, Management and Operations at New Mexico Highlands University rose 60% between 2014 and 2018 ($17.9k → $28.5k).",
+      "magnitude_pct": 59.7,
+      "magnitude_abs": 10671.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "187897",
+    "slug": "new-mexico-highlands-university-187897",
+    "name": "New Mexico Highlands University",
+    "city": "Las Vegas",
+    "city_slug": "las-vegas",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "eastern-new-mexico-university-main-campus-187648",
+      "institution_name": "Eastern New Mexico University-Main Campus",
+      "earnings_median_5yr": 96975,
+      "earnings_median_4yr": 87261,
+      "debt_median": 27848,
+      "completers": 67,
+      "completers_single_year": 63,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-new-mexico-main-campus-187985",
+      "institution_name": "University of New Mexico-Main Campus",
+      "earnings_median_5yr": 89932,
+      "earnings_median_4yr": 77094,
+      "debt_median": 32073,
+      "completers": 185,
+      "completers_single_year": 166,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "new-mexico-state-university-main-campus-188030",
+      "institution_name": "New Mexico State University-Main Campus",
+      "earnings_median_5yr": 83221,
+      "earnings_median_4yr": 75747,
+      "debt_median": 25297,
+      "completers": 72,
+      "completers_single_year": 71,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-the-southwest-188182",
+      "institution_name": "University of the Southwest",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-new-mexico-university-188304",
+      "institution_name": "Western New Mexico University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 20,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 15596,
+      "cost_total_default": 93576,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 78181,
+      "earnings_anchor_year": 5,
+      "debt_median": 28531,
+      "cip_family": "52",
+      "hs_baseline_state": 33800
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 658798,
+      "breakeven_year": 10
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "institution_unitid": "233772",
+  "institution_name": "Tidewater Community College",
+  "institution_slug": "tidewater-community-college-233772",
+  "state": "va",
+  "cip_code": "4706",
+  "cip_desc": "Vehicle Maintenance and Repair Technologies.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "4706-c2",
+  "earnings_median_4yr": 44586,
+  "earnings_median_5yr": 54590,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 0,
+  "debt_median": 7000,
+  "completers": 18,
+  "completers_single_year": 41,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 44586.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 54590.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2015,
+        "value": 7637.0
+      },
+      {
+        "year": 2016,
+        "value": 10257.0
+      },
+      {
+        "year": 2017,
+        "value": 9682.0
+      },
+      {
+        "year": 2018,
+        "value": 7000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 26.0
+      },
+      {
+        "year": 2015,
+        "value": 45.0
+      },
+      {
+        "year": 2016,
+        "value": 35.0
+      },
+      {
+        "year": 2017,
+        "value": 42.0
+      },
+      {
+        "year": 2018,
+        "value": 41.0
+      },
+      {
+        "year": 2019,
+        "value": 18.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "233772",
+    "slug": "tidewater-community-college-233772",
+    "name": "Tidewater Community College",
+    "city": "Norfolk",
+    "city_slug": "norfolk",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "advanced-technology-institute-231411",
+      "institution_name": "Advanced Technology Institute",
+      "earnings_median_5yr": 52835,
+      "earnings_median_4yr": 48237,
+      "debt_median": null,
+      "completers": 35,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "j-sargeant-reynolds-community-college-232414",
+      "institution_name": "J Sargeant Reynolds Community College",
+      "earnings_median_5yr": 41682,
+      "earnings_median_4yr": 37625,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "blue-ridge-community-college-231536",
+      "institution_name": "Blue Ridge Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "liberty-university-232557",
+      "institution_name": "Liberty University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "new-river-community-college-232867",
+      "institution_name": "New River Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northern-virginia-community-college-232946",
+      "institution_name": "Northern Virginia Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 26,
+      "completers_single_year": 42,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "virginia-peninsula-community-college-233754",
+      "institution_name": "Virginia Peninsula Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 8811,
+      "cost_total_default": 17622,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 54590,
+      "earnings_anchor_year": 5,
+      "debt_median": 7000,
+      "cip_family": "47",
+      "hs_baseline_state": 39800
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 336076,
+      "breakeven_year": 5
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

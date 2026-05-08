@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Public Analyst.ai — favicon preview</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="alternate icon" href="assets/favicon.ico" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0E1116;
+      --bg-2: #141821;
+      --bg-3: #1B2030;
+      --line: #2A3142;
+      --line-2: #3A4257;
+      --fg: #E8ECF2;
+      --fg-2: #BFC6D4;
+      --fg-3: #8A93A6;
+      --fg-4: #5C6478;
+      --blue: #3B82F6;
+      --green: #6FCF97;
+      --amber: #E6B450;
+      --red: #FF6B6B;
+      --font-body: 'Inter', system-ui, sans-serif;
+      --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: var(--font-body);
+      background: var(--bg); color: var(--fg);
+      font-size: 14px; line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 1280px; margin: 0 auto; padding: 0 32px; }
+    .meta-mono {
+      font-family: var(--font-mono); font-size: 10px;
+      letter-spacing: 0.14em; text-transform: uppercase;
+      color: var(--fg-4);
+    }
+    .eyebrow {
+      font-family: var(--font-mono); font-weight: 500; font-size: 11px;
+      letter-spacing: 0.16em; text-transform: uppercase;
+      color: var(--fg-3);
+    }
+    h1 {
+      font-weight: 600; font-size: clamp(40px, 5vw, 60px);
+      letter-spacing: -0.025em; line-height: 1; margin: 12px 0 0;
+    }
+    h2 {
+      font-weight: 600; font-size: 24px; letter-spacing: -0.015em;
+      margin: 0 0 4px;
+    }
+    .lede {
+      font-size: 17px; color: var(--fg-2); line-height: 1.55;
+      max-width: 60ch; margin: 18px 0 0;
+    }
+    section {
+      padding: 48px 0; border-top: 1px solid var(--line);
+    }
+    section .head { margin-bottom: 28px; }
+    section .head .sub {
+      font-size: 14px; color: var(--fg-3); margin: 6px 0 0;
+      max-width: 70ch;
+    }
+
+    .hero { padding: 64px 0 40px; border-top: 0; }
+
+    /* ======= Size-grid (the canonical sizes side by side) ======= */
+    .size-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      gap: 0;
+      border-top: 1px solid var(--line);
+      border-left: 1px solid var(--line);
+    }
+    .size-card {
+      border-right: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      padding: 28px 24px;
+      display: flex; flex-direction: column; align-items: center;
+      gap: 16px; background: var(--bg-2);
+    }
+    .size-card .px {
+      width: 180px; height: 100px;
+      display: flex; align-items: center; justify-content: center;
+      background:
+        repeating-conic-gradient(#0a0c10 0% 25%, #11141a 0% 50%) 0 0 / 12px 12px;
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      position: relative;
+    }
+    .size-card img { display: block; image-rendering: -webkit-optimize-contrast; }
+    .size-card .label {
+      display: flex; flex-direction: column; align-items: center; gap: 2px;
+    }
+    .size-card .label .px-num {
+      font-family: var(--font-mono); font-size: 14px; color: var(--fg);
+      font-weight: 500;
+    }
+    .size-card .label .px-use {
+      font-family: var(--font-mono); font-size: 10px;
+      letter-spacing: 0.10em; color: var(--fg-4); text-transform: uppercase;
+    }
+
+    /* ======= Browser tab mockups ======= */
+    .browsers {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 24px;
+    }
+    @media (max-width: 900px) { .browsers { grid-template-columns: 1fr; } }
+
+    .br-window {
+      background: #1B2030; border: 1px solid var(--line);
+      border-radius: 10px; overflow: hidden;
+    }
+    .br-window .br-chrome {
+      background: #11141a; border-bottom: 1px solid #000;
+      padding: 12px 14px;
+      display: flex; align-items: center; gap: 12px;
+    }
+    .br-window .br-dots { display: flex; gap: 6px; }
+    .br-window .br-dots i {
+      width: 11px; height: 11px; border-radius: 50%; display: block;
+    }
+    .br-window .br-dots .r { background: #FF5F57; }
+    .br-window .br-dots .y { background: #FEBC2E; }
+    .br-window .br-dots .g { background: #28C840; }
+
+    .br-window .br-tabs {
+      display: flex; gap: 1px; padding: 8px 14px 0;
+      background: #11141a; border-bottom: 1px solid #000;
+    }
+    .br-tab {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 8px 14px 8px 12px; border-radius: 8px 8px 0 0;
+      background: #1B2030; color: var(--fg-3); font-size: 12.5px;
+      max-width: 220px; min-width: 0;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .br-tab.active { background: #232938; color: var(--fg); }
+    .br-tab img { flex-shrink: 0; }
+    .br-tab .x {
+      width: 14px; height: 14px; display: inline-flex; align-items: center; justify-content: center;
+      color: var(--fg-4); font-size: 14px;
+    }
+    .br-window .br-url {
+      padding: 10px 14px; background: #232938;
+      display: flex; align-items: center; gap: 10px;
+      border-bottom: 1px solid var(--line);
+    }
+    .br-window .br-url .url-pill {
+      flex: 1; background: #11141a; border: 1px solid #000;
+      border-radius: 999px; padding: 6px 14px;
+      font-family: var(--font-mono); font-size: 12px; color: var(--fg-2);
+      display: flex; align-items: center; gap: 8px;
+    }
+    .br-window .br-content {
+      padding: 32px 24px; min-height: 90px;
+      font-family: var(--font-mono); font-size: 11px; color: var(--fg-4);
+      letter-spacing: 0.08em;
+    }
+
+    /* ======= iOS bookmark mockups ======= */
+    .ios-screen {
+      width: 100%; max-width: 380px; margin: 0 auto;
+      aspect-ratio: 380 / 460;
+      background: linear-gradient(160deg, #1a2030 0%, #0a0d14 70%);
+      border-radius: 32px; padding: 38px 22px 28px;
+      position: relative; overflow: hidden;
+      border: 1px solid var(--line);
+    }
+    .ios-screen::before {
+      content: ""; position: absolute; top: 12px; left: 50%; transform: translateX(-50%);
+      width: 88px; height: 22px; background: #000; border-radius: 999px;
+    }
+    .ios-status {
+      display: flex; justify-content: space-between; align-items: center;
+      font-family: -apple-system, sans-serif; font-size: 13px; font-weight: 600;
+      color: rgba(255,255,255,0.92); padding: 0 18px;
+    }
+    .ios-grid {
+      margin-top: 36px;
+      display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px 12px;
+    }
+    .ios-app {
+      display: flex; flex-direction: column; align-items: center; gap: 6px;
+    }
+    .ios-app .icon {
+      width: 60px; height: 60px;
+      border-radius: 14px; background: var(--bg-2);
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    }
+    .ios-app .icon img { width: 60px; height: 60px; border-radius: 14px; display: block; }
+    .ios-app .icon.placeholder {
+      background: linear-gradient(135deg, #2a3344, #1a2030);
+    }
+    .ios-app .name {
+      font-family: -apple-system, sans-serif; font-size: 11px; color: rgba(255,255,255,0.92);
+    }
+
+    /* ======= OG social card ======= */
+    .og-frame {
+      max-width: 800px; margin: 0 auto;
+      border: 1px solid var(--line); border-radius: 8px;
+      overflow: hidden;
+      background: var(--bg-2);
+    }
+    .og-frame .og-meta {
+      padding: 12px 16px; border-bottom: 1px solid var(--line);
+      display: flex; align-items: center; gap: 12px;
+      font-family: var(--font-mono); font-size: 11px; color: var(--fg-3);
+      letter-spacing: 0.08em;
+    }
+    .og-frame .og-meta .dot {
+      width: 8px; height: 8px; border-radius: 50%; background: var(--green);
+    }
+    .og-frame img { width: 100%; height: auto; display: block; }
+    .og-frame .og-foot {
+      padding: 14px 18px;
+      font-family: var(--font-mono); font-size: 11px; color: var(--fg-3);
+      letter-spacing: 0.08em; text-transform: uppercase;
+      border-top: 1px solid var(--line);
+    }
+    .og-frame .og-foot strong {
+      color: var(--fg); font-weight: 500;
+      display: block; font-family: var(--font-body); font-size: 16px;
+      letter-spacing: -0.005em; text-transform: none;
+      margin-bottom: 2px;
+    }
+
+    /* ======= File list ======= */
+    .file-list {
+      border-top: 1px solid var(--line);
+    }
+    .file-row {
+      display: grid;
+      grid-template-columns: 60px 1.5fr 1fr 0.6fr 0.6fr;
+      gap: 16px; padding: 14px 0; align-items: center;
+      border-bottom: 1px solid var(--line);
+    }
+    .file-row .preview {
+      width: 48px; height: 48px;
+      background:
+        repeating-conic-gradient(#0a0c10 0% 25%, #11141a 0% 50%) 0 0 / 8px 8px;
+      border: 1px solid var(--line); border-radius: 4px;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .file-row .name {
+      font-family: var(--font-mono); font-size: 13px; color: var(--fg);
+    }
+    .file-row .desc { color: var(--fg-2); font-size: 13px; }
+    .file-row .px { color: var(--fg-3); font-family: var(--font-mono); font-size: 12px; }
+    .file-row .use { color: var(--fg-3); font-size: 12px; font-family: var(--font-mono); }
+
+    /* ======= Code snippet ======= */
+    .code {
+      background: var(--bg-2); border: 1px solid var(--line);
+      border-radius: 6px; padding: 18px 20px;
+      font-family: var(--font-mono); font-size: 12.5px; line-height: 1.7;
+      color: var(--fg-2); overflow-x: auto;
+      white-space: pre;
+    }
+    .code .tag { color: #FF8C66; }
+    .code .attr { color: #B5C5FF; }
+    .code .str { color: var(--green); }
+    .code .com { color: var(--fg-4); }
+
+    /* on-dark + on-light side by side */
+    .ctx-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 0;
+      border: 1px solid var(--line); border-radius: 6px; overflow: hidden;
+    }
+    @media (max-width: 700px) { .ctx-grid { grid-template-columns: 1fr; } }
+    .ctx-cell {
+      padding: 56px 24px; display: flex; flex-direction: column;
+      align-items: center; gap: 16px;
+    }
+    .ctx-cell.dark { background: #0a0c10; }
+    .ctx-cell.light { background: #f4f4f0; color: #2a2a2a; }
+    .ctx-cell .lbl {
+      font-family: var(--font-mono); font-size: 10px;
+      letter-spacing: 0.14em; text-transform: uppercase;
+    }
+    .ctx-cell.dark .lbl { color: var(--fg-4); }
+    .ctx-cell.light .lbl { color: #888; }
+  </style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Public Analyst.ai · brand asset</div>
+    <h1>Favicon &amp; brand marks</h1>
+    <p class="lede">A heat-gradient hexagon on dark, derived from the homepage brand mark. Six raster sizes, an SVG master that scales cleanly, and a 1200×630 social card. Below: every asset previewed in the context it's used.</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <div class="head">
+      <h2>Sizes</h2>
+      <p class="sub">Each rendered against a checkerboard so transparent edges are visible. The 16 and 32 px versions use a simplified glyph (single hexagon, no inner shape) so the gradient stroke survives at small sizes.</p>
+    </div>
+    <div class="size-grid">
+      <div class="size-card">
+        <div class="px"><img src="assets/favicon-16.png" width="16" height="16" alt="16 px"/></div>
+        <div class="label"><span class="px-num">16 × 16</span><span class="px-use">browser tab</span></div>
+      </div>
+      <div class="size-card">
+        <div class="px"><img src="assets/favicon-32.png" width="32" height="32" alt="32 px"/></div>
+        <div class="label"><span class="px-num">32 × 32</span><span class="px-use">retina tab</span></div>
+      </div>
+      <div class="size-card">
+        <div class="px"><img src="assets/favicon-48.png" width="48" height="48" alt="48 px"/></div>
+        <div class="label"><span class="px-num">48 × 48</span><span class="px-use">windows shortcut</span></div>
+      </div>
+      <div class="size-card">
+        <div class="px"><img src="assets/favicon-64.png" width="64" height="64" alt="64 px"/></div>
+        <div class="label"><span class="px-num">64 × 64</span><span class="px-use">general purpose</span></div>
+      </div>
+      <div class="size-card">
+        <div class="px"><img src="assets/apple-touch-icon.png" width="120" height="120" alt="180 px"/></div>
+        <div class="label"><span class="px-num">180 × 180</span><span class="px-use">apple-touch-icon</span></div>
+      </div>
+      <div class="size-card">
+        <div class="px"><img src="assets/favicon-512.png" width="120" height="120" alt="512 px"/></div>
+        <div class="label"><span class="px-num">512 × 512</span><span class="px-use">pwa / android</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="head">
+      <h2>On dark vs. on light</h2>
+      <p class="sub">The dark background is part of the mark — but it sits cleanly on a light page too, since the heat-gradient stroke is visible against either.</p>
+    </div>
+    <div class="ctx-grid">
+      <div class="ctx-cell dark">
+        <img src="assets/favicon-512.png" width="120" height="120" alt="dark"/>
+        <span class="lbl">SITE BG · #0E1116</span>
+      </div>
+      <div class="ctx-cell light">
+        <img src="assets/favicon-512.png" width="120" height="120" alt="light"/>
+        <span class="lbl">PAPER · #F4F4F0</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="head">
+      <h2>In a browser tab</h2>
+      <p class="sub">The favicon as it appears at real size in Chrome and Safari tab bars.</p>
+    </div>
+    <div class="browsers">
+      <div class="br-window">
+        <div class="br-chrome">
+          <div class="br-dots"><i class="r"></i><i class="y"></i><i class="g"></i></div>
+          <span class="meta-mono" style="margin-left:auto;color:var(--fg-4)">CHROME · MAC</span>
+        </div>
+        <div class="br-tabs">
+          <span class="br-tab"><img src="assets/favicon-16.png" width="16" height="16" alt="" />GitHub<span class="x">×</span></span>
+          <span class="br-tab active"><img src="assets/favicon-16.png" width="16" height="16" alt="" />Public Analyst.ai — SF<span class="x">×</span></span>
+          <span class="br-tab"><img src="assets/favicon-16.png" width="16" height="16" alt="" />Linear<span class="x">×</span></span>
+        </div>
+        <div class="br-url">
+          <span style="color:var(--fg-3)">←</span><span style="color:var(--fg-3)">→</span>
+          <span class="url-pill"><img src="assets/favicon-16.png" width="14" height="14" alt=""/>publicanalyst.ai/sf</span>
+        </div>
+        <div class="br-content">PAGE CONTENT</div>
+      </div>
+
+      <div class="br-window">
+        <div class="br-chrome">
+          <div class="br-dots"><i class="r"></i><i class="y"></i><i class="g"></i></div>
+          <span class="meta-mono" style="margin-left:auto;color:var(--fg-4)">SAFARI · MAC</span>
+        </div>
+        <div class="br-tabs" style="background:#1B2030;">
+          <span class="br-tab" style="background:#141821;"><img src="assets/favicon-16.png" width="16" height="16" alt="" />Public Analyst.ai</span>
+          <span class="br-tab" style="background:#0E1116;"><img src="assets/favicon-16.png" width="16" height="16" alt="" />Archive — April 2026</span>
+        </div>
+        <div class="br-url">
+          <span style="color:var(--fg-3)">⌫</span>
+          <span class="url-pill"><img src="assets/favicon-16.png" width="14" height="14" alt=""/>publicanalyst.ai/sf/archive</span>
+          <span style="color:var(--fg-3)">⤓</span>
+        </div>
+        <div class="br-content">PAGE CONTENT</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="head">
+      <h2>iOS bookmark</h2>
+      <p class="sub">Apple-touch-icon as it appears when someone adds the site to their iPhone home screen.</p>
+    </div>
+    <div class="ios-screen">
+      <div class="ios-status">
+        <span>9:41</span>
+        <span style="display:inline-flex;gap:6px;align-items:center;">
+          <span style="font-size:11px;">●●●</span>
+          <span>5G</span>
+          <span>🔋</span>
+        </span>
+      </div>
+      <div class="ios-grid">
+        <div class="ios-app"><div class="icon placeholder"></div><span class="name">Mail</span></div>
+        <div class="ios-app"><div class="icon placeholder"></div><span class="name">Maps</span></div>
+        <div class="ios-app"><div class="icon"><img src="assets/apple-touch-icon.png" alt=""/></div><span class="name">Public Analyst</span></div>
+        <div class="ios-app"><div class="icon placeholder"></div><span class="name">Notes</span></div>
+
+        <div class="ios-app"><div class="icon placeholder"></div><span class="name">Calendar</span></div>
+        <div class="ios-app"><div class="icon placeholder"></div><span class="name">Photos</span></div>
+        <div class="ios-app"><div class="icon placeholder"></div><span class="name">Settings</span></div>
+        <div class="ios-app"><div class="icon placeholder"></div><span class="name">Music</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="head">
+      <h2>Social card · 1200 × 630</h2>
+      <p class="sub">For OpenGraph / Twitter / LinkedIn previews when someone shares a link to the site or any briefing.</p>
+    </div>
+    <div class="og-frame">
+      <div class="og-meta">
+        <span class="dot"></span>
+        <span>publicanalyst.ai</span>
+        <span style="margin-left:auto;color:var(--fg-4);">SHARED VIA TWITTER</span>
+      </div>
+      <img src="assets/og-card.png" alt="Public Analyst.ai social card" />
+      <div class="og-foot">
+        <strong>Public Analyst.ai — Crime trends, explained monthly.</strong>
+        publicanalyst.ai
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="head">
+      <h2>Files</h2>
+      <p class="sub">Drop these into your site's <code style="color:var(--fg-2);background:var(--bg-2);padding:2px 6px;border-radius:3px;">/assets/</code> folder. The HTML below goes in your <code style="color:var(--fg-2);background:var(--bg-2);padding:2px 6px;border-radius:3px;">&lt;head&gt;</code>.</p>
+    </div>
+    <div class="file-list">
+      <div class="file-row" style="border-top:1px solid var(--line);">
+        <span class="meta-mono">PREVIEW</span>
+        <span class="meta-mono">FILE</span>
+        <span class="meta-mono">PURPOSE</span>
+        <span class="meta-mono">SIZE</span>
+        <span class="meta-mono">FORMAT</span>
+      </div>
+      <div class="file-row">
+        <div class="preview"><img src="assets/favicon.svg" width="32" height="32" alt=""/></div>
+        <span class="name">favicon.svg</span>
+        <span class="desc">Master mark · scales cleanly to any size</span>
+        <span class="px">vector</span>
+        <span class="use">SVG</span>
+      </div>
+      <div class="file-row">
+        <div class="preview"><img src="assets/favicon-32.png" width="32" height="32" alt=""/></div>
+        <span class="name">favicon.ico</span>
+        <span class="desc">Multi-size legacy icon (16 + 32 + 48)</span>
+        <span class="px">3 sizes</span>
+        <span class="use">ICO</span>
+      </div>
+      <div class="file-row">
+        <div class="preview"><img src="assets/favicon-16.png" width="16" height="16" alt=""/></div>
+        <span class="name">favicon-16.png</span>
+        <span class="desc">Standard browser tab</span>
+        <span class="px">16 × 16</span>
+        <span class="use">PNG</span>
+      </div>
+      <div class="file-row">
+        <div class="preview"><img src="assets/favicon-32.png" width="32" height="32" alt=""/></div>
+        <span class="name">favicon-32.png</span>
+        <span class="desc">Retina browser tab</span>
+        <span class="px">32 × 32</span>
+        <span class="use">PNG</span>
+      </div>
+      <div class="file-row">
+        <div class="preview"><img src="assets/favicon-48.png" width="48" height="48" alt=""/></div>
+        <span class="name">favicon-48.png</span>
+        <span class="desc">Windows pinned shortcut</span>
+        <span class="px">48 × 48</span>
+        <span class="use">PNG</span>
+      </div>
+      <div class="file-row">
+        <div class="preview"><img src="assets/apple-touch-icon.png" width="48" height="48" alt=""/></div>
+        <span class="name">apple-touch-icon.png</span>
+        <span class="desc">iOS home-screen bookmark</span>
+        <span class="px">180 × 180</span>
+        <span class="use">PNG</span>
+      </div>
+      <div class="file-row">
+        <div class="preview"><img src="assets/favicon-512.png" width="48" height="48" alt=""/></div>
+        <span class="name">favicon-512.png</span>
+        <span class="desc">PWA / Android adaptive icon</span>
+        <span class="px">512 × 512</span>
+        <span class="use">PNG</span>
+      </div>
+      <div class="file-row">
+        <div class="preview" style="width:80px; aspect-ratio:1200/630;"><img src="assets/og-card.png" width="76" alt=""/></div>
+        <span class="name">og-card.png</span>
+        <span class="desc">OpenGraph / Twitter / LinkedIn share preview</span>
+        <span class="px">1200 × 630</span>
+        <span class="use">PNG</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="head">
+      <h2>HTML to drop in your &lt;head&gt;</h2>
+      <p class="sub">Modern browsers prefer the SVG; <code>.ico</code> is the fallback for older ones.</p>
+    </div>
+    <pre class="code"><span class="com">&lt;!-- Public Analyst.ai — favicon set --&gt;</span>
+<span class="tag">&lt;link</span> <span class="attr">rel</span>=<span class="str">"icon"</span> <span class="attr">href</span>=<span class="str">"/assets/favicon.svg"</span> <span class="attr">type</span>=<span class="str">"image/svg+xml"</span><span class="tag">&gt;</span>
+<span class="tag">&lt;link</span> <span class="attr">rel</span>=<span class="str">"alternate icon"</span> <span class="attr">href</span>=<span class="str">"/assets/favicon.ico"</span><span class="tag">&gt;</span>
+<span class="tag">&lt;link</span> <span class="attr">rel</span>=<span class="str">"apple-touch-icon"</span> <span class="attr">href</span>=<span class="str">"/assets/apple-touch-icon.png"</span><span class="tag">&gt;</span>
+
+<span class="com">&lt;!-- OpenGraph --&gt;</span>
+<span class="tag">&lt;meta</span> <span class="attr">property</span>=<span class="str">"og:title"</span> <span class="attr">content</span>=<span class="str">"Public Analyst.ai"</span><span class="tag">&gt;</span>
+<span class="tag">&lt;meta</span> <span class="attr">property</span>=<span class="str">"og:description"</span> <span class="attr">content</span>=<span class="str">"Crime trends, explained monthly."</span><span class="tag">&gt;</span>
+<span class="tag">&lt;meta</span> <span class="attr">property</span>=<span class="str">"og:image"</span> <span class="attr">content</span>=<span class="str">"/assets/og-card.png"</span><span class="tag">&gt;</span>
+<span class="tag">&lt;meta</span> <span class="attr">name</span>=<span class="str">"twitter:card"</span> <span class="attr">content</span>=<span class="str">"summary_large_image"</span><span class="tag">&gt;</span></pre>
+  </div>
+</section>
+
+<footer style="padding:32px 0 64px;">
+  <div class="wrap">
+    <span class="meta-mono">PUBLIC ANALYST · BRAND · v1.0 · MAY 2026</span>
+  </div>
+</footer>
+
+</body>
+</html>

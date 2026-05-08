@@ -1,0 +1,174 @@
+{
+  "institution_unitid": "154095",
+  "institution_name": "University of Northern Iowa",
+  "institution_slug": "university-of-northern-iowa-154095",
+  "state": "ia",
+  "cip_code": "5102",
+  "cip_desc": "Communication Disorders Sciences and Services.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5102-c5",
+  "earnings_median_4yr": 56361,
+  "earnings_median_5yr": 61422,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 1,
+  "debt_median": 29955,
+  "completers": 43,
+  "completers_single_year": 53,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 56361.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 61422.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 26700.0
+      },
+      {
+        "year": 2015,
+        "value": 25521.0
+      },
+      {
+        "year": 2016,
+        "value": 25521.0
+      },
+      {
+        "year": 2017,
+        "value": 29000.0
+      },
+      {
+        "year": 2018,
+        "value": 29955.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 49.0
+      },
+      {
+        "year": 2015,
+        "value": 50.0
+      },
+      {
+        "year": 2016,
+        "value": 52.0
+      },
+      {
+        "year": 2017,
+        "value": 49.0
+      },
+      {
+        "year": 2018,
+        "value": 53.0
+      },
+      {
+        "year": 2019,
+        "value": 43.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "154095",
+    "slug": "university-of-northern-iowa-154095",
+    "name": "University of Northern Iowa",
+    "city": "Cedar Falls",
+    "city_slug": "cedar-falls",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-iowa-153658",
+      "institution_name": "University of Iowa",
+      "earnings_median_5yr": 66044,
+      "earnings_median_4yr": 63530,
+      "debt_median": 53693,
+      "completers": 34,
+      "completers_single_year": 27,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-ambrose-university-154235",
+      "institution_name": "Saint Ambrose University",
+      "earnings_median_5yr": 65117,
+      "earnings_median_4yr": 63052,
+      "debt_median": 62250,
+      "completers": 30,
+      "completers_single_year": 29,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 13872,
+      "cost_total_default": 83232,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 61422,
+      "earnings_anchor_year": 5,
+      "debt_median": 29955,
+      "cip_family": "51",
+      "hs_baseline_state": 36800
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 309867,
+      "breakeven_year": 14
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

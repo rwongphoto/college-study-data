@@ -1,0 +1,224 @@
+{
+  "institution_unitid": "240480",
+  "institution_name": "University of Wisconsin-Stevens Point",
+  "institution_slug": "university-of-wisconsin-stevens-point-240480",
+  "state": "wi",
+  "cip_code": "4507",
+  "cip_desc": "Geography and Cartography.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "4507-c3",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": null,
+  "completers": 5,
+  "completers_single_year": 6,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [
+      {
+        "year": 2015,
+        "value": 22250.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 17.0
+      },
+      {
+        "year": 2015,
+        "value": 18.0
+      },
+      {
+        "year": 2016,
+        "value": 10.0
+      },
+      {
+        "year": 2017,
+        "value": 6.0
+      },
+      {
+        "year": 2018,
+        "value": 6.0
+      },
+      {
+        "year": 2019,
+        "value": 5.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "240480",
+    "slug": "university-of-wisconsin-stevens-point-240480",
+    "name": "University of Wisconsin-Stevens Point",
+    "city": "Stevens Point",
+    "city_slug": "stevens-point",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-wisconsin-madison-240444",
+      "institution_name": "University of Wisconsin-Madison",
+      "earnings_median_5yr": 62158,
+      "earnings_median_4yr": 49762,
+      "debt_median": 18689,
+      "completers": 47,
+      "completers_single_year": 41,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-whitewater-240189",
+      "institution_name": "University of Wisconsin-Whitewater",
+      "earnings_median_5yr": 57676,
+      "earnings_median_4yr": 56297,
+      "debt_median": 18875,
+      "completers": 19,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-eau-claire-240268",
+      "institution_name": "University of Wisconsin-Eau Claire",
+      "earnings_median_5yr": 55942,
+      "earnings_median_4yr": 45938,
+      "debt_median": 21001,
+      "completers": 33,
+      "completers_single_year": 32,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-la-crosse-240329",
+      "institution_name": "University of Wisconsin-La Crosse",
+      "earnings_median_5yr": 49518,
+      "earnings_median_4yr": 45633,
+      "debt_median": 20359,
+      "completers": 24,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-milwaukee-240453",
+      "institution_name": "University of Wisconsin-Milwaukee",
+      "earnings_median_5yr": 44943,
+      "earnings_median_4yr": 39104,
+      "debt_median": 22361,
+      "completers": 19,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "carthage-college-238476",
+      "institution_name": "Carthage College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-oshkosh-240365",
+      "institution_name": "University of Wisconsin-Oshkosh",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-parkside-240374",
+      "institution_name": "University of Wisconsin-Parkside",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-platteville-240462",
+      "institution_name": "University of Wisconsin-Platteville",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-river-falls-240471",
+      "institution_name": "University of Wisconsin-River Falls",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 12706,
+      "cost_total_default": 50824,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "45"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

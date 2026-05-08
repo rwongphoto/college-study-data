@@ -1,0 +1,215 @@
+{
+  "institution_unitid": "171100",
+  "institution_name": "Michigan State University",
+  "institution_slug": "michigan-state-university-171100",
+  "state": "mi",
+  "cip_code": "5138",
+  "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+  "credential_level": 7,
+  "credential_desc": "First Professional Degree",
+  "slug": "5138-c7",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": null,
+  "completers": 22,
+  "completers_single_year": 7,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [],
+    "completers": [
+      {
+        "year": 2015,
+        "value": 8.0
+      },
+      {
+        "year": 2016,
+        "value": 6.0
+      },
+      {
+        "year": 2017,
+        "value": 3.0
+      },
+      {
+        "year": 2018,
+        "value": 7.0
+      },
+      {
+        "year": 2019,
+        "value": 22.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "171100",
+    "slug": "michigan-state-university-171100",
+    "name": "Michigan State University",
+    "city": "East Lansing",
+    "city_slug": "east-lansing",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-detroit-mercy-169716",
+      "institution_name": "University of Detroit Mercy",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "grand-valley-state-university-170082",
+      "institution_name": "Grand Valley State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 75692,
+      "completers": 23,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "madonna-university-170806",
+      "institution_name": "Madonna University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-michigan-ann-arbor-170976",
+      "institution_name": "University of Michigan-Ann Arbor",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 71416,
+      "completers": 26,
+      "completers_single_year": 35,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-michigan-flint-171146",
+      "institution_name": "University of Michigan-Flint",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 33,
+      "completers_single_year": 67,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northern-michigan-university-171456",
+      "institution_name": "Northern Michigan University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "oakland-university-171571",
+      "institution_name": "Oakland University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saginaw-valley-state-university-172051",
+      "institution_name": "Saginaw Valley State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "spring-arbor-university-172334",
+      "institution_name": "Spring Arbor University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wayne-state-university-172644",
+      "institution_name": "Wayne State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 26,
+      "completers_single_year": 25,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 7,
+      "cost_per_year_default": 20378,
+      "cost_total_default": 142646,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "51"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

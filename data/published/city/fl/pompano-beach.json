@@ -1,0 +1,656 @@
+{
+  "state": "fl",
+  "name": "Pompano Beach",
+  "slug": "pompano-beach",
+  "institution_count": 3,
+  "institutions": [
+    {
+      "unitid": "387925",
+      "slug": "cortiva-institute-387925",
+      "name": "Cortiva Institute",
+      "city": "Pompano Beach",
+      "city_slug": "pompano-beach",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 27193,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 25080
+        },
+        {
+          "year": 8,
+          "value": 24673
+        },
+        {
+          "year": 10,
+          "value": 27193
+        }
+      ],
+      "completion_rate_150": 0.6923,
+      "completion_rate_history": [
+        {
+          "year": 1997,
+          "value": 0.9093
+        },
+        {
+          "year": 1998,
+          "value": 0.5371
+        },
+        {
+          "year": 1999,
+          "value": 0.8794
+        },
+        {
+          "year": 2000,
+          "value": 0.0
+        },
+        {
+          "year": 2001,
+          "value": 1.0
+        },
+        {
+          "year": 2002,
+          "value": 0.1311
+        },
+        {
+          "year": 2003,
+          "value": 0.7081
+        },
+        {
+          "year": 2004,
+          "value": 0.6547
+        },
+        {
+          "year": 2005,
+          "value": 0.4358
+        },
+        {
+          "year": 2006,
+          "value": 0.8596
+        },
+        {
+          "year": 2007,
+          "value": 0.4929
+        },
+        {
+          "year": 2008,
+          "value": 0.7663
+        },
+        {
+          "year": 2009,
+          "value": 0.6195
+        }
+      ],
+      "enrollment_undergrad": 121,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 294.0
+        },
+        {
+          "year": 1997,
+          "value": 232.0
+        },
+        {
+          "year": 1998,
+          "value": 249.0
+        },
+        {
+          "year": 1999,
+          "value": 153.0
+        },
+        {
+          "year": 2001,
+          "value": 253.0
+        },
+        {
+          "year": 2002,
+          "value": 265.0
+        },
+        {
+          "year": 2003,
+          "value": 265.0
+        },
+        {
+          "year": 2004,
+          "value": 340.0
+        },
+        {
+          "year": 2005,
+          "value": 275.0
+        },
+        {
+          "year": 2006,
+          "value": 265.0
+        },
+        {
+          "year": 2007,
+          "value": 303.0
+        },
+        {
+          "year": 2008,
+          "value": 406.0
+        },
+        {
+          "year": 2009,
+          "value": 448.0
+        },
+        {
+          "year": 2010,
+          "value": 433.0
+        },
+        {
+          "year": 2011,
+          "value": 380.0
+        },
+        {
+          "year": 2012,
+          "value": 267.0
+        },
+        {
+          "year": 2013,
+          "value": 262.0
+        },
+        {
+          "year": 2014,
+          "value": 203.0
+        },
+        {
+          "year": 2015,
+          "value": 206.0
+        },
+        {
+          "year": 2016,
+          "value": 201.0
+        },
+        {
+          "year": 2017,
+          "value": 181.0
+        },
+        {
+          "year": 2018,
+          "value": 150.0
+        },
+        {
+          "year": 2019,
+          "value": 70.0
+        },
+        {
+          "year": 2020,
+          "value": 76.0
+        },
+        {
+          "year": 2021,
+          "value": 106.0
+        },
+        {
+          "year": 2022,
+          "value": 113.0
+        },
+        {
+          "year": 2023,
+          "value": 121.0
+        },
+        {
+          "year": 2024,
+          "value": 0.0
+        }
+      ],
+      "median_debt": 6500,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "completion_rate_150",
+          "from_year": 1997,
+          "to_year": 2009,
+          "from_value": 0.9093,
+          "to_value": 0.6195,
+          "pct_change": -0.31870669745958424,
+          "direction": "fell"
+        },
+        {
+          "metric": "retention_rate",
+          "from_year": 2004,
+          "to_year": 2023,
+          "from_value": 0.85,
+          "to_value": 0.3939,
+          "pct_change": -0.5365882352941177,
+          "direction": "fell"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 1996,
+          "to_year": 2024,
+          "from_value": 294.0,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 1997,
+          "to_year": 2020,
+          "from_value": 4050.0,
+          "to_value": 7521.0,
+          "pct_change": 0.857037037037037,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.244,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        }
+      ]
+    },
+    {
+      "unitid": "488332",
+      "slug": "hope-college-of-arts-and-sciences-488332",
+      "name": "Hope College of Arts and Sciences",
+      "city": "Pompano Beach",
+      "city_slug": "pompano-beach",
+      "control": "private_forprofit",
+      "pred_degree": "associates",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": null
+        },
+        {
+          "year": 8,
+          "value": null
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": 0.0,
+      "completion_rate_history": [],
+      "enrollment_undergrad": 71,
+      "enrollment_history": [
+        {
+          "year": 2016,
+          "value": 103.0
+        },
+        {
+          "year": 2017,
+          "value": 120.0
+        },
+        {
+          "year": 2018,
+          "value": 158.0
+        },
+        {
+          "year": 2019,
+          "value": 196.0
+        },
+        {
+          "year": 2020,
+          "value": 122.0
+        },
+        {
+          "year": 2021,
+          "value": 197.0
+        },
+        {
+          "year": 2022,
+          "value": 204.0
+        },
+        {
+          "year": 2023,
+          "value": 71.0
+        },
+        {
+          "year": 2024,
+          "value": 54.0
+        }
+      ],
+      "median_debt": 9500,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "retention_rate",
+          "from_year": 2018,
+          "to_year": 2023,
+          "from_value": 0.1724,
+          "to_value": 1.0,
+          "pct_change": 4.80046403712297,
+          "direction": "rose"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 2016,
+          "to_year": 2024,
+          "from_value": 103.0,
+          "to_value": 54.0,
+          "pct_change": -0.245,
+          "direction": "fell"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2019,
+          "to_year": 2024,
+          "from_value": 0.076,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        }
+      ]
+    },
+    {
+      "unitid": "491534",
+      "slug": "pets-playground-grooming-school-491534",
+      "name": "Pets Playground Grooming School",
+      "city": "Pompano Beach",
+      "city_slug": "pompano-beach",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": null
+        },
+        {
+          "year": 8,
+          "value": null
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": null,
+      "completion_rate_history": [],
+      "enrollment_undergrad": 18,
+      "enrollment_history": [
+        {
+          "year": 2018,
+          "value": 7.0
+        },
+        {
+          "year": 2019,
+          "value": 5.0
+        },
+        {
+          "year": 2020,
+          "value": 13.0
+        },
+        {
+          "year": 2021,
+          "value": 17.0
+        },
+        {
+          "year": 2022,
+          "value": 14.0
+        },
+        {
+          "year": 2023,
+          "value": 18.0
+        },
+        {
+          "year": 2024,
+          "value": 22.0
+        }
+      ],
+      "median_debt": null,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "pell_share",
+          "from_year": 2018,
+          "to_year": 2024,
+          "from_value": 0.0,
+          "to_value": 0.6,
+          "pct_change": 11.999999999999998,
+          "direction": "rose"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": 27193,
+  "completion_rate_city": 0.34615,
+  "completion_history_city": [
+    {
+      "year": 1997,
+      "value": 0.9093
+    },
+    {
+      "year": 1998,
+      "value": 0.5371
+    },
+    {
+      "year": 1999,
+      "value": 0.8794
+    },
+    {
+      "year": 2000,
+      "value": 0.0
+    },
+    {
+      "year": 2001,
+      "value": 1.0
+    },
+    {
+      "year": 2002,
+      "value": 0.1311
+    },
+    {
+      "year": 2003,
+      "value": 0.7081
+    },
+    {
+      "year": 2004,
+      "value": 0.6547
+    },
+    {
+      "year": 2005,
+      "value": 0.4358
+    },
+    {
+      "year": 2006,
+      "value": 0.8596
+    },
+    {
+      "year": 2007,
+      "value": 0.4929
+    },
+    {
+      "year": 2008,
+      "value": 0.7663
+    },
+    {
+      "year": 2009,
+      "value": 0.6195
+    }
+  ],
+  "enrollment_history_city": [
+    {
+      "year": 1996,
+      "value": 294.0
+    },
+    {
+      "year": 1997,
+      "value": 232.0
+    },
+    {
+      "year": 1998,
+      "value": 249.0
+    },
+    {
+      "year": 1999,
+      "value": 153.0
+    },
+    {
+      "year": 2001,
+      "value": 253.0
+    },
+    {
+      "year": 2002,
+      "value": 265.0
+    },
+    {
+      "year": 2003,
+      "value": 265.0
+    },
+    {
+      "year": 2004,
+      "value": 340.0
+    },
+    {
+      "year": 2005,
+      "value": 275.0
+    },
+    {
+      "year": 2006,
+      "value": 265.0
+    },
+    {
+      "year": 2007,
+      "value": 303.0
+    },
+    {
+      "year": 2008,
+      "value": 406.0
+    },
+    {
+      "year": 2009,
+      "value": 448.0
+    },
+    {
+      "year": 2010,
+      "value": 433.0
+    },
+    {
+      "year": 2011,
+      "value": 380.0
+    },
+    {
+      "year": 2012,
+      "value": 267.0
+    },
+    {
+      "year": 2013,
+      "value": 262.0
+    },
+    {
+      "year": 2014,
+      "value": 203.0
+    },
+    {
+      "year": 2015,
+      "value": 206.0
+    },
+    {
+      "year": 2016,
+      "value": 304.0
+    },
+    {
+      "year": 2017,
+      "value": 301.0
+    },
+    {
+      "year": 2018,
+      "value": 315.0
+    },
+    {
+      "year": 2019,
+      "value": 271.0
+    },
+    {
+      "year": 2020,
+      "value": 211.0
+    },
+    {
+      "year": 2021,
+      "value": 320.0
+    },
+    {
+      "year": 2022,
+      "value": 331.0
+    },
+    {
+      "year": 2023,
+      "value": 210.0
+    },
+    {
+      "year": 2024,
+      "value": 76.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

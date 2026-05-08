@@ -1,0 +1,228 @@
+{
+  "institution_unitid": "235097",
+  "institution_name": "Eastern Washington University",
+  "institution_slug": "eastern-washington-university-235097",
+  "state": "wa",
+  "cip_code": "5208",
+  "cip_desc": "Finance and Financial Management Services.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5208-c3",
+  "earnings_median_4yr": 60166,
+  "earnings_median_5yr": 65601,
+  "earnings_count_4yr": 8,
+  "earnings_count_5yr": 7,
+  "debt_median": 15298,
+  "completers": 67,
+  "completers_single_year": 69,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 60166.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 65601.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 20200.0
+      },
+      {
+        "year": 2015,
+        "value": 18500.0
+      },
+      {
+        "year": 2016,
+        "value": 18160.0
+      },
+      {
+        "year": 2017,
+        "value": 16500.0
+      },
+      {
+        "year": 2018,
+        "value": 15298.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 93.0
+      },
+      {
+        "year": 2015,
+        "value": 74.0
+      },
+      {
+        "year": 2016,
+        "value": 80.0
+      },
+      {
+        "year": 2017,
+        "value": 81.0
+      },
+      {
+        "year": 2018,
+        "value": 69.0
+      },
+      {
+        "year": 2019,
+        "value": 67.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 20200.0,
+      "to_value": 15298.0,
+      "pct_change": -0.24267326732673267,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Finance and Financial Management Services at Eastern Washington University fell 24% between 2014 and 2018 ($20.2k → $15.3k).",
+      "magnitude_pct": -24.3,
+      "magnitude_abs": -4902.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "235097",
+    "slug": "eastern-washington-university-235097",
+    "name": "Eastern Washington University",
+    "city": "Cheney",
+    "city_slug": "cheney",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-washington-seattle-campus-236948",
+      "institution_name": "University of Washington-Seattle Campus",
+      "earnings_median_5yr": 106265,
+      "earnings_median_4yr": 94385,
+      "debt_median": 13856,
+      "completers": 303,
+      "completers_single_year": 299,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "seattle-university-236595",
+      "institution_name": "Seattle University",
+      "earnings_median_5yr": 83378,
+      "earnings_median_4yr": 70076,
+      "debt_median": 23000,
+      "completers": 91,
+      "completers_single_year": 116,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "washington-state-university-236939",
+      "institution_name": "Washington State University",
+      "earnings_median_5yr": 82433,
+      "earnings_median_4yr": 70504,
+      "debt_median": 19500,
+      "completers": 188,
+      "completers_single_year": 198,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-washington-university-237011",
+      "institution_name": "Western Washington University",
+      "earnings_median_5yr": 75026,
+      "earnings_median_4yr": 70265,
+      "debt_median": 19084,
+      "completers": 46,
+      "completers_single_year": 69,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "central-washington-university-234827",
+      "institution_name": "Central Washington University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 68,
+      "completers_single_year": 56,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 7,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 12004,
+      "cost_total_default": 48016,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 65601,
+      "earnings_anchor_year": 5,
+      "debt_median": 15298,
+      "cip_family": "52",
+      "hs_baseline_state": 41200
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 447374,
+      "breakeven_year": 9
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

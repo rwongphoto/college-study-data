@@ -1,0 +1,240 @@
+{
+  "institution_unitid": "236230",
+  "institution_name": "Pacific Lutheran University",
+  "institution_slug": "pacific-lutheran-university-236230",
+  "state": "wa",
+  "cip_code": "3099",
+  "cip_desc": "Multi/Interdisciplinary Studies, Other.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "3099-c3",
+  "earnings_median_4yr": 35825,
+  "earnings_median_5yr": 45541,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 1,
+  "debt_median": 20500,
+  "completers": 5,
+  "completers_single_year": 44,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 35825.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 45541.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2015,
+        "value": 22586.0
+      },
+      {
+        "year": 2016,
+        "value": 19500.0
+      },
+      {
+        "year": 2017,
+        "value": 19494.0
+      },
+      {
+        "year": 2018,
+        "value": 20500.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 1.0
+      },
+      {
+        "year": 2015,
+        "value": 25.0
+      },
+      {
+        "year": 2016,
+        "value": 22.0
+      },
+      {
+        "year": 2017,
+        "value": 35.0
+      },
+      {
+        "year": 2018,
+        "value": 44.0
+      },
+      {
+        "year": 2019,
+        "value": 5.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "236230",
+    "slug": "pacific-lutheran-university-236230",
+    "name": "Pacific Lutheran University",
+    "city": "Tacoma",
+    "city_slug": "tacoma",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "western-washington-university-237011",
+      "institution_name": "Western Washington University",
+      "earnings_median_5yr": 45064,
+      "earnings_median_4yr": 30634,
+      "debt_median": 17500,
+      "completers": 103,
+      "completers_single_year": 133,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "central-washington-university-234827",
+      "institution_name": "Central Washington University",
+      "earnings_median_5yr": 42177,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "heritage-university-235422",
+      "institution_name": "Heritage University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northwest-university-236133",
+      "institution_name": "Northwest University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-puget-sound-236328",
+      "institution_name": "University of Puget Sound",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-martin-s-university-236452",
+      "institution_name": "Saint Martin's University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "seattle-pacific-university-236577",
+      "institution_name": "Seattle Pacific University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "washington-state-university-236939",
+      "institution_name": "Washington State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-washington-seattle-campus-236948",
+      "institution_name": "University of Washington-Seattle Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 18653,
+      "cost_total_default": 74612,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 45541,
+      "earnings_anchor_year": 5,
+      "debt_median": 20500,
+      "cip_family": "30",
+      "hs_baseline_state": 41200
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 26499,
+      "breakeven_year": 33
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

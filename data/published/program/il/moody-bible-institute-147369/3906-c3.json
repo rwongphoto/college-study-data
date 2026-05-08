@@ -1,0 +1,286 @@
+{
+  "institution_unitid": "147369",
+  "institution_name": "Moody Bible Institute",
+  "institution_slug": "moody-bible-institute-147369",
+  "state": "il",
+  "cip_code": "3906",
+  "cip_desc": "Theological and Ministerial Studies.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "3906-c3",
+  "earnings_median_4yr": 44574,
+  "earnings_median_5yr": 52048,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 2,
+  "debt_median": 15000,
+  "completers": 128,
+  "completers_single_year": 137,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 44574.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 52048.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2017,
+        "value": 10418.0
+      },
+      {
+        "year": 2018,
+        "value": 15000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 64.0
+      },
+      {
+        "year": 2015,
+        "value": 71.0
+      },
+      {
+        "year": 2016,
+        "value": 78.0
+      },
+      {
+        "year": 2017,
+        "value": 108.0
+      },
+      {
+        "year": 2018,
+        "value": 137.0
+      },
+      {
+        "year": 2019,
+        "value": 128.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2017,
+      "to_year": 2018,
+      "from_value": 10418.0,
+      "to_value": 15000.0,
+      "pct_change": 0.4398157035899405,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Theological and Ministerial Studies at Moody Bible Institute rose 44% between 2017 and 2018 ($10.4k → $15.0k).",
+      "magnitude_pct": 44.0,
+      "magnitude_abs": 4582.0,
+      "baseline_year": 2017,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "147369",
+    "slug": "moody-bible-institute-147369",
+    "name": "Moody Bible Institute",
+    "city": "Chicago",
+    "city_slug": "chicago",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-chicago-144050",
+      "institution_name": "University of Chicago",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "concordia-university-chicago-144351",
+      "institution_name": "Concordia University-Chicago",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "elmhurst-university-144962",
+      "institution_name": "Elmhurst University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "greenville-university-145372",
+      "institution_name": "Greenville University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "benedictine-university-145619",
+      "institution_name": "Benedictine University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "judson-university-146339",
+      "institution_name": "Judson University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lincoln-christian-university-146667",
+      "institution_name": "Lincoln Christian University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 17151,
+      "completers": 18,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "loyola-university-chicago-146719",
+      "institution_name": "Loyola University Chicago",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "olivet-nazarene-university-147828",
+      "institution_name": "Olivet Nazarene University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 15,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "dominican-university-148496",
+      "institution_name": "Dominican University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-st-francis-148584",
+      "institution_name": "University of St Francis",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "trinity-christian-college-149505",
+      "institution_name": "Trinity Christian College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 24872,
+      "cost_total_default": 99488,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 52048,
+      "earnings_anchor_year": 5,
+      "debt_median": 15000,
+      "cip_family": "39",
+      "hs_baseline_state": 38300
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 176335,
+      "breakeven_year": 19
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,729 @@
+{
+  "institution": {
+    "unitid": "490151",
+    "opeid6": "042531",
+    "name": "Allied Health Careers Institute",
+    "slug": "allied-health-careers-institute-490151",
+    "state": "tn",
+    "city": "Murfreesboro",
+    "city_slug": "murfreesboro",
+    "zip5": "37130",
+    "address": "1233 Commerce Park",
+    "latitude": 35.827799,
+    "longitude": -86.391495,
+    "control": "private_forprofit",
+    "pred_degree": "certificate",
+    "highest_degree": "certificate",
+    "main_campus": true,
+    "locale": "12",
+    "carnegie_basic": -2,
+    "sector_code": 9,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": 0.7692,
+    "completion_rate_100": 0.0462,
+    "retention_rate": 0.9048,
+    "admission_rate": null,
+    "enrollment_undergrad": 47,
+    "enrollment_total": null,
+    "cost_attendance": 15764,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": 12114,
+    "cost_by_income": {
+      "0_30k": 11718,
+      "30_48k": 9785,
+      "48_75k": 14040,
+      "75_110k": 14102,
+      "110k_plus": null,
+      "sticker": 15764,
+      "sector": "priv"
+    },
+    "median_debt": 2728,
+    "default_rate": 0.019,
+    "pell_share": 0.7105,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [
+        {
+          "year": 2020,
+          "value": 1.0
+        },
+        {
+          "year": 2021,
+          "value": 1.0
+        },
+        {
+          "year": 2022,
+          "value": 0.9143
+        },
+        {
+          "year": 2023,
+          "value": 0.9048
+        },
+        {
+          "year": 2024,
+          "value": 0.3636
+        }
+      ],
+      "admission_rate": [],
+      "enrollment_undergrad": [
+        {
+          "year": 2017,
+          "value": 88.0
+        },
+        {
+          "year": 2018,
+          "value": 82.0
+        },
+        {
+          "year": 2019,
+          "value": 148.0
+        },
+        {
+          "year": 2020,
+          "value": 78.0
+        },
+        {
+          "year": 2021,
+          "value": 89.0
+        },
+        {
+          "year": 2022,
+          "value": 63.0
+        },
+        {
+          "year": 2023,
+          "value": 47.0
+        },
+        {
+          "year": 2024,
+          "value": 26.0
+        }
+      ],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [
+        {
+          "year": 2022,
+          "value": 12659.0
+        },
+        {
+          "year": 2023,
+          "value": 15764.0
+        },
+        {
+          "year": 2024,
+          "value": 19069.0
+        }
+      ],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [
+        {
+          "year": 2022,
+          "value": 9491.0
+        },
+        {
+          "year": 2023,
+          "value": 12114.0
+        },
+        {
+          "year": 2024,
+          "value": 11456.0
+        }
+      ],
+      "median_debt": [],
+      "default_rate": [
+        {
+          "year": 2019,
+          "value": 0.2
+        },
+        {
+          "year": 2020,
+          "value": 0.235
+        },
+        {
+          "year": 2021,
+          "value": 0.151
+        },
+        {
+          "year": 2022,
+          "value": 0.083
+        },
+        {
+          "year": 2023,
+          "value": 0.019
+        }
+      ],
+      "pell_share": [
+        {
+          "year": 2017,
+          "value": 0.0874
+        },
+        {
+          "year": 2018,
+          "value": 0.1405
+        },
+        {
+          "year": 2019,
+          "value": 0.2168
+        },
+        {
+          "year": 2020,
+          "value": 0.2156
+        },
+        {
+          "year": 2021,
+          "value": 0.2249
+        },
+        {
+          "year": 2022,
+          "value": 0.6587
+        },
+        {
+          "year": 2023,
+          "value": 0.7105
+        },
+        {
+          "year": 2024,
+          "value": 0.4118
+        }
+      ],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "retention_rate",
+        "from_year": 2020,
+        "to_year": 2024,
+        "from_value": 1.0,
+        "to_value": 0.3636,
+        "pct_change": -0.6364000000000001,
+        "direction": "fell"
+      },
+      {
+        "metric": "enrollment_undergrad",
+        "from_year": 2017,
+        "to_year": 2024,
+        "from_value": 88.0,
+        "to_value": 26.0,
+        "pct_change": -0.31,
+        "direction": "fell"
+      },
+      {
+        "metric": "default_rate",
+        "from_year": 2019,
+        "to_year": 2023,
+        "from_value": 0.2,
+        "to_value": 0.019,
+        "pct_change": -0.905,
+        "direction": "fell"
+      },
+      {
+        "metric": "pell_share",
+        "from_year": 2017,
+        "to_year": 2024,
+        "from_value": 0.0874,
+        "to_value": 0.4118,
+        "pct_change": 3.711670480549199,
+        "direction": "rose"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "Undergraduate enrollment",
+        "summary": "Undergraduate enrollment at Allied Health Careers Institute fell 71% between 2021 and 2024 (89 → 26).",
+        "magnitude_pct": -70.8,
+        "magnitude_abs": -63.0,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": null,
+        "history": [],
+        "metric": "enrollment_undergrad"
+      },
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "First-year retention",
+        "summary": "First-year retention at Allied Health Careers Institute fell 64% between 2021 and 2024 (100.0% → 36.4%).",
+        "magnitude_pct": -63.6,
+        "magnitude_abs": -0.64,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": "%",
+        "history": [],
+        "metric": "retention_rate"
+      },
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "3-year cohort default rate",
+        "summary": "3-year cohort default rate at Allied Health Careers Institute fell 92% between 2020 and 2023 (23.5% → 1.9%).",
+        "magnitude_pct": -91.9,
+        "magnitude_abs": -0.22,
+        "baseline_year": 2020,
+        "recent_year": 2023,
+        "units": "%",
+        "history": [],
+        "metric": "default_rate"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "51": [
+      {
+        "slug": "5110-c1",
+        "cip_code": "5110",
+        "cip_desc": "Clinical/Medical Laboratory Science/Research and Allied Professions.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 38,
+        "completers_single_year": 88,
+        "completers_history": [
+          {
+            "year": 2015,
+            "value": 100.0
+          },
+          {
+            "year": 2016,
+            "value": 81.0
+          },
+          {
+            "year": 2017,
+            "value": 79.0
+          },
+          {
+            "year": 2018,
+            "value": 88.0
+          },
+          {
+            "year": 2019,
+            "value": 38.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5108-c1",
+        "cip_code": "5108",
+        "cip_desc": "Allied Health and Medical Assisting Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": 4870,
+        "debt_history": [
+          {
+            "year": 2017,
+            "value": 5543.0
+          },
+          {
+            "year": 2018,
+            "value": 4870.0
+          }
+        ],
+        "completers": 18,
+        "completers_single_year": 37,
+        "completers_history": [
+          {
+            "year": 2015,
+            "value": 24.0
+          },
+          {
+            "year": 2016,
+            "value": 17.0
+          },
+          {
+            "year": 2017,
+            "value": 30.0
+          },
+          {
+            "year": 2018,
+            "value": 37.0
+          },
+          {
+            "year": 2019,
+            "value": 18.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5139-c1",
+        "cip_code": "5139",
+        "cip_desc": "Practical Nursing, Vocational Nursing and Nursing Assistants.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 11,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 11.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5107-c1",
+        "cip_code": "5107",
+        "cip_desc": "Health and Medical Administrative Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 9,
+        "completers_single_year": 26,
+        "completers_history": [
+          {
+            "year": 2015,
+            "value": 10.0
+          },
+          {
+            "year": 2016,
+            "value": 13.0
+          },
+          {
+            "year": 2017,
+            "value": 12.0
+          },
+          {
+            "year": 2018,
+            "value": 26.0
+          },
+          {
+            "year": 2019,
+            "value": 9.0
+          }
+        ],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "5110-c1",
+      "cip_code": "5110",
+      "cip_desc": "Clinical/Medical Laboratory Science/Research and Allied Professions.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 38,
+      "completers_single_year": 88,
+      "completers_history": [
+        {
+          "year": 2015,
+          "value": 100.0
+        },
+        {
+          "year": 2016,
+          "value": 81.0
+        },
+        {
+          "year": 2017,
+          "value": 79.0
+        },
+        {
+          "year": 2018,
+          "value": 88.0
+        },
+        {
+          "year": 2019,
+          "value": 38.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5108-c1",
+      "cip_code": "5108",
+      "cip_desc": "Allied Health and Medical Assisting Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": 4870,
+      "debt_history": [
+        {
+          "year": 2017,
+          "value": 5543.0
+        },
+        {
+          "year": 2018,
+          "value": 4870.0
+        }
+      ],
+      "completers": 18,
+      "completers_single_year": 37,
+      "completers_history": [
+        {
+          "year": 2015,
+          "value": 24.0
+        },
+        {
+          "year": 2016,
+          "value": 17.0
+        },
+        {
+          "year": 2017,
+          "value": 30.0
+        },
+        {
+          "year": 2018,
+          "value": 37.0
+        },
+        {
+          "year": 2019,
+          "value": 18.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5139-c1",
+      "cip_code": "5139",
+      "cip_desc": "Practical Nursing, Vocational Nursing and Nursing Assistants.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 11,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 11.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5107-c1",
+      "cip_code": "5107",
+      "cip_desc": "Health and Medical Administrative Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 9,
+      "completers_single_year": 26,
+      "completers_history": [
+        {
+          "year": 2015,
+          "value": 10.0
+        },
+        {
+          "year": 2016,
+          "value": 13.0
+        },
+        {
+          "year": 2017,
+          "value": 12.0
+        },
+        {
+          "year": 2018,
+          "value": 26.0
+        },
+        {
+          "year": 2019,
+          "value": 9.0
+        }
+      ],
+      "long_arc": []
+    }
+  ],
+  "program_count": 4,
+  "similar": [
+    {
+      "slug": "lawrenceburg-technical-college-444468",
+      "name": "Lawrenceburg Technical College",
+      "city": "Lawrenceburg",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 25089,
+      "completion_rate_150": 0.7778,
+      "enrollment_undergrad": 39
+    },
+    {
+      "slug": "mind-body-institute-483887",
+      "name": "Mind Body Institute",
+      "city": "Madison",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.9091,
+      "enrollment_undergrad": 36
+    },
+    {
+      "slug": "the-salon-professional-academy-nashville-481340",
+      "name": "The Salon Professional Academy-Nashville",
+      "city": "Nashville",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.7273,
+      "enrollment_undergrad": 34
+    },
+    {
+      "slug": "nashville-film-institute-490115",
+      "name": "Nashville Film Institute",
+      "city": "Nashville",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.5556,
+      "enrollment_undergrad": 33
+    },
+    {
+      "slug": "sweetwater-institute-of-cosmetology-497684",
+      "name": "Sweetwater Institute of Cosmetology",
+      "city": "Sweetwater",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.7692,
+      "enrollment_undergrad": 33
+    }
+  ],
+  "roi": {
+    "default_program_slug": null,
+    "programs_available": [
+      {
+        "slug": "5110-c1",
+        "label": "Clinical/Medical Laboratory Science/Research and Allied Professions · Undergraduate Certificate or Diploma",
+        "cip_family": "51",
+        "completers": 38,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "5108-c1",
+        "label": "Allied Health and Medical Assisting Services · Undergraduate Certificate or Diploma",
+        "cip_family": "51",
+        "completers": 18,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": 4870,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "5139-c1",
+        "label": "Practical Nursing, Vocational Nursing and Nursing Assistants · Undergraduate Certificate or Diploma",
+        "cip_family": "51",
+        "completers": 11,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "5107-c1",
+        "label": "Health and Medical Administrative Services · Undergraduate Certificate or Diploma",
+        "cip_family": "51",
+        "completers": 9,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      }
+    ]
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "institution_unitid": "220075",
+  "institution_name": "East Tennessee State University",
+  "institution_slug": "east-tennessee-state-university-220075",
+  "state": "tn",
+  "cip_code": "5102",
+  "cip_desc": "Communication Disorders Sciences and Services.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5102-c5",
+  "earnings_median_4yr": 53670,
+  "earnings_median_5yr": 54028,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": 30750,
+  "completers": 34,
+  "completers_single_year": 35,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 53670.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 54028.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 37140.0
+      },
+      {
+        "year": 2015,
+        "value": 36852.0
+      },
+      {
+        "year": 2016,
+        "value": 38166.0
+      },
+      {
+        "year": 2017,
+        "value": 37460.0
+      },
+      {
+        "year": 2018,
+        "value": 30750.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 27.0
+      },
+      {
+        "year": 2015,
+        "value": 32.0
+      },
+      {
+        "year": 2016,
+        "value": 33.0
+      },
+      {
+        "year": 2017,
+        "value": 31.0
+      },
+      {
+        "year": 2018,
+        "value": 35.0
+      },
+      {
+        "year": 2019,
+        "value": 34.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "220075",
+    "slug": "east-tennessee-state-university-220075",
+    "name": "East Tennessee State University",
+    "city": "Johnson City",
+    "city_slug": "johnson-city",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "the-university-of-tennessee-health-science-center-487010",
+      "institution_name": "The University of Tennessee Health Science Center",
+      "earnings_median_5yr": 63895,
+      "earnings_median_4yr": 57822,
+      "debt_median": 41000,
+      "completers": 72,
+      "completers_single_year": 62,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-memphis-220862",
+      "institution_name": "University of Memphis",
+      "earnings_median_5yr": 57281,
+      "earnings_median_4yr": 58865,
+      "debt_median": 31244,
+      "completers": 35,
+      "completers_single_year": 37,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "tennessee-state-university-221838",
+      "institution_name": "Tennessee State University",
+      "earnings_median_5yr": 56020,
+      "earnings_median_4yr": 53270,
+      "debt_median": 41000,
+      "completers": 23,
+      "completers_single_year": 43,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-university-of-tennessee-knoxville-221759",
+      "institution_name": "The University of Tennessee-Knoxville",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "vanderbilt-university-221999",
+      "institution_name": "Vanderbilt University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 100276,
+      "completers": 19,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 16944,
+      "cost_total_default": 101664,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 54028,
+      "earnings_anchor_year": 5,
+      "debt_median": 30750,
+      "cip_family": "51",
+      "hs_baseline_state": 34600
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 210507,
+      "breakeven_year": 18
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,383 @@
+{
+  "institution": {
+    "unitid": "494472",
+    "opeid6": "042872",
+    "name": "Evvaylois Academy School of Beauty",
+    "slug": "evvaylois-academy-school-of-beauty-494472",
+    "state": "tx",
+    "city": "Brenham",
+    "city_slug": "brenham",
+    "zip5": "77833",
+    "address": "2244 South Market Street",
+    "latitude": 30.148715,
+    "longitude": -96.388462,
+    "control": "private_nonprofit",
+    "pred_degree": "certificate",
+    "highest_degree": "certificate",
+    "main_campus": true,
+    "locale": "32",
+    "carnegie_basic": -2,
+    "sector_code": 8,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": 0.75,
+    "completion_rate_100": 0.75,
+    "retention_rate": 0.75,
+    "admission_rate": null,
+    "enrollment_undergrad": 14,
+    "enrollment_total": null,
+    "cost_attendance": 32459,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": 25564,
+    "cost_by_income": {
+      "0_30k": 25564,
+      "30_48k": null,
+      "48_75k": null,
+      "75_110k": null,
+      "110k_plus": null,
+      "sticker": 32459,
+      "sector": "priv"
+    },
+    "median_debt": null,
+    "default_rate": null,
+    "pell_share": 0.5789,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [
+        {
+          "year": 2021,
+          "value": 0.8333
+        },
+        {
+          "year": 2022,
+          "value": 1.0
+        },
+        {
+          "year": 2023,
+          "value": 0.75
+        },
+        {
+          "year": 2024,
+          "value": 1.0
+        }
+      ],
+      "admission_rate": [],
+      "enrollment_undergrad": [
+        {
+          "year": 2020,
+          "value": 17.0
+        },
+        {
+          "year": 2021,
+          "value": 11.0
+        },
+        {
+          "year": 2022,
+          "value": 14.0
+        },
+        {
+          "year": 2023,
+          "value": 14.0
+        },
+        {
+          "year": 2024,
+          "value": 14.0
+        }
+      ],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [
+        {
+          "year": 2020,
+          "value": 21605.0
+        },
+        {
+          "year": 2021,
+          "value": 26155.0
+        },
+        {
+          "year": 2022,
+          "value": 26700.0
+        },
+        {
+          "year": 2023,
+          "value": 32459.0
+        },
+        {
+          "year": 2024,
+          "value": 27315.0
+        }
+      ],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [
+        {
+          "year": 2020,
+          "value": 18507.0
+        },
+        {
+          "year": 2021,
+          "value": 22982.0
+        },
+        {
+          "year": 2022,
+          "value": 22153.0
+        },
+        {
+          "year": 2023,
+          "value": 25564.0
+        },
+        {
+          "year": 2024,
+          "value": 20536.0
+        }
+      ],
+      "median_debt": [],
+      "default_rate": [],
+      "pell_share": [
+        {
+          "year": 2020,
+          "value": 0.3182
+        },
+        {
+          "year": 2021,
+          "value": 0.5
+        },
+        {
+          "year": 2022,
+          "value": 0.6296
+        },
+        {
+          "year": 2023,
+          "value": 0.5789
+        },
+        {
+          "year": 2024,
+          "value": 0.7
+        }
+      ],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "retention_rate",
+        "from_year": 2021,
+        "to_year": 2024,
+        "from_value": 0.8333,
+        "to_value": 1.0,
+        "pct_change": 0.20004800192007674,
+        "direction": "rose"
+      },
+      {
+        "metric": "pell_share",
+        "from_year": 2020,
+        "to_year": 2024,
+        "from_value": 0.3182,
+        "to_value": 0.7,
+        "pct_change": 1.1998742928975488,
+        "direction": "rose"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "Undergraduate enrollment",
+        "summary": "Undergraduate enrollment at Evvaylois Academy School of Beauty rose 27% between 2021 and 2024 (11 → 14).",
+        "magnitude_pct": 27.3,
+        "magnitude_abs": 3.0,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": null,
+        "history": [],
+        "metric": "enrollment_undergrad"
+      },
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "First-year retention",
+        "summary": "First-year retention at Evvaylois Academy School of Beauty rose 20% between 2021 and 2024 (83.3% → 100.0%).",
+        "magnitude_pct": 20.0,
+        "magnitude_abs": 0.17,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": "%",
+        "history": [],
+        "metric": "retention_rate"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "12": [
+      {
+        "slug": "1204-c1",
+        "cip_code": "1204",
+        "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 8,
+        "completers_single_year": 4,
+        "completers_history": [
+          {
+            "year": 2018,
+            "value": 4.0
+          },
+          {
+            "year": 2019,
+            "value": 8.0
+          }
+        ],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "1204-c1",
+      "cip_code": "1204",
+      "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 8,
+      "completers_single_year": 4,
+      "completers_history": [
+        {
+          "year": 2018,
+          "value": 4.0
+        },
+        {
+          "year": 2019,
+          "value": 8.0
+        }
+      ],
+      "long_arc": []
+    }
+  ],
+  "program_count": 1,
+  "similar": [
+    {
+      "slug": "mystros-barber-academy-491589",
+      "name": "Mystros Barber Academy",
+      "city": "Houston",
+      "control": "private_nonprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.75,
+      "enrollment_undergrad": 14
+    },
+    {
+      "slug": "the-vocational-nursing-institute-inc-485360",
+      "name": "The Vocational Nursing Institute Inc",
+      "city": "Houston",
+      "control": "private_nonprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.3429,
+      "enrollment_undergrad": 20
+    },
+    {
+      "slug": "redeemers-university-north-america-497462",
+      "name": "Redeemers University North America",
+      "city": "Greenville",
+      "control": "private_nonprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": 6
+    },
+    {
+      "slug": "valley-grande-institute-for-academic-studies-443322",
+      "name": "Valley Grande Institute for Academic Studies",
+      "city": "Weslaco",
+      "control": "private_nonprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 33472,
+      "completion_rate_150": 0.88,
+      "enrollment_undergrad": 180
+    },
+    {
+      "slug": "covenant-school-of-nursing-and-allied-health-226675",
+      "name": "Covenant School of Nursing and Allied Health",
+      "city": "Lubbock",
+      "control": "private_nonprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 78724,
+      "completion_rate_150": null,
+      "enrollment_undergrad": 333
+    }
+  ],
+  "roi": {
+    "default_program_slug": null,
+    "programs_available": [
+      {
+        "slug": "1204-c1",
+        "label": "Cosmetology and Related Personal Grooming Services · Undergraduate Certificate or Diploma",
+        "cip_family": "12",
+        "completers": 8,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      }
+    ]
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

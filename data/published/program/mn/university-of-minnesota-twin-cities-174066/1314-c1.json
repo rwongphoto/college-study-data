@@ -1,0 +1,194 @@
+{
+  "institution_unitid": "174066",
+  "institution_name": "University of Minnesota-Twin Cities",
+  "institution_slug": "university-of-minnesota-twin-cities-174066",
+  "state": "mn",
+  "cip_code": "1314",
+  "cip_desc": "Teaching English or French as a Second or Foreign Language.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "1314-c1",
+  "earnings_median_4yr": 41624,
+  "earnings_median_5yr": 45807,
+  "earnings_count_4yr": 12,
+  "earnings_count_5yr": 9,
+  "debt_median": 17967,
+  "completers": 55,
+  "completers_single_year": 67,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 41624.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 45807.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 18000.0
+      },
+      {
+        "year": 2015,
+        "value": 19500.0
+      },
+      {
+        "year": 2016,
+        "value": 17947.0
+      },
+      {
+        "year": 2017,
+        "value": 18056.0
+      },
+      {
+        "year": 2018,
+        "value": 17967.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 75.0
+      },
+      {
+        "year": 2015,
+        "value": 49.0
+      },
+      {
+        "year": 2016,
+        "value": 61.0
+      },
+      {
+        "year": 2017,
+        "value": 53.0
+      },
+      {
+        "year": 2018,
+        "value": 67.0
+      },
+      {
+        "year": 2019,
+        "value": 55.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "174066",
+    "slug": "university-of-minnesota-twin-cities-174066",
+    "name": "University of Minnesota-Twin Cities",
+    "city": "Minneapolis",
+    "city_slug": "minneapolis",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "hamline-university-173665",
+      "institution_name": "Hamline University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-minnesota-duluth-174233",
+      "institution_name": "University of Minnesota-Duluth",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "north-central-university-174437",
+      "institution_name": "North Central University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-cloud-state-university-174783",
+      "institution_name": "Saint Cloud State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 9,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 10861,
+      "cost_total_default": 10861,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 45807,
+      "earnings_anchor_year": 5,
+      "debt_median": 17967,
+      "cip_family": "13",
+      "hs_baseline_state": 39400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 103100,
+      "breakeven_year": 5
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

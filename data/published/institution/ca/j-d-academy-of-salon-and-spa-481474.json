@@ -1,0 +1,408 @@
+{
+  "institution": {
+    "unitid": "481474",
+    "opeid6": "042175",
+    "name": "J D Academy of Salon and Spa",
+    "slug": "j-d-academy-of-salon-and-spa-481474",
+    "state": "ca",
+    "city": "Danville",
+    "city_slug": "danville",
+    "zip5": "94526",
+    "address": "520 San Ramon Valley Blvd",
+    "latitude": 37.818164,
+    "longitude": -121.995828,
+    "control": "private_forprofit",
+    "pred_degree": "certificate",
+    "highest_degree": "certificate",
+    "main_campus": true,
+    "locale": "21",
+    "carnegie_basic": -2,
+    "sector_code": 9,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": 18205,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": 0.4,
+    "completion_rate_100": 0.0,
+    "retention_rate": 0.8,
+    "admission_rate": null,
+    "enrollment_undergrad": 106,
+    "enrollment_total": null,
+    "cost_attendance": 35825,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": 32703,
+    "median_debt": 6211,
+    "default_rate": 0.0,
+    "pell_share": 0.2727,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [],
+      "admission_rate": [],
+      "enrollment_undergrad": [],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [
+        {
+          "year": 2014,
+          "value": 23020.0
+        },
+        {
+          "year": 2015,
+          "value": 19591.0
+        },
+        {
+          "year": 2018,
+          "value": 20489.0
+        },
+        {
+          "year": 2019,
+          "value": 22858.0
+        },
+        {
+          "year": 2020,
+          "value": 23577.0
+        },
+        {
+          "year": 2021,
+          "value": 14461.0
+        },
+        {
+          "year": 2023,
+          "value": 32703.0
+        },
+        {
+          "year": 2024,
+          "value": 34589.0
+        }
+      ],
+      "median_debt": [],
+      "default_rate": [
+        {
+          "year": 2016,
+          "value": 0.0
+        },
+        {
+          "year": 2017,
+          "value": 0.115
+        },
+        {
+          "year": 2018,
+          "value": 0.122
+        },
+        {
+          "year": 2019,
+          "value": 0.162
+        },
+        {
+          "year": 2020,
+          "value": 0.092
+        },
+        {
+          "year": 2021,
+          "value": 0.043
+        },
+        {
+          "year": 2022,
+          "value": 0.0
+        },
+        {
+          "year": 2023,
+          "value": 0.0
+        },
+        {
+          "year": 2024,
+          "value": 0.0
+        }
+      ],
+      "pell_share": [],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "3-year cohort default rate",
+        "summary": "3-year cohort default rate at J D Academy of Salon and Spa fell 100% between 2021 and 2024 (4.3% → 0.0%).",
+        "magnitude_pct": -100.0,
+        "magnitude_abs": -0.04,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": "%",
+        "history": [],
+        "metric": "default_rate"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "12": [
+      {
+        "slug": "1204-c1",
+        "cip_code": "1204",
+        "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": 19349,
+        "earnings_median_4yr": 19179,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 19349.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 19179.0
+          }
+        ],
+        "debt_median": 6211,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 9500.0
+          },
+          {
+            "year": 2015,
+            "value": 6211.0
+          },
+          {
+            "year": 2016,
+            "value": 6211.0
+          },
+          {
+            "year": 2017,
+            "value": 6211.0
+          },
+          {
+            "year": 2018,
+            "value": 6211.0
+          }
+        ],
+        "completers": 93,
+        "completers_single_year": 99,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 31.0
+          },
+          {
+            "year": 2015,
+            "value": 59.0
+          },
+          {
+            "year": 2016,
+            "value": 67.0
+          },
+          {
+            "year": 2017,
+            "value": 95.0
+          },
+          {
+            "year": 2018,
+            "value": 99.0
+          },
+          {
+            "year": 2019,
+            "value": 93.0
+          }
+        ],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2014,
+            "to_year": 2018,
+            "from_value": 9500.0,
+            "to_value": 6211.0,
+            "pct_change": -0.34621052631578947,
+            "direction": "fell"
+          }
+        ]
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "1204-c1",
+      "cip_code": "1204",
+      "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": 19349,
+      "earnings_median_4yr": 19179,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 19349.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 19179.0
+        }
+      ],
+      "debt_median": 6211,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 9500.0
+        },
+        {
+          "year": 2015,
+          "value": 6211.0
+        },
+        {
+          "year": 2016,
+          "value": 6211.0
+        },
+        {
+          "year": 2017,
+          "value": 6211.0
+        },
+        {
+          "year": 2018,
+          "value": 6211.0
+        }
+      ],
+      "completers": 93,
+      "completers_single_year": 99,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 31.0
+        },
+        {
+          "year": 2015,
+          "value": 59.0
+        },
+        {
+          "year": 2016,
+          "value": 67.0
+        },
+        {
+          "year": 2017,
+          "value": 95.0
+        },
+        {
+          "year": 2018,
+          "value": 99.0
+        },
+        {
+          "year": 2019,
+          "value": 93.0
+        }
+      ],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2014,
+          "to_year": 2018,
+          "from_value": 9500.0,
+          "to_value": 6211.0,
+          "pct_change": -0.34621052631578947,
+          "direction": "fell"
+        }
+      ]
+    }
+  ],
+  "program_count": 1,
+  "similar": [
+    {
+      "slug": "premiere-career-college-416458",
+      "name": "Premiere Career College",
+      "city": "Irwindale",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 41270,
+      "completion_rate_150": 0.4545,
+      "enrollment_undergrad": 106
+    },
+    {
+      "slug": "ata-college-444361",
+      "name": "ATA College",
+      "city": "El Cajon",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 35017,
+      "completion_rate_150": 0.8596,
+      "enrollment_undergrad": 106
+    },
+    {
+      "slug": "sacramento-ultrasound-institute-490160",
+      "name": "Sacramento Ultrasound Institute",
+      "city": "Sacramento",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.7647,
+      "enrollment_undergrad": 104
+    },
+    {
+      "slug": "paul-mitchell-the-school-san-jose-495077",
+      "name": "Paul Mitchell the School-San Jose",
+      "city": "San Jose",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.3333,
+      "enrollment_undergrad": 108
+    },
+    {
+      "slug": "citrus-heights-beauty-college-112181",
+      "name": "Citrus Heights Beauty College",
+      "city": "Citrus Heights",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.875,
+      "enrollment_undergrad": 110
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

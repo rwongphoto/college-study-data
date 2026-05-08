@@ -1,0 +1,188 @@
+{
+  "institution_unitid": "236595",
+  "institution_name": "Seattle University",
+  "institution_slug": "seattle-university-236595",
+  "state": "wa",
+  "cip_code": "2201",
+  "cip_desc": "Law.",
+  "credential_level": 7,
+  "credential_desc": "First Professional Degree",
+  "slug": "2201-c7",
+  "earnings_median_4yr": 84607,
+  "earnings_median_5yr": 96708,
+  "earnings_count_4yr": 26,
+  "earnings_count_5yr": 30,
+  "debt_median": 144542,
+  "completers": 198,
+  "completers_single_year": 185,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 84607.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 96708.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 144779.0
+      },
+      {
+        "year": 2015,
+        "value": 155443.0
+      },
+      {
+        "year": 2016,
+        "value": 154263.0
+      },
+      {
+        "year": 2017,
+        "value": 143445.0
+      },
+      {
+        "year": 2018,
+        "value": 144542.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 234.0
+      },
+      {
+        "year": 2015,
+        "value": 221.0
+      },
+      {
+        "year": 2016,
+        "value": 192.0
+      },
+      {
+        "year": 2017,
+        "value": 182.0
+      },
+      {
+        "year": 2018,
+        "value": 185.0
+      },
+      {
+        "year": 2019,
+        "value": 198.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 19.9% at Law at Seattle University exceeds the 8% gainful-employment threshold ($144.5k debt amortized over 10 years vs $96.7k earnings).",
+      "magnitude_pct": 19.9,
+      "magnitude_abs": 11.9,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "236595",
+    "slug": "seattle-university-236595",
+    "name": "Seattle University",
+    "city": "Seattle",
+    "city_slug": "seattle",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-washington-seattle-campus-236948",
+      "institution_name": "University of Washington-Seattle Campus",
+      "earnings_median_5yr": 112445,
+      "earnings_median_4yr": 99074,
+      "debt_median": 108519,
+      "completers": 169,
+      "completers_single_year": 160,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "gonzaga-university-235316",
+      "institution_name": "Gonzaga University",
+      "earnings_median_5yr": 89280,
+      "earnings_median_4yr": 76934,
+      "debt_median": 110687,
+      "completers": 144,
+      "completers_single_year": 102,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 30,
+    "inputs": {
+      "years_to_complete": 7,
+      "cost_per_year_default": 30151,
+      "cost_total_default": 211057,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 96708,
+      "earnings_anchor_year": 5,
+      "debt_median": 144542,
+      "cip_family": "22",
+      "hs_baseline_state": 41200
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 675193,
+      "breakeven_year": 14
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

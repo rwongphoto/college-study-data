@@ -1,0 +1,308 @@
+{
+  "institution_unitid": "242972",
+  "institution_name": "NUC University",
+  "institution_slug": "nuc-university-242972",
+  "state": "pr",
+  "cip_code": "5139",
+  "cip_desc": "Practical Nursing, Vocational Nursing and Nursing Assistants.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "5139-c1",
+  "earnings_median_4yr": 12768,
+  "earnings_median_5yr": 16016,
+  "earnings_count_4yr": 85,
+  "earnings_count_5yr": 94,
+  "debt_median": 4541,
+  "completers": 121,
+  "completers_single_year": 203,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 12768.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 16016.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2015,
+        "value": 8708.0
+      },
+      {
+        "year": 2016,
+        "value": 8708.0
+      },
+      {
+        "year": 2017,
+        "value": 8708.0
+      },
+      {
+        "year": 2018,
+        "value": 4541.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2018,
+        "value": 203.0
+      },
+      {
+        "year": 2019,
+        "value": 121.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2015,
+      "to_year": 2018,
+      "from_value": 8708.0,
+      "to_value": 4541.0,
+      "pct_change": -0.4785254937988057,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Practical Nursing, Vocational Nursing and Nursing Assistants at NUC University fell 48% between 2015 and 2018 ($8.7k → $4.5k).",
+      "magnitude_pct": -47.9,
+      "magnitude_abs": -4167.0,
+      "baseline_year": 2015,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "242972",
+    "slug": "nuc-university-242972",
+    "name": "NUC University",
+    "city": "Bayamon",
+    "city_slug": "bayamon",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "antilles-school-of-technical-careers-241182",
+      "institution_name": "Antilles School of Technical Careers",
+      "earnings_median_5yr": 22634,
+      "earnings_median_4yr": 18991,
+      "debt_median": null,
+      "completers": 21,
+      "completers_single_year": 24,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "universidad-ana-g-mendez-cupey-campus-241739",
+      "institution_name": "Universidad Ana G. Mendez-Cupey Campus",
+      "earnings_median_5yr": 19601,
+      "earnings_median_4yr": 17044,
+      "debt_median": 6354,
+      "completers": 9,
+      "completers_single_year": 45,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "columbia-central-university-caguas-241304",
+      "institution_name": "Columbia Central University-Caguas",
+      "earnings_median_5yr": 18262,
+      "earnings_median_4yr": 17822,
+      "debt_median": 3400,
+      "completers": 34,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "liceo-de-arte-dise-o-y-comercio-376330",
+      "institution_name": "Liceo de Arte-Dise-O y Comercio",
+      "earnings_median_5yr": 17742,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "universidad-ana-g-mendez-carolina-campus-243346",
+      "institution_name": "Universidad Ana G. Mendez-Carolina Campus",
+      "earnings_median_5yr": 16608,
+      "earnings_median_4yr": 16649,
+      "debt_median": 5750,
+      "completers": 11,
+      "completers_single_year": 37,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "d-mart-institute-418773",
+      "institution_name": "D'Mart Institute",
+      "earnings_median_5yr": 15317,
+      "earnings_median_4yr": 14164,
+      "debt_median": null,
+      "completers": 14,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cem-college-san-juan-241517",
+      "institution_name": "CEM College-San Juan",
+      "earnings_median_5yr": 12726,
+      "earnings_median_4yr": 11245,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "american-educational-college-241146",
+      "institution_name": "American Educational College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 18,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "universidad-ana-g-mendez-gurabo-campus-243601",
+      "institution_name": "Universidad Ana G. Mendez-Gurabo Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "icpr-junior-college-243841",
+      "institution_name": "ICPR Junior College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "colegio-mayor-de-tecnologia-inc-376242",
+      "institution_name": "Colegio Mayor de Tecnologia Inc",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "universal-technology-college-of-puerto-rico-376385",
+      "institution_name": "Universal Technology College of Puerto Rico",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "academia-serrant-inc-421896",
+      "institution_name": "Academia Serrant Inc",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "atenas-college-440651",
+      "institution_name": "Atenas College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "colegio-educativo-tecnologico-industrial-inc-443100",
+      "institution_name": "Colegio Educativo Tecnologico Industrial Inc",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 94,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 8947,
+      "cost_total_default": 8947,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 16016,
+      "earnings_anchor_year": 5,
+      "debt_median": 4541,
+      "cip_family": "51",
+      "hs_baseline_state": 22400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -119850,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

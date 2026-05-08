@@ -1,0 +1,194 @@
+{
+  "institution_unitid": "227216",
+  "institution_name": "University of North Texas",
+  "institution_slug": "university-of-north-texas-227216",
+  "state": "tx",
+  "cip_code": "1104",
+  "cip_desc": "Information Science/Studies.",
+  "credential_level": 8,
+  "credential_desc": "Graduate/Professional Certificate",
+  "slug": "1104-c8",
+  "earnings_median_4yr": 45512,
+  "earnings_median_5yr": 47076,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 0,
+  "debt_median": 33848,
+  "completers": 68,
+  "completers_single_year": 77,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 45512.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 47076.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2015,
+        "value": 30686.0
+      },
+      {
+        "year": 2016,
+        "value": 36571.0
+      },
+      {
+        "year": 2017,
+        "value": 37878.0
+      },
+      {
+        "year": 2018,
+        "value": 33848.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 19.0
+      },
+      {
+        "year": 2015,
+        "value": 36.0
+      },
+      {
+        "year": 2016,
+        "value": 43.0
+      },
+      {
+        "year": 2017,
+        "value": 45.0
+      },
+      {
+        "year": 2018,
+        "value": 77.0
+      },
+      {
+        "year": 2019,
+        "value": 68.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 9.6% at Information Science/Studies at University of North Texas exceeds the 8% gainful-employment threshold ($33.8k debt amortized over 10 years vs $47.1k earnings).",
+      "magnitude_pct": 9.6,
+      "magnitude_abs": 1.6,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "227216",
+    "slug": "university-of-north-texas-227216",
+    "name": "University of North Texas",
+    "city": "Denton",
+    "city_slug": "denton",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "dallas-baptist-university-224226",
+      "institution_name": "Dallas Baptist University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-university-of-texas-at-dallas-228787",
+      "institution_name": "The University of Texas at Dallas",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 49,
+      "completers_single_year": 54,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "texas-tech-university-229115",
+      "institution_name": "Texas Tech University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 5,
+      "cost_per_year_default": 13489,
+      "cost_total_default": 67445,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 47076,
+      "earnings_anchor_year": 5,
+      "debt_median": 33848,
+      "cip_family": "11",
+      "hs_baseline_state": 37300
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 199543,
+      "breakeven_year": 21
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

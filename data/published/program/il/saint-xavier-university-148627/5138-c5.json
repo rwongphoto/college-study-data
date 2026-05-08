@@ -1,0 +1,458 @@
+{
+  "institution_unitid": "148627",
+  "institution_name": "Saint Xavier University",
+  "institution_slug": "saint-xavier-university-148627",
+  "state": "il",
+  "cip_code": "5138",
+  "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5138-c5",
+  "earnings_median_4yr": 106161,
+  "earnings_median_5yr": 118978,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 0,
+  "debt_median": 26874,
+  "completers": 22,
+  "completers_single_year": 71,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 106161.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 118978.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 35436.0
+      },
+      {
+        "year": 2015,
+        "value": 34920.0
+      },
+      {
+        "year": 2016,
+        "value": 29330.0
+      },
+      {
+        "year": 2017,
+        "value": 28440.0
+      },
+      {
+        "year": 2018,
+        "value": 26874.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 73.0
+      },
+      {
+        "year": 2015,
+        "value": 71.0
+      },
+      {
+        "year": 2016,
+        "value": 104.0
+      },
+      {
+        "year": 2017,
+        "value": 82.0
+      },
+      {
+        "year": 2018,
+        "value": 71.0
+      },
+      {
+        "year": 2019,
+        "value": 22.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 35436.0,
+      "to_value": 26874.0,
+      "pct_change": -0.241618692854724,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing at Saint Xavier University fell 24% between 2014 and 2018 ($35.4k → $26.9k).",
+      "magnitude_pct": -24.2,
+      "magnitude_abs": -8562.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "148627",
+    "slug": "saint-xavier-university-148627",
+    "name": "Saint Xavier University",
+    "city": "Chicago",
+    "city_slug": "chicago",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "rosalind-franklin-university-of-medicine-and-science-145558",
+      "institution_name": "Rosalind Franklin University of Medicine and Science",
+      "earnings_median_5yr": 226223,
+      "earnings_median_4yr": 215816,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southern-illinois-university-edwardsville-149231",
+      "institution_name": "Southern Illinois University-Edwardsville",
+      "earnings_median_5yr": 146336,
+      "earnings_median_4yr": 150025,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-st-francis-148584",
+      "institution_name": "University of St Francis",
+      "earnings_median_5yr": 132489,
+      "earnings_median_4yr": 117979,
+      "debt_median": 49000,
+      "completers": 56,
+      "completers_single_year": 75,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "loyola-university-chicago-146719",
+      "institution_name": "Loyola University Chicago",
+      "earnings_median_5yr": 124591,
+      "earnings_median_4yr": 115645,
+      "debt_median": 59750,
+      "completers": 61,
+      "completers_single_year": 79,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lewis-university-146612",
+      "institution_name": "Lewis University",
+      "earnings_median_5yr": 123620,
+      "earnings_median_4yr": 105538,
+      "debt_median": 47832,
+      "completers": 104,
+      "completers_single_year": 102,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-francis-medical-center-college-of-nursing-148575",
+      "institution_name": "Saint Francis Medical Center College of Nursing",
+      "earnings_median_5yr": 122859,
+      "earnings_median_4yr": 114220,
+      "debt_median": 40500,
+      "completers": 43,
+      "completers_single_year": 41,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-anthony-college-of-nursing-149028",
+      "institution_name": "Saint Anthony College of Nursing",
+      "earnings_median_5yr": 122485,
+      "earnings_median_4yr": 106829,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "illinois-state-university-145813",
+      "institution_name": "Illinois State University",
+      "earnings_median_5yr": 120079,
+      "earnings_median_4yr": 111270,
+      "debt_median": 29000,
+      "completers": 30,
+      "completers_single_year": 29,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "olivet-nazarene-university-147828",
+      "institution_name": "Olivet Nazarene University",
+      "earnings_median_5yr": 117182,
+      "earnings_median_4yr": 108458,
+      "debt_median": 42454,
+      "completers": 85,
+      "completers_single_year": 96,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "chamberlain-university-illinois-454227",
+      "institution_name": "Chamberlain University-Illinois",
+      "earnings_median_5yr": 117047,
+      "earnings_median_4yr": 104363,
+      "debt_median": 42611,
+      "completers": 3923,
+      "completers_single_year": 3640,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-illinois-chicago-145600",
+      "institution_name": "University of Illinois Chicago",
+      "earnings_median_5yr": 116791,
+      "earnings_median_4yr": 107978,
+      "debt_median": 97999,
+      "completers": 101,
+      "completers_single_year": 103,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "north-park-university-147679",
+      "institution_name": "North Park University",
+      "earnings_median_5yr": 116050,
+      "earnings_median_4yr": 109065,
+      "debt_median": 26500,
+      "completers": 31,
+      "completers_single_year": 52,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mckendree-university-147013",
+      "institution_name": "McKendree University",
+      "earnings_median_5yr": 115892,
+      "earnings_median_4yr": 109004,
+      "debt_median": null,
+      "completers": 25,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northern-illinois-university-147703",
+      "institution_name": "Northern Illinois University",
+      "earnings_median_5yr": 113538,
+      "earnings_median_4yr": 104614,
+      "debt_median": 44065,
+      "completers": 27,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "benedictine-university-145619",
+      "institution_name": "Benedictine University",
+      "earnings_median_5yr": 110655,
+      "earnings_median_4yr": 95183,
+      "debt_median": 34110,
+      "completers": 138,
+      "completers_single_year": 166,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "governors-state-university-145336",
+      "institution_name": "Governors State University",
+      "earnings_median_5yr": 109637,
+      "earnings_median_4yr": 104738,
+      "debt_median": 41125,
+      "completers": 24,
+      "completers_single_year": 27,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "elmhurst-university-144962",
+      "institution_name": "Elmhurst University",
+      "earnings_median_5yr": 99646,
+      "earnings_median_4yr": 100734,
+      "debt_median": 41000,
+      "completers": 32,
+      "completers_single_year": 47,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rush-university-148511",
+      "institution_name": "Rush University",
+      "earnings_median_5yr": 90310,
+      "earnings_median_4yr": 83040,
+      "debt_median": 90484,
+      "completers": 175,
+      "completers_single_year": 163,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "depaul-university-144740",
+      "institution_name": "DePaul University",
+      "earnings_median_5yr": 88366,
+      "earnings_median_4yr": 80373,
+      "debt_median": 101373,
+      "completers": 200,
+      "completers_single_year": 207,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "aurora-university-143118",
+      "institution_name": "Aurora University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "blessing-rieman-college-of-nursing-and-health-sciences-143297",
+      "institution_name": "Blessing Rieman College of Nursing and Health Sciences",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bradley-university-143358",
+      "institution_name": "Bradley University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 61500,
+      "completers": 94,
+      "completers_single_year": 105,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "midwestern-university-downers-grove-143853",
+      "institution_name": "Midwestern University-Downers Grove",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 177880,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "chicago-state-university-144005",
+      "institution_name": "Chicago State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "trinity-college-of-nursing-health-sciences-146755",
+      "institution_name": "Trinity College of Nursing & Health Sciences",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "methodist-college-147129",
+      "institution_name": "Methodist College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "millikin-university-147244",
+      "institution_name": "Millikin University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "st-john-s-college-department-of-nursing-148593",
+      "institution_name": "St. John's College-Department of Nursing",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 11794,
+      "cost_total_default": 70764,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 118978,
+      "earnings_anchor_year": 5,
+      "debt_median": 26874,
+      "cip_family": "51",
+      "hs_baseline_state": 38300
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 1224682,
+      "breakeven_year": 7
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

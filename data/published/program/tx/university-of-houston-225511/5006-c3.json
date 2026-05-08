@@ -1,0 +1,248 @@
+{
+  "institution_unitid": "225511",
+  "institution_name": "University of Houston",
+  "institution_slug": "university-of-houston-225511",
+  "state": "tx",
+  "cip_code": "5006",
+  "cip_desc": "Film/Video and Photographic Arts.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5006-c3",
+  "earnings_median_4yr": 38907,
+  "earnings_median_5yr": 36529,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 2,
+  "debt_median": null,
+  "completers": 19,
+  "completers_single_year": 10,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 38907.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 36529.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 20500.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 17.0
+      },
+      {
+        "year": 2015,
+        "value": 8.0
+      },
+      {
+        "year": 2016,
+        "value": 11.0
+      },
+      {
+        "year": 2017,
+        "value": 11.0
+      },
+      {
+        "year": 2018,
+        "value": 10.0
+      },
+      {
+        "year": 2019,
+        "value": 19.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "225511",
+    "slug": "university-of-houston-225511",
+    "name": "University of Houston",
+    "city": "Houston",
+    "city_slug": "houston",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "southern-methodist-university-228246",
+      "institution_name": "Southern Methodist University",
+      "earnings_median_5yr": 46722,
+      "earnings_median_4yr": 44754,
+      "debt_median": null,
+      "completers": 27,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "texas-state-university-228459",
+      "institution_name": "Texas State University",
+      "earnings_median_5yr": 44971,
+      "earnings_median_4yr": 38157,
+      "debt_median": 25239,
+      "completers": 26,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "baylor-university-223232",
+      "institution_name": "Baylor University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 50,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "texas-a-m-university-commerce-224554",
+      "institution_name": "Texas A & M University-Commerce",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "houston-christian-university-225399",
+      "institution_name": "Houston Christian University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-the-incarnate-word-225627",
+      "institution_name": "University of the Incarnate Word",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-mary-hardin-baylor-226471",
+      "institution_name": "University of Mary Hardin-Baylor",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-edward-s-university-227845",
+      "institution_name": "Saint Edward's University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "sam-houston-state-university-227881",
+      "institution_name": "Sam Houston State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southwestern-assemblies-of-god-university-228325",
+      "institution_name": "Southwestern Assemblies of God University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "texas-christian-university-228875",
+      "institution_name": "Texas Christian University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 12613,
+      "cost_total_default": 50452,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 36529,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "50",
+      "hs_baseline_state": 37300
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -115547,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "institution_unitid": "148496",
+  "institution_name": "Dominican University",
+  "institution_slug": "dominican-university-148496",
+  "state": "il",
+  "cip_code": "2501",
+  "cip_desc": "Library Science and Administration.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "2501-c5",
+  "earnings_median_4yr": 52223,
+  "earnings_median_5yr": 57696,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 4,
+  "debt_median": 37998,
+  "completers": 62,
+  "completers_single_year": 63,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 52223.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 57696.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 34167.0
+      },
+      {
+        "year": 2015,
+        "value": 34334.0
+      },
+      {
+        "year": 2016,
+        "value": 36500.0
+      },
+      {
+        "year": 2017,
+        "value": 37998.0
+      },
+      {
+        "year": 2018,
+        "value": 37998.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 113.0
+      },
+      {
+        "year": 2015,
+        "value": 86.0
+      },
+      {
+        "year": 2016,
+        "value": 95.0
+      },
+      {
+        "year": 2017,
+        "value": 77.0
+      },
+      {
+        "year": 2018,
+        "value": 63.0
+      },
+      {
+        "year": 2019,
+        "value": 62.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 8.8% at Library Science and Administration at Dominican University exceeds the 8% gainful-employment threshold ($38.0k debt amortized over 10 years vs $57.7k earnings).",
+      "magnitude_pct": 8.8,
+      "magnitude_abs": 0.8,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "148496",
+    "slug": "dominican-university-148496",
+    "name": "Dominican University",
+    "city": "River Forest",
+    "city_slug": "river-forest",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-illinois-urbana-champaign-145637",
+      "institution_name": "University of Illinois Urbana-Champaign",
+      "earnings_median_5yr": 59296,
+      "earnings_median_4yr": 53524,
+      "debt_median": 38712,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "chicago-state-university-144005",
+      "institution_name": "Chicago State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 4,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 15342,
+      "cost_total_default": 92052,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 57696,
+      "earnings_anchor_year": 5,
+      "debt_median": 37998,
+      "cip_family": "25",
+      "hs_baseline_state": 38300
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 227261,
+      "breakeven_year": 18
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

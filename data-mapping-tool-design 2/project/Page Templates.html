@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Crime Trends — Page Templates</title>
+  <link rel="icon" href="data:," />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="site.css" />
+  <link rel="stylesheet" href="site-archive.css" />
+  <style>
+    body { font-family: var(--font-body); color: var(--ink); background: var(--paper); }
+    .frame { display: none; }
+    .frame.show { display: block; }
+  </style>
+</head>
+<body>
+  <div id="tabs"></div>
+  <div id="home" class="frame show"></div>
+  <div id="city" class="frame"></div>
+  <div id="nbhd" class="frame"></div>
+  <div id="archive" class="frame"></div>
+  <div id="month" class="frame"></div>
+  <div id="year" class="frame"></div>
+
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+  <script type="text/babel" src="site-shared.jsx"></script>
+  <script type="text/babel" src="page-home.jsx"></script>
+  <script type="text/babel" src="page-city.jsx"></script>
+  <script type="text/babel" src="page-nbhd.jsx"></script>
+  <script type="text/babel" src="page-archive.jsx"></script>
+  <script type="text/babel" src="page-month.jsx"></script>
+  <script type="text/babel" src="page-yearreview.jsx"></script>
+
+  <script type="text/babel">
+    const { useState } = React;
+    function TplTabs({ active, setActive }) {
+      const tabs = [
+        { k: "home", n: "01", t: "Homepage", sub: "multi-city" },
+        { k: "city", n: "02", t: "City Hub", sub: "map + analysis" },
+        { k: "nbhd", n: "03", t: "Neighborhood", sub: "charts + long-form" },
+        { k: "archive", n: "04", t: "Archive Index", sub: "all briefings" },
+        { k: "month", n: "05", t: "Archived Month", sub: "single briefing" },
+        { k: "year", n: "06", t: "Year in Review", sub: "annual report" },
+      ];
+      return (
+        <div className="tpl-tabs" data-screen-label="Template tabs">
+          <span className="label">Page templates</span>
+          {tabs.map(tb => (
+            <button key={tb.k} type="button" className={active === tb.k ? "active" : ""} onClick={() => setActive(tb.k)}>
+              <span className="num">{tb.n}</span>
+              <span>{tb.t}</span>
+              <span style={{ color: "#8A8E93", fontFamily: "var(--font-mono)", fontSize: 11 }}>· {tb.sub}</span>
+            </button>
+          ))}
+          <span className="spacer"></span>
+          <span className="meta">CRIME TRENDS · v0.3</span>
+        </div>
+      );
+    }
+
+    function App() {
+      const [active, setActive] = useState("home");
+      React.useEffect(() => {
+        document.querySelectorAll(".frame").forEach(f => f.classList.toggle("show", f.id === active));
+        window.scrollTo({ top: 0 });
+      }, [active]);
+      return <TplTabs active={active} setActive={setActive} />;
+    }
+
+    ReactDOM.createRoot(document.getElementById("tabs")).render(<App />);
+
+    const mount = (id, El) => {
+      if (!El) { console.warn("missing component for " + id); return; }
+      try { ReactDOM.createRoot(document.getElementById(id)).render(React.createElement(El)); }
+      catch (e) { console.error("Failed to mount " + id, e); }
+    };
+    const tryMount = () => {
+      if (window.HomePage && window.CityPage && window.NbhdPage && window.ArchivePage && window.MonthPage && window.YearReviewPage) {
+        mount("home", window.HomePage);
+        mount("city", window.CityPage);
+        mount("nbhd", window.NbhdPage);
+        mount("archive", window.ArchivePage);
+        mount("month", window.MonthPage);
+        mount("year", window.YearReviewPage);
+      } else {
+        setTimeout(tryMount, 50);
+      }
+    };
+    tryMount();
+  </script>
+</body>
+</html>

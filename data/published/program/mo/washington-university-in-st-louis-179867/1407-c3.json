@@ -1,0 +1,165 @@
+{
+  "institution_unitid": "179867",
+  "institution_name": "Washington University in St Louis",
+  "institution_slug": "washington-university-in-st-louis-179867",
+  "state": "mo",
+  "cip_code": "1407",
+  "cip_desc": "Chemical Engineering.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1407-c3",
+  "earnings_median_4yr": 92896,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 3,
+  "debt_median": null,
+  "completers": 41,
+  "completers_single_year": 42,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 92896.0
+      }
+    ],
+    "earnings_median_5yr": [],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 11500.0
+      },
+      {
+        "year": 2015,
+        "value": 11694.0
+      },
+      {
+        "year": 2016,
+        "value": 11640.0
+      },
+      {
+        "year": 2017,
+        "value": 11500.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 59.0
+      },
+      {
+        "year": 2015,
+        "value": 46.0
+      },
+      {
+        "year": 2016,
+        "value": 37.0
+      },
+      {
+        "year": 2017,
+        "value": 35.0
+      },
+      {
+        "year": 2018,
+        "value": 42.0
+      },
+      {
+        "year": 2019,
+        "value": 41.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "179867",
+    "slug": "washington-university-in-st-louis-179867",
+    "name": "Washington University in St Louis",
+    "city": "Saint Louis",
+    "city_slug": "saint-louis",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-missouri-columbia-178396",
+      "institution_name": "University of Missouri-Columbia",
+      "earnings_median_5yr": 91298,
+      "earnings_median_4yr": 85468,
+      "debt_median": 25804,
+      "completers": 40,
+      "completers_single_year": 51,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "missouri-university-of-science-and-technology-178411",
+      "institution_name": "Missouri University of Science and Technology",
+      "earnings_median_5yr": 89985,
+      "earnings_median_4yr": 85206,
+      "debt_median": 23750,
+      "completers": 103,
+      "completers_single_year": 101,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 1863,
+      "cost_total_default": 7452,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 92896,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "14",
+      "hs_baseline_state": 35100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 1341320,
+      "breakeven_year": 4
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

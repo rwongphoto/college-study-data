@@ -1,0 +1,248 @@
+{
+  "institution_unitid": "127200",
+  "institution_name": "Front Range Community College",
+  "institution_slug": "front-range-community-college-127200",
+  "state": "co",
+  "cip_code": "1109",
+  "cip_desc": "Computer Systems Networking and Telecommunications.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "1109-c2",
+  "earnings_median_4yr": 60353,
+  "earnings_median_5yr": 68429,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 1,
+  "debt_median": 17000,
+  "completers": 23,
+  "completers_single_year": 39,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 60353.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 68429.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 13550.0
+      },
+      {
+        "year": 2015,
+        "value": 14250.0
+      },
+      {
+        "year": 2016,
+        "value": 17420.0
+      },
+      {
+        "year": 2017,
+        "value": 16750.0
+      },
+      {
+        "year": 2018,
+        "value": 17000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 37.0
+      },
+      {
+        "year": 2015,
+        "value": 32.0
+      },
+      {
+        "year": 2016,
+        "value": 46.0
+      },
+      {
+        "year": 2017,
+        "value": 43.0
+      },
+      {
+        "year": 2018,
+        "value": 39.0
+      },
+      {
+        "year": 2019,
+        "value": 23.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 13550.0,
+      "to_value": 17000.0,
+      "pct_change": 0.25461254612546125,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Computer Systems Networking and Telecommunications at Front Range Community College rose 25% between 2014 and 2018 ($13.6k → $17.0k).",
+      "magnitude_pct": 25.5,
+      "magnitude_abs": 3450.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "127200",
+    "slug": "front-range-community-college-127200",
+    "name": "Front Range Community College",
+    "city": "Westminster",
+    "city_slug": "westminster",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "intellitec-college-colorado-springs-128179",
+      "institution_name": "Intellitec College-Colorado Springs",
+      "earnings_median_5yr": 45728,
+      "earnings_median_4yr": 37305,
+      "debt_median": 18268,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "arapahoe-community-college-126289",
+      "institution_name": "Arapahoe Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 15,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "community-college-of-aurora-126863",
+      "institution_name": "Community College of Aurora",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "colorado-mesa-university-127556",
+      "institution_name": "Colorado Mesa University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pikes-peak-state-college-127820",
+      "institution_name": "Pikes Peak State College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 18,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "red-rocks-community-college-127909",
+      "institution_name": "Red Rocks Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 27,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "intellitec-college-grand-junction-128188",
+      "institution_name": "Intellitec College-Grand Junction",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 11468,
+      "cost_total_default": 22936,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 68429,
+      "earnings_anchor_year": 5,
+      "debt_median": 17000,
+      "cip_family": "11",
+      "hs_baseline_state": 40100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 782322,
+      "breakeven_year": 3
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

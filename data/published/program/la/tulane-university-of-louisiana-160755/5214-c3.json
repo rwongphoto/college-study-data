@@ -1,0 +1,308 @@
+{
+  "institution_unitid": "160755",
+  "institution_name": "Tulane University of Louisiana",
+  "institution_slug": "tulane-university-of-louisiana-160755",
+  "state": "la",
+  "cip_code": "5214",
+  "cip_desc": "Marketing.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5214-c3",
+  "earnings_median_4yr": 69685,
+  "earnings_median_5yr": 89664,
+  "earnings_count_4yr": 8,
+  "earnings_count_5yr": 6,
+  "debt_median": 19375,
+  "completers": 177,
+  "completers_single_year": 185,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 69685.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 89664.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 24250.0
+      },
+      {
+        "year": 2015,
+        "value": 24500.0
+      },
+      {
+        "year": 2016,
+        "value": 21220.0
+      },
+      {
+        "year": 2017,
+        "value": 19500.0
+      },
+      {
+        "year": 2018,
+        "value": 19375.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 132.0
+      },
+      {
+        "year": 2015,
+        "value": 152.0
+      },
+      {
+        "year": 2016,
+        "value": 152.0
+      },
+      {
+        "year": 2017,
+        "value": 161.0
+      },
+      {
+        "year": 2018,
+        "value": 185.0
+      },
+      {
+        "year": 2019,
+        "value": 177.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 24250.0,
+      "to_value": 19375.0,
+      "pct_change": -0.20103092783505155,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Marketing at Tulane University of Louisiana fell 20% between 2014 and 2018 ($24.2k → $19.4k).",
+      "magnitude_pct": -20.1,
+      "magnitude_abs": -4875.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "160755",
+    "slug": "tulane-university-of-louisiana-160755",
+    "name": "Tulane University of Louisiana",
+    "city": "New Orleans",
+    "city_slug": "new-orleans",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "louisiana-state-university-and-agricultural-mechanical-college-159391",
+      "institution_name": "Louisiana State University and Agricultural & Mechanical College",
+      "earnings_median_5yr": 64939,
+      "earnings_median_4yr": 57006,
+      "debt_median": 21364,
+      "completers": 220,
+      "completers_single_year": 236,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-louisiana-at-lafayette-160658",
+      "institution_name": "University of Louisiana at Lafayette",
+      "earnings_median_5yr": 50941,
+      "earnings_median_4yr": 40501,
+      "debt_median": 23131,
+      "completers": 61,
+      "completers_single_year": 80,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-new-orleans-159939",
+      "institution_name": "University of New Orleans",
+      "earnings_median_5yr": 50875,
+      "earnings_median_4yr": 42922,
+      "debt_median": 17450,
+      "completers": 41,
+      "completers_single_year": 45,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mcneese-state-university-159717",
+      "institution_name": "McNeese State University",
+      "earnings_median_5yr": 50467,
+      "earnings_median_4yr": 40923,
+      "debt_median": null,
+      "completers": 22,
+      "completers_single_year": 28,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "nicholls-state-university-159966",
+      "institution_name": "Nicholls State University",
+      "earnings_median_5yr": 50378,
+      "earnings_median_4yr": 49497,
+      "debt_median": 21462,
+      "completers": 26,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southeastern-louisiana-university-160612",
+      "institution_name": "Southeastern Louisiana University",
+      "earnings_median_5yr": 48688,
+      "earnings_median_4yr": 46308,
+      "debt_median": 19275,
+      "completers": 101,
+      "completers_single_year": 74,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southern-university-and-a-m-college-160621",
+      "institution_name": "Southern University and A & M College",
+      "earnings_median_5yr": 24990,
+      "earnings_median_4yr": 32124,
+      "debt_median": 27000,
+      "completers": 24,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "grambling-state-university-159009",
+      "institution_name": "Grambling State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 37125,
+      "completers": 19,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "louisiana-state-university-shreveport-159416",
+      "institution_name": "Louisiana State University-Shreveport",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 37720,
+      "debt_median": 17545,
+      "completers": 24,
+      "completers_single_year": 24,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "louisiana-tech-university-159647",
+      "institution_name": "Louisiana Tech University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 21500,
+      "completers": 68,
+      "completers_single_year": 54,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "loyola-university-new-orleans-159656",
+      "institution_name": "Loyola University New Orleans",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 26000,
+      "completers": 33,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-louisiana-at-monroe-159993",
+      "institution_name": "University of Louisiana at Monroe",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 18610,
+      "completers": 13,
+      "completers_single_year": 24,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-holy-cross-160065",
+      "institution_name": "University of Holy Cross",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 6,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 26839,
+      "cost_total_default": 107356,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 89664,
+      "earnings_anchor_year": 5,
+      "debt_median": 19375,
+      "cip_family": "52",
+      "hs_baseline_state": 32800
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 998857,
+      "breakeven_year": 7
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

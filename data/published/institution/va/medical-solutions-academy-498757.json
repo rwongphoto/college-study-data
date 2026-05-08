@@ -1,0 +1,230 @@
+{
+  "institution": {
+    "unitid": "498757",
+    "opeid6": "042963",
+    "name": "Medical Solutions Academy",
+    "slug": "medical-solutions-academy-498757",
+    "state": "va",
+    "city": "Danville",
+    "city_slug": "danville",
+    "zip5": "24541",
+    "address": "306 Poplar Street",
+    "latitude": 36.591484,
+    "longitude": -79.399367,
+    "control": "private_forprofit",
+    "pred_degree": "certificate",
+    "highest_degree": "certificate",
+    "main_campus": true,
+    "locale": "32",
+    "carnegie_basic": -2,
+    "sector_code": 9,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": 0.94,
+    "completion_rate_100": 0.94,
+    "retention_rate": 0.5313,
+    "admission_rate": null,
+    "enrollment_undergrad": 106,
+    "enrollment_total": null,
+    "cost_attendance": null,
+    "tuition_in_state": 14115,
+    "tuition_out_of_state": 14115,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": null,
+    "cost_by_income": null,
+    "median_debt": null,
+    "default_rate": null,
+    "pell_share": 0.0,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [
+        {
+          "year": 2023,
+          "value": 0.5313
+        },
+        {
+          "year": 2024,
+          "value": 0.1948
+        }
+      ],
+      "admission_rate": [],
+      "enrollment_undergrad": [
+        {
+          "year": 2023,
+          "value": 106.0
+        },
+        {
+          "year": 2024,
+          "value": 108.0
+        }
+      ],
+      "tuition_in_state": [
+        {
+          "year": 2023,
+          "value": 14115.0
+        }
+      ],
+      "tuition_out_of_state": [
+        {
+          "year": 2023,
+          "value": 14115.0
+        }
+      ],
+      "cost_attendance": [
+        {
+          "year": 2024,
+          "value": 19426.0
+        }
+      ],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [],
+      "median_debt": [],
+      "default_rate": [],
+      "pell_share": [
+        {
+          "year": 2023,
+          "value": 0.0
+        },
+        {
+          "year": 2024,
+          "value": 0.1893
+        }
+      ],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "retention_rate",
+        "from_year": 2023,
+        "to_year": 2024,
+        "from_value": 0.5313,
+        "to_value": 0.1948,
+        "pct_change": -0.6333521550912856,
+        "direction": "fell"
+      },
+      {
+        "metric": "pell_share",
+        "from_year": 2023,
+        "to_year": 2024,
+        "from_value": 0.0,
+        "to_value": 0.1893,
+        "pct_change": 3.7859999999999996,
+        "direction": "rose"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "First-year retention",
+        "summary": "First-year retention at Medical Solutions Academy fell 63% between 2023 and 2024 (53.1% → 19.5%).",
+        "magnitude_pct": -63.3,
+        "magnitude_abs": -0.34,
+        "baseline_year": 2023,
+        "recent_year": 2024,
+        "units": "%",
+        "history": [],
+        "metric": "retention_rate"
+      }
+    ]
+  },
+  "programs_by_family": {},
+  "programs": [],
+  "program_count": 0,
+  "similar": [
+    {
+      "slug": "the-esthetic-institute-490443",
+      "name": "The Esthetic Institute",
+      "city": "Vienna",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.7857,
+      "enrollment_undergrad": 107
+    },
+    {
+      "slug": "american-massage-bodywork-institute-492643",
+      "name": "American Massage & Bodywork Institute",
+      "city": "Vienna",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.7407,
+      "enrollment_undergrad": 105
+    },
+    {
+      "slug": "asher-institute-of-hampton-234119",
+      "name": "Asher Institute of Hampton",
+      "city": "Hampton",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 18710,
+      "completion_rate_150": 0.45,
+      "enrollment_undergrad": 118
+    },
+    {
+      "slug": "northern-virginia-school-of-therapeutic-massage-461412",
+      "name": "Northern Virginia School of Therapeutic Massage",
+      "city": "Falls Church",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 44892,
+      "completion_rate_150": null,
+      "enrollment_undergrad": 87
+    },
+    {
+      "slug": "another-level-barbering-and-cosmetology-school-491978",
+      "name": "Another Level Barbering and Cosmetology School",
+      "city": "Petersburg",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": 77
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

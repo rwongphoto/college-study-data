@@ -1,0 +1,493 @@
+{
+  "state": "ca",
+  "name": "Ukiah",
+  "slug": "ukiah",
+  "institution_count": 3,
+  "institutions": [
+    {
+      "unitid": "113616",
+      "slug": "dharma-realm-buddhist-university-113616",
+      "name": "Dharma Realm Buddhist University",
+      "city": "Ukiah",
+      "city_slug": "ukiah",
+      "control": "private_nonprofit",
+      "pred_degree": "non_degree",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": null
+        },
+        {
+          "year": 8,
+          "value": null
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": null,
+      "completion_rate_history": [
+        {
+          "year": 2022,
+          "value": 1.0
+        }
+      ],
+      "enrollment_undergrad": null,
+      "enrollment_history": [],
+      "median_debt": null,
+      "default_rate": null,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": []
+    },
+    {
+      "unitid": "118684",
+      "slug": "mendocino-college-118684",
+      "name": "Mendocino College",
+      "city": "Ukiah",
+      "city_slug": "ukiah",
+      "control": "public",
+      "pred_degree": "associates",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 40243,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 33313
+        },
+        {
+          "year": 8,
+          "value": 36657
+        },
+        {
+          "year": 10,
+          "value": 40243
+        }
+      ],
+      "completion_rate_150": 0.3095,
+      "completion_rate_history": [
+        {
+          "year": 1997,
+          "value": 0.3472
+        },
+        {
+          "year": 1998,
+          "value": 0.2439
+        },
+        {
+          "year": 1999,
+          "value": 0.3154
+        },
+        {
+          "year": 2000,
+          "value": 0.3692
+        },
+        {
+          "year": 2001,
+          "value": 0.3661
+        },
+        {
+          "year": 2002,
+          "value": 0.344
+        },
+        {
+          "year": 2003,
+          "value": 0.3046
+        },
+        {
+          "year": 2004,
+          "value": 0.3721
+        },
+        {
+          "year": 2005,
+          "value": 0.4545
+        },
+        {
+          "year": 2006,
+          "value": 0.3378
+        },
+        {
+          "year": 2007,
+          "value": 0.2126
+        },
+        {
+          "year": 2008,
+          "value": 0.2378
+        },
+        {
+          "year": 2009,
+          "value": 0.213
+        },
+        {
+          "year": 2010,
+          "value": 0.2147
+        }
+      ],
+      "enrollment_undergrad": 2857,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 2388.0
+        },
+        {
+          "year": 1997,
+          "value": 1705.0
+        },
+        {
+          "year": 1998,
+          "value": 1647.0
+        },
+        {
+          "year": 1999,
+          "value": 2347.0
+        },
+        {
+          "year": 2001,
+          "value": 2056.0
+        },
+        {
+          "year": 2002,
+          "value": 2177.0
+        },
+        {
+          "year": 2003,
+          "value": 2240.0
+        },
+        {
+          "year": 2004,
+          "value": 2490.0
+        },
+        {
+          "year": 2005,
+          "value": 2288.0
+        },
+        {
+          "year": 2006,
+          "value": 2296.0
+        },
+        {
+          "year": 2007,
+          "value": 2286.0
+        },
+        {
+          "year": 2008,
+          "value": 3742.0
+        },
+        {
+          "year": 2009,
+          "value": 3986.0
+        },
+        {
+          "year": 2010,
+          "value": 3763.0
+        }
+      ],
+      "median_debt": 9500,
+      "default_rate": 0.0,
+      "tuition_in_state": 1423,
+      "tuition_out_of_state": 8893,
+      "long_arc": [
+        {
+          "metric": "completion_rate_150",
+          "from_year": 1997,
+          "to_year": 2010,
+          "from_value": 0.3472,
+          "to_value": 0.2147,
+          "pct_change": -0.3816244239631337,
+          "direction": "fell"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 1996,
+          "to_year": 2010,
+          "from_value": 2388.0,
+          "to_value": 3763.0,
+          "pct_change": 0.5757956448911222,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_in_state",
+          "from_year": 2001,
+          "to_year": 2010,
+          "from_value": 330.0,
+          "to_value": 666.0,
+          "pct_change": 0.336,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2001,
+          "to_year": 2024,
+          "from_value": 4500.0,
+          "to_value": 10003.0,
+          "pct_change": 1.222888888888889,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 1997,
+          "to_year": 2010,
+          "from_value": 2625.0,
+          "to_value": 3500.0,
+          "pct_change": 0.3333333333333333,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.178,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2008,
+          "to_year": 2010,
+          "from_value": 0.151,
+          "to_value": 0.2069,
+          "pct_change": 0.3701986754966888,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_8yr",
+          "from_year": 2005,
+          "to_year": 2020,
+          "from_value": 23100.0,
+          "to_value": 36657.0,
+          "pct_change": 0.5868831168831169,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_6yr",
+          "from_year": 2003,
+          "to_year": 2020,
+          "from_value": 22800.0,
+          "to_value": 33313.0,
+          "pct_change": 0.46109649122807017,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "unitid": "481182",
+      "slug": "ukiah-adult-school-481182",
+      "name": "Ukiah Adult School",
+      "city": "Ukiah",
+      "city_slug": "ukiah",
+      "control": "public",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 59331
+        },
+        {
+          "year": 8,
+          "value": 86234
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": null,
+      "completion_rate_history": [],
+      "enrollment_undergrad": 0,
+      "enrollment_history": [],
+      "median_debt": null,
+      "default_rate": null,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": []
+    }
+  ],
+  "earnings_median_city": 40243,
+  "completion_rate_city": 0.3095,
+  "completion_history_city": [
+    {
+      "year": 1997,
+      "value": 0.3472
+    },
+    {
+      "year": 1998,
+      "value": 0.2439
+    },
+    {
+      "year": 1999,
+      "value": 0.3154
+    },
+    {
+      "year": 2000,
+      "value": 0.3692
+    },
+    {
+      "year": 2001,
+      "value": 0.3661
+    },
+    {
+      "year": 2002,
+      "value": 0.344
+    },
+    {
+      "year": 2003,
+      "value": 0.3046
+    },
+    {
+      "year": 2004,
+      "value": 0.3721
+    },
+    {
+      "year": 2005,
+      "value": 0.4545
+    },
+    {
+      "year": 2006,
+      "value": 0.3378
+    },
+    {
+      "year": 2007,
+      "value": 0.2126
+    },
+    {
+      "year": 2008,
+      "value": 0.2378
+    },
+    {
+      "year": 2009,
+      "value": 0.213
+    },
+    {
+      "year": 2010,
+      "value": 0.2147
+    },
+    {
+      "year": 2022,
+      "value": 1.0
+    }
+  ],
+  "enrollment_history_city": [
+    {
+      "year": 1996,
+      "value": 2388.0
+    },
+    {
+      "year": 1997,
+      "value": 1705.0
+    },
+    {
+      "year": 1998,
+      "value": 1647.0
+    },
+    {
+      "year": 1999,
+      "value": 2347.0
+    },
+    {
+      "year": 2001,
+      "value": 2056.0
+    },
+    {
+      "year": 2002,
+      "value": 2177.0
+    },
+    {
+      "year": 2003,
+      "value": 2240.0
+    },
+    {
+      "year": 2004,
+      "value": 2490.0
+    },
+    {
+      "year": 2005,
+      "value": 2288.0
+    },
+    {
+      "year": 2006,
+      "value": 2296.0
+    },
+    {
+      "year": 2007,
+      "value": 2286.0
+    },
+    {
+      "year": 2008,
+      "value": 3742.0
+    },
+    {
+      "year": 2009,
+      "value": 3986.0
+    },
+    {
+      "year": 2010,
+      "value": 3763.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

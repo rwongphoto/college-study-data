@@ -1,0 +1,220 @@
+{
+  "institution_unitid": "243197",
+  "institution_name": "University of Puerto Rico-Mayaguez",
+  "institution_slug": "university-of-puerto-rico-mayaguez-243197",
+  "state": "pr",
+  "cip_code": "4511",
+  "cip_desc": "Sociology.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "4511-c3",
+  "earnings_median_4yr": 18791,
+  "earnings_median_5yr": 27602,
+  "earnings_count_4yr": 5,
+  "earnings_count_5yr": 2,
+  "debt_median": 5500,
+  "completers": 9,
+  "completers_single_year": 24,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 18791.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 27602.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 11000.0
+      },
+      {
+        "year": 2017,
+        "value": 7250.0
+      },
+      {
+        "year": 2018,
+        "value": 5500.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 18.0
+      },
+      {
+        "year": 2015,
+        "value": 16.0
+      },
+      {
+        "year": 2016,
+        "value": 12.0
+      },
+      {
+        "year": 2017,
+        "value": 13.0
+      },
+      {
+        "year": 2018,
+        "value": 24.0
+      },
+      {
+        "year": 2019,
+        "value": 9.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 11000.0,
+      "to_value": 5500.0,
+      "pct_change": -0.5,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Sociology at University of Puerto Rico-Mayaguez fell 50% between 2014 and 2018 ($11.0k → $5.5k).",
+      "magnitude_pct": -50.0,
+      "magnitude_abs": -5500.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "243197",
+    "slug": "university-of-puerto-rico-mayaguez-243197",
+    "name": "University of Puerto Rico-Mayaguez",
+    "city": "Mayaguez",
+    "city_slug": "mayaguez",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-puerto-rico-rio-piedras-243221",
+      "institution_name": "University of Puerto Rico-Rio Piedras",
+      "earnings_median_5yr": 27571,
+      "earnings_median_4yr": 20047,
+      "debt_median": null,
+      "completers": 19,
+      "completers_single_year": 28,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pontifical-catholic-university-of-puerto-rico-ponce-241410",
+      "institution_name": "Pontifical Catholic University of Puerto Rico-Ponce",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "inter-american-university-of-puerto-rico-san-german-242617",
+      "institution_name": "Inter American University of Puerto Rico-San German",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "inter-american-university-of-puerto-rico-metro-242653",
+      "institution_name": "Inter American University of Puerto Rico-Metro",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-puerto-rico-at-cayey-243151",
+      "institution_name": "University of Puerto Rico at Cayey",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 18,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 15527,
+      "cost_total_default": 62108,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 27602,
+      "earnings_anchor_year": 5,
+      "debt_median": 5500,
+      "cip_family": "45",
+      "hs_baseline_state": 22400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 22199,
+      "breakeven_year": 30
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

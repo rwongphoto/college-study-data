@@ -1,0 +1,214 @@
+{
+  "institution_unitid": "151351",
+  "institution_name": "Indiana University-Bloomington",
+  "institution_slug": "indiana-university-bloomington-151351",
+  "state": "in",
+  "cip_code": "4404",
+  "cip_desc": "Public Administration.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "4404-c3",
+  "earnings_median_4yr": 62367,
+  "earnings_median_5yr": 74845,
+  "earnings_count_4yr": 11,
+  "earnings_count_5yr": 13,
+  "debt_median": 19500,
+  "completers": 589,
+  "completers_single_year": 593,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 62367.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 74845.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 22225.0
+      },
+      {
+        "year": 2015,
+        "value": 21000.0
+      },
+      {
+        "year": 2016,
+        "value": 20500.0
+      },
+      {
+        "year": 2017,
+        "value": 19500.0
+      },
+      {
+        "year": 2018,
+        "value": 19500.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 511.0
+      },
+      {
+        "year": 2015,
+        "value": 544.0
+      },
+      {
+        "year": 2016,
+        "value": 577.0
+      },
+      {
+        "year": 2017,
+        "value": 614.0
+      },
+      {
+        "year": 2018,
+        "value": 593.0
+      },
+      {
+        "year": 2019,
+        "value": 589.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "151351",
+    "slug": "indiana-university-bloomington-151351",
+    "name": "Indiana University-Bloomington",
+    "city": "Bloomington",
+    "city_slug": "bloomington",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "indiana-university-indianapolis-151111",
+      "institution_name": "Indiana University-Indianapolis",
+      "earnings_median_5yr": 61050,
+      "earnings_median_4yr": 52546,
+      "debt_median": 20625,
+      "completers": 72,
+      "completers_single_year": 90,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "purdue-university-fort-wayne-151102",
+      "institution_name": "Purdue University Fort Wayne",
+      "earnings_median_5yr": 52883,
+      "earnings_median_4yr": 47535,
+      "debt_median": 20375,
+      "completers": 44,
+      "completers_single_year": 45,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "calumet-college-of-saint-joseph-150172",
+      "institution_name": "Calumet College of Saint Joseph",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "indiana-university-kokomo-151333",
+      "institution_name": "Indiana University-Kokomo",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "indiana-university-northwest-151360",
+      "institution_name": "Indiana University-Northwest",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "purdue-university-global-489779",
+      "institution_name": "Purdue University Global",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 13,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 12311,
+      "cost_total_default": 49244,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 74845,
+      "earnings_anchor_year": 5,
+      "debt_median": 19500,
+      "cip_family": "44",
+      "hs_baseline_state": 36400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 679436,
+      "breakeven_year": 6
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

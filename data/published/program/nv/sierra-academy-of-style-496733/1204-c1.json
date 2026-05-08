@@ -1,0 +1,169 @@
+{
+  "institution_unitid": "496733",
+  "institution_name": "Sierra Academy of Style",
+  "institution_slug": "sierra-academy-of-style-496733",
+  "state": "nv",
+  "cip_code": "1204",
+  "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "1204-c1",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": null,
+  "earnings_count_5yr": null,
+  "debt_median": null,
+  "completers": 45,
+  "completers_single_year": null,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [],
+    "completers": [
+      {
+        "year": 2019,
+        "value": 45.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "496733",
+    "slug": "sierra-academy-of-style-496733",
+    "name": "Sierra Academy of Style",
+    "city": "Carson City",
+    "city_slug": "carson-city",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "international-academy-of-style-457785",
+      "institution_name": "International Academy of Style",
+      "earnings_median_5yr": 25903,
+      "earnings_median_4yr": 25422,
+      "debt_median": 8281,
+      "completers": 96,
+      "completers_single_year": 117,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "casal-institute-of-nevada-455211",
+      "institution_name": "Casal Institute of Nevada",
+      "earnings_median_5yr": 23374,
+      "earnings_median_4yr": 23690,
+      "debt_median": 6333,
+      "completers": 242,
+      "completers_single_year": 248,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "paul-mitchell-the-school-las-vegas-462008",
+      "institution_name": "Paul Mitchell the School-Las Vegas",
+      "earnings_median_5yr": 23124,
+      "earnings_median_4yr": 18787,
+      "debt_median": 11367,
+      "completers": 110,
+      "completers_single_year": 152,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "paul-mitchell-the-school-reno-476841",
+      "institution_name": "Paul Mitchell the School-Reno",
+      "earnings_median_5yr": 22895,
+      "earnings_median_4yr": 22945,
+      "debt_median": 10500,
+      "completers": 112,
+      "completers_single_year": 96,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "academy-of-hair-design-las-vegas-181880",
+      "institution_name": "Academy of Hair Design-Las Vegas",
+      "earnings_median_5yr": 22801,
+      "earnings_median_4yr": 16403,
+      "debt_median": 8050,
+      "completers": 179,
+      "completers_single_year": 155,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "milan-institute-of-cosmetology-reno-454555",
+      "institution_name": "Milan Institute of Cosmetology-Reno",
+      "earnings_median_5yr": 19776,
+      "earnings_median_4yr": 16646,
+      "debt_median": 6333,
+      "completers": 146,
+      "completers_single_year": 93,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "l-makeup-institute-490717",
+      "institution_name": "L Makeup Institute",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 3880,
+      "completers": 56,
+      "completers_single_year": 56,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 13876,
+      "cost_total_default": 13876,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "12"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

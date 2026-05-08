@@ -1,0 +1,224 @@
+{
+  "state": "ny",
+  "name": "Spring Valley",
+  "slug": "spring-valley",
+  "institution_count": 1,
+  "institutions": [
+    {
+      "unitid": "476717",
+      "slug": "be-er-yaakov-talmudic-seminary-476717",
+      "name": "Be'er Yaakov Talmudic Seminary",
+      "city": "Spring Valley",
+      "city_slug": "spring-valley",
+      "control": "private_nonprofit",
+      "pred_degree": "bachelors",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 17360,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 26758
+        },
+        {
+          "year": 8,
+          "value": 21904
+        },
+        {
+          "year": 10,
+          "value": 17360
+        }
+      ],
+      "completion_rate_150": 0.5304,
+      "completion_rate_history": [],
+      "enrollment_undergrad": 679,
+      "enrollment_history": [
+        {
+          "year": 2012,
+          "value": 255.0
+        },
+        {
+          "year": 2013,
+          "value": 298.0
+        },
+        {
+          "year": 2014,
+          "value": 382.0
+        },
+        {
+          "year": 2015,
+          "value": 469.0
+        },
+        {
+          "year": 2016,
+          "value": 532.0
+        },
+        {
+          "year": 2017,
+          "value": 510.0
+        },
+        {
+          "year": 2018,
+          "value": 569.0
+        },
+        {
+          "year": 2019,
+          "value": 583.0
+        },
+        {
+          "year": 2020,
+          "value": 566.0
+        },
+        {
+          "year": 2021,
+          "value": 576.0
+        },
+        {
+          "year": 2022,
+          "value": 638.0
+        },
+        {
+          "year": 2023,
+          "value": 679.0
+        },
+        {
+          "year": 2024,
+          "value": 765.0
+        }
+      ],
+      "median_debt": null,
+      "default_rate": null,
+      "tuition_in_state": 12300,
+      "tuition_out_of_state": 12300,
+      "long_arc": [
+        {
+          "metric": "retention_rate",
+          "from_year": 2012,
+          "to_year": 2024,
+          "from_value": 0.8906,
+          "to_value": 0.9828,
+          "pct_change": 0.10352571300247032,
+          "direction": "rose"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 2012,
+          "to_year": 2024,
+          "from_value": 255.0,
+          "to_value": 765.0,
+          "pct_change": 2.0,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2012,
+          "to_year": 2024,
+          "from_value": 7100.0,
+          "to_value": 12300.0,
+          "pct_change": 0.7323943661971831,
+          "direction": "rose"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": 17360,
+  "completion_rate_city": 0.5304,
+  "completion_history_city": [],
+  "enrollment_history_city": [
+    {
+      "year": 2012,
+      "value": 255.0
+    },
+    {
+      "year": 2013,
+      "value": 298.0
+    },
+    {
+      "year": 2014,
+      "value": 382.0
+    },
+    {
+      "year": 2015,
+      "value": 469.0
+    },
+    {
+      "year": 2016,
+      "value": 532.0
+    },
+    {
+      "year": 2017,
+      "value": 510.0
+    },
+    {
+      "year": 2018,
+      "value": 569.0
+    },
+    {
+      "year": 2019,
+      "value": 583.0
+    },
+    {
+      "year": 2020,
+      "value": 566.0
+    },
+    {
+      "year": 2021,
+      "value": 576.0
+    },
+    {
+      "year": 2022,
+      "value": 638.0
+    },
+    {
+      "year": 2023,
+      "value": 679.0
+    },
+    {
+      "year": 2024,
+      "value": 765.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

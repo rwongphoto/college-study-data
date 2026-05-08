@@ -1,0 +1,248 @@
+{
+  "institution_unitid": "130493",
+  "institution_name": "Southern Connecticut State University",
+  "institution_slug": "southern-connecticut-state-university-130493",
+  "state": "ct",
+  "cip_code": "1304",
+  "cip_desc": "Educational Administration and Supervision.",
+  "credential_level": 8,
+  "credential_desc": "Graduate/Professional Certificate",
+  "slug": "1304-c8",
+  "earnings_median_4yr": 91270,
+  "earnings_median_5yr": 94669,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 2,
+  "debt_median": 31946,
+  "completers": 40,
+  "completers_single_year": 69,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 91270.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 94669.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 22734.0
+      },
+      {
+        "year": 2015,
+        "value": 23316.0
+      },
+      {
+        "year": 2016,
+        "value": 24426.0
+      },
+      {
+        "year": 2017,
+        "value": 27991.0
+      },
+      {
+        "year": 2018,
+        "value": 31946.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 164.0
+      },
+      {
+        "year": 2015,
+        "value": 38.0
+      },
+      {
+        "year": 2016,
+        "value": 54.0
+      },
+      {
+        "year": 2017,
+        "value": 69.0
+      },
+      {
+        "year": 2018,
+        "value": 69.0
+      },
+      {
+        "year": 2019,
+        "value": 40.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 22734.0,
+      "to_value": 31946.0,
+      "pct_change": 0.40520805841470925,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Educational Administration and Supervision at Southern Connecticut State University rose 41% between 2014 and 2018 ($22.7k → $31.9k).",
+      "magnitude_pct": 40.5,
+      "magnitude_abs": 9212.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "130493",
+    "slug": "southern-connecticut-state-university-130493",
+    "name": "Southern Connecticut State University",
+    "city": "New Haven",
+    "city_slug": "new-haven",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-bridgeport-128744",
+      "institution_name": "University of Bridgeport",
+      "earnings_median_5yr": 106216,
+      "earnings_median_4yr": 92624,
+      "debt_median": null,
+      "completers": 47,
+      "completers_single_year": 42,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "central-connecticut-state-university-128771",
+      "institution_name": "Central Connecticut State University",
+      "earnings_median_5yr": 101807,
+      "earnings_median_4yr": 94570,
+      "debt_median": 20503,
+      "completers": 99,
+      "completers_single_year": 103,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-connecticut-129020",
+      "institution_name": "University of Connecticut",
+      "earnings_median_5yr": 101201,
+      "earnings_median_4yr": 93690,
+      "debt_median": 44704,
+      "completers": 31,
+      "completers_single_year": 33,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "sacred-heart-university-130253",
+      "institution_name": "Sacred Heart University",
+      "earnings_median_5yr": 88976,
+      "earnings_median_4yr": 88008,
+      "debt_median": 31170,
+      "completers": 65,
+      "completers_single_year": 69,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "fairfield-university-129242",
+      "institution_name": "Fairfield University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "quinnipiac-university-130226",
+      "institution_name": "Quinnipiac University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 36,
+      "completers_single_year": 22,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-connecticut-state-university-130776",
+      "institution_name": "Western Connecticut State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 5,
+      "cost_per_year_default": 18938,
+      "cost_total_default": 94690,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 94669,
+      "earnings_anchor_year": 5,
+      "debt_median": 31946,
+      "cip_family": "13",
+      "hs_baseline_state": 42300
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 690002,
+      "breakeven_year": 8
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

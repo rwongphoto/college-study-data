@@ -1,0 +1,218 @@
+{
+  "institution_unitid": "183026",
+  "institution_name": "Southern New Hampshire University",
+  "institution_slug": "southern-new-hampshire-university-183026",
+  "state": "nh",
+  "cip_code": "1101",
+  "cip_desc": "Computer and Information Sciences, General.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "1101-c5",
+  "earnings_median_4yr": 77859,
+  "earnings_median_5yr": 86205,
+  "earnings_count_4yr": 9,
+  "earnings_count_5yr": 10,
+  "debt_median": 48003,
+  "completers": 369,
+  "completers_single_year": 282,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 77859.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 86205.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 33996.0
+      },
+      {
+        "year": 2015,
+        "value": 39914.0
+      },
+      {
+        "year": 2016,
+        "value": 42129.0
+      },
+      {
+        "year": 2017,
+        "value": 45659.0
+      },
+      {
+        "year": 2018,
+        "value": 48003.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 419.0
+      },
+      {
+        "year": 2015,
+        "value": 425.0
+      },
+      {
+        "year": 2016,
+        "value": 401.0
+      },
+      {
+        "year": 2017,
+        "value": 354.0
+      },
+      {
+        "year": 2018,
+        "value": 282.0
+      },
+      {
+        "year": 2019,
+        "value": 369.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 33996.0,
+      "to_value": 48003.0,
+      "pct_change": 0.4120190610660078,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Computer and Information Sciences, General at Southern New Hampshire University rose 41% between 2014 and 2018 ($34.0k → $48.0k).",
+      "magnitude_pct": 41.2,
+      "magnitude_abs": 14007.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "183026",
+    "slug": "southern-new-hampshire-university-183026",
+    "name": "Southern New Hampshire University",
+    "city": "Manchester",
+    "city_slug": "manchester",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "franklin-pierce-university-182795",
+      "institution_name": "Franklin Pierce University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "new-england-college-182980",
+      "institution_name": "New England College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 165,
+      "completers_single_year": 102,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-new-hampshire-main-campus-183044",
+      "institution_name": "University of New Hampshire-Main Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 47,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rivier-university-183211",
+      "institution_name": "Rivier University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 21,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 10,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 34048,
+      "cost_total_default": 204288,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 86205,
+      "earnings_anchor_year": 5,
+      "debt_median": 48003,
+      "cip_family": "11",
+      "hs_baseline_state": 40300
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 705910,
+      "breakeven_year": 14
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

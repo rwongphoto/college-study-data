@@ -1,0 +1,216 @@
+{
+  "institution_unitid": "184603",
+  "institution_name": "Fairleigh Dickinson University-Metropolitan Campus",
+  "institution_slug": "fairleigh-dickinson-university-metropolitan-campus-184603",
+  "state": "nj",
+  "cip_code": "4228",
+  "cip_desc": "Clinical, Counseling and Applied Psychology.",
+  "credential_level": 6,
+  "credential_desc": "Doctoral Degree",
+  "slug": "4228-c6",
+  "earnings_median_4yr": 82489,
+  "earnings_median_5yr": 118721,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": null,
+  "completers": null,
+  "completers_single_year": null,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 82489.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 118721.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2015,
+        "value": 73300.0
+      },
+      {
+        "year": 2016,
+        "value": 106601.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2015,
+        "value": 0.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2015,
+      "to_year": 2016,
+      "from_value": 73300.0,
+      "to_value": 106601.0,
+      "pct_change": 0.45431105047748976,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Clinical, Counseling and Applied Psychology at Fairleigh Dickinson University-Metropolitan Campus rose 45% between 2015 and 2016 ($73.3k → $106.6k).",
+      "magnitude_pct": 45.4,
+      "magnitude_abs": 33301.0,
+      "baseline_year": 2015,
+      "recent_year": 2016,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "184603",
+    "slug": "fairleigh-dickinson-university-metropolitan-campus-184603",
+    "name": "Fairleigh Dickinson University-Metropolitan Campus",
+    "city": "Teaneck",
+    "city_slug": "teaneck",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "caldwell-university-183910",
+      "institution_name": "Caldwell University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rowan-university-184782",
+      "institution_name": "Rowan University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "new-jersey-city-university-185129",
+      "institution_name": "New Jersey City University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "kean-university-185262",
+      "institution_name": "Kean University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "seton-hall-university-186584",
+      "institution_name": "Seton Hall University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-elizabeth-university-186618",
+      "institution_name": "Saint Elizabeth University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "william-paterson-university-of-new-jersey-187444",
+      "institution_name": "William Paterson University of New Jersey",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 8,
+      "cost_per_year_default": 14926,
+      "cost_total_default": 119408,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 118721,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "42",
+      "hs_baseline_state": 41700
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 881902,
+      "breakeven_year": 11
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

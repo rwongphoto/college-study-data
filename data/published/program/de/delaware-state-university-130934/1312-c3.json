@@ -1,0 +1,174 @@
+{
+  "institution_unitid": "130934",
+  "institution_name": "Delaware State University",
+  "institution_slug": "delaware-state-university-130934",
+  "state": "de",
+  "cip_code": "1312",
+  "cip_desc": "Teacher Education and Professional Development, Specific Levels and Methods.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1312-c3",
+  "earnings_median_4yr": 45625,
+  "earnings_median_5yr": 50397,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 0,
+  "debt_median": 25401,
+  "completers": 38,
+  "completers_single_year": 21,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 45625.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 50397.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 30500.0
+      },
+      {
+        "year": 2015,
+        "value": 30500.0
+      },
+      {
+        "year": 2016,
+        "value": 27500.0
+      },
+      {
+        "year": 2017,
+        "value": 25302.0
+      },
+      {
+        "year": 2018,
+        "value": 25401.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 18.0
+      },
+      {
+        "year": 2015,
+        "value": 17.0
+      },
+      {
+        "year": 2016,
+        "value": 20.0
+      },
+      {
+        "year": 2017,
+        "value": 25.0
+      },
+      {
+        "year": 2018,
+        "value": 21.0
+      },
+      {
+        "year": 2019,
+        "value": 38.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "130934",
+    "slug": "delaware-state-university-130934",
+    "name": "Delaware State University",
+    "city": "Dover",
+    "city_slug": "dover",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-delaware-130943",
+      "institution_name": "University of Delaware",
+      "earnings_median_5yr": 56546,
+      "earnings_median_4yr": 50186,
+      "debt_median": 25908,
+      "completers": 158,
+      "completers_single_year": 152,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wilmington-university-131113",
+      "institution_name": "Wilmington University",
+      "earnings_median_5yr": 55083,
+      "earnings_median_4yr": 50945,
+      "debt_median": 21068,
+      "completers": 63,
+      "completers_single_year": 55,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 16445,
+      "cost_total_default": 65780,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 50397,
+      "earnings_anchor_year": 5,
+      "debt_median": 25401,
+      "cip_family": "13",
+      "hs_baseline_state": 38900
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 87356,
+      "breakeven_year": 19
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

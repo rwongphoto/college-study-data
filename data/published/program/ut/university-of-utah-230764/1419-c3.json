@@ -1,0 +1,238 @@
+{
+  "institution_unitid": "230764",
+  "institution_name": "University of Utah",
+  "institution_slug": "university-of-utah-230764",
+  "state": "ut",
+  "cip_code": "1419",
+  "cip_desc": "Mechanical Engineering.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1419-c3",
+  "earnings_median_4yr": 79480,
+  "earnings_median_5yr": 87070,
+  "earnings_count_4yr": 5,
+  "earnings_count_5yr": 1,
+  "debt_median": 21250,
+  "completers": 156,
+  "completers_single_year": 174,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 79480.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 87070.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 15313.0
+      },
+      {
+        "year": 2015,
+        "value": 18500.0
+      },
+      {
+        "year": 2016,
+        "value": 20500.0
+      },
+      {
+        "year": 2017,
+        "value": 21125.0
+      },
+      {
+        "year": 2018,
+        "value": 21250.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 141.0
+      },
+      {
+        "year": 2015,
+        "value": 182.0
+      },
+      {
+        "year": 2016,
+        "value": 168.0
+      },
+      {
+        "year": 2017,
+        "value": 169.0
+      },
+      {
+        "year": 2018,
+        "value": 174.0
+      },
+      {
+        "year": 2019,
+        "value": 156.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 15313.0,
+      "to_value": 21250.0,
+      "pct_change": 0.38770978906811204,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Mechanical Engineering at University of Utah rose 39% between 2014 and 2018 ($15.3k → $21.2k).",
+      "magnitude_pct": 38.8,
+      "magnitude_abs": 5937.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "230764",
+    "slug": "university-of-utah-230764",
+    "name": "University of Utah",
+    "city": "Salt Lake City",
+    "city_slug": "salt-lake-city",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "brigham-young-university-230038",
+      "institution_name": "Brigham Young University",
+      "earnings_median_5yr": 97124,
+      "earnings_median_4yr": 87666,
+      "debt_median": 10544,
+      "completers": 176,
+      "completers_single_year": 157,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "utah-state-university-230728",
+      "institution_name": "Utah State University",
+      "earnings_median_5yr": 87442,
+      "earnings_median_4yr": 77504,
+      "debt_median": 13102,
+      "completers": 148,
+      "completers_single_year": 141,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "utah-tech-university-230171",
+      "institution_name": "Utah Tech University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southern-utah-university-230603",
+      "institution_name": "Southern Utah University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 21,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "utah-valley-university-230737",
+      "institution_name": "Utah Valley University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 31,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "weber-state-university-230782",
+      "institution_name": "Weber State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 12398,
+      "cost_total_default": 49592,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 87070,
+      "earnings_anchor_year": 5,
+      "debt_median": 21250,
+      "cip_family": "14",
+      "hs_baseline_state": 38000
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 1016568,
+      "breakeven_year": 6
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "institution_unitid": "225511",
+  "institution_name": "University of Houston",
+  "institution_slug": "university-of-houston-225511",
+  "state": "tx",
+  "cip_code": "1512",
+  "cip_desc": "Computer Engineering Technologies/Technicians.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1512-c3",
+  "earnings_median_4yr": 73327,
+  "earnings_median_5yr": 71648,
+  "earnings_count_4yr": 5,
+  "earnings_count_5yr": 1,
+  "debt_median": 20281,
+  "completers": 74,
+  "completers_single_year": 62,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 73327.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 71648.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 26535.0
+      },
+      {
+        "year": 2015,
+        "value": 23577.0
+      },
+      {
+        "year": 2016,
+        "value": 23913.0
+      },
+      {
+        "year": 2017,
+        "value": 23672.0
+      },
+      {
+        "year": 2018,
+        "value": 20281.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 52.0
+      },
+      {
+        "year": 2015,
+        "value": 64.0
+      },
+      {
+        "year": 2016,
+        "value": 60.0
+      },
+      {
+        "year": 2017,
+        "value": 86.0
+      },
+      {
+        "year": 2018,
+        "value": 62.0
+      },
+      {
+        "year": 2019,
+        "value": 74.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 26535.0,
+      "to_value": 20281.0,
+      "pct_change": -0.2356887130205389,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Computer Engineering Technologies/Technicians at University of Houston fell 24% between 2014 and 2018 ($26.5k → $20.3k).",
+      "magnitude_pct": -23.6,
+      "magnitude_abs": -6254.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "225511",
+    "slug": "university-of-houston-225511",
+    "name": "University of Houston",
+    "city": "Houston",
+    "city_slug": "houston",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-houston-downtown-225432",
+      "institution_name": "University of Houston-Downtown",
+      "earnings_median_5yr": 81769,
+      "earnings_median_4yr": 73092,
+      "debt_median": null,
+      "completers": 27,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "letourneau-university-226231",
+      "institution_name": "LeTourneau University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "prairie-view-a-m-university-227526",
+      "institution_name": "Prairie View A & M University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "sam-houston-state-university-227881",
+      "institution_name": "Sam Houston State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 16730,
+      "completers": 42,
+      "completers_single_year": 46,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "texas-southern-university-229063",
+      "institution_name": "Texas Southern University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 12613,
+      "cost_total_default": 50452,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 71648,
+      "earnings_anchor_year": 5,
+      "debt_median": 20281,
+      "cip_family": "15",
+      "hs_baseline_state": 37300
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 602832,
+      "breakeven_year": 7
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

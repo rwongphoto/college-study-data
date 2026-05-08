@@ -1,0 +1,175 @@
+{
+  "institution_unitid": "490373",
+  "institution_name": "Western Michigan University Homer Stryker M.D. School of Medicine",
+  "institution_slug": "western-michigan-university-homer-stryker-m-d-school-of-medicine-490373",
+  "state": "mi",
+  "cip_code": "1405",
+  "cip_desc": "Biomedical/Medical Engineering.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "1405-c5",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": null,
+  "earnings_count_5yr": null,
+  "debt_median": null,
+  "completers": 2,
+  "completers_single_year": 1,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [],
+    "completers": [
+      {
+        "year": 2015,
+        "value": 0.0
+      },
+      {
+        "year": 2016,
+        "value": 0.0
+      },
+      {
+        "year": 2017,
+        "value": 0.0
+      },
+      {
+        "year": 2018,
+        "value": 1.0
+      },
+      {
+        "year": 2019,
+        "value": 2.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "490373",
+    "slug": "western-michigan-university-homer-stryker-m-d-school-of-medicine-490373",
+    "name": "Western Michigan University Homer Stryker M.D. School of Medicine",
+    "city": "Kalamazoo",
+    "city_slug": "kalamazoo",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "wayne-state-university-172644",
+      "institution_name": "Wayne State University",
+      "earnings_median_5yr": 101187,
+      "earnings_median_4yr": 90312,
+      "debt_median": null,
+      "completers": 30,
+      "completers_single_year": 32,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-michigan-ann-arbor-170976",
+      "institution_name": "University of Michigan-Ann Arbor",
+      "earnings_median_5yr": 94319,
+      "earnings_median_4yr": 89253,
+      "debt_median": 24822,
+      "completers": 108,
+      "completers_single_year": 80,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lawrence-technological-university-170675",
+      "institution_name": "Lawrence Technological University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "michigan-state-university-171100",
+      "institution_name": "Michigan State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "michigan-technological-university-171128",
+      "institution_name": "Michigan Technological University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-michigan-dearborn-171137",
+      "institution_name": "University of Michigan-Dearborn",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": null,
+      "cost_total_default": null,
+      "cost_source": null,
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "14"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "institution_unitid": "434672",
+  "institution_name": "Community College of Baltimore County",
+  "institution_slug": "community-college-of-baltimore-county-434672",
+  "state": "md",
+  "cip_code": "4901",
+  "cip_desc": "Air Transportation.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "4901-c2",
+  "earnings_median_4yr": 60932,
+  "earnings_median_5yr": 70318,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 0,
+  "debt_median": null,
+  "completers": 25,
+  "completers_single_year": 26,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 60932.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 70318.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 12000.0
+      },
+      {
+        "year": 2015,
+        "value": 19338.0
+      },
+      {
+        "year": 2016,
+        "value": 20000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 28.0
+      },
+      {
+        "year": 2015,
+        "value": 45.0
+      },
+      {
+        "year": 2016,
+        "value": 41.0
+      },
+      {
+        "year": 2017,
+        "value": 43.0
+      },
+      {
+        "year": 2018,
+        "value": 26.0
+      },
+      {
+        "year": 2019,
+        "value": 25.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2016,
+      "from_value": 12000.0,
+      "to_value": 20000.0,
+      "pct_change": 0.6666666666666666,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Air Transportation at Community College of Baltimore County rose 67% between 2014 and 2016 ($12.0k → $20.0k).",
+      "magnitude_pct": 66.7,
+      "magnitude_abs": 8000.0,
+      "baseline_year": 2014,
+      "recent_year": 2016,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "434672",
+    "slug": "community-college-of-baltimore-county-434672",
+    "name": "Community College of Baltimore County",
+    "city": "Baltimore",
+    "city_slug": "baltimore",
+    "control": "public"
+  },
+  "peers_in_state": [],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 8050,
+      "cost_total_default": 16100,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 70318,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "49",
+      "hs_baseline_state": 41100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 640759,
+      "breakeven_year": 3
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

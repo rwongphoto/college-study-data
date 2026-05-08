@@ -1,0 +1,758 @@
+{
+  "institution": {
+    "unitid": "461704",
+    "opeid6": "041774",
+    "name": "Capilo School of Hair Design",
+    "slug": "capilo-school-of-hair-design-461704",
+    "state": "me",
+    "city": "Augusta",
+    "city_slug": "augusta",
+    "zip5": "04330",
+    "address": "43 Bridge Street",
+    "latitude": 44.317693,
+    "longitude": -69.777717,
+    "control": "private_forprofit",
+    "pred_degree": "certificate",
+    "highest_degree": "certificate",
+    "main_campus": true,
+    "locale": "32",
+    "carnegie_basic": -2,
+    "sector_code": 9,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": 0.7379,
+    "completion_rate_100": 0.7172,
+    "retention_rate": 0.7927,
+    "admission_rate": null,
+    "enrollment_undergrad": 133,
+    "enrollment_total": null,
+    "cost_attendance": 23523,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": 18762,
+    "cost_by_income": {
+      "0_30k": 16924,
+      "30_48k": 18938,
+      "48_75k": 19167,
+      "75_110k": 22385,
+      "110k_plus": 22923,
+      "sticker": 23523,
+      "sector": "priv"
+    },
+    "median_debt": 6333,
+    "default_rate": 0.0,
+    "pell_share": 0.3405,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [
+        {
+          "year": 2011,
+          "value": 0.7222
+        },
+        {
+          "year": 2012,
+          "value": 0.7041
+        },
+        {
+          "year": 2013,
+          "value": 0.5472
+        },
+        {
+          "year": 2014,
+          "value": 0.6154
+        },
+        {
+          "year": 2015,
+          "value": 0.5946
+        },
+        {
+          "year": 2016,
+          "value": 0.6615
+        },
+        {
+          "year": 2017,
+          "value": 0.6462
+        },
+        {
+          "year": 2018,
+          "value": 0.7191
+        },
+        {
+          "year": 2019,
+          "value": 0.8776
+        },
+        {
+          "year": 2020,
+          "value": 0.8313
+        },
+        {
+          "year": 2021,
+          "value": 0.8846
+        },
+        {
+          "year": 2022,
+          "value": 0.8144
+        },
+        {
+          "year": 2023,
+          "value": 0.7927
+        },
+        {
+          "year": 2024,
+          "value": 0.9189
+        }
+      ],
+      "admission_rate": [],
+      "enrollment_undergrad": [
+        {
+          "year": 2011,
+          "value": 161.0
+        },
+        {
+          "year": 2012,
+          "value": 205.0
+        },
+        {
+          "year": 2013,
+          "value": 176.0
+        },
+        {
+          "year": 2014,
+          "value": 147.0
+        },
+        {
+          "year": 2015,
+          "value": 162.0
+        },
+        {
+          "year": 2016,
+          "value": 125.0
+        },
+        {
+          "year": 2017,
+          "value": 126.0
+        },
+        {
+          "year": 2018,
+          "value": 123.0
+        },
+        {
+          "year": 2019,
+          "value": 144.0
+        },
+        {
+          "year": 2020,
+          "value": 149.0
+        },
+        {
+          "year": 2021,
+          "value": 170.0
+        },
+        {
+          "year": 2022,
+          "value": 161.0
+        },
+        {
+          "year": 2023,
+          "value": 133.0
+        },
+        {
+          "year": 2024,
+          "value": 156.0
+        }
+      ],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [
+        {
+          "year": 2011,
+          "value": 12429.0
+        },
+        {
+          "year": 2012,
+          "value": 12958.0
+        },
+        {
+          "year": 2013,
+          "value": 16563.0
+        },
+        {
+          "year": 2014,
+          "value": 16498.0
+        },
+        {
+          "year": 2015,
+          "value": 16905.0
+        },
+        {
+          "year": 2016,
+          "value": 16891.0
+        },
+        {
+          "year": 2017,
+          "value": 20233.0
+        },
+        {
+          "year": 2018,
+          "value": 20007.0
+        },
+        {
+          "year": 2019,
+          "value": 20647.0
+        },
+        {
+          "year": 2020,
+          "value": 20263.0
+        },
+        {
+          "year": 2021,
+          "value": 19415.0
+        },
+        {
+          "year": 2022,
+          "value": 21809.0
+        },
+        {
+          "year": 2023,
+          "value": 23523.0
+        },
+        {
+          "year": 2024,
+          "value": 24155.0
+        }
+      ],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [
+        {
+          "year": 2011,
+          "value": 6261.0
+        },
+        {
+          "year": 2012,
+          "value": 6502.0
+        },
+        {
+          "year": 2013,
+          "value": 12765.0
+        },
+        {
+          "year": 2014,
+          "value": 12457.0
+        },
+        {
+          "year": 2015,
+          "value": 13065.0
+        },
+        {
+          "year": 2016,
+          "value": 12162.0
+        },
+        {
+          "year": 2017,
+          "value": 16248.0
+        },
+        {
+          "year": 2018,
+          "value": 16003.0
+        },
+        {
+          "year": 2019,
+          "value": 16239.0
+        },
+        {
+          "year": 2020,
+          "value": 15506.0
+        },
+        {
+          "year": 2021,
+          "value": 14708.0
+        },
+        {
+          "year": 2022,
+          "value": 17910.0
+        },
+        {
+          "year": 2023,
+          "value": 18762.0
+        },
+        {
+          "year": 2024,
+          "value": 18711.0
+        }
+      ],
+      "median_debt": [
+        {
+          "year": 2011,
+          "value": 6333.0
+        },
+        {
+          "year": 2012,
+          "value": 6500.0
+        },
+        {
+          "year": 2013,
+          "value": 8444.0
+        },
+        {
+          "year": 2014,
+          "value": 8444.0
+        },
+        {
+          "year": 2015,
+          "value": 7560.0
+        },
+        {
+          "year": 2016,
+          "value": 8444.0
+        },
+        {
+          "year": 2017,
+          "value": 8444.0
+        },
+        {
+          "year": 2018,
+          "value": 8444.0
+        },
+        {
+          "year": 2019,
+          "value": 8444.0
+        },
+        {
+          "year": 2020,
+          "value": 7700.0
+        }
+      ],
+      "default_rate": [
+        {
+          "year": 2011,
+          "value": 0.0
+        },
+        {
+          "year": 2012,
+          "value": 0.0
+        },
+        {
+          "year": 2013,
+          "value": 0.0
+        },
+        {
+          "year": 2014,
+          "value": 0.196
+        },
+        {
+          "year": 2015,
+          "value": 0.068
+        },
+        {
+          "year": 2016,
+          "value": 0.135
+        },
+        {
+          "year": 2017,
+          "value": 0.237
+        },
+        {
+          "year": 2018,
+          "value": 0.171
+        },
+        {
+          "year": 2019,
+          "value": 0.068
+        },
+        {
+          "year": 2020,
+          "value": 0.114
+        },
+        {
+          "year": 2021,
+          "value": 0.023
+        },
+        {
+          "year": 2022,
+          "value": 0.0
+        },
+        {
+          "year": 2023,
+          "value": 0.0
+        },
+        {
+          "year": 2024,
+          "value": 0.0
+        }
+      ],
+      "pell_share": [
+        {
+          "year": 2011,
+          "value": 0.2288
+        },
+        {
+          "year": 2012,
+          "value": 0.4856
+        },
+        {
+          "year": 2013,
+          "value": 0.4868
+        },
+        {
+          "year": 2014,
+          "value": 0.4519
+        },
+        {
+          "year": 2015,
+          "value": 0.5187
+        },
+        {
+          "year": 2016,
+          "value": 0.6094
+        },
+        {
+          "year": 2017,
+          "value": 0.4783
+        },
+        {
+          "year": 2018,
+          "value": 0.3892
+        },
+        {
+          "year": 2019,
+          "value": 0.5148
+        },
+        {
+          "year": 2020,
+          "value": 0.4753
+        },
+        {
+          "year": 2021,
+          "value": 0.414
+        },
+        {
+          "year": 2022,
+          "value": 0.3472
+        },
+        {
+          "year": 2023,
+          "value": 0.3405
+        },
+        {
+          "year": 2024,
+          "value": 0.4068
+        }
+      ],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "retention_rate",
+        "from_year": 2011,
+        "to_year": 2024,
+        "from_value": 0.7222,
+        "to_value": 0.9189,
+        "pct_change": 0.2723622265300472,
+        "direction": "rose"
+      },
+      {
+        "metric": "median_debt",
+        "from_year": 2011,
+        "to_year": 2020,
+        "from_value": 6333.0,
+        "to_value": 7700.0,
+        "pct_change": 0.21585346597189325,
+        "direction": "rose"
+      },
+      {
+        "metric": "pell_share",
+        "from_year": 2011,
+        "to_year": 2024,
+        "from_value": 0.2288,
+        "to_value": 0.4068,
+        "pct_change": 0.7779720279720279,
+        "direction": "rose"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "3-year cohort default rate",
+        "summary": "3-year cohort default rate at Capilo School of Hair Design fell 100% between 2021 and 2024 (2.3% → 0.0%).",
+        "magnitude_pct": -100.0,
+        "magnitude_abs": -0.02,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": "%",
+        "history": [],
+        "metric": "default_rate"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "12": [
+      {
+        "slug": "1204-c1",
+        "cip_code": "1204",
+        "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": 24039,
+        "earnings_median_4yr": 23039,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 24039.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 23039.0
+          }
+        ],
+        "debt_median": 8444,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 7833.0
+          },
+          {
+            "year": 2015,
+            "value": 8444.0
+          },
+          {
+            "year": 2016,
+            "value": 8444.0
+          },
+          {
+            "year": 2017,
+            "value": 8444.0
+          },
+          {
+            "year": 2018,
+            "value": 8444.0
+          }
+        ],
+        "completers": 146,
+        "completers_single_year": 97,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 91.0
+          },
+          {
+            "year": 2015,
+            "value": 77.0
+          },
+          {
+            "year": 2016,
+            "value": 86.0
+          },
+          {
+            "year": 2017,
+            "value": 108.0
+          },
+          {
+            "year": 2018,
+            "value": 97.0
+          },
+          {
+            "year": 2019,
+            "value": 146.0
+          }
+        ],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "1204-c1",
+      "cip_code": "1204",
+      "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": 24039,
+      "earnings_median_4yr": 23039,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 24039.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 23039.0
+        }
+      ],
+      "debt_median": 8444,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 7833.0
+        },
+        {
+          "year": 2015,
+          "value": 8444.0
+        },
+        {
+          "year": 2016,
+          "value": 8444.0
+        },
+        {
+          "year": 2017,
+          "value": 8444.0
+        },
+        {
+          "year": 2018,
+          "value": 8444.0
+        }
+      ],
+      "completers": 146,
+      "completers_single_year": 97,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 91.0
+        },
+        {
+          "year": 2015,
+          "value": 77.0
+        },
+        {
+          "year": 2016,
+          "value": 86.0
+        },
+        {
+          "year": 2017,
+          "value": 108.0
+        },
+        {
+          "year": 2018,
+          "value": 97.0
+        },
+        {
+          "year": 2019,
+          "value": 146.0
+        }
+      ],
+      "long_arc": []
+    }
+  ],
+  "program_count": 1,
+  "similar": [
+    {
+      "slug": "empire-beauty-school-maine-161493",
+      "name": "Empire Beauty School-Maine",
+      "city": "Portland",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 23925,
+      "completion_rate_150": 0.6395,
+      "enrollment_undergrad": 118
+    },
+    {
+      "slug": "spa-tech-institute-westbrook-161527",
+      "name": "Spa Tech Institute-Westbrook",
+      "city": "Westbrook",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 27803,
+      "completion_rate_150": 0.8642,
+      "enrollment_undergrad": 261
+    },
+    {
+      "slug": "northeast-technical-institute-461962",
+      "name": "Northeast Technical Institute",
+      "city": "Scarborough",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.8073,
+      "enrollment_undergrad": 274
+    },
+    {
+      "slug": "beal-university-160995",
+      "name": "Beal University",
+      "city": "Bangor",
+      "control": "private_forprofit",
+      "pred_degree": "associates",
+      "earnings_median_10yr": 35639,
+      "completion_rate_150": 0.3415,
+      "enrollment_undergrad": 503
+    },
+    {
+      "slug": "the-landing-school-161208",
+      "name": "The Landing School",
+      "city": "Arundel",
+      "control": "private_nonprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 65849,
+      "completion_rate_150": 1.0,
+      "enrollment_undergrad": 43
+    }
+  ],
+  "roi": {
+    "default_program_slug": "1204-c1",
+    "programs_available": [
+      {
+        "slug": "1204-c1",
+        "label": "Cosmetology and Related Personal Grooming Services · Undergraduate Certificate or Diploma",
+        "cip_family": "12",
+        "completers": 146,
+        "has_earnings": true,
+        "earnings_at_completion": 24039,
+        "earnings_anchor_year": 5,
+        "debt_median": 8444,
+        "years_to_complete": 1,
+        "default_result": {
+          "npv": -233669,
+          "breakeven_year": null
+        }
+      }
+    ]
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

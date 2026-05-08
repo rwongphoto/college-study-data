@@ -1,0 +1,194 @@
+{
+  "institution_unitid": "215770",
+  "institution_name": "Saint Joseph's University",
+  "institution_slug": "saint-joseph-s-university-215770",
+  "state": "pa",
+  "cip_code": "5217",
+  "cip_desc": "Insurance.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5217-c3",
+  "earnings_median_4yr": 78262,
+  "earnings_median_5yr": 99980,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 1,
+  "debt_median": 21500,
+  "completers": 52,
+  "completers_single_year": 82,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 78262.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 99980.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 23000.0
+      },
+      {
+        "year": 2015,
+        "value": 23750.0
+      },
+      {
+        "year": 2016,
+        "value": 26956.0
+      },
+      {
+        "year": 2017,
+        "value": 26000.0
+      },
+      {
+        "year": 2018,
+        "value": 21500.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 35.0
+      },
+      {
+        "year": 2015,
+        "value": 43.0
+      },
+      {
+        "year": 2016,
+        "value": 52.0
+      },
+      {
+        "year": 2017,
+        "value": 50.0
+      },
+      {
+        "year": 2018,
+        "value": 82.0
+      },
+      {
+        "year": 2019,
+        "value": 52.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "215770",
+    "slug": "saint-joseph-s-university-215770",
+    "name": "Saint Joseph's University",
+    "city": "Philadelphia",
+    "city_slug": "philadelphia",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "temple-university-216339",
+      "institution_name": "Temple University",
+      "earnings_median_5yr": 94228,
+      "earnings_median_4yr": 78623,
+      "debt_median": 24750,
+      "completers": 159,
+      "completers_single_year": 161,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "gannon-university-212601",
+      "institution_name": "Gannon University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mercyhurst-university-213987",
+      "institution_name": "Mercyhurst University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-pennsylvania-215062",
+      "institution_name": "University of Pennsylvania",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 33514,
+      "cost_total_default": 134056,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 99980,
+      "earnings_anchor_year": 5,
+      "debt_median": 21500,
+      "cip_family": "52",
+      "hs_baseline_state": 38100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 1072754,
+      "breakeven_year": 7
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

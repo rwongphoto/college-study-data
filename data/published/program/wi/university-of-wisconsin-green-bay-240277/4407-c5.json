@@ -1,0 +1,204 @@
+{
+  "institution_unitid": "240277",
+  "institution_name": "University of Wisconsin-Green Bay",
+  "institution_slug": "university-of-wisconsin-green-bay-240277",
+  "state": "wi",
+  "cip_code": "4407",
+  "cip_desc": "Social Work.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "4407-c5",
+  "earnings_median_4yr": 55484,
+  "earnings_median_5yr": 57859,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 0,
+  "debt_median": 20500,
+  "completers": 59,
+  "completers_single_year": 60,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 55484.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 57859.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 20500.0
+      },
+      {
+        "year": 2015,
+        "value": 20500.0
+      },
+      {
+        "year": 2016,
+        "value": 26049.0
+      },
+      {
+        "year": 2017,
+        "value": 30500.0
+      },
+      {
+        "year": 2018,
+        "value": 20500.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 44.0
+      },
+      {
+        "year": 2015,
+        "value": 53.0
+      },
+      {
+        "year": 2016,
+        "value": 44.0
+      },
+      {
+        "year": 2017,
+        "value": 57.0
+      },
+      {
+        "year": 2018,
+        "value": 60.0
+      },
+      {
+        "year": 2019,
+        "value": 59.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "240277",
+    "slug": "university-of-wisconsin-green-bay-240277",
+    "name": "University of Wisconsin-Green Bay",
+    "city": "Green Bay",
+    "city_slug": "green-bay",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-wisconsin-milwaukee-240453",
+      "institution_name": "University of Wisconsin-Milwaukee",
+      "earnings_median_5yr": 64971,
+      "earnings_median_4yr": 57498,
+      "debt_median": 30750,
+      "completers": 174,
+      "completers_single_year": 129,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-madison-240444",
+      "institution_name": "University of Wisconsin-Madison",
+      "earnings_median_5yr": 63642,
+      "earnings_median_4yr": 55907,
+      "debt_median": 29000,
+      "completers": 133,
+      "completers_single_year": 167,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-oshkosh-240365",
+      "institution_name": "University of Wisconsin-Oshkosh",
+      "earnings_median_5yr": 61465,
+      "earnings_median_4yr": 58643,
+      "debt_median": 19712,
+      "completers": 19,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "concordia-university-wisconsin-238616",
+      "institution_name": "Concordia University-Wisconsin",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-whitewater-240189",
+      "institution_name": "University of Wisconsin-Whitewater",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 20500,
+      "completers": 39,
+      "completers_single_year": 27,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 11231,
+      "cost_total_default": 67386,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 57859,
+      "earnings_anchor_year": 5,
+      "debt_median": 20500,
+      "cip_family": "44",
+      "hs_baseline_state": 37100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 271624,
+      "breakeven_year": 15
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

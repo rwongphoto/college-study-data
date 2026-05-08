@@ -1,0 +1,231 @@
+{
+  "institution_unitid": "126818",
+  "institution_name": "Colorado State University-Fort Collins",
+  "institution_slug": "colorado-state-university-fort-collins-126818",
+  "state": "co",
+  "cip_code": "5009",
+  "cip_desc": "Music.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5009-c5",
+  "earnings_median_4yr": 46119,
+  "earnings_median_5yr": 51593,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 2,
+  "debt_median": 40506,
+  "completers": 53,
+  "completers_single_year": 65,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 46119.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 51593.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 32490.0
+      },
+      {
+        "year": 2015,
+        "value": 32500.0
+      },
+      {
+        "year": 2016,
+        "value": 37011.0
+      },
+      {
+        "year": 2017,
+        "value": 38844.0
+      },
+      {
+        "year": 2018,
+        "value": 40506.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 69.0
+      },
+      {
+        "year": 2015,
+        "value": 46.0
+      },
+      {
+        "year": 2016,
+        "value": 58.0
+      },
+      {
+        "year": 2017,
+        "value": 47.0
+      },
+      {
+        "year": 2018,
+        "value": 65.0
+      },
+      {
+        "year": 2019,
+        "value": 53.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 32490.0,
+      "to_value": 40506.0,
+      "pct_change": 0.24672206832871652,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 10.5% at Music at Colorado State University-Fort Collins exceeds the 8% gainful-employment threshold ($40.5k debt amortized over 10 years vs $51.6k earnings).",
+      "magnitude_pct": 10.5,
+      "magnitude_abs": 2.5,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    },
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Music at Colorado State University-Fort Collins rose 25% between 2014 and 2018 ($32.5k → $40.5k).",
+      "magnitude_pct": 24.7,
+      "magnitude_abs": 8016.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "126818",
+    "slug": "colorado-state-university-fort-collins-126818",
+    "name": "Colorado State University-Fort Collins",
+    "city": "Fort Collins",
+    "city_slug": "fort-collins",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-northern-colorado-127741",
+      "institution_name": "University of Northern Colorado",
+      "earnings_median_5yr": 47769,
+      "earnings_median_4yr": 48888,
+      "debt_median": 38046,
+      "completers": 33,
+      "completers_single_year": 36,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-colorado-boulder-126614",
+      "institution_name": "University of Colorado Boulder",
+      "earnings_median_5yr": 36214,
+      "earnings_median_4yr": 41316,
+      "debt_median": 41000,
+      "completers": 47,
+      "completers_single_year": 46,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-denver-127060",
+      "institution_name": "University of Denver",
+      "earnings_median_5yr": 25803,
+      "earnings_median_4yr": null,
+      "debt_median": 41000,
+      "completers": 38,
+      "completers_single_year": 32,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-colorado-denver-anschutz-medical-campus-126562",
+      "institution_name": "University of Colorado Denver/Anschutz Medical Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 14611,
+      "cost_total_default": 87666,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 51593,
+      "earnings_anchor_year": 5,
+      "debt_median": 40506,
+      "cip_family": "50",
+      "hs_baseline_state": 40100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 19537,
+      "breakeven_year": 33
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

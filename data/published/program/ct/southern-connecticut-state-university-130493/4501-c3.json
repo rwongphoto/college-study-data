@@ -1,0 +1,189 @@
+{
+  "institution_unitid": "130493",
+  "institution_name": "Southern Connecticut State University",
+  "institution_slug": "southern-connecticut-state-university-130493",
+  "state": "ct",
+  "cip_code": "4501",
+  "cip_desc": "Social Sciences, General.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "4501-c3",
+  "earnings_median_4yr": 46757,
+  "earnings_median_5yr": 49090,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": null,
+  "completers": null,
+  "completers_single_year": null,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 46757.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 49090.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 20250.0
+      },
+      {
+        "year": 2015,
+        "value": 25000.0
+      },
+      {
+        "year": 2016,
+        "value": 26625.0
+      },
+      {
+        "year": 2017,
+        "value": 27000.0
+      }
+    ],
+    "completers": []
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2017,
+      "from_value": 20250.0,
+      "to_value": 27000.0,
+      "pct_change": 0.3333333333333333,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Social Sciences, General at Southern Connecticut State University rose 33% between 2014 and 2017 ($20.2k → $27.0k).",
+      "magnitude_pct": 33.3,
+      "magnitude_abs": 6750.0,
+      "baseline_year": 2014,
+      "recent_year": 2017,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "130493",
+    "slug": "southern-connecticut-state-university-130493",
+    "name": "Southern Connecticut State University",
+    "city": "New Haven",
+    "city_slug": "new-haven",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-bridgeport-128744",
+      "institution_name": "University of Bridgeport",
+      "earnings_median_5yr": 66991,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "albertus-magnus-college-128498",
+      "institution_name": "Albertus Magnus College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "holy-apostles-college-and-seminary-129534",
+      "institution_name": "Holy Apostles College and Seminary",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-connecticut-state-university-130776",
+      "institution_name": "Western Connecticut State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 18938,
+      "cost_total_default": 75752,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 49090,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "45",
+      "hs_baseline_state": 42300
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 27161,
+      "breakeven_year": 32
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

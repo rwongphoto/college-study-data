@@ -1,0 +1,184 @@
+{
+  "institution_unitid": "180063",
+  "institution_name": "Butte Academy of Beauty Culture",
+  "institution_slug": "butte-academy-of-beauty-culture-180063",
+  "state": "mt",
+  "cip_code": "1204",
+  "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "1204-c1",
+  "earnings_median_4yr": 22749,
+  "earnings_median_5yr": 19863,
+  "earnings_count_4yr": 5,
+  "earnings_count_5yr": 5,
+  "debt_median": 8125,
+  "completers": 14,
+  "completers_single_year": 20,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 22749.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 19863.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 9500.0
+      },
+      {
+        "year": 2015,
+        "value": 8685.0
+      },
+      {
+        "year": 2016,
+        "value": 8717.0
+      },
+      {
+        "year": 2017,
+        "value": 9500.0
+      },
+      {
+        "year": 2018,
+        "value": 8125.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 18.0
+      },
+      {
+        "year": 2015,
+        "value": 22.0
+      },
+      {
+        "year": 2016,
+        "value": 19.0
+      },
+      {
+        "year": 2017,
+        "value": 23.0
+      },
+      {
+        "year": 2018,
+        "value": 20.0
+      },
+      {
+        "year": 2019,
+        "value": 14.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "180063",
+    "slug": "butte-academy-of-beauty-culture-180063",
+    "name": "Butte Academy of Beauty Culture",
+    "city": "Butte",
+    "city_slug": "butte",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "montana-academy-of-salons-457749",
+      "institution_name": "Montana Academy of Salons",
+      "earnings_median_5yr": 27567,
+      "earnings_median_4yr": 23218,
+      "debt_median": 10292,
+      "completers": 73,
+      "completers_single_year": 51,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "crevier-s-academy-of-cosmetology-arts-180090",
+      "institution_name": "Crevier's Academy of Cosmetology Arts",
+      "earnings_median_5yr": 14828,
+      "earnings_median_4yr": 15706,
+      "debt_median": 9009,
+      "completers": 56,
+      "completers_single_year": 57,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "academy-of-cosmetology-inc-179991",
+      "institution_name": "Academy of Cosmetology Inc",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 6000,
+      "completers": 22,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 5,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 13052,
+      "cost_total_default": 13052,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 19863,
+      "earnings_anchor_year": 5,
+      "debt_median": 8125,
+      "cip_family": "12",
+      "hs_baseline_state": 35800
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -312007,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

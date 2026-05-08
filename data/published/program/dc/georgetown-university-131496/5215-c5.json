@@ -1,0 +1,188 @@
+{
+  "institution_unitid": "131496",
+  "institution_name": "Georgetown University",
+  "institution_slug": "georgetown-university-131496",
+  "state": "dc",
+  "cip_code": "5215",
+  "cip_desc": "Real Estate.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5215-c5",
+  "earnings_median_4yr": 137055,
+  "earnings_median_5yr": 149608,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 6,
+  "debt_median": 43099,
+  "completers": 169,
+  "completers_single_year": 157,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 137055.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 149608.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 35357.0
+      },
+      {
+        "year": 2015,
+        "value": 34925.0
+      },
+      {
+        "year": 2016,
+        "value": 37940.0
+      },
+      {
+        "year": 2017,
+        "value": 40288.0
+      },
+      {
+        "year": 2018,
+        "value": 43099.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 98.0
+      },
+      {
+        "year": 2015,
+        "value": 131.0
+      },
+      {
+        "year": 2016,
+        "value": 178.0
+      },
+      {
+        "year": 2017,
+        "value": 165.0
+      },
+      {
+        "year": 2018,
+        "value": 157.0
+      },
+      {
+        "year": 2019,
+        "value": 169.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 35357.0,
+      "to_value": 43099.0,
+      "pct_change": 0.21896654127895465,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Real Estate at Georgetown University rose 22% between 2014 and 2018 ($35.4k → $43.1k).",
+      "magnitude_pct": 21.9,
+      "magnitude_abs": 7742.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "131496",
+    "slug": "georgetown-university-131496",
+    "name": "Georgetown University",
+    "city": "Washington",
+    "city_slug": "washington",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "american-university-131159",
+      "institution_name": "American University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 6,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 13464,
+      "cost_total_default": 80784,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 149608,
+      "earnings_anchor_year": 5,
+      "debt_median": 43099,
+      "cip_family": "52",
+      "hs_baseline_state": 47200
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 1636335,
+      "breakeven_year": 7
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

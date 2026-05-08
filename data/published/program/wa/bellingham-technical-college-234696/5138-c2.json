@@ -1,0 +1,480 @@
+{
+  "institution_unitid": "234696",
+  "institution_name": "Bellingham Technical College",
+  "institution_slug": "bellingham-technical-college-234696",
+  "state": "wa",
+  "cip_code": "5138",
+  "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "5138-c2",
+  "earnings_median_4yr": 72909,
+  "earnings_median_5yr": 85195,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 1,
+  "debt_median": null,
+  "completers": 72,
+  "completers_single_year": 56,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 72909.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 85195.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 19769.0
+      },
+      {
+        "year": 2015,
+        "value": 19000.0
+      },
+      {
+        "year": 2016,
+        "value": 12750.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 73.0
+      },
+      {
+        "year": 2015,
+        "value": 59.0
+      },
+      {
+        "year": 2016,
+        "value": 54.0
+      },
+      {
+        "year": 2017,
+        "value": 56.0
+      },
+      {
+        "year": 2018,
+        "value": 56.0
+      },
+      {
+        "year": 2019,
+        "value": 72.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2016,
+      "from_value": 19769.0,
+      "to_value": 12750.0,
+      "pct_change": -0.35505083716930547,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing at Bellingham Technical College fell 36% between 2014 and 2016 ($19.8k → $12.8k).",
+      "magnitude_pct": -35.5,
+      "magnitude_abs": -7019.0,
+      "baseline_year": 2014,
+      "recent_year": 2016,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "234696",
+    "slug": "bellingham-technical-college-234696",
+    "name": "Bellingham Technical College",
+    "city": "Bellingham",
+    "city_slug": "bellingham",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "renton-technical-college-236382",
+      "institution_name": "Renton Technical College",
+      "earnings_median_5yr": 94790,
+      "earnings_median_4yr": 85561,
+      "debt_median": null,
+      "completers": 19,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "everett-community-college-235149",
+      "institution_name": "Everett Community College",
+      "earnings_median_5yr": 91876,
+      "earnings_median_4yr": 79872,
+      "debt_median": 15000,
+      "completers": 130,
+      "completers_single_year": 101,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lower-columbia-college-235750",
+      "institution_name": "Lower Columbia College",
+      "earnings_median_5yr": 88483,
+      "earnings_median_4yr": 82231,
+      "debt_median": 10035,
+      "completers": 111,
+      "completers_single_year": 109,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lake-washington-institute-of-technology-235699",
+      "institution_name": "Lake Washington Institute of Technology",
+      "earnings_median_5yr": 87749,
+      "earnings_median_4yr": 80149,
+      "debt_median": 13986,
+      "completers": 70,
+      "completers_single_year": 85,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "shoreline-community-college-236610",
+      "institution_name": "Shoreline Community College",
+      "earnings_median_5yr": 87153,
+      "earnings_median_4yr": 77722,
+      "debt_median": 15997,
+      "completers": 96,
+      "completers_single_year": 90,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "highline-college-235431",
+      "institution_name": "Highline College",
+      "earnings_median_5yr": 87066,
+      "earnings_median_4yr": 73197,
+      "debt_median": 12950,
+      "completers": 142,
+      "completers_single_year": 79,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wenatchee-valley-college-236975",
+      "institution_name": "Wenatchee Valley College",
+      "earnings_median_5yr": 83466,
+      "earnings_median_4yr": 72190,
+      "debt_median": 13363,
+      "completers": 52,
+      "completers_single_year": 60,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "north-seattle-college-236072",
+      "institution_name": "North Seattle College",
+      "earnings_median_5yr": 82654,
+      "earnings_median_4yr": 77866,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "tacoma-community-college-236753",
+      "institution_name": "Tacoma Community College",
+      "earnings_median_5yr": 81839,
+      "earnings_median_4yr": 69372,
+      "debt_median": 13000,
+      "completers": 97,
+      "completers_single_year": 99,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "olympic-college-236188",
+      "institution_name": "Olympic College",
+      "earnings_median_5yr": 81797,
+      "earnings_median_4yr": 71345,
+      "debt_median": 16991,
+      "completers": 83,
+      "completers_single_year": 47,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "yakima-valley-college-237109",
+      "institution_name": "Yakima Valley College",
+      "earnings_median_5yr": 81440,
+      "earnings_median_4yr": 73417,
+      "debt_median": 14000,
+      "completers": 57,
+      "completers_single_year": 55,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "clark-college-234933",
+      "institution_name": "Clark College",
+      "earnings_median_5yr": 80943,
+      "earnings_median_4yr": 76599,
+      "debt_median": 9823,
+      "completers": 87,
+      "completers_single_year": 90,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "spokane-community-college-236692",
+      "institution_name": "Spokane Community College",
+      "earnings_median_5yr": 80308,
+      "earnings_median_4yr": 72036,
+      "debt_median": 17658,
+      "completers": 88,
+      "completers_single_year": 87,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "columbia-basin-college-234979",
+      "institution_name": "Columbia Basin College",
+      "earnings_median_5yr": 79073,
+      "earnings_median_4yr": 73626,
+      "debt_median": 11000,
+      "completers": 50,
+      "completers_single_year": 53,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pierce-college-district-235237",
+      "institution_name": "Pierce College District",
+      "earnings_median_5yr": 78911,
+      "earnings_median_4yr": 61348,
+      "debt_median": null,
+      "completers": 60,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bellevue-college-234669",
+      "institution_name": "Bellevue College",
+      "earnings_median_5yr": 78748,
+      "earnings_median_4yr": 74174,
+      "debt_median": 16000,
+      "completers": 86,
+      "completers_single_year": 56,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "walla-walla-community-college-236887",
+      "institution_name": "Walla Walla Community College",
+      "earnings_median_5yr": 77492,
+      "earnings_median_4yr": 70697,
+      "debt_median": 15868,
+      "completers": 92,
+      "completers_single_year": 111,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "skagit-valley-college-236638",
+      "institution_name": "Skagit Valley College",
+      "earnings_median_5yr": 76797,
+      "earnings_median_4yr": 66978,
+      "debt_median": 19000,
+      "completers": 55,
+      "completers_single_year": 54,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "centralia-college-234845",
+      "institution_name": "Centralia College",
+      "earnings_median_5yr": 75288,
+      "earnings_median_4yr": 80327,
+      "debt_median": null,
+      "completers": 23,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "grays-harbor-college-235334",
+      "institution_name": "Grays Harbor College",
+      "earnings_median_5yr": 73851,
+      "earnings_median_4yr": 69993,
+      "debt_median": 12500,
+      "completers": 27,
+      "completers_single_year": 27,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "whatcom-community-college-237039",
+      "institution_name": "Whatcom Community College",
+      "earnings_median_5yr": 73022,
+      "earnings_median_4yr": 64455,
+      "debt_median": null,
+      "completers": 29,
+      "completers_single_year": 30,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "peninsula-college-236258",
+      "institution_name": "Peninsula College",
+      "earnings_median_5yr": 70691,
+      "earnings_median_4yr": 66802,
+      "debt_median": 15510,
+      "completers": 29,
+      "completers_single_year": 30,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "south-puget-sound-community-college-236656",
+      "institution_name": "South Puget Sound Community College",
+      "earnings_median_5yr": 64862,
+      "earnings_median_4yr": 56345,
+      "debt_median": 19663,
+      "completers": 30,
+      "completers_single_year": 38,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "big-bend-community-college-234711",
+      "institution_name": "Big Bend Community College",
+      "earnings_median_5yr": 60622,
+      "earnings_median_4yr": 61753,
+      "debt_median": null,
+      "completers": 18,
+      "completers_single_year": 22,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "clover-park-technical-college-234951",
+      "institution_name": "Clover Park Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "edmonds-college-235103",
+      "institution_name": "Edmonds College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "heritage-university-235422",
+      "institution_name": "Heritage University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "south-seattle-college-236504",
+      "institution_name": "South Seattle College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "seattle-central-college-236513",
+      "institution_name": "Seattle Central College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 12457,
+      "completers": 145,
+      "completers_single_year": 77,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "spokane-falls-community-college-236708",
+      "institution_name": "Spokane Falls Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cascadia-college-439190",
+      "institution_name": "Cascadia College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 7399,
+      "cost_total_default": 14798,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 85195,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "51",
+      "hs_baseline_state": 41200
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 933241,
+      "breakeven_year": 2
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

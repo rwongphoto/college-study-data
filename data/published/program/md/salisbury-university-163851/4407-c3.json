@@ -1,0 +1,244 @@
+{
+  "institution_unitid": "163851",
+  "institution_name": "Salisbury University",
+  "institution_slug": "salisbury-university-163851",
+  "state": "md",
+  "cip_code": "4407",
+  "cip_desc": "Social Work.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "4407-c3",
+  "earnings_median_4yr": 51043,
+  "earnings_median_5yr": 56449,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 2,
+  "debt_median": 22250,
+  "completers": 128,
+  "completers_single_year": 137,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 51043.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 56449.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 22300.0
+      },
+      {
+        "year": 2015,
+        "value": 22246.0
+      },
+      {
+        "year": 2016,
+        "value": 20500.0
+      },
+      {
+        "year": 2017,
+        "value": 21879.0
+      },
+      {
+        "year": 2018,
+        "value": 22250.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 136.0
+      },
+      {
+        "year": 2015,
+        "value": 135.0
+      },
+      {
+        "year": 2016,
+        "value": 116.0
+      },
+      {
+        "year": 2017,
+        "value": 131.0
+      },
+      {
+        "year": 2018,
+        "value": 137.0
+      },
+      {
+        "year": 2019,
+        "value": 128.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "163851",
+    "slug": "salisbury-university-163851",
+    "name": "Salisbury University",
+    "city": "Salisbury",
+    "city_slug": "salisbury",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-maryland-baltimore-county-163268",
+      "institution_name": "University of Maryland-Baltimore County",
+      "earnings_median_5yr": 59755,
+      "earnings_median_4yr": 52571,
+      "debt_median": 19223,
+      "completers": 86,
+      "completers_single_year": 112,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mcdaniel-college-164270",
+      "institution_name": "McDaniel College",
+      "earnings_median_5yr": 56787,
+      "earnings_median_4yr": 50559,
+      "debt_median": 20110,
+      "completers": 18,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bowie-state-university-162007",
+      "institution_name": "Bowie State University",
+      "earnings_median_5yr": 56184,
+      "earnings_median_4yr": 51598,
+      "debt_median": 23500,
+      "completers": 25,
+      "completers_single_year": 41,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "morgan-state-university-163453",
+      "institution_name": "Morgan State University",
+      "earnings_median_5yr": 53559,
+      "earnings_median_4yr": 49525,
+      "debt_median": 31254,
+      "completers": 56,
+      "completers_single_year": 61,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "coppin-state-university-162283",
+      "institution_name": "Coppin State University",
+      "earnings_median_5yr": 52129,
+      "earnings_median_4yr": 44797,
+      "debt_median": 25000,
+      "completers": 26,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hood-college-162760",
+      "institution_name": "Hood College",
+      "earnings_median_5yr": 48777,
+      "earnings_median_4yr": 45833,
+      "debt_median": 22125,
+      "completers": 11,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "washington-adventist-university-162210",
+      "institution_name": "Washington Adventist University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "frostburg-state-university-162584",
+      "institution_name": "Frostburg State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 19750,
+      "completers": 20,
+      "completers_single_year": 22,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-maryland-global-campus-163204",
+      "institution_name": "University of Maryland Global Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 14904,
+      "cost_total_default": 59616,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 56449,
+      "earnings_anchor_year": 5,
+      "debt_median": 22250,
+      "cip_family": "44",
+      "hs_baseline_state": 41100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 244138,
+      "breakeven_year": 14
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

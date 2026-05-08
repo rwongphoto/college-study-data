@@ -1,0 +1,195 @@
+{
+  "institution_unitid": "490230",
+  "institution_name": "Reformed University",
+  "institution_slug": "reformed-university-490230",
+  "state": "ga",
+  "cip_code": "3906",
+  "cip_desc": "Theological and Ministerial Studies.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "3906-c5",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": null,
+  "earnings_count_5yr": null,
+  "debt_median": null,
+  "completers": 0,
+  "completers_single_year": 0,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [],
+    "completers": [
+      {
+        "year": 2015,
+        "value": 0.0
+      },
+      {
+        "year": 2016,
+        "value": 1.0
+      },
+      {
+        "year": 2017,
+        "value": 0.0
+      },
+      {
+        "year": 2018,
+        "value": 0.0
+      },
+      {
+        "year": 2019,
+        "value": 0.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "490230",
+    "slug": "reformed-university-490230",
+    "name": "Reformed University",
+    "city": "Lawrenceville",
+    "city_slug": "lawrenceville",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "emory-university-139658",
+      "institution_name": "Emory University",
+      "earnings_median_5yr": 60697,
+      "earnings_median_4yr": 54099,
+      "debt_median": 58657,
+      "completers": 115,
+      "completers_single_year": 97,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "luther-rice-college-seminary-135364",
+      "institution_name": "Luther Rice College & Seminary",
+      "earnings_median_5yr": 58016,
+      "earnings_median_4yr": 47279,
+      "debt_median": 41000,
+      "completers": 89,
+      "completers_single_year": 95,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mercer-university-140447",
+      "institution_name": "Mercer University",
+      "earnings_median_5yr": 52057,
+      "earnings_median_4yr": 47579,
+      "debt_median": 71061,
+      "completers": 21,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "interdenominational-theological-center-140146",
+      "institution_name": "Interdenominational Theological Center",
+      "earnings_median_5yr": 41598,
+      "earnings_median_4yr": 37215,
+      "debt_median": 82000,
+      "completers": 41,
+      "completers_single_year": 40,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "point-university-138868",
+      "institution_name": "Point University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "beulah-heights-university-139153",
+      "institution_name": "Beulah Heights University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "columbia-theological-seminary-139348",
+      "institution_name": "Columbia Theological Seminary",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 51742,
+      "debt_median": 37354,
+      "completers": 56,
+      "completers_single_year": 49,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "truett-mcconnell-university-141237",
+      "institution_name": "Truett McConnell University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": null,
+      "cost_total_default": null,
+      "cost_source": null,
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "39"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

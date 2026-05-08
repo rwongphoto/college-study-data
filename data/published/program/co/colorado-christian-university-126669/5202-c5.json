@@ -1,0 +1,318 @@
+{
+  "institution_unitid": "126669",
+  "institution_name": "Colorado Christian University",
+  "institution_slug": "colorado-christian-university-126669",
+  "state": "co",
+  "cip_code": "5202",
+  "cip_desc": "Business Administration, Management and Operations.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5202-c5",
+  "earnings_median_4yr": 68423,
+  "earnings_median_5yr": 76412,
+  "earnings_count_4yr": 6,
+  "earnings_count_5yr": 3,
+  "debt_median": 31387,
+  "completers": 59,
+  "completers_single_year": 81,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 68423.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 76412.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 47009.0
+      },
+      {
+        "year": 2015,
+        "value": 40576.0
+      },
+      {
+        "year": 2016,
+        "value": 32362.0
+      },
+      {
+        "year": 2017,
+        "value": 30084.0
+      },
+      {
+        "year": 2018,
+        "value": 31387.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 59.0
+      },
+      {
+        "year": 2015,
+        "value": 67.0
+      },
+      {
+        "year": 2016,
+        "value": 92.0
+      },
+      {
+        "year": 2017,
+        "value": 69.0
+      },
+      {
+        "year": 2018,
+        "value": 81.0
+      },
+      {
+        "year": 2019,
+        "value": 59.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 47009.0,
+      "to_value": 31387.0,
+      "pct_change": -0.3323193431045119,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Business Administration, Management and Operations at Colorado Christian University fell 33% between 2014 and 2018 ($47.0k → $31.4k).",
+      "magnitude_pct": -33.2,
+      "magnitude_abs": -15622.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "126669",
+    "slug": "colorado-christian-university-126669",
+    "name": "Colorado Christian University",
+    "city": "Lakewood",
+    "city_slug": "lakewood",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-colorado-denver-anschutz-medical-campus-126562",
+      "institution_name": "University of Colorado Denver/Anschutz Medical Campus",
+      "earnings_median_5yr": 129535,
+      "earnings_median_4yr": 108741,
+      "debt_median": 56311,
+      "completers": 226,
+      "completers_single_year": 257,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "colorado-state-university-fort-collins-126818",
+      "institution_name": "Colorado State University-Fort Collins",
+      "earnings_median_5yr": 123668,
+      "earnings_median_4yr": 111139,
+      "debt_median": 42118,
+      "completers": 313,
+      "completers_single_year": 264,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-colorado-boulder-126614",
+      "institution_name": "University of Colorado Boulder",
+      "earnings_median_5yr": 114292,
+      "earnings_median_4yr": 103505,
+      "debt_median": 41000,
+      "completers": 261,
+      "completers_single_year": 253,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "colorado-state-university-global-476975",
+      "institution_name": "Colorado State University Global",
+      "earnings_median_5yr": 107649,
+      "earnings_median_4yr": 102082,
+      "debt_median": 46548,
+      "completers": 91,
+      "completers_single_year": 99,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-colorado-colorado-springs-126580",
+      "institution_name": "University of Colorado Colorado Springs",
+      "earnings_median_5yr": 97672,
+      "earnings_median_4yr": 84077,
+      "debt_median": 36448,
+      "completers": 123,
+      "completers_single_year": 101,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "regis-university-127918",
+      "institution_name": "Regis University",
+      "earnings_median_5yr": 97171,
+      "earnings_median_4yr": 83665,
+      "debt_median": 41000,
+      "completers": 177,
+      "completers_single_year": 252,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-denver-127060",
+      "institution_name": "University of Denver",
+      "earnings_median_5yr": 86125,
+      "earnings_median_4yr": 73662,
+      "debt_median": 38803,
+      "completers": 155,
+      "completers_single_year": 98,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "colorado-technical-university-colorado-springs-126827",
+      "institution_name": "Colorado Technical University-Colorado Springs",
+      "earnings_median_5yr": 61400,
+      "earnings_median_4yr": 54528,
+      "debt_median": 40236,
+      "completers": 950,
+      "completers_single_year": 1016,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "adams-state-university-126182",
+      "institution_name": "Adams State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 31166,
+      "completers": 33,
+      "completers_single_year": 47,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "colorado-mesa-university-127556",
+      "institution_name": "Colorado Mesa University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "metropolitan-state-university-of-denver-127565",
+      "institution_name": "Metropolitan State University of Denver",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 28,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-northern-colorado-127741",
+      "institution_name": "University of Northern Colorado",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 49,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-colorado-university-128391",
+      "institution_name": "Western Colorado University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 22,
+      "completers_single_year": 22,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "taft-university-system-454689",
+      "institution_name": "Taft University System",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 21574,
+      "cost_total_default": 129444,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 76412,
+      "earnings_anchor_year": 5,
+      "debt_median": 31387,
+      "cip_family": "52",
+      "hs_baseline_state": 40100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 493610,
+      "breakeven_year": 13
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "institution_unitid": "231059",
+  "institution_name": "Saint Michael's College",
+  "institution_slug": "saint-michael-s-college-231059",
+  "state": "vt",
+  "cip_code": "5007",
+  "cip_desc": "Fine and Studio Arts.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5007-c3",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 1,
+  "debt_median": null,
+  "completers": 14,
+  "completers_single_year": 9,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 9.0
+      },
+      {
+        "year": 2015,
+        "value": 8.0
+      },
+      {
+        "year": 2016,
+        "value": 13.0
+      },
+      {
+        "year": 2017,
+        "value": 8.0
+      },
+      {
+        "year": 2018,
+        "value": 9.0
+      },
+      {
+        "year": 2019,
+        "value": 14.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "231059",
+    "slug": "saint-michael-s-college-231059",
+    "name": "Saint Michael's College",
+    "city": "Colchester",
+    "city_slug": "colchester",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-vermont-231174",
+      "institution_name": "University of Vermont",
+      "earnings_median_5yr": 49276,
+      "earnings_median_4yr": 35298,
+      "debt_median": 20937,
+      "completers": 43,
+      "completers_single_year": 45,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "vermont-state-university-231165",
+      "institution_name": "Vermont State University",
+      "earnings_median_5yr": 36274,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bennington-college-230816",
+      "institution_name": "Bennington College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "middlebury-college-230959",
+      "institution_name": "Middlebury College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "landmark-college-247649",
+      "institution_name": "Landmark College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 24230,
+      "cost_total_default": 96920,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "50"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

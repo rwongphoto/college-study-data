@@ -1,0 +1,278 @@
+{
+  "institution_unitid": "187444",
+  "institution_name": "William Paterson University of New Jersey",
+  "institution_slug": "william-paterson-university-of-new-jersey-187444",
+  "state": "nj",
+  "cip_code": "1311",
+  "cip_desc": "Student Counseling and Personnel Services.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "1311-c5",
+  "earnings_median_4yr": 56177,
+  "earnings_median_5yr": 60613,
+  "earnings_count_4yr": 5,
+  "earnings_count_5yr": 3,
+  "debt_median": 49500,
+  "completers": 28,
+  "completers_single_year": 23,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 56177.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 60613.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 44518.0
+      },
+      {
+        "year": 2015,
+        "value": 41000.0
+      },
+      {
+        "year": 2016,
+        "value": 37112.0
+      },
+      {
+        "year": 2017,
+        "value": 41365.0
+      },
+      {
+        "year": 2018,
+        "value": 49500.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 24.0
+      },
+      {
+        "year": 2015,
+        "value": 28.0
+      },
+      {
+        "year": 2016,
+        "value": 23.0
+      },
+      {
+        "year": 2017,
+        "value": 21.0
+      },
+      {
+        "year": 2018,
+        "value": 23.0
+      },
+      {
+        "year": 2019,
+        "value": 28.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 10.9% at Student Counseling and Personnel Services at William Paterson University of New Jersey exceeds the 8% gainful-employment threshold ($49.5k debt amortized over 10 years vs $60.6k earnings).",
+      "magnitude_pct": 10.9,
+      "magnitude_abs": 2.9,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "187444",
+    "slug": "william-paterson-university-of-new-jersey-187444",
+    "name": "William Paterson University of New Jersey",
+    "city": "Wayne",
+    "city_slug": "wayne",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "new-jersey-city-university-185129",
+      "institution_name": "New Jersey City University",
+      "earnings_median_5yr": 67915,
+      "earnings_median_4yr": 60065,
+      "debt_median": 60684,
+      "completers": 49,
+      "completers_single_year": 41,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-peter-s-university-186432",
+      "institution_name": "Saint Peter's University",
+      "earnings_median_5yr": 64974,
+      "earnings_median_4yr": 62577,
+      "debt_median": 65127,
+      "completers": 16,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "kean-university-185262",
+      "institution_name": "Kean University",
+      "earnings_median_5yr": 63776,
+      "earnings_median_4yr": 57150,
+      "debt_median": 59073,
+      "completers": 76,
+      "completers_single_year": 67,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "montclair-state-university-185590",
+      "institution_name": "Montclair State University",
+      "earnings_median_5yr": 62928,
+      "earnings_median_4yr": 59738,
+      "debt_median": 38892,
+      "completers": 81,
+      "completers_single_year": 81,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "monmouth-university-185572",
+      "institution_name": "Monmouth University",
+      "earnings_median_5yr": 62200,
+      "earnings_median_4yr": 58621,
+      "debt_median": 44681,
+      "completers": 25,
+      "completers_single_year": 41,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "seton-hall-university-186584",
+      "institution_name": "Seton Hall University",
+      "earnings_median_5yr": 60918,
+      "earnings_median_4yr": 59340,
+      "debt_median": 49432,
+      "completers": 36,
+      "completers_single_year": 41,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-college-of-new-jersey-187134",
+      "institution_name": "The College of New Jersey",
+      "earnings_median_5yr": 60724,
+      "earnings_median_4yr": 54653,
+      "debt_median": 41000,
+      "completers": 47,
+      "completers_single_year": 36,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rowan-university-184782",
+      "institution_name": "Rowan University",
+      "earnings_median_5yr": 59204,
+      "earnings_median_4yr": 51862,
+      "debt_median": 41000,
+      "completers": 16,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rutgers-university-new-brunswick-186380",
+      "institution_name": "Rutgers University-New Brunswick",
+      "earnings_median_5yr": 55758,
+      "earnings_median_4yr": 52596,
+      "debt_median": 35003,
+      "completers": 36,
+      "completers_single_year": 40,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "centenary-university-183974",
+      "institution_name": "Centenary University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rider-university-186283",
+      "institution_name": "Rider University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 41000,
+      "completers": 10,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 17978,
+      "cost_total_default": 107868,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 60613,
+      "earnings_anchor_year": 5,
+      "debt_median": 49500,
+      "cip_family": "13",
+      "hs_baseline_state": 41700
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 123414,
+      "breakeven_year": 21
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

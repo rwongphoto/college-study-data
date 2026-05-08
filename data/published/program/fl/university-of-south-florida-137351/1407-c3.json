@@ -1,0 +1,204 @@
+{
+  "institution_unitid": "137351",
+  "institution_name": "University of South Florida",
+  "institution_slug": "university-of-south-florida-137351",
+  "state": "fl",
+  "cip_code": "1407",
+  "cip_desc": "Chemical Engineering.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1407-c3",
+  "earnings_median_4yr": 78184,
+  "earnings_median_5yr": 84431,
+  "earnings_count_4yr": 5,
+  "earnings_count_5yr": 7,
+  "debt_median": 23000,
+  "completers": 143,
+  "completers_single_year": 136,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 78184.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 84431.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 19722.0
+      },
+      {
+        "year": 2015,
+        "value": 18238.0
+      },
+      {
+        "year": 2016,
+        "value": 17909.0
+      },
+      {
+        "year": 2017,
+        "value": 22500.0
+      },
+      {
+        "year": 2018,
+        "value": 23000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 91.0
+      },
+      {
+        "year": 2015,
+        "value": 89.0
+      },
+      {
+        "year": 2016,
+        "value": 138.0
+      },
+      {
+        "year": 2017,
+        "value": 132.0
+      },
+      {
+        "year": 2018,
+        "value": 136.0
+      },
+      {
+        "year": 2019,
+        "value": 143.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "137351",
+    "slug": "university-of-south-florida-137351",
+    "name": "University of South Florida",
+    "city": "Tampa",
+    "city_slug": "tampa",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "florida-institute-of-technology-133881",
+      "institution_name": "Florida Institute of Technology",
+      "earnings_median_5yr": 111234,
+      "earnings_median_4yr": null,
+      "debt_median": 27000,
+      "completers": 17,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-florida-134130",
+      "institution_name": "University of Florida",
+      "earnings_median_5yr": 104630,
+      "earnings_median_4yr": 91729,
+      "debt_median": 19600,
+      "completers": 99,
+      "completers_single_year": 106,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "florida-state-university-134097",
+      "institution_name": "Florida State University",
+      "earnings_median_5yr": 98253,
+      "earnings_median_4yr": 87015,
+      "debt_median": 23311,
+      "completers": 45,
+      "completers_single_year": 62,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "eckerd-college-133492",
+      "institution_name": "Eckerd College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "florida-agricultural-and-mechanical-university-133650",
+      "institution_name": "Florida Agricultural and Mechanical University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 7,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 10649,
+      "cost_total_default": 42596,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 84431,
+      "earnings_anchor_year": 5,
+      "debt_median": 23000,
+      "cip_family": "14",
+      "hs_baseline_state": 35400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 1017123,
+      "breakeven_year": 5
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

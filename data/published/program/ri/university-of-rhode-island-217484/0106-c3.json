@@ -1,0 +1,184 @@
+{
+  "institution_unitid": "217484",
+  "institution_name": "University of Rhode Island",
+  "institution_slug": "university-of-rhode-island-217484",
+  "state": "ri",
+  "cip_code": "0106",
+  "cip_desc": "Applied Horticulture and Horticultural Business Services.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "0106-c3",
+  "earnings_median_4yr": 49421,
+  "earnings_median_5yr": 48601,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 4,
+  "debt_median": null,
+  "completers": 14,
+  "completers_single_year": 14,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 49421.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 48601.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 12631.0
+      },
+      {
+        "year": 2015,
+        "value": 18688.0
+      },
+      {
+        "year": 2016,
+        "value": 23000.0
+      },
+      {
+        "year": 2017,
+        "value": 22871.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 23.0
+      },
+      {
+        "year": 2015,
+        "value": 26.0
+      },
+      {
+        "year": 2016,
+        "value": 15.0
+      },
+      {
+        "year": 2017,
+        "value": 15.0
+      },
+      {
+        "year": 2018,
+        "value": 14.0
+      },
+      {
+        "year": 2019,
+        "value": 14.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2017,
+      "from_value": 12631.0,
+      "to_value": 22871.0,
+      "pct_change": 0.8107038239252632,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Applied Horticulture and Horticultural Business Services at University of Rhode Island rose 81% between 2014 and 2017 ($12.6k → $22.9k).",
+      "magnitude_pct": 81.1,
+      "magnitude_abs": 10240.0,
+      "baseline_year": 2014,
+      "recent_year": 2017,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "217484",
+    "slug": "university-of-rhode-island-217484",
+    "name": "University of Rhode Island",
+    "city": "Kingston",
+    "city_slug": "kingston",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "johnson-wales-university-providence-217235",
+      "institution_name": "Johnson & Wales University-Providence",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 4,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 16578,
+      "cost_total_default": 66312,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 48601,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "01",
+      "hs_baseline_state": 38900
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 132548,
+      "breakeven_year": 20
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

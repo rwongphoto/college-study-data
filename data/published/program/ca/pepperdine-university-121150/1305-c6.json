@@ -1,0 +1,134 @@
+{
+  "institution_unitid": "121150",
+  "institution_name": "Pepperdine University",
+  "institution_slug": "pepperdine-university-121150",
+  "state": "ca",
+  "cip_code": "1305",
+  "cip_desc": "Educational/Instructional Media Design.",
+  "credential_level": 6,
+  "credential_desc": "Doctoral Degree",
+  "slug": "1305-c6",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 2,
+  "debt_median": null,
+  "completers": 9,
+  "completers_single_year": 11,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [
+      {
+        "year": 2015,
+        "value": 75335.0
+      },
+      {
+        "year": 2016,
+        "value": 108272.0
+      },
+      {
+        "year": 2017,
+        "value": 111500.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 14.0
+      },
+      {
+        "year": 2015,
+        "value": 16.0
+      },
+      {
+        "year": 2016,
+        "value": 15.0
+      },
+      {
+        "year": 2017,
+        "value": 8.0
+      },
+      {
+        "year": 2018,
+        "value": 11.0
+      },
+      {
+        "year": 2019,
+        "value": 9.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2015,
+      "to_year": 2017,
+      "from_value": 75335.0,
+      "to_value": 111500.0,
+      "pct_change": 0.48005575097896064,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Educational/Instructional Media Design at Pepperdine University rose 48% between 2015 and 2017 ($75.3k → $111.5k).",
+      "magnitude_pct": 48.0,
+      "magnitude_abs": 36165.0,
+      "baseline_year": 2015,
+      "recent_year": 2017,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "121150",
+    "slug": "pepperdine-university-121150",
+    "name": "Pepperdine University",
+    "city": "Malibu",
+    "city_slug": "malibu",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

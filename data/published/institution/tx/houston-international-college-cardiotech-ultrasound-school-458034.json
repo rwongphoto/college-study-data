@@ -1,0 +1,401 @@
+{
+  "institution": {
+    "unitid": "458034",
+    "opeid6": "041385",
+    "name": "Houston International College Cardiotech Ultrasound School",
+    "slug": "houston-international-college-cardiotech-ultrasound-school-458034",
+    "state": "tx",
+    "city": "Houston",
+    "city_slug": "houston",
+    "zip5": "77099",
+    "address": "12135 Bissonnet Ste E",
+    "latitude": 29.675203,
+    "longitude": -95.592909,
+    "control": "private_forprofit",
+    "pred_degree": "associates",
+    "highest_degree": "non_degree",
+    "main_campus": true,
+    "locale": "11",
+    "carnegie_basic": -2,
+    "sector_code": 6,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": 38454,
+    "earnings_median_8yr": 46636,
+    "earnings_median_10yr": 36432,
+    "completion_rate_150": 1.0,
+    "completion_rate_100": 1.0,
+    "retention_rate": 1.0,
+    "admission_rate": 0.4,
+    "enrollment_undergrad": 41,
+    "enrollment_total": null,
+    "cost_attendance": 26053,
+    "tuition_in_state": 11978,
+    "tuition_out_of_state": 11978,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": 19158,
+    "cost_by_income": {
+      "0_30k": 19158,
+      "30_48k": null,
+      "48_75k": null,
+      "75_110k": null,
+      "110k_plus": null,
+      "sticker": 26053,
+      "sector": "priv"
+    },
+    "median_debt": 14750,
+    "default_rate": 0.0,
+    "pell_share": 0.8043,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [],
+      "admission_rate": [],
+      "enrollment_undergrad": [],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [],
+      "median_debt": [],
+      "default_rate": [],
+      "pell_share": [],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [],
+    "flags": [
+      {
+        "type": "earnings_trend",
+        "severity": "regression",
+        "label": "Earnings trend · post-entry horizons",
+        "summary": "Earnings 10 years post-entry at Houston International College Cardiotech Ultrasound School are 5% below 6-year earnings ($38.5k → $36.4k).",
+        "magnitude_pct": -5.3,
+        "magnitude_abs": -2022.0,
+        "baseline_year": 6,
+        "recent_year": 10,
+        "units": "$",
+        "history": [],
+        "metric": "earnings_progression"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "51": [
+      {
+        "slug": "5109-c2",
+        "cip_code": "5109",
+        "cip_desc": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 10,
+        "completers_single_year": 11,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 0.0
+          },
+          {
+            "year": 2015,
+            "value": 5.0
+          },
+          {
+            "year": 2016,
+            "value": 16.0
+          },
+          {
+            "year": 2017,
+            "value": 15.0
+          },
+          {
+            "year": 2018,
+            "value": 11.0
+          },
+          {
+            "year": 2019,
+            "value": 10.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5109-c1",
+        "cip_code": "5109",
+        "cip_desc": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": 49704,
+        "earnings_median_4yr": 37257,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 49704.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 37257.0
+          }
+        ],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 5,
+        "completers_single_year": 11,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 13.0
+          },
+          {
+            "year": 2015,
+            "value": 16.0
+          },
+          {
+            "year": 2016,
+            "value": 14.0
+          },
+          {
+            "year": 2017,
+            "value": 19.0
+          },
+          {
+            "year": 2018,
+            "value": 11.0
+          },
+          {
+            "year": 2019,
+            "value": 5.0
+          }
+        ],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "5109-c2",
+      "cip_code": "5109",
+      "cip_desc": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 10,
+      "completers_single_year": 11,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 0.0
+        },
+        {
+          "year": 2015,
+          "value": 5.0
+        },
+        {
+          "year": 2016,
+          "value": 16.0
+        },
+        {
+          "year": 2017,
+          "value": 15.0
+        },
+        {
+          "year": 2018,
+          "value": 11.0
+        },
+        {
+          "year": 2019,
+          "value": 10.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5109-c1",
+      "cip_code": "5109",
+      "cip_desc": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": 49704,
+      "earnings_median_4yr": 37257,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 49704.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 37257.0
+        }
+      ],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 5,
+      "completers_single_year": 11,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 13.0
+        },
+        {
+          "year": 2015,
+          "value": 16.0
+        },
+        {
+          "year": 2016,
+          "value": 14.0
+        },
+        {
+          "year": 2017,
+          "value": 19.0
+        },
+        {
+          "year": 2018,
+          "value": 11.0
+        },
+        {
+          "year": 2019,
+          "value": 5.0
+        }
+      ],
+      "long_arc": []
+    }
+  ],
+  "program_count": 2,
+  "similar": [
+    {
+      "slug": "mediatech-institute-dallas-455336",
+      "name": "MediaTech Institute-Dallas",
+      "city": "Dallas",
+      "control": "private_forprofit",
+      "pred_degree": "associates",
+      "earnings_median_10yr": 33293,
+      "completion_rate_150": 0.5806,
+      "enrollment_undergrad": 200
+    },
+    {
+      "slug": "auguste-escoffier-school-of-culinary-arts-austin-444556",
+      "name": "Auguste Escoffier School of Culinary Arts-Austin",
+      "city": "Austin",
+      "control": "private_forprofit",
+      "pred_degree": "associates",
+      "earnings_median_10yr": 36330,
+      "completion_rate_150": 0.5741,
+      "enrollment_undergrad": 372
+    },
+    {
+      "slug": "universal-technical-institute-of-texas-inc-229416",
+      "name": "Universal Technical Institute of Texas Inc.",
+      "city": "Houston",
+      "control": "private_forprofit",
+      "pred_degree": "associates",
+      "earnings_median_10yr": 51222,
+      "completion_rate_150": 0.5666,
+      "enrollment_undergrad": 1823
+    },
+    {
+      "slug": "kd-conservatory-college-of-film-and-dramatic-arts-225991",
+      "name": "KD Conservatory College of Film and Dramatic Arts",
+      "city": "Dallas",
+      "control": "private_forprofit",
+      "pred_degree": "associates",
+      "earnings_median_10yr": 30187,
+      "completion_rate_150": 0.72,
+      "enrollment_undergrad": 87
+    },
+    {
+      "slug": "vet-tech-institute-of-houston-223472",
+      "name": "Vet Tech Institute of Houston",
+      "city": "Houston",
+      "control": "private_forprofit",
+      "pred_degree": "associates",
+      "earnings_median_10yr": 35765,
+      "completion_rate_150": 0.6,
+      "enrollment_undergrad": 190
+    }
+  ],
+  "roi": {
+    "default_program_slug": "5109-c1",
+    "programs_available": [
+      {
+        "slug": "5109-c2",
+        "label": "Allied Health Diagnostic, Intervention, and Treatment Professions · Associate's Degree",
+        "cip_family": "51",
+        "completers": 10,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "5109-c1",
+        "label": "Allied Health Diagnostic, Intervention, and Treatment Professions · Undergraduate Certificate or Diploma",
+        "cip_family": "51",
+        "completers": 5,
+        "has_earnings": true,
+        "earnings_at_completion": 49704,
+        "earnings_anchor_year": 5,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": {
+          "npv": 302562,
+          "breakeven_year": 4
+        }
+      }
+    ]
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

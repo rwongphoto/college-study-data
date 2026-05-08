@@ -1,0 +1,298 @@
+{
+  "institution_unitid": "169521",
+  "institution_name": "Delta College",
+  "institution_slug": "delta-college-169521",
+  "state": "mi",
+  "cip_code": "5106",
+  "cip_desc": "Dental Support Services and Allied Professions.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "5106-c2",
+  "earnings_median_4yr": 39209,
+  "earnings_median_5yr": 44502,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 3,
+  "debt_median": 15000,
+  "completers": 34,
+  "completers_single_year": 19,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 39209.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 44502.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 11182.0
+      },
+      {
+        "year": 2015,
+        "value": 10500.0
+      },
+      {
+        "year": 2016,
+        "value": 11624.0
+      },
+      {
+        "year": 2017,
+        "value": 13000.0
+      },
+      {
+        "year": 2018,
+        "value": 15000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 27.0
+      },
+      {
+        "year": 2015,
+        "value": 30.0
+      },
+      {
+        "year": 2016,
+        "value": 32.0
+      },
+      {
+        "year": 2017,
+        "value": 27.0
+      },
+      {
+        "year": 2018,
+        "value": 19.0
+      },
+      {
+        "year": 2019,
+        "value": 34.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 11182.0,
+      "to_value": 15000.0,
+      "pct_change": 0.3414416025755679,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Dental Support Services and Allied Professions at Delta College rose 34% between 2014 and 2018 ($11.2k → $15.0k).",
+      "magnitude_pct": 34.1,
+      "magnitude_abs": 3818.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "169521",
+    "slug": "delta-college-169521",
+    "name": "Delta College",
+    "city": "University Center",
+    "city_slug": "university-center",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "lansing-community-college-170657",
+      "institution_name": "Lansing Community College",
+      "earnings_median_5yr": 54469,
+      "earnings_median_4yr": 46711,
+      "debt_median": 13933,
+      "completers": 0,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "kalamazoo-valley-community-college-170541",
+      "institution_name": "Kalamazoo Valley Community College",
+      "earnings_median_5yr": 51974,
+      "earnings_median_4yr": 45751,
+      "debt_median": 9000,
+      "completers": 17,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "grand-rapids-community-college-170055",
+      "institution_name": "Grand Rapids Community College",
+      "earnings_median_5yr": 46454,
+      "earnings_median_4yr": 38743,
+      "debt_median": 14957,
+      "completers": 49,
+      "completers_single_year": 39,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ferris-state-university-169910",
+      "institution_name": "Ferris State University",
+      "earnings_median_5yr": 46192,
+      "earnings_median_4yr": 46067,
+      "debt_median": 25000,
+      "completers": 39,
+      "completers_single_year": 39,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "baker-college-168847",
+      "institution_name": "Baker College",
+      "earnings_median_5yr": 45283,
+      "earnings_median_4yr": 39507,
+      "debt_median": 21139,
+      "completers": 38,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "oakland-community-college-171535",
+      "institution_name": "Oakland Community College",
+      "earnings_median_5yr": 42646,
+      "earnings_median_4yr": 42626,
+      "debt_median": null,
+      "completers": 25,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mott-community-college-169275",
+      "institution_name": "Mott Community College",
+      "earnings_median_5yr": 37539,
+      "earnings_median_4yr": 39295,
+      "debt_median": 20292,
+      "completers": 36,
+      "completers_single_year": 33,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "jackson-college-170444",
+      "institution_name": "Jackson College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "kellogg-community-college-170550",
+      "institution_name": "Kellogg Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lake-michigan-college-170620",
+      "institution_name": "Lake Michigan College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northwestern-michigan-college-171483",
+      "institution_name": "Northwestern Michigan College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wayne-county-community-college-district-172635",
+      "institution_name": "Wayne County Community College District",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 6576,
+      "cost_total_default": 13152,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 44502,
+      "earnings_anchor_year": 5,
+      "debt_median": 15000,
+      "cip_family": "51",
+      "hs_baseline_state": 36900
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 177517,
+      "breakeven_year": 9
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

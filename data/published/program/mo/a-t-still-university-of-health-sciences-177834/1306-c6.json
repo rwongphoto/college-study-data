@@ -1,0 +1,176 @@
+{
+  "institution_unitid": "177834",
+  "institution_name": "A T Still University of Health Sciences",
+  "institution_slug": "a-t-still-university-of-health-sciences-177834",
+  "state": "mo",
+  "cip_code": "1306",
+  "cip_desc": "Educational Assessment, Evaluation, and Research.",
+  "credential_level": 6,
+  "credential_desc": "Doctoral Degree",
+  "slug": "1306-c6",
+  "earnings_median_4yr": 81534,
+  "earnings_median_5yr": 105886,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 1,
+  "debt_median": 63222,
+  "completers": 51,
+  "completers_single_year": 48,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 81534.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 105886.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2016,
+        "value": 44125.0
+      },
+      {
+        "year": 2017,
+        "value": 51043.0
+      },
+      {
+        "year": 2018,
+        "value": 63222.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 22.0
+      },
+      {
+        "year": 2015,
+        "value": 22.0
+      },
+      {
+        "year": 2016,
+        "value": 20.0
+      },
+      {
+        "year": 2017,
+        "value": 33.0
+      },
+      {
+        "year": 2018,
+        "value": 48.0
+      },
+      {
+        "year": 2019,
+        "value": 51.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2016,
+      "to_year": 2018,
+      "from_value": 44125.0,
+      "to_value": 63222.0,
+      "pct_change": 0.43279320113314446,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Educational Assessment, Evaluation, and Research at A T Still University of Health Sciences rose 43% between 2016 and 2018 ($44.1k → $63.2k).",
+      "magnitude_pct": 43.3,
+      "magnitude_abs": 19097.0,
+      "baseline_year": 2016,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "177834",
+    "slug": "a-t-still-university-of-health-sciences-177834",
+    "name": "A T Still University of Health Sciences",
+    "city": "Kirksville",
+    "city_slug": "kirksville",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "fontbonne-university-177418",
+      "institution_name": "Fontbonne University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 8,
+      "cost_per_year_default": null,
+      "cost_total_default": null,
+      "cost_source": null,
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 105886,
+      "earnings_anchor_year": 5,
+      "debt_median": 63222,
+      "cip_family": "13"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

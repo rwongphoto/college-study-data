@@ -1,0 +1,194 @@
+{
+  "institution_unitid": "240666",
+  "institution_name": "Northern Wyoming Community College District",
+  "institution_slug": "northern-wyoming-community-college-district-240666",
+  "state": "wy",
+  "cip_code": "5139",
+  "cip_desc": "Practical Nursing, Vocational Nursing and Nursing Assistants.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "5139-c1",
+  "earnings_median_4yr": 57572,
+  "earnings_median_5yr": 71755,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": 10500,
+  "completers": 53,
+  "completers_single_year": 57,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 57572.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 71755.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 11750.0
+      },
+      {
+        "year": 2015,
+        "value": 10000.0
+      },
+      {
+        "year": 2016,
+        "value": 7980.0
+      },
+      {
+        "year": 2017,
+        "value": 10500.0
+      },
+      {
+        "year": 2018,
+        "value": 10500.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 53.0
+      },
+      {
+        "year": 2015,
+        "value": 59.0
+      },
+      {
+        "year": 2016,
+        "value": 61.0
+      },
+      {
+        "year": 2017,
+        "value": 56.0
+      },
+      {
+        "year": 2018,
+        "value": 57.0
+      },
+      {
+        "year": 2019,
+        "value": 53.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "240666",
+    "slug": "northern-wyoming-community-college-district-240666",
+    "name": "Northern Wyoming Community College District",
+    "city": "Sheridan",
+    "city_slug": "sheridan",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "laramie-county-community-college-240620",
+      "institution_name": "Laramie County Community College",
+      "earnings_median_5yr": 86634,
+      "earnings_median_4yr": 67198,
+      "debt_median": 11376,
+      "completers": 46,
+      "completers_single_year": 51,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "casper-college-240505",
+      "institution_name": "Casper College",
+      "earnings_median_5yr": 69669,
+      "earnings_median_4yr": 65121,
+      "debt_median": 12326,
+      "completers": 52,
+      "completers_single_year": 46,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northwest-college-240657",
+      "institution_name": "Northwest College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-wyoming-community-college-240693",
+      "institution_name": "Western Wyoming Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 9000,
+      "completers": 23,
+      "completers_single_year": 34,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 8879,
+      "cost_total_default": 8879,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 71755,
+      "earnings_anchor_year": 5,
+      "debt_median": 10500,
+      "cip_family": "51",
+      "hs_baseline_state": 39400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 754207,
+      "breakeven_year": 1
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

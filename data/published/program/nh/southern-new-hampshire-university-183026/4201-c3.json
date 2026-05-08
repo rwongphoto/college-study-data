@@ -1,0 +1,268 @@
+{
+  "institution_unitid": "183026",
+  "institution_name": "Southern New Hampshire University",
+  "institution_slug": "southern-new-hampshire-university-183026",
+  "state": "nh",
+  "cip_code": "4201",
+  "cip_desc": "Psychology, General.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "4201-c3",
+  "earnings_median_4yr": 42670,
+  "earnings_median_5yr": 48663,
+  "earnings_count_4yr": 50,
+  "earnings_count_5yr": 55,
+  "debt_median": 22000,
+  "completers": 1646,
+  "completers_single_year": 1201,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 42670.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 48663.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 19482.0
+      },
+      {
+        "year": 2015,
+        "value": 19500.0
+      },
+      {
+        "year": 2016,
+        "value": 20834.0
+      },
+      {
+        "year": 2017,
+        "value": 21415.0
+      },
+      {
+        "year": 2018,
+        "value": 22000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 515.0
+      },
+      {
+        "year": 2015,
+        "value": 766.0
+      },
+      {
+        "year": 2016,
+        "value": 911.0
+      },
+      {
+        "year": 2017,
+        "value": 1069.0
+      },
+      {
+        "year": 2018,
+        "value": 1201.0
+      },
+      {
+        "year": 2019,
+        "value": 1646.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "completers",
+      "from_year": 2014,
+      "to_year": 2019,
+      "from_value": 515.0,
+      "to_value": 1646.0,
+      "pct_change": 1.131,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Annual completers",
+      "summary": "Annual completers at Psychology, General at Southern New Hampshire University rose 113% between 2014 and 2019 (515 → 1.6k).",
+      "magnitude_pct": 113.1,
+      "magnitude_abs": 1131.0,
+      "baseline_year": 2014,
+      "recent_year": 2019,
+      "units": null,
+      "history": [],
+      "metric": "completers"
+    }
+  ],
+  "institution": {
+    "unitid": "183026",
+    "slug": "southern-new-hampshire-university-183026",
+    "name": "Southern New Hampshire University",
+    "city": "Manchester",
+    "city_slug": "manchester",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "dartmouth-college-182670",
+      "institution_name": "Dartmouth College",
+      "earnings_median_5yr": 82977,
+      "earnings_median_4yr": 50502,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-anselm-college-183239",
+      "institution_name": "Saint Anselm College",
+      "earnings_median_5yr": 57453,
+      "earnings_median_4yr": 44572,
+      "debt_median": 27000,
+      "completers": 33,
+      "completers_single_year": 34,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "colby-sawyer-college-182634",
+      "institution_name": "Colby-Sawyer College",
+      "earnings_median_5yr": 56721,
+      "earnings_median_4yr": 43012,
+      "debt_median": 27000,
+      "completers": 9,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-new-hampshire-main-campus-183044",
+      "institution_name": "University of New Hampshire-Main Campus",
+      "earnings_median_5yr": 55519,
+      "earnings_median_4yr": 47768,
+      "debt_median": 26000,
+      "completers": 189,
+      "completers_single_year": 197,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "keene-state-college-183062",
+      "institution_name": "Keene State College",
+      "earnings_median_5yr": 49980,
+      "earnings_median_4yr": 44359,
+      "debt_median": 25000,
+      "completers": 66,
+      "completers_single_year": 75,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rivier-university-183211",
+      "institution_name": "Rivier University",
+      "earnings_median_5yr": 48244,
+      "earnings_median_4yr": 43171,
+      "debt_median": 26000,
+      "completers": 17,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "plymouth-state-university-183080",
+      "institution_name": "Plymouth State University",
+      "earnings_median_5yr": 46464,
+      "earnings_median_4yr": 42626,
+      "debt_median": 27000,
+      "completers": 43,
+      "completers_single_year": 54,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "franklin-pierce-university-182795",
+      "institution_name": "Franklin Pierce University",
+      "earnings_median_5yr": 43979,
+      "earnings_median_4yr": 38365,
+      "debt_median": 27000,
+      "completers": 24,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "new-england-college-182980",
+      "institution_name": "New England College",
+      "earnings_median_5yr": 40429,
+      "earnings_median_4yr": 37256,
+      "debt_median": 28000,
+      "completers": 23,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 55,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 34048,
+      "cost_total_default": 136192,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 48663,
+      "earnings_anchor_year": 5,
+      "debt_median": 22000,
+      "cip_family": "42",
+      "hs_baseline_state": 40300
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -8963,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

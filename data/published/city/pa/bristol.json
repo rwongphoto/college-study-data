@@ -1,0 +1,357 @@
+{
+  "state": "pa",
+  "name": "Bristol",
+  "slug": "bristol",
+  "institution_count": 1,
+  "institutions": [
+    {
+      "unitid": "214944",
+      "slug": "pennco-tech-bristol-214944",
+      "name": "Pennco Tech-Bristol",
+      "city": "Bristol",
+      "city_slug": "bristol",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 43493,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 40521
+        },
+        {
+          "year": 8,
+          "value": 41850
+        },
+        {
+          "year": 10,
+          "value": 43493
+        }
+      ],
+      "completion_rate_150": 0.78,
+      "completion_rate_history": [
+        {
+          "year": 1997,
+          "value": 0.6123
+        },
+        {
+          "year": 1998,
+          "value": 0.6988
+        },
+        {
+          "year": 1999,
+          "value": 0.648
+        },
+        {
+          "year": 2000,
+          "value": 0.7046
+        },
+        {
+          "year": 2001,
+          "value": 0.7186
+        },
+        {
+          "year": 2002,
+          "value": 0.7331
+        },
+        {
+          "year": 2003,
+          "value": 1.0
+        },
+        {
+          "year": 2004,
+          "value": 0.7411
+        },
+        {
+          "year": 2005,
+          "value": 0.7647
+        },
+        {
+          "year": 2006,
+          "value": 0.8482
+        },
+        {
+          "year": 2007,
+          "value": 0.7585
+        },
+        {
+          "year": 2008,
+          "value": 0.8043
+        },
+        {
+          "year": 2009,
+          "value": 0.8148
+        }
+      ],
+      "enrollment_undergrad": 603,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 288.0
+        },
+        {
+          "year": 1997,
+          "value": 306.0
+        },
+        {
+          "year": 1998,
+          "value": 267.0
+        },
+        {
+          "year": 1999,
+          "value": 321.0
+        },
+        {
+          "year": 2001,
+          "value": 316.0
+        },
+        {
+          "year": 2002,
+          "value": 378.0
+        },
+        {
+          "year": 2003,
+          "value": 383.0
+        },
+        {
+          "year": 2004,
+          "value": 458.0
+        },
+        {
+          "year": 2005,
+          "value": 555.0
+        },
+        {
+          "year": 2006,
+          "value": 547.0
+        },
+        {
+          "year": 2007,
+          "value": 445.0
+        },
+        {
+          "year": 2008,
+          "value": 440.0
+        },
+        {
+          "year": 2009,
+          "value": 660.0
+        }
+      ],
+      "median_debt": 6333,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "completion_rate_150",
+          "from_year": 1997,
+          "to_year": 2009,
+          "from_value": 0.6123,
+          "to_value": 0.8148,
+          "pct_change": 0.330720235178834,
+          "direction": "rose"
+        },
+        {
+          "metric": "retention_rate",
+          "from_year": 2004,
+          "to_year": 2024,
+          "from_value": 0.83,
+          "to_value": 0.3144,
+          "pct_change": -0.6212048192771084,
+          "direction": "fell"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 1996,
+          "to_year": 2009,
+          "from_value": 288.0,
+          "to_value": 660.0,
+          "pct_change": 1.2916666666666667,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 1997,
+          "to_year": 2020,
+          "from_value": 4218.0,
+          "to_value": 7917.0,
+          "pct_change": 0.8769559032716927,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.22,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "earnings_median_10yr",
+          "from_year": 2007,
+          "to_year": 2020,
+          "from_value": 36200.0,
+          "to_value": 43493.0,
+          "pct_change": 0.20146408839779006,
+          "direction": "rose"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": 43493,
+  "completion_rate_city": 0.78,
+  "completion_history_city": [
+    {
+      "year": 1997,
+      "value": 0.6123
+    },
+    {
+      "year": 1998,
+      "value": 0.6988
+    },
+    {
+      "year": 1999,
+      "value": 0.648
+    },
+    {
+      "year": 2000,
+      "value": 0.7046
+    },
+    {
+      "year": 2001,
+      "value": 0.7186
+    },
+    {
+      "year": 2002,
+      "value": 0.7331
+    },
+    {
+      "year": 2003,
+      "value": 1.0
+    },
+    {
+      "year": 2004,
+      "value": 0.7411
+    },
+    {
+      "year": 2005,
+      "value": 0.7647
+    },
+    {
+      "year": 2006,
+      "value": 0.8482
+    },
+    {
+      "year": 2007,
+      "value": 0.7585
+    },
+    {
+      "year": 2008,
+      "value": 0.8043
+    },
+    {
+      "year": 2009,
+      "value": 0.8148
+    }
+  ],
+  "enrollment_history_city": [
+    {
+      "year": 1996,
+      "value": 288.0
+    },
+    {
+      "year": 1997,
+      "value": 306.0
+    },
+    {
+      "year": 1998,
+      "value": 267.0
+    },
+    {
+      "year": 1999,
+      "value": 321.0
+    },
+    {
+      "year": 2001,
+      "value": 316.0
+    },
+    {
+      "year": 2002,
+      "value": 378.0
+    },
+    {
+      "year": 2003,
+      "value": 383.0
+    },
+    {
+      "year": 2004,
+      "value": 458.0
+    },
+    {
+      "year": 2005,
+      "value": 555.0
+    },
+    {
+      "year": 2006,
+      "value": 547.0
+    },
+    {
+      "year": 2007,
+      "value": 445.0
+    },
+    {
+      "year": 2008,
+      "value": 440.0
+    },
+    {
+      "year": 2009,
+      "value": 660.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

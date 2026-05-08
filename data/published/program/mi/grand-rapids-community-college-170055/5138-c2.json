@@ -1,0 +1,464 @@
+{
+  "institution_unitid": "170055",
+  "institution_name": "Grand Rapids Community College",
+  "institution_slug": "grand-rapids-community-college-170055",
+  "state": "mi",
+  "cip_code": "5138",
+  "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "5138-c2",
+  "earnings_median_4yr": 59992,
+  "earnings_median_5yr": 70523,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 5,
+  "debt_median": 14277,
+  "completers": 68,
+  "completers_single_year": 96,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 59992.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 70523.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 14807.0
+      },
+      {
+        "year": 2015,
+        "value": 14221.0
+      },
+      {
+        "year": 2016,
+        "value": 14293.0
+      },
+      {
+        "year": 2017,
+        "value": 14950.0
+      },
+      {
+        "year": 2018,
+        "value": 14277.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 82.0
+      },
+      {
+        "year": 2015,
+        "value": 99.0
+      },
+      {
+        "year": 2016,
+        "value": 120.0
+      },
+      {
+        "year": 2017,
+        "value": 95.0
+      },
+      {
+        "year": 2018,
+        "value": 96.0
+      },
+      {
+        "year": 2019,
+        "value": 68.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "170055",
+    "slug": "grand-rapids-community-college-170055",
+    "name": "Grand Rapids Community College",
+    "city": "Grand Rapids",
+    "city_slug": "grand-rapids",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "mott-community-college-169275",
+      "institution_name": "Mott Community College",
+      "earnings_median_5yr": 84016,
+      "earnings_median_4yr": 69107,
+      "debt_median": 26834,
+      "completers": 96,
+      "completers_single_year": 56,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southwestern-michigan-college-172307",
+      "institution_name": "Southwestern Michigan College",
+      "earnings_median_5yr": 79257,
+      "earnings_median_4yr": 64349,
+      "debt_median": 16981,
+      "completers": 37,
+      "completers_single_year": 44,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "montcalm-community-college-171234",
+      "institution_name": "Montcalm Community College",
+      "earnings_median_5yr": 77166,
+      "earnings_median_4yr": 68739,
+      "debt_median": 20273,
+      "completers": 45,
+      "completers_single_year": 62,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wayne-county-community-college-district-172635",
+      "institution_name": "Wayne County Community College District",
+      "earnings_median_5yr": 76445,
+      "earnings_median_4yr": 63355,
+      "debt_median": null,
+      "completers": 81,
+      "completers_single_year": 67,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "henry-ford-college-170240",
+      "institution_name": "Henry Ford College",
+      "earnings_median_5yr": 76157,
+      "earnings_median_4yr": 66615,
+      "debt_median": 18987,
+      "completers": 194,
+      "completers_single_year": 202,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "monroe-county-community-college-171225",
+      "institution_name": "Monroe County Community College",
+      "earnings_median_5yr": 76101,
+      "earnings_median_4yr": 67038,
+      "debt_median": 14835,
+      "completers": 39,
+      "completers_single_year": 63,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lake-michigan-college-170620",
+      "institution_name": "Lake Michigan College",
+      "earnings_median_5yr": 75725,
+      "earnings_median_4yr": 63623,
+      "debt_median": 9000,
+      "completers": 46,
+      "completers_single_year": 46,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "macomb-community-college-170790",
+      "institution_name": "Macomb Community College",
+      "earnings_median_5yr": 74586,
+      "earnings_median_4yr": 66250,
+      "debt_median": 5493,
+      "completers": 121,
+      "completers_single_year": 64,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "st-clair-county-community-college-172291",
+      "institution_name": "St Clair County Community College",
+      "earnings_median_5yr": 74418,
+      "earnings_median_4yr": 69788,
+      "debt_median": 18773,
+      "completers": 104,
+      "completers_single_year": 108,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "muskegon-community-college-171304",
+      "institution_name": "Muskegon Community College",
+      "earnings_median_5yr": 73782,
+      "earnings_median_4yr": 66122,
+      "debt_median": 12564,
+      "completers": 52,
+      "completers_single_year": 77,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "washtenaw-community-college-172617",
+      "institution_name": "Washtenaw Community College",
+      "earnings_median_5yr": 73371,
+      "earnings_median_4yr": 68040,
+      "debt_median": 16851,
+      "completers": 121,
+      "completers_single_year": 128,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "jackson-college-170444",
+      "institution_name": "Jackson College",
+      "earnings_median_5yr": 73339,
+      "earnings_median_4yr": 64405,
+      "debt_median": 18502,
+      "completers": 56,
+      "completers_single_year": 68,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "baker-college-168847",
+      "institution_name": "Baker College",
+      "earnings_median_5yr": 73283,
+      "earnings_median_4yr": 63207,
+      "debt_median": 24905,
+      "completers": 27,
+      "completers_single_year": 44,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "kalamazoo-valley-community-college-170541",
+      "institution_name": "Kalamazoo Valley Community College",
+      "earnings_median_5yr": 72767,
+      "earnings_median_4yr": 61642,
+      "debt_median": 13463,
+      "completers": 69,
+      "completers_single_year": 78,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mid-michigan-college-171155",
+      "institution_name": "Mid Michigan College",
+      "earnings_median_5yr": 71912,
+      "earnings_median_4yr": 61719,
+      "debt_median": 23250,
+      "completers": 66,
+      "completers_single_year": 58,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "alpena-community-college-168607",
+      "institution_name": "Alpena Community College",
+      "earnings_median_5yr": 71732,
+      "earnings_median_4yr": 65009,
+      "debt_median": null,
+      "completers": 30,
+      "completers_single_year": 22,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "delta-college-169521",
+      "institution_name": "Delta College",
+      "earnings_median_5yr": 71328,
+      "earnings_median_4yr": 62169,
+      "debt_median": 14339,
+      "completers": 141,
+      "completers_single_year": 127,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bay-de-noc-community-college-168883",
+      "institution_name": "Bay de Noc Community College",
+      "earnings_median_5yr": 71324,
+      "earnings_median_4yr": 59665,
+      "debt_median": 14490,
+      "completers": 51,
+      "completers_single_year": 54,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "kirtland-community-college-170587",
+      "institution_name": "Kirtland Community College",
+      "earnings_median_5yr": 70550,
+      "earnings_median_4yr": 62196,
+      "debt_median": 17000,
+      "completers": 76,
+      "completers_single_year": 66,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lansing-community-college-170657",
+      "institution_name": "Lansing Community College",
+      "earnings_median_5yr": 70000,
+      "earnings_median_4yr": 67394,
+      "debt_median": 17879,
+      "completers": 198,
+      "completers_single_year": 159,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ross-medical-education-center-brighton-261676",
+      "institution_name": "Ross Medical Education Center-Brighton",
+      "earnings_median_5yr": 69512,
+      "earnings_median_4yr": 61744,
+      "debt_median": 25134,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "north-central-michigan-college-171395",
+      "institution_name": "North Central Michigan College",
+      "earnings_median_5yr": 67264,
+      "earnings_median_4yr": 59936,
+      "debt_median": 11160,
+      "completers": 36,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northwestern-michigan-college-171483",
+      "institution_name": "Northwestern Michigan College",
+      "earnings_median_5yr": 66994,
+      "earnings_median_4yr": 58047,
+      "debt_median": 17227,
+      "completers": 49,
+      "completers_single_year": 50,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "glen-oaks-community-college-169974",
+      "institution_name": "Glen Oaks Community College",
+      "earnings_median_5yr": 66418,
+      "earnings_median_4yr": 59222,
+      "debt_median": 12346,
+      "completers": 20,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "oakland-community-college-171535",
+      "institution_name": "Oakland Community College",
+      "earnings_median_5yr": 65602,
+      "earnings_median_4yr": 58094,
+      "debt_median": 11318,
+      "completers": 120,
+      "completers_single_year": 124,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "gogebic-community-college-169992",
+      "institution_name": "Gogebic Community College",
+      "earnings_median_5yr": 63734,
+      "earnings_median_4yr": 58690,
+      "debt_median": 12206,
+      "completers": 36,
+      "completers_single_year": 32,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "west-shore-community-college-172671",
+      "institution_name": "West Shore Community College",
+      "earnings_median_5yr": 62104,
+      "earnings_median_4yr": 56145,
+      "debt_median": 13719,
+      "completers": 22,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "davenport-university-169479",
+      "institution_name": "Davenport University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "kellogg-community-college-170550",
+      "institution_name": "Kellogg Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 109,
+      "completers_single_year": 116,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "madonna-university-170806",
+      "institution_name": "Madonna University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "schoolcraft-community-college-district-172200",
+      "institution_name": "Schoolcraft Community College District",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 12689,
+      "completers": 167,
+      "completers_single_year": 168,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 5,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 12201,
+      "cost_total_default": 24402,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 70523,
+      "earnings_anchor_year": 5,
+      "debt_median": 14277,
+      "cip_family": "51",
+      "hs_baseline_state": 36900
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 705280,
+      "breakeven_year": 3
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

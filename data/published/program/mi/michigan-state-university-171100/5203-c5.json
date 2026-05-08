@@ -1,0 +1,368 @@
+{
+  "institution_unitid": "171100",
+  "institution_name": "Michigan State University",
+  "institution_slug": "michigan-state-university-171100",
+  "state": "mi",
+  "cip_code": "5203",
+  "cip_desc": "Accounting and Related Services.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5203-c5",
+  "earnings_median_4yr": 85251,
+  "earnings_median_5yr": 101284,
+  "earnings_count_4yr": 6,
+  "earnings_count_5yr": 3,
+  "debt_median": 29004,
+  "completers": 0,
+  "completers_single_year": 130,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 85251.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 101284.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 20500.0
+      },
+      {
+        "year": 2015,
+        "value": 20500.0
+      },
+      {
+        "year": 2016,
+        "value": 20500.0
+      },
+      {
+        "year": 2017,
+        "value": 24101.0
+      },
+      {
+        "year": 2018,
+        "value": 29004.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 148.0
+      },
+      {
+        "year": 2015,
+        "value": 139.0
+      },
+      {
+        "year": 2016,
+        "value": 135.0
+      },
+      {
+        "year": 2017,
+        "value": 130.0
+      },
+      {
+        "year": 2018,
+        "value": 130.0
+      },
+      {
+        "year": 2019,
+        "value": 0.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 20500.0,
+      "to_value": 29004.0,
+      "pct_change": 0.4148292682926829,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Accounting and Related Services at Michigan State University rose 41% between 2014 and 2018 ($20.5k → $29.0k).",
+      "magnitude_pct": 41.5,
+      "magnitude_abs": 8504.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "171100",
+    "slug": "michigan-state-university-171100",
+    "name": "Michigan State University",
+    "city": "East Lansing",
+    "city_slug": "east-lansing",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-michigan-ann-arbor-170976",
+      "institution_name": "University of Michigan-Ann Arbor",
+      "earnings_median_5yr": 111117,
+      "earnings_median_4yr": 89951,
+      "debt_median": 20500,
+      "completers": 56,
+      "completers_single_year": 94,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-michigan-dearborn-171137",
+      "institution_name": "University of Michigan-Dearborn",
+      "earnings_median_5yr": 103763,
+      "earnings_median_4yr": 89925,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "oakland-university-171571",
+      "institution_name": "Oakland University",
+      "earnings_median_5yr": 103460,
+      "earnings_median_4yr": 87752,
+      "debt_median": 23015,
+      "completers": 22,
+      "completers_single_year": 24,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "grand-valley-state-university-170082",
+      "institution_name": "Grand Valley State University",
+      "earnings_median_5yr": 93720,
+      "earnings_median_4yr": 80533,
+      "debt_median": 20032,
+      "completers": 35,
+      "completers_single_year": 43,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-michigan-university-172699",
+      "institution_name": "Western Michigan University",
+      "earnings_median_5yr": 87422,
+      "earnings_median_4yr": 74823,
+      "debt_median": 19549,
+      "completers": 30,
+      "completers_single_year": 25,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "eastern-michigan-university-169798",
+      "institution_name": "Eastern Michigan University",
+      "earnings_median_5yr": 84271,
+      "earnings_median_4yr": 72208,
+      "debt_median": 23397,
+      "completers": 29,
+      "completers_single_year": 57,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "walsh-college-172608",
+      "institution_name": "Walsh College",
+      "earnings_median_5yr": 81910,
+      "earnings_median_4yr": 70831,
+      "debt_median": 31965,
+      "completers": 76,
+      "completers_single_year": 77,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "davenport-university-169479",
+      "institution_name": "Davenport University",
+      "earnings_median_5yr": 81909,
+      "earnings_median_4yr": 70875,
+      "debt_median": 23532,
+      "completers": 49,
+      "completers_single_year": 35,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wayne-state-university-172644",
+      "institution_name": "Wayne State University",
+      "earnings_median_5yr": 80947,
+      "earnings_median_4yr": 71470,
+      "debt_median": 25500,
+      "completers": 19,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "baker-college-168847",
+      "institution_name": "Baker College",
+      "earnings_median_5yr": 74836,
+      "earnings_median_4yr": 63504,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "adrian-college-168528",
+      "institution_name": "Adrian College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 21,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "andrews-university-168740",
+      "institution_name": "Andrews University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "calvin-university-169080",
+      "institution_name": "Calvin University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 20,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cleary-university-169327",
+      "institution_name": "Cleary University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lawrence-technological-university-170675",
+      "institution_name": "Lawrence Technological University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "madonna-university-170806",
+      "institution_name": "Madonna University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "michigan-technological-university-171128",
+      "institution_name": "Michigan Technological University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-michigan-flint-171146",
+      "institution_name": "University of Michigan-Flint",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 14,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northern-michigan-university-171456",
+      "institution_name": "Northern Michigan University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 20378,
+      "cost_total_default": 122268,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 101284,
+      "earnings_anchor_year": 5,
+      "debt_median": 29004,
+      "cip_family": "52",
+      "hs_baseline_state": 36900
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 966181,
+      "breakeven_year": 9
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

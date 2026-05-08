@@ -1,0 +1,196 @@
+{
+  "institution_unitid": "168847",
+  "institution_name": "Baker College",
+  "institution_slug": "baker-college-168847",
+  "state": "mi",
+  "cip_code": "1102",
+  "cip_desc": "Computer Programming.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1102-c3",
+  "earnings_median_4yr": 84353,
+  "earnings_median_5yr": 95210,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 1,
+  "debt_median": null,
+  "completers": 33,
+  "completers_single_year": 11,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 84353.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 95210.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 38476.0
+      },
+      {
+        "year": 2015,
+        "value": 37285.0
+      },
+      {
+        "year": 2016,
+        "value": 35962.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 26.0
+      },
+      {
+        "year": 2015,
+        "value": 23.0
+      },
+      {
+        "year": 2016,
+        "value": 9.0
+      },
+      {
+        "year": 2017,
+        "value": 14.0
+      },
+      {
+        "year": 2018,
+        "value": 11.0
+      },
+      {
+        "year": 2019,
+        "value": 33.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "168847",
+    "slug": "baker-college-168847",
+    "name": "Baker College",
+    "city": "Owosso",
+    "city_slug": "owosso",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-michigan-dearborn-171137",
+      "institution_name": "University of Michigan-Dearborn",
+      "earnings_median_5yr": 117020,
+      "earnings_median_4yr": 94556,
+      "debt_median": 18502,
+      "completers": 42,
+      "completers_single_year": 48,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "davenport-university-169479",
+      "institution_name": "Davenport University",
+      "earnings_median_5yr": 81984,
+      "earnings_median_4yr": 73487,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "eastern-michigan-university-169798",
+      "institution_name": "Eastern Michigan University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 27,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rochester-university-170967",
+      "institution_name": "Rochester University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "siena-heights-university-172264",
+      "institution_name": "Siena Heights University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 15299,
+      "cost_total_default": 61196,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 95210,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "11",
+      "hs_baseline_state": 36900
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 1231712,
+      "breakeven_year": 6
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

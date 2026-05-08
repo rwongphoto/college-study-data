@@ -1,0 +1,200 @@
+{
+  "institution_unitid": "151111",
+  "institution_name": "Indiana University-Indianapolis",
+  "institution_slug": "indiana-university-indianapolis-151111",
+  "state": "in",
+  "cip_code": "1405",
+  "cip_desc": "Biomedical/Medical Engineering.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1405-c3",
+  "earnings_median_4yr": 76252,
+  "earnings_median_5yr": 84223,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 1,
+  "debt_median": 19959,
+  "completers": 37,
+  "completers_single_year": 33,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 76252.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 84223.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 21500.0
+      },
+      {
+        "year": 2016,
+        "value": 19184.0
+      },
+      {
+        "year": 2017,
+        "value": 21500.0
+      },
+      {
+        "year": 2018,
+        "value": 19959.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 22.0
+      },
+      {
+        "year": 2015,
+        "value": 23.0
+      },
+      {
+        "year": 2016,
+        "value": 29.0
+      },
+      {
+        "year": 2017,
+        "value": 30.0
+      },
+      {
+        "year": 2018,
+        "value": 33.0
+      },
+      {
+        "year": 2019,
+        "value": 37.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "151111",
+    "slug": "indiana-university-indianapolis-151111",
+    "name": "Indiana University-Indianapolis",
+    "city": "Indianapolis",
+    "city_slug": "indianapolis",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "rose-hulman-institute-of-technology-152318",
+      "institution_name": "Rose-Hulman Institute of Technology",
+      "earnings_median_5yr": 93920,
+      "earnings_median_4yr": 83476,
+      "debt_median": 26441,
+      "completers": 37,
+      "completers_single_year": 42,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "purdue-university-main-campus-243780",
+      "institution_name": "Purdue University-Main Campus",
+      "earnings_median_5yr": 92892,
+      "earnings_median_4yr": 78264,
+      "debt_median": 19500,
+      "completers": 90,
+      "completers_single_year": 75,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "indiana-institute-of-technology-151290",
+      "institution_name": "Indiana Institute of Technology",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 19,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "trine-university-152567",
+      "institution_name": "Trine University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 27000,
+      "completers": 22,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "valparaiso-university-152600",
+      "institution_name": "Valparaiso University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 11445,
+      "cost_total_default": 45780,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 84223,
+      "earnings_anchor_year": 5,
+      "debt_median": 19959,
+      "cip_family": "14",
+      "hs_baseline_state": 36400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 991848,
+      "breakeven_year": 6
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

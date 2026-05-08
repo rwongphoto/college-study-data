@@ -1,0 +1,688 @@
+{
+  "institution_unitid": "227331",
+  "institution_name": "Our Lady of the Lake University",
+  "institution_slug": "our-lady-of-the-lake-university-227331",
+  "state": "tx",
+  "cip_code": "4301",
+  "cip_desc": "Criminal Justice and Corrections.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "4301-c3",
+  "earnings_median_4yr": 39940,
+  "earnings_median_5yr": 42014,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 2,
+  "debt_median": 26625,
+  "completers": 30,
+  "completers_single_year": 28,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 39940.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 42014.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 24125.0
+      },
+      {
+        "year": 2015,
+        "value": 25250.0
+      },
+      {
+        "year": 2016,
+        "value": 25000.0
+      },
+      {
+        "year": 2017,
+        "value": 25500.0
+      },
+      {
+        "year": 2018,
+        "value": 26625.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 17.0
+      },
+      {
+        "year": 2015,
+        "value": 19.0
+      },
+      {
+        "year": 2016,
+        "value": 16.0
+      },
+      {
+        "year": 2017,
+        "value": 22.0
+      },
+      {
+        "year": 2018,
+        "value": 28.0
+      },
+      {
+        "year": 2019,
+        "value": 30.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 8.4% at Criminal Justice and Corrections at Our Lady of the Lake University exceeds the 8% gainful-employment threshold ($26.6k debt amortized over 10 years vs $42.0k earnings).",
+      "magnitude_pct": 8.4,
+      "magnitude_abs": 0.4,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "227331",
+    "slug": "our-lady-of-the-lake-university-227331",
+    "name": "Our Lady of the Lake University",
+    "city": "San Antonio",
+    "city_slug": "san-antonio",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "saint-edward-s-university-227845",
+      "institution_name": "Saint Edward's University",
+      "earnings_median_5yr": 59686,
+      "earnings_median_4yr": 48020,
+      "debt_median": 23974,
+      "completers": 22,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lamar-university-226091",
+      "institution_name": "Lamar University",
+      "earnings_median_5yr": 58550,
+      "earnings_median_4yr": 50559,
+      "debt_median": 25000,
+      "completers": 84,
+      "completers_single_year": 97,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "angelo-state-university-222831",
+      "institution_name": "Angelo State University",
+      "earnings_median_5yr": 57770,
+      "earnings_median_4yr": 51462,
+      "debt_median": 19709,
+      "completers": 43,
+      "completers_single_year": 48,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hardin-simmons-university-225247",
+      "institution_name": "Hardin-Simmons University",
+      "earnings_median_5yr": 56944,
+      "earnings_median_4yr": 52024,
+      "debt_median": 25625,
+      "completers": 9,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-university-of-texas-at-arlington-228769",
+      "institution_name": "The University of Texas at Arlington",
+      "earnings_median_5yr": 55315,
+      "earnings_median_4yr": 49734,
+      "debt_median": 16831,
+      "completers": 170,
+      "completers_single_year": 196,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-houston-downtown-225432",
+      "institution_name": "University of Houston-Downtown",
+      "earnings_median_5yr": 55229,
+      "earnings_median_4yr": 50850,
+      "debt_median": 19815,
+      "completers": 208,
+      "completers_single_year": 223,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wayland-baptist-university-229780",
+      "institution_name": "Wayland Baptist University",
+      "earnings_median_5yr": 54933,
+      "earnings_median_4yr": 47490,
+      "debt_median": 24145,
+      "completers": 76,
+      "completers_single_year": 75,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "stephen-f-austin-state-university-228431",
+      "institution_name": "Stephen F Austin State University",
+      "earnings_median_5yr": 54769,
+      "earnings_median_4yr": 45972,
+      "debt_median": 22750,
+      "completers": 49,
+      "completers_single_year": 48,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-university-of-texas-at-tyler-228802",
+      "institution_name": "The University of Texas at Tyler",
+      "earnings_median_5yr": 54490,
+      "earnings_median_4yr": 43694,
+      "debt_median": 17750,
+      "completers": 44,
+      "completers_single_year": 42,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "texas-state-university-228459",
+      "institution_name": "Texas State University",
+      "earnings_median_5yr": 54099,
+      "earnings_median_4yr": 46095,
+      "debt_median": 17000,
+      "completers": 345,
+      "completers_single_year": 304,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-university-of-texas-at-san-antonio-229027",
+      "institution_name": "The University of Texas at San Antonio",
+      "earnings_median_5yr": 53745,
+      "earnings_median_4yr": 45577,
+      "debt_median": 19500,
+      "completers": 324,
+      "completers_single_year": 283,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "texas-woman-s-university-229179",
+      "institution_name": "Texas Woman's University",
+      "earnings_median_5yr": 53576,
+      "earnings_median_4yr": 45577,
+      "debt_median": 23462,
+      "completers": 31,
+      "completers_single_year": 34,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-the-incarnate-word-225627",
+      "institution_name": "University of the Incarnate Word",
+      "earnings_median_5yr": 52804,
+      "earnings_median_4yr": 44402,
+      "debt_median": 26964,
+      "completers": 40,
+      "completers_single_year": 52,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "sam-houston-state-university-227881",
+      "institution_name": "Sam Houston State University",
+      "earnings_median_5yr": 52576,
+      "earnings_median_4yr": 46083,
+      "debt_median": 20708,
+      "completers": 899,
+      "completers_single_year": 852,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "texas-southern-university-229063",
+      "institution_name": "Texas Southern University",
+      "earnings_median_5yr": 52298,
+      "earnings_median_4yr": 48415,
+      "debt_median": 31085,
+      "completers": 53,
+      "completers_single_year": 41,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "tarleton-state-university-228529",
+      "institution_name": "Tarleton State University",
+      "earnings_median_5yr": 52114,
+      "earnings_median_4yr": 49034,
+      "debt_median": 18750,
+      "completers": 184,
+      "completers_single_year": 150,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lubbock-christian-university-226383",
+      "institution_name": "Lubbock Christian University",
+      "earnings_median_5yr": 51310,
+      "earnings_median_4yr": 41982,
+      "debt_median": null,
+      "completers": 14,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-university-of-texas-rio-grande-valley-227368",
+      "institution_name": "The University of Texas Rio Grande Valley",
+      "earnings_median_5yr": 50935,
+      "earnings_median_4yr": 44047,
+      "debt_median": 11000,
+      "completers": 520,
+      "completers_single_year": 425,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-north-texas-227216",
+      "institution_name": "University of North Texas",
+      "earnings_median_5yr": 50657,
+      "earnings_median_4yr": 44301,
+      "debt_median": 18000,
+      "completers": 273,
+      "completers_single_year": 261,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "texas-a-m-international-university-226152",
+      "institution_name": "Texas A & M International University",
+      "earnings_median_5yr": 50535,
+      "earnings_median_4yr": 42609,
+      "debt_median": 15500,
+      "completers": 189,
+      "completers_single_year": 190,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-university-of-texas-at-el-paso-228796",
+      "institution_name": "The University of Texas at El Paso",
+      "earnings_median_5yr": 49048,
+      "earnings_median_4yr": 43145,
+      "debt_median": 18750,
+      "completers": 256,
+      "completers_single_year": 283,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "texas-a-m-university-corpus-christi-224147",
+      "institution_name": "Texas A & M University-Corpus Christi",
+      "earnings_median_5yr": 48532,
+      "earnings_median_4yr": 40200,
+      "debt_median": 22250,
+      "completers": 69,
+      "completers_single_year": 83,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-houston-victoria-225502",
+      "institution_name": "University of Houston-Victoria",
+      "earnings_median_5yr": 48224,
+      "earnings_median_4yr": 40677,
+      "debt_median": 25629,
+      "completers": 74,
+      "completers_single_year": 43,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "prairie-view-a-m-university-227526",
+      "institution_name": "Prairie View A & M University",
+      "earnings_median_5yr": 47806,
+      "earnings_median_4yr": 42752,
+      "debt_median": 24975,
+      "completers": 125,
+      "completers_single_year": 94,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "west-texas-a-m-university-229814",
+      "institution_name": "West Texas A & M University",
+      "earnings_median_5yr": 46118,
+      "earnings_median_4yr": 42373,
+      "debt_median": 21350,
+      "completers": 38,
+      "completers_single_year": 47,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-north-texas-at-dallas-484905",
+      "institution_name": "University of North Texas at Dallas",
+      "earnings_median_5yr": 46100,
+      "earnings_median_4yr": 40743,
+      "debt_median": null,
+      "completers": 88,
+      "completers_single_year": 78,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "st-mary-s-university-228149",
+      "institution_name": "St. Mary's University",
+      "earnings_median_5yr": 45608,
+      "earnings_median_4yr": 36998,
+      "debt_median": 25000,
+      "completers": 18,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "texas-southmost-college-227377",
+      "institution_name": "Texas Southmost College",
+      "earnings_median_5yr": 45130,
+      "earnings_median_4yr": 40376,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "texas-a-m-university-central-texas-483036",
+      "institution_name": "Texas A&M University-Central Texas",
+      "earnings_median_5yr": 44742,
+      "earnings_median_4yr": 33511,
+      "debt_median": 20375,
+      "completers": 24,
+      "completers_single_year": 35,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "texas-a-m-university-commerce-224554",
+      "institution_name": "Texas A & M University-Commerce",
+      "earnings_median_5yr": 43657,
+      "earnings_median_4yr": 39566,
+      "debt_median": 23378,
+      "completers": 116,
+      "completers_single_year": 79,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "midwestern-state-university-226833",
+      "institution_name": "Midwestern State University",
+      "earnings_median_5yr": 43441,
+      "earnings_median_4yr": 40615,
+      "debt_median": 23370,
+      "completers": 32,
+      "completers_single_year": 44,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wiley-university-229887",
+      "institution_name": "Wiley University",
+      "earnings_median_5yr": 36725,
+      "earnings_median_4yr": 32862,
+      "debt_median": 25107,
+      "completers": 15,
+      "completers_single_year": 32,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "remington-college-dallas-campus-223463",
+      "institution_name": "Remington College-Dallas Campus",
+      "earnings_median_5yr": 35238,
+      "earnings_median_4yr": 31249,
+      "debt_median": 45000,
+      "completers": 2,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "texas-college-228884",
+      "institution_name": "Texas College",
+      "earnings_median_5yr": 33470,
+      "earnings_median_4yr": 29801,
+      "debt_median": 34000,
+      "completers": 18,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "abilene-christian-university-222178",
+      "institution_name": "Abilene Christian University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "dallas-baptist-university-224226",
+      "institution_name": "Dallas Baptist University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "east-texas-baptist-university-224527",
+      "institution_name": "East Texas Baptist University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 25000,
+      "completers": 14,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "texas-a-m-university-texarkana-224545",
+      "institution_name": "Texas A&M University-Texarkana",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 17375,
+      "completers": 31,
+      "completers_single_year": 33,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "houston-christian-university-225399",
+      "institution_name": "Houston Christian University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "howard-payne-university-225548",
+      "institution_name": "Howard Payne University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "huston-tillotson-university-225575",
+      "institution_name": "Huston-Tillotson University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 15,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "jarvis-christian-university-225885",
+      "institution_name": "Jarvis Christian University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-mary-hardin-baylor-226471",
+      "institution_name": "University of Mary Hardin-Baylor",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 15,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mcmurry-university-226587",
+      "institution_name": "McMurry University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "paul-quinn-college-227429",
+      "institution_name": "Paul Quinn College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southwestern-assemblies-of-god-university-228325",
+      "institution_name": "Southwestern Assemblies of God University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "sul-ross-state-university-228501",
+      "institution_name": "Sul Ross State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 17447,
+      "completers": 48,
+      "completers_single_year": 40,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "texas-a-m-university-kingsville-228705",
+      "institution_name": "Texas A & M University-Kingsville",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 21250,
+      "completers": 38,
+      "completers_single_year": 25,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "texas-christian-university-228875",
+      "institution_name": "Texas Christian University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 61238,
+      "debt_median": 20500,
+      "completers": 49,
+      "completers_single_year": 59,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-university-of-texas-permian-basin-229018",
+      "institution_name": "The University of Texas Permian Basin",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 23,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "texas-wesleyan-university-229160",
+      "institution_name": "Texas Wesleyan University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 44073,
+      "debt_median": 25000,
+      "completers": 20,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "north-american-university-461795",
+      "institution_name": "North American University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 16021,
+      "cost_total_default": 64084,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 42014,
+      "earnings_anchor_year": 5,
+      "debt_median": 26625,
+      "cip_family": "43",
+      "hs_baseline_state": 37300
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 41724,
+      "breakeven_year": 30
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

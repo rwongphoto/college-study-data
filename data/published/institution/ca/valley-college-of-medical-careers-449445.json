@@ -1,0 +1,710 @@
+{
+  "institution": {
+    "unitid": "449445",
+    "opeid6": "041145",
+    "name": "Valley College of Medical Careers",
+    "slug": "valley-college-of-medical-careers-449445",
+    "state": "ca",
+    "city": "West Hills",
+    "city_slug": "west-hills",
+    "zip5": "91304",
+    "address": "8399 Topanga Canyon Blvd Ste 200",
+    "latitude": 34.221839,
+    "longitude": -118.606731,
+    "control": "private_forprofit",
+    "pred_degree": "certificate",
+    "highest_degree": "associates",
+    "main_campus": true,
+    "locale": "11",
+    "carnegie_basic": -2,
+    "sector_code": 6,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": 34269,
+    "earnings_median_8yr": 40828,
+    "earnings_median_10yr": 37453,
+    "completion_rate_150": 0.7857,
+    "completion_rate_100": 0.2679,
+    "retention_rate": 0.0833,
+    "admission_rate": null,
+    "enrollment_undergrad": 57,
+    "enrollment_total": null,
+    "cost_attendance": 27572,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": 21967,
+    "median_debt": 8698,
+    "default_rate": 0.0,
+    "pell_share": 0.7736,
+    "history": {
+      "completion_rate_150": [
+        {
+          "year": 2007,
+          "value": 0.7955
+        },
+        {
+          "year": 2008,
+          "value": 0.875
+        },
+        {
+          "year": 2009,
+          "value": 0.931
+        }
+      ],
+      "completion_rate_100": [
+        {
+          "year": 2009,
+          "value": 0.6092
+        }
+      ],
+      "retention_rate": [
+        {
+          "year": 2008,
+          "value": 0.88
+        },
+        {
+          "year": 2009,
+          "value": 0.7692
+        }
+      ],
+      "admission_rate": [],
+      "enrollment_undergrad": [
+        {
+          "year": 2007,
+          "value": 33.0
+        },
+        {
+          "year": 2008,
+          "value": 102.0
+        },
+        {
+          "year": 2009,
+          "value": 173.0
+        }
+      ],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [
+        {
+          "year": 2009,
+          "value": 38939.0
+        }
+      ],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [],
+      "median_debt": [
+        {
+          "year": 2007,
+          "value": 3662.0
+        },
+        {
+          "year": 2008,
+          "value": 3500.0
+        },
+        {
+          "year": 2009,
+          "value": 8065.0
+        }
+      ],
+      "default_rate": [],
+      "pell_share": [
+        {
+          "year": 2008,
+          "value": 0.6923
+        },
+        {
+          "year": 2009,
+          "value": 0.7131
+        }
+      ],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "retention_rate",
+        "from_year": 2008,
+        "to_year": 2009,
+        "from_value": 0.88,
+        "to_value": 0.7692,
+        "pct_change": -0.12590909090909091,
+        "direction": "fell"
+      },
+      {
+        "metric": "enrollment_undergrad",
+        "from_year": 2007,
+        "to_year": 2009,
+        "from_value": 33.0,
+        "to_value": 173.0,
+        "pct_change": 0.7,
+        "direction": "rose"
+      },
+      {
+        "metric": "median_debt",
+        "from_year": 2007,
+        "to_year": 2009,
+        "from_value": 3662.0,
+        "to_value": 8065.0,
+        "pct_change": 1.2023484434735117,
+        "direction": "rose"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "Median federal debt at exit",
+        "summary": "Median federal debt at exit at Valley College of Medical Careers rose 120% between 2007 and 2009 ($3.7k → $8.1k).",
+        "magnitude_pct": 120.2,
+        "magnitude_abs": 4403.0,
+        "baseline_year": 2007,
+        "recent_year": 2009,
+        "units": null,
+        "history": [],
+        "metric": "median_debt"
+      },
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "First-year retention",
+        "summary": "First-year retention at Valley College of Medical Careers fell 13% between 2008 and 2009 (88.0% → 76.9%).",
+        "magnitude_pct": -12.6,
+        "magnitude_abs": -0.11,
+        "baseline_year": 2008,
+        "recent_year": 2009,
+        "units": "%",
+        "history": [],
+        "metric": "retention_rate"
+      },
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "Undergraduate enrollment",
+        "summary": "Undergraduate enrollment at Valley College of Medical Careers rose 424% between 2007 and 2009 (33 → 173).",
+        "magnitude_pct": 424.2,
+        "magnitude_abs": 140.0,
+        "baseline_year": 2007,
+        "recent_year": 2009,
+        "units": null,
+        "history": [],
+        "metric": "enrollment_undergrad"
+      },
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "150%-time completion",
+        "summary": "150%-time completion at Valley College of Medical Careers rose 17% between 2007 and 2009 (79.5% → 93.1%).",
+        "magnitude_pct": 17.0,
+        "magnitude_abs": 0.14,
+        "baseline_year": 2007,
+        "recent_year": 2009,
+        "units": "%",
+        "history": [],
+        "metric": "completion_rate_150"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "51": [
+      {
+        "slug": "5108-c1",
+        "cip_code": "5108",
+        "cip_desc": "Allied Health and Medical Assisting Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": 36512,
+        "earnings_median_4yr": 30062,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 36512.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 30062.0
+          }
+        ],
+        "debt_median": 8109,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 8460.0
+          },
+          {
+            "year": 2015,
+            "value": 8419.0
+          },
+          {
+            "year": 2016,
+            "value": 8379.0
+          },
+          {
+            "year": 2017,
+            "value": 8279.0
+          },
+          {
+            "year": 2018,
+            "value": 8109.0
+          }
+        ],
+        "completers": 24,
+        "completers_single_year": 21,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 41.0
+          },
+          {
+            "year": 2015,
+            "value": 39.0
+          },
+          {
+            "year": 2016,
+            "value": 44.0
+          },
+          {
+            "year": 2017,
+            "value": 33.0
+          },
+          {
+            "year": 2018,
+            "value": 21.0
+          },
+          {
+            "year": 2019,
+            "value": 24.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5109-c2",
+        "cip_code": "5109",
+        "cip_desc": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 8,
+        "completers_single_year": 3,
+        "completers_history": [
+          {
+            "year": 2017,
+            "value": 7.0
+          },
+          {
+            "year": 2018,
+            "value": 3.0
+          },
+          {
+            "year": 2019,
+            "value": 8.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5107-c1",
+        "cip_code": "5107",
+        "cip_desc": "Health and Medical Administrative Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": 41234,
+        "earnings_median_4yr": 33420,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 41234.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 33420.0
+          }
+        ],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 4,
+        "completers_single_year": 4,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 20.0
+          },
+          {
+            "year": 2015,
+            "value": 15.0
+          },
+          {
+            "year": 2016,
+            "value": 2.0
+          },
+          {
+            "year": 2017,
+            "value": 8.0
+          },
+          {
+            "year": 2018,
+            "value": 4.0
+          },
+          {
+            "year": 2019,
+            "value": 4.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5108-c2",
+        "cip_code": "5108",
+        "cip_desc": "Allied Health and Medical Assisting Services.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      },
+      {
+        "slug": "5109-c1",
+        "cip_code": "5109",
+        "cip_desc": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 9.0
+          },
+          {
+            "year": 2015,
+            "value": 12.0
+          },
+          {
+            "year": 2016,
+            "value": 7.0
+          }
+        ],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "5108-c1",
+      "cip_code": "5108",
+      "cip_desc": "Allied Health and Medical Assisting Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": 36512,
+      "earnings_median_4yr": 30062,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 36512.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 30062.0
+        }
+      ],
+      "debt_median": 8109,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 8460.0
+        },
+        {
+          "year": 2015,
+          "value": 8419.0
+        },
+        {
+          "year": 2016,
+          "value": 8379.0
+        },
+        {
+          "year": 2017,
+          "value": 8279.0
+        },
+        {
+          "year": 2018,
+          "value": 8109.0
+        }
+      ],
+      "completers": 24,
+      "completers_single_year": 21,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 41.0
+        },
+        {
+          "year": 2015,
+          "value": 39.0
+        },
+        {
+          "year": 2016,
+          "value": 44.0
+        },
+        {
+          "year": 2017,
+          "value": 33.0
+        },
+        {
+          "year": 2018,
+          "value": 21.0
+        },
+        {
+          "year": 2019,
+          "value": 24.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5109-c2",
+      "cip_code": "5109",
+      "cip_desc": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 8,
+      "completers_single_year": 3,
+      "completers_history": [
+        {
+          "year": 2017,
+          "value": 7.0
+        },
+        {
+          "year": 2018,
+          "value": 3.0
+        },
+        {
+          "year": 2019,
+          "value": 8.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5107-c1",
+      "cip_code": "5107",
+      "cip_desc": "Health and Medical Administrative Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": 41234,
+      "earnings_median_4yr": 33420,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 41234.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 33420.0
+        }
+      ],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 4,
+      "completers_single_year": 4,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 20.0
+        },
+        {
+          "year": 2015,
+          "value": 15.0
+        },
+        {
+          "year": 2016,
+          "value": 2.0
+        },
+        {
+          "year": 2017,
+          "value": 8.0
+        },
+        {
+          "year": 2018,
+          "value": 4.0
+        },
+        {
+          "year": 2019,
+          "value": 4.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5108-c2",
+      "cip_code": "5108",
+      "cip_desc": "Allied Health and Medical Assisting Services.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    },
+    {
+      "slug": "5109-c1",
+      "cip_code": "5109",
+      "cip_desc": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 9.0
+        },
+        {
+          "year": 2015,
+          "value": 12.0
+        },
+        {
+          "year": 2016,
+          "value": 7.0
+        }
+      ],
+      "long_arc": []
+    }
+  ],
+  "program_count": 5,
+  "similar": [
+    {
+      "slug": "international-college-of-beauty-arts-sciences-462336",
+      "name": "International College of Beauty Arts & Sciences",
+      "city": "Los Angeles",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.9211,
+      "enrollment_undergrad": 59
+    },
+    {
+      "slug": "thanh-le-college-school-of-cosmetology-368832",
+      "name": "Thanh Le College School of Cosmetology",
+      "city": "Garden Grove",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 13265,
+      "completion_rate_150": 0.5455,
+      "enrollment_undergrad": 54
+    },
+    {
+      "slug": "los-angeles-pacific-college-400558",
+      "name": "Los Angeles Pacific College",
+      "city": "Los Angeles",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": 61
+    },
+    {
+      "slug": "john-wesley-international-barber-and-beauty-college-428125",
+      "name": "John Wesley International Barber and Beauty College",
+      "city": "Long Beach",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 23643,
+      "completion_rate_150": 0.8333,
+      "enrollment_undergrad": 61
+    },
+    {
+      "slug": "california-barber-and-beauty-college-486497",
+      "name": "California Barber and Beauty College",
+      "city": "San Diego",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.7368,
+      "enrollment_undergrad": 61
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

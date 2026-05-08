@@ -1,0 +1,558 @@
+{
+  "institution_unitid": "195030",
+  "institution_name": "University of Rochester",
+  "institution_slug": "university-of-rochester-195030",
+  "state": "ny",
+  "cip_code": "5138",
+  "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5138-c5",
+  "earnings_median_4yr": 100869,
+  "earnings_median_5yr": 112262,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": 34054,
+  "completers": 68,
+  "completers_single_year": 70,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 100869.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 112262.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 28010.0
+      },
+      {
+        "year": 2015,
+        "value": 25623.0
+      },
+      {
+        "year": 2016,
+        "value": 30519.0
+      },
+      {
+        "year": 2017,
+        "value": 31968.0
+      },
+      {
+        "year": 2018,
+        "value": 34054.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 36.0
+      },
+      {
+        "year": 2015,
+        "value": 45.0
+      },
+      {
+        "year": 2016,
+        "value": 67.0
+      },
+      {
+        "year": 2017,
+        "value": 63.0
+      },
+      {
+        "year": 2018,
+        "value": 70.0
+      },
+      {
+        "year": 2019,
+        "value": 68.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 28010.0,
+      "to_value": 34054.0,
+      "pct_change": 0.21578007854337736,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing at University of Rochester rose 22% between 2014 and 2018 ($28.0k → $34.1k).",
+      "magnitude_pct": 21.6,
+      "magnitude_abs": 6044.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "195030",
+    "slug": "university-of-rochester-195030",
+    "name": "University of Rochester",
+    "city": "Rochester",
+    "city_slug": "rochester",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "albany-medical-college-188580",
+      "institution_name": "Albany Medical College",
+      "earnings_median_5yr": 232258,
+      "earnings_median_4yr": 199221,
+      "debt_median": 60919,
+      "completers": 22,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "suny-downstate-health-sciences-university-196255",
+      "institution_name": "SUNY Downstate Health Sciences University",
+      "earnings_median_5yr": 163535,
+      "earnings_median_4yr": 131619,
+      "debt_median": 26425,
+      "completers": 89,
+      "completers_single_year": 84,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wagner-college-197197",
+      "institution_name": "Wagner College",
+      "earnings_median_5yr": 147893,
+      "earnings_median_4yr": 132597,
+      "debt_median": 49365,
+      "completers": 56,
+      "completers_single_year": 50,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "new-york-university-193900",
+      "institution_name": "New York University",
+      "earnings_median_5yr": 146089,
+      "earnings_median_4yr": 132396,
+      "debt_median": 67284,
+      "completers": 180,
+      "completers_single_year": 166,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "adelphi-university-188429",
+      "institution_name": "Adelphi University",
+      "earnings_median_5yr": 145809,
+      "earnings_median_4yr": 137684,
+      "debt_median": 53604,
+      "completers": 59,
+      "completers_single_year": 48,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "molloy-college-193292",
+      "institution_name": "Molloy College",
+      "earnings_median_5yr": 143486,
+      "earnings_median_4yr": 126022,
+      "debt_median": 45750,
+      "completers": 105,
+      "completers_single_year": 123,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cuny-hunter-college-190594",
+      "institution_name": "CUNY Hunter College",
+      "earnings_median_5yr": 140979,
+      "earnings_median_4yr": 129543,
+      "debt_median": 20500,
+      "completers": 57,
+      "completers_single_year": 221,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cuny-lehman-college-190637",
+      "institution_name": "CUNY Lehman College",
+      "earnings_median_5yr": 139945,
+      "earnings_median_4yr": 123412,
+      "debt_median": 22052,
+      "completers": 103,
+      "completers_single_year": 83,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "columbia-university-in-the-city-of-new-york-190150",
+      "institution_name": "Columbia University in the City of New York",
+      "earnings_median_5yr": 139144,
+      "earnings_median_4yr": 131677,
+      "debt_median": 116593,
+      "completers": 269,
+      "completers_single_year": 277,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "long-island-university-192448",
+      "institution_name": "Long Island University",
+      "earnings_median_5yr": 137555,
+      "earnings_median_4yr": 126550,
+      "debt_median": 60402,
+      "completers": 121,
+      "completers_single_year": 103,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pace-university-194310",
+      "institution_name": "Pace University",
+      "earnings_median_5yr": 136308,
+      "earnings_median_4yr": 126703,
+      "debt_median": 47444,
+      "completers": 130,
+      "completers_single_year": 110,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mount-saint-mary-college-193353",
+      "institution_name": "Mount Saint Mary College",
+      "earnings_median_5yr": 134702,
+      "earnings_median_4yr": 123718,
+      "debt_median": null,
+      "completers": 33,
+      "completers_single_year": 43,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "binghamton-university-196079",
+      "institution_name": "Binghamton University",
+      "earnings_median_5yr": 133178,
+      "earnings_median_4yr": 116704,
+      "debt_median": 41000,
+      "completers": 83,
+      "completers_single_year": 62,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "stony-brook-university-196097",
+      "institution_name": "Stony Brook University",
+      "earnings_median_5yr": 131398,
+      "earnings_median_4yr": 119981,
+      "debt_median": 29728,
+      "completers": 311,
+      "completers_single_year": 280,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "daemen-university-190725",
+      "institution_name": "Daemen University",
+      "earnings_median_5yr": 128120,
+      "earnings_median_4yr": 126314,
+      "debt_median": 36944,
+      "completers": 31,
+      "completers_single_year": 24,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "russell-sage-college-195128",
+      "institution_name": "Russell Sage College",
+      "earnings_median_5yr": 124141,
+      "earnings_median_4yr": 117403,
+      "debt_median": 43307,
+      "completers": 52,
+      "completers_single_year": 60,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "suny-polytechnic-institute-196112",
+      "institution_name": "SUNY Polytechnic Institute",
+      "earnings_median_5yr": 120170,
+      "earnings_median_4yr": 113580,
+      "debt_median": 42988,
+      "completers": 78,
+      "completers_single_year": 49,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "d-youville-university-190716",
+      "institution_name": "D'Youville  University",
+      "earnings_median_5yr": 118905,
+      "earnings_median_4yr": 111680,
+      "debt_median": 41000,
+      "completers": 120,
+      "completers_single_year": 128,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "upstate-medical-university-196307",
+      "institution_name": "Upstate Medical University",
+      "earnings_median_5yr": 118044,
+      "earnings_median_4yr": 108591,
+      "debt_median": 48181,
+      "completers": 88,
+      "completers_single_year": 93,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "excelsior-university-196680",
+      "institution_name": "Excelsior University",
+      "earnings_median_5yr": 117723,
+      "earnings_median_4yr": 112917,
+      "debt_median": 27295,
+      "completers": 30,
+      "completers_single_year": 42,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "st-john-fisher-university-195720",
+      "institution_name": "St. John Fisher University",
+      "earnings_median_5yr": 115223,
+      "earnings_median_4yr": 109590,
+      "debt_median": 34628,
+      "completers": 89,
+      "completers_single_year": 73,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "college-of-staten-island-cuny-190558",
+      "institution_name": "College of Staten Island CUNY",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 19,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cuny-graduate-school-and-university-center-190576",
+      "institution_name": "CUNY Graduate School and University Center",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "dominican-university-new-york-190761",
+      "institution_name": "Dominican University New York",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 41000,
+      "completers": 79,
+      "completers_single_year": 34,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hofstra-university-191649",
+      "institution_name": "Hofstra University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 63,
+      "completers_single_year": 49,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "keuka-college-192192",
+      "institution_name": "Keuka College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 41000,
+      "completers": 27,
+      "completers_single_year": 30,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "le-moyne-college-192323",
+      "institution_name": "Le Moyne College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 29500,
+      "completers": 22,
+      "completers_single_year": 24,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "marion-s-whelan-school-of-nursing-of-geneva-general-hospital-192800",
+      "institution_name": "Marion S Whelan School of Nursing of Geneva General Hospital",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mercy-university-193016",
+      "institution_name": "Mercy University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 35,
+      "completers_single_year": 40,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-mount-saint-vincent-193399",
+      "institution_name": "University of Mount Saint Vincent",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 38,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "nazareth-university-193584",
+      "institution_name": "Nazareth University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "roberts-wesleyan-university-194958",
+      "institution_name": "Roberts Wesleyan University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "st-joseph-s-university-new-york-195544",
+      "institution_name": "St. Joseph's University-New York",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 43045,
+      "completers": 22,
+      "completers_single_year": 25,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "suny-college-of-technology-at-delhi-196024",
+      "institution_name": "SUNY College of Technology at Delhi",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-at-buffalo-196088",
+      "institution_name": "University at Buffalo",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "suny-brockport-196121",
+      "institution_name": "SUNY Brockport",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "empire-state-university-196264",
+      "institution_name": "Empire State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 29,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "teachers-college-at-columbia-university-196468",
+      "institution_name": "Teachers College at Columbia University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 21177,
+      "cost_total_default": 127062,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 112262,
+      "earnings_anchor_year": 5,
+      "debt_median": 34054,
+      "cip_family": "51",
+      "hs_baseline_state": 40100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 1036641,
+      "breakeven_year": 9
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

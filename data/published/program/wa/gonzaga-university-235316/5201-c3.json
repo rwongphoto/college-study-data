@@ -1,0 +1,214 @@
+{
+  "institution_unitid": "235316",
+  "institution_name": "Gonzaga University",
+  "institution_slug": "gonzaga-university-235316",
+  "state": "wa",
+  "cip_code": "5201",
+  "cip_desc": "Business/Commerce, General.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5201-c3",
+  "earnings_median_4yr": 72747,
+  "earnings_median_5yr": 92893,
+  "earnings_count_4yr": 5,
+  "earnings_count_5yr": 9,
+  "debt_median": 22500,
+  "completers": 272,
+  "completers_single_year": 326,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 72747.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 92893.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 24500.0
+      },
+      {
+        "year": 2015,
+        "value": 24500.0
+      },
+      {
+        "year": 2016,
+        "value": 24828.0
+      },
+      {
+        "year": 2017,
+        "value": 23500.0
+      },
+      {
+        "year": 2018,
+        "value": 22500.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 203.0
+      },
+      {
+        "year": 2015,
+        "value": 252.0
+      },
+      {
+        "year": 2016,
+        "value": 253.0
+      },
+      {
+        "year": 2017,
+        "value": 318.0
+      },
+      {
+        "year": 2018,
+        "value": 326.0
+      },
+      {
+        "year": 2019,
+        "value": 272.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "235316",
+    "slug": "gonzaga-university-235316",
+    "name": "Gonzaga University",
+    "city": "Spokane",
+    "city_slug": "spokane",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "seattle-pacific-university-236577",
+      "institution_name": "Seattle Pacific University",
+      "earnings_median_5yr": 92084,
+      "earnings_median_4yr": 79563,
+      "debt_median": 21500,
+      "completers": 66,
+      "completers_single_year": 70,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "walla-walla-university-236896",
+      "institution_name": "Walla Walla University",
+      "earnings_median_5yr": 67982,
+      "earnings_median_4yr": 43839,
+      "debt_median": 26000,
+      "completers": 21,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "heritage-university-235422",
+      "institution_name": "Heritage University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northwest-university-236133",
+      "institution_name": "Northwest University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "seattle-university-236595",
+      "institution_name": "Seattle University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "washington-state-university-236939",
+      "institution_name": "Washington State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 9,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 25096,
+      "cost_total_default": 100384,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 92893,
+      "earnings_anchor_year": 5,
+      "debt_median": 22500,
+      "cip_family": "52",
+      "hs_baseline_state": 41200
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 914058,
+      "breakeven_year": 7
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

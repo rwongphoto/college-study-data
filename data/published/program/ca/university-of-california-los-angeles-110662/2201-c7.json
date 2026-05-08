@@ -1,0 +1,419 @@
+{
+  "institution_unitid": "110662",
+  "institution_name": "University of California-Los Angeles",
+  "institution_slug": "university-of-california-los-angeles-110662",
+  "state": "ca",
+  "cip_code": "2201",
+  "cip_desc": "Law.",
+  "credential_level": 7,
+  "credential_desc": "First Professional Degree",
+  "slug": "2201-c7",
+  "earnings_median_4yr": 151546,
+  "earnings_median_5yr": 172729,
+  "earnings_count_4yr": 14,
+  "earnings_count_5yr": 20,
+  "debt_median": 135373,
+  "completers": 343,
+  "completers_single_year": 312,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 151546.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 172729.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 120920.0
+      },
+      {
+        "year": 2015,
+        "value": 121453.0
+      },
+      {
+        "year": 2016,
+        "value": 124812.0
+      },
+      {
+        "year": 2018,
+        "value": 135373.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 316.0
+      },
+      {
+        "year": 2015,
+        "value": 357.0
+      },
+      {
+        "year": 2016,
+        "value": 318.0
+      },
+      {
+        "year": 2017,
+        "value": 317.0
+      },
+      {
+        "year": 2018,
+        "value": 312.0
+      },
+      {
+        "year": 2019,
+        "value": 343.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 10.4% at Law at University of California-Los Angeles exceeds the 8% gainful-employment threshold ($135.4k debt amortized over 10 years vs $172.7k earnings).",
+      "magnitude_pct": 10.4,
+      "magnitude_abs": 2.4,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "110662",
+    "slug": "university-of-california-los-angeles-110662",
+    "name": "University of California-Los Angeles",
+    "city": "Los Angeles",
+    "city_slug": "los-angeles",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "stanford-university-243744",
+      "institution_name": "Stanford University",
+      "earnings_median_5yr": 289230,
+      "earnings_median_4yr": 247989,
+      "debt_median": 153302,
+      "completers": 184,
+      "completers_single_year": 182,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-southern-california-123961",
+      "institution_name": "University of Southern California",
+      "earnings_median_5yr": 199180,
+      "earnings_median_4yr": 164409,
+      "debt_median": 138518,
+      "completers": 193,
+      "completers_single_year": 189,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-california-berkeley-110635",
+      "institution_name": "University of California-Berkeley",
+      "earnings_median_5yr": 188806,
+      "earnings_median_4yr": 182943,
+      "debt_median": 155891,
+      "completers": 327,
+      "completers_single_year": 331,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-california-college-of-the-law-san-francisco-110398",
+      "institution_name": "University of California College of the Law-San Francisco",
+      "earnings_median_5yr": 147936,
+      "earnings_median_4yr": 122517,
+      "debt_median": 139352,
+      "completers": 284,
+      "completers_single_year": 293,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-california-irvine-110653",
+      "institution_name": "University of California-Irvine",
+      "earnings_median_5yr": 136056,
+      "earnings_median_4yr": 118723,
+      "debt_median": 133605,
+      "completers": 210,
+      "completers_single_year": 140,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "santa-clara-university-122931",
+      "institution_name": "Santa Clara University",
+      "earnings_median_5yr": 135208,
+      "earnings_median_4yr": 112148,
+      "debt_median": 180127,
+      "completers": 217,
+      "completers_single_year": 207,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-san-diego-122436",
+      "institution_name": "University of San Diego",
+      "earnings_median_5yr": 130132,
+      "earnings_median_4yr": 109740,
+      "debt_median": 145850,
+      "completers": 227,
+      "completers_single_year": 241,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "loyola-marymount-university-117946",
+      "institution_name": "Loyola Marymount University",
+      "earnings_median_5yr": 122746,
+      "earnings_median_4yr": 104890,
+      "debt_median": 155436,
+      "completers": 305,
+      "completers_single_year": 332,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-california-davis-110644",
+      "institution_name": "University of California-Davis",
+      "earnings_median_5yr": 120830,
+      "earnings_median_4yr": 105663,
+      "debt_median": 92689,
+      "completers": 201,
+      "completers_single_year": 151,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "chapman-university-111948",
+      "institution_name": "Chapman University",
+      "earnings_median_5yr": 115598,
+      "earnings_median_4yr": 94450,
+      "debt_median": 170800,
+      "completers": 145,
+      "completers_single_year": 155,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southwestern-law-school-123970",
+      "institution_name": "Southwestern Law School",
+      "earnings_median_5yr": 114121,
+      "earnings_median_4yr": 93315,
+      "debt_median": 203702,
+      "completers": 227,
+      "completers_single_year": 209,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-western-school-of-law-111391",
+      "institution_name": "California Western School of Law",
+      "earnings_median_5yr": 104380,
+      "earnings_median_4yr": 90230,
+      "debt_median": 179866,
+      "completers": 207,
+      "completers_single_year": 206,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-the-pacific-120883",
+      "institution_name": "University of the Pacific",
+      "earnings_median_5yr": 103883,
+      "earnings_median_4yr": 90470,
+      "debt_median": 147082,
+      "completers": 180,
+      "completers_single_year": 131,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "golden-gate-university-115083",
+      "institution_name": "Golden Gate University",
+      "earnings_median_5yr": 100773,
+      "earnings_median_4yr": 85053,
+      "debt_median": 154813,
+      "completers": 169,
+      "completers_single_year": 131,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "thomas-jefferson-school-of-law-126049",
+      "institution_name": "Thomas Jefferson School of Law",
+      "earnings_median_5yr": 93379,
+      "earnings_median_4yr": 80754,
+      "debt_median": 229699,
+      "completers": 47,
+      "completers_single_year": 108,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "whittier-college-125763",
+      "institution_name": "Whittier College",
+      "earnings_median_5yr": 93045,
+      "earnings_median_4yr": 79627,
+      "debt_median": 227419,
+      "completers": null,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-la-verne-117140",
+      "institution_name": "University of La Verne",
+      "earnings_median_5yr": 90063,
+      "earnings_median_4yr": 78153,
+      "debt_median": null,
+      "completers": 84,
+      "completers_single_year": 76,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "humphreys-university-stockton-and-modesto-campuses-115773",
+      "institution_name": "Humphreys University-Stockton and Modesto Campuses",
+      "earnings_median_5yr": 83296,
+      "earnings_median_4yr": 71793,
+      "debt_median": null,
+      "completers": 15,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "alliant-international-university-san-diego-110468",
+      "institution_name": "Alliant International University-San Diego",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 18,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "empire-college-114123",
+      "institution_name": "Empire College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pepperdine-university-121150",
+      "institution_name": "Pepperdine University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 153,
+      "completers_single_year": 138,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-san-francisco-122612",
+      "institution_name": "University of San Francisco",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 169229,
+      "completers": 114,
+      "completers_single_year": 126,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "san-joaquin-college-of-law-122649",
+      "institution_name": "San Joaquin College of Law",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 109339,
+      "completers": 33,
+      "completers_single_year": 37,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-colleges-of-law-at-ventura-125037",
+      "institution_name": "The Colleges of Law at Ventura",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 100502,
+      "completers": 24,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northcentral-university-444130",
+      "institution_name": "Northcentral University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-west-los-angeles-484862",
+      "institution_name": "University of West Los Angeles",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 59,
+      "completers_single_year": 39,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "abraham-lincoln-university-488031",
+      "institution_name": "Abraham Lincoln University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "westcliff-university-490133",
+      "institution_name": "Westcliff University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 45240,
+      "completers": 84,
+      "completers_single_year": 85,
+      "pooled_earnings": false
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

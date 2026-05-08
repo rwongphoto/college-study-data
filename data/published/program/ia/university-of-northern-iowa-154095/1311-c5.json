@@ -1,0 +1,208 @@
+{
+  "institution_unitid": "154095",
+  "institution_name": "University of Northern Iowa",
+  "institution_slug": "university-of-northern-iowa-154095",
+  "state": "ia",
+  "cip_code": "1311",
+  "cip_desc": "Student Counseling and Personnel Services.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "1311-c5",
+  "earnings_median_4yr": 47992,
+  "earnings_median_5yr": 53462,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 2,
+  "debt_median": 32500,
+  "completers": 33,
+  "completers_single_year": 36,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 47992.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 53462.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 28500.0
+      },
+      {
+        "year": 2015,
+        "value": 28500.0
+      },
+      {
+        "year": 2016,
+        "value": 23656.0
+      },
+      {
+        "year": 2017,
+        "value": 24019.0
+      },
+      {
+        "year": 2018,
+        "value": 32500.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 34.0
+      },
+      {
+        "year": 2015,
+        "value": 25.0
+      },
+      {
+        "year": 2016,
+        "value": 24.0
+      },
+      {
+        "year": 2017,
+        "value": 34.0
+      },
+      {
+        "year": 2018,
+        "value": 36.0
+      },
+      {
+        "year": 2019,
+        "value": 33.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 8.1% at Student Counseling and Personnel Services at University of Northern Iowa exceeds the 8% gainful-employment threshold ($32.5k debt amortized over 10 years vs $53.5k earnings).",
+      "magnitude_pct": 8.1,
+      "magnitude_abs": 0.1,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "154095",
+    "slug": "university-of-northern-iowa-154095",
+    "name": "University of Northern Iowa",
+    "city": "Cedar Falls",
+    "city_slug": "cedar-falls",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "drake-university-153269",
+      "institution_name": "Drake University",
+      "earnings_median_5yr": 57898,
+      "earnings_median_4yr": 53930,
+      "debt_median": null,
+      "completers": 37,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "buena-vista-university-153001",
+      "institution_name": "Buena Vista University",
+      "earnings_median_5yr": 57279,
+      "earnings_median_4yr": 53060,
+      "debt_median": 31671,
+      "completers": 80,
+      "completers_single_year": 40,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-iowa-153658",
+      "institution_name": "University of Iowa",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 51749,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "loras-college-153825",
+      "institution_name": "Loras College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 21,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 13872,
+      "cost_total_default": 83232,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 53462,
+      "earnings_anchor_year": 5,
+      "debt_median": 32500,
+      "cip_family": "13",
+      "hs_baseline_state": 36800
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 119108,
+      "breakeven_year": 19
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

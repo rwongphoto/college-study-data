@@ -1,0 +1,178 @@
+{
+  "state": "ca",
+  "name": "Canoga Park",
+  "slug": "canoga-park",
+  "institution_count": 1,
+  "institutions": [
+    {
+      "unitid": "447713",
+      "slug": "california-career-college-447713",
+      "name": "California Career College",
+      "city": "Canoga Park",
+      "city_slug": "canoga-park",
+      "control": "private_forprofit",
+      "pred_degree": "associates",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 51684,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 47215
+        },
+        {
+          "year": 8,
+          "value": 52894
+        },
+        {
+          "year": 10,
+          "value": 51684
+        }
+      ],
+      "completion_rate_150": 1.0,
+      "completion_rate_history": [
+        {
+          "year": 2006,
+          "value": 0.8571
+        },
+        {
+          "year": 2023,
+          "value": 1.0
+        },
+        {
+          "year": 2024,
+          "value": 1.0
+        }
+      ],
+      "enrollment_undergrad": 195,
+      "enrollment_history": [
+        {
+          "year": 2006,
+          "value": 159.0
+        },
+        {
+          "year": 2007,
+          "value": 148.0
+        },
+        {
+          "year": 2008,
+          "value": 127.0
+        },
+        {
+          "year": 2009,
+          "value": 112.0
+        }
+      ],
+      "median_debt": 26375,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 2006,
+          "to_year": 2009,
+          "from_value": 159.0,
+          "to_value": 112.0,
+          "pct_change": -0.235,
+          "direction": "fell"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 2006,
+          "to_year": 2009,
+          "from_value": 5872.0,
+          "to_value": 11000.0,
+          "pct_change": 0.8732970027247956,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.045,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": 51684,
+  "completion_rate_city": 1.0,
+  "completion_history_city": [
+    {
+      "year": 2006,
+      "value": 0.8571
+    },
+    {
+      "year": 2023,
+      "value": 1.0
+    },
+    {
+      "year": 2024,
+      "value": 1.0
+    }
+  ],
+  "enrollment_history_city": [
+    {
+      "year": 2006,
+      "value": 159.0
+    },
+    {
+      "year": 2007,
+      "value": 148.0
+    },
+    {
+      "year": 2008,
+      "value": 127.0
+    },
+    {
+      "year": 2009,
+      "value": 112.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

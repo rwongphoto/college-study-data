@@ -1,0 +1,260 @@
+{
+  "institution_unitid": "215062",
+  "institution_name": "University of Pennsylvania",
+  "institution_slug": "university-of-pennsylvania-215062",
+  "state": "pa",
+  "cip_code": "5214",
+  "cip_desc": "Marketing.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5214-c5",
+  "earnings_median_4yr": 192704,
+  "earnings_median_5yr": 235674,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 3,
+  "debt_median": null,
+  "completers": 68,
+  "completers_single_year": 101,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 192704.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 235674.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 41000.0
+      },
+      {
+        "year": 2015,
+        "value": 41000.0
+      },
+      {
+        "year": 2016,
+        "value": 61037.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 180.0
+      },
+      {
+        "year": 2015,
+        "value": 170.0
+      },
+      {
+        "year": 2016,
+        "value": 112.0
+      },
+      {
+        "year": 2017,
+        "value": 119.0
+      },
+      {
+        "year": 2018,
+        "value": 101.0
+      },
+      {
+        "year": 2019,
+        "value": 68.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2016,
+      "from_value": 41000.0,
+      "to_value": 61037.0,
+      "pct_change": 0.4887073170731707,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Marketing at University of Pennsylvania rose 49% between 2014 and 2016 ($41.0k → $61.0k).",
+      "magnitude_pct": 48.9,
+      "magnitude_abs": 20037.0,
+      "baseline_year": 2014,
+      "recent_year": 2016,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "215062",
+    "slug": "university-of-pennsylvania-215062",
+    "name": "University of Pennsylvania",
+    "city": "Philadelphia",
+    "city_slug": "philadelphia",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "carnegie-mellon-university-211440",
+      "institution_name": "Carnegie Mellon University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "drexel-university-212054",
+      "institution_name": "Drexel University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 14,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "elizabethtown-college-212197",
+      "institution_name": "Elizabethtown College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "la-salle-university-213367",
+      "institution_name": "La Salle University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lehigh-university-213543",
+      "institution_name": "Lehigh University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-pittsburgh-pittsburgh-campus-215293",
+      "institution_name": "University of Pittsburgh-Pittsburgh Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-joseph-s-university-215770",
+      "institution_name": "Saint Joseph's University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 33,
+      "completers_single_year": 33,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-scranton-215929",
+      "institution_name": "University of Scranton",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "temple-university-216339",
+      "institution_name": "Temple University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 17585,
+      "cost_total_default": 105510,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 235674,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "52",
+      "hs_baseline_state": 38100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 3195029,
+      "breakeven_year": 6
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

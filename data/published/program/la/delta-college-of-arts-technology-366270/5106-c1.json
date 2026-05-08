@@ -1,0 +1,228 @@
+{
+  "institution_unitid": "366270",
+  "institution_name": "Delta College of Arts & Technology",
+  "institution_slug": "delta-college-of-arts-technology-366270",
+  "state": "la",
+  "cip_code": "5106",
+  "cip_desc": "Dental Support Services and Allied Professions.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "5106-c1",
+  "earnings_median_4yr": 24581,
+  "earnings_median_5yr": 26205,
+  "earnings_count_4yr": 4,
+  "earnings_count_5yr": 7,
+  "debt_median": 5700,
+  "completers": 9,
+  "completers_single_year": 11,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 24581.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 26205.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 4100.0
+      },
+      {
+        "year": 2015,
+        "value": 5200.0
+      },
+      {
+        "year": 2016,
+        "value": 5500.0
+      },
+      {
+        "year": 2017,
+        "value": 5500.0
+      },
+      {
+        "year": 2018,
+        "value": 5700.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 18.0
+      },
+      {
+        "year": 2015,
+        "value": 20.0
+      },
+      {
+        "year": 2016,
+        "value": 20.0
+      },
+      {
+        "year": 2017,
+        "value": 13.0
+      },
+      {
+        "year": 2018,
+        "value": 11.0
+      },
+      {
+        "year": 2019,
+        "value": 9.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 4100.0,
+      "to_value": 5700.0,
+      "pct_change": 0.3902439024390244,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Dental Support Services and Allied Professions at Delta College of Arts & Technology rose 39% between 2014 and 2018 ($4.1k → $5.7k).",
+      "magnitude_pct": 39.0,
+      "magnitude_abs": 1600.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "366270",
+    "slug": "delta-college-of-arts-technology-366270",
+    "name": "Delta College of Arts & Technology",
+    "city": "Baton Rouge",
+    "city_slug": "baton-rouge",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "fortis-college-baton-rouge-439738",
+      "institution_name": "Fortis College-Baton Rouge",
+      "earnings_median_5yr": 34425,
+      "earnings_median_4yr": 29637,
+      "debt_median": 12293,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "delta-college-inc-402563",
+      "institution_name": "Delta College Inc",
+      "earnings_median_5yr": 27525,
+      "earnings_median_4yr": 21884,
+      "debt_median": 5623,
+      "completers": 19,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "blue-cliff-college-metairie-434821",
+      "institution_name": "Blue Cliff College-Metairie",
+      "earnings_median_5yr": 27391,
+      "earnings_median_4yr": 24281,
+      "debt_median": 11935,
+      "completers": 42,
+      "completers_single_year": 35,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "unitech-training-academy-lafayette-444945",
+      "institution_name": "Unitech Training Academy-Lafayette",
+      "earnings_median_5yr": 24000,
+      "earnings_median_4yr": 22345,
+      "debt_median": 6001,
+      "completers": 30,
+      "completers_single_year": 50,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "medical-training-college-436650",
+      "institution_name": "Medical Training College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 22792,
+      "debt_median": 5623,
+      "completers": 21,
+      "completers_single_year": 22,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 7,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 21191,
+      "cost_total_default": 21191,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 26205,
+      "earnings_anchor_year": 5,
+      "debt_median": 5700,
+      "cip_family": "51",
+      "hs_baseline_state": 32800
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -123062,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

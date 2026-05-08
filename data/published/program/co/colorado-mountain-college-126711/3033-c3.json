@@ -1,0 +1,188 @@
+{
+  "institution_unitid": "126711",
+  "institution_name": "Colorado Mountain College",
+  "institution_slug": "colorado-mountain-college-126711",
+  "state": "co",
+  "cip_code": "3033",
+  "cip_desc": "Sustainability Studies.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "3033-c3",
+  "earnings_median_4yr": 35647,
+  "earnings_median_5yr": 38053,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 4,
+  "debt_median": 10188,
+  "completers": 39,
+  "completers_single_year": 40,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 35647.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 38053.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 18500.0
+      },
+      {
+        "year": 2015,
+        "value": 17957.0
+      },
+      {
+        "year": 2016,
+        "value": 16625.0
+      },
+      {
+        "year": 2017,
+        "value": 15500.0
+      },
+      {
+        "year": 2018,
+        "value": 10188.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 38.0
+      },
+      {
+        "year": 2015,
+        "value": 42.0
+      },
+      {
+        "year": 2016,
+        "value": 39.0
+      },
+      {
+        "year": 2017,
+        "value": 39.0
+      },
+      {
+        "year": 2018,
+        "value": 40.0
+      },
+      {
+        "year": 2019,
+        "value": 39.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 18500.0,
+      "to_value": 10188.0,
+      "pct_change": -0.4492972972972973,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Sustainability Studies at Colorado Mountain College fell 45% between 2014 and 2018 ($18.5k → $10.2k).",
+      "magnitude_pct": -44.9,
+      "magnitude_abs": -8312.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "126711",
+    "slug": "colorado-mountain-college-126711",
+    "name": "Colorado Mountain College",
+    "city": "Glenwood Springs",
+    "city_slug": "glenwood-springs",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-northern-colorado-127741",
+      "institution_name": "University of Northern Colorado",
+      "earnings_median_5yr": 54162,
+      "earnings_median_4yr": 48875,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 4,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 5316,
+      "cost_total_default": 21264,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 38053,
+      "earnings_anchor_year": 5,
+      "debt_median": 10188,
+      "cip_family": "30",
+      "hs_baseline_state": 40100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -42480,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

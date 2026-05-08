@@ -1,0 +1,165 @@
+{
+  "institution_unitid": "198419",
+  "institution_name": "Duke University",
+  "institution_slug": "duke-university-198419",
+  "state": "nc",
+  "cip_code": "5112",
+  "cip_desc": "Medicine.",
+  "credential_level": 6,
+  "credential_desc": "Doctoral Degree",
+  "slug": "5112-c6",
+  "earnings_median_4yr": 77318,
+  "earnings_median_5yr": 104119,
+  "earnings_count_4yr": 4,
+  "earnings_count_5yr": 3,
+  "debt_median": 142262,
+  "completers": null,
+  "completers_single_year": null,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 77318.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 104119.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 108843.0
+      },
+      {
+        "year": 2015,
+        "value": 124883.0
+      },
+      {
+        "year": 2016,
+        "value": 152336.0
+      },
+      {
+        "year": 2017,
+        "value": 154435.0
+      },
+      {
+        "year": 2018,
+        "value": 142262.0
+      }
+    ],
+    "completers": []
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 108843.0,
+      "to_value": 142262.0,
+      "pct_change": 0.3070385785029814,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 18.2% at Medicine at Duke University exceeds the 8% gainful-employment threshold ($142.3k debt amortized over 10 years vs $104.1k earnings).",
+      "magnitude_pct": 18.2,
+      "magnitude_abs": 10.2,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    },
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Medicine at Duke University rose 31% between 2014 and 2018 ($108.8k → $142.3k).",
+      "magnitude_pct": 30.7,
+      "magnitude_abs": 33419.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "198419",
+    "slug": "duke-university-198419",
+    "name": "Duke University",
+    "city": "Durham",
+    "city_slug": "durham",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 8,
+      "cost_per_year_default": 6901,
+      "cost_total_default": 55208,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 104119,
+      "earnings_anchor_year": 5,
+      "debt_median": 142262,
+      "cip_family": "51",
+      "hs_baseline_state": 35600
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 894625,
+      "breakeven_year": 9
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "institution_unitid": "236948",
+  "institution_name": "University of Washington-Seattle Campus",
+  "institution_slug": "university-of-washington-seattle-campus-236948",
+  "state": "wa",
+  "cip_code": "5120",
+  "cip_desc": "Pharmacy, Pharmaceutical Sciences, and Administration.",
+  "credential_level": 7,
+  "credential_desc": "First Professional Degree",
+  "slug": "5120-c7",
+  "earnings_median_4yr": 139333,
+  "earnings_median_5yr": 149655,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 3,
+  "debt_median": 147085,
+  "completers": 104,
+  "completers_single_year": 103,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 139333.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 149655.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 132000.0
+      },
+      {
+        "year": 2015,
+        "value": 135495.0
+      },
+      {
+        "year": 2016,
+        "value": 134758.0
+      },
+      {
+        "year": 2017,
+        "value": 146662.0
+      },
+      {
+        "year": 2018,
+        "value": 147085.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 96.0
+      },
+      {
+        "year": 2015,
+        "value": 96.0
+      },
+      {
+        "year": 2016,
+        "value": 89.0
+      },
+      {
+        "year": 2017,
+        "value": 84.0
+      },
+      {
+        "year": 2018,
+        "value": 103.0
+      },
+      {
+        "year": 2019,
+        "value": 104.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 13.1% at Pharmacy, Pharmaceutical Sciences, and Administration at University of Washington-Seattle Campus exceeds the 8% gainful-employment threshold ($147.1k debt amortized over 10 years vs $149.7k earnings).",
+      "magnitude_pct": 13.1,
+      "magnitude_abs": 5.1,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "236948",
+    "slug": "university-of-washington-seattle-campus-236948",
+    "name": "University of Washington-Seattle Campus",
+    "city": "Seattle",
+    "city_slug": "seattle",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "washington-state-university-236939",
+      "institution_name": "Washington State University",
+      "earnings_median_5yr": 144700,
+      "earnings_median_4yr": 134792,
+      "debt_median": 137435,
+      "completers": 167,
+      "completers_single_year": 158,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 7,
+      "cost_per_year_default": 7817,
+      "cost_total_default": 54719,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 149655,
+      "earnings_anchor_year": 5,
+      "debt_median": 147085,
+      "cip_family": "51",
+      "hs_baseline_state": 41200
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 1567615,
+      "breakeven_year": 7
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "institution_unitid": "139959",
+  "institution_name": "University of Georgia",
+  "institution_slug": "university-of-georgia-139959",
+  "state": "ga",
+  "cip_code": "4228",
+  "cip_desc": "Clinical, Counseling and Applied Psychology.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "4228-c5",
+  "earnings_median_4yr": 74748,
+  "earnings_median_5yr": 79090,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 1,
+  "debt_median": 41000,
+  "completers": 50,
+  "completers_single_year": 60,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 74748.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 79090.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 37294.0
+      },
+      {
+        "year": 2015,
+        "value": 48831.0
+      },
+      {
+        "year": 2016,
+        "value": 46585.0
+      },
+      {
+        "year": 2017,
+        "value": 41000.0
+      },
+      {
+        "year": 2018,
+        "value": 41000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 25.0
+      },
+      {
+        "year": 2015,
+        "value": 50.0
+      },
+      {
+        "year": 2016,
+        "value": 55.0
+      },
+      {
+        "year": 2017,
+        "value": 53.0
+      },
+      {
+        "year": 2018,
+        "value": 60.0
+      },
+      {
+        "year": 2019,
+        "value": 50.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "139959",
+    "slug": "university-of-georgia-139959",
+    "name": "University of Georgia",
+    "city": "Athens",
+    "city_slug": "athens",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "mercer-university-140447",
+      "institution_name": "Mercer University",
+      "earnings_median_5yr": 58060,
+      "earnings_median_4yr": 50721,
+      "debt_median": 59916,
+      "completers": 81,
+      "completers_single_year": 83,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "georgia-state-university-139940",
+      "institution_name": "Georgia State University",
+      "earnings_median_5yr": 57594,
+      "earnings_median_4yr": 54781,
+      "debt_median": 40952,
+      "completers": 25,
+      "completers_single_year": 24,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "clark-atlanta-university-138947",
+      "institution_name": "Clark Atlanta University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "brenau-university-139199",
+      "institution_name": "Brenau University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 56275,
+      "completers": 20,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "clayton-state-university-139311",
+      "institution_name": "Clayton  State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 14,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "georgia-southern-university-139931",
+      "institution_name": "Georgia Southern University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 22,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "truett-mcconnell-university-141237",
+      "institution_name": "Truett McConnell University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wesleyan-college-141325",
+      "institution_name": "Wesleyan College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-north-georgia-482680",
+      "institution_name": "University of North Georgia",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 30191,
+      "debt_median": 42843,
+      "completers": 13,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 14400,
+      "cost_total_default": 86400,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 79090,
+      "earnings_anchor_year": 5,
+      "debt_median": 41000,
+      "cip_family": "42",
+      "hs_baseline_state": 35800
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 549700,
+      "breakeven_year": 9
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

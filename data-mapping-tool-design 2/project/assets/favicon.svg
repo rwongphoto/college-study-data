@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="smoke_g" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#FFB347" stop-opacity="0.05"></stop>
+      <stop offset="0.2" stop-color="#FFB347" stop-opacity="0.55"></stop>
+      <stop offset="0.6" stop-color="#FF7A45" stop-opacity="0.9"></stop>
+      <stop offset="1" stop-color="#E84545" stop-opacity="1"></stop>
+    </linearGradient>
+    <linearGradient id="stack_g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F4F6FA"></stop>
+      <stop offset="1" stop-color="#BFC6D4"></stop>
+    </linearGradient>
+  </defs>
+
+  <g>
+    <path d="M24 30&#xA;             C 20 24, 32 22, 28 16&#xA;             C 24 10, 36 8, 32 2&#xA;             L 36 2&#xA;             C 40 8, 28 10, 32 16&#xA;             C 36 22, 24 24, 28 30 Z" fill="url(#smoke_g)" opacity="0.95"></path>
+    <circle cx="38" cy="10" r="2.6" fill="url(#smoke_g)" opacity="0.7"></circle>
+    <circle cx="22" cy="14" r="2.0" fill="url(#smoke_g)" opacity="0.55"></circle>
+    <circle cx="40" cy="22" r="1.8" fill="url(#smoke_g)" opacity="0.5"></circle>
+  </g>
+
+  <g>
+    <path d="M16 60 L20 36 Q20 30 24 30 L40 30 Q44 30 44 36 L48 60 Z" fill="url(#stack_g)"></path>
+    <rect x="18" y="36" width="28" height="2.5" fill="#0E1116" opacity="0.20"></rect>
+    <rect x="22" y="44" width="20" height="1.4" fill="#0E1116" opacity="0.13"></rect>
+    <rect x="22" y="50" width="20" height="1.4" fill="#0E1116" opacity="0.13"></rect>
+    <rect x="22" y="56" width="20" height="1.4" fill="#0E1116" opacity="0.13"></rect>
+  </g>
+</svg>

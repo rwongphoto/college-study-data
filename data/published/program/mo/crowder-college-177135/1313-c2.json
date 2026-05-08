@@ -1,0 +1,260 @@
+{
+  "institution_unitid": "177135",
+  "institution_name": "Crowder College",
+  "institution_slug": "crowder-college-177135",
+  "state": "mo",
+  "cip_code": "1313",
+  "cip_desc": "Teacher Education and Professional Development, Specific Subject Areas.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "1313-c2",
+  "earnings_median_4yr": 29373,
+  "earnings_median_5yr": 36413,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 1,
+  "debt_median": 6000,
+  "completers": 36,
+  "completers_single_year": 57,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 29373.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 36413.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2016,
+        "value": 7553.0
+      },
+      {
+        "year": 2017,
+        "value": 6000.0
+      },
+      {
+        "year": 2018,
+        "value": 6000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 49.0
+      },
+      {
+        "year": 2015,
+        "value": 58.0
+      },
+      {
+        "year": 2016,
+        "value": 68.0
+      },
+      {
+        "year": 2017,
+        "value": 56.0
+      },
+      {
+        "year": 2018,
+        "value": 57.0
+      },
+      {
+        "year": 2019,
+        "value": 36.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2016,
+      "to_year": 2018,
+      "from_value": 7553.0,
+      "to_value": 6000.0,
+      "pct_change": -0.20561366344498874,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Teacher Education and Professional Development, Specific Subject Areas at Crowder College fell 21% between 2016 and 2018 ($7.6k → $6.0k).",
+      "magnitude_pct": -20.6,
+      "magnitude_abs": -1553.0,
+      "baseline_year": 2016,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "177135",
+    "slug": "crowder-college-177135",
+    "name": "Crowder College",
+    "city": "Neosho",
+    "city_slug": "neosho",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "metropolitan-community-college-kansas-city-177995",
+      "institution_name": "Metropolitan Community College-Kansas City",
+      "earnings_median_5yr": 37839,
+      "earnings_median_4yr": 35090,
+      "debt_median": null,
+      "completers": 57,
+      "completers_single_year": 73,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mineral-area-college-178217",
+      "institution_name": "Mineral Area College",
+      "earnings_median_5yr": 34209,
+      "earnings_median_4yr": 30464,
+      "debt_median": 10200,
+      "completers": 48,
+      "completers_single_year": 57,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ozarks-technical-community-college-177472",
+      "institution_name": "Ozarks Technical Community College",
+      "earnings_median_5yr": 33171,
+      "earnings_median_4yr": 30798,
+      "debt_median": 9749,
+      "completers": 98,
+      "completers_single_year": 98,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "moberly-area-community-college-178448",
+      "institution_name": "Moberly Area Community College",
+      "earnings_median_5yr": 32191,
+      "earnings_median_4yr": 27825,
+      "debt_median": null,
+      "completers": 46,
+      "completers_single_year": 28,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "state-fair-community-college-179539",
+      "institution_name": "State Fair Community College",
+      "earnings_median_5yr": 31682,
+      "earnings_median_4yr": 29108,
+      "debt_median": null,
+      "completers": 42,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "three-rivers-college-179645",
+      "institution_name": "Three Rivers College",
+      "earnings_median_5yr": 28860,
+      "earnings_median_4yr": 26816,
+      "debt_median": 8171,
+      "completers": 40,
+      "completers_single_year": 64,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "east-central-college-177250",
+      "institution_name": "East Central College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 29,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "missouri-state-university-west-plains-179344",
+      "institution_name": "Missouri State University-West Plains",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 27,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "st-charles-community-college-262031",
+      "institution_name": "St Charles Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 27,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 6779,
+      "cost_total_default": 13558,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 36413,
+      "earnings_anchor_year": 5,
+      "debt_median": 6000,
+      "cip_family": "13",
+      "hs_baseline_state": 35100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -12877,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

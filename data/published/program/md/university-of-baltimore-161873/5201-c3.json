@@ -1,0 +1,204 @@
+{
+  "institution_unitid": "161873",
+  "institution_name": "University of Baltimore",
+  "institution_slug": "university-of-baltimore-161873",
+  "state": "md",
+  "cip_code": "5201",
+  "cip_desc": "Business/Commerce, General.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5201-c3",
+  "earnings_median_4yr": 63811,
+  "earnings_median_5yr": 71449,
+  "earnings_count_4yr": 5,
+  "earnings_count_5yr": 4,
+  "debt_median": 21750,
+  "completers": 152,
+  "completers_single_year": 188,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 63811.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 71449.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 25000.0
+      },
+      {
+        "year": 2015,
+        "value": 23200.0
+      },
+      {
+        "year": 2016,
+        "value": 21500.0
+      },
+      {
+        "year": 2017,
+        "value": 21250.0
+      },
+      {
+        "year": 2018,
+        "value": 21750.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 270.0
+      },
+      {
+        "year": 2015,
+        "value": 256.0
+      },
+      {
+        "year": 2016,
+        "value": 239.0
+      },
+      {
+        "year": 2017,
+        "value": 223.0
+      },
+      {
+        "year": 2018,
+        "value": 188.0
+      },
+      {
+        "year": 2019,
+        "value": 152.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "161873",
+    "slug": "university-of-baltimore-161873",
+    "name": "University of Baltimore",
+    "city": "Baltimore",
+    "city_slug": "baltimore",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "washington-college-164216",
+      "institution_name": "Washington College",
+      "earnings_median_5yr": 83160,
+      "earnings_median_4yr": 72505,
+      "debt_median": 27000,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mount-st-mary-s-university-163462",
+      "institution_name": "Mount St. Mary's University",
+      "earnings_median_5yr": 76055,
+      "earnings_median_4yr": 64783,
+      "debt_median": 23500,
+      "completers": 90,
+      "completers_single_year": 84,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "johns-hopkins-university-162928",
+      "institution_name": "Johns Hopkins University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "loyola-university-maryland-163046",
+      "institution_name": "Loyola University Maryland",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-maryland-college-park-163286",
+      "institution_name": "University of Maryland-College Park",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 4,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 17265,
+      "cost_total_default": 69060,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 71449,
+      "earnings_anchor_year": 5,
+      "debt_median": 21750,
+      "cip_family": "52",
+      "hs_baseline_state": 41100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 540042,
+      "breakeven_year": 9
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "state": "mn",
+  "name": "Hastings",
+  "slug": "hastings",
+  "institution_count": 1,
+  "institutions": [
+    {
+      "unitid": "417600",
+      "slug": "hastings-beauty-school-417600",
+      "name": "Hastings Beauty School",
+      "city": "Hastings",
+      "city_slug": "hastings",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 26258,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 22668
+        },
+        {
+          "year": 8,
+          "value": 28973
+        },
+        {
+          "year": 10,
+          "value": 26258
+        }
+      ],
+      "completion_rate_150": 0.6923,
+      "completion_rate_history": [],
+      "enrollment_undergrad": 11,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 22.0
+        },
+        {
+          "year": 1997,
+          "value": 21.0
+        },
+        {
+          "year": 2010,
+          "value": 36.0
+        },
+        {
+          "year": 2011,
+          "value": 46.0
+        },
+        {
+          "year": 2012,
+          "value": 23.0
+        },
+        {
+          "year": 2013,
+          "value": 39.0
+        },
+        {
+          "year": 2014,
+          "value": 36.0
+        },
+        {
+          "year": 2015,
+          "value": 18.0
+        },
+        {
+          "year": 2016,
+          "value": 30.0
+        },
+        {
+          "year": 2017,
+          "value": 31.0
+        },
+        {
+          "year": 2018,
+          "value": 21.0
+        },
+        {
+          "year": 2019,
+          "value": 11.0
+        },
+        {
+          "year": 2020,
+          "value": 14.0
+        },
+        {
+          "year": 2021,
+          "value": 16.0
+        },
+        {
+          "year": 2022,
+          "value": 13.0
+        },
+        {
+          "year": 2023,
+          "value": 11.0
+        },
+        {
+          "year": 2024,
+          "value": 22.0
+        }
+      ],
+      "median_debt": 9500,
+      "default_rate": 0.028,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "retention_rate",
+          "from_year": 2010,
+          "to_year": 2024,
+          "from_value": 0.8889,
+          "to_value": 1.0,
+          "pct_change": 0.12498593767577902,
+          "direction": "rose"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2010,
+          "to_year": 2024,
+          "from_value": 0.7442,
+          "to_value": 0.4865,
+          "pct_change": -0.3462778822897071,
+          "direction": "fell"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": 26258,
+  "completion_rate_city": 0.6923,
+  "completion_history_city": [],
+  "enrollment_history_city": [
+    {
+      "year": 1996,
+      "value": 22.0
+    },
+    {
+      "year": 1997,
+      "value": 21.0
+    },
+    {
+      "year": 2010,
+      "value": 36.0
+    },
+    {
+      "year": 2011,
+      "value": 46.0
+    },
+    {
+      "year": 2012,
+      "value": 23.0
+    },
+    {
+      "year": 2013,
+      "value": 39.0
+    },
+    {
+      "year": 2014,
+      "value": 36.0
+    },
+    {
+      "year": 2015,
+      "value": 18.0
+    },
+    {
+      "year": 2016,
+      "value": 30.0
+    },
+    {
+      "year": 2017,
+      "value": 31.0
+    },
+    {
+      "year": 2018,
+      "value": 21.0
+    },
+    {
+      "year": 2019,
+      "value": 11.0
+    },
+    {
+      "year": 2020,
+      "value": 14.0
+    },
+    {
+      "year": 2021,
+      "value": 16.0
+    },
+    {
+      "year": 2022,
+      "value": 13.0
+    },
+    {
+      "year": 2023,
+      "value": 11.0
+    },
+    {
+      "year": 2024,
+      "value": 22.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "institution_unitid": "110422",
+  "institution_name": "California Polytechnic State University-San Luis Obispo",
+  "institution_slug": "california-polytechnic-state-university-san-luis-obispo-110422",
+  "state": "ca",
+  "cip_code": "0305",
+  "cip_desc": "Forestry.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "0305-c3",
+  "earnings_median_4yr": 67118,
+  "earnings_median_5yr": 73077,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 0,
+  "debt_median": 17333,
+  "completers": 38,
+  "completers_single_year": 31,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 67118.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 73077.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 23664.0
+      },
+      {
+        "year": 2015,
+        "value": 23664.0
+      },
+      {
+        "year": 2016,
+        "value": 22500.0
+      },
+      {
+        "year": 2017,
+        "value": 19500.0
+      },
+      {
+        "year": 2018,
+        "value": 17333.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 40.0
+      },
+      {
+        "year": 2015,
+        "value": 32.0
+      },
+      {
+        "year": 2016,
+        "value": 32.0
+      },
+      {
+        "year": 2017,
+        "value": 29.0
+      },
+      {
+        "year": 2018,
+        "value": 31.0
+      },
+      {
+        "year": 2019,
+        "value": 38.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 23664.0,
+      "to_value": 17333.0,
+      "pct_change": -0.26753718728870857,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Forestry at California Polytechnic State University-San Luis Obispo fell 27% between 2014 and 2018 ($23.7k → $17.3k).",
+      "magnitude_pct": -26.8,
+      "magnitude_abs": -6331.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "110422",
+    "slug": "california-polytechnic-state-university-san-luis-obispo-110422",
+    "name": "California Polytechnic State University-San Luis Obispo",
+    "city": "San Luis Obispo",
+    "city_slug": "san-luis-obispo",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "california-state-polytechnic-university-humboldt-115755",
+      "institution_name": "California State Polytechnic University-Humboldt",
+      "earnings_median_5yr": 63673,
+      "earnings_median_4yr": 51526,
+      "debt_median": 21000,
+      "completers": 45,
+      "completers_single_year": 65,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-california-berkeley-110635",
+      "institution_name": "University of California-Berkeley",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-california-davis-110644",
+      "institution_name": "University of California-Davis",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

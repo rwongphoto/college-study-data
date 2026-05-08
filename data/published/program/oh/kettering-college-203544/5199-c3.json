@@ -1,0 +1,244 @@
+{
+  "institution_unitid": "203544",
+  "institution_name": "Kettering College",
+  "institution_slug": "kettering-college-203544",
+  "state": "oh",
+  "cip_code": "5199",
+  "cip_desc": "Health Professions and Related Clinical Sciences, Other.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5199-c3",
+  "earnings_median_4yr": 58053,
+  "earnings_median_5yr": 72387,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": 26752,
+  "completers": 29,
+  "completers_single_year": 31,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 58053.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 72387.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 27000.0
+      },
+      {
+        "year": 2015,
+        "value": 31625.0
+      },
+      {
+        "year": 2016,
+        "value": 30985.0
+      },
+      {
+        "year": 2017,
+        "value": 26235.0
+      },
+      {
+        "year": 2018,
+        "value": 26752.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 17.0
+      },
+      {
+        "year": 2015,
+        "value": 26.0
+      },
+      {
+        "year": 2016,
+        "value": 25.0
+      },
+      {
+        "year": 2017,
+        "value": 32.0
+      },
+      {
+        "year": 2018,
+        "value": 31.0
+      },
+      {
+        "year": 2019,
+        "value": 29.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "203544",
+    "slug": "kettering-college-203544",
+    "name": "Kettering College",
+    "city": "Kettering",
+    "city_slug": "kettering",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-cincinnati-main-campus-201885",
+      "institution_name": "University of Cincinnati-Main Campus",
+      "earnings_median_5yr": 73440,
+      "earnings_median_4yr": 54955,
+      "debt_median": 25000,
+      "completers": 105,
+      "completers_single_year": 95,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "xavier-university-206622",
+      "institution_name": "Xavier University",
+      "earnings_median_5yr": 71522,
+      "earnings_median_4yr": 51232,
+      "debt_median": 27000,
+      "completers": 32,
+      "completers_single_year": 34,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "baldwin-wallace-university-201195",
+      "institution_name": "Baldwin Wallace University",
+      "earnings_median_5yr": 58715,
+      "earnings_median_4yr": 44260,
+      "debt_median": 25972,
+      "completers": 18,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "youngstown-state-university-206695",
+      "institution_name": "Youngstown State University",
+      "earnings_median_5yr": 58286,
+      "earnings_median_4yr": 57659,
+      "debt_median": 19506,
+      "completers": 51,
+      "completers_single_year": 28,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cleveland-state-university-202134",
+      "institution_name": "Cleveland State University",
+      "earnings_median_5yr": 56300,
+      "earnings_median_4yr": 44869,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bowling-green-state-university-main-campus-201441",
+      "institution_name": "Bowling Green State University-Main Campus",
+      "earnings_median_5yr": 55201,
+      "earnings_median_4yr": 46675,
+      "debt_median": 22250,
+      "completers": 39,
+      "completers_single_year": 45,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-akron-main-campus-200800",
+      "institution_name": "University of Akron Main Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-university-of-findlay-202763",
+      "institution_name": "The University of Findlay",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "muskingum-university-204264",
+      "institution_name": "Muskingum University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 13946,
+      "cost_total_default": 55784,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 72387,
+      "earnings_anchor_year": 5,
+      "debt_median": 26752,
+      "cip_family": "51",
+      "hs_baseline_state": 36400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 613859,
+      "breakeven_year": 7
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

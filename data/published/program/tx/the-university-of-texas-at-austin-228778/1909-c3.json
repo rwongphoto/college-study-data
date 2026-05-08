@@ -1,0 +1,184 @@
+{
+  "institution_unitid": "228778",
+  "institution_name": "The University of Texas at Austin",
+  "institution_slug": "the-university-of-texas-at-austin-228778",
+  "state": "tx",
+  "cip_code": "1909",
+  "cip_desc": "Apparel and Textiles.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1909-c3",
+  "earnings_median_4yr": 51006,
+  "earnings_median_5yr": 59549,
+  "earnings_count_4yr": 4,
+  "earnings_count_5yr": 5,
+  "debt_median": 21749,
+  "completers": 64,
+  "completers_single_year": 54,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 51006.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 59549.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 21480.0
+      },
+      {
+        "year": 2015,
+        "value": 22955.0
+      },
+      {
+        "year": 2016,
+        "value": 20250.0
+      },
+      {
+        "year": 2017,
+        "value": 19954.0
+      },
+      {
+        "year": 2018,
+        "value": 21749.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 58.0
+      },
+      {
+        "year": 2015,
+        "value": 66.0
+      },
+      {
+        "year": 2016,
+        "value": 44.0
+      },
+      {
+        "year": 2017,
+        "value": 48.0
+      },
+      {
+        "year": 2018,
+        "value": 54.0
+      },
+      {
+        "year": 2019,
+        "value": 64.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "228778",
+    "slug": "the-university-of-texas-at-austin-228778",
+    "name": "The University of Texas at Austin",
+    "city": "Austin",
+    "city_slug": "austin",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-the-incarnate-word-225627",
+      "institution_name": "University of the Incarnate Word",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 15,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lamar-university-226091",
+      "institution_name": "Lamar University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "tarleton-state-university-228529",
+      "institution_name": "Tarleton State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 5,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 18618,
+      "cost_total_default": 74472,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 59549,
+      "earnings_anchor_year": 5,
+      "debt_median": 21749,
+      "cip_family": "19",
+      "hs_baseline_state": 37300
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 356565,
+      "breakeven_year": 11
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

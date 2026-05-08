@@ -1,0 +1,218 @@
+{
+  "institution_unitid": "183044",
+  "institution_name": "University of New Hampshire-Main Campus",
+  "institution_slug": "university-of-new-hampshire-main-campus-183044",
+  "state": "nh",
+  "cip_code": "5138",
+  "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5138-c5",
+  "earnings_median_4yr": 97973,
+  "earnings_median_5yr": 107983,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 1,
+  "debt_median": 32458,
+  "completers": 44,
+  "completers_single_year": 54,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 97973.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 107983.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 41000.0
+      },
+      {
+        "year": 2015,
+        "value": 41000.0
+      },
+      {
+        "year": 2016,
+        "value": 40787.0
+      },
+      {
+        "year": 2017,
+        "value": 37180.0
+      },
+      {
+        "year": 2018,
+        "value": 32458.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 44.0
+      },
+      {
+        "year": 2015,
+        "value": 38.0
+      },
+      {
+        "year": 2016,
+        "value": 42.0
+      },
+      {
+        "year": 2017,
+        "value": 46.0
+      },
+      {
+        "year": 2018,
+        "value": 54.0
+      },
+      {
+        "year": 2019,
+        "value": 44.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 41000.0,
+      "to_value": 32458.0,
+      "pct_change": -0.20834146341463414,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing at University of New Hampshire-Main Campus fell 21% between 2014 and 2018 ($41.0k → $32.5k).",
+      "magnitude_pct": -20.8,
+      "magnitude_abs": -8542.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "183044",
+    "slug": "university-of-new-hampshire-main-campus-183044",
+    "name": "University of New Hampshire-Main Campus",
+    "city": "Durham",
+    "city_slug": "durham",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "rivier-university-183211",
+      "institution_name": "Rivier University",
+      "earnings_median_5yr": 115222,
+      "earnings_median_4yr": 105872,
+      "debt_median": 39441,
+      "completers": 82,
+      "completers_single_year": 63,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "colby-sawyer-college-182634",
+      "institution_name": "Colby-Sawyer College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "franklin-pierce-university-182795",
+      "institution_name": "Franklin Pierce University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 15,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southern-new-hampshire-university-183026",
+      "institution_name": "Southern New Hampshire University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 137,
+      "completers_single_year": 110,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 19283,
+      "cost_total_default": 115698,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 107983,
+      "earnings_anchor_year": 5,
+      "debt_median": 32458,
+      "cip_family": "51",
+      "hs_baseline_state": 40300
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 974408,
+      "breakeven_year": 9
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

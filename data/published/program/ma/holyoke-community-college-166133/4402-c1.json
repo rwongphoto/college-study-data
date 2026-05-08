@@ -1,0 +1,184 @@
+{
+  "institution_unitid": "166133",
+  "institution_name": "Holyoke Community College",
+  "institution_slug": "holyoke-community-college-166133",
+  "state": "ma",
+  "cip_code": "4402",
+  "cip_desc": "Community Organization and Advocacy.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "4402-c1",
+  "earnings_median_4yr": 30777,
+  "earnings_median_5yr": 33191,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 2,
+  "debt_median": 4800,
+  "completers": 19,
+  "completers_single_year": 25,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 30777.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 33191.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2015,
+        "value": 7000.0
+      },
+      {
+        "year": 2016,
+        "value": 5895.0
+      },
+      {
+        "year": 2017,
+        "value": 5244.0
+      },
+      {
+        "year": 2018,
+        "value": 4800.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 27.0
+      },
+      {
+        "year": 2015,
+        "value": 26.0
+      },
+      {
+        "year": 2016,
+        "value": 23.0
+      },
+      {
+        "year": 2017,
+        "value": 29.0
+      },
+      {
+        "year": 2018,
+        "value": 25.0
+      },
+      {
+        "year": 2019,
+        "value": 19.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2015,
+      "to_year": 2018,
+      "from_value": 7000.0,
+      "to_value": 4800.0,
+      "pct_change": -0.3142857142857143,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Community Organization and Advocacy at Holyoke Community College fell 31% between 2015 and 2018 ($7.0k → $4.8k).",
+      "magnitude_pct": -31.4,
+      "magnitude_abs": -2200.0,
+      "baseline_year": 2015,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "166133",
+    "slug": "holyoke-community-college-166133",
+    "name": "Holyoke Community College",
+    "city": "Holyoke",
+    "city_slug": "holyoke",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "north-shore-community-college-167312",
+      "institution_name": "North Shore Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 7588,
+      "cost_total_default": 7588,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 33191,
+      "earnings_anchor_year": 5,
+      "debt_median": 4800,
+      "cip_family": "44",
+      "hs_baseline_state": 42600
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -151174,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

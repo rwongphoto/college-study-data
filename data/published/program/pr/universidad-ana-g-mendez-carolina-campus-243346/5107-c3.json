@@ -1,0 +1,198 @@
+{
+  "institution_unitid": "243346",
+  "institution_name": "Universidad Ana G. Mendez-Carolina Campus",
+  "institution_slug": "universidad-ana-g-mendez-carolina-campus-243346",
+  "state": "pr",
+  "cip_code": "5107",
+  "cip_desc": "Health and Medical Administrative Services.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5107-c3",
+  "earnings_median_4yr": 31335,
+  "earnings_median_5yr": 39261,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 2,
+  "debt_median": 28493,
+  "completers": 24,
+  "completers_single_year": 28,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 31335.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 39261.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 27780.0
+      },
+      {
+        "year": 2015,
+        "value": 26495.0
+      },
+      {
+        "year": 2016,
+        "value": 28452.0
+      },
+      {
+        "year": 2017,
+        "value": 32381.0
+      },
+      {
+        "year": 2018,
+        "value": 28493.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 35.0
+      },
+      {
+        "year": 2015,
+        "value": 36.0
+      },
+      {
+        "year": 2016,
+        "value": 28.0
+      },
+      {
+        "year": 2017,
+        "value": 38.0
+      },
+      {
+        "year": 2018,
+        "value": 28.0
+      },
+      {
+        "year": 2019,
+        "value": 24.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 9.7% at Health and Medical Administrative Services at Universidad Ana G. Mendez-Carolina Campus exceeds the 8% gainful-employment threshold ($28.5k debt amortized over 10 years vs $39.3k earnings).",
+      "magnitude_pct": 9.7,
+      "magnitude_abs": 1.7,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "243346",
+    "slug": "universidad-ana-g-mendez-carolina-campus-243346",
+    "name": "Universidad Ana G. Mendez-Carolina Campus",
+    "city": "Carolina",
+    "city_slug": "carolina",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "nuc-university-242972",
+      "institution_name": "NUC University",
+      "earnings_median_5yr": 37151,
+      "earnings_median_4yr": 31968,
+      "debt_median": 34505,
+      "completers": 110,
+      "completers_single_year": 57,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "universidad-ana-g-mendez-cupey-campus-241739",
+      "institution_name": "Universidad Ana G. Mendez-Cupey Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 31959,
+      "completers": 16,
+      "completers_single_year": 30,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "universidad-ana-g-mendez-gurabo-campus-243601",
+      "institution_name": "Universidad Ana G. Mendez-Gurabo Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 12484,
+      "cost_total_default": 49936,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 39261,
+      "earnings_anchor_year": 5,
+      "debt_median": 28493,
+      "cip_family": "51",
+      "hs_baseline_state": 22400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 266451,
+      "breakeven_year": 10
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

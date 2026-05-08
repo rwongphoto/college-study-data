@@ -1,0 +1,338 @@
+{
+  "institution_unitid": "240444",
+  "institution_name": "University of Wisconsin-Madison",
+  "institution_slug": "university-of-wisconsin-madison-240444",
+  "state": "wi",
+  "cip_code": "1304",
+  "cip_desc": "Educational Administration and Supervision.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "1304-c5",
+  "earnings_median_4yr": 63831,
+  "earnings_median_5yr": 69441,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 1,
+  "debt_median": 20500,
+  "completers": 85,
+  "completers_single_year": 79,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 63831.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 69441.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 27618.0
+      },
+      {
+        "year": 2015,
+        "value": 24892.0
+      },
+      {
+        "year": 2016,
+        "value": 25009.0
+      },
+      {
+        "year": 2017,
+        "value": 20500.0
+      },
+      {
+        "year": 2018,
+        "value": 20500.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 59.0
+      },
+      {
+        "year": 2015,
+        "value": 66.0
+      },
+      {
+        "year": 2016,
+        "value": 52.0
+      },
+      {
+        "year": 2017,
+        "value": 73.0
+      },
+      {
+        "year": 2018,
+        "value": 79.0
+      },
+      {
+        "year": 2019,
+        "value": 85.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 27618.0,
+      "to_value": 20500.0,
+      "pct_change": -0.2577304656383518,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Educational Administration and Supervision at University of Wisconsin-Madison fell 26% between 2014 and 2018 ($27.6k → $20.5k).",
+      "magnitude_pct": -25.8,
+      "magnitude_abs": -7118.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "240444",
+    "slug": "university-of-wisconsin-madison-240444",
+    "name": "University of Wisconsin-Madison",
+    "city": "Madison",
+    "city_slug": "madison",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "alverno-college-238193",
+      "institution_name": "Alverno College",
+      "earnings_median_5yr": 93558,
+      "earnings_median_4yr": 78729,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-river-falls-240471",
+      "institution_name": "University of Wisconsin-River Falls",
+      "earnings_median_5yr": 75778,
+      "earnings_median_4yr": 66542,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "concordia-university-wisconsin-238616",
+      "institution_name": "Concordia University-Wisconsin",
+      "earnings_median_5yr": 66706,
+      "earnings_median_4yr": 65145,
+      "debt_median": 22633,
+      "completers": 37,
+      "completers_single_year": 41,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "viterbo-university-240107",
+      "institution_name": "Viterbo University",
+      "earnings_median_5yr": 64907,
+      "earnings_median_4yr": 65610,
+      "debt_median": 17532,
+      "completers": 51,
+      "completers_single_year": 47,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-milwaukee-240453",
+      "institution_name": "University of Wisconsin-Milwaukee",
+      "earnings_median_5yr": 63962,
+      "earnings_median_4yr": 56652,
+      "debt_median": 36922,
+      "completers": 53,
+      "completers_single_year": 66,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "marquette-university-239105",
+      "institution_name": "Marquette University",
+      "earnings_median_5yr": 63280,
+      "earnings_median_4yr": 53520,
+      "debt_median": 20500,
+      "completers": 42,
+      "completers_single_year": 48,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-la-crosse-240329",
+      "institution_name": "University of Wisconsin-La Crosse",
+      "earnings_median_5yr": 54072,
+      "earnings_median_4yr": 46754,
+      "debt_median": 25156,
+      "completers": 36,
+      "completers_single_year": 39,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "carroll-university-238458",
+      "institution_name": "Carroll University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 21,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "carthage-college-238476",
+      "institution_name": "Carthage College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 23,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "edgewood-college-238661",
+      "institution_name": "Edgewood College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "marian-university-239080",
+      "institution_name": "Marian University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-whitewater-240189",
+      "institution_name": "University of Wisconsin-Whitewater",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 18,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wisconsin-lutheran-college-240338",
+      "institution_name": "Wisconsin Lutheran College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 27,
+      "completers_single_year": 22,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-oshkosh-240365",
+      "institution_name": "University of Wisconsin-Oshkosh",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 18432,
+      "completers": 35,
+      "completers_single_year": 22,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-superior-240426",
+      "institution_name": "University of Wisconsin-Superior",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 24895,
+      "completers": 75,
+      "completers_single_year": 54,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-wisconsin-platteville-240462",
+      "institution_name": "University of Wisconsin-Platteville",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 9613,
+      "cost_total_default": 57678,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 69441,
+      "earnings_anchor_year": 5,
+      "debt_median": 20500,
+      "cip_family": "13",
+      "hs_baseline_state": 37100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 375993,
+      "breakeven_year": 9
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

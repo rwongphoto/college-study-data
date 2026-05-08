@@ -1,0 +1,218 @@
+{
+  "institution_unitid": "176770",
+  "institution_name": "Cox College",
+  "institution_slug": "cox-college-176770",
+  "state": "mo",
+  "cip_code": "5123",
+  "cip_desc": "Rehabilitation and Therapeutic Professions.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5123-c5",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": null,
+  "earnings_count_5yr": null,
+  "debt_median": 64342,
+  "completers": 28,
+  "completers_single_year": 25,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [
+      {
+        "year": 2017,
+        "value": 67000.0
+      },
+      {
+        "year": 2018,
+        "value": 64342.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 0.0
+      },
+      {
+        "year": 2015,
+        "value": 0.0
+      },
+      {
+        "year": 2016,
+        "value": 20.0
+      },
+      {
+        "year": 2017,
+        "value": 26.0
+      },
+      {
+        "year": 2018,
+        "value": 25.0
+      },
+      {
+        "year": 2019,
+        "value": 28.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "176770",
+    "slug": "cox-college-176770",
+    "name": "Cox College",
+    "city": "Springfield",
+    "city_slug": "springfield",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "washington-university-in-st-louis-179867",
+      "institution_name": "Washington University in St Louis",
+      "earnings_median_5yr": 74118,
+      "earnings_median_4yr": 70482,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-missouri-columbia-178396",
+      "institution_name": "University of Missouri-Columbia",
+      "earnings_median_5yr": 73238,
+      "earnings_median_4yr": 69887,
+      "debt_median": 29450,
+      "completers": null,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "a-t-still-university-of-health-sciences-177834",
+      "institution_name": "A T Still University of Health Sciences",
+      "earnings_median_5yr": 72113,
+      "earnings_median_4yr": 69095,
+      "debt_median": 114936,
+      "completers": 35,
+      "completers_single_year": 38,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-louis-university-179159",
+      "institution_name": "Saint Louis University",
+      "earnings_median_5yr": 71023,
+      "earnings_median_4yr": 67055,
+      "debt_median": 20500,
+      "completers": 58,
+      "completers_single_year": 53,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rockhurst-university-179043",
+      "institution_name": "Rockhurst University",
+      "earnings_median_5yr": 68477,
+      "earnings_median_4yr": 64675,
+      "debt_median": 75495,
+      "completers": 77,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "maryville-university-of-saint-louis-178059",
+      "institution_name": "Maryville University of Saint Louis",
+      "earnings_median_5yr": 62215,
+      "earnings_median_4yr": 60115,
+      "debt_median": 64043,
+      "completers": 44,
+      "completers_single_year": 49,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "drury-university-177214",
+      "institution_name": "Drury University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lindenwood-university-177968",
+      "institution_name": "Lindenwood University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "missouri-state-university-springfield-179566",
+      "institution_name": "Missouri State University-Springfield",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 48995,
+      "completers": 25,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": null,
+      "cost_total_default": null,
+      "cost_source": null,
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": 64342,
+      "cip_family": "51"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

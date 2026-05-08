@@ -1,0 +1,625 @@
+{
+  "institution": {
+    "unitid": "493682",
+    "opeid6": "042790",
+    "name": "American Institute of Healthcare & Technology",
+    "slug": "american-institute-of-healthcare-technology-493682",
+    "state": "ct",
+    "city": "Stratford",
+    "city_slug": "stratford",
+    "zip5": "06615",
+    "address": "480 Lordship Boulevard",
+    "latitude": 41.170738,
+    "longitude": -73.150918,
+    "control": "private_forprofit",
+    "pred_degree": "certificate",
+    "highest_degree": "certificate",
+    "main_campus": true,
+    "locale": "21",
+    "carnegie_basic": -2,
+    "sector_code": 6,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": 1.0,
+    "completion_rate_100": 0.9545,
+    "retention_rate": 0.8462,
+    "admission_rate": null,
+    "enrollment_undergrad": 94,
+    "enrollment_total": null,
+    "cost_attendance": 32365,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": 29865,
+    "cost_by_income": {
+      "0_30k": 29150,
+      "30_48k": 32365,
+      "48_75k": null,
+      "75_110k": 32365,
+      "110k_plus": null,
+      "sticker": 32365,
+      "sector": "priv"
+    },
+    "median_debt": 4625,
+    "default_rate": null,
+    "pell_share": 0.3226,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [
+        {
+          "year": 2020,
+          "value": 0.8571
+        },
+        {
+          "year": 2021,
+          "value": 0.75
+        },
+        {
+          "year": 2022,
+          "value": 0.8485
+        },
+        {
+          "year": 2023,
+          "value": 0.8462
+        },
+        {
+          "year": 2024,
+          "value": 0.9388
+        }
+      ],
+      "admission_rate": [
+        {
+          "year": 2020,
+          "value": 0.9
+        },
+        {
+          "year": 2021,
+          "value": 1.0
+        }
+      ],
+      "enrollment_undergrad": [
+        {
+          "year": 2019,
+          "value": 43.0
+        },
+        {
+          "year": 2020,
+          "value": 106.0
+        },
+        {
+          "year": 2021,
+          "value": 97.0
+        },
+        {
+          "year": 2022,
+          "value": 76.0
+        },
+        {
+          "year": 2023,
+          "value": 94.0
+        },
+        {
+          "year": 2024,
+          "value": 100.0
+        }
+      ],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [
+        {
+          "year": 2020,
+          "value": 26594.0
+        },
+        {
+          "year": 2022,
+          "value": 30962.0
+        },
+        {
+          "year": 2023,
+          "value": 32365.0
+        },
+        {
+          "year": 2024,
+          "value": 39163.0
+        }
+      ],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [
+        {
+          "year": 2020,
+          "value": 23760.0
+        },
+        {
+          "year": 2022,
+          "value": 28821.0
+        },
+        {
+          "year": 2023,
+          "value": 29865.0
+        },
+        {
+          "year": 2024,
+          "value": 32821.0
+        }
+      ],
+      "median_debt": [
+        {
+          "year": 2020,
+          "value": 7125.0
+        }
+      ],
+      "default_rate": [
+        {
+          "year": 2022,
+          "value": 0.0
+        },
+        {
+          "year": 2023,
+          "value": 0.0
+        },
+        {
+          "year": 2024,
+          "value": 0.0
+        }
+      ],
+      "pell_share": [
+        {
+          "year": 2019,
+          "value": 0.0222
+        },
+        {
+          "year": 2020,
+          "value": 0.3679
+        },
+        {
+          "year": 2021,
+          "value": 0.3442
+        },
+        {
+          "year": 2022,
+          "value": 0.4307
+        },
+        {
+          "year": 2023,
+          "value": 0.3226
+        },
+        {
+          "year": 2024,
+          "value": 0.2207
+        }
+      ],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "enrollment_undergrad",
+        "from_year": 2019,
+        "to_year": 2024,
+        "from_value": 43.0,
+        "to_value": 100.0,
+        "pct_change": 0.285,
+        "direction": "rose"
+      },
+      {
+        "metric": "pell_share",
+        "from_year": 2019,
+        "to_year": 2024,
+        "from_value": 0.0222,
+        "to_value": 0.2207,
+        "pct_change": 3.97,
+        "direction": "rose"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "First-year retention",
+        "summary": "First-year retention at American Institute of Healthcare & Technology rose 25% between 2021 and 2024 (75.0% → 93.9%).",
+        "magnitude_pct": 25.2,
+        "magnitude_abs": 0.19,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": "%",
+        "history": [],
+        "metric": "retention_rate"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "51": [
+      {
+        "slug": "5139-c1",
+        "cip_code": "5139",
+        "cip_desc": "Practical Nursing, Vocational Nursing and Nursing Assistants.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 14,
+        "completers_single_year": 12,
+        "completers_history": [
+          {
+            "year": 2017,
+            "value": 25.0
+          },
+          {
+            "year": 2018,
+            "value": 12.0
+          },
+          {
+            "year": 2019,
+            "value": 14.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5109-c1",
+        "cip_code": "5109",
+        "cip_desc": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 8,
+        "completers_single_year": 10,
+        "completers_history": [
+          {
+            "year": 2017,
+            "value": 7.0
+          },
+          {
+            "year": 2018,
+            "value": 10.0
+          },
+          {
+            "year": 2019,
+            "value": 8.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5108-c1",
+        "cip_code": "5108",
+        "cip_desc": "Allied Health and Medical Assisting Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 7,
+        "completers_single_year": 19,
+        "completers_history": [
+          {
+            "year": 2017,
+            "value": 23.0
+          },
+          {
+            "year": 2018,
+            "value": 19.0
+          },
+          {
+            "year": 2019,
+            "value": 7.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5107-c1",
+        "cip_code": "5107",
+        "cip_desc": "Health and Medical Administrative Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 6,
+        "completers_single_year": 8,
+        "completers_history": [
+          {
+            "year": 2017,
+            "value": 12.0
+          },
+          {
+            "year": 2018,
+            "value": 8.0
+          },
+          {
+            "year": 2019,
+            "value": 6.0
+          }
+        ],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "5139-c1",
+      "cip_code": "5139",
+      "cip_desc": "Practical Nursing, Vocational Nursing and Nursing Assistants.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 14,
+      "completers_single_year": 12,
+      "completers_history": [
+        {
+          "year": 2017,
+          "value": 25.0
+        },
+        {
+          "year": 2018,
+          "value": 12.0
+        },
+        {
+          "year": 2019,
+          "value": 14.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5109-c1",
+      "cip_code": "5109",
+      "cip_desc": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 8,
+      "completers_single_year": 10,
+      "completers_history": [
+        {
+          "year": 2017,
+          "value": 7.0
+        },
+        {
+          "year": 2018,
+          "value": 10.0
+        },
+        {
+          "year": 2019,
+          "value": 8.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5108-c1",
+      "cip_code": "5108",
+      "cip_desc": "Allied Health and Medical Assisting Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 7,
+      "completers_single_year": 19,
+      "completers_history": [
+        {
+          "year": 2017,
+          "value": 23.0
+        },
+        {
+          "year": 2018,
+          "value": 19.0
+        },
+        {
+          "year": 2019,
+          "value": 7.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5107-c1",
+      "cip_code": "5107",
+      "cip_desc": "Health and Medical Administrative Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 6,
+      "completers_single_year": 8,
+      "completers_history": [
+        {
+          "year": 2017,
+          "value": 12.0
+        },
+        {
+          "year": 2018,
+          "value": 8.0
+        },
+        {
+          "year": 2019,
+          "value": 6.0
+        }
+      ],
+      "long_arc": []
+    }
+  ],
+  "program_count": 4,
+  "similar": [
+    {
+      "slug": "tigi-hairdressing-academy-newtown-484127",
+      "name": "TIGI Hairdressing Academy Newtown",
+      "city": "Newtown",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.6818,
+      "enrollment_undergrad": 96
+    },
+    {
+      "slug": "tigi-hairdressing-academy-guilford-457332",
+      "name": "TIGI Hairdressing Academy Guilford",
+      "city": "Guilford",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.75,
+      "enrollment_undergrad": 63
+    },
+    {
+      "slug": "oxford-academy-of-hair-design-inc-455798",
+      "name": "Oxford Academy of Hair Design Inc",
+      "city": "Seymour",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.7692,
+      "enrollment_undergrad": 140
+    },
+    {
+      "slug": "dolce-the-academy-485607",
+      "name": "Dolce The Academy",
+      "city": "Waterbury",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.5217,
+      "enrollment_undergrad": 42
+    },
+    {
+      "slug": "branford-academy-of-hair-and-cosmetology-451042",
+      "name": "Branford Academy of Hair and Cosmetology",
+      "city": "Branford",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.8333,
+      "enrollment_undergrad": 39
+    }
+  ],
+  "roi": {
+    "default_program_slug": null,
+    "programs_available": [
+      {
+        "slug": "5139-c1",
+        "label": "Practical Nursing, Vocational Nursing and Nursing Assistants · Undergraduate Certificate or Diploma",
+        "cip_family": "51",
+        "completers": 14,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "5109-c1",
+        "label": "Allied Health Diagnostic, Intervention, and Treatment Professions · Undergraduate Certificate or Diploma",
+        "cip_family": "51",
+        "completers": 8,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "5108-c1",
+        "label": "Allied Health and Medical Assisting Services · Undergraduate Certificate or Diploma",
+        "cip_family": "51",
+        "completers": 7,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "5107-c1",
+        "label": "Health and Medical Administrative Services · Undergraduate Certificate or Diploma",
+        "cip_family": "51",
+        "completers": 6,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      }
+    ]
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

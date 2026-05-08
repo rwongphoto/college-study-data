@@ -1,0 +1,238 @@
+{
+  "institution_unitid": "215062",
+  "institution_name": "University of Pennsylvania",
+  "institution_slug": "university-of-pennsylvania-215062",
+  "state": "pa",
+  "cip_code": "2201",
+  "cip_desc": "Law.",
+  "credential_level": 7,
+  "credential_desc": "First Professional Degree",
+  "slug": "2201-c7",
+  "earnings_median_4yr": 261434,
+  "earnings_median_5yr": 290543,
+  "earnings_count_4yr": 12,
+  "earnings_count_5yr": 14,
+  "debt_median": 171488,
+  "completers": 256,
+  "completers_single_year": 258,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 261434.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 290543.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 139129.0
+      },
+      {
+        "year": 2015,
+        "value": 149729.0
+      },
+      {
+        "year": 2016,
+        "value": 150181.0
+      },
+      {
+        "year": 2017,
+        "value": 161363.0
+      },
+      {
+        "year": 2018,
+        "value": 171488.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 258.0
+      },
+      {
+        "year": 2015,
+        "value": 255.0
+      },
+      {
+        "year": 2016,
+        "value": 244.0
+      },
+      {
+        "year": 2017,
+        "value": 249.0
+      },
+      {
+        "year": 2018,
+        "value": 258.0
+      },
+      {
+        "year": 2019,
+        "value": 256.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 139129.0,
+      "to_value": 171488.0,
+      "pct_change": 0.23258271100920727,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Law at University of Pennsylvania rose 23% between 2014 and 2018 ($139.1k → $171.5k).",
+      "magnitude_pct": 23.3,
+      "magnitude_abs": 32359.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "215062",
+    "slug": "university-of-pennsylvania-215062",
+    "name": "University of Pennsylvania",
+    "city": "Philadelphia",
+    "city_slug": "philadelphia",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "villanova-university-216597",
+      "institution_name": "Villanova University",
+      "earnings_median_5yr": 113412,
+      "earnings_median_4yr": 94303,
+      "debt_median": 69861,
+      "completers": 174,
+      "completers_single_year": 169,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "temple-university-216339",
+      "institution_name": "Temple University",
+      "earnings_median_5yr": 107536,
+      "earnings_median_4yr": 93115,
+      "debt_median": 81733,
+      "completers": 239,
+      "completers_single_year": 210,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "drexel-university-212054",
+      "institution_name": "Drexel University",
+      "earnings_median_5yr": 97024,
+      "earnings_median_4yr": 82453,
+      "debt_median": 72191,
+      "completers": 167,
+      "completers_single_year": 130,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-pittsburgh-pittsburgh-campus-215293",
+      "institution_name": "University of Pittsburgh-Pittsburgh Campus",
+      "earnings_median_5yr": 96860,
+      "earnings_median_4yr": 78440,
+      "debt_median": 109178,
+      "completers": 132,
+      "completers_single_year": 143,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "duquesne-university-212106",
+      "institution_name": "Duquesne University",
+      "earnings_median_5yr": 90320,
+      "earnings_median_4yr": 81365,
+      "debt_median": 72500,
+      "completers": 157,
+      "completers_single_year": 132,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "widener-university-216852",
+      "institution_name": "Widener University",
+      "earnings_median_5yr": 87974,
+      "earnings_median_4yr": 75456,
+      "debt_median": 131126,
+      "completers": 269,
+      "completers_single_year": 251,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 14,
+    "inputs": {
+      "years_to_complete": 7,
+      "cost_per_year_default": 17585,
+      "cost_total_default": 123095,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 290543,
+      "earnings_anchor_year": 5,
+      "debt_median": 171488,
+      "cip_family": "22",
+      "hs_baseline_state": 38100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 3817353,
+      "breakeven_year": 7
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

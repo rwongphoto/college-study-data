@@ -1,0 +1,246 @@
+{
+  "institution_unitid": "134097",
+  "institution_name": "Florida State University",
+  "institution_slug": "florida-state-university-134097",
+  "state": "fl",
+  "cip_code": "4005",
+  "cip_desc": "Chemistry.",
+  "credential_level": 6,
+  "credential_desc": "Doctoral Degree",
+  "slug": "4005-c6",
+  "earnings_median_4yr": 91047,
+  "earnings_median_5yr": 102739,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 1,
+  "debt_median": null,
+  "completers": 20,
+  "completers_single_year": 30,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 91047.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 102739.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 32517.0
+      },
+      {
+        "year": 2015,
+        "value": 46425.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 30.0
+      },
+      {
+        "year": 2015,
+        "value": 19.0
+      },
+      {
+        "year": 2016,
+        "value": 23.0
+      },
+      {
+        "year": 2017,
+        "value": 25.0
+      },
+      {
+        "year": 2018,
+        "value": 30.0
+      },
+      {
+        "year": 2019,
+        "value": 20.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2015,
+      "from_value": 32517.0,
+      "to_value": 46425.0,
+      "pct_change": 0.4277147338315343,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Chemistry at Florida State University rose 43% between 2014 and 2015 ($32.5k → $46.4k).",
+      "magnitude_pct": 42.8,
+      "magnitude_abs": 13908.0,
+      "baseline_year": 2014,
+      "recent_year": 2015,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "134097",
+    "slug": "florida-state-university-134097",
+    "name": "Florida State University",
+    "city": "Tallahassee",
+    "city_slug": "tallahassee",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-florida-134130",
+      "institution_name": "University of Florida",
+      "earnings_median_5yr": 135069,
+      "earnings_median_4yr": 117426,
+      "debt_median": null,
+      "completers": 33,
+      "completers_single_year": 35,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-south-florida-137351",
+      "institution_name": "University of South Florida",
+      "earnings_median_5yr": 79187,
+      "earnings_median_4yr": 69306,
+      "debt_median": null,
+      "completers": 15,
+      "completers_single_year": 27,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-central-florida-132903",
+      "institution_name": "University of Central Florida",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "florida-agricultural-and-mechanical-university-133650",
+      "institution_name": "Florida Agricultural and Mechanical University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "florida-atlantic-university-133669",
+      "institution_name": "Florida Atlantic University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "florida-institute-of-technology-133881",
+      "institution_name": "Florida Institute of Technology",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "florida-international-university-133951",
+      "institution_name": "Florida International University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-miami-135726",
+      "institution_name": "University of Miami",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 8,
+      "cost_per_year_default": 11131,
+      "cost_total_default": 89048,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 102739,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "40",
+      "hs_baseline_state": 35400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 919261,
+      "breakeven_year": 10
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

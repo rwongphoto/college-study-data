@@ -1,0 +1,173 @@
+{
+  "institution_unitid": "104179",
+  "institution_name": "University of Arizona",
+  "institution_slug": "university-of-arizona-104179",
+  "state": "az",
+  "cip_code": "1408",
+  "cip_desc": "Civil Engineering.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1408-c3",
+  "earnings_median_4yr": 81821,
+  "earnings_median_5yr": 88614,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 1,
+  "debt_median": 17937,
+  "completers": 32,
+  "completers_single_year": 30,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 81821.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 88614.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 11500.0
+      },
+      {
+        "year": 2015,
+        "value": 19500.0
+      },
+      {
+        "year": 2016,
+        "value": 21500.0
+      },
+      {
+        "year": 2017,
+        "value": 19250.0
+      },
+      {
+        "year": 2018,
+        "value": 17937.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 40.0
+      },
+      {
+        "year": 2015,
+        "value": 34.0
+      },
+      {
+        "year": 2016,
+        "value": 43.0
+      },
+      {
+        "year": 2017,
+        "value": 43.0
+      },
+      {
+        "year": 2018,
+        "value": 30.0
+      },
+      {
+        "year": 2019,
+        "value": 32.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 11500.0,
+      "to_value": 17937.0,
+      "pct_change": 0.5597391304347826,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Civil Engineering at University of Arizona rose 56% between 2014 and 2018 ($11.5k → $17.9k).",
+      "magnitude_pct": 56.0,
+      "magnitude_abs": 6437.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "104179",
+    "slug": "university-of-arizona-104179",
+    "name": "University of Arizona",
+    "city": "Tucson",
+    "city_slug": "tucson",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "arizona-state-university-campus-immersion-104151",
+      "institution_name": "Arizona State University Campus Immersion",
+      "earnings_median_5yr": 87208,
+      "earnings_median_4yr": 79867,
+      "debt_median": 22500,
+      "completers": 153,
+      "completers_single_year": 206,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northern-arizona-university-105330",
+      "institution_name": "Northern Arizona University",
+      "earnings_median_5yr": 85036,
+      "earnings_median_4yr": 72348,
+      "debt_median": 25188,
+      "completers": 56,
+      "completers_single_year": 42,
+      "pooled_earnings": false
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,8536 @@
+{
+  "institution": {
+    "unitid": "225432",
+    "opeid6": "003612",
+    "name": "University of Houston-Downtown",
+    "slug": "university-of-houston-downtown-225432",
+    "state": "tx",
+    "city": "Houston",
+    "city_slug": "houston",
+    "zip5": "77002",
+    "address": "1 Main Street",
+    "latitude": 29.7661,
+    "longitude": -95.359338,
+    "control": "public",
+    "pred_degree": "bachelors",
+    "highest_degree": "masters",
+    "main_campus": true,
+    "locale": "11",
+    "carnegie_basic": 22,
+    "sector_code": 1,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": 49120,
+    "earnings_median_8yr": 50849,
+    "earnings_median_10yr": 53551,
+    "completion_rate_150": 0.3376,
+    "completion_rate_100": 0.1454,
+    "retention_rate": 0.6741,
+    "admission_rate": 0.9064,
+    "enrollment_undergrad": 12812,
+    "enrollment_total": null,
+    "cost_attendance": 23017,
+    "tuition_in_state": 7708,
+    "tuition_out_of_state": 17788,
+    "avg_net_price_pub": 14623,
+    "avg_net_price_priv": null,
+    "cost_by_income": {
+      "0_30k": 13486,
+      "30_48k": 13911,
+      "48_75k": 16332,
+      "75_110k": 19673,
+      "110k_plus": 22498,
+      "sticker": 23017,
+      "sector": "pub"
+    },
+    "median_debt": 13750,
+    "default_rate": 0.0,
+    "pell_share": 0.5162,
+    "history": {
+      "completion_rate_150": [
+        {
+          "year": 1997,
+          "value": 0.0912
+        },
+        {
+          "year": 1998,
+          "value": 0.0815
+        },
+        {
+          "year": 1999,
+          "value": 0.1096
+        },
+        {
+          "year": 2000,
+          "value": 0.112
+        },
+        {
+          "year": 2001,
+          "value": 0.1426
+        },
+        {
+          "year": 2002,
+          "value": 0.1426
+        },
+        {
+          "year": 2003,
+          "value": 0.1222
+        },
+        {
+          "year": 2004,
+          "value": 0.1279
+        },
+        {
+          "year": 2005,
+          "value": 0.118
+        },
+        {
+          "year": 2006,
+          "value": 0.1537
+        },
+        {
+          "year": 2007,
+          "value": 0.1554
+        },
+        {
+          "year": 2008,
+          "value": 0.1359
+        },
+        {
+          "year": 2009,
+          "value": 0.1186
+        },
+        {
+          "year": 2010,
+          "value": 0.1245
+        },
+        {
+          "year": 2011,
+          "value": 0.1474
+        },
+        {
+          "year": 2012,
+          "value": 0.119
+        },
+        {
+          "year": 2013,
+          "value": 0.1408
+        },
+        {
+          "year": 2014,
+          "value": 0.1917
+        },
+        {
+          "year": 2015,
+          "value": 0.133
+        },
+        {
+          "year": 2016,
+          "value": 0.159
+        },
+        {
+          "year": 2017,
+          "value": 0.2076
+        },
+        {
+          "year": 2018,
+          "value": 0.204
+        },
+        {
+          "year": 2019,
+          "value": 0.285
+        },
+        {
+          "year": 2020,
+          "value": 0.299
+        },
+        {
+          "year": 2021,
+          "value": 0.3025
+        },
+        {
+          "year": 2022,
+          "value": 0.3088
+        },
+        {
+          "year": 2023,
+          "value": 0.3376
+        },
+        {
+          "year": 2024,
+          "value": 0.332
+        }
+      ],
+      "completion_rate_100": [
+        {
+          "year": 1997,
+          "value": 0.0175
+        },
+        {
+          "year": 1998,
+          "value": 0.0056
+        },
+        {
+          "year": 1999,
+          "value": 0.012
+        },
+        {
+          "year": 2001,
+          "value": 0.016
+        },
+        {
+          "year": 2002,
+          "value": 0.0204
+        },
+        {
+          "year": 2003,
+          "value": 0.0206
+        },
+        {
+          "year": 2004,
+          "value": 0.0115
+        },
+        {
+          "year": 2005,
+          "value": 0.0137
+        },
+        {
+          "year": 2006,
+          "value": 0.0202
+        },
+        {
+          "year": 2007,
+          "value": 0.0219
+        },
+        {
+          "year": 2008,
+          "value": 0.0155
+        },
+        {
+          "year": 2009,
+          "value": 0.0158
+        },
+        {
+          "year": 2010,
+          "value": 0.0104
+        },
+        {
+          "year": 2011,
+          "value": 0.0225
+        },
+        {
+          "year": 2012,
+          "value": 0.0143
+        },
+        {
+          "year": 2013,
+          "value": 0.0265
+        },
+        {
+          "year": 2014,
+          "value": 0.0286
+        },
+        {
+          "year": 2015,
+          "value": 0.0139
+        },
+        {
+          "year": 2016,
+          "value": 0.0133
+        },
+        {
+          "year": 2017,
+          "value": 0.0337
+        },
+        {
+          "year": 2018,
+          "value": 0.0389
+        },
+        {
+          "year": 2019,
+          "value": 0.0775
+        },
+        {
+          "year": 2020,
+          "value": 0.0898
+        },
+        {
+          "year": 2021,
+          "value": 0.1013
+        },
+        {
+          "year": 2022,
+          "value": 0.1363
+        },
+        {
+          "year": 2023,
+          "value": 0.1454
+        },
+        {
+          "year": 2024,
+          "value": 0.1439
+        }
+      ],
+      "retention_rate": [
+        {
+          "year": 2004,
+          "value": 0.6
+        },
+        {
+          "year": 2005,
+          "value": 0.61
+        },
+        {
+          "year": 2006,
+          "value": 0.52
+        },
+        {
+          "year": 2007,
+          "value": 0.56
+        },
+        {
+          "year": 2008,
+          "value": 0.5764
+        },
+        {
+          "year": 2009,
+          "value": 0.6094
+        },
+        {
+          "year": 2010,
+          "value": 0.5928
+        },
+        {
+          "year": 2011,
+          "value": 0.5959
+        },
+        {
+          "year": 2012,
+          "value": 0.671
+        },
+        {
+          "year": 2013,
+          "value": 0.6309
+        },
+        {
+          "year": 2014,
+          "value": 0.6574
+        },
+        {
+          "year": 2015,
+          "value": 0.6641
+        },
+        {
+          "year": 2016,
+          "value": 0.6608
+        },
+        {
+          "year": 2017,
+          "value": 0.7226
+        },
+        {
+          "year": 2018,
+          "value": 0.7146
+        },
+        {
+          "year": 2019,
+          "value": 0.7328
+        },
+        {
+          "year": 2020,
+          "value": 0.6734
+        },
+        {
+          "year": 2021,
+          "value": 0.641
+        },
+        {
+          "year": 2022,
+          "value": 0.6514
+        },
+        {
+          "year": 2023,
+          "value": 0.6741
+        },
+        {
+          "year": 2024,
+          "value": 0.6709
+        }
+      ],
+      "admission_rate": [
+        {
+          "year": 2013,
+          "value": 0.9509
+        },
+        {
+          "year": 2014,
+          "value": 0.8417
+        },
+        {
+          "year": 2015,
+          "value": 0.7763
+        },
+        {
+          "year": 2016,
+          "value": 0.8288
+        },
+        {
+          "year": 2017,
+          "value": 0.8408
+        },
+        {
+          "year": 2018,
+          "value": 0.8317
+        },
+        {
+          "year": 2019,
+          "value": 0.8868
+        },
+        {
+          "year": 2020,
+          "value": 0.9282
+        },
+        {
+          "year": 2021,
+          "value": 0.9484
+        },
+        {
+          "year": 2022,
+          "value": 0.8842
+        },
+        {
+          "year": 2023,
+          "value": 0.9064
+        },
+        {
+          "year": 2024,
+          "value": 0.8996
+        }
+      ],
+      "enrollment_undergrad": [
+        {
+          "year": 1996,
+          "value": 7776.0
+        },
+        {
+          "year": 1997,
+          "value": 8194.0
+        },
+        {
+          "year": 1998,
+          "value": 8260.0
+        },
+        {
+          "year": 1999,
+          "value": 8712.0
+        },
+        {
+          "year": 2001,
+          "value": 9643.0
+        },
+        {
+          "year": 2002,
+          "value": 10423.0
+        },
+        {
+          "year": 2003,
+          "value": 10862.0
+        },
+        {
+          "year": 2004,
+          "value": 11261.0
+        },
+        {
+          "year": 2005,
+          "value": 11359.0
+        },
+        {
+          "year": 2006,
+          "value": 11344.0
+        },
+        {
+          "year": 2007,
+          "value": 11670.0
+        },
+        {
+          "year": 2008,
+          "value": 12134.0
+        },
+        {
+          "year": 2009,
+          "value": 12517.0
+        },
+        {
+          "year": 2010,
+          "value": 12616.0
+        },
+        {
+          "year": 2011,
+          "value": 12670.0
+        },
+        {
+          "year": 2012,
+          "value": 13549.0
+        },
+        {
+          "year": 2013,
+          "value": 13297.0
+        },
+        {
+          "year": 2014,
+          "value": 13662.0
+        },
+        {
+          "year": 2015,
+          "value": 13101.0
+        },
+        {
+          "year": 2016,
+          "value": 12758.0
+        },
+        {
+          "year": 2017,
+          "value": 12310.0
+        },
+        {
+          "year": 2018,
+          "value": 12572.0
+        },
+        {
+          "year": 2019,
+          "value": 13028.0
+        },
+        {
+          "year": 2020,
+          "value": 13549.0
+        },
+        {
+          "year": 2021,
+          "value": 13515.0
+        },
+        {
+          "year": 2022,
+          "value": 12752.0
+        },
+        {
+          "year": 2023,
+          "value": 12812.0
+        },
+        {
+          "year": 2024,
+          "value": 12555.0
+        }
+      ],
+      "tuition_in_state": [
+        {
+          "year": 2000,
+          "value": 2006.0
+        },
+        {
+          "year": 2001,
+          "value": 2006.0
+        },
+        {
+          "year": 2002,
+          "value": 2222.0
+        },
+        {
+          "year": 2003,
+          "value": 2088.0
+        },
+        {
+          "year": 2004,
+          "value": 3170.0
+        },
+        {
+          "year": 2005,
+          "value": 3326.0
+        },
+        {
+          "year": 2006,
+          "value": 3656.0
+        },
+        {
+          "year": 2007,
+          "value": 4022.0
+        },
+        {
+          "year": 2008,
+          "value": 4190.0
+        },
+        {
+          "year": 2009,
+          "value": 4392.0
+        },
+        {
+          "year": 2010,
+          "value": 4604.0
+        },
+        {
+          "year": 2011,
+          "value": 4786.0
+        },
+        {
+          "year": 2012,
+          "value": 5022.0
+        },
+        {
+          "year": 2013,
+          "value": 5238.0
+        },
+        {
+          "year": 2014,
+          "value": 5516.0
+        },
+        {
+          "year": 2015,
+          "value": 5780.0
+        },
+        {
+          "year": 2016,
+          "value": 5978.0
+        },
+        {
+          "year": 2017,
+          "value": 6470.0
+        },
+        {
+          "year": 2018,
+          "value": 6500.0
+        },
+        {
+          "year": 2019,
+          "value": 6788.0
+        },
+        {
+          "year": 2020,
+          "value": 7222.0
+        },
+        {
+          "year": 2021,
+          "value": 7708.0
+        },
+        {
+          "year": 2022,
+          "value": 7708.0
+        },
+        {
+          "year": 2023,
+          "value": 7708.0
+        },
+        {
+          "year": 2024,
+          "value": 7708.0
+        }
+      ],
+      "tuition_out_of_state": [
+        {
+          "year": 2000,
+          "value": 7166.0
+        },
+        {
+          "year": 2001,
+          "value": 7118.0
+        },
+        {
+          "year": 2002,
+          "value": 7454.0
+        },
+        {
+          "year": 2003,
+          "value": 7752.0
+        },
+        {
+          "year": 2004,
+          "value": 9362.0
+        },
+        {
+          "year": 2005,
+          "value": 9950.0
+        },
+        {
+          "year": 2006,
+          "value": 10256.0
+        },
+        {
+          "year": 2007,
+          "value": 4022.0
+        },
+        {
+          "year": 2008,
+          "value": 10934.0
+        },
+        {
+          "year": 2009,
+          "value": 11040.0
+        },
+        {
+          "year": 2010,
+          "value": 12044.0
+        },
+        {
+          "year": 2011,
+          "value": 12298.0
+        },
+        {
+          "year": 2012,
+          "value": 13446.0
+        },
+        {
+          "year": 2013,
+          "value": 13734.0
+        },
+        {
+          "year": 2014,
+          "value": 14204.0
+        },
+        {
+          "year": 2015,
+          "value": 15140.0
+        },
+        {
+          "year": 2016,
+          "value": 15770.0
+        },
+        {
+          "year": 2017,
+          "value": 16430.0
+        },
+        {
+          "year": 2018,
+          "value": 16460.0
+        },
+        {
+          "year": 2019,
+          "value": 16916.0
+        },
+        {
+          "year": 2020,
+          "value": 17038.0
+        },
+        {
+          "year": 2021,
+          "value": 17524.0
+        },
+        {
+          "year": 2022,
+          "value": 17524.0
+        },
+        {
+          "year": 2023,
+          "value": 17788.0
+        },
+        {
+          "year": 2024,
+          "value": 17548.0
+        }
+      ],
+      "cost_attendance": [
+        {
+          "year": 2009,
+          "value": 16337.0
+        },
+        {
+          "year": 2010,
+          "value": 16310.0
+        },
+        {
+          "year": 2011,
+          "value": 16259.0
+        },
+        {
+          "year": 2012,
+          "value": 19040.0
+        },
+        {
+          "year": 2013,
+          "value": 18879.0
+        },
+        {
+          "year": 2014,
+          "value": 15912.0
+        },
+        {
+          "year": 2015,
+          "value": 16284.0
+        },
+        {
+          "year": 2016,
+          "value": 16555.0
+        },
+        {
+          "year": 2017,
+          "value": 17017.0
+        },
+        {
+          "year": 2018,
+          "value": 16547.0
+        },
+        {
+          "year": 2019,
+          "value": 16863.0
+        },
+        {
+          "year": 2020,
+          "value": 20995.0
+        },
+        {
+          "year": 2021,
+          "value": 21607.0
+        },
+        {
+          "year": 2022,
+          "value": 23675.0
+        },
+        {
+          "year": 2023,
+          "value": 23017.0
+        },
+        {
+          "year": 2024,
+          "value": 20749.0
+        }
+      ],
+      "avg_net_price_pub": [
+        {
+          "year": 2009,
+          "value": 10044.0
+        },
+        {
+          "year": 2010,
+          "value": 9644.0
+        },
+        {
+          "year": 2011,
+          "value": 7771.0
+        },
+        {
+          "year": 2012,
+          "value": 9682.0
+        },
+        {
+          "year": 2013,
+          "value": 10898.0
+        },
+        {
+          "year": 2014,
+          "value": 7150.0
+        },
+        {
+          "year": 2015,
+          "value": 7465.0
+        },
+        {
+          "year": 2016,
+          "value": 7932.0
+        },
+        {
+          "year": 2017,
+          "value": 8950.0
+        },
+        {
+          "year": 2018,
+          "value": 7789.0
+        },
+        {
+          "year": 2019,
+          "value": 6848.0
+        },
+        {
+          "year": 2020,
+          "value": 12044.0
+        },
+        {
+          "year": 2021,
+          "value": 13100.0
+        },
+        {
+          "year": 2022,
+          "value": 15255.0
+        },
+        {
+          "year": 2023,
+          "value": 14623.0
+        },
+        {
+          "year": 2024,
+          "value": 10542.0
+        }
+      ],
+      "avg_net_price_priv": [],
+      "median_debt": [
+        {
+          "year": 1997,
+          "value": 3500.0
+        },
+        {
+          "year": 1998,
+          "value": 3873.0
+        },
+        {
+          "year": 1999,
+          "value": 4597.0
+        },
+        {
+          "year": 2000,
+          "value": 4805.0
+        },
+        {
+          "year": 2001,
+          "value": 4805.0
+        },
+        {
+          "year": 2002,
+          "value": 7937.0
+        },
+        {
+          "year": 2003,
+          "value": 10000.0
+        },
+        {
+          "year": 2004,
+          "value": 10500.0
+        },
+        {
+          "year": 2005,
+          "value": 10750.0
+        },
+        {
+          "year": 2006,
+          "value": 12490.5
+        },
+        {
+          "year": 2007,
+          "value": 11588.5
+        },
+        {
+          "year": 2008,
+          "value": 13641.0
+        },
+        {
+          "year": 2009,
+          "value": 15227.0
+        },
+        {
+          "year": 2010,
+          "value": 17228.5
+        },
+        {
+          "year": 2011,
+          "value": 18000.0
+        },
+        {
+          "year": 2012,
+          "value": 18000.0
+        },
+        {
+          "year": 2013,
+          "value": 18750.0
+        },
+        {
+          "year": 2014,
+          "value": 18750.0
+        },
+        {
+          "year": 2015,
+          "value": 18750.0
+        },
+        {
+          "year": 2016,
+          "value": 18750.0
+        },
+        {
+          "year": 2017,
+          "value": 19500.0
+        },
+        {
+          "year": 2018,
+          "value": 19750.0
+        },
+        {
+          "year": 2019,
+          "value": 18750.0
+        },
+        {
+          "year": 2020,
+          "value": 18750.0
+        }
+      ],
+      "default_rate": [],
+      "pell_share": [
+        {
+          "year": 2008,
+          "value": 0.4023
+        },
+        {
+          "year": 2009,
+          "value": 0.3189
+        },
+        {
+          "year": 2010,
+          "value": 0.4182
+        },
+        {
+          "year": 2011,
+          "value": 0.478
+        },
+        {
+          "year": 2012,
+          "value": 0.5892
+        },
+        {
+          "year": 2013,
+          "value": 0.4744
+        },
+        {
+          "year": 2014,
+          "value": 0.4655
+        },
+        {
+          "year": 2015,
+          "value": 0.4743
+        },
+        {
+          "year": 2016,
+          "value": 0.4476
+        },
+        {
+          "year": 2017,
+          "value": 0.4601
+        },
+        {
+          "year": 2018,
+          "value": 0.4796
+        },
+        {
+          "year": 2019,
+          "value": 0.4606
+        },
+        {
+          "year": 2020,
+          "value": 0.4805
+        },
+        {
+          "year": 2021,
+          "value": 0.4773
+        },
+        {
+          "year": 2022,
+          "value": 0.4961
+        },
+        {
+          "year": 2023,
+          "value": 0.5162
+        },
+        {
+          "year": 2024,
+          "value": 0.5522
+        }
+      ],
+      "earnings_median_6yr": [
+        {
+          "year": 2003,
+          "value": 34700.0
+        },
+        {
+          "year": 2005,
+          "value": 33900.0
+        },
+        {
+          "year": 2007,
+          "value": 36900.0
+        },
+        {
+          "year": 2009,
+          "value": 35300.0
+        },
+        {
+          "year": 2011,
+          "value": 35400.0
+        },
+        {
+          "year": 2012,
+          "value": 36700.0
+        },
+        {
+          "year": 2013,
+          "value": 37700.0
+        },
+        {
+          "year": 2014,
+          "value": 39700.0
+        },
+        {
+          "year": 2020,
+          "value": 49120.0
+        }
+      ],
+      "earnings_median_8yr": [
+        {
+          "year": 2005,
+          "value": 37800.0
+        },
+        {
+          "year": 2007,
+          "value": 40300.0
+        },
+        {
+          "year": 2009,
+          "value": 40700.0
+        },
+        {
+          "year": 2011,
+          "value": 38500.0
+        },
+        {
+          "year": 2012,
+          "value": 38500.0
+        },
+        {
+          "year": 2013,
+          "value": 40200.0
+        },
+        {
+          "year": 2014,
+          "value": 42900.0
+        },
+        {
+          "year": 2020,
+          "value": 50849.0
+        }
+      ],
+      "earnings_median_10yr": [
+        {
+          "year": 2007,
+          "value": 42800.0
+        },
+        {
+          "year": 2009,
+          "value": 42700.0
+        },
+        {
+          "year": 2011,
+          "value": 42800.0
+        },
+        {
+          "year": 2012,
+          "value": 42500.0
+        },
+        {
+          "year": 2013,
+          "value": 42800.0
+        },
+        {
+          "year": 2014,
+          "value": 45000.0
+        },
+        {
+          "year": 2020,
+          "value": 53551.0
+        }
+      ]
+    },
+    "long_arc": [
+      {
+        "metric": "completion_rate_150",
+        "from_year": 1997,
+        "to_year": 2024,
+        "from_value": 0.0912,
+        "to_value": 0.332,
+        "pct_change": 2.6403508771929824,
+        "direction": "rose"
+      },
+      {
+        "metric": "completion_rate_100",
+        "from_year": 1997,
+        "to_year": 2024,
+        "from_value": 0.0175,
+        "to_value": 0.1439,
+        "pct_change": 7.222857142857143,
+        "direction": "rose"
+      },
+      {
+        "metric": "retention_rate",
+        "from_year": 2004,
+        "to_year": 2024,
+        "from_value": 0.6,
+        "to_value": 0.6709,
+        "pct_change": 0.1181666666666668,
+        "direction": "rose"
+      },
+      {
+        "metric": "enrollment_undergrad",
+        "from_year": 1996,
+        "to_year": 2024,
+        "from_value": 7776.0,
+        "to_value": 12555.0,
+        "pct_change": 0.6145833333333334,
+        "direction": "rose"
+      },
+      {
+        "metric": "tuition_in_state",
+        "from_year": 2000,
+        "to_year": 2024,
+        "from_value": 2006.0,
+        "to_value": 7708.0,
+        "pct_change": 2.84247258225324,
+        "direction": "rose"
+      },
+      {
+        "metric": "tuition_out_of_state",
+        "from_year": 2000,
+        "to_year": 2024,
+        "from_value": 7166.0,
+        "to_value": 17548.0,
+        "pct_change": 1.4487859335752162,
+        "direction": "rose"
+      },
+      {
+        "metric": "median_debt",
+        "from_year": 1997,
+        "to_year": 2020,
+        "from_value": 3500.0,
+        "to_value": 18750.0,
+        "pct_change": 4.357142857142857,
+        "direction": "rose"
+      },
+      {
+        "metric": "pell_share",
+        "from_year": 2008,
+        "to_year": 2024,
+        "from_value": 0.4023,
+        "to_value": 0.5522,
+        "pct_change": 0.3726075068356948,
+        "direction": "rose"
+      },
+      {
+        "metric": "earnings_median_10yr",
+        "from_year": 2007,
+        "to_year": 2020,
+        "from_value": 42800.0,
+        "to_value": 53551.0,
+        "pct_change": 0.2511915887850467,
+        "direction": "rose"
+      },
+      {
+        "metric": "earnings_median_8yr",
+        "from_year": 2005,
+        "to_year": 2020,
+        "from_value": 37800.0,
+        "to_value": 50849.0,
+        "pct_change": 0.3452116402116402,
+        "direction": "rose"
+      },
+      {
+        "metric": "earnings_median_6yr",
+        "from_year": 2003,
+        "to_year": 2020,
+        "from_value": 34700.0,
+        "to_value": 49120.0,
+        "pct_change": 0.4155619596541787,
+        "direction": "rose"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "100%-time completion",
+        "summary": "100%-time completion at University of Houston-Downtown rose 42% between 2021 and 2024 (10.1% → 14.4%).",
+        "magnitude_pct": 42.1,
+        "magnitude_abs": 0.04,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": "%",
+        "history": [],
+        "metric": "completion_rate_100"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "09": [
+      {
+        "slug": "0901-c3",
+        "cip_code": "0901",
+        "cip_desc": "Communication and Media Studies.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": 51762,
+        "earnings_median_4yr": 48488,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 51762.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 48488.0
+          }
+        ],
+        "debt_median": 23455,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 23152.0
+          },
+          {
+            "year": 2015,
+            "value": 21587.0
+          },
+          {
+            "year": 2016,
+            "value": 23750.0
+          },
+          {
+            "year": 2017,
+            "value": 24997.0
+          },
+          {
+            "year": 2018,
+            "value": 23455.0
+          }
+        ],
+        "completers": 94,
+        "completers_single_year": 82,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 113.0
+          },
+          {
+            "year": 2015,
+            "value": 113.0
+          },
+          {
+            "year": 2016,
+            "value": 120.0
+          },
+          {
+            "year": 2017,
+            "value": 107.0
+          },
+          {
+            "year": 2018,
+            "value": 82.0
+          },
+          {
+            "year": 2019,
+            "value": 94.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "11": [
+      {
+        "slug": "1101-c3",
+        "cip_code": "1101",
+        "cip_desc": "Computer and Information Sciences, General.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": 90280,
+        "earnings_median_4yr": 78762,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 90280.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 78762.0
+          }
+        ],
+        "debt_median": 15830,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 17750.0
+          },
+          {
+            "year": 2015,
+            "value": 20960.0
+          },
+          {
+            "year": 2016,
+            "value": 17562.0
+          },
+          {
+            "year": 2017,
+            "value": 15830.0
+          },
+          {
+            "year": 2018,
+            "value": 15830.0
+          }
+        ],
+        "completers": 101,
+        "completers_single_year": 106,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 52.0
+          },
+          {
+            "year": 2015,
+            "value": 78.0
+          },
+          {
+            "year": 2016,
+            "value": 73.0
+          },
+          {
+            "year": 2017,
+            "value": 106.0
+          },
+          {
+            "year": 2018,
+            "value": 106.0
+          },
+          {
+            "year": 2019,
+            "value": 101.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "13": [
+      {
+        "slug": "1303-c5",
+        "cip_code": "1303",
+        "cip_desc": "Curriculum and Instruction.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": 34792,
+        "debt_history": [
+          {
+            "year": 2018,
+            "value": 34792.0
+          }
+        ],
+        "completers": 13,
+        "completers_single_year": 19,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 9.0
+          },
+          {
+            "year": 2015,
+            "value": 11.0
+          },
+          {
+            "year": 2016,
+            "value": 9.0
+          },
+          {
+            "year": 2017,
+            "value": 27.0
+          },
+          {
+            "year": 2018,
+            "value": 19.0
+          },
+          {
+            "year": 2019,
+            "value": 13.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1301-c3",
+        "cip_code": "1301",
+        "cip_desc": "Education, General.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1304-c8",
+        "cip_code": "1304",
+        "cip_desc": "Educational Administration and Supervision.",
+        "credential_level": 8,
+        "credential_desc": "Graduate/Professional Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": null,
+        "completers_history": [
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1313-c8",
+        "cip_code": "1313",
+        "cip_desc": "Teacher Education and Professional Development, Specific Subject Areas.",
+        "credential_level": 8,
+        "credential_desc": "Graduate/Professional Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2015,
+            "value": 0.0
+          },
+          {
+            "year": 2016,
+            "value": 0.0
+          },
+          {
+            "year": 2017,
+            "value": 0.0
+          },
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "15": [
+      {
+        "slug": "1512-c3",
+        "cip_code": "1512",
+        "cip_desc": "Computer Engineering Technologies/Technicians.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": 81769,
+        "earnings_median_4yr": 73092,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 81769.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 73092.0
+          }
+        ],
+        "debt_median": null,
+        "debt_history": [
+          {
+            "year": 2016,
+            "value": 25000.0
+          },
+          {
+            "year": 2017,
+            "value": 22750.0
+          }
+        ],
+        "completers": 27,
+        "completers_single_year": 14,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 24.0
+          },
+          {
+            "year": 2015,
+            "value": 20.0
+          },
+          {
+            "year": 2016,
+            "value": 24.0
+          },
+          {
+            "year": 2017,
+            "value": 21.0
+          },
+          {
+            "year": 2018,
+            "value": 14.0
+          },
+          {
+            "year": 2019,
+            "value": 27.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1502-c3",
+        "cip_code": "1502",
+        "cip_desc": "Civil Engineering Technologies/Technicians.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": 73975,
+        "earnings_median_4yr": 68499,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 73975.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 68499.0
+          }
+        ],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 23,
+        "completers_single_year": 11,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 25.0
+          },
+          {
+            "year": 2015,
+            "value": 18.0
+          },
+          {
+            "year": 2016,
+            "value": 13.0
+          },
+          {
+            "year": 2017,
+            "value": 8.0
+          },
+          {
+            "year": 2018,
+            "value": 11.0
+          },
+          {
+            "year": 2019,
+            "value": 23.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "1507-c3",
+        "cip_code": "1507",
+        "cip_desc": "Quality Control and Safety Technologies/Technicians.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": 71630,
+        "earnings_median_4yr": 63064,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 71630.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 63064.0
+          }
+        ],
+        "debt_median": 34208,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 25000.0
+          },
+          {
+            "year": 2015,
+            "value": 20540.0
+          },
+          {
+            "year": 2016,
+            "value": 20645.0
+          },
+          {
+            "year": 2017,
+            "value": 25125.0
+          },
+          {
+            "year": 2018,
+            "value": 34208.0
+          }
+        ],
+        "completers": 19,
+        "completers_single_year": 19,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 36.0
+          },
+          {
+            "year": 2015,
+            "value": 27.0
+          },
+          {
+            "year": 2016,
+            "value": 28.0
+          },
+          {
+            "year": 2017,
+            "value": 23.0
+          },
+          {
+            "year": 2018,
+            "value": 19.0
+          },
+          {
+            "year": 2019,
+            "value": 19.0
+          }
+        ],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2014,
+            "to_year": 2018,
+            "from_value": 25000.0,
+            "to_value": 34208.0,
+            "pct_change": 0.36832,
+            "direction": "rose"
+          }
+        ]
+      }
+    ],
+    "16": [
+      {
+        "slug": "1609-c3",
+        "cip_code": "1609",
+        "cip_desc": "Romance Languages, Literatures, and Linguistics.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": 51915,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 51915.0
+          }
+        ],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 7,
+        "completers_single_year": 10,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 17.0
+          },
+          {
+            "year": 2015,
+            "value": 20.0
+          },
+          {
+            "year": 2016,
+            "value": 11.0
+          },
+          {
+            "year": 2017,
+            "value": 13.0
+          },
+          {
+            "year": 2018,
+            "value": 10.0
+          },
+          {
+            "year": 2019,
+            "value": 7.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "19": [
+      {
+        "slug": "1907-c3",
+        "cip_code": "1907",
+        "cip_desc": "Human Development, Family Studies, and Related Services.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2015,
+            "value": 0.0
+          },
+          {
+            "year": 2016,
+            "value": 0.0
+          },
+          {
+            "year": 2017,
+            "value": 0.0
+          },
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "23": [
+      {
+        "slug": "2301-c3",
+        "cip_code": "2301",
+        "cip_desc": "English Language and Literature, General.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": 43319,
+        "earnings_median_4yr": 32182,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 43319.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 32182.0
+          }
+        ],
+        "debt_median": 23000,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 17000.0
+          },
+          {
+            "year": 2015,
+            "value": 23000.0
+          },
+          {
+            "year": 2016,
+            "value": 15250.0
+          },
+          {
+            "year": 2017,
+            "value": 17125.0
+          },
+          {
+            "year": 2018,
+            "value": 23000.0
+          }
+        ],
+        "completers": 30,
+        "completers_single_year": 36,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 24.0
+          },
+          {
+            "year": 2015,
+            "value": 44.0
+          },
+          {
+            "year": 2016,
+            "value": 42.0
+          },
+          {
+            "year": 2017,
+            "value": 39.0
+          },
+          {
+            "year": 2018,
+            "value": 36.0
+          },
+          {
+            "year": 2019,
+            "value": 30.0
+          }
+        ],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2014,
+            "to_year": 2018,
+            "from_value": 17000.0,
+            "to_value": 23000.0,
+            "pct_change": 0.35294117647058826,
+            "direction": "rose"
+          }
+        ]
+      },
+      {
+        "slug": "2313-c3",
+        "cip_code": "2313",
+        "cip_desc": "Rhetoric and Composition/Writing Studies.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [
+          {
+            "year": 2016,
+            "value": 15500.0
+          }
+        ],
+        "completers": 15,
+        "completers_single_year": 11,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 14.0
+          },
+          {
+            "year": 2015,
+            "value": 16.0
+          },
+          {
+            "year": 2016,
+            "value": 15.0
+          },
+          {
+            "year": 2017,
+            "value": 14.0
+          },
+          {
+            "year": 2018,
+            "value": 11.0
+          },
+          {
+            "year": 2019,
+            "value": 15.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "2301-c8",
+        "cip_code": "2301",
+        "cip_desc": "English Language and Literature, General.",
+        "credential_level": 8,
+        "credential_desc": "Graduate/Professional Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 10,
+        "completers_single_year": 1,
+        "completers_history": [
+          {
+            "year": 2015,
+            "value": 0.0
+          },
+          {
+            "year": 2016,
+            "value": 3.0
+          },
+          {
+            "year": 2017,
+            "value": 4.0
+          },
+          {
+            "year": 2018,
+            "value": 1.0
+          },
+          {
+            "year": 2019,
+            "value": 10.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "2313-c5",
+        "cip_code": "2313",
+        "cip_desc": "Rhetoric and Composition/Writing Studies.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [
+          {
+            "year": 2017,
+            "value": 37201.0
+          }
+        ],
+        "completers": 4,
+        "completers_single_year": 15,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 9.0
+          },
+          {
+            "year": 2015,
+            "value": 10.0
+          },
+          {
+            "year": 2016,
+            "value": 18.0
+          },
+          {
+            "year": 2017,
+            "value": 18.0
+          },
+          {
+            "year": 2018,
+            "value": 15.0
+          },
+          {
+            "year": 2019,
+            "value": 4.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "2313-c8",
+        "cip_code": "2313",
+        "cip_desc": "Rhetoric and Composition/Writing Studies.",
+        "credential_level": 8,
+        "credential_desc": "Graduate/Professional Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 1,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2016,
+            "value": 3.0
+          },
+          {
+            "year": 2017,
+            "value": 1.0
+          },
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 1.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "24": [
+      {
+        "slug": "2401-c3",
+        "cip_code": "2401",
+        "cip_desc": "Liberal Arts and Sciences, General Studies and Humanities.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 23,
+        "completers_single_year": 8,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 10.0
+          },
+          {
+            "year": 2015,
+            "value": 10.0
+          },
+          {
+            "year": 2016,
+            "value": 7.0
+          },
+          {
+            "year": 2017,
+            "value": 9.0
+          },
+          {
+            "year": 2018,
+            "value": 8.0
+          },
+          {
+            "year": 2019,
+            "value": 23.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "26": [
+      {
+        "slug": "2601-c3",
+        "cip_code": "2601",
+        "cip_desc": "Biology, General.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": 41923,
+        "earnings_median_4yr": 40680,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 41923.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 40680.0
+          }
+        ],
+        "debt_median": 21527,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 16500.0
+          },
+          {
+            "year": 2015,
+            "value": 19000.0
+          },
+          {
+            "year": 2016,
+            "value": 20657.0
+          },
+          {
+            "year": 2017,
+            "value": 21460.0
+          },
+          {
+            "year": 2018,
+            "value": 21527.0
+          }
+        ],
+        "completers": 56,
+        "completers_single_year": 31,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 38.0
+          },
+          {
+            "year": 2015,
+            "value": 52.0
+          },
+          {
+            "year": 2016,
+            "value": 40.0
+          },
+          {
+            "year": 2017,
+            "value": 36.0
+          },
+          {
+            "year": 2018,
+            "value": 31.0
+          },
+          {
+            "year": 2019,
+            "value": 56.0
+          }
+        ],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2014,
+            "to_year": 2018,
+            "from_value": 16500.0,
+            "to_value": 21527.0,
+            "pct_change": 0.30466666666666664,
+            "direction": "rose"
+          }
+        ]
+      },
+      {
+        "slug": "2612-c3",
+        "cip_code": "2612",
+        "cip_desc": "Biotechnology.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 7,
+        "completers_single_year": 7,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 8.0
+          },
+          {
+            "year": 2015,
+            "value": 10.0
+          },
+          {
+            "year": 2016,
+            "value": 11.0
+          },
+          {
+            "year": 2017,
+            "value": 6.0
+          },
+          {
+            "year": 2018,
+            "value": 7.0
+          },
+          {
+            "year": 2019,
+            "value": 7.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "2605-c3",
+        "cip_code": "2605",
+        "cip_desc": "Microbiological Sciences and Immunology.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 0.0
+          },
+          {
+            "year": 2015,
+            "value": 1.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "27": [
+      {
+        "slug": "2701-c3",
+        "cip_code": "2701",
+        "cip_desc": "Mathematics.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": 16055,
+        "debt_history": [
+          {
+            "year": 2015,
+            "value": 22500.0
+          },
+          {
+            "year": 2016,
+            "value": 23250.0
+          },
+          {
+            "year": 2017,
+            "value": 17250.0
+          },
+          {
+            "year": 2018,
+            "value": 16055.0
+          }
+        ],
+        "completers": 22,
+        "completers_single_year": 27,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 15.0
+          },
+          {
+            "year": 2015,
+            "value": 29.0
+          },
+          {
+            "year": 2016,
+            "value": 26.0
+          },
+          {
+            "year": 2017,
+            "value": 28.0
+          },
+          {
+            "year": 2018,
+            "value": 27.0
+          },
+          {
+            "year": 2019,
+            "value": 22.0
+          }
+        ],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2015,
+            "to_year": 2018,
+            "from_value": 22500.0,
+            "to_value": 16055.0,
+            "pct_change": -0.28644444444444445,
+            "direction": "fell"
+          }
+        ]
+      },
+      {
+        "slug": "2706-c3",
+        "cip_code": "2706",
+        "cip_desc": "Applied Statistics.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 5,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 5.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "2703-c3",
+        "cip_code": "2703",
+        "cip_desc": "Applied Mathematics.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": 7,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 6.0
+          },
+          {
+            "year": 2015,
+            "value": 9.0
+          },
+          {
+            "year": 2016,
+            "value": 8.0
+          },
+          {
+            "year": 2017,
+            "value": 8.0
+          },
+          {
+            "year": 2018,
+            "value": 7.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "2703-c8",
+        "cip_code": "2703",
+        "cip_desc": "Applied Mathematics.",
+        "credential_level": 8,
+        "credential_desc": "Graduate/Professional Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": null,
+        "completers_history": [
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "2705-c3",
+        "cip_code": "2705",
+        "cip_desc": "Statistics.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": 8,
+        "completers_history": [
+          {
+            "year": 2015,
+            "value": 0.0
+          },
+          {
+            "year": 2016,
+            "value": 0.0
+          },
+          {
+            "year": 2017,
+            "value": 1.0
+          },
+          {
+            "year": 2018,
+            "value": 8.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "2705-c5",
+        "cip_code": "2705",
+        "cip_desc": "Statistics.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": 30548,
+        "debt_history": [
+          {
+            "year": 2018,
+            "value": 30548.0
+          }
+        ],
+        "completers": null,
+        "completers_single_year": 55,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 0.0
+          },
+          {
+            "year": 2015,
+            "value": 5.0
+          },
+          {
+            "year": 2016,
+            "value": 24.0
+          },
+          {
+            "year": 2017,
+            "value": 48.0
+          },
+          {
+            "year": 2018,
+            "value": 55.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "2706-c8",
+        "cip_code": "2706",
+        "cip_desc": "Applied Statistics.",
+        "credential_level": 8,
+        "credential_desc": "Graduate/Professional Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": null,
+        "completers_history": [
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "30": [
+      {
+        "slug": "3099-c3",
+        "cip_code": "3099",
+        "cip_desc": "Multi/Interdisciplinary Studies, Other.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": 59058,
+        "earnings_median_4yr": 53235,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 59058.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 53235.0
+          }
+        ],
+        "debt_median": 18750,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 19250.0
+          },
+          {
+            "year": 2015,
+            "value": 18750.0
+          },
+          {
+            "year": 2016,
+            "value": 18788.0
+          },
+          {
+            "year": 2017,
+            "value": 19600.0
+          },
+          {
+            "year": 2018,
+            "value": 18750.0
+          }
+        ],
+        "completers": 727,
+        "completers_single_year": 741,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 646.0
+          },
+          {
+            "year": 2015,
+            "value": 729.0
+          },
+          {
+            "year": 2016,
+            "value": 778.0
+          },
+          {
+            "year": 2017,
+            "value": 855.0
+          },
+          {
+            "year": 2018,
+            "value": 741.0
+          },
+          {
+            "year": 2019,
+            "value": 727.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "3071-c5",
+        "cip_code": "3071",
+        "cip_desc": "Data Analytics.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 65,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 65.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "3001-c3",
+        "cip_code": "3001",
+        "cip_desc": "Biological and Physical Sciences.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": 60836,
+        "earnings_median_4yr": 50413,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 60836.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 50413.0
+          }
+        ],
+        "debt_median": 21765,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 26899.0
+          },
+          {
+            "year": 2015,
+            "value": 21500.0
+          },
+          {
+            "year": 2016,
+            "value": 21375.0
+          },
+          {
+            "year": 2017,
+            "value": 21625.0
+          },
+          {
+            "year": 2018,
+            "value": 21765.0
+          }
+        ],
+        "completers": 33,
+        "completers_single_year": 35,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 18.0
+          },
+          {
+            "year": 2015,
+            "value": 43.0
+          },
+          {
+            "year": 2016,
+            "value": 71.0
+          },
+          {
+            "year": 2017,
+            "value": 56.0
+          },
+          {
+            "year": 2018,
+            "value": 35.0
+          },
+          {
+            "year": 2019,
+            "value": 33.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "3070-c3",
+        "cip_code": "3070",
+        "cip_desc": "Data Science.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 24,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 24.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "3071-c8",
+        "cip_code": "3071",
+        "cip_desc": "Data Analytics.",
+        "credential_level": 8,
+        "credential_desc": "Graduate/Professional Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 5,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 5.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "38": [
+      {
+        "slug": "3801-c3",
+        "cip_code": "3801",
+        "cip_desc": "Philosophy.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 7,
+        "completers_single_year": 11,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 11.0
+          },
+          {
+            "year": 2015,
+            "value": 8.0
+          },
+          {
+            "year": 2016,
+            "value": 6.0
+          },
+          {
+            "year": 2017,
+            "value": 14.0
+          },
+          {
+            "year": 2018,
+            "value": 11.0
+          },
+          {
+            "year": 2019,
+            "value": 7.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "40": [
+      {
+        "slug": "4005-c3",
+        "cip_code": "4005",
+        "cip_desc": "Chemistry.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": 54946,
+        "earnings_median_4yr": 49098,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 54946.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 49098.0
+          }
+        ],
+        "debt_median": null,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 20000.0
+          },
+          {
+            "year": 2015,
+            "value": 20000.0
+          }
+        ],
+        "completers": 22,
+        "completers_single_year": 21,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 24.0
+          },
+          {
+            "year": 2015,
+            "value": 16.0
+          },
+          {
+            "year": 2016,
+            "value": 21.0
+          },
+          {
+            "year": 2017,
+            "value": 15.0
+          },
+          {
+            "year": 2018,
+            "value": 21.0
+          },
+          {
+            "year": 2019,
+            "value": 22.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "4006-c3",
+        "cip_code": "4006",
+        "cip_desc": "Geological and Earth Sciences/Geosciences.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": 18529,
+        "debt_history": [
+          {
+            "year": 2015,
+            "value": 13298.0
+          },
+          {
+            "year": 2016,
+            "value": 20000.0
+          },
+          {
+            "year": 2017,
+            "value": 19875.0
+          },
+          {
+            "year": 2018,
+            "value": 18529.0
+          }
+        ],
+        "completers": 18,
+        "completers_single_year": 19,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 17.0
+          },
+          {
+            "year": 2015,
+            "value": 22.0
+          },
+          {
+            "year": 2016,
+            "value": 32.0
+          },
+          {
+            "year": 2017,
+            "value": 39.0
+          },
+          {
+            "year": 2018,
+            "value": 19.0
+          },
+          {
+            "year": 2019,
+            "value": 18.0
+          }
+        ],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2015,
+            "to_year": 2018,
+            "from_value": 13298.0,
+            "to_value": 18529.0,
+            "pct_change": 0.39336742367273275,
+            "direction": "rose"
+          }
+        ]
+      }
+    ],
+    "42": [
+      {
+        "slug": "4201-c3",
+        "cip_code": "4201",
+        "cip_desc": "Psychology, General.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": 51370,
+        "earnings_median_4yr": 48601,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 51370.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 48601.0
+          }
+        ],
+        "debt_median": 18750,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 20330.0
+          },
+          {
+            "year": 2015,
+            "value": 21350.0
+          },
+          {
+            "year": 2016,
+            "value": 23199.0
+          },
+          {
+            "year": 2017,
+            "value": 20629.0
+          },
+          {
+            "year": 2018,
+            "value": 18750.0
+          }
+        ],
+        "completers": 210,
+        "completers_single_year": 177,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 228.0
+          },
+          {
+            "year": 2015,
+            "value": 228.0
+          },
+          {
+            "year": 2016,
+            "value": 206.0
+          },
+          {
+            "year": 2017,
+            "value": 211.0
+          },
+          {
+            "year": 2018,
+            "value": 177.0
+          },
+          {
+            "year": 2019,
+            "value": 210.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "43": [
+      {
+        "slug": "4301-c3",
+        "cip_code": "4301",
+        "cip_desc": "Criminal Justice and Corrections.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": 55229,
+        "earnings_median_4yr": 50850,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 55229.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 50850.0
+          }
+        ],
+        "debt_median": 19815,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 20000.0
+          },
+          {
+            "year": 2015,
+            "value": 20500.0
+          },
+          {
+            "year": 2016,
+            "value": 22500.0
+          },
+          {
+            "year": 2017,
+            "value": 21065.0
+          },
+          {
+            "year": 2018,
+            "value": 19815.0
+          }
+        ],
+        "completers": 208,
+        "completers_single_year": 223,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 222.0
+          },
+          {
+            "year": 2015,
+            "value": 230.0
+          },
+          {
+            "year": 2016,
+            "value": 232.0
+          },
+          {
+            "year": 2017,
+            "value": 261.0
+          },
+          {
+            "year": 2018,
+            "value": 223.0
+          },
+          {
+            "year": 2019,
+            "value": 208.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "4301-c5",
+        "cip_code": "4301",
+        "cip_desc": "Criminal Justice and Corrections.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": 92757,
+        "earnings_median_4yr": 87862,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 92757.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 87862.0
+          }
+        ],
+        "debt_median": 40760,
+        "debt_history": [
+          {
+            "year": 2015,
+            "value": 39500.0
+          },
+          {
+            "year": 2016,
+            "value": 39501.0
+          },
+          {
+            "year": 2017,
+            "value": 37172.0
+          },
+          {
+            "year": 2018,
+            "value": 40760.0
+          }
+        ],
+        "completers": 40,
+        "completers_single_year": 39,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 37.0
+          },
+          {
+            "year": 2015,
+            "value": 33.0
+          },
+          {
+            "year": 2016,
+            "value": 35.0
+          },
+          {
+            "year": 2017,
+            "value": 23.0
+          },
+          {
+            "year": 2018,
+            "value": 39.0
+          },
+          {
+            "year": 2019,
+            "value": 40.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "4301-c8",
+        "cip_code": "4301",
+        "cip_desc": "Criminal Justice and Corrections.",
+        "credential_level": 8,
+        "credential_desc": "Graduate/Professional Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 21,
+        "completers_single_year": 16,
+        "completers_history": [
+          {
+            "year": 2015,
+            "value": 0.0
+          },
+          {
+            "year": 2016,
+            "value": 9.0
+          },
+          {
+            "year": 2017,
+            "value": 10.0
+          },
+          {
+            "year": 2018,
+            "value": 16.0
+          },
+          {
+            "year": 2019,
+            "value": 21.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "44": [
+      {
+        "slug": "4407-c3",
+        "cip_code": "4407",
+        "cip_desc": "Social Work.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": 58711,
+        "earnings_median_4yr": 47085,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 58711.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 47085.0
+          }
+        ],
+        "debt_median": 21948,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 19389.0
+          },
+          {
+            "year": 2015,
+            "value": 22000.0
+          },
+          {
+            "year": 2016,
+            "value": 21629.0
+          },
+          {
+            "year": 2017,
+            "value": 22069.0
+          },
+          {
+            "year": 2018,
+            "value": 21948.0
+          }
+        ],
+        "completers": 65,
+        "completers_single_year": 56,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 39.0
+          },
+          {
+            "year": 2015,
+            "value": 59.0
+          },
+          {
+            "year": 2016,
+            "value": 52.0
+          },
+          {
+            "year": 2017,
+            "value": 77.0
+          },
+          {
+            "year": 2018,
+            "value": 56.0
+          },
+          {
+            "year": 2019,
+            "value": 65.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "45": [
+      {
+        "slug": "4510-c3",
+        "cip_code": "4510",
+        "cip_desc": "Political Science and Government.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": 51203,
+        "earnings_median_4yr": 40781,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 51203.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 40781.0
+          }
+        ],
+        "debt_median": 20646,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 29010.0
+          },
+          {
+            "year": 2015,
+            "value": 24990.0
+          },
+          {
+            "year": 2016,
+            "value": 24423.0
+          },
+          {
+            "year": 2017,
+            "value": 22950.0
+          },
+          {
+            "year": 2018,
+            "value": 20646.0
+          }
+        ],
+        "completers": 37,
+        "completers_single_year": 33,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 26.0
+          },
+          {
+            "year": 2015,
+            "value": 32.0
+          },
+          {
+            "year": 2016,
+            "value": 32.0
+          },
+          {
+            "year": 2017,
+            "value": 37.0
+          },
+          {
+            "year": 2018,
+            "value": 33.0
+          },
+          {
+            "year": 2019,
+            "value": 37.0
+          }
+        ],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2014,
+            "to_year": 2018,
+            "from_value": 29010.0,
+            "to_value": 20646.0,
+            "pct_change": -0.28831437435367113,
+            "direction": "fell"
+          }
+        ]
+      },
+      {
+        "slug": "4511-c3",
+        "cip_code": "4511",
+        "cip_desc": "Sociology.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": 48478,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 48478.0
+          }
+        ],
+        "debt_median": 21656,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 29384.0
+          },
+          {
+            "year": 2015,
+            "value": 23500.0
+          },
+          {
+            "year": 2016,
+            "value": 23090.0
+          },
+          {
+            "year": 2017,
+            "value": 22500.0
+          },
+          {
+            "year": 2018,
+            "value": 21656.0
+          }
+        ],
+        "completers": 15,
+        "completers_single_year": 13,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 28.0
+          },
+          {
+            "year": 2015,
+            "value": 28.0
+          },
+          {
+            "year": 2016,
+            "value": 19.0
+          },
+          {
+            "year": 2017,
+            "value": 22.0
+          },
+          {
+            "year": 2018,
+            "value": 13.0
+          },
+          {
+            "year": 2019,
+            "value": 15.0
+          }
+        ],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2014,
+            "to_year": 2018,
+            "from_value": 29384.0,
+            "to_value": 21656.0,
+            "pct_change": -0.2630002722570106,
+            "direction": "fell"
+          }
+        ]
+      },
+      {
+        "slug": "4501-c3",
+        "cip_code": "4501",
+        "cip_desc": "Social Sciences, General.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": 48194,
+        "earnings_median_4yr": 39707,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 48194.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 39707.0
+          }
+        ],
+        "debt_median": 21452,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 29250.0
+          },
+          {
+            "year": 2015,
+            "value": 30188.0
+          },
+          {
+            "year": 2016,
+            "value": 27625.0
+          },
+          {
+            "year": 2017,
+            "value": 29375.0
+          },
+          {
+            "year": 2018,
+            "value": 21452.0
+          }
+        ],
+        "completers": 14,
+        "completers_single_year": 22,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 27.0
+          },
+          {
+            "year": 2015,
+            "value": 22.0
+          },
+          {
+            "year": 2016,
+            "value": 17.0
+          },
+          {
+            "year": 2017,
+            "value": 25.0
+          },
+          {
+            "year": 2018,
+            "value": 22.0
+          },
+          {
+            "year": 2019,
+            "value": 14.0
+          }
+        ],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2014,
+            "to_year": 2018,
+            "from_value": 29250.0,
+            "to_value": 21452.0,
+            "pct_change": -0.2665982905982906,
+            "direction": "fell"
+          }
+        ]
+      }
+    ],
+    "50": [
+      {
+        "slug": "5001-c3",
+        "cip_code": "5001",
+        "cip_desc": "Visual and Performing Arts, General.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": 28279,
+        "earnings_median_4yr": 21782,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 28279.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 21782.0
+          }
+        ],
+        "debt_median": null,
+        "debt_history": [
+          {
+            "year": 2015,
+            "value": 18750.0
+          },
+          {
+            "year": 2016,
+            "value": 21827.0
+          },
+          {
+            "year": 2017,
+            "value": 19875.0
+          }
+        ],
+        "completers": 16,
+        "completers_single_year": 15,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 14.0
+          },
+          {
+            "year": 2015,
+            "value": 21.0
+          },
+          {
+            "year": 2016,
+            "value": 21.0
+          },
+          {
+            "year": 2017,
+            "value": 25.0
+          },
+          {
+            "year": 2018,
+            "value": 15.0
+          },
+          {
+            "year": 2019,
+            "value": 16.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "51": [
+      {
+        "slug": "5122-c3",
+        "cip_code": "5122",
+        "cip_desc": "Public Health.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": 18950,
+        "debt_history": [
+          {
+            "year": 2016,
+            "value": 21304.0
+          },
+          {
+            "year": 2017,
+            "value": 21500.0
+          },
+          {
+            "year": 2018,
+            "value": 18950.0
+          }
+        ],
+        "completers": 84,
+        "completers_single_year": 72,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 0.0
+          },
+          {
+            "year": 2015,
+            "value": 17.0
+          },
+          {
+            "year": 2016,
+            "value": 35.0
+          },
+          {
+            "year": 2017,
+            "value": 64.0
+          },
+          {
+            "year": 2018,
+            "value": 72.0
+          },
+          {
+            "year": 2019,
+            "value": 84.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5138-c3",
+        "cip_code": "5138",
+        "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 11,
+        "completers_single_year": 9,
+        "completers_history": [
+          {
+            "year": 2016,
+            "value": 0.0
+          },
+          {
+            "year": 2017,
+            "value": 0.0
+          },
+          {
+            "year": 2018,
+            "value": 9.0
+          },
+          {
+            "year": 2019,
+            "value": 11.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "52": [
+      {
+        "slug": "5202-c5",
+        "cip_code": "5202",
+        "cip_desc": "Business Administration, Management and Operations.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": 84229,
+        "earnings_median_4yr": 75467,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 84229.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 75467.0
+          }
+        ],
+        "debt_median": 41000,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 20500.0
+          },
+          {
+            "year": 2015,
+            "value": 34475.0
+          },
+          {
+            "year": 2016,
+            "value": 40368.0
+          },
+          {
+            "year": 2017,
+            "value": 41000.0
+          },
+          {
+            "year": 2018,
+            "value": 41000.0
+          }
+        ],
+        "completers": 421,
+        "completers_single_year": 417,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 31.0
+          },
+          {
+            "year": 2015,
+            "value": 283.0
+          },
+          {
+            "year": 2016,
+            "value": 434.0
+          },
+          {
+            "year": 2017,
+            "value": 472.0
+          },
+          {
+            "year": 2018,
+            "value": 417.0
+          },
+          {
+            "year": 2019,
+            "value": 421.0
+          }
+        ],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2014,
+            "to_year": 2018,
+            "from_value": 20500.0,
+            "to_value": 41000.0,
+            "pct_change": 1.0,
+            "direction": "rose"
+          },
+          {
+            "metric": "completers",
+            "from_year": 2014,
+            "to_year": 2019,
+            "from_value": 31.0,
+            "to_value": 421.0,
+            "pct_change": 0.39,
+            "direction": "rose"
+          }
+        ]
+      },
+      {
+        "slug": "5202-c8",
+        "cip_code": "5202",
+        "cip_desc": "Business Administration, Management and Operations.",
+        "credential_level": 8,
+        "credential_desc": "Graduate/Professional Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 287,
+        "completers_single_year": 381,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 216.0
+          },
+          {
+            "year": 2015,
+            "value": 354.0
+          },
+          {
+            "year": 2016,
+            "value": 358.0
+          },
+          {
+            "year": 2017,
+            "value": 326.0
+          },
+          {
+            "year": 2018,
+            "value": 381.0
+          },
+          {
+            "year": 2019,
+            "value": 287.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5203-c3",
+        "cip_code": "5203",
+        "cip_desc": "Accounting and Related Services.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": 67119,
+        "earnings_median_4yr": 60344,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 67119.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 60344.0
+          }
+        ],
+        "debt_median": 19750,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 19120.0
+          },
+          {
+            "year": 2015,
+            "value": 19500.0
+          },
+          {
+            "year": 2016,
+            "value": 19000.0
+          },
+          {
+            "year": 2017,
+            "value": 18955.0
+          },
+          {
+            "year": 2018,
+            "value": 19750.0
+          }
+        ],
+        "completers": 232,
+        "completers_single_year": 252,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 264.0
+          },
+          {
+            "year": 2015,
+            "value": 237.0
+          },
+          {
+            "year": 2016,
+            "value": 250.0
+          },
+          {
+            "year": 2017,
+            "value": 246.0
+          },
+          {
+            "year": 2018,
+            "value": 252.0
+          },
+          {
+            "year": 2019,
+            "value": 232.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5202-c3",
+        "cip_code": "5202",
+        "cip_desc": "Business Administration, Management and Operations.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": 71241,
+        "earnings_median_4yr": 60148,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 71241.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 60148.0
+          }
+        ],
+        "debt_median": 21875,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 21028.0
+          },
+          {
+            "year": 2015,
+            "value": 20750.0
+          },
+          {
+            "year": 2016,
+            "value": 20601.0
+          },
+          {
+            "year": 2017,
+            "value": 21938.0
+          },
+          {
+            "year": 2018,
+            "value": 21875.0
+          }
+        ],
+        "completers": 231,
+        "completers_single_year": 174,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 188.0
+          },
+          {
+            "year": 2015,
+            "value": 230.0
+          },
+          {
+            "year": 2016,
+            "value": 200.0
+          },
+          {
+            "year": 2017,
+            "value": 205.0
+          },
+          {
+            "year": 2018,
+            "value": 174.0
+          },
+          {
+            "year": 2019,
+            "value": 231.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5208-c3",
+        "cip_code": "5208",
+        "cip_desc": "Finance and Financial Management Services.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": 77451,
+        "earnings_median_4yr": 61702,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 77451.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 61702.0
+          }
+        ],
+        "debt_median": 19545,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 18369.0
+          },
+          {
+            "year": 2015,
+            "value": 18750.0
+          },
+          {
+            "year": 2016,
+            "value": 22000.0
+          },
+          {
+            "year": 2017,
+            "value": 22532.0
+          },
+          {
+            "year": 2018,
+            "value": 19545.0
+          }
+        ],
+        "completers": 146,
+        "completers_single_year": 140,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 151.0
+          },
+          {
+            "year": 2015,
+            "value": 154.0
+          },
+          {
+            "year": 2016,
+            "value": 131.0
+          },
+          {
+            "year": 2017,
+            "value": 141.0
+          },
+          {
+            "year": 2018,
+            "value": 140.0
+          },
+          {
+            "year": 2019,
+            "value": 146.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5201-c3",
+        "cip_code": "5201",
+        "cip_desc": "Business/Commerce, General.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": 63971,
+        "earnings_median_4yr": 56481,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 63971.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 56481.0
+          }
+        ],
+        "debt_median": 20099,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 20437.0
+          },
+          {
+            "year": 2015,
+            "value": 19500.0
+          },
+          {
+            "year": 2016,
+            "value": 21209.0
+          },
+          {
+            "year": 2017,
+            "value": 23389.0
+          },
+          {
+            "year": 2018,
+            "value": 20099.0
+          }
+        ],
+        "completers": 111,
+        "completers_single_year": 81,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 96.0
+          },
+          {
+            "year": 2015,
+            "value": 93.0
+          },
+          {
+            "year": 2016,
+            "value": 86.0
+          },
+          {
+            "year": 2017,
+            "value": 118.0
+          },
+          {
+            "year": 2018,
+            "value": 81.0
+          },
+          {
+            "year": 2019,
+            "value": 111.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5212-c3",
+        "cip_code": "5212",
+        "cip_desc": "Management Information Systems and Services.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": 79853,
+        "earnings_median_4yr": 63723,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 79853.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 63723.0
+          }
+        ],
+        "debt_median": 18750,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 18751.0
+          },
+          {
+            "year": 2015,
+            "value": 18750.0
+          },
+          {
+            "year": 2016,
+            "value": 21125.0
+          },
+          {
+            "year": 2017,
+            "value": 23746.0
+          },
+          {
+            "year": 2018,
+            "value": 18750.0
+          }
+        ],
+        "completers": 106,
+        "completers_single_year": 70,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 58.0
+          },
+          {
+            "year": 2015,
+            "value": 81.0
+          },
+          {
+            "year": 2016,
+            "value": 56.0
+          },
+          {
+            "year": 2017,
+            "value": 59.0
+          },
+          {
+            "year": 2018,
+            "value": 70.0
+          },
+          {
+            "year": 2019,
+            "value": 106.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5214-c3",
+        "cip_code": "5214",
+        "cip_desc": "Marketing.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": 61531,
+        "earnings_median_4yr": 58469,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 61531.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 58469.0
+          }
+        ],
+        "debt_median": 17000,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 14000.0
+          },
+          {
+            "year": 2015,
+            "value": 16638.0
+          },
+          {
+            "year": 2016,
+            "value": 16000.0
+          },
+          {
+            "year": 2017,
+            "value": 15000.0
+          },
+          {
+            "year": 2018,
+            "value": 17000.0
+          }
+        ],
+        "completers": 67,
+        "completers_single_year": 42,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 47.0
+          },
+          {
+            "year": 2015,
+            "value": 38.0
+          },
+          {
+            "year": 2016,
+            "value": 40.0
+          },
+          {
+            "year": 2017,
+            "value": 59.0
+          },
+          {
+            "year": 2018,
+            "value": 42.0
+          },
+          {
+            "year": 2019,
+            "value": 67.0
+          }
+        ],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2014,
+            "to_year": 2018,
+            "from_value": 14000.0,
+            "to_value": 17000.0,
+            "pct_change": 0.21428571428571427,
+            "direction": "rose"
+          }
+        ]
+      },
+      {
+        "slug": "5211-c3",
+        "cip_code": "5211",
+        "cip_desc": "International Business.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": 63587,
+        "earnings_median_4yr": 50379,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 63587.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 50379.0
+          }
+        ],
+        "debt_median": 14000,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 26250.0
+          },
+          {
+            "year": 2015,
+            "value": 26142.0
+          },
+          {
+            "year": 2016,
+            "value": 17450.0
+          },
+          {
+            "year": 2017,
+            "value": 16500.0
+          },
+          {
+            "year": 2018,
+            "value": 14000.0
+          }
+        ],
+        "completers": 33,
+        "completers_single_year": 42,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 62.0
+          },
+          {
+            "year": 2015,
+            "value": 56.0
+          },
+          {
+            "year": 2016,
+            "value": 52.0
+          },
+          {
+            "year": 2017,
+            "value": 37.0
+          },
+          {
+            "year": 2018,
+            "value": 42.0
+          },
+          {
+            "year": 2019,
+            "value": 33.0
+          }
+        ],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2014,
+            "to_year": 2018,
+            "from_value": 26250.0,
+            "to_value": 14000.0,
+            "pct_change": -0.4666666666666667,
+            "direction": "fell"
+          }
+        ]
+      },
+      {
+        "slug": "5217-c3",
+        "cip_code": "5217",
+        "cip_desc": "Insurance.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 15,
+        "completers_single_year": 5,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 8.0
+          },
+          {
+            "year": 2015,
+            "value": 10.0
+          },
+          {
+            "year": 2016,
+            "value": 12.0
+          },
+          {
+            "year": 2017,
+            "value": 16.0
+          },
+          {
+            "year": 2018,
+            "value": 5.0
+          },
+          {
+            "year": 2019,
+            "value": 15.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5203-c5",
+        "cip_code": "5203",
+        "cip_desc": "Accounting and Related Services.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 0,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 0.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "54": [
+      {
+        "slug": "5401-c3",
+        "cip_code": "5401",
+        "cip_desc": "History.",
+        "credential_level": 3,
+        "credential_desc": "Bachelor's Degree",
+        "earnings_median_5yr": 53715,
+        "earnings_median_4yr": 49634,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 53715.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 49634.0
+          }
+        ],
+        "debt_median": 20000,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 24656.0
+          },
+          {
+            "year": 2015,
+            "value": 21968.0
+          },
+          {
+            "year": 2016,
+            "value": 20139.0
+          },
+          {
+            "year": 2017,
+            "value": 21581.0
+          },
+          {
+            "year": 2018,
+            "value": 20000.0
+          }
+        ],
+        "completers": 36,
+        "completers_single_year": 34,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 24.0
+          },
+          {
+            "year": 2015,
+            "value": 30.0
+          },
+          {
+            "year": 2016,
+            "value": 26.0
+          },
+          {
+            "year": 2017,
+            "value": 35.0
+          },
+          {
+            "year": 2018,
+            "value": 34.0
+          },
+          {
+            "year": 2019,
+            "value": 36.0
+          }
+        ],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "3099-c3",
+      "cip_code": "3099",
+      "cip_desc": "Multi/Interdisciplinary Studies, Other.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": 59058,
+      "earnings_median_4yr": 53235,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 59058.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 53235.0
+        }
+      ],
+      "debt_median": 18750,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 19250.0
+        },
+        {
+          "year": 2015,
+          "value": 18750.0
+        },
+        {
+          "year": 2016,
+          "value": 18788.0
+        },
+        {
+          "year": 2017,
+          "value": 19600.0
+        },
+        {
+          "year": 2018,
+          "value": 18750.0
+        }
+      ],
+      "completers": 727,
+      "completers_single_year": 741,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 646.0
+        },
+        {
+          "year": 2015,
+          "value": 729.0
+        },
+        {
+          "year": 2016,
+          "value": 778.0
+        },
+        {
+          "year": 2017,
+          "value": 855.0
+        },
+        {
+          "year": 2018,
+          "value": 741.0
+        },
+        {
+          "year": 2019,
+          "value": 727.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5202-c5",
+      "cip_code": "5202",
+      "cip_desc": "Business Administration, Management and Operations.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": 84229,
+      "earnings_median_4yr": 75467,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 84229.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 75467.0
+        }
+      ],
+      "debt_median": 41000,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 20500.0
+        },
+        {
+          "year": 2015,
+          "value": 34475.0
+        },
+        {
+          "year": 2016,
+          "value": 40368.0
+        },
+        {
+          "year": 2017,
+          "value": 41000.0
+        },
+        {
+          "year": 2018,
+          "value": 41000.0
+        }
+      ],
+      "completers": 421,
+      "completers_single_year": 417,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 31.0
+        },
+        {
+          "year": 2015,
+          "value": 283.0
+        },
+        {
+          "year": 2016,
+          "value": 434.0
+        },
+        {
+          "year": 2017,
+          "value": 472.0
+        },
+        {
+          "year": 2018,
+          "value": 417.0
+        },
+        {
+          "year": 2019,
+          "value": 421.0
+        }
+      ],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2014,
+          "to_year": 2018,
+          "from_value": 20500.0,
+          "to_value": 41000.0,
+          "pct_change": 1.0,
+          "direction": "rose"
+        },
+        {
+          "metric": "completers",
+          "from_year": 2014,
+          "to_year": 2019,
+          "from_value": 31.0,
+          "to_value": 421.0,
+          "pct_change": 0.39,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "slug": "5202-c8",
+      "cip_code": "5202",
+      "cip_desc": "Business Administration, Management and Operations.",
+      "credential_level": 8,
+      "credential_desc": "Graduate/Professional Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 287,
+      "completers_single_year": 381,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 216.0
+        },
+        {
+          "year": 2015,
+          "value": 354.0
+        },
+        {
+          "year": 2016,
+          "value": 358.0
+        },
+        {
+          "year": 2017,
+          "value": 326.0
+        },
+        {
+          "year": 2018,
+          "value": 381.0
+        },
+        {
+          "year": 2019,
+          "value": 287.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5203-c3",
+      "cip_code": "5203",
+      "cip_desc": "Accounting and Related Services.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": 67119,
+      "earnings_median_4yr": 60344,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 67119.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 60344.0
+        }
+      ],
+      "debt_median": 19750,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 19120.0
+        },
+        {
+          "year": 2015,
+          "value": 19500.0
+        },
+        {
+          "year": 2016,
+          "value": 19000.0
+        },
+        {
+          "year": 2017,
+          "value": 18955.0
+        },
+        {
+          "year": 2018,
+          "value": 19750.0
+        }
+      ],
+      "completers": 232,
+      "completers_single_year": 252,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 264.0
+        },
+        {
+          "year": 2015,
+          "value": 237.0
+        },
+        {
+          "year": 2016,
+          "value": 250.0
+        },
+        {
+          "year": 2017,
+          "value": 246.0
+        },
+        {
+          "year": 2018,
+          "value": 252.0
+        },
+        {
+          "year": 2019,
+          "value": 232.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5202-c3",
+      "cip_code": "5202",
+      "cip_desc": "Business Administration, Management and Operations.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": 71241,
+      "earnings_median_4yr": 60148,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 71241.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 60148.0
+        }
+      ],
+      "debt_median": 21875,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 21028.0
+        },
+        {
+          "year": 2015,
+          "value": 20750.0
+        },
+        {
+          "year": 2016,
+          "value": 20601.0
+        },
+        {
+          "year": 2017,
+          "value": 21938.0
+        },
+        {
+          "year": 2018,
+          "value": 21875.0
+        }
+      ],
+      "completers": 231,
+      "completers_single_year": 174,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 188.0
+        },
+        {
+          "year": 2015,
+          "value": 230.0
+        },
+        {
+          "year": 2016,
+          "value": 200.0
+        },
+        {
+          "year": 2017,
+          "value": 205.0
+        },
+        {
+          "year": 2018,
+          "value": 174.0
+        },
+        {
+          "year": 2019,
+          "value": 231.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4201-c3",
+      "cip_code": "4201",
+      "cip_desc": "Psychology, General.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": 51370,
+      "earnings_median_4yr": 48601,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 51370.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 48601.0
+        }
+      ],
+      "debt_median": 18750,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 20330.0
+        },
+        {
+          "year": 2015,
+          "value": 21350.0
+        },
+        {
+          "year": 2016,
+          "value": 23199.0
+        },
+        {
+          "year": 2017,
+          "value": 20629.0
+        },
+        {
+          "year": 2018,
+          "value": 18750.0
+        }
+      ],
+      "completers": 210,
+      "completers_single_year": 177,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 228.0
+        },
+        {
+          "year": 2015,
+          "value": 228.0
+        },
+        {
+          "year": 2016,
+          "value": 206.0
+        },
+        {
+          "year": 2017,
+          "value": 211.0
+        },
+        {
+          "year": 2018,
+          "value": 177.0
+        },
+        {
+          "year": 2019,
+          "value": 210.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4301-c3",
+      "cip_code": "4301",
+      "cip_desc": "Criminal Justice and Corrections.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": 55229,
+      "earnings_median_4yr": 50850,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 55229.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 50850.0
+        }
+      ],
+      "debt_median": 19815,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 20000.0
+        },
+        {
+          "year": 2015,
+          "value": 20500.0
+        },
+        {
+          "year": 2016,
+          "value": 22500.0
+        },
+        {
+          "year": 2017,
+          "value": 21065.0
+        },
+        {
+          "year": 2018,
+          "value": 19815.0
+        }
+      ],
+      "completers": 208,
+      "completers_single_year": 223,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 222.0
+        },
+        {
+          "year": 2015,
+          "value": 230.0
+        },
+        {
+          "year": 2016,
+          "value": 232.0
+        },
+        {
+          "year": 2017,
+          "value": 261.0
+        },
+        {
+          "year": 2018,
+          "value": 223.0
+        },
+        {
+          "year": 2019,
+          "value": 208.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5208-c3",
+      "cip_code": "5208",
+      "cip_desc": "Finance and Financial Management Services.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": 77451,
+      "earnings_median_4yr": 61702,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 77451.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 61702.0
+        }
+      ],
+      "debt_median": 19545,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 18369.0
+        },
+        {
+          "year": 2015,
+          "value": 18750.0
+        },
+        {
+          "year": 2016,
+          "value": 22000.0
+        },
+        {
+          "year": 2017,
+          "value": 22532.0
+        },
+        {
+          "year": 2018,
+          "value": 19545.0
+        }
+      ],
+      "completers": 146,
+      "completers_single_year": 140,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 151.0
+        },
+        {
+          "year": 2015,
+          "value": 154.0
+        },
+        {
+          "year": 2016,
+          "value": 131.0
+        },
+        {
+          "year": 2017,
+          "value": 141.0
+        },
+        {
+          "year": 2018,
+          "value": 140.0
+        },
+        {
+          "year": 2019,
+          "value": 146.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5201-c3",
+      "cip_code": "5201",
+      "cip_desc": "Business/Commerce, General.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": 63971,
+      "earnings_median_4yr": 56481,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 63971.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 56481.0
+        }
+      ],
+      "debt_median": 20099,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 20437.0
+        },
+        {
+          "year": 2015,
+          "value": 19500.0
+        },
+        {
+          "year": 2016,
+          "value": 21209.0
+        },
+        {
+          "year": 2017,
+          "value": 23389.0
+        },
+        {
+          "year": 2018,
+          "value": 20099.0
+        }
+      ],
+      "completers": 111,
+      "completers_single_year": 81,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 96.0
+        },
+        {
+          "year": 2015,
+          "value": 93.0
+        },
+        {
+          "year": 2016,
+          "value": 86.0
+        },
+        {
+          "year": 2017,
+          "value": 118.0
+        },
+        {
+          "year": 2018,
+          "value": 81.0
+        },
+        {
+          "year": 2019,
+          "value": 111.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5212-c3",
+      "cip_code": "5212",
+      "cip_desc": "Management Information Systems and Services.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": 79853,
+      "earnings_median_4yr": 63723,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 79853.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 63723.0
+        }
+      ],
+      "debt_median": 18750,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 18751.0
+        },
+        {
+          "year": 2015,
+          "value": 18750.0
+        },
+        {
+          "year": 2016,
+          "value": 21125.0
+        },
+        {
+          "year": 2017,
+          "value": 23746.0
+        },
+        {
+          "year": 2018,
+          "value": 18750.0
+        }
+      ],
+      "completers": 106,
+      "completers_single_year": 70,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 58.0
+        },
+        {
+          "year": 2015,
+          "value": 81.0
+        },
+        {
+          "year": 2016,
+          "value": 56.0
+        },
+        {
+          "year": 2017,
+          "value": 59.0
+        },
+        {
+          "year": 2018,
+          "value": 70.0
+        },
+        {
+          "year": 2019,
+          "value": 106.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1101-c3",
+      "cip_code": "1101",
+      "cip_desc": "Computer and Information Sciences, General.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": 90280,
+      "earnings_median_4yr": 78762,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 90280.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 78762.0
+        }
+      ],
+      "debt_median": 15830,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 17750.0
+        },
+        {
+          "year": 2015,
+          "value": 20960.0
+        },
+        {
+          "year": 2016,
+          "value": 17562.0
+        },
+        {
+          "year": 2017,
+          "value": 15830.0
+        },
+        {
+          "year": 2018,
+          "value": 15830.0
+        }
+      ],
+      "completers": 101,
+      "completers_single_year": 106,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 52.0
+        },
+        {
+          "year": 2015,
+          "value": 78.0
+        },
+        {
+          "year": 2016,
+          "value": 73.0
+        },
+        {
+          "year": 2017,
+          "value": 106.0
+        },
+        {
+          "year": 2018,
+          "value": 106.0
+        },
+        {
+          "year": 2019,
+          "value": 101.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "0901-c3",
+      "cip_code": "0901",
+      "cip_desc": "Communication and Media Studies.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": 51762,
+      "earnings_median_4yr": 48488,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 51762.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 48488.0
+        }
+      ],
+      "debt_median": 23455,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 23152.0
+        },
+        {
+          "year": 2015,
+          "value": 21587.0
+        },
+        {
+          "year": 2016,
+          "value": 23750.0
+        },
+        {
+          "year": 2017,
+          "value": 24997.0
+        },
+        {
+          "year": 2018,
+          "value": 23455.0
+        }
+      ],
+      "completers": 94,
+      "completers_single_year": 82,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 113.0
+        },
+        {
+          "year": 2015,
+          "value": 113.0
+        },
+        {
+          "year": 2016,
+          "value": 120.0
+        },
+        {
+          "year": 2017,
+          "value": 107.0
+        },
+        {
+          "year": 2018,
+          "value": 82.0
+        },
+        {
+          "year": 2019,
+          "value": 94.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5122-c3",
+      "cip_code": "5122",
+      "cip_desc": "Public Health.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": 18950,
+      "debt_history": [
+        {
+          "year": 2016,
+          "value": 21304.0
+        },
+        {
+          "year": 2017,
+          "value": 21500.0
+        },
+        {
+          "year": 2018,
+          "value": 18950.0
+        }
+      ],
+      "completers": 84,
+      "completers_single_year": 72,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 0.0
+        },
+        {
+          "year": 2015,
+          "value": 17.0
+        },
+        {
+          "year": 2016,
+          "value": 35.0
+        },
+        {
+          "year": 2017,
+          "value": 64.0
+        },
+        {
+          "year": 2018,
+          "value": 72.0
+        },
+        {
+          "year": 2019,
+          "value": 84.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5214-c3",
+      "cip_code": "5214",
+      "cip_desc": "Marketing.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": 61531,
+      "earnings_median_4yr": 58469,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 61531.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 58469.0
+        }
+      ],
+      "debt_median": 17000,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 14000.0
+        },
+        {
+          "year": 2015,
+          "value": 16638.0
+        },
+        {
+          "year": 2016,
+          "value": 16000.0
+        },
+        {
+          "year": 2017,
+          "value": 15000.0
+        },
+        {
+          "year": 2018,
+          "value": 17000.0
+        }
+      ],
+      "completers": 67,
+      "completers_single_year": 42,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 47.0
+        },
+        {
+          "year": 2015,
+          "value": 38.0
+        },
+        {
+          "year": 2016,
+          "value": 40.0
+        },
+        {
+          "year": 2017,
+          "value": 59.0
+        },
+        {
+          "year": 2018,
+          "value": 42.0
+        },
+        {
+          "year": 2019,
+          "value": 67.0
+        }
+      ],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2014,
+          "to_year": 2018,
+          "from_value": 14000.0,
+          "to_value": 17000.0,
+          "pct_change": 0.21428571428571427,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "slug": "3071-c5",
+      "cip_code": "3071",
+      "cip_desc": "Data Analytics.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 65,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 65.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4407-c3",
+      "cip_code": "4407",
+      "cip_desc": "Social Work.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": 58711,
+      "earnings_median_4yr": 47085,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 58711.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 47085.0
+        }
+      ],
+      "debt_median": 21948,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 19389.0
+        },
+        {
+          "year": 2015,
+          "value": 22000.0
+        },
+        {
+          "year": 2016,
+          "value": 21629.0
+        },
+        {
+          "year": 2017,
+          "value": 22069.0
+        },
+        {
+          "year": 2018,
+          "value": 21948.0
+        }
+      ],
+      "completers": 65,
+      "completers_single_year": 56,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 39.0
+        },
+        {
+          "year": 2015,
+          "value": 59.0
+        },
+        {
+          "year": 2016,
+          "value": 52.0
+        },
+        {
+          "year": 2017,
+          "value": 77.0
+        },
+        {
+          "year": 2018,
+          "value": 56.0
+        },
+        {
+          "year": 2019,
+          "value": 65.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "2601-c3",
+      "cip_code": "2601",
+      "cip_desc": "Biology, General.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": 41923,
+      "earnings_median_4yr": 40680,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 41923.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 40680.0
+        }
+      ],
+      "debt_median": 21527,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 16500.0
+        },
+        {
+          "year": 2015,
+          "value": 19000.0
+        },
+        {
+          "year": 2016,
+          "value": 20657.0
+        },
+        {
+          "year": 2017,
+          "value": 21460.0
+        },
+        {
+          "year": 2018,
+          "value": 21527.0
+        }
+      ],
+      "completers": 56,
+      "completers_single_year": 31,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 38.0
+        },
+        {
+          "year": 2015,
+          "value": 52.0
+        },
+        {
+          "year": 2016,
+          "value": 40.0
+        },
+        {
+          "year": 2017,
+          "value": 36.0
+        },
+        {
+          "year": 2018,
+          "value": 31.0
+        },
+        {
+          "year": 2019,
+          "value": 56.0
+        }
+      ],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2014,
+          "to_year": 2018,
+          "from_value": 16500.0,
+          "to_value": 21527.0,
+          "pct_change": 0.30466666666666664,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "slug": "4301-c5",
+      "cip_code": "4301",
+      "cip_desc": "Criminal Justice and Corrections.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": 92757,
+      "earnings_median_4yr": 87862,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 92757.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 87862.0
+        }
+      ],
+      "debt_median": 40760,
+      "debt_history": [
+        {
+          "year": 2015,
+          "value": 39500.0
+        },
+        {
+          "year": 2016,
+          "value": 39501.0
+        },
+        {
+          "year": 2017,
+          "value": 37172.0
+        },
+        {
+          "year": 2018,
+          "value": 40760.0
+        }
+      ],
+      "completers": 40,
+      "completers_single_year": 39,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 37.0
+        },
+        {
+          "year": 2015,
+          "value": 33.0
+        },
+        {
+          "year": 2016,
+          "value": 35.0
+        },
+        {
+          "year": 2017,
+          "value": 23.0
+        },
+        {
+          "year": 2018,
+          "value": 39.0
+        },
+        {
+          "year": 2019,
+          "value": 40.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4510-c3",
+      "cip_code": "4510",
+      "cip_desc": "Political Science and Government.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": 51203,
+      "earnings_median_4yr": 40781,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 51203.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 40781.0
+        }
+      ],
+      "debt_median": 20646,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 29010.0
+        },
+        {
+          "year": 2015,
+          "value": 24990.0
+        },
+        {
+          "year": 2016,
+          "value": 24423.0
+        },
+        {
+          "year": 2017,
+          "value": 22950.0
+        },
+        {
+          "year": 2018,
+          "value": 20646.0
+        }
+      ],
+      "completers": 37,
+      "completers_single_year": 33,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 26.0
+        },
+        {
+          "year": 2015,
+          "value": 32.0
+        },
+        {
+          "year": 2016,
+          "value": 32.0
+        },
+        {
+          "year": 2017,
+          "value": 37.0
+        },
+        {
+          "year": 2018,
+          "value": 33.0
+        },
+        {
+          "year": 2019,
+          "value": 37.0
+        }
+      ],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2014,
+          "to_year": 2018,
+          "from_value": 29010.0,
+          "to_value": 20646.0,
+          "pct_change": -0.28831437435367113,
+          "direction": "fell"
+        }
+      ]
+    },
+    {
+      "slug": "5401-c3",
+      "cip_code": "5401",
+      "cip_desc": "History.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": 53715,
+      "earnings_median_4yr": 49634,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 53715.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 49634.0
+        }
+      ],
+      "debt_median": 20000,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 24656.0
+        },
+        {
+          "year": 2015,
+          "value": 21968.0
+        },
+        {
+          "year": 2016,
+          "value": 20139.0
+        },
+        {
+          "year": 2017,
+          "value": 21581.0
+        },
+        {
+          "year": 2018,
+          "value": 20000.0
+        }
+      ],
+      "completers": 36,
+      "completers_single_year": 34,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 24.0
+        },
+        {
+          "year": 2015,
+          "value": 30.0
+        },
+        {
+          "year": 2016,
+          "value": 26.0
+        },
+        {
+          "year": 2017,
+          "value": 35.0
+        },
+        {
+          "year": 2018,
+          "value": 34.0
+        },
+        {
+          "year": 2019,
+          "value": 36.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "3001-c3",
+      "cip_code": "3001",
+      "cip_desc": "Biological and Physical Sciences.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": 60836,
+      "earnings_median_4yr": 50413,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 60836.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 50413.0
+        }
+      ],
+      "debt_median": 21765,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 26899.0
+        },
+        {
+          "year": 2015,
+          "value": 21500.0
+        },
+        {
+          "year": 2016,
+          "value": 21375.0
+        },
+        {
+          "year": 2017,
+          "value": 21625.0
+        },
+        {
+          "year": 2018,
+          "value": 21765.0
+        }
+      ],
+      "completers": 33,
+      "completers_single_year": 35,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 18.0
+        },
+        {
+          "year": 2015,
+          "value": 43.0
+        },
+        {
+          "year": 2016,
+          "value": 71.0
+        },
+        {
+          "year": 2017,
+          "value": 56.0
+        },
+        {
+          "year": 2018,
+          "value": 35.0
+        },
+        {
+          "year": 2019,
+          "value": 33.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5211-c3",
+      "cip_code": "5211",
+      "cip_desc": "International Business.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": 63587,
+      "earnings_median_4yr": 50379,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 63587.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 50379.0
+        }
+      ],
+      "debt_median": 14000,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 26250.0
+        },
+        {
+          "year": 2015,
+          "value": 26142.0
+        },
+        {
+          "year": 2016,
+          "value": 17450.0
+        },
+        {
+          "year": 2017,
+          "value": 16500.0
+        },
+        {
+          "year": 2018,
+          "value": 14000.0
+        }
+      ],
+      "completers": 33,
+      "completers_single_year": 42,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 62.0
+        },
+        {
+          "year": 2015,
+          "value": 56.0
+        },
+        {
+          "year": 2016,
+          "value": 52.0
+        },
+        {
+          "year": 2017,
+          "value": 37.0
+        },
+        {
+          "year": 2018,
+          "value": 42.0
+        },
+        {
+          "year": 2019,
+          "value": 33.0
+        }
+      ],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2014,
+          "to_year": 2018,
+          "from_value": 26250.0,
+          "to_value": 14000.0,
+          "pct_change": -0.4666666666666667,
+          "direction": "fell"
+        }
+      ]
+    },
+    {
+      "slug": "2301-c3",
+      "cip_code": "2301",
+      "cip_desc": "English Language and Literature, General.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": 43319,
+      "earnings_median_4yr": 32182,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 43319.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 32182.0
+        }
+      ],
+      "debt_median": 23000,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 17000.0
+        },
+        {
+          "year": 2015,
+          "value": 23000.0
+        },
+        {
+          "year": 2016,
+          "value": 15250.0
+        },
+        {
+          "year": 2017,
+          "value": 17125.0
+        },
+        {
+          "year": 2018,
+          "value": 23000.0
+        }
+      ],
+      "completers": 30,
+      "completers_single_year": 36,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 24.0
+        },
+        {
+          "year": 2015,
+          "value": 44.0
+        },
+        {
+          "year": 2016,
+          "value": 42.0
+        },
+        {
+          "year": 2017,
+          "value": 39.0
+        },
+        {
+          "year": 2018,
+          "value": 36.0
+        },
+        {
+          "year": 2019,
+          "value": 30.0
+        }
+      ],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2014,
+          "to_year": 2018,
+          "from_value": 17000.0,
+          "to_value": 23000.0,
+          "pct_change": 0.35294117647058826,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "slug": "1512-c3",
+      "cip_code": "1512",
+      "cip_desc": "Computer Engineering Technologies/Technicians.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": 81769,
+      "earnings_median_4yr": 73092,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 81769.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 73092.0
+        }
+      ],
+      "debt_median": null,
+      "debt_history": [
+        {
+          "year": 2016,
+          "value": 25000.0
+        },
+        {
+          "year": 2017,
+          "value": 22750.0
+        }
+      ],
+      "completers": 27,
+      "completers_single_year": 14,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 24.0
+        },
+        {
+          "year": 2015,
+          "value": 20.0
+        },
+        {
+          "year": 2016,
+          "value": 24.0
+        },
+        {
+          "year": 2017,
+          "value": 21.0
+        },
+        {
+          "year": 2018,
+          "value": 14.0
+        },
+        {
+          "year": 2019,
+          "value": 27.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "3070-c3",
+      "cip_code": "3070",
+      "cip_desc": "Data Science.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 24,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 24.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1502-c3",
+      "cip_code": "1502",
+      "cip_desc": "Civil Engineering Technologies/Technicians.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": 73975,
+      "earnings_median_4yr": 68499,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 73975.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 68499.0
+        }
+      ],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 23,
+      "completers_single_year": 11,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 25.0
+        },
+        {
+          "year": 2015,
+          "value": 18.0
+        },
+        {
+          "year": 2016,
+          "value": 13.0
+        },
+        {
+          "year": 2017,
+          "value": 8.0
+        },
+        {
+          "year": 2018,
+          "value": 11.0
+        },
+        {
+          "year": 2019,
+          "value": 23.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "2401-c3",
+      "cip_code": "2401",
+      "cip_desc": "Liberal Arts and Sciences, General Studies and Humanities.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 23,
+      "completers_single_year": 8,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 10.0
+        },
+        {
+          "year": 2015,
+          "value": 10.0
+        },
+        {
+          "year": 2016,
+          "value": 7.0
+        },
+        {
+          "year": 2017,
+          "value": 9.0
+        },
+        {
+          "year": 2018,
+          "value": 8.0
+        },
+        {
+          "year": 2019,
+          "value": 23.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "2701-c3",
+      "cip_code": "2701",
+      "cip_desc": "Mathematics.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": 16055,
+      "debt_history": [
+        {
+          "year": 2015,
+          "value": 22500.0
+        },
+        {
+          "year": 2016,
+          "value": 23250.0
+        },
+        {
+          "year": 2017,
+          "value": 17250.0
+        },
+        {
+          "year": 2018,
+          "value": 16055.0
+        }
+      ],
+      "completers": 22,
+      "completers_single_year": 27,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 15.0
+        },
+        {
+          "year": 2015,
+          "value": 29.0
+        },
+        {
+          "year": 2016,
+          "value": 26.0
+        },
+        {
+          "year": 2017,
+          "value": 28.0
+        },
+        {
+          "year": 2018,
+          "value": 27.0
+        },
+        {
+          "year": 2019,
+          "value": 22.0
+        }
+      ],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2015,
+          "to_year": 2018,
+          "from_value": 22500.0,
+          "to_value": 16055.0,
+          "pct_change": -0.28644444444444445,
+          "direction": "fell"
+        }
+      ]
+    },
+    {
+      "slug": "4005-c3",
+      "cip_code": "4005",
+      "cip_desc": "Chemistry.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": 54946,
+      "earnings_median_4yr": 49098,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 54946.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 49098.0
+        }
+      ],
+      "debt_median": null,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 20000.0
+        },
+        {
+          "year": 2015,
+          "value": 20000.0
+        }
+      ],
+      "completers": 22,
+      "completers_single_year": 21,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 24.0
+        },
+        {
+          "year": 2015,
+          "value": 16.0
+        },
+        {
+          "year": 2016,
+          "value": 21.0
+        },
+        {
+          "year": 2017,
+          "value": 15.0
+        },
+        {
+          "year": 2018,
+          "value": 21.0
+        },
+        {
+          "year": 2019,
+          "value": 22.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4301-c8",
+      "cip_code": "4301",
+      "cip_desc": "Criminal Justice and Corrections.",
+      "credential_level": 8,
+      "credential_desc": "Graduate/Professional Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 21,
+      "completers_single_year": 16,
+      "completers_history": [
+        {
+          "year": 2015,
+          "value": 0.0
+        },
+        {
+          "year": 2016,
+          "value": 9.0
+        },
+        {
+          "year": 2017,
+          "value": 10.0
+        },
+        {
+          "year": 2018,
+          "value": 16.0
+        },
+        {
+          "year": 2019,
+          "value": 21.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1507-c3",
+      "cip_code": "1507",
+      "cip_desc": "Quality Control and Safety Technologies/Technicians.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": 71630,
+      "earnings_median_4yr": 63064,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 71630.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 63064.0
+        }
+      ],
+      "debt_median": 34208,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 25000.0
+        },
+        {
+          "year": 2015,
+          "value": 20540.0
+        },
+        {
+          "year": 2016,
+          "value": 20645.0
+        },
+        {
+          "year": 2017,
+          "value": 25125.0
+        },
+        {
+          "year": 2018,
+          "value": 34208.0
+        }
+      ],
+      "completers": 19,
+      "completers_single_year": 19,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 36.0
+        },
+        {
+          "year": 2015,
+          "value": 27.0
+        },
+        {
+          "year": 2016,
+          "value": 28.0
+        },
+        {
+          "year": 2017,
+          "value": 23.0
+        },
+        {
+          "year": 2018,
+          "value": 19.0
+        },
+        {
+          "year": 2019,
+          "value": 19.0
+        }
+      ],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2014,
+          "to_year": 2018,
+          "from_value": 25000.0,
+          "to_value": 34208.0,
+          "pct_change": 0.36832,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "slug": "4006-c3",
+      "cip_code": "4006",
+      "cip_desc": "Geological and Earth Sciences/Geosciences.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": 18529,
+      "debt_history": [
+        {
+          "year": 2015,
+          "value": 13298.0
+        },
+        {
+          "year": 2016,
+          "value": 20000.0
+        },
+        {
+          "year": 2017,
+          "value": 19875.0
+        },
+        {
+          "year": 2018,
+          "value": 18529.0
+        }
+      ],
+      "completers": 18,
+      "completers_single_year": 19,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 17.0
+        },
+        {
+          "year": 2015,
+          "value": 22.0
+        },
+        {
+          "year": 2016,
+          "value": 32.0
+        },
+        {
+          "year": 2017,
+          "value": 39.0
+        },
+        {
+          "year": 2018,
+          "value": 19.0
+        },
+        {
+          "year": 2019,
+          "value": 18.0
+        }
+      ],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2015,
+          "to_year": 2018,
+          "from_value": 13298.0,
+          "to_value": 18529.0,
+          "pct_change": 0.39336742367273275,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "slug": "5001-c3",
+      "cip_code": "5001",
+      "cip_desc": "Visual and Performing Arts, General.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": 28279,
+      "earnings_median_4yr": 21782,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 28279.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 21782.0
+        }
+      ],
+      "debt_median": null,
+      "debt_history": [
+        {
+          "year": 2015,
+          "value": 18750.0
+        },
+        {
+          "year": 2016,
+          "value": 21827.0
+        },
+        {
+          "year": 2017,
+          "value": 19875.0
+        }
+      ],
+      "completers": 16,
+      "completers_single_year": 15,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 14.0
+        },
+        {
+          "year": 2015,
+          "value": 21.0
+        },
+        {
+          "year": 2016,
+          "value": 21.0
+        },
+        {
+          "year": 2017,
+          "value": 25.0
+        },
+        {
+          "year": 2018,
+          "value": 15.0
+        },
+        {
+          "year": 2019,
+          "value": 16.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "2313-c3",
+      "cip_code": "2313",
+      "cip_desc": "Rhetoric and Composition/Writing Studies.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [
+        {
+          "year": 2016,
+          "value": 15500.0
+        }
+      ],
+      "completers": 15,
+      "completers_single_year": 11,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 14.0
+        },
+        {
+          "year": 2015,
+          "value": 16.0
+        },
+        {
+          "year": 2016,
+          "value": 15.0
+        },
+        {
+          "year": 2017,
+          "value": 14.0
+        },
+        {
+          "year": 2018,
+          "value": 11.0
+        },
+        {
+          "year": 2019,
+          "value": 15.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4511-c3",
+      "cip_code": "4511",
+      "cip_desc": "Sociology.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 48478,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 48478.0
+        }
+      ],
+      "debt_median": 21656,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 29384.0
+        },
+        {
+          "year": 2015,
+          "value": 23500.0
+        },
+        {
+          "year": 2016,
+          "value": 23090.0
+        },
+        {
+          "year": 2017,
+          "value": 22500.0
+        },
+        {
+          "year": 2018,
+          "value": 21656.0
+        }
+      ],
+      "completers": 15,
+      "completers_single_year": 13,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 28.0
+        },
+        {
+          "year": 2015,
+          "value": 28.0
+        },
+        {
+          "year": 2016,
+          "value": 19.0
+        },
+        {
+          "year": 2017,
+          "value": 22.0
+        },
+        {
+          "year": 2018,
+          "value": 13.0
+        },
+        {
+          "year": 2019,
+          "value": 15.0
+        }
+      ],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2014,
+          "to_year": 2018,
+          "from_value": 29384.0,
+          "to_value": 21656.0,
+          "pct_change": -0.2630002722570106,
+          "direction": "fell"
+        }
+      ]
+    },
+    {
+      "slug": "5217-c3",
+      "cip_code": "5217",
+      "cip_desc": "Insurance.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 15,
+      "completers_single_year": 5,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 8.0
+        },
+        {
+          "year": 2015,
+          "value": 10.0
+        },
+        {
+          "year": 2016,
+          "value": 12.0
+        },
+        {
+          "year": 2017,
+          "value": 16.0
+        },
+        {
+          "year": 2018,
+          "value": 5.0
+        },
+        {
+          "year": 2019,
+          "value": 15.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4501-c3",
+      "cip_code": "4501",
+      "cip_desc": "Social Sciences, General.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": 48194,
+      "earnings_median_4yr": 39707,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 48194.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 39707.0
+        }
+      ],
+      "debt_median": 21452,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 29250.0
+        },
+        {
+          "year": 2015,
+          "value": 30188.0
+        },
+        {
+          "year": 2016,
+          "value": 27625.0
+        },
+        {
+          "year": 2017,
+          "value": 29375.0
+        },
+        {
+          "year": 2018,
+          "value": 21452.0
+        }
+      ],
+      "completers": 14,
+      "completers_single_year": 22,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 27.0
+        },
+        {
+          "year": 2015,
+          "value": 22.0
+        },
+        {
+          "year": 2016,
+          "value": 17.0
+        },
+        {
+          "year": 2017,
+          "value": 25.0
+        },
+        {
+          "year": 2018,
+          "value": 22.0
+        },
+        {
+          "year": 2019,
+          "value": 14.0
+        }
+      ],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2014,
+          "to_year": 2018,
+          "from_value": 29250.0,
+          "to_value": 21452.0,
+          "pct_change": -0.2665982905982906,
+          "direction": "fell"
+        }
+      ]
+    },
+    {
+      "slug": "1303-c5",
+      "cip_code": "1303",
+      "cip_desc": "Curriculum and Instruction.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": 34792,
+      "debt_history": [
+        {
+          "year": 2018,
+          "value": 34792.0
+        }
+      ],
+      "completers": 13,
+      "completers_single_year": 19,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 9.0
+        },
+        {
+          "year": 2015,
+          "value": 11.0
+        },
+        {
+          "year": 2016,
+          "value": 9.0
+        },
+        {
+          "year": 2017,
+          "value": 27.0
+        },
+        {
+          "year": 2018,
+          "value": 19.0
+        },
+        {
+          "year": 2019,
+          "value": 13.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5138-c3",
+      "cip_code": "5138",
+      "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 11,
+      "completers_single_year": 9,
+      "completers_history": [
+        {
+          "year": 2016,
+          "value": 0.0
+        },
+        {
+          "year": 2017,
+          "value": 0.0
+        },
+        {
+          "year": 2018,
+          "value": 9.0
+        },
+        {
+          "year": 2019,
+          "value": 11.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "2301-c8",
+      "cip_code": "2301",
+      "cip_desc": "English Language and Literature, General.",
+      "credential_level": 8,
+      "credential_desc": "Graduate/Professional Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 10,
+      "completers_single_year": 1,
+      "completers_history": [
+        {
+          "year": 2015,
+          "value": 0.0
+        },
+        {
+          "year": 2016,
+          "value": 3.0
+        },
+        {
+          "year": 2017,
+          "value": 4.0
+        },
+        {
+          "year": 2018,
+          "value": 1.0
+        },
+        {
+          "year": 2019,
+          "value": 10.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1609-c3",
+      "cip_code": "1609",
+      "cip_desc": "Romance Languages, Literatures, and Linguistics.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 51915,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 51915.0
+        }
+      ],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 7,
+      "completers_single_year": 10,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 17.0
+        },
+        {
+          "year": 2015,
+          "value": 20.0
+        },
+        {
+          "year": 2016,
+          "value": 11.0
+        },
+        {
+          "year": 2017,
+          "value": 13.0
+        },
+        {
+          "year": 2018,
+          "value": 10.0
+        },
+        {
+          "year": 2019,
+          "value": 7.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "2612-c3",
+      "cip_code": "2612",
+      "cip_desc": "Biotechnology.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 7,
+      "completers_single_year": 7,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 8.0
+        },
+        {
+          "year": 2015,
+          "value": 10.0
+        },
+        {
+          "year": 2016,
+          "value": 11.0
+        },
+        {
+          "year": 2017,
+          "value": 6.0
+        },
+        {
+          "year": 2018,
+          "value": 7.0
+        },
+        {
+          "year": 2019,
+          "value": 7.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "3801-c3",
+      "cip_code": "3801",
+      "cip_desc": "Philosophy.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 7,
+      "completers_single_year": 11,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 11.0
+        },
+        {
+          "year": 2015,
+          "value": 8.0
+        },
+        {
+          "year": 2016,
+          "value": 6.0
+        },
+        {
+          "year": 2017,
+          "value": 14.0
+        },
+        {
+          "year": 2018,
+          "value": 11.0
+        },
+        {
+          "year": 2019,
+          "value": 7.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "2706-c3",
+      "cip_code": "2706",
+      "cip_desc": "Applied Statistics.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 5,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 5.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "3071-c8",
+      "cip_code": "3071",
+      "cip_desc": "Data Analytics.",
+      "credential_level": 8,
+      "credential_desc": "Graduate/Professional Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 5,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 5.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "2313-c5",
+      "cip_code": "2313",
+      "cip_desc": "Rhetoric and Composition/Writing Studies.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [
+        {
+          "year": 2017,
+          "value": 37201.0
+        }
+      ],
+      "completers": 4,
+      "completers_single_year": 15,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 9.0
+        },
+        {
+          "year": 2015,
+          "value": 10.0
+        },
+        {
+          "year": 2016,
+          "value": 18.0
+        },
+        {
+          "year": 2017,
+          "value": 18.0
+        },
+        {
+          "year": 2018,
+          "value": 15.0
+        },
+        {
+          "year": 2019,
+          "value": 4.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "2313-c8",
+      "cip_code": "2313",
+      "cip_desc": "Rhetoric and Composition/Writing Studies.",
+      "credential_level": 8,
+      "credential_desc": "Graduate/Professional Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 1,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2016,
+          "value": 3.0
+        },
+        {
+          "year": 2017,
+          "value": 1.0
+        },
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 1.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1301-c3",
+      "cip_code": "1301",
+      "cip_desc": "Education, General.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1304-c8",
+      "cip_code": "1304",
+      "cip_desc": "Educational Administration and Supervision.",
+      "credential_level": 8,
+      "credential_desc": "Graduate/Professional Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": null,
+      "completers_history": [
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1313-c8",
+      "cip_code": "1313",
+      "cip_desc": "Teacher Education and Professional Development, Specific Subject Areas.",
+      "credential_level": 8,
+      "credential_desc": "Graduate/Professional Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2015,
+          "value": 0.0
+        },
+        {
+          "year": 2016,
+          "value": 0.0
+        },
+        {
+          "year": 2017,
+          "value": 0.0
+        },
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1907-c3",
+      "cip_code": "1907",
+      "cip_desc": "Human Development, Family Studies, and Related Services.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2015,
+          "value": 0.0
+        },
+        {
+          "year": 2016,
+          "value": 0.0
+        },
+        {
+          "year": 2017,
+          "value": 0.0
+        },
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "2605-c3",
+      "cip_code": "2605",
+      "cip_desc": "Microbiological Sciences and Immunology.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 0.0
+        },
+        {
+          "year": 2015,
+          "value": 1.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "2703-c3",
+      "cip_code": "2703",
+      "cip_desc": "Applied Mathematics.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": 7,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 6.0
+        },
+        {
+          "year": 2015,
+          "value": 9.0
+        },
+        {
+          "year": 2016,
+          "value": 8.0
+        },
+        {
+          "year": 2017,
+          "value": 8.0
+        },
+        {
+          "year": 2018,
+          "value": 7.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "2703-c8",
+      "cip_code": "2703",
+      "cip_desc": "Applied Mathematics.",
+      "credential_level": 8,
+      "credential_desc": "Graduate/Professional Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": null,
+      "completers_history": [
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "2705-c3",
+      "cip_code": "2705",
+      "cip_desc": "Statistics.",
+      "credential_level": 3,
+      "credential_desc": "Bachelor's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": 8,
+      "completers_history": [
+        {
+          "year": 2015,
+          "value": 0.0
+        },
+        {
+          "year": 2016,
+          "value": 0.0
+        },
+        {
+          "year": 2017,
+          "value": 1.0
+        },
+        {
+          "year": 2018,
+          "value": 8.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "2705-c5",
+      "cip_code": "2705",
+      "cip_desc": "Statistics.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": 30548,
+      "debt_history": [
+        {
+          "year": 2018,
+          "value": 30548.0
+        }
+      ],
+      "completers": null,
+      "completers_single_year": 55,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 0.0
+        },
+        {
+          "year": 2015,
+          "value": 5.0
+        },
+        {
+          "year": 2016,
+          "value": 24.0
+        },
+        {
+          "year": 2017,
+          "value": 48.0
+        },
+        {
+          "year": 2018,
+          "value": 55.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "2706-c8",
+      "cip_code": "2706",
+      "cip_desc": "Applied Statistics.",
+      "credential_level": 8,
+      "credential_desc": "Graduate/Professional Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": null,
+      "completers_history": [
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5203-c5",
+      "cip_code": "5203",
+      "cip_desc": "Accounting and Related Services.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 0,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        }
+      ],
+      "long_arc": []
+    }
+  ],
+  "program_count": 58,
+  "similar": [
+    {
+      "slug": "tarleton-state-university-228529",
+      "name": "Tarleton State University",
+      "city": "Stephenville",
+      "control": "public",
+      "pred_degree": "bachelors",
+      "earnings_median_10yr": 53040,
+      "completion_rate_150": 0.5123,
+      "enrollment_undergrad": 12263
+    },
+    {
+      "slug": "texas-woman-s-university-229179",
+      "name": "Texas Woman's University",
+      "city": "Denton",
+      "control": "public",
+      "pred_degree": "bachelors",
+      "earnings_median_10yr": 56544,
+      "completion_rate_150": 0.4421,
+      "enrollment_undergrad": 8804
+    },
+    {
+      "slug": "stephen-f-austin-state-university-228431",
+      "name": "Stephen F Austin State University",
+      "city": "Nacogdoches",
+      "control": "public",
+      "pred_degree": "bachelors",
+      "earnings_median_10yr": 49634,
+      "completion_rate_150": 0.5175,
+      "enrollment_undergrad": 8746
+    },
+    {
+      "slug": "prairie-view-a-m-university-227526",
+      "name": "Prairie View A & M University",
+      "city": "Prairie View",
+      "control": "public",
+      "pred_degree": "bachelors",
+      "earnings_median_10yr": 45411,
+      "completion_rate_150": 0.4322,
+      "enrollment_undergrad": 8527
+    },
+    {
+      "slug": "texas-a-m-university-commerce-224554",
+      "name": "Texas A & M University-Commerce",
+      "city": "Commerce",
+      "control": "public",
+      "pred_degree": "bachelors",
+      "earnings_median_10yr": 50296,
+      "completion_rate_150": 0.4593,
+      "enrollment_undergrad": 8249
+    }
+  ],
+  "roi": {
+    "default_program_slug": "3099-c3",
+    "programs_available": [
+      {
+        "slug": "3099-c3",
+        "label": "Multi/Interdisciplinary Studies, Other · Bachelor's Degree",
+        "cip_family": "30",
+        "completers": 727,
+        "has_earnings": true,
+        "earnings_at_completion": 59058,
+        "earnings_anchor_year": 5,
+        "debt_median": 18750,
+        "years_to_complete": 4,
+        "default_result": {
+          "npv": 355989,
+          "breakeven_year": 11
+        }
+      },
+      {
+        "slug": "5202-c5",
+        "label": "Business Administration, Management and Operations · Master's Degree",
+        "cip_family": "52",
+        "completers": 421,
+        "has_earnings": true,
+        "earnings_at_completion": 84229,
+        "earnings_anchor_year": 5,
+        "debt_median": 41000,
+        "years_to_complete": 6,
+        "default_result": {
+          "npv": 697666,
+          "breakeven_year": 10
+        }
+      },
+      {
+        "slug": "5202-c8",
+        "label": "Business Administration, Management and Operations · Graduate/Professional Certificate",
+        "cip_family": "52",
+        "completers": 287,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "5203-c3",
+        "label": "Accounting and Related Services · Bachelor's Degree",
+        "cip_family": "52",
+        "completers": 232,
+        "has_earnings": true,
+        "earnings_at_completion": 67119,
+        "earnings_anchor_year": 5,
+        "debt_median": 19750,
+        "years_to_complete": 4,
+        "default_result": {
+          "npv": 530626,
+          "breakeven_year": 8
+        }
+      },
+      {
+        "slug": "5202-c3",
+        "label": "Business Administration, Management and Operations · Bachelor's Degree",
+        "cip_family": "52",
+        "completers": 231,
+        "has_earnings": true,
+        "earnings_at_completion": 71241,
+        "earnings_anchor_year": 5,
+        "debt_median": 21875,
+        "years_to_complete": 4,
+        "default_result": {
+          "npv": 608472,
+          "breakeven_year": 8
+        }
+      },
+      {
+        "slug": "4201-c3",
+        "label": "Psychology, General · Bachelor's Degree",
+        "cip_family": "42",
+        "completers": 210,
+        "has_earnings": true,
+        "earnings_at_completion": 51370,
+        "earnings_anchor_year": 5,
+        "debt_median": 18750,
+        "years_to_complete": 4,
+        "default_result": {
+          "npv": 158572,
+          "breakeven_year": 15
+        }
+      },
+      {
+        "slug": "4301-c3",
+        "label": "Criminal Justice and Corrections · Bachelor's Degree",
+        "cip_family": "43",
+        "completers": 208,
+        "has_earnings": true,
+        "earnings_at_completion": 55229,
+        "earnings_anchor_year": 5,
+        "debt_median": 19815,
+        "years_to_complete": 4,
+        "default_result": {
+          "npv": 285128,
+          "breakeven_year": 12
+        }
+      },
+      {
+        "slug": "5208-c3",
+        "label": "Finance and Financial Management Services · Bachelor's Degree",
+        "cip_family": "52",
+        "completers": 146,
+        "has_earnings": true,
+        "earnings_at_completion": 77451,
+        "earnings_anchor_year": 5,
+        "debt_median": 19545,
+        "years_to_complete": 4,
+        "default_result": {
+          "npv": 725753,
+          "breakeven_year": 7
+        }
+      },
+      {
+        "slug": "5201-c3",
+        "label": "Business/Commerce, General · Bachelor's Degree",
+        "cip_family": "52",
+        "completers": 111,
+        "has_earnings": true,
+        "earnings_at_completion": 63971,
+        "earnings_anchor_year": 5,
+        "debt_median": 20099,
+        "years_to_complete": 4,
+        "default_result": {
+          "npv": 471173,
+          "breakeven_year": 9
+        }
+      },
+      {
+        "slug": "5212-c3",
+        "label": "Management Information Systems and Services · Bachelor's Degree",
+        "cip_family": "52",
+        "completers": 106,
+        "has_earnings": true,
+        "earnings_at_completion": 79853,
+        "earnings_anchor_year": 5,
+        "debt_median": 18750,
+        "years_to_complete": 4,
+        "default_result": {
+          "npv": 771116,
+          "breakeven_year": 7
+        }
+      },
+      {
+        "slug": "1101-c3",
+        "label": "Computer and Information Sciences, General · Bachelor's Degree",
+        "cip_family": "11",
+        "completers": 101,
+        "has_earnings": true,
+        "earnings_at_completion": 90280,
+        "earnings_anchor_year": 5,
+        "debt_median": 15830,
+        "years_to_complete": 4,
+        "default_result": {
+          "npv": 1119251,
+          "breakeven_year": 6
+        }
+      },
+      {
+        "slug": "0901-c3",
+        "label": "Communication and Media Studies · Bachelor's Degree",
+        "cip_family": "09",
+        "completers": 94,
+        "has_earnings": true,
+        "earnings_at_completion": 51762,
+        "earnings_anchor_year": 5,
+        "debt_median": 23455,
+        "years_to_complete": 4,
+        "default_result": {
+          "npv": 220966,
+          "breakeven_year": 15
+        }
+      },
+      {
+        "slug": "5122-c3",
+        "label": "Public Health · Bachelor's Degree",
+        "cip_family": "51",
+        "completers": 84,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": 18950,
+        "years_to_complete": 4,
+        "default_result": null
+      },
+      {
+        "slug": "5214-c3",
+        "label": "Marketing · Bachelor's Degree",
+        "cip_family": "52",
+        "completers": 67,
+        "has_earnings": true,
+        "earnings_at_completion": 61531,
+        "earnings_anchor_year": 5,
+        "debt_median": 17000,
+        "years_to_complete": 4,
+        "default_result": {
+          "npv": 425092,
+          "breakeven_year": 10
+        }
+      },
+      {
+        "slug": "3071-c5",
+        "label": "Data Analytics · Master's Degree",
+        "cip_family": "30",
+        "completers": 65,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "4407-c3",
+        "label": "Social Work · Bachelor's Degree",
+        "cip_family": "44",
+        "completers": 65,
+        "has_earnings": true,
+        "earnings_at_completion": 58711,
+        "earnings_anchor_year": 5,
+        "debt_median": 21948,
+        "years_to_complete": 4,
+        "default_result": {
+          "npv": 349568,
+          "breakeven_year": 11
+        }
+      },
+      {
+        "slug": "2601-c3",
+        "label": "Biology, General · Bachelor's Degree",
+        "cip_family": "26",
+        "completers": 56,
+        "has_earnings": true,
+        "earnings_at_completion": 41923,
+        "earnings_anchor_year": 5,
+        "debt_median": 21527,
+        "years_to_complete": 4,
+        "default_result": {
+          "npv": 30773,
+          "breakeven_year": 32
+        }
+      },
+      {
+        "slug": "4301-c5",
+        "label": "Criminal Justice and Corrections · Master's Degree",
+        "cip_family": "43",
+        "completers": 40,
+        "has_earnings": true,
+        "earnings_at_completion": 92757,
+        "earnings_anchor_year": 5,
+        "debt_median": 40760,
+        "years_to_complete": 6,
+        "default_result": {
+          "npv": 810206,
+          "breakeven_year": 9
+        }
+      },
+      {
+        "slug": "4510-c3",
+        "label": "Political Science and Government · Bachelor's Degree",
+        "cip_family": "45",
+        "completers": 37,
+        "has_earnings": true,
+        "earnings_at_completion": 51203,
+        "earnings_anchor_year": 5,
+        "debt_median": 20646,
+        "years_to_complete": 4,
+        "default_result": {
+          "npv": 164710,
+          "breakeven_year": 15
+        }
+      },
+      {
+        "slug": "5401-c3",
+        "label": "History · Bachelor's Degree",
+        "cip_family": "54",
+        "completers": 36,
+        "has_earnings": true,
+        "earnings_at_completion": 53715,
+        "earnings_anchor_year": 5,
+        "debt_median": 20000,
+        "years_to_complete": 4,
+        "default_result": {
+          "npv": 257109,
+          "breakeven_year": 13
+        }
+      },
+      {
+        "slug": "3001-c3",
+        "label": "Biological and Physical Sciences · Bachelor's Degree",
+        "cip_family": "30",
+        "completers": 33,
+        "has_earnings": true,
+        "earnings_at_completion": 60836,
+        "earnings_anchor_year": 5,
+        "debt_median": 21765,
+        "years_to_complete": 4,
+        "default_result": {
+          "npv": 388894,
+          "breakeven_year": 10
+        }
+      },
+      {
+        "slug": "5211-c3",
+        "label": "International Business · Bachelor's Degree",
+        "cip_family": "52",
+        "completers": 33,
+        "has_earnings": true,
+        "earnings_at_completion": 63587,
+        "earnings_anchor_year": 5,
+        "debt_median": 14000,
+        "years_to_complete": 4,
+        "default_result": {
+          "npv": 463921,
+          "breakeven_year": 9
+        }
+      },
+      {
+        "slug": "2301-c3",
+        "label": "English Language and Literature, General · Bachelor's Degree",
+        "cip_family": "23",
+        "completers": 30,
+        "has_earnings": true,
+        "earnings_at_completion": 43319,
+        "earnings_anchor_year": 5,
+        "debt_median": 23000,
+        "years_to_complete": 4,
+        "default_result": {
+          "npv": 32893,
+          "breakeven_year": 30
+        }
+      },
+      {
+        "slug": "1512-c3",
+        "label": "Computer Engineering Technologies/Technicians · Bachelor's Degree",
+        "cip_family": "15",
+        "completers": 27,
+        "has_earnings": true,
+        "earnings_at_completion": 81769,
+        "earnings_anchor_year": 5,
+        "debt_median": null,
+        "years_to_complete": 4,
+        "default_result": {
+          "npv": 776289,
+          "breakeven_year": 6
+        }
+      },
+      {
+        "slug": "3070-c3",
+        "label": "Data Science · Bachelor's Degree",
+        "cip_family": "30",
+        "completers": 24,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 4,
+        "default_result": null
+      },
+      {
+        "slug": "1502-c3",
+        "label": "Civil Engineering Technologies/Technicians · Bachelor's Degree",
+        "cip_family": "15",
+        "completers": 23,
+        "has_earnings": true,
+        "earnings_at_completion": 73975,
+        "earnings_anchor_year": 5,
+        "debt_median": null,
+        "years_to_complete": 4,
+        "default_result": {
+          "npv": 632050,
+          "breakeven_year": 7
+        }
+      },
+      {
+        "slug": "2401-c3",
+        "label": "Liberal Arts and Sciences, General Studies and Humanities · Bachelor's Degree",
+        "cip_family": "24",
+        "completers": 23,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 4,
+        "default_result": null
+      },
+      {
+        "slug": "2701-c3",
+        "label": "Mathematics · Bachelor's Degree",
+        "cip_family": "27",
+        "completers": 22,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": 16055,
+        "years_to_complete": 4,
+        "default_result": null
+      },
+      {
+        "slug": "4005-c3",
+        "label": "Chemistry · Bachelor's Degree",
+        "cip_family": "40",
+        "completers": 22,
+        "has_earnings": true,
+        "earnings_at_completion": 54946,
+        "earnings_anchor_year": 5,
+        "debt_median": null,
+        "years_to_complete": 4,
+        "default_result": {
+          "npv": 322400,
+          "breakeven_year": 13
+        }
+      },
+      {
+        "slug": "4301-c8",
+        "label": "Criminal Justice and Corrections · Graduate/Professional Certificate",
+        "cip_family": "43",
+        "completers": 21,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "1507-c3",
+        "label": "Quality Control and Safety Technologies/Technicians · Bachelor's Degree",
+        "cip_family": "15",
+        "completers": 19,
+        "has_earnings": true,
+        "earnings_at_completion": 71630,
+        "earnings_anchor_year": 5,
+        "debt_median": 34208,
+        "years_to_complete": 4,
+        "default_result": {
+          "npv": 588652,
+          "breakeven_year": 7
+        }
+      },
+      {
+        "slug": "4006-c3",
+        "label": "Geological and Earth Sciences/Geosciences · Bachelor's Degree",
+        "cip_family": "40",
+        "completers": 18,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": 18529,
+        "years_to_complete": 4,
+        "default_result": null
+      },
+      {
+        "slug": "5001-c3",
+        "label": "Visual and Performing Arts, General · Bachelor's Degree",
+        "cip_family": "50",
+        "completers": 16,
+        "has_earnings": true,
+        "earnings_at_completion": 28279,
+        "earnings_anchor_year": 5,
+        "debt_median": null,
+        "years_to_complete": 4,
+        "default_result": {
+          "npv": -266612,
+          "breakeven_year": null
+        }
+      },
+      {
+        "slug": "2313-c3",
+        "label": "Rhetoric and Composition/Writing Studies · Bachelor's Degree",
+        "cip_family": "23",
+        "completers": 15,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 4,
+        "default_result": null
+      },
+      {
+        "slug": "4511-c3",
+        "label": "Sociology · Bachelor's Degree",
+        "cip_family": "45",
+        "completers": 15,
+        "has_earnings": true,
+        "earnings_at_completion": 48478,
+        "earnings_anchor_year": 4,
+        "debt_median": 21656,
+        "years_to_complete": 4,
+        "default_result": {
+          "npv": 156017,
+          "breakeven_year": 16
+        }
+      },
+      {
+        "slug": "5217-c3",
+        "label": "Insurance · Bachelor's Degree",
+        "cip_family": "52",
+        "completers": 15,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 4,
+        "default_result": null
+      },
+      {
+        "slug": "4501-c3",
+        "label": "Social Sciences, General · Bachelor's Degree",
+        "cip_family": "45",
+        "completers": 14,
+        "has_earnings": true,
+        "earnings_at_completion": 48194,
+        "earnings_anchor_year": 5,
+        "debt_median": 21452,
+        "years_to_complete": 4,
+        "default_result": {
+          "npv": 111722,
+          "breakeven_year": 19
+        }
+      },
+      {
+        "slug": "1303-c5",
+        "label": "Curriculum and Instruction · Master's Degree",
+        "cip_family": "13",
+        "completers": 13,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": 34792,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "5138-c3",
+        "label": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing · Bachelor's Degree",
+        "cip_family": "51",
+        "completers": 11,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 4,
+        "default_result": null
+      },
+      {
+        "slug": "2301-c8",
+        "label": "English Language and Literature, General · Graduate/Professional Certificate",
+        "cip_family": "23",
+        "completers": 10,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "1609-c3",
+        "label": "Romance Languages, Literatures, and Linguistics · Bachelor's Degree",
+        "cip_family": "16",
+        "completers": 7,
+        "has_earnings": true,
+        "earnings_at_completion": 51915,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 4,
+        "default_result": {
+          "npv": 275180,
+          "breakeven_year": 13
+        }
+      },
+      {
+        "slug": "2612-c3",
+        "label": "Biotechnology · Bachelor's Degree",
+        "cip_family": "26",
+        "completers": 7,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 4,
+        "default_result": null
+      },
+      {
+        "slug": "3801-c3",
+        "label": "Philosophy · Bachelor's Degree",
+        "cip_family": "38",
+        "completers": 7,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 4,
+        "default_result": null
+      },
+      {
+        "slug": "2706-c3",
+        "label": "Applied Statistics · Bachelor's Degree",
+        "cip_family": "27",
+        "completers": 5,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 4,
+        "default_result": null
+      },
+      {
+        "slug": "3071-c8",
+        "label": "Data Analytics · Graduate/Professional Certificate",
+        "cip_family": "30",
+        "completers": 5,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "2313-c5",
+        "label": "Rhetoric and Composition/Writing Studies · Master's Degree",
+        "cip_family": "23",
+        "completers": 4,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "2313-c8",
+        "label": "Rhetoric and Composition/Writing Studies · Graduate/Professional Certificate",
+        "cip_family": "23",
+        "completers": 1,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "1301-c3",
+        "label": "Education, General · Bachelor's Degree",
+        "cip_family": "13",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 4,
+        "default_result": null
+      },
+      {
+        "slug": "1304-c8",
+        "label": "Educational Administration and Supervision · Graduate/Professional Certificate",
+        "cip_family": "13",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "1313-c8",
+        "label": "Teacher Education and Professional Development, Specific Subject Areas · Graduate/Professional Certificate",
+        "cip_family": "13",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "1907-c3",
+        "label": "Human Development, Family Studies, and Related Services · Bachelor's Degree",
+        "cip_family": "19",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 4,
+        "default_result": null
+      },
+      {
+        "slug": "2605-c3",
+        "label": "Microbiological Sciences and Immunology · Bachelor's Degree",
+        "cip_family": "26",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 4,
+        "default_result": null
+      },
+      {
+        "slug": "2703-c3",
+        "label": "Applied Mathematics · Bachelor's Degree",
+        "cip_family": "27",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 4,
+        "default_result": null
+      },
+      {
+        "slug": "2703-c8",
+        "label": "Applied Mathematics · Graduate/Professional Certificate",
+        "cip_family": "27",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "2705-c3",
+        "label": "Statistics · Bachelor's Degree",
+        "cip_family": "27",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 4,
+        "default_result": null
+      },
+      {
+        "slug": "2705-c5",
+        "label": "Statistics · Master's Degree",
+        "cip_family": "27",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": 30548,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "2706-c8",
+        "label": "Applied Statistics · Graduate/Professional Certificate",
+        "cip_family": "27",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "5203-c5",
+        "label": "Accounting and Related Services · Master's Degree",
+        "cip_family": "52",
+        "completers": 0,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      }
+    ]
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

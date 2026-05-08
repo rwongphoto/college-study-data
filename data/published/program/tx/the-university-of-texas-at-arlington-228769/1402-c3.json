@@ -1,0 +1,174 @@
+{
+  "institution_unitid": "228769",
+  "institution_name": "The University of Texas at Arlington",
+  "institution_slug": "the-university-of-texas-at-arlington-228769",
+  "state": "tx",
+  "cip_code": "1402",
+  "cip_desc": "Aerospace, Aeronautical and Astronautical Engineering.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1402-c3",
+  "earnings_median_4yr": 78990,
+  "earnings_median_5yr": 88986,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 2,
+  "debt_median": 25130,
+  "completers": 54,
+  "completers_single_year": 64,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 78990.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 88986.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 21625.0
+      },
+      {
+        "year": 2015,
+        "value": 22197.0
+      },
+      {
+        "year": 2016,
+        "value": 23079.0
+      },
+      {
+        "year": 2017,
+        "value": 25000.0
+      },
+      {
+        "year": 2018,
+        "value": 25130.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 41.0
+      },
+      {
+        "year": 2015,
+        "value": 40.0
+      },
+      {
+        "year": 2016,
+        "value": 42.0
+      },
+      {
+        "year": 2017,
+        "value": 64.0
+      },
+      {
+        "year": 2018,
+        "value": 64.0
+      },
+      {
+        "year": 2019,
+        "value": 54.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "228769",
+    "slug": "the-university-of-texas-at-arlington-228769",
+    "name": "The University of Texas at Arlington",
+    "city": "Arlington",
+    "city_slug": "arlington",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "the-university-of-texas-at-austin-228778",
+      "institution_name": "The University of Texas at Austin",
+      "earnings_median_5yr": 100587,
+      "earnings_median_4yr": 86315,
+      "debt_median": 22125,
+      "completers": 122,
+      "completers_single_year": 168,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "texas-a-m-university-college-station-228723",
+      "institution_name": "Texas A & M University-College Station",
+      "earnings_median_5yr": 96505,
+      "earnings_median_4yr": 85253,
+      "debt_median": 21999,
+      "completers": 169,
+      "completers_single_year": 140,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 14602,
+      "cost_total_default": 58408,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 88986,
+      "earnings_anchor_year": 5,
+      "debt_median": 25130,
+      "cip_family": "14",
+      "hs_baseline_state": 37300
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 1059595,
+      "breakeven_year": 6
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

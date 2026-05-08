@@ -1,0 +1,304 @@
+{
+  "institution_unitid": "156365",
+  "institution_name": "Campbellsville University",
+  "institution_slug": "campbellsville-university-156365",
+  "state": "ky",
+  "cip_code": "1310",
+  "cip_desc": "Special Education and Teaching.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "1310-c5",
+  "earnings_median_4yr": 42185,
+  "earnings_median_5yr": 47305,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 1,
+  "debt_median": null,
+  "completers": 30,
+  "completers_single_year": 13,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 42185.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 47305.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 22684.0
+      },
+      {
+        "year": 2015,
+        "value": 20488.0
+      },
+      {
+        "year": 2016,
+        "value": 18800.0
+      },
+      {
+        "year": 2017,
+        "value": 16600.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 36.0
+      },
+      {
+        "year": 2015,
+        "value": 35.0
+      },
+      {
+        "year": 2016,
+        "value": 38.0
+      },
+      {
+        "year": 2017,
+        "value": 21.0
+      },
+      {
+        "year": 2018,
+        "value": 13.0
+      },
+      {
+        "year": 2019,
+        "value": 30.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2017,
+      "from_value": 22684.0,
+      "to_value": 16600.0,
+      "pct_change": -0.26820666549109506,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Special Education and Teaching at Campbellsville University fell 27% between 2014 and 2017 ($22.7k → $16.6k).",
+      "magnitude_pct": -26.8,
+      "magnitude_abs": -6084.0,
+      "baseline_year": 2014,
+      "recent_year": 2017,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "156365",
+    "slug": "campbellsville-university-156365",
+    "name": "Campbellsville University",
+    "city": "Campbellsville",
+    "city_slug": "campbellsville",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-louisville-157289",
+      "institution_name": "University of Louisville",
+      "earnings_median_5yr": 57361,
+      "earnings_median_4yr": 50493,
+      "debt_median": 34475,
+      "completers": 18,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-kentucky-university-157951",
+      "institution_name": "Western Kentucky University",
+      "earnings_median_5yr": 48878,
+      "earnings_median_4yr": 42570,
+      "debt_median": 21593,
+      "completers": 18,
+      "completers_single_year": 27,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-the-cumberlands-156541",
+      "institution_name": "University of the Cumberlands",
+      "earnings_median_5yr": 48604,
+      "earnings_median_4yr": 45139,
+      "debt_median": 19508,
+      "completers": 112,
+      "completers_single_year": 126,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "murray-state-university-157401",
+      "institution_name": "Murray State University",
+      "earnings_median_5yr": 47416,
+      "earnings_median_4yr": 42885,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "eastern-kentucky-university-156620",
+      "institution_name": "Eastern Kentucky University",
+      "earnings_median_5yr": 46867,
+      "earnings_median_4yr": 42703,
+      "debt_median": 36500,
+      "completers": 69,
+      "completers_single_year": 61,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "asbury-university-156213",
+      "institution_name": "Asbury University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bellarmine-university-156286",
+      "institution_name": "Bellarmine University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "georgetown-college-156745",
+      "institution_name": "Georgetown College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 17596,
+      "completers": 86,
+      "completers_single_year": 90,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "kentucky-state-university-157058",
+      "institution_name": "Kentucky State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-kentucky-157085",
+      "institution_name": "University of Kentucky",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 27,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "morehead-state-university-157386",
+      "institution_name": "Morehead State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "spalding-university-157757",
+      "institution_name": "Spalding University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "union-college-157863",
+      "institution_name": "Union College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 16425,
+      "cost_total_default": 98550,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 47305,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "13",
+      "hs_baseline_state": 33900
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 61197,
+      "breakeven_year": 26
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

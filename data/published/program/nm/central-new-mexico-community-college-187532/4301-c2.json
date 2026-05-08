@@ -1,0 +1,290 @@
+{
+  "institution_unitid": "187532",
+  "institution_name": "Central New Mexico Community College",
+  "institution_slug": "central-new-mexico-community-college-187532",
+  "state": "nm",
+  "cip_code": "4301",
+  "cip_desc": "Criminal Justice and Corrections.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "4301-c2",
+  "earnings_median_4yr": 36747,
+  "earnings_median_5yr": 42545,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 2,
+  "debt_median": null,
+  "completers": 29,
+  "completers_single_year": 31,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 36747.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 42545.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 10264.0
+      },
+      {
+        "year": 2015,
+        "value": 6478.0
+      },
+      {
+        "year": 2016,
+        "value": 6425.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 47.0
+      },
+      {
+        "year": 2015,
+        "value": 48.0
+      },
+      {
+        "year": 2016,
+        "value": 31.0
+      },
+      {
+        "year": 2017,
+        "value": 46.0
+      },
+      {
+        "year": 2018,
+        "value": 31.0
+      },
+      {
+        "year": 2019,
+        "value": 29.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2016,
+      "from_value": 10264.0,
+      "to_value": 6425.0,
+      "pct_change": -0.3740257209664848,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Criminal Justice and Corrections at Central New Mexico Community College fell 37% between 2014 and 2016 ($10.3k → $6.4k).",
+      "magnitude_pct": -37.4,
+      "magnitude_abs": -3839.0,
+      "baseline_year": 2014,
+      "recent_year": 2016,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "187532",
+    "slug": "central-new-mexico-community-college-187532",
+    "name": "Central New Mexico Community College",
+    "city": "Albuquerque",
+    "city_slug": "albuquerque",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "southeast-new-mexico-college-188003",
+      "institution_name": "Southeast New Mexico College",
+      "earnings_median_5yr": 36982,
+      "earnings_median_4yr": 30689,
+      "debt_median": 8550,
+      "completers": 7,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "new-mexico-state-university-main-campus-188030",
+      "institution_name": "New Mexico State University-Main Campus",
+      "earnings_median_5yr": 36982,
+      "earnings_median_4yr": 30689,
+      "debt_median": 8550,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": true
+    },
+    {
+      "institution_slug": "clovis-community-college-187639",
+      "institution_name": "Clovis Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "eastern-new-mexico-university-main-campus-187648",
+      "institution_name": "Eastern New Mexico University-Main Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "new-mexico-junior-college-187903",
+      "institution_name": "New Mexico Junior College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-new-mexico-main-campus-187985",
+      "institution_name": "University of New Mexico-Main Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northern-new-mexico-college-188058",
+      "institution_name": "Northern New Mexico College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "san-juan-college-188100",
+      "institution_name": "San Juan College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "santa-fe-community-college-188137",
+      "institution_name": "Santa Fe Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mesalands-community-college-188261",
+      "institution_name": "Mesalands Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-new-mexico-university-188304",
+      "institution_name": "Western New Mexico University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "luna-community-college-363633",
+      "institution_name": "Luna Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 5228,
+      "cost_total_default": 10456,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 42545,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "43",
+      "hs_baseline_state": 33800
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 210015,
+      "breakeven_year": 7
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

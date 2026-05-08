@@ -1,0 +1,184 @@
+{
+  "institution_unitid": "155812",
+  "institution_name": "University of Saint Mary",
+  "institution_slug": "university-of-saint-mary-155812",
+  "state": "ks",
+  "cip_code": "4228",
+  "cip_desc": "Clinical, Counseling and Applied Psychology.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "4228-c5",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 1,
+  "debt_median": 54710,
+  "completers": 12,
+  "completers_single_year": 14,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [
+      {
+        "year": 2018,
+        "value": 54710.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 5.0
+      },
+      {
+        "year": 2015,
+        "value": 13.0
+      },
+      {
+        "year": 2016,
+        "value": 9.0
+      },
+      {
+        "year": 2017,
+        "value": 11.0
+      },
+      {
+        "year": 2018,
+        "value": 14.0
+      },
+      {
+        "year": 2019,
+        "value": 12.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "155812",
+    "slug": "university-of-saint-mary-155812",
+    "name": "University of Saint Mary",
+    "city": "Leavenworth",
+    "city_slug": "leavenworth",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "midamerica-nazarene-university-155520",
+      "institution_name": "MidAmerica Nazarene University",
+      "earnings_median_5yr": 52695,
+      "earnings_median_4yr": 46970,
+      "debt_median": 54667,
+      "completers": 47,
+      "completers_single_year": 50,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "emporia-state-university-155025",
+      "institution_name": "Emporia State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 34104,
+      "completers": 42,
+      "completers_single_year": 29,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-kansas-155317",
+      "institution_name": "University of Kansas",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 41000,
+      "completers": 16,
+      "completers_single_year": 25,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ottawa-university-ottawa-155627",
+      "institution_name": "Ottawa University-Ottawa",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 62936,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pittsburg-state-university-155681",
+      "institution_name": "Pittsburg State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wichita-state-university-156125",
+      "institution_name": "Wichita State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 32,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 22716,
+      "cost_total_default": 136296,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": 54710,
+      "cip_family": "42"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

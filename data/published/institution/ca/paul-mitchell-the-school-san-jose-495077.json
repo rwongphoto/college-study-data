@@ -1,0 +1,227 @@
+{
+  "institution": {
+    "unitid": "495077",
+    "opeid6": "042905",
+    "name": "Paul Mitchell the School-San Jose",
+    "slug": "paul-mitchell-the-school-san-jose-495077",
+    "state": "ca",
+    "city": "San Jose",
+    "city_slug": "san-jose",
+    "zip5": "95122",
+    "address": "2200 Eastridge Loop, Unit #1004",
+    "latitude": 37.325292,
+    "longitude": -121.814156,
+    "control": "private_forprofit",
+    "pred_degree": "certificate",
+    "highest_degree": "certificate",
+    "main_campus": true,
+    "locale": "11",
+    "carnegie_basic": -2,
+    "sector_code": 9,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": 0.3333,
+    "completion_rate_100": 0.1111,
+    "retention_rate": 0.4444,
+    "admission_rate": null,
+    "enrollment_undergrad": 108,
+    "enrollment_total": null,
+    "cost_attendance": 30731,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": 25546,
+    "median_debt": null,
+    "default_rate": null,
+    "pell_share": 0.7125,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [],
+      "admission_rate": [],
+      "enrollment_undergrad": [],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [
+        {
+          "year": 2021,
+          "value": 15748.0
+        },
+        {
+          "year": 2022,
+          "value": 25809.0
+        },
+        {
+          "year": 2023,
+          "value": 25546.0
+        },
+        {
+          "year": 2024,
+          "value": 31084.0
+        }
+      ],
+      "median_debt": [],
+      "default_rate": [],
+      "pell_share": [],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [],
+    "flags": []
+  },
+  "programs_by_family": {
+    "13": [
+      {
+        "slug": "1304-c1",
+        "cip_code": "1304",
+        "cip_desc": "Educational Administration and Supervision.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 3,
+        "completers_single_year": 8,
+        "completers_history": [
+          {
+            "year": 2018,
+            "value": 8.0
+          },
+          {
+            "year": 2019,
+            "value": 3.0
+          }
+        ],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "1304-c1",
+      "cip_code": "1304",
+      "cip_desc": "Educational Administration and Supervision.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 3,
+      "completers_single_year": 8,
+      "completers_history": [
+        {
+          "year": 2018,
+          "value": 8.0
+        },
+        {
+          "year": 2019,
+          "value": 3.0
+        }
+      ],
+      "long_arc": []
+    }
+  ],
+  "program_count": 1,
+  "similar": [
+    {
+      "slug": "citrus-heights-beauty-college-112181",
+      "name": "Citrus Heights Beauty College",
+      "city": "Citrus Heights",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.875,
+      "enrollment_undergrad": 110
+    },
+    {
+      "slug": "premiere-career-college-416458",
+      "name": "Premiere Career College",
+      "city": "Irwindale",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 41270,
+      "completion_rate_150": 0.4545,
+      "enrollment_undergrad": 106
+    },
+    {
+      "slug": "ata-college-444361",
+      "name": "ATA College",
+      "city": "El Cajon",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 35017,
+      "completion_rate_150": 0.8596,
+      "enrollment_undergrad": 106
+    },
+    {
+      "slug": "j-d-academy-of-salon-and-spa-481474",
+      "name": "J D Academy of Salon and Spa",
+      "city": "Danville",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.4,
+      "enrollment_undergrad": 106
+    },
+    {
+      "slug": "sacramento-ultrasound-institute-490160",
+      "name": "Sacramento Ultrasound Institute",
+      "city": "Sacramento",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.7647,
+      "enrollment_undergrad": 104
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

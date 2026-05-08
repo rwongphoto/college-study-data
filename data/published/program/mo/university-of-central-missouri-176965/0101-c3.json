@@ -1,0 +1,220 @@
+{
+  "institution_unitid": "176965",
+  "institution_name": "University of Central Missouri",
+  "institution_slug": "university-of-central-missouri-176965",
+  "state": "mo",
+  "cip_code": "0101",
+  "cip_desc": "Agricultural Business and Management.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "0101-c3",
+  "earnings_median_4yr": 46417,
+  "earnings_median_5yr": 53716,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 0,
+  "debt_median": 20000,
+  "completers": 33,
+  "completers_single_year": 28,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 46417.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 53716.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2015,
+        "value": 21750.0
+      },
+      {
+        "year": 2016,
+        "value": 19000.0
+      },
+      {
+        "year": 2017,
+        "value": 19000.0
+      },
+      {
+        "year": 2018,
+        "value": 20000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 17.0
+      },
+      {
+        "year": 2015,
+        "value": 13.0
+      },
+      {
+        "year": 2016,
+        "value": 19.0
+      },
+      {
+        "year": 2017,
+        "value": 23.0
+      },
+      {
+        "year": 2018,
+        "value": 28.0
+      },
+      {
+        "year": 2019,
+        "value": 33.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "176965",
+    "slug": "university-of-central-missouri-176965",
+    "name": "University of Central Missouri",
+    "city": "Warrensburg",
+    "city_slug": "warrensburg",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-missouri-columbia-178396",
+      "institution_name": "University of Missouri-Columbia",
+      "earnings_median_5yr": 68698,
+      "earnings_median_4yr": 59013,
+      "debt_median": 17499,
+      "completers": 45,
+      "completers_single_year": 52,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southeast-missouri-state-university-179557",
+      "institution_name": "Southeast Missouri State University",
+      "earnings_median_5yr": 64541,
+      "earnings_median_4yr": 54326,
+      "debt_median": 13000,
+      "completers": 47,
+      "completers_single_year": 47,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northwest-missouri-state-university-178624",
+      "institution_name": "Northwest Missouri State University",
+      "earnings_median_5yr": 61777,
+      "earnings_median_4yr": 53374,
+      "debt_median": 17250,
+      "completers": 63,
+      "completers_single_year": 64,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "missouri-state-university-springfield-179566",
+      "institution_name": "Missouri State University-Springfield",
+      "earnings_median_5yr": 52218,
+      "earnings_median_4yr": 45277,
+      "debt_median": 17125,
+      "completers": 47,
+      "completers_single_year": 39,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "college-of-the-ozarks-178697",
+      "institution_name": "College of the Ozarks",
+      "earnings_median_5yr": 49556,
+      "earnings_median_4yr": 41813,
+      "debt_median": null,
+      "completers": 15,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lincoln-university-177940",
+      "institution_name": "Lincoln University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "missouri-valley-college-178369",
+      "institution_name": "Missouri Valley College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 14997,
+      "cost_total_default": 59988,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 53716,
+      "earnings_anchor_year": 5,
+      "debt_median": 20000,
+      "cip_family": "01",
+      "hs_baseline_state": 35100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 301979,
+      "breakeven_year": 11
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

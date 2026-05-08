@@ -1,0 +1,190 @@
+{
+  "institution_unitid": "441937",
+  "institution_name": "California State University-Channel Islands",
+  "institution_slug": "california-state-university-channel-islands-441937",
+  "state": "ca",
+  "cip_code": "0302",
+  "cip_desc": "Natural Resources Management and Policy.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "0302-c3",
+  "earnings_median_4yr": 51811,
+  "earnings_median_5yr": 69924,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 1,
+  "debt_median": 19209,
+  "completers": null,
+  "completers_single_year": null,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 51811.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 69924.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 25000.0
+      },
+      {
+        "year": 2017,
+        "value": 16237.0
+      },
+      {
+        "year": 2018,
+        "value": 19209.0
+      }
+    ],
+    "completers": []
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 25000.0,
+      "to_value": 19209.0,
+      "pct_change": -0.23164,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Natural Resources Management and Policy at California State University-Channel Islands fell 23% between 2014 and 2018 ($25.0k → $19.2k).",
+      "magnitude_pct": -23.2,
+      "magnitude_abs": -5791.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "441937",
+    "slug": "california-state-university-channel-islands-441937",
+    "name": "California State University-Channel Islands",
+    "city": "Camarillo",
+    "city_slug": "camarillo",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "california-state-university-bakersfield-110486",
+      "institution_name": "California State University-Bakersfield",
+      "earnings_median_5yr": 76104,
+      "earnings_median_4yr": 73115,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-polytechnic-state-university-san-luis-obispo-110422",
+      "institution_name": "California Polytechnic State University-San Luis Obispo",
+      "earnings_median_5yr": 69368,
+      "earnings_median_4yr": 59696,
+      "debt_median": 19500,
+      "completers": 102,
+      "completers_single_year": 90,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-state-polytechnic-university-humboldt-115755",
+      "institution_name": "California State Polytechnic University-Humboldt",
+      "earnings_median_5yr": 47629,
+      "earnings_median_4yr": 35992,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-california-berkeley-110635",
+      "institution_name": "University of California-Berkeley",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "chapman-university-111948",
+      "institution_name": "Chapman University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pitzer-college-121257",
+      "institution_name": "Pitzer College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-redlands-121691",
+      "institution_name": "University of Redlands",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "institution_unitid": "110422",
+  "institution_name": "California Polytechnic State University-San Luis Obispo",
+  "institution_slug": "california-polytechnic-state-university-san-luis-obispo-110422",
+  "state": "ca",
+  "cip_code": "4599",
+  "cip_desc": "Social Sciences, Other.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "4599-c3",
+  "earnings_median_4yr": 41749,
+  "earnings_median_5yr": 45522,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": 16000,
+  "completers": 45,
+  "completers_single_year": 37,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 41749.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 45522.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 24000.0
+      },
+      {
+        "year": 2015,
+        "value": 16500.0
+      },
+      {
+        "year": 2016,
+        "value": 16500.0
+      },
+      {
+        "year": 2017,
+        "value": 18824.0
+      },
+      {
+        "year": 2018,
+        "value": 16000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 34.0
+      },
+      {
+        "year": 2015,
+        "value": 40.0
+      },
+      {
+        "year": 2016,
+        "value": 25.0
+      },
+      {
+        "year": 2017,
+        "value": 40.0
+      },
+      {
+        "year": 2018,
+        "value": 37.0
+      },
+      {
+        "year": 2019,
+        "value": 45.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 24000.0,
+      "to_value": 16000.0,
+      "pct_change": -0.3333333333333333,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Social Sciences, Other at California Polytechnic State University-San Luis Obispo fell 33% between 2014 and 2018 ($24.0k → $16.0k).",
+      "magnitude_pct": -33.3,
+      "magnitude_abs": -8000.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "110422",
+    "slug": "california-polytechnic-state-university-san-luis-obispo-110422",
+    "name": "California Polytechnic State University-San Luis Obispo",
+    "city": "San Luis Obispo",
+    "city_slug": "san-luis-obispo",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-california-berkeley-110635",
+      "institution_name": "University of California-Berkeley",
+      "earnings_median_5yr": 113294,
+      "earnings_median_4yr": 97257,
+      "debt_median": 15000,
+      "completers": 217,
+      "completers_single_year": 238,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-california-davis-110644",
+      "institution_name": "University of California-Davis",
+      "earnings_median_5yr": 65669,
+      "earnings_median_4yr": 59076,
+      "debt_median": 12580,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-california-riverside-110671",
+      "institution_name": "University of California-Riverside",
+      "earnings_median_5yr": 61806,
+      "earnings_median_4yr": 52438,
+      "debt_median": 16583,
+      "completers": 27,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "california-state-university-dominguez-hills-110547",
+      "institution_name": "California State University-Dominguez Hills",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-california-san-diego-110680",
+      "institution_name": "University of California-San Diego",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 57,
+      "completers_single_year": 50,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "dominican-university-of-california-113698",
+      "institution_name": "Dominican University of California",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "humphreys-university-stockton-and-modesto-campuses-115773",
+      "institution_name": "Humphreys University-Stockton and Modesto Campuses",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-la-verne-117140",
+      "institution_name": "University of La Verne",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 31250,
+      "completers": 7,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pitzer-college-121257",
+      "institution_name": "Pitzer College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

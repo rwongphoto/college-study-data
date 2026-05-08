@@ -1,0 +1,261 @@
+{
+  "state": "ga",
+  "name": "Warner Robins",
+  "slug": "warner-robins",
+  "institution_count": 1,
+  "institutions": [
+    {
+      "unitid": "483045",
+      "slug": "central-georgia-technical-college-483045",
+      "name": "Central Georgia Technical College",
+      "city": "Warner Robins",
+      "city_slug": "warner-robins",
+      "control": "public",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 30848,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 29831
+        },
+        {
+          "year": 8,
+          "value": 30685
+        },
+        {
+          "year": 10,
+          "value": 30848
+        }
+      ],
+      "completion_rate_150": 0.4093,
+      "completion_rate_history": [],
+      "enrollment_undergrad": 5602,
+      "enrollment_history": [
+        {
+          "year": 2013,
+          "value": 7146.0
+        },
+        {
+          "year": 2014,
+          "value": 6839.0
+        },
+        {
+          "year": 2015,
+          "value": 6811.0
+        },
+        {
+          "year": 2016,
+          "value": 6712.0
+        },
+        {
+          "year": 2017,
+          "value": 6574.0
+        },
+        {
+          "year": 2018,
+          "value": 6331.0
+        },
+        {
+          "year": 2019,
+          "value": 6044.0
+        },
+        {
+          "year": 2020,
+          "value": 5922.0
+        },
+        {
+          "year": 2021,
+          "value": 5531.0
+        },
+        {
+          "year": 2022,
+          "value": 5373.0
+        },
+        {
+          "year": 2023,
+          "value": 5602.0
+        },
+        {
+          "year": 2024,
+          "value": 6174.0
+        }
+      ],
+      "median_debt": 5500,
+      "default_rate": 0.0,
+      "tuition_in_state": 3180,
+      "tuition_out_of_state": 5580,
+      "long_arc": [
+        {
+          "metric": "retention_rate",
+          "from_year": 2013,
+          "to_year": 2024,
+          "from_value": 0.4649,
+          "to_value": 0.5608,
+          "pct_change": 0.20628092062809203,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_in_state",
+          "from_year": 2013,
+          "to_year": 2024,
+          "from_value": 2568.0,
+          "to_value": 3448.0,
+          "pct_change": 0.3426791277258567,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2013,
+          "to_year": 2024,
+          "from_value": 4608.0,
+          "to_value": 6016.0,
+          "pct_change": 0.3055555555555556,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 2013,
+          "to_year": 2020,
+          "from_value": 4000.0,
+          "to_value": 9608.0,
+          "pct_change": 1.402,
+          "direction": "rose"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2013,
+          "to_year": 2024,
+          "from_value": 0.6738,
+          "to_value": 0.304,
+          "pct_change": -0.5488275452656575,
+          "direction": "fell"
+        },
+        {
+          "metric": "earnings_median_10yr",
+          "from_year": 2013,
+          "to_year": 2020,
+          "from_value": 20600.0,
+          "to_value": 30848.0,
+          "pct_change": 0.4974757281553398,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_8yr",
+          "from_year": 2013,
+          "to_year": 2020,
+          "from_value": 21400.0,
+          "to_value": 30685.0,
+          "pct_change": 0.4338785046728972,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_6yr",
+          "from_year": 2013,
+          "to_year": 2020,
+          "from_value": 20200.0,
+          "to_value": 29831.0,
+          "pct_change": 0.47678217821782176,
+          "direction": "rose"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": 30848,
+  "completion_rate_city": 0.4093,
+  "completion_history_city": [],
+  "enrollment_history_city": [
+    {
+      "year": 2013,
+      "value": 7146.0
+    },
+    {
+      "year": 2014,
+      "value": 6839.0
+    },
+    {
+      "year": 2015,
+      "value": 6811.0
+    },
+    {
+      "year": 2016,
+      "value": 6712.0
+    },
+    {
+      "year": 2017,
+      "value": 6574.0
+    },
+    {
+      "year": 2018,
+      "value": 6331.0
+    },
+    {
+      "year": 2019,
+      "value": 6044.0
+    },
+    {
+      "year": 2020,
+      "value": 5922.0
+    },
+    {
+      "year": 2021,
+      "value": 5531.0
+    },
+    {
+      "year": 2022,
+      "value": 5373.0
+    },
+    {
+      "year": 2023,
+      "value": 5602.0
+    },
+    {
+      "year": 2024,
+      "value": 6174.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "institution_unitid": "232195",
+  "institution_name": "Germanna Community College",
+  "institution_slug": "germanna-community-college-232195",
+  "state": "va",
+  "cip_code": "5106",
+  "cip_desc": "Dental Support Services and Allied Professions.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "5106-c2",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": null,
+  "earnings_count_5yr": null,
+  "debt_median": null,
+  "completers": 0,
+  "completers_single_year": null,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [],
+    "completers": [
+      {
+        "year": 2019,
+        "value": 0.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "232195",
+    "slug": "germanna-community-college-232195",
+    "name": "Germanna Community College",
+    "city": "Locust Grove",
+    "city_slug": "locust-grove",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "northern-virginia-community-college-232946",
+      "institution_name": "Northern Virginia Community College",
+      "earnings_median_5yr": 81348,
+      "earnings_median_4yr": 75837,
+      "debt_median": 20250,
+      "completers": 33,
+      "completers_single_year": 25,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "virginia-western-community-college-233949",
+      "institution_name": "Virginia Western Community College",
+      "earnings_median_5yr": 65927,
+      "earnings_median_4yr": 58443,
+      "debt_median": 9091,
+      "completers": 25,
+      "completers_single_year": 29,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wytheville-community-college-234377",
+      "institution_name": "Wytheville Community College",
+      "earnings_median_5yr": 55127,
+      "earnings_median_4yr": 53071,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ecpi-university-248934",
+      "institution_name": "ECPI University",
+      "earnings_median_5yr": 31931,
+      "earnings_median_4yr": 30744,
+      "debt_median": 14146,
+      "completers": 74,
+      "completers_single_year": 82,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "j-sargeant-reynolds-community-college-232414",
+      "institution_name": "J Sargeant Reynolds Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "virginia-peninsula-community-college-233754",
+      "institution_name": "Virginia Peninsula Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "columbia-college-455983",
+      "institution_name": "Columbia College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 7350,
+      "cost_total_default": 14700,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "51"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

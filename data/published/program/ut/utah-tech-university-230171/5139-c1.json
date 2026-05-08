@@ -1,0 +1,239 @@
+{
+  "institution_unitid": "230171",
+  "institution_name": "Utah Tech University",
+  "institution_slug": "utah-tech-university-230171",
+  "state": "ut",
+  "cip_code": "5139",
+  "cip_desc": "Practical Nursing, Vocational Nursing and Nursing Assistants.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "5139-c1",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": null,
+  "earnings_count_5yr": null,
+  "debt_median": null,
+  "completers": 103,
+  "completers_single_year": 174,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 145.0
+      },
+      {
+        "year": 2015,
+        "value": 186.0
+      },
+      {
+        "year": 2016,
+        "value": 207.0
+      },
+      {
+        "year": 2017,
+        "value": 135.0
+      },
+      {
+        "year": 2018,
+        "value": 174.0
+      },
+      {
+        "year": 2019,
+        "value": 103.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "230171",
+    "slug": "utah-tech-university-230171",
+    "name": "Utah Tech University",
+    "city": "Saint George",
+    "city_slug": "saint-george",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "ogden-weber-technical-college-230490",
+      "institution_name": "Ogden-Weber Technical College",
+      "earnings_median_5yr": 59683,
+      "earnings_median_4yr": 50438,
+      "debt_median": null,
+      "completers": 165,
+      "completers_single_year": 219,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bridgerland-technical-college-230010",
+      "institution_name": "Bridgerland Technical College",
+      "earnings_median_5yr": 58896,
+      "earnings_median_4yr": 51379,
+      "debt_median": null,
+      "completers": 148,
+      "completers_single_year": 152,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "davis-technical-college-230162",
+      "institution_name": "Davis Technical College",
+      "earnings_median_5yr": 57655,
+      "earnings_median_4yr": 47162,
+      "debt_median": null,
+      "completers": 468,
+      "completers_single_year": 436,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mountainland-technical-college-448248",
+      "institution_name": "Mountainland Technical College",
+      "earnings_median_5yr": 49322,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 481,
+      "completers_single_year": 437,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "snow-college-230597",
+      "institution_name": "Snow College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 221,
+      "completers_single_year": 303,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "uintah-basin-technical-college-230676",
+      "institution_name": "Uintah Basin Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 210,
+      "completers_single_year": 137,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "utah-state-university-230728",
+      "institution_name": "Utah State University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 9906,
+      "completers": 48,
+      "completers_single_year": 34,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "salt-lake-community-college-230746",
+      "institution_name": "Salt Lake Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 53,
+      "completers_single_year": 63,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "nightingale-college-444787",
+      "institution_name": "Nightingale College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southwest-technical-college-449816",
+      "institution_name": "Southwest Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 106,
+      "completers_single_year": 72,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "dixie-technical-college-451583",
+      "institution_name": "Dixie Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 95,
+      "completers_single_year": 62,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "tooele-technical-college-475723",
+      "institution_name": "Tooele Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 26,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 14697,
+      "cost_total_default": 14697,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "51"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

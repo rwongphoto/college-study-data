@@ -1,0 +1,300 @@
+{
+  "institution_unitid": "180984",
+  "institution_name": "Concordia University-Nebraska",
+  "institution_slug": "concordia-university-nebraska-180984",
+  "state": "ne",
+  "cip_code": "1303",
+  "cip_desc": "Curriculum and Instruction.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "1303-c5",
+  "earnings_median_4yr": 53571,
+  "earnings_median_5yr": 55734,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": 33454,
+  "completers": 697,
+  "completers_single_year": 34,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 53571.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 55734.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 25930.0
+      },
+      {
+        "year": 2015,
+        "value": 32630.0
+      },
+      {
+        "year": 2016,
+        "value": 37967.0
+      },
+      {
+        "year": 2017,
+        "value": 33801.0
+      },
+      {
+        "year": 2018,
+        "value": 33454.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 35.0
+      },
+      {
+        "year": 2015,
+        "value": 31.0
+      },
+      {
+        "year": 2016,
+        "value": 26.0
+      },
+      {
+        "year": 2017,
+        "value": 24.0
+      },
+      {
+        "year": 2018,
+        "value": 34.0
+      },
+      {
+        "year": 2019,
+        "value": 697.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 25930.0,
+      "to_value": 33454.0,
+      "pct_change": 0.2901658310836869,
+      "direction": "rose"
+    },
+    {
+      "metric": "completers",
+      "from_year": 2014,
+      "to_year": 2019,
+      "from_value": 35.0,
+      "to_value": 697.0,
+      "pct_change": 0.662,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Curriculum and Instruction at Concordia University-Nebraska rose 29% between 2014 and 2018 ($25.9k → $33.5k).",
+      "magnitude_pct": 29.0,
+      "magnitude_abs": 7524.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    },
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Annual completers",
+      "summary": "Annual completers at Curriculum and Instruction at Concordia University-Nebraska rose 66% between 2014 and 2019 (35 → 697).",
+      "magnitude_pct": 66.2,
+      "magnitude_abs": 662.0,
+      "baseline_year": 2014,
+      "recent_year": 2019,
+      "units": null,
+      "history": [],
+      "metric": "completers"
+    }
+  ],
+  "institution": {
+    "unitid": "180984",
+    "slug": "concordia-university-nebraska-180984",
+    "name": "Concordia University-Nebraska",
+    "city": "Seward",
+    "city_slug": "seward",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "peru-state-college-181534",
+      "institution_name": "Peru State College",
+      "earnings_median_5yr": 61844,
+      "earnings_median_4yr": 57622,
+      "debt_median": 16234,
+      "completers": 102,
+      "completers_single_year": 89,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-nebraska-at-kearney-181215",
+      "institution_name": "University of Nebraska at Kearney",
+      "earnings_median_5yr": 60832,
+      "earnings_median_4yr": 54975,
+      "debt_median": 16150,
+      "completers": 83,
+      "completers_single_year": 78,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wayne-state-college-181783",
+      "institution_name": "Wayne State College",
+      "earnings_median_5yr": 57153,
+      "earnings_median_4yr": 54064,
+      "debt_median": 17237,
+      "completers": 61,
+      "completers_single_year": 89,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "doane-university-181020",
+      "institution_name": "Doane University",
+      "earnings_median_5yr": 55404,
+      "earnings_median_4yr": 51750,
+      "debt_median": 9930,
+      "completers": 139,
+      "completers_single_year": 174,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-nebraska-lincoln-181464",
+      "institution_name": "University of Nebraska-Lincoln",
+      "earnings_median_5yr": 55269,
+      "earnings_median_4yr": 51673,
+      "debt_median": 20250,
+      "completers": 46,
+      "completers_single_year": 61,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "chadron-state-college-180948",
+      "institution_name": "Chadron State College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 18555,
+      "completers": 17,
+      "completers_single_year": 36,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-nebraska-medical-center-181428",
+      "institution_name": "University of Nebraska Medical Center",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "nebraska-wesleyan-university-181446",
+      "institution_name": "Nebraska Wesleyan University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "college-of-saint-mary-181604",
+      "institution_name": "College of Saint Mary",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "york-university-181853",
+      "institution_name": "York University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 21880,
+      "cost_total_default": 131280,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 55734,
+      "earnings_anchor_year": 5,
+      "debt_median": 33454,
+      "cip_family": "13",
+      "hs_baseline_state": 36900
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 108782,
+      "breakeven_year": 23
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

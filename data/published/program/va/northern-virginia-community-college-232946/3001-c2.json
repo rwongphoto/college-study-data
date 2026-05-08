@@ -1,0 +1,234 @@
+{
+  "institution_unitid": "232946",
+  "institution_name": "Northern Virginia Community College",
+  "institution_slug": "northern-virginia-community-college-232946",
+  "state": "va",
+  "cip_code": "3001",
+  "cip_desc": "Biological and Physical Sciences.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "3001-c2",
+  "earnings_median_4yr": 37222,
+  "earnings_median_5yr": 46948,
+  "earnings_count_4yr": 13,
+  "earnings_count_5yr": 13,
+  "debt_median": 9875,
+  "completers": 367,
+  "completers_single_year": 322,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 37222.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 46948.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 9739.0
+      },
+      {
+        "year": 2015,
+        "value": 9500.0
+      },
+      {
+        "year": 2016,
+        "value": 9000.0
+      },
+      {
+        "year": 2017,
+        "value": 9500.0
+      },
+      {
+        "year": 2018,
+        "value": 9875.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 374.0
+      },
+      {
+        "year": 2015,
+        "value": 343.0
+      },
+      {
+        "year": 2016,
+        "value": 357.0
+      },
+      {
+        "year": 2017,
+        "value": 343.0
+      },
+      {
+        "year": 2018,
+        "value": 322.0
+      },
+      {
+        "year": 2019,
+        "value": 367.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "232946",
+    "slug": "northern-virginia-community-college-232946",
+    "name": "Northern Virginia Community College",
+    "city": "Annandale",
+    "city_slug": "annandale",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "blue-ridge-community-college-231536",
+      "institution_name": "Blue Ridge Community College",
+      "earnings_median_5yr": 54897,
+      "earnings_median_4yr": 52894,
+      "debt_median": null,
+      "completers": 28,
+      "completers_single_year": 40,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "piedmont-virginia-community-college-233116",
+      "institution_name": "Piedmont Virginia Community College",
+      "earnings_median_5yr": 51995,
+      "earnings_median_4yr": 43109,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "laurel-ridge-community-college-232575",
+      "institution_name": "Laurel Ridge Community College",
+      "earnings_median_5yr": 50568,
+      "earnings_median_4yr": 38222,
+      "debt_median": 7101,
+      "completers": 184,
+      "completers_single_year": 181,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "j-sargeant-reynolds-community-college-232414",
+      "institution_name": "J Sargeant Reynolds Community College",
+      "earnings_median_5yr": 42732,
+      "earnings_median_4yr": 37193,
+      "debt_median": 10225,
+      "completers": 154,
+      "completers_single_year": 116,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "virginia-western-community-college-233949",
+      "institution_name": "Virginia Western Community College",
+      "earnings_median_5yr": 42298,
+      "earnings_median_4yr": 36301,
+      "debt_median": 6000,
+      "completers": 87,
+      "completers_single_year": 103,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "virginia-peninsula-community-college-233754",
+      "institution_name": "Virginia Peninsula Community College",
+      "earnings_median_5yr": 42149,
+      "earnings_median_4yr": 35380,
+      "debt_median": 9250,
+      "completers": 98,
+      "completers_single_year": 96,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "tidewater-community-college-233772",
+      "institution_name": "Tidewater Community College",
+      "earnings_median_5yr": 41396,
+      "earnings_median_4yr": 38907,
+      "debt_median": 9259,
+      "completers": 241,
+      "completers_single_year": 239,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "brightpoint-community-college-232450",
+      "institution_name": "Brightpoint Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 29,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 13,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 10033,
+      "cost_total_default": 20066,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 46948,
+      "earnings_anchor_year": 5,
+      "debt_median": 9875,
+      "cip_family": "30",
+      "hs_baseline_state": 39800
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 173857,
+      "breakeven_year": 12
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

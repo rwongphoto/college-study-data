@@ -1,0 +1,165 @@
+{
+  "institution_unitid": "224679",
+  "institution_name": "Western Technical College",
+  "institution_slug": "western-technical-college-224679",
+  "state": "tx",
+  "cip_code": "4902",
+  "cip_desc": "Ground Transportation.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "4902-c1",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": null,
+  "earnings_count_5yr": null,
+  "debt_median": null,
+  "completers": 399,
+  "completers_single_year": 305,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [],
+    "completers": [
+      {
+        "year": 2016,
+        "value": 54.0
+      },
+      {
+        "year": 2017,
+        "value": 166.0
+      },
+      {
+        "year": 2018,
+        "value": 305.0
+      },
+      {
+        "year": 2019,
+        "value": 399.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "completers",
+      "from_year": 2016,
+      "to_year": 2019,
+      "from_value": 54.0,
+      "to_value": 399.0,
+      "pct_change": 0.345,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Annual completers",
+      "summary": "Annual completers at Ground Transportation at Western Technical College rose 34% between 2016 and 2019 (54 → 399).",
+      "magnitude_pct": 34.5,
+      "magnitude_abs": 345.0,
+      "baseline_year": 2016,
+      "recent_year": 2019,
+      "units": null,
+      "history": [],
+      "metric": "completers"
+    }
+  ],
+  "institution": {
+    "unitid": "224679",
+    "slug": "western-technical-college-224679",
+    "name": "Western Technical College",
+    "city": "El Paso",
+    "city_slug": "el-paso",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "m-t-training-center-481003",
+      "institution_name": "M T Training Center",
+      "earnings_median_5yr": 26509,
+      "earnings_median_4yr": 31730,
+      "debt_median": 6754,
+      "completers": 169,
+      "completers_single_year": 141,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "amarillo-college-222576",
+      "institution_name": "Amarillo College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 52,
+      "completers_single_year": 124,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lee-college-226204",
+      "institution_name": "Lee College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 32,
+      "completers_single_year": 29,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": null,
+      "cost_total_default": null,
+      "cost_source": null,
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "49"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

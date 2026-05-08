@@ -1,0 +1,368 @@
+{
+  "institution_unitid": "239460",
+  "institution_name": "Northcentral Technical College",
+  "institution_slug": "northcentral-technical-college-239460",
+  "state": "wi",
+  "cip_code": "5138",
+  "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "5138-c2",
+  "earnings_median_4yr": 55009,
+  "earnings_median_5yr": 62049,
+  "earnings_count_4yr": 5,
+  "earnings_count_5yr": 4,
+  "debt_median": 8000,
+  "completers": 92,
+  "completers_single_year": 97,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 55009.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 62049.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 10250.0
+      },
+      {
+        "year": 2015,
+        "value": 11250.0
+      },
+      {
+        "year": 2016,
+        "value": 11575.0
+      },
+      {
+        "year": 2017,
+        "value": 8750.0
+      },
+      {
+        "year": 2018,
+        "value": 8000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 81.0
+      },
+      {
+        "year": 2015,
+        "value": 89.0
+      },
+      {
+        "year": 2016,
+        "value": 83.0
+      },
+      {
+        "year": 2017,
+        "value": 91.0
+      },
+      {
+        "year": 2018,
+        "value": 97.0
+      },
+      {
+        "year": 2019,
+        "value": 92.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 10250.0,
+      "to_value": 8000.0,
+      "pct_change": -0.21951219512195122,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing at Northcentral Technical College fell 22% between 2014 and 2018 ($10.2k → $8.0k).",
+      "magnitude_pct": -22.0,
+      "magnitude_abs": -2250.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "239460",
+    "slug": "northcentral-technical-college-239460",
+    "name": "Northcentral Technical College",
+    "city": "Wausau",
+    "city_slug": "wausau",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "herzing-university-madison-240392",
+      "institution_name": "Herzing University-Madison",
+      "earnings_median_5yr": 76115,
+      "earnings_median_4yr": 66789,
+      "debt_median": 19259,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "waukesha-county-technical-college-240125",
+      "institution_name": "Waukesha County Technical College",
+      "earnings_median_5yr": 72041,
+      "earnings_median_4yr": 63167,
+      "debt_median": 15750,
+      "completers": 84,
+      "completers_single_year": 89,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "gateway-technical-college-238759",
+      "institution_name": "Gateway Technical College",
+      "earnings_median_5yr": 71599,
+      "earnings_median_4yr": 69644,
+      "debt_median": 14625,
+      "completers": 114,
+      "completers_single_year": 140,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "milwaukee-area-technical-college-239248",
+      "institution_name": "Milwaukee Area Technical College",
+      "earnings_median_5yr": 71497,
+      "earnings_median_4yr": 65485,
+      "debt_median": 18500,
+      "completers": 126,
+      "completers_single_year": 104,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southwest-wisconsin-technical-college-239910",
+      "institution_name": "Southwest Wisconsin Technical College",
+      "earnings_median_5yr": 70241,
+      "earnings_median_4yr": 62369,
+      "debt_median": 10125,
+      "completers": 54,
+      "completers_single_year": 33,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "chippewa-valley-technical-college-240116",
+      "institution_name": "Chippewa Valley Technical College",
+      "earnings_median_5yr": 69998,
+      "earnings_median_4yr": 62010,
+      "debt_median": 16700,
+      "completers": 168,
+      "completers_single_year": 181,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "moraine-park-technical-college-239372",
+      "institution_name": "Moraine Park Technical College",
+      "earnings_median_5yr": 69474,
+      "earnings_median_4yr": 61600,
+      "debt_median": 10500,
+      "completers": 84,
+      "completers_single_year": 90,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northwood-technical-college-240198",
+      "institution_name": "Northwood Technical College",
+      "earnings_median_5yr": 68980,
+      "earnings_median_4yr": 60056,
+      "debt_median": 9167,
+      "completers": 69,
+      "completers_single_year": 74,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-technical-college-240170",
+      "institution_name": "Western Technical College",
+      "earnings_median_5yr": 68772,
+      "earnings_median_4yr": 61232,
+      "debt_median": 15150,
+      "completers": 75,
+      "completers_single_year": 106,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "nicolet-area-technical-college-239442",
+      "institution_name": "Nicolet Area Technical College",
+      "earnings_median_5yr": 66413,
+      "earnings_median_4yr": 60086,
+      "debt_median": 11500,
+      "completers": 22,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "fox-valley-technical-college-238722",
+      "institution_name": "Fox Valley Technical College",
+      "earnings_median_5yr": 65038,
+      "earnings_median_4yr": 61686,
+      "debt_median": 12333,
+      "completers": 72,
+      "completers_single_year": 62,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northeast-wisconsin-technical-college-239488",
+      "institution_name": "Northeast Wisconsin Technical College",
+      "earnings_median_5yr": 63669,
+      "earnings_median_4yr": 58870,
+      "debt_median": 12113,
+      "completers": 195,
+      "completers_single_year": 219,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lakeshore-technical-college-239008",
+      "institution_name": "Lakeshore Technical College",
+      "earnings_median_5yr": 63588,
+      "earnings_median_4yr": 60189,
+      "debt_median": 9000,
+      "completers": 33,
+      "completers_single_year": 36,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "blackhawk-technical-college-238397",
+      "institution_name": "Blackhawk Technical College",
+      "earnings_median_5yr": 61984,
+      "earnings_median_4yr": 56953,
+      "debt_median": 11041,
+      "completers": 57,
+      "completers_single_year": 37,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mid-state-technical-college-239220",
+      "institution_name": "Mid-State Technical College",
+      "earnings_median_5yr": 52861,
+      "earnings_median_4yr": 48559,
+      "debt_median": 9000,
+      "completers": 53,
+      "completers_single_year": 68,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "madison-area-technical-college-238263",
+      "institution_name": "Madison Area Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 19874,
+      "completers": 181,
+      "completers_single_year": 178,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "carroll-university-238458",
+      "institution_name": "Carroll University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lac-courte-oreilles-ojibwe-university-260372",
+      "institution_name": "Lac Courte Oreilles Ojibwe University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 19,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "college-of-menominee-nation-413617",
+      "institution_name": "College of Menominee Nation",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 4,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 10143,
+      "cost_total_default": 20286,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 62049,
+      "earnings_anchor_year": 5,
+      "debt_median": 8000,
+      "cip_family": "51",
+      "hs_baseline_state": 37100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 529888,
+      "breakeven_year": 3
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

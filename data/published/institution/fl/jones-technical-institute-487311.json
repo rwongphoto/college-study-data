@@ -1,0 +1,1270 @@
+{
+  "institution": {
+    "unitid": "487311",
+    "opeid6": "025240",
+    "name": "Jones Technical Institute",
+    "slug": "jones-technical-institute-487311",
+    "state": "fl",
+    "city": "Jacksonville",
+    "city_slug": "jacksonville",
+    "zip5": "32256",
+    "address": "8813 Western Way",
+    "latitude": 30.20813,
+    "longitude": -81.561491,
+    "control": "private_nonprofit",
+    "pred_degree": "associates",
+    "highest_degree": "associates",
+    "main_campus": true,
+    "locale": "11",
+    "carnegie_basic": -2,
+    "sector_code": 5,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": 30221,
+    "earnings_median_8yr": 19892,
+    "earnings_median_10yr": 24576,
+    "completion_rate_150": 0.7097,
+    "completion_rate_100": 0.7097,
+    "retention_rate": 0.6842,
+    "admission_rate": null,
+    "enrollment_undergrad": 522,
+    "enrollment_total": null,
+    "cost_attendance": 26274,
+    "tuition_in_state": 15978,
+    "tuition_out_of_state": 15978,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": 20833,
+    "cost_by_income": {
+      "0_30k": 19104,
+      "30_48k": 19332,
+      "48_75k": 23116,
+      "75_110k": 22718,
+      "110k_plus": 24856,
+      "sticker": 26274,
+      "sector": "priv"
+    },
+    "median_debt": 6333,
+    "default_rate": 0.0,
+    "pell_share": 0.6264,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [
+        {
+          "year": 2015,
+          "value": 0.8939
+        },
+        {
+          "year": 2016,
+          "value": 0.7851
+        },
+        {
+          "year": 2017,
+          "value": 0.7101
+        },
+        {
+          "year": 2018,
+          "value": 0.6289
+        },
+        {
+          "year": 2019,
+          "value": 0.6667
+        },
+        {
+          "year": 2020,
+          "value": 0.6639
+        },
+        {
+          "year": 2021,
+          "value": 0.7211
+        },
+        {
+          "year": 2022,
+          "value": 0.7301
+        },
+        {
+          "year": 2023,
+          "value": 0.6842
+        },
+        {
+          "year": 2024,
+          "value": 0.6226
+        }
+      ],
+      "admission_rate": [],
+      "enrollment_undergrad": [
+        {
+          "year": 2015,
+          "value": 267.0
+        },
+        {
+          "year": 2016,
+          "value": 313.0
+        },
+        {
+          "year": 2017,
+          "value": 258.0
+        },
+        {
+          "year": 2018,
+          "value": 307.0
+        },
+        {
+          "year": 2019,
+          "value": 320.0
+        },
+        {
+          "year": 2020,
+          "value": 375.0
+        },
+        {
+          "year": 2021,
+          "value": 348.0
+        },
+        {
+          "year": 2022,
+          "value": 522.0
+        },
+        {
+          "year": 2023,
+          "value": 522.0
+        },
+        {
+          "year": 2024,
+          "value": 659.0
+        }
+      ],
+      "tuition_in_state": [
+        {
+          "year": 2015,
+          "value": 10725.0
+        },
+        {
+          "year": 2016,
+          "value": 13065.0
+        },
+        {
+          "year": 2017,
+          "value": 13065.0
+        },
+        {
+          "year": 2018,
+          "value": 13698.0
+        },
+        {
+          "year": 2019,
+          "value": 13689.0
+        },
+        {
+          "year": 2020,
+          "value": 13689.0
+        },
+        {
+          "year": 2021,
+          "value": 13689.0
+        },
+        {
+          "year": 2022,
+          "value": 14547.0
+        },
+        {
+          "year": 2023,
+          "value": 15978.0
+        },
+        {
+          "year": 2024,
+          "value": 16920.0
+        }
+      ],
+      "tuition_out_of_state": [
+        {
+          "year": 2015,
+          "value": 10725.0
+        },
+        {
+          "year": 2016,
+          "value": 13065.0
+        },
+        {
+          "year": 2017,
+          "value": 13065.0
+        },
+        {
+          "year": 2018,
+          "value": 13698.0
+        },
+        {
+          "year": 2019,
+          "value": 13689.0
+        },
+        {
+          "year": 2020,
+          "value": 13689.0
+        },
+        {
+          "year": 2021,
+          "value": 13689.0
+        },
+        {
+          "year": 2022,
+          "value": 14547.0
+        },
+        {
+          "year": 2023,
+          "value": 15978.0
+        },
+        {
+          "year": 2024,
+          "value": 16920.0
+        }
+      ],
+      "cost_attendance": [
+        {
+          "year": 2015,
+          "value": 22941.0
+        },
+        {
+          "year": 2016,
+          "value": 23356.0
+        },
+        {
+          "year": 2017,
+          "value": 29803.0
+        },
+        {
+          "year": 2018,
+          "value": 21785.0
+        },
+        {
+          "year": 2019,
+          "value": 25114.0
+        },
+        {
+          "year": 2020,
+          "value": 26931.0
+        },
+        {
+          "year": 2021,
+          "value": 25373.0
+        },
+        {
+          "year": 2022,
+          "value": 24127.0
+        },
+        {
+          "year": 2023,
+          "value": 26274.0
+        },
+        {
+          "year": 2024,
+          "value": 30987.0
+        }
+      ],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [
+        {
+          "year": 2015,
+          "value": 19579.0
+        },
+        {
+          "year": 2016,
+          "value": 19165.0
+        },
+        {
+          "year": 2017,
+          "value": 25901.0
+        },
+        {
+          "year": 2018,
+          "value": 18437.0
+        },
+        {
+          "year": 2019,
+          "value": 20479.0
+        },
+        {
+          "year": 2020,
+          "value": 21613.0
+        },
+        {
+          "year": 2021,
+          "value": 19281.0
+        },
+        {
+          "year": 2022,
+          "value": 17704.0
+        },
+        {
+          "year": 2023,
+          "value": 20833.0
+        },
+        {
+          "year": 2024,
+          "value": 25462.0
+        }
+      ],
+      "median_debt": [
+        {
+          "year": 2015,
+          "value": 9150.0
+        },
+        {
+          "year": 2016,
+          "value": 9500.0
+        },
+        {
+          "year": 2017,
+          "value": 10749.0
+        },
+        {
+          "year": 2018,
+          "value": 10079.0
+        },
+        {
+          "year": 2019,
+          "value": 9500.0
+        },
+        {
+          "year": 2020,
+          "value": 10294.0
+        }
+      ],
+      "default_rate": [
+        {
+          "year": 2015,
+          "value": 0.073
+        },
+        {
+          "year": 2016,
+          "value": 0.087
+        },
+        {
+          "year": 2017,
+          "value": 0.049
+        },
+        {
+          "year": 2018,
+          "value": 0.016
+        },
+        {
+          "year": 2019,
+          "value": 0.086
+        },
+        {
+          "year": 2020,
+          "value": 0.087
+        },
+        {
+          "year": 2021,
+          "value": 0.023
+        },
+        {
+          "year": 2022,
+          "value": 0.0
+        },
+        {
+          "year": 2023,
+          "value": 0.0
+        },
+        {
+          "year": 2024,
+          "value": 0.002
+        }
+      ],
+      "pell_share": [
+        {
+          "year": 2015,
+          "value": 0.6852
+        },
+        {
+          "year": 2016,
+          "value": 0.5693
+        },
+        {
+          "year": 2017,
+          "value": 0.8314
+        },
+        {
+          "year": 2018,
+          "value": 0.5798
+        },
+        {
+          "year": 2019,
+          "value": 0.7363
+        },
+        {
+          "year": 2020,
+          "value": 0.6688
+        },
+        {
+          "year": 2021,
+          "value": 0.4286
+        },
+        {
+          "year": 2022,
+          "value": 0.6638
+        },
+        {
+          "year": 2023,
+          "value": 0.6264
+        },
+        {
+          "year": 2024,
+          "value": 0.6264
+        }
+      ],
+      "earnings_median_6yr": [
+        {
+          "year": 2020,
+          "value": 30221.0
+        }
+      ],
+      "earnings_median_8yr": [
+        {
+          "year": 2020,
+          "value": 19892.0
+        }
+      ],
+      "earnings_median_10yr": [
+        {
+          "year": 2020,
+          "value": 24576.0
+        }
+      ]
+    },
+    "long_arc": [
+      {
+        "metric": "retention_rate",
+        "from_year": 2015,
+        "to_year": 2024,
+        "from_value": 0.8939,
+        "to_value": 0.6226,
+        "pct_change": -0.30350151023604427,
+        "direction": "fell"
+      },
+      {
+        "metric": "enrollment_undergrad",
+        "from_year": 2015,
+        "to_year": 2024,
+        "from_value": 267.0,
+        "to_value": 659.0,
+        "pct_change": 1.4681647940074907,
+        "direction": "rose"
+      },
+      {
+        "metric": "tuition_in_state",
+        "from_year": 2015,
+        "to_year": 2024,
+        "from_value": 10725.0,
+        "to_value": 16920.0,
+        "pct_change": 0.5776223776223777,
+        "direction": "rose"
+      },
+      {
+        "metric": "tuition_out_of_state",
+        "from_year": 2015,
+        "to_year": 2024,
+        "from_value": 10725.0,
+        "to_value": 16920.0,
+        "pct_change": 0.5776223776223777,
+        "direction": "rose"
+      },
+      {
+        "metric": "default_rate",
+        "from_year": 2015,
+        "to_year": 2024,
+        "from_value": 0.073,
+        "to_value": 0.002,
+        "pct_change": -0.9726027397260274,
+        "direction": "fell"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "In-state tuition",
+        "summary": "In-state tuition at Jones Technical Institute rose 24% between 2021 and 2024 ($13.7k → $16.9k).",
+        "magnitude_pct": 23.6,
+        "magnitude_abs": 3231.0,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": null,
+        "history": [],
+        "metric": "tuition_in_state"
+      },
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "Out-of-state tuition",
+        "summary": "Out-of-state tuition at Jones Technical Institute rose 24% between 2021 and 2024 ($13.7k → $16.9k).",
+        "magnitude_pct": 23.6,
+        "magnitude_abs": 3231.0,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": null,
+        "history": [],
+        "metric": "tuition_out_of_state"
+      },
+      {
+        "type": "earnings_trend",
+        "severity": "regression",
+        "label": "Earnings trend · post-entry horizons",
+        "summary": "Earnings 10 years post-entry at Jones Technical Institute are 19% below 6-year earnings ($30.2k → $24.6k).",
+        "magnitude_pct": -18.7,
+        "magnitude_abs": -5645.0,
+        "baseline_year": 6,
+        "recent_year": 10,
+        "units": "$",
+        "history": [],
+        "metric": "earnings_progression"
+      },
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "First-year retention",
+        "summary": "First-year retention at Jones Technical Institute fell 14% between 2021 and 2024 (72.1% → 62.3%).",
+        "magnitude_pct": -13.7,
+        "magnitude_abs": -0.1,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": "%",
+        "history": [],
+        "metric": "retention_rate"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "12": [
+      {
+        "slug": "1204-c1",
+        "cip_code": "1204",
+        "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": 23945,
+        "earnings_median_4yr": 17824,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 23945.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 17824.0
+          }
+        ],
+        "debt_median": 7667,
+        "debt_history": [
+          {
+            "year": 2018,
+            "value": 7667.0
+          }
+        ],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      }
+    ],
+    "15": [
+      {
+        "slug": "1508-c2",
+        "cip_code": "1508",
+        "cip_desc": "Mechanical Engineering Related Technologies/Technicians.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 42,
+        "completers_single_year": 56,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 20.0
+          },
+          {
+            "year": 2015,
+            "value": 74.0
+          },
+          {
+            "year": 2016,
+            "value": 71.0
+          },
+          {
+            "year": 2017,
+            "value": 63.0
+          },
+          {
+            "year": 2018,
+            "value": 56.0
+          },
+          {
+            "year": 2019,
+            "value": 42.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "47": [
+      {
+        "slug": "4706-c2",
+        "cip_code": "4706",
+        "cip_desc": "Vehicle Maintenance and Repair Technologies.",
+        "credential_level": 2,
+        "credential_desc": "Associate's Degree",
+        "earnings_median_5yr": 50562,
+        "earnings_median_4yr": 48341,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 50562.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 48341.0
+          }
+        ],
+        "debt_median": 18167,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 14750.0
+          },
+          {
+            "year": 2015,
+            "value": 14440.0
+          },
+          {
+            "year": 2016,
+            "value": 15358.0
+          },
+          {
+            "year": 2017,
+            "value": 18145.0
+          },
+          {
+            "year": 2018,
+            "value": 18167.0
+          }
+        ],
+        "completers": 75,
+        "completers_single_year": 67,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 24.0
+          },
+          {
+            "year": 2015,
+            "value": 84.0
+          },
+          {
+            "year": 2016,
+            "value": 72.0
+          },
+          {
+            "year": 2017,
+            "value": 62.0
+          },
+          {
+            "year": 2018,
+            "value": 67.0
+          },
+          {
+            "year": 2019,
+            "value": 75.0
+          }
+        ],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2014,
+            "to_year": 2018,
+            "from_value": 14750.0,
+            "to_value": 18167.0,
+            "pct_change": 0.23166101694915253,
+            "direction": "rose"
+          }
+        ]
+      },
+      {
+        "slug": "4706-c1",
+        "cip_code": "4706",
+        "cip_desc": "Vehicle Maintenance and Repair Technologies.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      }
+    ],
+    "49": [
+      {
+        "slug": "4902-c1",
+        "cip_code": "4902",
+        "cip_desc": "Ground Transportation.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 131,
+        "completers_single_year": 118,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 43.0
+          },
+          {
+            "year": 2015,
+            "value": 63.0
+          },
+          {
+            "year": 2016,
+            "value": 92.0
+          },
+          {
+            "year": 2017,
+            "value": 100.0
+          },
+          {
+            "year": 2018,
+            "value": 118.0
+          },
+          {
+            "year": 2019,
+            "value": 131.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "51": [
+      {
+        "slug": "5132-c1",
+        "cip_code": "5132",
+        "cip_desc": "Bioethics/Medical Ethics.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      },
+      {
+        "slug": "5135-c1",
+        "cip_code": "5135",
+        "cip_desc": "Somatic Bodywork and Related Therapeutic Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": 26005,
+        "earnings_median_4yr": 20582,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 26005.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 20582.0
+          }
+        ],
+        "debt_median": 6333,
+        "debt_history": [
+          {
+            "year": 2018,
+            "value": 6333.0
+          }
+        ],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "4902-c1",
+      "cip_code": "4902",
+      "cip_desc": "Ground Transportation.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 131,
+      "completers_single_year": 118,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 43.0
+        },
+        {
+          "year": 2015,
+          "value": 63.0
+        },
+        {
+          "year": 2016,
+          "value": 92.0
+        },
+        {
+          "year": 2017,
+          "value": 100.0
+        },
+        {
+          "year": 2018,
+          "value": 118.0
+        },
+        {
+          "year": 2019,
+          "value": 131.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4706-c2",
+      "cip_code": "4706",
+      "cip_desc": "Vehicle Maintenance and Repair Technologies.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": 50562,
+      "earnings_median_4yr": 48341,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 50562.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 48341.0
+        }
+      ],
+      "debt_median": 18167,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 14750.0
+        },
+        {
+          "year": 2015,
+          "value": 14440.0
+        },
+        {
+          "year": 2016,
+          "value": 15358.0
+        },
+        {
+          "year": 2017,
+          "value": 18145.0
+        },
+        {
+          "year": 2018,
+          "value": 18167.0
+        }
+      ],
+      "completers": 75,
+      "completers_single_year": 67,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 24.0
+        },
+        {
+          "year": 2015,
+          "value": 84.0
+        },
+        {
+          "year": 2016,
+          "value": 72.0
+        },
+        {
+          "year": 2017,
+          "value": 62.0
+        },
+        {
+          "year": 2018,
+          "value": 67.0
+        },
+        {
+          "year": 2019,
+          "value": 75.0
+        }
+      ],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2014,
+          "to_year": 2018,
+          "from_value": 14750.0,
+          "to_value": 18167.0,
+          "pct_change": 0.23166101694915253,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "slug": "1508-c2",
+      "cip_code": "1508",
+      "cip_desc": "Mechanical Engineering Related Technologies/Technicians.",
+      "credential_level": 2,
+      "credential_desc": "Associate's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 42,
+      "completers_single_year": 56,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 20.0
+        },
+        {
+          "year": 2015,
+          "value": 74.0
+        },
+        {
+          "year": 2016,
+          "value": 71.0
+        },
+        {
+          "year": 2017,
+          "value": 63.0
+        },
+        {
+          "year": 2018,
+          "value": 56.0
+        },
+        {
+          "year": 2019,
+          "value": 42.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "1204-c1",
+      "cip_code": "1204",
+      "cip_desc": "Cosmetology and Related Personal Grooming Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": 23945,
+      "earnings_median_4yr": 17824,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 23945.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 17824.0
+        }
+      ],
+      "debt_median": 7667,
+      "debt_history": [
+        {
+          "year": 2018,
+          "value": 7667.0
+        }
+      ],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    },
+    {
+      "slug": "4706-c1",
+      "cip_code": "4706",
+      "cip_desc": "Vehicle Maintenance and Repair Technologies.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    },
+    {
+      "slug": "5132-c1",
+      "cip_code": "5132",
+      "cip_desc": "Bioethics/Medical Ethics.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    },
+    {
+      "slug": "5135-c1",
+      "cip_code": "5135",
+      "cip_desc": "Somatic Bodywork and Related Therapeutic Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": 26005,
+      "earnings_median_4yr": 20582,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 26005.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 20582.0
+        }
+      ],
+      "debt_median": 6333,
+      "debt_history": [
+        {
+          "year": 2018,
+          "value": 6333.0
+        }
+      ],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    }
+  ],
+  "program_count": 7,
+  "similar": [
+    {
+      "slug": "academy-for-nursing-and-health-occupations-412173",
+      "name": "Academy for Nursing and Health Occupations",
+      "city": "West Palm Beach",
+      "control": "private_nonprofit",
+      "pred_degree": "associates",
+      "earnings_median_10yr": 47039,
+      "completion_rate_150": 0.52,
+      "enrollment_undergrad": 559
+    },
+    {
+      "slug": "saber-college-449506",
+      "name": "SABER College",
+      "city": "Miami",
+      "control": "private_nonprofit",
+      "pred_degree": "associates",
+      "earnings_median_10yr": 40816,
+      "completion_rate_150": 1.0,
+      "enrollment_undergrad": 202
+    },
+    {
+      "slug": "ultimate-medical-academy-441371",
+      "name": "Ultimate Medical Academy",
+      "city": "Clearwater",
+      "control": "private_nonprofit",
+      "pred_degree": "associates",
+      "earnings_median_10yr": 29194,
+      "completion_rate_150": 0.5563,
+      "enrollment_undergrad": 7436
+    },
+    {
+      "slug": "florida-college-133809",
+      "name": "Florida College",
+      "city": "Temple Terrace",
+      "control": "private_nonprofit",
+      "pred_degree": "associates",
+      "earnings_median_10yr": 43445,
+      "completion_rate_150": 0.5064,
+      "enrollment_undergrad": 589
+    },
+    {
+      "slug": "south-florida-bible-college-and-theological-seminary-366003",
+      "name": "South Florida Bible College and Theological Seminary",
+      "city": "Deerfield Beach",
+      "control": "private_nonprofit",
+      "pred_degree": "associates",
+      "earnings_median_10yr": 45354,
+      "completion_rate_150": null,
+      "enrollment_undergrad": 271
+    }
+  ],
+  "roi": {
+    "default_program_slug": "4706-c2",
+    "programs_available": [
+      {
+        "slug": "4902-c1",
+        "label": "Ground Transportation · Undergraduate Certificate or Diploma",
+        "cip_family": "49",
+        "completers": 131,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "4706-c2",
+        "label": "Vehicle Maintenance and Repair Technologies · Associate's Degree",
+        "cip_family": "47",
+        "completers": 75,
+        "has_earnings": true,
+        "earnings_at_completion": 50562,
+        "earnings_anchor_year": 5,
+        "debt_median": 18167,
+        "years_to_complete": 2,
+        "default_result": {
+          "npv": 311069,
+          "breakeven_year": 8
+        }
+      },
+      {
+        "slug": "1508-c2",
+        "label": "Mechanical Engineering Related Technologies/Technicians · Associate's Degree",
+        "cip_family": "15",
+        "completers": 42,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 2,
+        "default_result": null
+      },
+      {
+        "slug": "1204-c1",
+        "label": "Cosmetology and Related Personal Grooming Services · Undergraduate Certificate or Diploma",
+        "cip_family": "12",
+        "completers": null,
+        "has_earnings": true,
+        "earnings_at_completion": 23945,
+        "earnings_anchor_year": 5,
+        "debt_median": 7667,
+        "years_to_complete": 1,
+        "default_result": {
+          "npv": -223170,
+          "breakeven_year": null
+        }
+      },
+      {
+        "slug": "4706-c1",
+        "label": "Vehicle Maintenance and Repair Technologies · Undergraduate Certificate or Diploma",
+        "cip_family": "47",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "5132-c1",
+        "label": "Bioethics/Medical Ethics · Undergraduate Certificate or Diploma",
+        "cip_family": "51",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "5135-c1",
+        "label": "Somatic Bodywork and Related Therapeutic Services · Undergraduate Certificate or Diploma",
+        "cip_family": "51",
+        "completers": null,
+        "has_earnings": true,
+        "earnings_at_completion": 26005,
+        "earnings_anchor_year": 5,
+        "debt_median": 6333,
+        "years_to_complete": 1,
+        "default_result": {
+          "npv": -183125,
+          "breakeven_year": null
+        }
+      }
+    ]
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

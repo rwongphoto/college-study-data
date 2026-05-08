@@ -1,0 +1,300 @@
+{
+  "institution_unitid": "242972",
+  "institution_name": "NUC University",
+  "institution_slug": "nuc-university-242972",
+  "state": "pr",
+  "cip_code": "4701",
+  "cip_desc": "Electrical/Electronics Maintenance and Repair Technology.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "4701-c1",
+  "earnings_median_4yr": 17003,
+  "earnings_median_5yr": 19527,
+  "earnings_count_4yr": 115,
+  "earnings_count_5yr": 115,
+  "debt_median": 7684,
+  "completers": 551,
+  "completers_single_year": 318,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 17003.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 19527.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2017,
+        "value": 7684.0
+      },
+      {
+        "year": 2018,
+        "value": 7684.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2018,
+        "value": 318.0
+      },
+      {
+        "year": 2019,
+        "value": 551.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "completers",
+      "from_year": 2018,
+      "to_year": 2019,
+      "from_value": 318.0,
+      "to_value": 551.0,
+      "pct_change": 0.233,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Annual completers",
+      "summary": "Annual completers at Electrical/Electronics Maintenance and Repair Technology at NUC University rose 23% between 2018 and 2019 (318 → 551).",
+      "magnitude_pct": 23.3,
+      "magnitude_abs": 233.0,
+      "baseline_year": 2018,
+      "recent_year": 2019,
+      "units": null,
+      "history": [],
+      "metric": "completers"
+    }
+  ],
+  "institution": {
+    "unitid": "242972",
+    "slug": "nuc-university-242972",
+    "name": "NUC University",
+    "city": "Bayamon",
+    "city_slug": "bayamon",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "automeca-technical-college-bayamon-419703",
+      "institution_name": "Automeca Technical College-Bayamon",
+      "earnings_median_5yr": 19851,
+      "earnings_median_4yr": 19659,
+      "debt_median": 3275,
+      "completers": 23,
+      "completers_single_year": 48,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "huertas-college-242112",
+      "institution_name": "Huertas College",
+      "earnings_median_5yr": 17680,
+      "earnings_median_4yr": 13917,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "american-educational-college-241146",
+      "institution_name": "American Educational College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "columbia-central-university-caguas-241304",
+      "institution_name": "Columbia Central University-Caguas",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "universidad-ana-g-mendez-cupey-campus-241739",
+      "institution_name": "Universidad Ana G. Mendez-Cupey Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "inter-american-university-of-puerto-rico-aguadilla-242626",
+      "institution_name": "Inter American University of Puerto Rico-Aguadilla",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "inter-american-university-of-puerto-rico-barranquitas-242644",
+      "institution_name": "Inter American University of Puerto Rico-Barranquitas",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "inter-american-university-of-puerto-rico-ponce-242662",
+      "institution_name": "Inter American University of Puerto Rico-Ponce",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "universidad-ana-g-mendez-carolina-campus-243346",
+      "institution_name": "Universidad Ana G. Mendez-Carolina Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 14,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "icpr-junior-college-243841",
+      "institution_name": "ICPR Junior College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "universal-technology-college-of-puerto-rico-376385",
+      "institution_name": "Universal Technology College of Puerto Rico",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "professional-technical-institution-409193",
+      "institution_name": "Professional Technical Institution",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 19,
+      "completers_single_year": 40,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mech-tech-college-414461",
+      "institution_name": "Mech-Tech College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "nova-college-de-puerto-rico-428055",
+      "institution_name": "Nova College de Puerto Rico",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "instituto-educativo-premier-451501",
+      "institution_name": "Instituto Educativo Premier",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 115,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 8947,
+      "cost_total_default": 8947,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 19527,
+      "earnings_anchor_year": 5,
+      "debt_median": 7684,
+      "cip_family": "47",
+      "hs_baseline_state": 22400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -38388,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

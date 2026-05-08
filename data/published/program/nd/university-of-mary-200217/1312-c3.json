@@ -1,0 +1,242 @@
+{
+  "institution_unitid": "200217",
+  "institution_name": "University of Mary",
+  "institution_slug": "university-of-mary-200217",
+  "state": "nd",
+  "cip_code": "1312",
+  "cip_desc": "Teacher Education and Professional Development, Specific Levels and Methods.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1312-c3",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 1,
+  "debt_median": 23719,
+  "completers": 28,
+  "completers_single_year": 34,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [
+      {
+        "year": 2015,
+        "value": 26000.0
+      },
+      {
+        "year": 2016,
+        "value": 23250.0
+      },
+      {
+        "year": 2018,
+        "value": 23719.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 26.0
+      },
+      {
+        "year": 2015,
+        "value": 48.0
+      },
+      {
+        "year": 2016,
+        "value": 54.0
+      },
+      {
+        "year": 2017,
+        "value": 41.0
+      },
+      {
+        "year": 2018,
+        "value": 34.0
+      },
+      {
+        "year": 2019,
+        "value": 28.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "200217",
+    "slug": "university-of-mary-200217",
+    "name": "University of Mary",
+    "city": "Bismarck",
+    "city_slug": "bismarck",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "turtle-mountain-community-college-200527",
+      "institution_name": "Turtle Mountain Community College",
+      "earnings_median_5yr": 58926,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "dickinson-state-university-200059",
+      "institution_name": "Dickinson State University",
+      "earnings_median_5yr": 50675,
+      "earnings_median_4yr": 44927,
+      "debt_median": 15000,
+      "completers": 26,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-north-dakota-200280",
+      "institution_name": "University of North Dakota",
+      "earnings_median_5yr": 49029,
+      "earnings_median_4yr": 41931,
+      "debt_median": 26467,
+      "completers": 89,
+      "completers_single_year": 138,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mayville-state-university-200226",
+      "institution_name": "Mayville State University",
+      "earnings_median_5yr": 48208,
+      "earnings_median_4yr": 42980,
+      "debt_median": 24748,
+      "completers": 57,
+      "completers_single_year": 52,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "minot-state-university-200253",
+      "institution_name": "Minot State University",
+      "earnings_median_5yr": 47484,
+      "earnings_median_4yr": 42286,
+      "debt_median": 23375,
+      "completers": 54,
+      "completers_single_year": 46,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "valley-city-state-university-200572",
+      "institution_name": "Valley City State University",
+      "earnings_median_5yr": 46680,
+      "earnings_median_4yr": 43590,
+      "debt_median": 15000,
+      "completers": 103,
+      "completers_single_year": 110,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "nueta-hidatsa-sahnish-college-200086",
+      "institution_name": "Nueta Hidatsa Sahnish College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-jamestown-200156",
+      "institution_name": "University of Jamestown",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 27000,
+      "completers": 4,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "sitting-bull-college-200466",
+      "institution_name": "Sitting Bull College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "trinity-bible-college-and-graduate-school-200484",
+      "institution_name": "Trinity Bible College and Graduate School",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "united-tribes-technical-college-200554",
+      "institution_name": "United Tribes Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 14553,
+      "cost_total_default": 58212,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": 23719,
+      "cip_family": "13"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

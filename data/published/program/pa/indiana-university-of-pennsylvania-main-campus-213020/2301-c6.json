@@ -1,0 +1,228 @@
+{
+  "institution_unitid": "213020",
+  "institution_name": "Indiana University of Pennsylvania-Main Campus",
+  "institution_slug": "indiana-university-of-pennsylvania-main-campus-213020",
+  "state": "pa",
+  "cip_code": "2301",
+  "cip_desc": "English Language and Literature, General.",
+  "credential_level": 6,
+  "credential_desc": "Doctoral Degree",
+  "slug": "2301-c6",
+  "earnings_median_4yr": 73203,
+  "earnings_median_5yr": 83049,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 2,
+  "debt_median": 57997,
+  "completers": 35,
+  "completers_single_year": 43,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 73203.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 83049.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 52688.0
+      },
+      {
+        "year": 2015,
+        "value": 65246.0
+      },
+      {
+        "year": 2016,
+        "value": 68420.0
+      },
+      {
+        "year": 2017,
+        "value": 69471.0
+      },
+      {
+        "year": 2018,
+        "value": 57997.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 33.0
+      },
+      {
+        "year": 2015,
+        "value": 36.0
+      },
+      {
+        "year": 2016,
+        "value": 32.0
+      },
+      {
+        "year": 2017,
+        "value": 38.0
+      },
+      {
+        "year": 2018,
+        "value": 43.0
+      },
+      {
+        "year": 2019,
+        "value": 35.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 9.3% at English Language and Literature, General at Indiana University of Pennsylvania-Main Campus exceeds the 8% gainful-employment threshold ($58.0k debt amortized over 10 years vs $83.0k earnings).",
+      "magnitude_pct": 9.3,
+      "magnitude_abs": 1.3,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "213020",
+    "slug": "indiana-university-of-pennsylvania-main-campus-213020",
+    "name": "Indiana University of Pennsylvania-Main Campus",
+    "city": "Indiana",
+    "city_slug": "indiana",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "carnegie-mellon-university-211440",
+      "institution_name": "Carnegie Mellon University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "duquesne-university-212106",
+      "institution_name": "Duquesne University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lehigh-university-213543",
+      "institution_name": "Lehigh University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-pennsylvania-215062",
+      "institution_name": "University of Pennsylvania",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-pittsburgh-pittsburgh-campus-215293",
+      "institution_name": "University of Pittsburgh-Pittsburgh Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "temple-university-216339",
+      "institution_name": "Temple University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 8,
+      "cost_per_year_default": 16425,
+      "cost_total_default": 131400,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 83049,
+      "earnings_anchor_year": 5,
+      "debt_median": 57997,
+      "cip_family": "23",
+      "hs_baseline_state": 38100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 462215,
+      "breakeven_year": 14
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

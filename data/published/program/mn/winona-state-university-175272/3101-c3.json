@@ -1,0 +1,174 @@
+{
+  "institution_unitid": "175272",
+  "institution_name": "Winona State University",
+  "institution_slug": "winona-state-university-175272",
+  "state": "mn",
+  "cip_code": "3101",
+  "cip_desc": "Parks, Recreation and Leisure Studies.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "3101-c3",
+  "earnings_median_4yr": 45648,
+  "earnings_median_5yr": 43251,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 3,
+  "debt_median": 19891,
+  "completers": 32,
+  "completers_single_year": 38,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 45648.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 43251.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 22500.0
+      },
+      {
+        "year": 2015,
+        "value": 26000.0
+      },
+      {
+        "year": 2016,
+        "value": 27000.0
+      },
+      {
+        "year": 2017,
+        "value": 24944.0
+      },
+      {
+        "year": 2018,
+        "value": 19891.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 43.0
+      },
+      {
+        "year": 2015,
+        "value": 40.0
+      },
+      {
+        "year": 2016,
+        "value": 35.0
+      },
+      {
+        "year": 2017,
+        "value": 42.0
+      },
+      {
+        "year": 2018,
+        "value": 38.0
+      },
+      {
+        "year": 2019,
+        "value": 32.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "175272",
+    "slug": "winona-state-university-175272",
+    "name": "Winona State University",
+    "city": "Winona",
+    "city_slug": "winona",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-minnesota-twin-cities-174066",
+      "institution_name": "University of Minnesota-Twin Cities",
+      "earnings_median_5yr": 45017,
+      "earnings_median_4yr": 43994,
+      "debt_median": 14050,
+      "completers": 11,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-minnesota-duluth-174233",
+      "institution_name": "University of Minnesota-Duluth",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 21,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 15495,
+      "cost_total_default": 61980,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 43251,
+      "earnings_anchor_year": 5,
+      "debt_median": 19891,
+      "cip_family": "31",
+      "hs_baseline_state": 39400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 28507,
+      "breakeven_year": 32
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "institution_unitid": "151102",
+  "institution_name": "Purdue University Fort Wayne",
+  "institution_slug": "purdue-university-fort-wayne-151102",
+  "state": "in",
+  "cip_code": "5115",
+  "cip_desc": "Mental and Social Health Services and Allied Professions.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5115-c3",
+  "earnings_median_4yr": 38512,
+  "earnings_median_5yr": 42914,
+  "earnings_count_4yr": 5,
+  "earnings_count_5yr": 5,
+  "debt_median": 22303,
+  "completers": null,
+  "completers_single_year": 39,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 38512.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 42914.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 27000.0
+      },
+      {
+        "year": 2015,
+        "value": 24771.0
+      },
+      {
+        "year": 2016,
+        "value": 19800.0
+      },
+      {
+        "year": 2017,
+        "value": 22874.0
+      },
+      {
+        "year": 2018,
+        "value": 22303.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 31.0
+      },
+      {
+        "year": 2015,
+        "value": 51.0
+      },
+      {
+        "year": 2016,
+        "value": 49.0
+      },
+      {
+        "year": 2017,
+        "value": 47.0
+      },
+      {
+        "year": 2018,
+        "value": 39.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "151102",
+    "slug": "purdue-university-fort-wayne-151102",
+    "name": "Purdue University Fort Wayne",
+    "city": "Fort Wayne",
+    "city_slug": "fort-wayne",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "indiana-wesleyan-university-marion-151801",
+      "institution_name": "Indiana Wesleyan University-Marion",
+      "earnings_median_5yr": 46962,
+      "earnings_median_4yr": 39635,
+      "debt_median": 25370,
+      "completers": 4,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "indiana-state-university-151324",
+      "institution_name": "Indiana State University",
+      "earnings_median_5yr": 43116,
+      "earnings_median_4yr": 42930,
+      "debt_median": 25000,
+      "completers": 41,
+      "completers_single_year": 62,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "indiana-university-indianapolis-151111",
+      "institution_name": "Indiana University-Indianapolis",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-indianapolis-151263",
+      "institution_name": "University of Indianapolis",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "martin-university-151810",
+      "institution_name": "Martin University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "purdue-university-global-489779",
+      "institution_name": "Purdue University Global",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 34836,
+      "completers": 134,
+      "completers_single_year": 101,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 5,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 11933,
+      "cost_total_default": 47732,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 42914,
+      "earnings_anchor_year": 5,
+      "debt_median": 22303,
+      "cip_family": "51",
+      "hs_baseline_state": 36400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 81615,
+      "breakeven_year": 23
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "institution_unitid": "237792",
+  "institution_name": "Shepherd University",
+  "institution_slug": "shepherd-university-237792",
+  "state": "wv",
+  "cip_code": "0901",
+  "cip_desc": "Communication and Media Studies.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "0901-c3",
+  "earnings_median_4yr": 36731,
+  "earnings_median_5yr": 34523,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": 19225,
+  "completers": 24,
+  "completers_single_year": 25,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 36731.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 34523.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 15756.0
+      },
+      {
+        "year": 2015,
+        "value": 19777.0
+      },
+      {
+        "year": 2016,
+        "value": 16991.0
+      },
+      {
+        "year": 2017,
+        "value": 18430.0
+      },
+      {
+        "year": 2018,
+        "value": 19225.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 26.0
+      },
+      {
+        "year": 2015,
+        "value": 33.0
+      },
+      {
+        "year": 2016,
+        "value": 23.0
+      },
+      {
+        "year": 2017,
+        "value": 25.0
+      },
+      {
+        "year": 2018,
+        "value": 25.0
+      },
+      {
+        "year": 2019,
+        "value": 24.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 15756.0,
+      "to_value": 19225.0,
+      "pct_change": 0.22017009393247017,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Communication and Media Studies at Shepherd University rose 22% between 2014 and 2018 ($15.8k → $19.2k).",
+      "magnitude_pct": 22.0,
+      "magnitude_abs": 3469.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "237792",
+    "slug": "shepherd-university-237792",
+    "name": "Shepherd University",
+    "city": "Shepherdstown",
+    "city_slug": "shepherdstown",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "bethany-college-237181",
+      "institution_name": "Bethany College",
+      "earnings_median_5yr": 48648,
+      "earnings_median_4yr": 42366,
+      "debt_median": 28495,
+      "completers": 9,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "west-liberty-university-237932",
+      "institution_name": "West Liberty University",
+      "earnings_median_5yr": 41375,
+      "earnings_median_4yr": 32090,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "west-virginia-state-university-237899",
+      "institution_name": "West Virginia State University",
+      "earnings_median_5yr": 35928,
+      "earnings_median_4yr": 37669,
+      "debt_median": 28250,
+      "completers": 16,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "concord-university-237330",
+      "institution_name": "Concord University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "marshall-university-237525",
+      "institution_name": "Marshall University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "west-virginia-wesleyan-college-237969",
+      "institution_name": "West Virginia Wesleyan College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "west-virginia-university-238032",
+      "institution_name": "West Virginia University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 57,
+      "completers_single_year": 65,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 12068,
+      "cost_total_default": 48272,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 34523,
+      "earnings_anchor_year": 5,
+      "debt_median": 19225,
+      "cip_family": "09",
+      "hs_baseline_state": 32100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 12073,
+      "breakeven_year": 35
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

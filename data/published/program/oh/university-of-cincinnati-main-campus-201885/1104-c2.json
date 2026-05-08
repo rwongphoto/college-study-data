@@ -1,0 +1,199 @@
+{
+  "institution_unitid": "201885",
+  "institution_name": "University of Cincinnati-Main Campus",
+  "institution_slug": "university-of-cincinnati-main-campus-201885",
+  "state": "oh",
+  "cip_code": "1104",
+  "cip_desc": "Information Science/Studies.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "1104-c2",
+  "earnings_median_4yr": 54073,
+  "earnings_median_5yr": 62577,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 2,
+  "debt_median": 12710,
+  "completers": null,
+  "completers_single_year": null,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 54073.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 62577.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2015,
+        "value": 17000.0
+      },
+      {
+        "year": 2016,
+        "value": 12000.0
+      },
+      {
+        "year": 2017,
+        "value": 12000.0
+      },
+      {
+        "year": 2018,
+        "value": 12710.0
+      }
+    ],
+    "completers": []
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2015,
+      "to_year": 2018,
+      "from_value": 17000.0,
+      "to_value": 12710.0,
+      "pct_change": -0.2523529411764706,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Information Science/Studies at University of Cincinnati-Main Campus fell 25% between 2015 and 2018 ($17.0k → $12.7k).",
+      "magnitude_pct": -25.2,
+      "magnitude_abs": -4290.0,
+      "baseline_year": 2015,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "201885",
+    "slug": "university-of-cincinnati-main-campus-201885",
+    "name": "University of Cincinnati-Main Campus",
+    "city": "Cincinnati",
+    "city_slug": "cincinnati",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "cuyahoga-community-college-district-202356",
+      "institution_name": "Cuyahoga Community College District",
+      "earnings_median_5yr": 63631,
+      "earnings_median_4yr": 54104,
+      "debt_median": null,
+      "completers": 31,
+      "completers_single_year": 45,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "zane-state-college-204255",
+      "institution_name": "Zane State College",
+      "earnings_median_5yr": 42030,
+      "earnings_median_4yr": 29406,
+      "debt_median": 6950,
+      "completers": 15,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "eastern-gateway-community-college-203331",
+      "institution_name": "Eastern Gateway Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 63,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lorain-county-community-college-203748",
+      "institution_name": "Lorain County Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-toledo-206084",
+      "institution_name": "University of Toledo",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 20607,
+      "cost_total_default": 41214,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 62577,
+      "earnings_anchor_year": 5,
+      "debt_median": 12710,
+      "cip_family": "11",
+      "hs_baseline_state": 36400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 701023,
+      "breakeven_year": 5
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

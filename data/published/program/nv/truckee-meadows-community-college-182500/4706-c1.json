@@ -1,0 +1,159 @@
+{
+  "institution_unitid": "182500",
+  "institution_name": "Truckee Meadows Community College",
+  "institution_slug": "truckee-meadows-community-college-182500",
+  "state": "nv",
+  "cip_code": "4706",
+  "cip_desc": "Vehicle Maintenance and Repair Technologies.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "4706-c1",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": null,
+  "completers": 221,
+  "completers_single_year": 103,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 67.0
+      },
+      {
+        "year": 2015,
+        "value": 70.0
+      },
+      {
+        "year": 2016,
+        "value": 92.0
+      },
+      {
+        "year": 2017,
+        "value": 71.0
+      },
+      {
+        "year": 2018,
+        "value": 103.0
+      },
+      {
+        "year": 2019,
+        "value": 221.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "182500",
+    "slug": "truckee-meadows-community-college-182500",
+    "name": "Truckee Meadows Community College",
+    "city": "Reno",
+    "city_slug": "reno",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "great-basin-college-182306",
+      "institution_name": "Great Basin College",
+      "earnings_median_5yr": 100823,
+      "earnings_median_4yr": 91394,
+      "debt_median": null,
+      "completers": 26,
+      "completers_single_year": 35,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "college-of-southern-nevada-182005",
+      "institution_name": "College of Southern Nevada",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 22,
+      "completers_single_year": 29,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-nevada-college-182564",
+      "institution_name": "Western Nevada College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 17,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "advanced-training-institute-461430",
+      "institution_name": "Advanced Training Institute",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 11667,
+      "completers": 84,
+      "completers_single_year": 96,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 9294,
+      "cost_total_default": 9294,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "47"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

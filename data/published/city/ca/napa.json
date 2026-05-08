@@ -1,0 +1,418 @@
+{
+  "state": "ca",
+  "name": "Napa",
+  "slug": "napa",
+  "institution_count": 1,
+  "institutions": [
+    {
+      "unitid": "119331",
+      "slug": "napa-valley-college-119331",
+      "name": "Napa Valley College",
+      "city": "Napa",
+      "city_slug": "napa",
+      "control": "public",
+      "pred_degree": "associates",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 49517,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 40426
+        },
+        {
+          "year": 8,
+          "value": 43030
+        },
+        {
+          "year": 10,
+          "value": 49517
+        }
+      ],
+      "completion_rate_150": 0.3177,
+      "completion_rate_history": [
+        {
+          "year": 1997,
+          "value": 0.6316
+        },
+        {
+          "year": 1998,
+          "value": 0.4596
+        },
+        {
+          "year": 1999,
+          "value": 0.3889
+        },
+        {
+          "year": 2000,
+          "value": 0.2479
+        },
+        {
+          "year": 2001,
+          "value": 0.373
+        },
+        {
+          "year": 2002,
+          "value": 0.35
+        },
+        {
+          "year": 2003,
+          "value": 0.451
+        },
+        {
+          "year": 2004,
+          "value": 0.4453
+        },
+        {
+          "year": 2005,
+          "value": 0.369
+        },
+        {
+          "year": 2006,
+          "value": 0.3853
+        },
+        {
+          "year": 2007,
+          "value": 0.2538
+        },
+        {
+          "year": 2008,
+          "value": 0.3113
+        },
+        {
+          "year": 2009,
+          "value": 0.315
+        },
+        {
+          "year": 2010,
+          "value": 0.2863
+        }
+      ],
+      "enrollment_undergrad": 3205,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 2919.0
+        },
+        {
+          "year": 1997,
+          "value": 3207.0
+        },
+        {
+          "year": 1998,
+          "value": 2886.0
+        },
+        {
+          "year": 1999,
+          "value": 2928.0
+        },
+        {
+          "year": 2001,
+          "value": 2931.0
+        },
+        {
+          "year": 2002,
+          "value": 3162.0
+        },
+        {
+          "year": 2003,
+          "value": 3209.0
+        },
+        {
+          "year": 2004,
+          "value": 3223.0
+        },
+        {
+          "year": 2005,
+          "value": 2360.0
+        },
+        {
+          "year": 2006,
+          "value": 2779.0
+        },
+        {
+          "year": 2007,
+          "value": 2997.0
+        },
+        {
+          "year": 2008,
+          "value": 6063.0
+        },
+        {
+          "year": 2009,
+          "value": 6712.0
+        },
+        {
+          "year": 2010,
+          "value": 5616.0
+        }
+      ],
+      "median_debt": 9371,
+      "default_rate": 0.0,
+      "tuition_in_state": 1156,
+      "tuition_out_of_state": 11908,
+      "long_arc": [
+        {
+          "metric": "completion_rate_150",
+          "from_year": 1997,
+          "to_year": 2010,
+          "from_value": 0.6316,
+          "to_value": 0.2863,
+          "pct_change": -0.5467067764407854,
+          "direction": "fell"
+        },
+        {
+          "metric": "completion_rate_100",
+          "from_year": 2009,
+          "to_year": 2010,
+          "from_value": 0.0775,
+          "to_value": 0.1041,
+          "pct_change": 0.3432258064516129,
+          "direction": "rose"
+        },
+        {
+          "metric": "retention_rate",
+          "from_year": 2004,
+          "to_year": 2010,
+          "from_value": 0.82,
+          "to_value": 0.7215,
+          "pct_change": -0.12012195121951211,
+          "direction": "fell"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 1996,
+          "to_year": 2010,
+          "from_value": 2919.0,
+          "to_value": 5616.0,
+          "pct_change": 0.9239465570400822,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_in_state",
+          "from_year": 2000,
+          "to_year": 2010,
+          "from_value": 266.0,
+          "to_value": 660.0,
+          "pct_change": 0.394,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2000,
+          "to_year": 2024,
+          "from_value": 3482.0,
+          "to_value": 11908.0,
+          "pct_change": 2.4198736358414705,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 1997,
+          "to_year": 2010,
+          "from_value": 3001.0,
+          "to_value": 6966.0,
+          "pct_change": 1.3212262579140286,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.107,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2008,
+          "to_year": 2010,
+          "from_value": 0.1031,
+          "to_value": 0.1625,
+          "pct_change": 0.5761396702230844,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_8yr",
+          "from_year": 2005,
+          "to_year": 2020,
+          "from_value": 33700.0,
+          "to_value": 43030.0,
+          "pct_change": 0.2768545994065282,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_6yr",
+          "from_year": 2003,
+          "to_year": 2020,
+          "from_value": 30900.0,
+          "to_value": 40426.0,
+          "pct_change": 0.30828478964401296,
+          "direction": "rose"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": 49517,
+  "completion_rate_city": 0.3177,
+  "completion_history_city": [
+    {
+      "year": 1997,
+      "value": 0.6316
+    },
+    {
+      "year": 1998,
+      "value": 0.4596
+    },
+    {
+      "year": 1999,
+      "value": 0.3889
+    },
+    {
+      "year": 2000,
+      "value": 0.2479
+    },
+    {
+      "year": 2001,
+      "value": 0.373
+    },
+    {
+      "year": 2002,
+      "value": 0.35
+    },
+    {
+      "year": 2003,
+      "value": 0.451
+    },
+    {
+      "year": 2004,
+      "value": 0.4453
+    },
+    {
+      "year": 2005,
+      "value": 0.369
+    },
+    {
+      "year": 2006,
+      "value": 0.3853
+    },
+    {
+      "year": 2007,
+      "value": 0.2538
+    },
+    {
+      "year": 2008,
+      "value": 0.3113
+    },
+    {
+      "year": 2009,
+      "value": 0.315
+    },
+    {
+      "year": 2010,
+      "value": 0.2863
+    }
+  ],
+  "enrollment_history_city": [
+    {
+      "year": 1996,
+      "value": 2919.0
+    },
+    {
+      "year": 1997,
+      "value": 3207.0
+    },
+    {
+      "year": 1998,
+      "value": 2886.0
+    },
+    {
+      "year": 1999,
+      "value": 2928.0
+    },
+    {
+      "year": 2001,
+      "value": 2931.0
+    },
+    {
+      "year": 2002,
+      "value": 3162.0
+    },
+    {
+      "year": 2003,
+      "value": 3209.0
+    },
+    {
+      "year": 2004,
+      "value": 3223.0
+    },
+    {
+      "year": 2005,
+      "value": 2360.0
+    },
+    {
+      "year": 2006,
+      "value": 2779.0
+    },
+    {
+      "year": 2007,
+      "value": 2997.0
+    },
+    {
+      "year": 2008,
+      "value": 6063.0
+    },
+    {
+      "year": 2009,
+      "value": 6712.0
+    },
+    {
+      "year": 2010,
+      "value": 5616.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

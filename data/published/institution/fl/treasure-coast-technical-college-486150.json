@@ -1,0 +1,806 @@
+{
+  "institution": {
+    "unitid": "486150",
+    "opeid6": "041940",
+    "name": "Treasure Coast Technical College",
+    "slug": "treasure-coast-technical-college-486150",
+    "state": "fl",
+    "city": "Vero Beach",
+    "city_slug": "vero-beach",
+    "zip5": "32967",
+    "address": "4680 28th Court",
+    "latitude": 27.678049,
+    "longitude": -80.413849,
+    "control": "public",
+    "pred_degree": "certificate",
+    "highest_degree": "certificate",
+    "main_campus": true,
+    "locale": "22",
+    "carnegie_basic": -2,
+    "sector_code": 7,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": 0.9091,
+    "completion_rate_100": 0.9091,
+    "retention_rate": 0.8667,
+    "admission_rate": null,
+    "enrollment_undergrad": 67,
+    "enrollment_total": null,
+    "cost_attendance": 12982,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": 7245,
+    "avg_net_price_priv": null,
+    "cost_by_income": {
+      "0_30k": 7162,
+      "30_48k": 7463,
+      "48_75k": null,
+      "75_110k": null,
+      "110k_plus": null,
+      "sticker": 12982,
+      "sector": "pub"
+    },
+    "median_debt": null,
+    "default_rate": null,
+    "pell_share": 0.3158,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [
+        {
+          "year": 2015,
+          "value": 0.963
+        },
+        {
+          "year": 2016,
+          "value": 0.7368
+        },
+        {
+          "year": 2017,
+          "value": 0.7368
+        },
+        {
+          "year": 2018,
+          "value": 1.0
+        },
+        {
+          "year": 2019,
+          "value": 0.9231
+        },
+        {
+          "year": 2020,
+          "value": 0.8947
+        },
+        {
+          "year": 2021,
+          "value": 0.875
+        },
+        {
+          "year": 2022,
+          "value": 0.8372
+        },
+        {
+          "year": 2023,
+          "value": 0.8667
+        },
+        {
+          "year": 2024,
+          "value": 0.8636
+        }
+      ],
+      "admission_rate": [],
+      "enrollment_undergrad": [
+        {
+          "year": 2015,
+          "value": 93.0
+        },
+        {
+          "year": 2016,
+          "value": 68.0
+        },
+        {
+          "year": 2017,
+          "value": 28.0
+        },
+        {
+          "year": 2018,
+          "value": 72.0
+        },
+        {
+          "year": 2019,
+          "value": 65.0
+        },
+        {
+          "year": 2020,
+          "value": 75.0
+        },
+        {
+          "year": 2021,
+          "value": 133.0
+        },
+        {
+          "year": 2022,
+          "value": 63.0
+        },
+        {
+          "year": 2023,
+          "value": 67.0
+        },
+        {
+          "year": 2024,
+          "value": 75.0
+        }
+      ],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [
+        {
+          "year": 2019,
+          "value": 10314.0
+        },
+        {
+          "year": 2021,
+          "value": 10181.0
+        },
+        {
+          "year": 2022,
+          "value": 14174.0
+        },
+        {
+          "year": 2023,
+          "value": 12982.0
+        },
+        {
+          "year": 2024,
+          "value": 15176.0
+        }
+      ],
+      "avg_net_price_pub": [
+        {
+          "year": 2019,
+          "value": 6127.0
+        },
+        {
+          "year": 2021,
+          "value": 3588.0
+        },
+        {
+          "year": 2022,
+          "value": 8512.0
+        },
+        {
+          "year": 2023,
+          "value": 7245.0
+        },
+        {
+          "year": 2024,
+          "value": 8500.0
+        }
+      ],
+      "avg_net_price_priv": [],
+      "median_debt": [],
+      "default_rate": [],
+      "pell_share": [
+        {
+          "year": 2015,
+          "value": 0.0048
+        },
+        {
+          "year": 2016,
+          "value": 0.0773
+        },
+        {
+          "year": 2017,
+          "value": 0.2377
+        },
+        {
+          "year": 2018,
+          "value": 0.3118
+        },
+        {
+          "year": 2019,
+          "value": 0.3488
+        },
+        {
+          "year": 2020,
+          "value": 0.3889
+        },
+        {
+          "year": 2021,
+          "value": 0.2857
+        },
+        {
+          "year": 2022,
+          "value": 0.4013
+        },
+        {
+          "year": 2023,
+          "value": 0.3158
+        },
+        {
+          "year": 2024,
+          "value": 0.3506
+        }
+      ],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "retention_rate",
+        "from_year": 2015,
+        "to_year": 2024,
+        "from_value": 0.963,
+        "to_value": 0.8636,
+        "pct_change": -0.10321910695742464,
+        "direction": "fell"
+      },
+      {
+        "metric": "pell_share",
+        "from_year": 2015,
+        "to_year": 2024,
+        "from_value": 0.0048,
+        "to_value": 0.3506,
+        "pct_change": 6.9159999999999995,
+        "direction": "rose"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "Undergraduate enrollment",
+        "summary": "Undergraduate enrollment at Treasure Coast Technical College fell 44% between 2021 and 2024 (133 → 75).",
+        "magnitude_pct": -43.6,
+        "magnitude_abs": -58.0,
+        "baseline_year": 2021,
+        "recent_year": 2024,
+        "units": null,
+        "history": [],
+        "metric": "enrollment_undergrad"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "48": [
+      {
+        "slug": "4805-c1",
+        "cip_code": "4805",
+        "cip_desc": "Precision Metal Working.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 13,
+        "completers_single_year": 24,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 2.0
+          },
+          {
+            "year": 2016,
+            "value": 0.0
+          },
+          {
+            "year": 2017,
+            "value": 18.0
+          },
+          {
+            "year": 2018,
+            "value": 24.0
+          },
+          {
+            "year": 2019,
+            "value": 13.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "49": [
+      {
+        "slug": "4902-c1",
+        "cip_code": "4902",
+        "cip_desc": "Ground Transportation.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 3,
+        "completers_single_year": null,
+        "completers_history": [
+          {
+            "year": 2019,
+            "value": 3.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "51": [
+      {
+        "slug": "5139-c1",
+        "cip_code": "5139",
+        "cip_desc": "Practical Nursing, Vocational Nursing and Nursing Assistants.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 33,
+        "completers_single_year": 35,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 44.0
+          },
+          {
+            "year": 2015,
+            "value": 24.0
+          },
+          {
+            "year": 2016,
+            "value": 23.0
+          },
+          {
+            "year": 2017,
+            "value": 36.0
+          },
+          {
+            "year": 2018,
+            "value": 35.0
+          },
+          {
+            "year": 2019,
+            "value": 33.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5108-c1",
+        "cip_code": "5108",
+        "cip_desc": "Allied Health and Medical Assisting Services.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 32,
+        "completers_single_year": 30,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 29.0
+          },
+          {
+            "year": 2015,
+            "value": 27.0
+          },
+          {
+            "year": 2016,
+            "value": 19.0
+          },
+          {
+            "year": 2017,
+            "value": 16.0
+          },
+          {
+            "year": 2018,
+            "value": 30.0
+          },
+          {
+            "year": 2019,
+            "value": 32.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5110-c1",
+        "cip_code": "5110",
+        "cip_desc": "Clinical/Medical Laboratory Science/Research and Allied Professions.",
+        "credential_level": 1,
+        "credential_desc": "Undergraduate Certificate or Diploma",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 20,
+        "completers_single_year": 21,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 18.0
+          },
+          {
+            "year": 2015,
+            "value": 18.0
+          },
+          {
+            "year": 2016,
+            "value": 19.0
+          },
+          {
+            "year": 2017,
+            "value": 19.0
+          },
+          {
+            "year": 2018,
+            "value": 21.0
+          },
+          {
+            "year": 2019,
+            "value": 20.0
+          }
+        ],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "5139-c1",
+      "cip_code": "5139",
+      "cip_desc": "Practical Nursing, Vocational Nursing and Nursing Assistants.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 33,
+      "completers_single_year": 35,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 44.0
+        },
+        {
+          "year": 2015,
+          "value": 24.0
+        },
+        {
+          "year": 2016,
+          "value": 23.0
+        },
+        {
+          "year": 2017,
+          "value": 36.0
+        },
+        {
+          "year": 2018,
+          "value": 35.0
+        },
+        {
+          "year": 2019,
+          "value": 33.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5108-c1",
+      "cip_code": "5108",
+      "cip_desc": "Allied Health and Medical Assisting Services.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 32,
+      "completers_single_year": 30,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 29.0
+        },
+        {
+          "year": 2015,
+          "value": 27.0
+        },
+        {
+          "year": 2016,
+          "value": 19.0
+        },
+        {
+          "year": 2017,
+          "value": 16.0
+        },
+        {
+          "year": 2018,
+          "value": 30.0
+        },
+        {
+          "year": 2019,
+          "value": 32.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5110-c1",
+      "cip_code": "5110",
+      "cip_desc": "Clinical/Medical Laboratory Science/Research and Allied Professions.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 20,
+      "completers_single_year": 21,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 18.0
+        },
+        {
+          "year": 2015,
+          "value": 18.0
+        },
+        {
+          "year": 2016,
+          "value": 19.0
+        },
+        {
+          "year": 2017,
+          "value": 19.0
+        },
+        {
+          "year": 2018,
+          "value": 21.0
+        },
+        {
+          "year": 2019,
+          "value": 20.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4805-c1",
+      "cip_code": "4805",
+      "cip_desc": "Precision Metal Working.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 13,
+      "completers_single_year": 24,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 2.0
+        },
+        {
+          "year": 2016,
+          "value": 0.0
+        },
+        {
+          "year": 2017,
+          "value": 18.0
+        },
+        {
+          "year": 2018,
+          "value": 24.0
+        },
+        {
+          "year": 2019,
+          "value": 13.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "4902-c1",
+      "cip_code": "4902",
+      "cip_desc": "Ground Transportation.",
+      "credential_level": 1,
+      "credential_desc": "Undergraduate Certificate or Diploma",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 3,
+      "completers_single_year": null,
+      "completers_history": [
+        {
+          "year": 2019,
+          "value": 3.0
+        }
+      ],
+      "long_arc": []
+    }
+  ],
+  "program_count": 5,
+  "similar": [
+    {
+      "slug": "north-florida-technical-college-132675",
+      "name": "North Florida Technical College",
+      "city": "Starke",
+      "control": "public",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 31683,
+      "completion_rate_150": 0.8235,
+      "enrollment_undergrad": 65
+    },
+    {
+      "slug": "gadsden-technical-college-490090",
+      "name": "Gadsden Technical College",
+      "city": "Quincy",
+      "control": "public",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.88,
+      "enrollment_undergrad": 58
+    },
+    {
+      "slug": "flagler-technical-college-461245",
+      "name": "Flagler Technical College",
+      "city": "Palm Coast",
+      "control": "public",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.9333,
+      "enrollment_undergrad": 91
+    },
+    {
+      "slug": "wilton-simpson-technical-college-491783",
+      "name": "Wilton Simpson Technical College",
+      "city": "Brooksville",
+      "control": "public",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.5224,
+      "enrollment_undergrad": 114
+    },
+    {
+      "slug": "aparicio-levy-technical-college-485342",
+      "name": "Aparicio-Levy Technical College",
+      "city": "Tampa",
+      "control": "public",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.8676,
+      "enrollment_undergrad": 137
+    }
+  ],
+  "roi": {
+    "default_program_slug": null,
+    "programs_available": [
+      {
+        "slug": "5139-c1",
+        "label": "Practical Nursing, Vocational Nursing and Nursing Assistants · Undergraduate Certificate or Diploma",
+        "cip_family": "51",
+        "completers": 33,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "5108-c1",
+        "label": "Allied Health and Medical Assisting Services · Undergraduate Certificate or Diploma",
+        "cip_family": "51",
+        "completers": 32,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "5110-c1",
+        "label": "Clinical/Medical Laboratory Science/Research and Allied Professions · Undergraduate Certificate or Diploma",
+        "cip_family": "51",
+        "completers": 20,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "4805-c1",
+        "label": "Precision Metal Working · Undergraduate Certificate or Diploma",
+        "cip_family": "48",
+        "completers": 13,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      },
+      {
+        "slug": "4902-c1",
+        "label": "Ground Transportation · Undergraduate Certificate or Diploma",
+        "cip_family": "49",
+        "completers": 3,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 1,
+        "default_result": null
+      }
+    ]
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

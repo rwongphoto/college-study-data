@@ -1,0 +1,204 @@
+{
+  "institution_unitid": "178411",
+  "institution_name": "Missouri University of Science and Technology",
+  "institution_slug": "missouri-university-of-science-and-technology-178411",
+  "state": "mo",
+  "cip_code": "1409",
+  "cip_desc": "Computer Engineering.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1409-c3",
+  "earnings_median_4yr": 90622,
+  "earnings_median_5yr": 105434,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 0,
+  "debt_median": 27000,
+  "completers": 67,
+  "completers_single_year": 69,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 90622.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 105434.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 26000.0
+      },
+      {
+        "year": 2015,
+        "value": 23513.0
+      },
+      {
+        "year": 2016,
+        "value": 25500.0
+      },
+      {
+        "year": 2017,
+        "value": 27000.0
+      },
+      {
+        "year": 2018,
+        "value": 27000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 51.0
+      },
+      {
+        "year": 2015,
+        "value": 69.0
+      },
+      {
+        "year": 2016,
+        "value": 75.0
+      },
+      {
+        "year": 2017,
+        "value": 82.0
+      },
+      {
+        "year": 2018,
+        "value": 69.0
+      },
+      {
+        "year": 2019,
+        "value": 67.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "178411",
+    "slug": "missouri-university-of-science-and-technology-178411",
+    "name": "Missouri University of Science and Technology",
+    "city": "Rolla",
+    "city_slug": "rolla",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-missouri-columbia-178396",
+      "institution_name": "University of Missouri-Columbia",
+      "earnings_median_5yr": 96583,
+      "earnings_median_4yr": 86396,
+      "debt_median": 19500,
+      "completers": 21,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-central-missouri-176965",
+      "institution_name": "University of Central Missouri",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "drury-university-177214",
+      "institution_name": "Drury University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-louis-university-179159",
+      "institution_name": "Saint Louis University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 8,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "washington-university-in-st-louis-179867",
+      "institution_name": "Washington University in St Louis",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 21,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 12585,
+      "cost_total_default": 50340,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 105434,
+      "earnings_anchor_year": 5,
+      "debt_median": 27000,
+      "cip_family": "14",
+      "hs_baseline_state": 35100
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 1437867,
+      "breakeven_year": 5
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

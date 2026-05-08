@@ -1,0 +1,258 @@
+{
+  "institution_unitid": "105543",
+  "institution_name": "Pima Medical Institute-Albuquerque",
+  "institution_slug": "pima-medical-institute-albuquerque-105543",
+  "state": "nm",
+  "cip_code": "5107",
+  "cip_desc": "Health and Medical Administrative Services.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "5107-c1",
+  "earnings_median_4yr": 24868,
+  "earnings_median_5yr": 28437,
+  "earnings_count_4yr": 6,
+  "earnings_count_5yr": 7,
+  "debt_median": 5822,
+  "completers": 30,
+  "completers_single_year": 8,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 24868.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 28437.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 7600.0
+      },
+      {
+        "year": 2015,
+        "value": 7598.0
+      },
+      {
+        "year": 2016,
+        "value": 7600.0
+      },
+      {
+        "year": 2017,
+        "value": 8707.0
+      },
+      {
+        "year": 2018,
+        "value": 5822.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 18.0
+      },
+      {
+        "year": 2015,
+        "value": 19.0
+      },
+      {
+        "year": 2016,
+        "value": 19.0
+      },
+      {
+        "year": 2017,
+        "value": 17.0
+      },
+      {
+        "year": 2018,
+        "value": 8.0
+      },
+      {
+        "year": 2019,
+        "value": 30.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 7600.0,
+      "to_value": 5822.0,
+      "pct_change": -0.23394736842105263,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Health and Medical Administrative Services at Pima Medical Institute-Albuquerque fell 23% between 2014 and 2018 ($7.6k → $5.8k).",
+      "magnitude_pct": -23.4,
+      "magnitude_abs": -1778.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "105543",
+    "slug": "pima-medical-institute-albuquerque-105543",
+    "name": "Pima Medical Institute-Albuquerque",
+    "city": "Albuquerque",
+    "city_slug": "albuquerque",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "central-new-mexico-community-college-187532",
+      "institution_name": "Central New Mexico Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "clovis-community-college-187639",
+      "institution_name": "Clovis Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "eastern-new-mexico-university-main-campus-187648",
+      "institution_name": "Eastern New Mexico University-Main Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-new-mexico-main-campus-187985",
+      "institution_name": "University of New Mexico-Main Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southeast-new-mexico-college-188003",
+      "institution_name": "Southeast New Mexico College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "new-mexico-state-university-main-campus-188030",
+      "institution_name": "New Mexico State University-Main Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "san-juan-college-188100",
+      "institution_name": "San Juan College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "santa-fe-community-college-188137",
+      "institution_name": "Santa Fe Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 7,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 20348,
+      "cost_total_default": 20348,
+      "cost_source": "NPT4_AVG",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 28437,
+      "earnings_anchor_year": 5,
+      "debt_median": 5822,
+      "cip_family": "51",
+      "hs_baseline_state": 33800
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -93821,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

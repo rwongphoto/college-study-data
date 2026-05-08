@@ -1,0 +1,262 @@
+{
+  "institution_unitid": "160977",
+  "institution_name": "Bates College",
+  "institution_slug": "bates-college-160977",
+  "state": "me",
+  "cip_code": "4201",
+  "cip_desc": "Psychology, General.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "4201-c3",
+  "earnings_median_4yr": 34447,
+  "earnings_median_5yr": 60214,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 1,
+  "debt_median": null,
+  "completers": null,
+  "completers_single_year": null,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 34447.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 60214.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 10750.0
+      },
+      {
+        "year": 2015,
+        "value": 10952.0
+      },
+      {
+        "year": 2016,
+        "value": 14096.0
+      },
+      {
+        "year": 2017,
+        "value": 17381.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 51.0
+      },
+      {
+        "year": 2015,
+        "value": 56.0
+      },
+      {
+        "year": 2016,
+        "value": 47.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2017,
+      "from_value": 10750.0,
+      "to_value": 17381.0,
+      "pct_change": 0.6168372093023256,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Psychology, General at Bates College rose 62% between 2014 and 2017 ($10.8k → $17.4k).",
+      "magnitude_pct": 61.7,
+      "magnitude_abs": 6631.0,
+      "baseline_year": 2014,
+      "recent_year": 2017,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "160977",
+    "slug": "bates-college-160977",
+    "name": "Bates College",
+    "city": "Lewiston",
+    "city_slug": "lewiston",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "colby-college-161086",
+      "institution_name": "Colby College",
+      "earnings_median_5yr": 65101,
+      "earnings_median_4yr": 51623,
+      "debt_median": null,
+      "completers": 39,
+      "completers_single_year": 32,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-new-england-161457",
+      "institution_name": "University of New England",
+      "earnings_median_5yr": 51047,
+      "earnings_median_4yr": 45506,
+      "debt_median": 27000,
+      "completers": 25,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "husson-university-487524",
+      "institution_name": "Husson University",
+      "earnings_median_5yr": 50768,
+      "earnings_median_4yr": 40628,
+      "debt_median": 27000,
+      "completers": 25,
+      "completers_single_year": 32,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-maine-161253",
+      "institution_name": "University of Maine",
+      "earnings_median_5yr": 44274,
+      "earnings_median_4yr": 35249,
+      "debt_median": 26000,
+      "completers": 83,
+      "completers_single_year": 82,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-maine-at-farmington-161226",
+      "institution_name": "University of Maine at Farmington",
+      "earnings_median_5yr": 43138,
+      "earnings_median_4yr": 30980,
+      "debt_median": 23125,
+      "completers": 41,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-southern-maine-161554",
+      "institution_name": "University of Southern Maine",
+      "earnings_median_5yr": 42001,
+      "earnings_median_4yr": 36601,
+      "debt_median": 15000,
+      "completers": 62,
+      "completers_single_year": 57,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "thomas-college-161563",
+      "institution_name": "Thomas College",
+      "earnings_median_5yr": 40444,
+      "earnings_median_4yr": 37397,
+      "debt_median": 27000,
+      "completers": 17,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-maine-at-presque-isle-161341",
+      "institution_name": "University of Maine at Presque Isle",
+      "earnings_median_5yr": 32341,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bowdoin-college-161004",
+      "institution_name": "Bowdoin College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-joseph-s-college-of-maine-161518",
+      "institution_name": "Saint Joseph's College of Maine",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 8602,
+      "cost_total_default": 34408,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 60214,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "42",
+      "hs_baseline_state": 36200
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 361470,
+      "breakeven_year": 7
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

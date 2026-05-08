@@ -1,0 +1,218 @@
+{
+  "institution_unitid": "188030",
+  "institution_name": "New Mexico State University-Main Campus",
+  "institution_slug": "new-mexico-state-university-main-campus-188030",
+  "state": "nm",
+  "cip_code": "5006",
+  "cip_desc": "Film/Video and Photographic Arts.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5006-c3",
+  "earnings_median_4yr": 30134,
+  "earnings_median_5yr": 35433,
+  "earnings_count_4yr": 6,
+  "earnings_count_5yr": 5,
+  "debt_median": 16250,
+  "completers": 26,
+  "completers_single_year": 39,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 30134.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 35433.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 23510.0
+      },
+      {
+        "year": 2015,
+        "value": 21000.0
+      },
+      {
+        "year": 2016,
+        "value": 20000.0
+      },
+      {
+        "year": 2017,
+        "value": 18562.0
+      },
+      {
+        "year": 2018,
+        "value": 16250.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 52.0
+      },
+      {
+        "year": 2015,
+        "value": 33.0
+      },
+      {
+        "year": 2016,
+        "value": 41.0
+      },
+      {
+        "year": 2017,
+        "value": 27.0
+      },
+      {
+        "year": 2018,
+        "value": 39.0
+      },
+      {
+        "year": 2019,
+        "value": 26.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 23510.0,
+      "to_value": 16250.0,
+      "pct_change": -0.3088047639302425,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Film/Video and Photographic Arts at New Mexico State University-Main Campus fell 31% between 2014 and 2018 ($23.5k → $16.2k).",
+      "magnitude_pct": -30.9,
+      "magnitude_abs": -7260.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "188030",
+    "slug": "new-mexico-state-university-main-campus-188030",
+    "name": "New Mexico State University-Main Campus",
+    "city": "Las Cruces",
+    "city_slug": "las-cruces",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-new-mexico-main-campus-187985",
+      "institution_name": "University of New Mexico-Main Campus",
+      "earnings_median_5yr": 34721,
+      "earnings_median_4yr": 29182,
+      "debt_median": 15800,
+      "completers": 52,
+      "completers_single_year": 27,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "eastern-new-mexico-university-main-campus-187648",
+      "institution_name": "Eastern New Mexico University-Main Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "institute-of-american-indian-and-alaska-native-culture-and-arts-development-187745",
+      "institution_name": "Institute of American Indian and Alaska Native Culture and Arts Development",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "new-mexico-highlands-university-187897",
+      "institution_name": "New Mexico Highlands University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 5,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 8877,
+      "cost_total_default": 35508,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 35433,
+      "earnings_anchor_year": 5,
+      "debt_median": 16250,
+      "cip_family": "50",
+      "hs_baseline_state": 33800
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -56420,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

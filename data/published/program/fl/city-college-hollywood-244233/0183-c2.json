@@ -1,0 +1,153 @@
+{
+  "institution_unitid": "244233",
+  "institution_name": "City College-Hollywood",
+  "institution_slug": "city-college-hollywood-244233",
+  "state": "fl",
+  "cip_code": "0183",
+  "cip_desc": "Veterinary/Animal Health Technologies/Technicians.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "0183-c2",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 1,
+  "debt_median": 24610,
+  "completers": null,
+  "completers_single_year": null,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [
+      {
+        "year": 2016,
+        "value": 26055.0
+      },
+      {
+        "year": 2018,
+        "value": 24610.0
+      }
+    ],
+    "completers": []
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "244233",
+    "slug": "city-college-hollywood-244233",
+    "name": "City College-Hollywood",
+    "city": "Hollywood",
+    "city_slug": "hollywood",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "st-petersburg-college-137078",
+      "institution_name": "St Petersburg College",
+      "earnings_median_5yr": 39598,
+      "earnings_median_4yr": 33728,
+      "debt_median": 15250,
+      "completers": 107,
+      "completers_single_year": 64,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hillsborough-community-college-134495",
+      "institution_name": "Hillsborough Community College",
+      "earnings_median_5yr": 38037,
+      "earnings_median_4yr": 36784,
+      "debt_median": null,
+      "completers": 12,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "eastern-florida-state-college-132693",
+      "institution_name": "Eastern Florida State College",
+      "earnings_median_5yr": 37600,
+      "earnings_median_4yr": 33758,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "miami-dade-college-135717",
+      "institution_name": "Miami Dade College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pensacola-state-college-136473",
+      "institution_name": "Pensacola State College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": null,
+      "cost_total_default": null,
+      "cost_source": null,
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": 24610,
+      "cip_family": "01"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

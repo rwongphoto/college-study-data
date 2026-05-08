@@ -1,0 +1,196 @@
+{
+  "institution_unitid": "129941",
+  "institution_name": "University of New Haven",
+  "institution_slug": "university-of-new-haven-129941",
+  "state": "ct",
+  "cip_code": "1408",
+  "cip_desc": "Civil Engineering.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1408-c3",
+  "earnings_median_4yr": 77976,
+  "earnings_median_5yr": 91932,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 0,
+  "debt_median": 27000,
+  "completers": 19,
+  "completers_single_year": 18,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 77976.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 91932.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 27000.0
+      },
+      {
+        "year": 2017,
+        "value": 27000.0
+      },
+      {
+        "year": 2018,
+        "value": 27000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 21.0
+      },
+      {
+        "year": 2015,
+        "value": 19.0
+      },
+      {
+        "year": 2016,
+        "value": 11.0
+      },
+      {
+        "year": 2017,
+        "value": 21.0
+      },
+      {
+        "year": 2018,
+        "value": 18.0
+      },
+      {
+        "year": 2019,
+        "value": 19.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "129941",
+    "slug": "university-of-new-haven-129941",
+    "name": "University of New Haven",
+    "city": "West Haven",
+    "city_slug": "west-haven",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "central-connecticut-state-university-128771",
+      "institution_name": "Central Connecticut State University",
+      "earnings_median_5yr": 92467,
+      "earnings_median_4yr": 81842,
+      "debt_median": 26000,
+      "completers": 15,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-connecticut-129020",
+      "institution_name": "University of Connecticut",
+      "earnings_median_5yr": 90694,
+      "earnings_median_4yr": 81556,
+      "debt_median": 24000,
+      "completers": 101,
+      "completers_single_year": 88,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-hartford-129525",
+      "institution_name": "University of Hartford",
+      "earnings_median_5yr": 85323,
+      "earnings_median_4yr": 75632,
+      "debt_median": 25125,
+      "completers": 21,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "quinnipiac-university-130226",
+      "institution_name": "Quinnipiac University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 27000,
+      "completers": 13,
+      "completers_single_year": 16,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "united-states-coast-guard-academy-130624",
+      "institution_name": "United States Coast Guard Academy",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 20,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 32749,
+      "cost_total_default": 130996,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 91932,
+      "earnings_anchor_year": 5,
+      "debt_median": 27000,
+      "cip_family": "14",
+      "hs_baseline_state": 42300
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 960656,
+      "breakeven_year": 9
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

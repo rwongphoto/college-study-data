@@ -1,0 +1,244 @@
+{
+  "institution_unitid": "413413",
+  "institution_name": "Capella University",
+  "institution_slug": "capella-university-413413",
+  "state": "mn",
+  "cip_code": "5210",
+  "cip_desc": "Human Resources Management and Services.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5210-c5",
+  "earnings_median_4yr": 64578,
+  "earnings_median_5yr": 74146,
+  "earnings_count_4yr": 14,
+  "earnings_count_5yr": 20,
+  "debt_median": 42992,
+  "completers": 312,
+  "completers_single_year": 260,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 64578.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 74146.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 47434.0
+      },
+      {
+        "year": 2015,
+        "value": 47714.0
+      },
+      {
+        "year": 2016,
+        "value": 47318.0
+      },
+      {
+        "year": 2017,
+        "value": 45360.0
+      },
+      {
+        "year": 2018,
+        "value": 42992.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 171.0
+      },
+      {
+        "year": 2015,
+        "value": 175.0
+      },
+      {
+        "year": 2016,
+        "value": 237.0
+      },
+      {
+        "year": 2017,
+        "value": 219.0
+      },
+      {
+        "year": 2018,
+        "value": 260.0
+      },
+      {
+        "year": 2019,
+        "value": 312.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "413413",
+    "slug": "capella-university-413413",
+    "name": "Capella University",
+    "city": "Minneapolis",
+    "city_slug": "minneapolis",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "bethel-university-173160",
+      "institution_name": "Bethel University",
+      "earnings_median_5yr": 95044,
+      "earnings_median_4yr": 74676,
+      "debt_median": 37584,
+      "completers": 24,
+      "completers_single_year": 32,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-northwestern-st-paul-174491",
+      "institution_name": "University of Northwestern-St Paul",
+      "earnings_median_5yr": 93804,
+      "earnings_median_4yr": 52855,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-mary-s-university-of-minnesota-174817",
+      "institution_name": "Saint Mary's University of Minnesota",
+      "earnings_median_5yr": 84695,
+      "earnings_median_4yr": 75366,
+      "debt_median": 40998,
+      "completers": 55,
+      "completers_single_year": 46,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "concordia-university-saint-paul-173328",
+      "institution_name": "Concordia University-Saint Paul",
+      "earnings_median_5yr": 81217,
+      "earnings_median_4yr": 68619,
+      "debt_median": 27000,
+      "completers": 55,
+      "completers_single_year": 54,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "walden-university-125231",
+      "institution_name": "Walden University",
+      "earnings_median_5yr": 63249,
+      "earnings_median_4yr": 57596,
+      "debt_median": 41000,
+      "completers": 70,
+      "completers_single_year": 72,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-minnesota-twin-cities-174066",
+      "institution_name": "University of Minnesota-Twin Cities",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 43750,
+      "completers": 84,
+      "completers_single_year": 96,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-minnesota-duluth-174233",
+      "institution_name": "University of Minnesota-Duluth",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-college-of-saint-scholastica-174899",
+      "institution_name": "The College of Saint Scholastica",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 32,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rasmussen-university-minnesota-175014",
+      "institution_name": "Rasmussen University-Minnesota",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 10,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 20,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 20489,
+      "cost_total_default": 122934,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 74146,
+      "earnings_anchor_year": 5,
+      "debt_median": 42992,
+      "cip_family": "52",
+      "hs_baseline_state": 39400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 473276,
+      "breakeven_year": 13
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

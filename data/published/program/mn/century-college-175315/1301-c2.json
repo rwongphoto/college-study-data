@@ -1,0 +1,192 @@
+{
+  "institution_unitid": "175315",
+  "institution_name": "Century College",
+  "institution_slug": "century-college-175315",
+  "state": "mn",
+  "cip_code": "1301",
+  "cip_desc": "Education, General.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "1301-c2",
+  "earnings_median_4yr": 32382,
+  "earnings_median_5yr": 34841,
+  "earnings_count_4yr": 4,
+  "earnings_count_5yr": 4,
+  "debt_median": null,
+  "completers": 7,
+  "completers_single_year": 19,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 32382.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 34841.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 16250.0
+      },
+      {
+        "year": 2015,
+        "value": 13966.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 19.0
+      },
+      {
+        "year": 2015,
+        "value": 23.0
+      },
+      {
+        "year": 2016,
+        "value": 16.0
+      },
+      {
+        "year": 2017,
+        "value": 23.0
+      },
+      {
+        "year": 2018,
+        "value": 19.0
+      },
+      {
+        "year": 2019,
+        "value": 7.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "175315",
+    "slug": "century-college-175315",
+    "name": "Century College",
+    "city": "White Bear Lake",
+    "city_slug": "white-bear-lake",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "inver-hills-community-college-173799",
+      "institution_name": "Inver Hills Community College",
+      "earnings_median_5yr": 35070,
+      "earnings_median_4yr": 33259,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "minneapolis-community-and-technical-college-174136",
+      "institution_name": "Minneapolis Community and Technical College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "north-hennepin-community-college-174376",
+      "institution_name": "North Hennepin Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "normandale-community-college-174428",
+      "institution_name": "Normandale Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "white-earth-tribal-and-community-college-434751",
+      "institution_name": "White Earth Tribal and Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 4,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 9938,
+      "cost_total_default": 19876,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 34841,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "13",
+      "hs_baseline_state": 39400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -134267,
+      "breakeven_year": null
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

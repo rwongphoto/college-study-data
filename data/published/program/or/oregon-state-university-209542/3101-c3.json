@@ -1,0 +1,160 @@
+{
+  "institution_unitid": "209542",
+  "institution_name": "Oregon State University",
+  "institution_slug": "oregon-state-university-209542",
+  "state": "or",
+  "cip_code": "3101",
+  "cip_desc": "Parks, Recreation and Leisure Studies.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "3101-c3",
+  "earnings_median_4yr": 47694,
+  "earnings_median_5yr": 50685,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 0,
+  "debt_median": 20104,
+  "completers": 14,
+  "completers_single_year": 20,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 47694.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 50685.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 23000.0
+      },
+      {
+        "year": 2015,
+        "value": 23634.0
+      },
+      {
+        "year": 2017,
+        "value": 21243.0
+      },
+      {
+        "year": 2018,
+        "value": 20104.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 20.0
+      },
+      {
+        "year": 2015,
+        "value": 17.0
+      },
+      {
+        "year": 2016,
+        "value": 23.0
+      },
+      {
+        "year": 2017,
+        "value": 24.0
+      },
+      {
+        "year": 2018,
+        "value": 20.0
+      },
+      {
+        "year": 2019,
+        "value": 14.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "209542",
+    "slug": "oregon-state-university-209542",
+    "name": "Oregon State University",
+    "city": "Corvallis",
+    "city_slug": "corvallis",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "southern-oregon-university-210146",
+      "institution_name": "Southern Oregon University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": 42893,
+      "debt_median": null,
+      "completers": 19,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 16992,
+      "cost_total_default": 67968,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 50685,
+      "earnings_anchor_year": 5,
+      "debt_median": 20104,
+      "cip_family": "31",
+      "hs_baseline_state": 38420
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 178275,
+      "breakeven_year": 17
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

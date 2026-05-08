@@ -1,0 +1,408 @@
+{
+  "institution_unitid": "173638",
+  "institution_name": "Minnesota West Community and Technical College",
+  "institution_slug": "minnesota-west-community-and-technical-college-173638",
+  "state": "mn",
+  "cip_code": "5138",
+  "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "5138-c2",
+  "earnings_median_4yr": 61646,
+  "earnings_median_5yr": 73703,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 1,
+  "debt_median": 10500,
+  "completers": 45,
+  "completers_single_year": 76,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 61646.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 73703.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 21000.0
+      },
+      {
+        "year": 2015,
+        "value": 19810.0
+      },
+      {
+        "year": 2016,
+        "value": 15857.0
+      },
+      {
+        "year": 2017,
+        "value": 11139.0
+      },
+      {
+        "year": 2018,
+        "value": 10500.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 72.0
+      },
+      {
+        "year": 2015,
+        "value": 76.0
+      },
+      {
+        "year": 2016,
+        "value": 64.0
+      },
+      {
+        "year": 2017,
+        "value": 69.0
+      },
+      {
+        "year": 2018,
+        "value": 76.0
+      },
+      {
+        "year": 2019,
+        "value": 45.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 21000.0,
+      "to_value": 10500.0,
+      "pct_change": -0.5,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing at Minnesota West Community and Technical College fell 50% between 2014 and 2018 ($21.0k → $10.5k).",
+      "magnitude_pct": -50.0,
+      "magnitude_abs": -10500.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "173638",
+    "slug": "minnesota-west-community-and-technical-college-173638",
+    "name": "Minnesota West Community and Technical College",
+    "city": "Granite Falls",
+    "city_slug": "granite-falls",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "normandale-community-college-174428",
+      "institution_name": "Normandale Community College",
+      "earnings_median_5yr": 84586,
+      "earnings_median_4yr": 71319,
+      "debt_median": 15372,
+      "completers": 79,
+      "completers_single_year": 79,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "north-hennepin-community-college-174376",
+      "institution_name": "North Hennepin Community College",
+      "earnings_median_5yr": 79612,
+      "earnings_median_4yr": 71269,
+      "debt_median": 16447,
+      "completers": 72,
+      "completers_single_year": 48,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "st-catherine-university-175005",
+      "institution_name": "St Catherine University",
+      "earnings_median_5yr": 78909,
+      "earnings_median_4yr": 67610,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rochester-community-and-technical-college-174738",
+      "institution_name": "Rochester Community and Technical College",
+      "earnings_median_5yr": 78692,
+      "earnings_median_4yr": 69521,
+      "debt_median": 18145,
+      "completers": 111,
+      "completers_single_year": 114,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "anoka-ramsey-community-college-172963",
+      "institution_name": "Anoka-Ramsey Community College",
+      "earnings_median_5yr": 77579,
+      "earnings_median_4yr": 69828,
+      "debt_median": 18169,
+      "completers": 151,
+      "completers_single_year": 162,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "inver-hills-community-college-173799",
+      "institution_name": "Inver Hills Community College",
+      "earnings_median_5yr": 77496,
+      "earnings_median_4yr": 68821,
+      "debt_median": 16250,
+      "completers": 89,
+      "completers_single_year": 80,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pine-technical-community-college-174570",
+      "institution_name": "Pine Technical & Community College",
+      "earnings_median_5yr": 76349,
+      "earnings_median_4yr": 62949,
+      "debt_median": 15500,
+      "completers": 27,
+      "completers_single_year": 38,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "minneapolis-community-and-technical-college-174136",
+      "institution_name": "Minneapolis Community and Technical College",
+      "earnings_median_5yr": 76123,
+      "earnings_median_4yr": 67329,
+      "debt_median": 21000,
+      "completers": 90,
+      "completers_single_year": 85,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rasmussen-university-minnesota-175014",
+      "institution_name": "Rasmussen University-Minnesota",
+      "earnings_median_5yr": 75988,
+      "earnings_median_4yr": 67872,
+      "debt_median": 20058,
+      "completers": 674,
+      "completers_single_year": 662,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "minnesota-state-college-southeast-175263",
+      "institution_name": "Minnesota State College Southeast",
+      "earnings_median_5yr": 75887,
+      "earnings_median_4yr": 68826,
+      "debt_median": 20752,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "st-cloud-technical-and-community-college-174756",
+      "institution_name": "St Cloud Technical and Community College",
+      "earnings_median_5yr": 75689,
+      "earnings_median_4yr": 66618,
+      "debt_median": 20000,
+      "completers": 50,
+      "completers_single_year": 49,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "century-college-175315",
+      "institution_name": "Century College",
+      "earnings_median_5yr": 74569,
+      "earnings_median_4yr": 66274,
+      "debt_median": 15725,
+      "completers": 108,
+      "completers_single_year": 118,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "central-lakes-college-brainerd-173203",
+      "institution_name": "Central Lakes College-Brainerd",
+      "earnings_median_5yr": 73046,
+      "earnings_median_4yr": 67828,
+      "debt_median": 19391,
+      "completers": 75,
+      "completers_single_year": 67,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "minnesota-north-college-173735",
+      "institution_name": "Minnesota North College",
+      "earnings_median_5yr": 72680,
+      "earnings_median_4yr": 65320,
+      "debt_median": 13427,
+      "completers": 49,
+      "completers_single_year": 68,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ridgewater-college-175236",
+      "institution_name": "Ridgewater College",
+      "earnings_median_5yr": 72623,
+      "earnings_median_4yr": 65525,
+      "debt_median": 15250,
+      "completers": 93,
+      "completers_single_year": 82,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "fond-du-lac-tribal-and-community-college-380368",
+      "institution_name": "Fond du Lac Tribal and Community College",
+      "earnings_median_5yr": 71615,
+      "earnings_median_4yr": 63083,
+      "debt_median": 21025,
+      "completers": 22,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northwest-technical-college-173115",
+      "institution_name": "Northwest Technical College",
+      "earnings_median_5yr": 70308,
+      "earnings_median_4yr": 64354,
+      "debt_median": 16637,
+      "completers": 77,
+      "completers_single_year": 48,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "south-central-college-173911",
+      "institution_name": "South Central College",
+      "earnings_median_5yr": 68415,
+      "earnings_median_4yr": 67211,
+      "debt_median": 18385,
+      "completers": 55,
+      "completers_single_year": 54,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "minnesota-state-community-and-technical-college-173559",
+      "institution_name": "Minnesota State Community and Technical College",
+      "earnings_median_5yr": 68312,
+      "earnings_median_4yr": 63263,
+      "debt_median": 19000,
+      "completers": 76,
+      "completers_single_year": 68,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lake-superior-college-173461",
+      "institution_name": "Lake Superior College",
+      "earnings_median_5yr": 65208,
+      "earnings_median_4yr": 58909,
+      "debt_median": 20125,
+      "completers": 112,
+      "completers_single_year": 102,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "alexandria-technical-community-college-172918",
+      "institution_name": "Alexandria Technical & Community College",
+      "earnings_median_5yr": 64803,
+      "earnings_median_4yr": 59837,
+      "debt_median": 16000,
+      "completers": 17,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northland-community-and-technical-college-174473",
+      "institution_name": "Northland Community and Technical College",
+      "earnings_median_5yr": 64662,
+      "earnings_median_4yr": 59094,
+      "debt_median": 21250,
+      "completers": 65,
+      "completers_single_year": 78,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "riverland-community-college-173063",
+      "institution_name": "Riverland Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 17180,
+      "completers": 30,
+      "completers_single_year": 37,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 10508,
+      "cost_total_default": 21016,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 73703,
+      "earnings_anchor_year": 5,
+      "debt_median": 10500,
+      "cip_family": "51",
+      "hs_baseline_state": 39400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 724898,
+      "breakeven_year": 3
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

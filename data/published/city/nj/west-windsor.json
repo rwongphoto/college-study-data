@@ -1,0 +1,468 @@
+{
+  "state": "nj",
+  "name": "West Windsor",
+  "slug": "west-windsor",
+  "institution_count": 1,
+  "institutions": [
+    {
+      "unitid": "185509",
+      "slug": "mercer-county-community-college-185509",
+      "name": "Mercer County Community College",
+      "city": "West Windsor",
+      "city_slug": "west-windsor",
+      "control": "public",
+      "pred_degree": "associates",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 43264,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 35267
+        },
+        {
+          "year": 8,
+          "value": 38726
+        },
+        {
+          "year": 10,
+          "value": 43264
+        }
+      ],
+      "completion_rate_150": 0.2086,
+      "completion_rate_history": [
+        {
+          "year": 1997,
+          "value": 0.153
+        },
+        {
+          "year": 1998,
+          "value": 0.1534
+        },
+        {
+          "year": 1999,
+          "value": 0.1519
+        },
+        {
+          "year": 2000,
+          "value": 0.1559
+        },
+        {
+          "year": 2001,
+          "value": 0.1417
+        },
+        {
+          "year": 2002,
+          "value": 0.1465
+        },
+        {
+          "year": 2003,
+          "value": 0.1397
+        },
+        {
+          "year": 2004,
+          "value": 0.1541
+        },
+        {
+          "year": 2005,
+          "value": 0.1615
+        },
+        {
+          "year": 2006,
+          "value": 0.1352
+        },
+        {
+          "year": 2007,
+          "value": 0.1332
+        },
+        {
+          "year": 2008,
+          "value": 0.1195
+        },
+        {
+          "year": 2009,
+          "value": 0.1278
+        }
+      ],
+      "enrollment_undergrad": 5169,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 6564.0
+        },
+        {
+          "year": 1997,
+          "value": 6635.0
+        },
+        {
+          "year": 1998,
+          "value": 3348.0
+        },
+        {
+          "year": 1999,
+          "value": 7774.0
+        },
+        {
+          "year": 2001,
+          "value": 6755.0
+        },
+        {
+          "year": 2002,
+          "value": 7170.0
+        },
+        {
+          "year": 2003,
+          "value": 7550.0
+        },
+        {
+          "year": 2004,
+          "value": 7435.0
+        },
+        {
+          "year": 2005,
+          "value": 7804.0
+        },
+        {
+          "year": 2006,
+          "value": 7893.0
+        },
+        {
+          "year": 2007,
+          "value": 7817.0
+        },
+        {
+          "year": 2008,
+          "value": 8138.0
+        },
+        {
+          "year": 2009,
+          "value": 8648.0
+        },
+        {
+          "year": 2010,
+          "value": 8805.0
+        },
+        {
+          "year": 2011,
+          "value": 8603.0
+        },
+        {
+          "year": 2012,
+          "value": 8121.0
+        },
+        {
+          "year": 2013,
+          "value": 7885.0
+        },
+        {
+          "year": 2014,
+          "value": 7132.0
+        },
+        {
+          "year": 2015,
+          "value": 7012.0
+        },
+        {
+          "year": 2016,
+          "value": 6609.0
+        },
+        {
+          "year": 2017,
+          "value": 6570.0
+        },
+        {
+          "year": 2018,
+          "value": 6530.0
+        },
+        {
+          "year": 2019,
+          "value": 6305.0
+        },
+        {
+          "year": 2020,
+          "value": 5406.0
+        },
+        {
+          "year": 2021,
+          "value": 5434.0
+        },
+        {
+          "year": 2022,
+          "value": 4945.0
+        },
+        {
+          "year": 2023,
+          "value": 5169.0
+        },
+        {
+          "year": 2024,
+          "value": 5404.0
+        }
+      ],
+      "median_debt": 7000,
+      "default_rate": 0.0,
+      "tuition_in_state": 5082,
+      "tuition_out_of_state": 8942,
+      "long_arc": [
+        {
+          "metric": "tuition_in_state",
+          "from_year": 2000,
+          "to_year": 2024,
+          "from_value": 1878.0,
+          "to_value": 5310.0,
+          "pct_change": 1.8274760383386581,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2000,
+          "to_year": 2024,
+          "from_value": 4122.0,
+          "to_value": 9174.0,
+          "pct_change": 1.225618631732169,
+          "direction": "rose"
+        },
+        {
+          "metric": "median_debt",
+          "from_year": 1997,
+          "to_year": 2020,
+          "from_value": 2625.0,
+          "to_value": 10500.0,
+          "pct_change": 3.0,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.149,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2008,
+          "to_year": 2024,
+          "from_value": 0.0346,
+          "to_value": 0.298,
+          "pct_change": 5.267999999999999,
+          "direction": "rose"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": 43264,
+  "completion_rate_city": 0.2086,
+  "completion_history_city": [
+    {
+      "year": 1997,
+      "value": 0.153
+    },
+    {
+      "year": 1998,
+      "value": 0.1534
+    },
+    {
+      "year": 1999,
+      "value": 0.1519
+    },
+    {
+      "year": 2000,
+      "value": 0.1559
+    },
+    {
+      "year": 2001,
+      "value": 0.1417
+    },
+    {
+      "year": 2002,
+      "value": 0.1465
+    },
+    {
+      "year": 2003,
+      "value": 0.1397
+    },
+    {
+      "year": 2004,
+      "value": 0.1541
+    },
+    {
+      "year": 2005,
+      "value": 0.1615
+    },
+    {
+      "year": 2006,
+      "value": 0.1352
+    },
+    {
+      "year": 2007,
+      "value": 0.1332
+    },
+    {
+      "year": 2008,
+      "value": 0.1195
+    },
+    {
+      "year": 2009,
+      "value": 0.1278
+    }
+  ],
+  "enrollment_history_city": [
+    {
+      "year": 1996,
+      "value": 6564.0
+    },
+    {
+      "year": 1997,
+      "value": 6635.0
+    },
+    {
+      "year": 1998,
+      "value": 3348.0
+    },
+    {
+      "year": 1999,
+      "value": 7774.0
+    },
+    {
+      "year": 2001,
+      "value": 6755.0
+    },
+    {
+      "year": 2002,
+      "value": 7170.0
+    },
+    {
+      "year": 2003,
+      "value": 7550.0
+    },
+    {
+      "year": 2004,
+      "value": 7435.0
+    },
+    {
+      "year": 2005,
+      "value": 7804.0
+    },
+    {
+      "year": 2006,
+      "value": 7893.0
+    },
+    {
+      "year": 2007,
+      "value": 7817.0
+    },
+    {
+      "year": 2008,
+      "value": 8138.0
+    },
+    {
+      "year": 2009,
+      "value": 8648.0
+    },
+    {
+      "year": 2010,
+      "value": 8805.0
+    },
+    {
+      "year": 2011,
+      "value": 8603.0
+    },
+    {
+      "year": 2012,
+      "value": 8121.0
+    },
+    {
+      "year": 2013,
+      "value": 7885.0
+    },
+    {
+      "year": 2014,
+      "value": 7132.0
+    },
+    {
+      "year": 2015,
+      "value": 7012.0
+    },
+    {
+      "year": 2016,
+      "value": 6609.0
+    },
+    {
+      "year": 2017,
+      "value": 6570.0
+    },
+    {
+      "year": 2018,
+      "value": 6530.0
+    },
+    {
+      "year": 2019,
+      "value": 6305.0
+    },
+    {
+      "year": 2020,
+      "value": 5406.0
+    },
+    {
+      "year": 2021,
+      "value": 5434.0
+    },
+    {
+      "year": 2022,
+      "value": 4945.0
+    },
+    {
+      "year": 2023,
+      "value": 5169.0
+    },
+    {
+      "year": 2024,
+      "value": 5404.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

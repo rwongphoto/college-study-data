@@ -1,0 +1,458 @@
+{
+  "institution_unitid": "151351",
+  "institution_name": "Indiana University-Bloomington",
+  "institution_slug": "indiana-university-bloomington-151351",
+  "state": "in",
+  "cip_code": "1609",
+  "cip_desc": "Romance Languages, Literatures, and Linguistics.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1609-c3",
+  "earnings_median_4yr": 48375,
+  "earnings_median_5yr": 62679,
+  "earnings_count_4yr": 12,
+  "earnings_count_5yr": 12,
+  "debt_median": 13000,
+  "completers": 86,
+  "completers_single_year": 82,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 48375.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 62679.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 21470.0
+      },
+      {
+        "year": 2015,
+        "value": 19500.0
+      },
+      {
+        "year": 2016,
+        "value": 17885.0
+      },
+      {
+        "year": 2017,
+        "value": 15500.0
+      },
+      {
+        "year": 2018,
+        "value": 13000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 99.0
+      },
+      {
+        "year": 2015,
+        "value": 95.0
+      },
+      {
+        "year": 2016,
+        "value": 102.0
+      },
+      {
+        "year": 2017,
+        "value": 91.0
+      },
+      {
+        "year": 2018,
+        "value": 82.0
+      },
+      {
+        "year": 2019,
+        "value": 86.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 21470.0,
+      "to_value": 13000.0,
+      "pct_change": -0.3945039590125757,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Romance Languages, Literatures, and Linguistics at Indiana University-Bloomington fell 39% between 2014 and 2018 ($21.5k → $13.0k).",
+      "magnitude_pct": -39.5,
+      "magnitude_abs": -8470.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "151351",
+    "slug": "indiana-university-bloomington-151351",
+    "name": "Indiana University-Bloomington",
+    "city": "Bloomington",
+    "city_slug": "bloomington",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-notre-dame-152080",
+      "institution_name": "University of Notre Dame",
+      "earnings_median_5yr": 78861,
+      "earnings_median_4yr": 65050,
+      "debt_median": 19000,
+      "completers": 72,
+      "completers_single_year": 90,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "depauw-university-150400",
+      "institution_name": "DePauw University",
+      "earnings_median_5yr": 68130,
+      "earnings_median_4yr": null,
+      "debt_median": 27000,
+      "completers": 25,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "butler-university-150163",
+      "institution_name": "Butler University",
+      "earnings_median_5yr": 62341,
+      "earnings_median_4yr": 53606,
+      "debt_median": 26870,
+      "completers": 49,
+      "completers_single_year": 55,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-mary-s-college-152390",
+      "institution_name": "Saint Mary's College",
+      "earnings_median_5yr": 51492,
+      "earnings_median_4yr": 42153,
+      "debt_median": null,
+      "completers": 15,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "valparaiso-university-152600",
+      "institution_name": "Valparaiso University",
+      "earnings_median_5yr": 51226,
+      "earnings_median_4yr": 43856,
+      "debt_median": 26900,
+      "completers": 17,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-southern-indiana-151306",
+      "institution_name": "University of Southern Indiana",
+      "earnings_median_5yr": 49468,
+      "earnings_median_4yr": 44042,
+      "debt_median": null,
+      "completers": 21,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "indiana-university-indianapolis-151111",
+      "institution_name": "Indiana University-Indianapolis",
+      "earnings_median_5yr": 47397,
+      "earnings_median_4yr": 36383,
+      "debt_median": 19778,
+      "completers": 15,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ball-state-university-150136",
+      "institution_name": "Ball State University",
+      "earnings_median_5yr": 41975,
+      "earnings_median_4yr": 38527,
+      "debt_median": 21702,
+      "completers": 19,
+      "completers_single_year": 27,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "anderson-university-150066",
+      "institution_name": "Anderson University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bethel-university-150145",
+      "institution_name": "Bethel University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "earlham-college-150455",
+      "institution_name": "Earlham College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-evansville-150534",
+      "institution_name": "University of Evansville",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "franklin-college-150604",
+      "institution_name": "Franklin College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "goshen-college-150668",
+      "institution_name": "Goshen College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "grace-college-and-theological-seminary-150677",
+      "institution_name": "Grace College and Theological Seminary",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "hanover-college-150756",
+      "institution_name": "Hanover College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "purdue-university-fort-wayne-151102",
+      "institution_name": "Purdue University Fort Wayne",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-indianapolis-151263",
+      "institution_name": "University of Indianapolis",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "indiana-university-south-bend-151342",
+      "institution_name": "Indiana University-South Bend",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "indiana-university-northwest-151360",
+      "institution_name": "Indiana University-Northwest",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "indiana-university-southeast-151379",
+      "institution_name": "Indiana University-Southeast",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "indiana-university-east-151388",
+      "institution_name": "Indiana University-East",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "manchester-university-151777",
+      "institution_name": "Manchester University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "marian-university-151786",
+      "institution_name": "Marian University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "indiana-wesleyan-university-marion-151801",
+      "institution_name": "Indiana Wesleyan University-Marion",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "taylor-university-152530",
+      "institution_name": "Taylor University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wabash-college-152673",
+      "institution_name": "Wabash College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "purdue-university-main-campus-243780",
+      "institution_name": "Purdue University-Main Campus",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 41,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 12,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 12311,
+      "cost_total_default": 49244,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 62679,
+      "earnings_anchor_year": 5,
+      "debt_median": 13000,
+      "cip_family": "16",
+      "hs_baseline_state": 36400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 454287,
+      "breakeven_year": 8
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

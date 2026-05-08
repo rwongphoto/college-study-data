@@ -1,0 +1,154 @@
+{
+  "institution_unitid": "146719",
+  "institution_name": "Loyola University Chicago",
+  "institution_slug": "loyola-university-chicago-146719",
+  "state": "il",
+  "cip_code": "3017",
+  "cip_desc": "Behavioral Sciences.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "3017-c2",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": null,
+  "earnings_count_5yr": 0,
+  "debt_median": 5903,
+  "completers": 53,
+  "completers_single_year": 43,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [
+      {
+        "year": 2017,
+        "value": 3500.0
+      },
+      {
+        "year": 2018,
+        "value": 5903.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2016,
+        "value": 57.0
+      },
+      {
+        "year": 2017,
+        "value": 52.0
+      },
+      {
+        "year": 2018,
+        "value": 43.0
+      },
+      {
+        "year": 2019,
+        "value": 53.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2017,
+      "to_year": 2018,
+      "from_value": 3500.0,
+      "to_value": 5903.0,
+      "pct_change": 0.6865714285714286,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Behavioral Sciences at Loyola University Chicago rose 69% between 2017 and 2018 ($3.5k → $5.9k).",
+      "magnitude_pct": 68.7,
+      "magnitude_abs": 2403.0,
+      "baseline_year": 2017,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "146719",
+    "slug": "loyola-university-chicago-146719",
+    "name": "Loyola University Chicago",
+    "city": "Chicago",
+    "city_slug": "chicago",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "east-west-university-144883",
+      "institution_name": "East-West University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 32527,
+      "cost_total_default": 65054,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": 5903,
+      "cip_family": "30"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

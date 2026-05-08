@@ -1,0 +1,204 @@
+{
+  "institution_unitid": "169910",
+  "institution_name": "Ferris State University",
+  "institution_slug": "ferris-state-university-169910",
+  "state": "mi",
+  "cip_code": "5219",
+  "cip_desc": "Specialized Sales, Merchandising and  Marketing Operations.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5219-c3",
+  "earnings_median_4yr": 52921,
+  "earnings_median_5yr": 61321,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 0,
+  "debt_median": 25500,
+  "completers": 30,
+  "completers_single_year": 27,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 52921.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 61321.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 23655.0
+      },
+      {
+        "year": 2015,
+        "value": 23655.0
+      },
+      {
+        "year": 2016,
+        "value": 26593.0
+      },
+      {
+        "year": 2017,
+        "value": 27000.0
+      },
+      {
+        "year": 2018,
+        "value": 25500.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 41.0
+      },
+      {
+        "year": 2015,
+        "value": 58.0
+      },
+      {
+        "year": 2016,
+        "value": 44.0
+      },
+      {
+        "year": 2017,
+        "value": 41.0
+      },
+      {
+        "year": 2018,
+        "value": 27.0
+      },
+      {
+        "year": 2019,
+        "value": 30.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "169910",
+    "slug": "ferris-state-university-169910",
+    "name": "Ferris State University",
+    "city": "Big Rapids",
+    "city_slug": "big-rapids",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "northwood-university-171492",
+      "institution_name": "Northwood University",
+      "earnings_median_5yr": 79201,
+      "earnings_median_4yr": 65717,
+      "debt_median": 25000,
+      "completers": 51,
+      "completers_single_year": 81,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "central-michigan-university-169248",
+      "institution_name": "Central Michigan University",
+      "earnings_median_5yr": 50960,
+      "earnings_median_4yr": 43940,
+      "debt_median": 26125,
+      "completers": 37,
+      "completers_single_year": 47,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "eastern-michigan-university-169798",
+      "institution_name": "Eastern Michigan University",
+      "earnings_median_5yr": 47884,
+      "earnings_median_4yr": 32738,
+      "debt_median": 29000,
+      "completers": 19,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "adrian-college-168528",
+      "institution_name": "Adrian College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 3,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-michigan-university-172699",
+      "institution_name": "Western Michigan University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 24885,
+      "completers": 33,
+      "completers_single_year": 40,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 12303,
+      "cost_total_default": 49212,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 61321,
+      "earnings_anchor_year": 5,
+      "debt_median": 25500,
+      "cip_family": "52",
+      "hs_baseline_state": 36900
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 443378,
+      "breakeven_year": 8
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

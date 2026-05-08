@@ -1,0 +1,234 @@
+{
+  "institution_unitid": "139940",
+  "institution_name": "Georgia State University",
+  "institution_slug": "georgia-state-university-139940",
+  "state": "ga",
+  "cip_code": "5107",
+  "cip_desc": "Health and Medical Administrative Services.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5107-c5",
+  "earnings_median_4yr": 113729,
+  "earnings_median_5yr": 123490,
+  "earnings_count_4yr": 4,
+  "earnings_count_5yr": 4,
+  "debt_median": null,
+  "completers": 38,
+  "completers_single_year": 34,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 113729.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 123490.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 53000.0
+      },
+      {
+        "year": 2015,
+        "value": 41000.0
+      },
+      {
+        "year": 2016,
+        "value": 41000.0
+      },
+      {
+        "year": 2017,
+        "value": 41000.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 34.0
+      },
+      {
+        "year": 2015,
+        "value": 44.0
+      },
+      {
+        "year": 2016,
+        "value": 44.0
+      },
+      {
+        "year": 2017,
+        "value": 36.0
+      },
+      {
+        "year": 2018,
+        "value": 34.0
+      },
+      {
+        "year": 2019,
+        "value": 38.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2017,
+      "from_value": 53000.0,
+      "to_value": 41000.0,
+      "pct_change": -0.22641509433962265,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Health and Medical Administrative Services at Georgia State University fell 23% between 2014 and 2017 ($53.0k → $41.0k).",
+      "magnitude_pct": -22.6,
+      "magnitude_abs": -12000.0,
+      "baseline_year": 2014,
+      "recent_year": 2017,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "139940",
+    "slug": "georgia-state-university-139940",
+    "name": "Georgia State University",
+    "city": "Atlanta",
+    "city_slug": "atlanta",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "brenau-university-139199",
+      "institution_name": "Brenau University",
+      "earnings_median_5yr": 99589,
+      "earnings_median_4yr": null,
+      "debt_median": 53606,
+      "completers": 13,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "georgia-southern-university-139931",
+      "institution_name": "Georgia Southern University",
+      "earnings_median_5yr": 71138,
+      "earnings_median_4yr": 60828,
+      "debt_median": 32598,
+      "completers": 9,
+      "completers_single_year": 41,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "clayton-state-university-139311",
+      "institution_name": "Clayton  State University",
+      "earnings_median_5yr": 70117,
+      "earnings_median_4yr": 56585,
+      "debt_median": 51193,
+      "completers": 21,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "south-university-savannah-139579",
+      "institution_name": "South University-Savannah",
+      "earnings_median_5yr": 63788,
+      "earnings_median_4yr": 54350,
+      "debt_median": 41000,
+      "completers": 11,
+      "completers_single_year": 6,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-georgia-139959",
+      "institution_name": "University of Georgia",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mercer-university-140447",
+      "institution_name": "Mercer University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 28501,
+      "completers": 43,
+      "completers_single_year": 43,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 4,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 17219,
+      "cost_total_default": 103314,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 123490,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "51",
+      "hs_baseline_state": 35800
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 1309797,
+      "breakeven_year": 8
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

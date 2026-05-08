@@ -1,0 +1,478 @@
+{
+  "institution_unitid": "199999",
+  "institution_name": "Winston-Salem State University",
+  "institution_slug": "winston-salem-state-university-199999",
+  "state": "nc",
+  "cip_code": "5138",
+  "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5138-c3",
+  "earnings_median_4yr": 73285,
+  "earnings_median_5yr": 89276,
+  "earnings_count_4yr": 8,
+  "earnings_count_5yr": 11,
+  "debt_median": 16874,
+  "completers": 262,
+  "completers_single_year": 268,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 73285.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 89276.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 12500.0
+      },
+      {
+        "year": 2015,
+        "value": 13192.0
+      },
+      {
+        "year": 2016,
+        "value": 14200.0
+      },
+      {
+        "year": 2017,
+        "value": 15562.0
+      },
+      {
+        "year": 2018,
+        "value": 16874.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 447.0
+      },
+      {
+        "year": 2015,
+        "value": 433.0
+      },
+      {
+        "year": 2016,
+        "value": 307.0
+      },
+      {
+        "year": 2017,
+        "value": 342.0
+      },
+      {
+        "year": 2018,
+        "value": 268.0
+      },
+      {
+        "year": 2019,
+        "value": 262.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 12500.0,
+      "to_value": 16874.0,
+      "pct_change": 0.34992,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing at Winston-Salem State University rose 35% between 2014 and 2018 ($12.5k → $16.9k).",
+      "magnitude_pct": 35.0,
+      "magnitude_abs": 4374.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "199999",
+    "slug": "winston-salem-state-university-199999",
+    "name": "Winston-Salem State University",
+    "city": "Winston-Salem",
+    "city_slug": "winston-salem",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-mount-olive-199069",
+      "institution_name": "University of Mount Olive",
+      "earnings_median_5yr": 89517,
+      "earnings_median_4yr": 78472,
+      "debt_median": 23717,
+      "completers": 27,
+      "completers_single_year": 53,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "fayetteville-state-university-198543",
+      "institution_name": "Fayetteville State University",
+      "earnings_median_5yr": 87767,
+      "earnings_median_4yr": 74916,
+      "debt_median": 17599,
+      "completers": 220,
+      "completers_single_year": 200,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "cabarrus-college-of-health-sciences-198109",
+      "institution_name": "Cabarrus College of Health Sciences",
+      "earnings_median_5yr": 83566,
+      "earnings_median_4yr": 75076,
+      "debt_median": 20443,
+      "completers": 19,
+      "completers_single_year": 18,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lees-mcrae-college-198808",
+      "institution_name": "Lees-McRae College",
+      "earnings_median_5yr": 82456,
+      "earnings_median_4yr": 72955,
+      "debt_median": 19339,
+      "completers": 29,
+      "completers_single_year": 29,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "duke-university-198419",
+      "institution_name": "Duke University",
+      "earnings_median_5yr": 82377,
+      "earnings_median_4yr": 71426,
+      "debt_median": 18750,
+      "completers": 147,
+      "completers_single_year": 133,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-north-carolina-wilmington-199218",
+      "institution_name": "University of North Carolina Wilmington",
+      "earnings_median_5yr": 79949,
+      "earnings_median_4yr": 71322,
+      "debt_median": 15128,
+      "completers": 782,
+      "completers_single_year": 727,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "gardner-webb-university-198561",
+      "institution_name": "Gardner-Webb University",
+      "earnings_median_5yr": 79750,
+      "earnings_median_4yr": 66782,
+      "debt_median": 18875,
+      "completers": 101,
+      "completers_single_year": 78,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-north-carolina-at-greensboro-199148",
+      "institution_name": "University of North Carolina at Greensboro",
+      "earnings_median_5yr": 79183,
+      "earnings_median_4yr": 68752,
+      "debt_median": 21150,
+      "completers": 218,
+      "completers_single_year": 187,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "north-carolina-central-university-199157",
+      "institution_name": "North Carolina Central University",
+      "earnings_median_5yr": 79100,
+      "earnings_median_4yr": 73033,
+      "debt_median": 31000,
+      "completers": 80,
+      "completers_single_year": 73,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-north-carolina-at-charlotte-199139",
+      "institution_name": "University of North Carolina at Charlotte",
+      "earnings_median_5yr": 77572,
+      "earnings_median_4yr": 66479,
+      "debt_median": 19120,
+      "completers": 197,
+      "completers_single_year": 191,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "wingate-university-199962",
+      "institution_name": "Wingate University",
+      "earnings_median_5yr": 77175,
+      "earnings_median_4yr": 63103,
+      "debt_median": 27000,
+      "completers": 27,
+      "completers_single_year": 19,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-north-carolina-at-chapel-hill-199120",
+      "institution_name": "University of North Carolina at Chapel Hill",
+      "earnings_median_5yr": 77041,
+      "earnings_median_4yr": 65538,
+      "debt_median": 19802,
+      "completers": 106,
+      "completers_single_year": 187,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "east-carolina-university-198464",
+      "institution_name": "East Carolina University",
+      "earnings_median_5yr": 76422,
+      "earnings_median_4yr": 66390,
+      "debt_median": 24250,
+      "completers": 343,
+      "completers_single_year": 356,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "appalachian-state-university-197869",
+      "institution_name": "Appalachian State University",
+      "earnings_median_5yr": 76064,
+      "earnings_median_4yr": 65602,
+      "debt_median": 12500,
+      "completers": 143,
+      "completers_single_year": 183,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "methodist-university-198969",
+      "institution_name": "Methodist University",
+      "earnings_median_5yr": 75899,
+      "earnings_median_4yr": 67630,
+      "debt_median": 26983,
+      "completers": 14,
+      "completers_single_year": 25,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-north-carolina-at-pembroke-199281",
+      "institution_name": "University of North Carolina at Pembroke",
+      "earnings_median_5yr": 75753,
+      "earnings_median_4yr": 68684,
+      "debt_median": 27250,
+      "completers": 94,
+      "completers_single_year": 50,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "queens-university-of-charlotte-199412",
+      "institution_name": "Queens University of Charlotte",
+      "earnings_median_5yr": 75496,
+      "earnings_median_4yr": 66132,
+      "debt_median": 25000,
+      "completers": 138,
+      "completers_single_year": 118,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-carolina-university-200004",
+      "institution_name": "Western Carolina University",
+      "earnings_median_5yr": 72955,
+      "earnings_median_4yr": 65830,
+      "debt_median": 17500,
+      "completers": 167,
+      "completers_single_year": 178,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "barton-college-197911",
+      "institution_name": "Barton College",
+      "earnings_median_5yr": 70203,
+      "earnings_median_4yr": 66223,
+      "debt_median": 24290,
+      "completers": 45,
+      "completers_single_year": 34,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "lenoir-rhyne-university-198835",
+      "institution_name": "Lenoir-Rhyne University",
+      "earnings_median_5yr": 68949,
+      "earnings_median_4yr": 60268,
+      "debt_median": 21000,
+      "completers": 64,
+      "completers_single_year": 47,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "north-carolina-a-t-state-university-199102",
+      "institution_name": "North Carolina A & T State University",
+      "earnings_median_5yr": 65877,
+      "earnings_median_4yr": 62160,
+      "debt_median": 16750,
+      "completers": 62,
+      "completers_single_year": 58,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "belmont-abbey-college-197984",
+      "institution_name": "Belmont Abbey College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "campbell-university-198136",
+      "institution_name": "Campbell University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 26000,
+      "completers": 44,
+      "completers_single_year": 43,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "catawba-college-198215",
+      "institution_name": "Catawba College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 25000,
+      "completers": 23,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mars-hill-university-198899",
+      "institution_name": "Mars Hill University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 23500,
+      "completers": 16,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "north-carolina-wesleyan-university-199209",
+      "institution_name": "North Carolina Wesleyan University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "william-peace-university-199272",
+      "institution_name": "William Peace University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 14,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "pfeiffer-university-199306",
+      "institution_name": "Pfeiffer University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 19,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "watts-college-of-nursing-199883",
+      "institution_name": "Watts College of Nursing",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "carolinas-college-of-health-sciences-433174",
+      "institution_name": "Carolinas College of Health Sciences",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 40,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 11,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 15668,
+      "cost_total_default": 62672,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 89276,
+      "earnings_anchor_year": 5,
+      "debt_median": 16874,
+      "cip_family": "51",
+      "hs_baseline_state": 35600
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 931238,
+      "breakeven_year": 6
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

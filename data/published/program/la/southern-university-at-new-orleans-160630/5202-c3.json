@@ -1,0 +1,378 @@
+{
+  "institution_unitid": "160630",
+  "institution_name": "Southern University at New Orleans",
+  "institution_slug": "southern-university-at-new-orleans-160630",
+  "state": "la",
+  "cip_code": "5202",
+  "cip_desc": "Business Administration, Management and Operations.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5202-c3",
+  "earnings_median_4yr": 32528,
+  "earnings_median_5yr": 35327,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 5,
+  "debt_median": 29808,
+  "completers": 49,
+  "completers_single_year": 44,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 32528.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 35327.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 29961.0
+      },
+      {
+        "year": 2015,
+        "value": 30500.0
+      },
+      {
+        "year": 2016,
+        "value": 25500.0
+      },
+      {
+        "year": 2017,
+        "value": 29808.0
+      },
+      {
+        "year": 2018,
+        "value": 29808.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 45.0
+      },
+      {
+        "year": 2015,
+        "value": 51.0
+      },
+      {
+        "year": 2016,
+        "value": 40.0
+      },
+      {
+        "year": 2017,
+        "value": 42.0
+      },
+      {
+        "year": 2018,
+        "value": 44.0
+      },
+      {
+        "year": 2019,
+        "value": 49.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [
+    {
+      "type": "debt_earnings_warning",
+      "severity": "warning",
+      "label": "Debt-to-earnings",
+      "summary": "Debt-to-earnings ratio of 11.2% at Business Administration, Management and Operations at Southern University at New Orleans exceeds the 8% gainful-employment threshold ($29.8k debt amortized over 10 years vs $35.3k earnings).",
+      "magnitude_pct": 11.2,
+      "magnitude_abs": 3.2,
+      "baseline_year": null,
+      "recent_year": 0,
+      "units": "%",
+      "history": [],
+      "metric": "debt_earnings_ratio"
+    }
+  ],
+  "institution": {
+    "unitid": "160630",
+    "slug": "southern-university-at-new-orleans-160630",
+    "name": "Southern University at New Orleans",
+    "city": "New Orleans",
+    "city_slug": "new-orleans",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "tulane-university-of-louisiana-160755",
+      "institution_name": "Tulane University of Louisiana",
+      "earnings_median_5yr": 105134,
+      "earnings_median_4yr": 87423,
+      "debt_median": 19250,
+      "completers": 213,
+      "completers_single_year": 180,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "louisiana-state-university-and-agricultural-mechanical-college-159391",
+      "institution_name": "Louisiana State University and Agricultural & Mechanical College",
+      "earnings_median_5yr": 69796,
+      "earnings_median_4yr": 60921,
+      "debt_median": 19500,
+      "completers": 190,
+      "completers_single_year": 257,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "centenary-college-of-louisiana-158477",
+      "institution_name": "Centenary College of Louisiana",
+      "earnings_median_5yr": 57023,
+      "earnings_median_4yr": 55511,
+      "debt_median": null,
+      "completers": 27,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-new-orleans-159939",
+      "institution_name": "University of New Orleans",
+      "earnings_median_5yr": 55269,
+      "earnings_median_4yr": 43876,
+      "debt_median": 19683,
+      "completers": 116,
+      "completers_single_year": 99,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "louisiana-tech-university-159647",
+      "institution_name": "Louisiana Tech University",
+      "earnings_median_5yr": 52803,
+      "earnings_median_4yr": 45214,
+      "debt_median": 24786,
+      "completers": 74,
+      "completers_single_year": 88,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "louisiana-state-university-shreveport-159416",
+      "institution_name": "Louisiana State University-Shreveport",
+      "earnings_median_5yr": 52559,
+      "earnings_median_4yr": 48747,
+      "debt_median": 24250,
+      "completers": 95,
+      "completers_single_year": 81,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southern-university-and-a-m-college-160621",
+      "institution_name": "Southern University and A & M College",
+      "earnings_median_5yr": 51573,
+      "earnings_median_4yr": 49195,
+      "debt_median": 28750,
+      "completers": 48,
+      "completers_single_year": 32,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-louisiana-at-monroe-159993",
+      "institution_name": "University of Louisiana at Monroe",
+      "earnings_median_5yr": 50920,
+      "earnings_median_4yr": 44361,
+      "debt_median": 21650,
+      "completers": 62,
+      "completers_single_year": 84,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southeastern-louisiana-university-160612",
+      "institution_name": "Southeastern Louisiana University",
+      "earnings_median_5yr": 50366,
+      "earnings_median_4yr": 44026,
+      "debt_median": 20500,
+      "completers": 235,
+      "completers_single_year": 186,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northwestern-state-university-of-louisiana-160038",
+      "institution_name": "Northwestern State University of Louisiana",
+      "earnings_median_5yr": 49944,
+      "earnings_median_4yr": 47068,
+      "debt_median": 27000,
+      "completers": 104,
+      "completers_single_year": 123,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "mcneese-state-university-159717",
+      "institution_name": "McNeese State University",
+      "earnings_median_5yr": 49396,
+      "earnings_median_4yr": 41879,
+      "debt_median": 23850,
+      "completers": 111,
+      "completers_single_year": 104,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-louisiana-at-lafayette-160658",
+      "institution_name": "University of Louisiana at Lafayette",
+      "earnings_median_5yr": 49147,
+      "earnings_median_4yr": 41995,
+      "debt_median": 22219,
+      "completers": 130,
+      "completers_single_year": 144,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "nicholls-state-university-159966",
+      "institution_name": "Nicholls State University",
+      "earnings_median_5yr": 49085,
+      "earnings_median_4yr": 44305,
+      "debt_median": 25000,
+      "completers": 126,
+      "completers_single_year": 100,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "xavier-university-of-louisiana-160904",
+      "institution_name": "Xavier University of Louisiana",
+      "earnings_median_5yr": 43552,
+      "earnings_median_4yr": 36538,
+      "debt_median": 26956,
+      "completers": 19,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "dillard-university-158802",
+      "institution_name": "Dillard University",
+      "earnings_median_5yr": 42214,
+      "earnings_median_4yr": 39302,
+      "debt_median": 29000,
+      "completers": 17,
+      "completers_single_year": 15,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "louisiana-state-university-alexandria-159382",
+      "institution_name": "Louisiana State University-Alexandria",
+      "earnings_median_5yr": 40966,
+      "earnings_median_4yr": 34437,
+      "debt_median": 22146,
+      "completers": 61,
+      "completers_single_year": 80,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "grambling-state-university-159009",
+      "institution_name": "Grambling State University",
+      "earnings_median_5yr": 33761,
+      "earnings_median_4yr": 34679,
+      "debt_median": 34000,
+      "completers": 56,
+      "completers_single_year": 32,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "louisiana-christian-university-159568",
+      "institution_name": "Louisiana Christian University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 10,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "loyola-university-new-orleans-159656",
+      "institution_name": "Loyola University New Orleans",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 27000,
+      "completers": 37,
+      "completers_single_year": 22,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-holy-cross-160065",
+      "institution_name": "University of Holy Cross",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "franciscan-missionaries-of-our-lady-university-160074",
+      "institution_name": "Franciscan Missionaries of Our Lady University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 5,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 16748,
+      "cost_total_default": 66992,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 35327,
+      "earnings_anchor_year": 5,
+      "debt_median": 29808,
+      "cip_family": "52",
+      "hs_baseline_state": 32800
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 10236,
+      "breakeven_year": 36
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "institution_unitid": "433387",
+  "institution_name": "Western Governors University",
+  "institution_slug": "western-governors-university-433387",
+  "state": "ut",
+  "cip_code": "1312",
+  "cip_desc": "Teacher Education and Professional Development, Specific Levels and Methods.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1312-c3",
+  "earnings_median_4yr": 38529,
+  "earnings_median_5yr": 43489,
+  "earnings_count_4yr": 9,
+  "earnings_count_5yr": 15,
+  "debt_median": null,
+  "completers": 1819,
+  "completers_single_year": 1657,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 38529.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 43489.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 18000.0
+      },
+      {
+        "year": 2015,
+        "value": 21894.0
+      },
+      {
+        "year": 2016,
+        "value": 25231.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 634.0
+      },
+      {
+        "year": 2015,
+        "value": 811.0
+      },
+      {
+        "year": 2016,
+        "value": 1132.0
+      },
+      {
+        "year": 2017,
+        "value": 1496.0
+      },
+      {
+        "year": 2018,
+        "value": 1657.0
+      },
+      {
+        "year": 2019,
+        "value": 1819.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2016,
+      "from_value": 18000.0,
+      "to_value": 25231.0,
+      "pct_change": 0.4017222222222222,
+      "direction": "rose"
+    },
+    {
+      "metric": "completers",
+      "from_year": 2014,
+      "to_year": 2019,
+      "from_value": 634.0,
+      "to_value": 1819.0,
+      "pct_change": 1.185,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Teacher Education and Professional Development, Specific Levels and Methods at Western Governors University rose 40% between 2014 and 2016 ($18.0k → $25.2k).",
+      "magnitude_pct": 40.2,
+      "magnitude_abs": 7231.0,
+      "baseline_year": 2014,
+      "recent_year": 2016,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    },
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Annual completers",
+      "summary": "Annual completers at Teacher Education and Professional Development, Specific Levels and Methods at Western Governors University rose 118% between 2014 and 2019 (634 → 1.8k).",
+      "magnitude_pct": 118.5,
+      "magnitude_abs": 1185.0,
+      "baseline_year": 2014,
+      "recent_year": 2019,
+      "units": null,
+      "history": [],
+      "metric": "completers"
+    }
+  ],
+  "institution": {
+    "unitid": "433387",
+    "slug": "western-governors-university-433387",
+    "name": "Western Governors University",
+    "city": "Salt Lake City",
+    "city_slug": "salt-lake-city",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-utah-230764",
+      "institution_name": "University of Utah",
+      "earnings_median_5yr": 55080,
+      "earnings_median_4yr": 47204,
+      "debt_median": 23370,
+      "completers": 47,
+      "completers_single_year": 59,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "utah-tech-university-230171",
+      "institution_name": "Utah Tech University",
+      "earnings_median_5yr": 53701,
+      "earnings_median_4yr": 45399,
+      "debt_median": 27860,
+      "completers": 47,
+      "completers_single_year": 33,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "weber-state-university-230782",
+      "institution_name": "Weber State University",
+      "earnings_median_5yr": 52679,
+      "earnings_median_4yr": 44408,
+      "debt_median": 17895,
+      "completers": 80,
+      "completers_single_year": 59,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southern-utah-university-230603",
+      "institution_name": "Southern Utah University",
+      "earnings_median_5yr": 52531,
+      "earnings_median_4yr": 46941,
+      "debt_median": 13500,
+      "completers": 57,
+      "completers_single_year": 53,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "utah-valley-university-230737",
+      "institution_name": "Utah Valley University",
+      "earnings_median_5yr": 50079,
+      "earnings_median_4yr": 44873,
+      "debt_median": 9633,
+      "completers": 140,
+      "completers_single_year": 132,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "utah-state-university-230728",
+      "institution_name": "Utah State University",
+      "earnings_median_5yr": 49585,
+      "earnings_median_4yr": 45267,
+      "debt_median": 15750,
+      "completers": 145,
+      "completers_single_year": 167,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "brigham-young-university-230038",
+      "institution_name": "Brigham Young University",
+      "earnings_median_5yr": 36698,
+      "earnings_median_4yr": 36968,
+      "debt_median": 13385,
+      "completers": 178,
+      "completers_single_year": 191,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "westminster-university-230807",
+      "institution_name": "Westminster University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 11,
+      "completers_single_year": 7,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 15,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 10666,
+      "cost_total_default": 42664,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 43489,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "13",
+      "hs_baseline_state": 38000
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 8163,
+      "breakeven_year": 35
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

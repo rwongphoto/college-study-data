@@ -1,0 +1,391 @@
+{
+  "state": "ca",
+  "name": "Saratoga",
+  "slug": "saratoga",
+  "institution_count": 1,
+  "institutions": [
+    {
+      "unitid": "125499",
+      "slug": "west-valley-college-125499",
+      "name": "West Valley College",
+      "city": "Saratoga",
+      "city_slug": "saratoga",
+      "control": "public",
+      "pred_degree": "associates",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 51688,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 41764
+        },
+        {
+          "year": 8,
+          "value": 44783
+        },
+        {
+          "year": 10,
+          "value": 51688
+        }
+      ],
+      "completion_rate_150": 0.5226,
+      "completion_rate_history": [
+        {
+          "year": 1997,
+          "value": 0.445
+        },
+        {
+          "year": 1998,
+          "value": 0.4134
+        },
+        {
+          "year": 1999,
+          "value": 0.3795
+        },
+        {
+          "year": 2000,
+          "value": 0.3965
+        },
+        {
+          "year": 2001,
+          "value": 0.3804
+        },
+        {
+          "year": 2002,
+          "value": 0.4038
+        },
+        {
+          "year": 2003,
+          "value": 0.3796
+        },
+        {
+          "year": 2004,
+          "value": 0.3733
+        },
+        {
+          "year": 2005,
+          "value": 0.3407
+        },
+        {
+          "year": 2006,
+          "value": 0.4115
+        },
+        {
+          "year": 2007,
+          "value": 0.2658
+        },
+        {
+          "year": 2008,
+          "value": 0.2421
+        },
+        {
+          "year": 2009,
+          "value": 0.3333
+        },
+        {
+          "year": 2010,
+          "value": 0.2495
+        }
+      ],
+      "enrollment_undergrad": 6086,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 7392.0
+        },
+        {
+          "year": 1997,
+          "value": 5494.0
+        },
+        {
+          "year": 1998,
+          "value": 4952.0
+        },
+        {
+          "year": 1999,
+          "value": 7354.0
+        },
+        {
+          "year": 2001,
+          "value": 5426.0
+        },
+        {
+          "year": 2002,
+          "value": 5598.0
+        },
+        {
+          "year": 2003,
+          "value": 4673.0
+        },
+        {
+          "year": 2004,
+          "value": 4148.0
+        },
+        {
+          "year": 2005,
+          "value": 5288.0
+        },
+        {
+          "year": 2006,
+          "value": 5376.0
+        },
+        {
+          "year": 2007,
+          "value": 5866.0
+        },
+        {
+          "year": 2008,
+          "value": 10037.0
+        },
+        {
+          "year": 2009,
+          "value": 10684.0
+        },
+        {
+          "year": 2010,
+          "value": 10985.0
+        }
+      ],
+      "median_debt": 7000,
+      "default_rate": 0.0,
+      "tuition_in_state": 1490,
+      "tuition_out_of_state": 8702,
+      "long_arc": [
+        {
+          "metric": "completion_rate_150",
+          "from_year": 1997,
+          "to_year": 2010,
+          "from_value": 0.445,
+          "to_value": 0.2495,
+          "pct_change": -0.4393258426966292,
+          "direction": "fell"
+        },
+        {
+          "metric": "completion_rate_100",
+          "from_year": 2009,
+          "to_year": 2010,
+          "from_value": 0.1222,
+          "to_value": 0.0774,
+          "pct_change": -0.3666121112929624,
+          "direction": "fell"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 1996,
+          "to_year": 2010,
+          "from_value": 7392.0,
+          "to_value": 10985.0,
+          "pct_change": 0.48606601731601734,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_in_state",
+          "from_year": 2000,
+          "to_year": 2010,
+          "from_value": 390.0,
+          "to_value": 700.0,
+          "pct_change": 0.31,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2000,
+          "to_year": 2024,
+          "from_value": 3262.0,
+          "to_value": 8702.0,
+          "pct_change": 1.6676885346413244,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.108,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2008,
+          "to_year": 2010,
+          "from_value": 0.0848,
+          "to_value": 0.1218,
+          "pct_change": 0.4363207547169812,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_8yr",
+          "from_year": 2005,
+          "to_year": 2020,
+          "from_value": 35900.0,
+          "to_value": 44783.0,
+          "pct_change": 0.24743732590529247,
+          "direction": "rose"
+        }
+      ]
+    }
+  ],
+  "earnings_median_city": 51688,
+  "completion_rate_city": 0.5226,
+  "completion_history_city": [
+    {
+      "year": 1997,
+      "value": 0.445
+    },
+    {
+      "year": 1998,
+      "value": 0.4134
+    },
+    {
+      "year": 1999,
+      "value": 0.3795
+    },
+    {
+      "year": 2000,
+      "value": 0.3965
+    },
+    {
+      "year": 2001,
+      "value": 0.3804
+    },
+    {
+      "year": 2002,
+      "value": 0.4038
+    },
+    {
+      "year": 2003,
+      "value": 0.3796
+    },
+    {
+      "year": 2004,
+      "value": 0.3733
+    },
+    {
+      "year": 2005,
+      "value": 0.3407
+    },
+    {
+      "year": 2006,
+      "value": 0.4115
+    },
+    {
+      "year": 2007,
+      "value": 0.2658
+    },
+    {
+      "year": 2008,
+      "value": 0.2421
+    },
+    {
+      "year": 2009,
+      "value": 0.3333
+    },
+    {
+      "year": 2010,
+      "value": 0.2495
+    }
+  ],
+  "enrollment_history_city": [
+    {
+      "year": 1996,
+      "value": 7392.0
+    },
+    {
+      "year": 1997,
+      "value": 5494.0
+    },
+    {
+      "year": 1998,
+      "value": 4952.0
+    },
+    {
+      "year": 1999,
+      "value": 7354.0
+    },
+    {
+      "year": 2001,
+      "value": 5426.0
+    },
+    {
+      "year": 2002,
+      "value": 5598.0
+    },
+    {
+      "year": 2003,
+      "value": 4673.0
+    },
+    {
+      "year": 2004,
+      "value": 4148.0
+    },
+    {
+      "year": 2005,
+      "value": 5288.0
+    },
+    {
+      "year": 2006,
+      "value": 5376.0
+    },
+    {
+      "year": 2007,
+      "value": 5866.0
+    },
+    {
+      "year": 2008,
+      "value": 10037.0
+    },
+    {
+      "year": 2009,
+      "value": 10684.0
+    },
+    {
+      "year": 2010,
+      "value": 10985.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

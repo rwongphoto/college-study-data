@@ -1,0 +1,223 @@
+{
+  "institution": {
+    "unitid": "498845",
+    "opeid6": "043045",
+    "name": "Heartland Welding Academy",
+    "slug": "heartland-welding-academy-498845",
+    "state": "ks",
+    "city": "Andover",
+    "city_slug": "andover",
+    "zip5": "67002",
+    "address": "656 North Andover Road",
+    "latitude": 37.697688,
+    "longitude": -97.134406,
+    "control": "private_forprofit",
+    "pred_degree": "certificate",
+    "highest_degree": "certificate",
+    "main_campus": true,
+    "locale": "21",
+    "carnegie_basic": -2,
+    "sector_code": 9,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": 0.9231,
+    "completion_rate_100": 0.9231,
+    "retention_rate": null,
+    "admission_rate": null,
+    "enrollment_undergrad": 34,
+    "enrollment_total": null,
+    "cost_attendance": 22748,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": 20694,
+    "cost_by_income": {
+      "0_30k": 20030,
+      "30_48k": 19990,
+      "48_75k": null,
+      "75_110k": 22748,
+      "110k_plus": 22748,
+      "sticker": 22748,
+      "sector": "priv"
+    },
+    "median_debt": null,
+    "default_rate": null,
+    "pell_share": 0.2,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [],
+      "admission_rate": [],
+      "enrollment_undergrad": [
+        {
+          "year": 2023,
+          "value": 34.0
+        },
+        {
+          "year": 2024,
+          "value": 47.0
+        }
+      ],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [
+        {
+          "year": 2023,
+          "value": 22748.0
+        },
+        {
+          "year": 2024,
+          "value": 22478.0
+        }
+      ],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [
+        {
+          "year": 2023,
+          "value": 20694.0
+        },
+        {
+          "year": 2024,
+          "value": 20194.0
+        }
+      ],
+      "median_debt": [],
+      "default_rate": [],
+      "pell_share": [
+        {
+          "year": 2023,
+          "value": 0.2
+        },
+        {
+          "year": 2024,
+          "value": 0.4943
+        }
+      ],
+      "earnings_median_6yr": [],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": []
+    },
+    "long_arc": [
+      {
+        "metric": "pell_share",
+        "from_year": 2023,
+        "to_year": 2024,
+        "from_value": 0.2,
+        "to_value": 0.4943,
+        "pct_change": 1.4715,
+        "direction": "rose"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "Undergraduate enrollment",
+        "summary": "Undergraduate enrollment at Heartland Welding Academy rose 38% between 2023 and 2024 (34 → 47).",
+        "magnitude_pct": 38.2,
+        "magnitude_abs": 13.0,
+        "baseline_year": 2023,
+        "recent_year": 2024,
+        "units": null,
+        "history": [],
+        "metric": "enrollment_undergrad"
+      }
+    ]
+  },
+  "programs_by_family": {},
+  "programs": [],
+  "program_count": 0,
+  "similar": [
+    {
+      "slug": "midwest-barber-college-493831",
+      "name": "Midwest Barber College",
+      "city": "Topeka",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.5455,
+      "enrollment_undergrad": 32
+    },
+    {
+      "slug": "sami-halaseh-institute-498766",
+      "name": "Sami Halaseh Institute",
+      "city": "Andover",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": 23
+    },
+    {
+      "slug": "hays-academy-of-hair-design-155159",
+      "name": "Hays Academy of Hair Design",
+      "city": "Hays",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 23712,
+      "completion_rate_150": 0.7442,
+      "enrollment_undergrad": 74
+    },
+    {
+      "slug": "old-town-barber-college-wichita-155353",
+      "name": "Old Town Barber College-Wichita",
+      "city": "Wichita",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": 21295,
+      "completion_rate_150": 0.5652,
+      "enrollment_undergrad": 94
+    },
+    {
+      "slug": "mitsu-sato-hair-academy-476902",
+      "name": "Mitsu Sato Hair Academy",
+      "city": "Overland Park",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": 0.8571,
+      "enrollment_undergrad": 97
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

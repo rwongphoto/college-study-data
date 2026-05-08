@@ -1,0 +1,126 @@
+{
+  "institution_unitid": "164085",
+  "institution_name": "Maryland University of Integrative Health",
+  "institution_slug": "maryland-university-of-integrative-health-164085",
+  "state": "md",
+  "cip_code": "5131",
+  "cip_desc": "Dietetics and Clinical Nutrition Services.",
+  "credential_level": 6,
+  "credential_desc": "Doctoral Degree",
+  "slug": "5131-c6",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": null,
+  "earnings_count_5yr": null,
+  "debt_median": 67086,
+  "completers": null,
+  "completers_single_year": null,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [
+      {
+        "year": 2017,
+        "value": 54667.0
+      },
+      {
+        "year": 2018,
+        "value": 67086.0
+      }
+    ],
+    "completers": []
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2017,
+      "to_year": 2018,
+      "from_value": 54667.0,
+      "to_value": 67086.0,
+      "pct_change": 0.2271754440521704,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Dietetics and Clinical Nutrition Services at Maryland University of Integrative Health rose 23% between 2017 and 2018 ($54.7k → $67.1k).",
+      "magnitude_pct": 22.7,
+      "magnitude_abs": 12419.0,
+      "baseline_year": 2017,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "164085",
+    "slug": "maryland-university-of-integrative-health-164085",
+    "name": "Maryland University of Integrative Health",
+    "city": "Laurel",
+    "city_slug": "laurel",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 8,
+      "cost_per_year_default": null,
+      "cost_total_default": null,
+      "cost_source": null,
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": 67086,
+      "cip_family": "51"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "institution_unitid": "152637",
+  "institution_name": "Vincennes University",
+  "institution_slug": "vincennes-university-152637",
+  "state": "in",
+  "cip_code": "5107",
+  "cip_desc": "Health and Medical Administrative Services.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "5107-c2",
+  "earnings_median_4yr": 42477,
+  "earnings_median_5yr": 46820,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 3,
+  "debt_median": null,
+  "completers": 2,
+  "completers_single_year": 14,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 42477.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 46820.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 24836.0
+      },
+      {
+        "year": 2015,
+        "value": 24836.0
+      },
+      {
+        "year": 2016,
+        "value": 18793.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 23.0
+      },
+      {
+        "year": 2015,
+        "value": 22.0
+      },
+      {
+        "year": 2016,
+        "value": 18.0
+      },
+      {
+        "year": 2017,
+        "value": 8.0
+      },
+      {
+        "year": 2018,
+        "value": 14.0
+      },
+      {
+        "year": 2019,
+        "value": 2.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2016,
+      "from_value": 24836.0,
+      "to_value": 18793.0,
+      "pct_change": -0.2433161539700435,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Health and Medical Administrative Services at Vincennes University fell 24% between 2014 and 2016 ($24.8k → $18.8k).",
+      "magnitude_pct": -24.3,
+      "magnitude_abs": -6043.0,
+      "baseline_year": 2014,
+      "recent_year": 2016,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "152637",
+    "slug": "vincennes-university-152637",
+    "name": "Vincennes University",
+    "city": "Vincennes",
+    "city_slug": "vincennes",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "indiana-university-northwest-151360",
+      "institution_name": "Indiana University-Northwest",
+      "earnings_median_5yr": 53970,
+      "earnings_median_4yr": 47779,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "purdue-university-global-489779",
+      "institution_name": "Purdue University Global",
+      "earnings_median_5yr": 38065,
+      "earnings_median_4yr": 33399,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "ivy-tech-community-college-150987",
+      "institution_name": "Ivy Tech Community College",
+      "earnings_median_5yr": 35841,
+      "earnings_median_4yr": 32964,
+      "debt_median": 11500,
+      "completers": 224,
+      "completers_single_year": 217,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "indiana-institute-of-technology-151290",
+      "institution_name": "Indiana Institute of Technology",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 24666,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 12295,
+      "cost_total_default": 24590,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 46820,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "51",
+      "hs_baseline_state": 36400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 224250,
+      "breakeven_year": 8
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "institution_unitid": "131803",
+  "institution_name": "Strayer University-District of Columbia",
+  "institution_slug": "strayer-university-district-of-columbia-131803",
+  "state": "dc",
+  "cip_code": "5138",
+  "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5138-c3",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": null,
+  "earnings_count_5yr": null,
+  "debt_median": 24214,
+  "completers": null,
+  "completers_single_year": null,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [
+      {
+        "year": 2017,
+        "value": 19226.0
+      },
+      {
+        "year": 2018,
+        "value": 24214.0
+      }
+    ],
+    "completers": []
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2017,
+      "to_year": 2018,
+      "from_value": 19226.0,
+      "to_value": 24214.0,
+      "pct_change": 0.25944034120461873,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing at Strayer University-District of Columbia rose 26% between 2017 and 2018 ($19.2k → $24.2k).",
+      "magnitude_pct": 25.9,
+      "magnitude_abs": 4988.0,
+      "baseline_year": 2017,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "131803",
+    "slug": "strayer-university-district-of-columbia-131803",
+    "name": "Strayer University-District of Columbia",
+    "city": "Washington",
+    "city_slug": "washington",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "howard-university-131520",
+      "institution_name": "Howard University",
+      "earnings_median_5yr": 105029,
+      "earnings_median_4yr": 79113,
+      "debt_median": 24000,
+      "completers": 41,
+      "completers_single_year": 32,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "trinity-washington-university-131876",
+      "institution_name": "Trinity Washington University",
+      "earnings_median_5yr": 97649,
+      "earnings_median_4yr": 92897,
+      "debt_median": 27250,
+      "completers": 46,
+      "completers_single_year": 21,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-catholic-university-of-america-131283",
+      "institution_name": "The Catholic University of America",
+      "earnings_median_5yr": 94074,
+      "earnings_median_4yr": 79813,
+      "debt_median": 26976,
+      "completers": 64,
+      "completers_single_year": 66,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "george-washington-university-131469",
+      "institution_name": "George Washington University",
+      "earnings_median_5yr": 91325,
+      "earnings_median_4yr": 79066,
+      "debt_median": 18716,
+      "completers": 273,
+      "completers_single_year": 303,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "georgetown-university-131496",
+      "institution_name": "Georgetown University",
+      "earnings_median_5yr": 84741,
+      "earnings_median_4yr": 84513,
+      "debt_median": 14000,
+      "completers": 28,
+      "completers_single_year": 26,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-the-district-of-columbia-131399",
+      "institution_name": "University of the District of Columbia",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": null,
+      "cost_total_default": null,
+      "cost_source": null,
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": 24214,
+      "cip_family": "51"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

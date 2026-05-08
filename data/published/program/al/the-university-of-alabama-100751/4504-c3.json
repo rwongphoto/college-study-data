@@ -1,0 +1,138 @@
+{
+  "institution_unitid": "100751",
+  "institution_name": "The University of Alabama",
+  "institution_slug": "the-university-of-alabama-100751",
+  "state": "al",
+  "cip_code": "4504",
+  "cip_desc": "Criminology.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "4504-c3",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": null,
+  "earnings_count_5yr": null,
+  "debt_median": null,
+  "completers": 260,
+  "completers_single_year": 18,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [],
+    "completers": [
+      {
+        "year": 2015,
+        "value": 0.0
+      },
+      {
+        "year": 2016,
+        "value": 0.0
+      },
+      {
+        "year": 2017,
+        "value": 8.0
+      },
+      {
+        "year": 2018,
+        "value": 18.0
+      },
+      {
+        "year": 2019,
+        "value": 260.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "completers",
+      "from_year": 2015,
+      "to_year": 2019,
+      "from_value": 0.0,
+      "to_value": 260.0,
+      "pct_change": 0.26,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Annual completers",
+      "summary": "Annual completers at Criminology at The University of Alabama rose 26% between 2015 and 2019 (0 → 260).",
+      "magnitude_pct": 26.0,
+      "magnitude_abs": 260.0,
+      "baseline_year": 2015,
+      "recent_year": 2019,
+      "units": null,
+      "history": [],
+      "metric": "completers"
+    }
+  ],
+  "institution": {
+    "unitid": "100751",
+    "slug": "the-university-of-alabama-100751",
+    "name": "The University of Alabama",
+    "city": "Tuscaloosa",
+    "city_slug": "tuscaloosa",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "auburn-university-100858",
+      "institution_name": "Auburn University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": null,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-mobile-101693",
+      "institution_name": "University of Mobile",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": 4,
+      "pooled_earnings": false
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

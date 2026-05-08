@@ -1,0 +1,248 @@
+{
+  "institution_unitid": "149222",
+  "institution_name": "Southern Illinois University-Carbondale",
+  "institution_slug": "southern-illinois-university-carbondale-149222",
+  "state": "il",
+  "cip_code": "1408",
+  "cip_desc": "Civil Engineering.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "1408-c3",
+  "earnings_median_4yr": 71341,
+  "earnings_median_5yr": 78165,
+  "earnings_count_4yr": 0,
+  "earnings_count_5yr": 2,
+  "debt_median": 19313,
+  "completers": 34,
+  "completers_single_year": 32,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 71341.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 78165.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 27000.0
+      },
+      {
+        "year": 2015,
+        "value": 23296.0
+      },
+      {
+        "year": 2016,
+        "value": 18930.0
+      },
+      {
+        "year": 2017,
+        "value": 18317.0
+      },
+      {
+        "year": 2018,
+        "value": 19313.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 48.0
+      },
+      {
+        "year": 2015,
+        "value": 44.0
+      },
+      {
+        "year": 2016,
+        "value": 37.0
+      },
+      {
+        "year": 2017,
+        "value": 51.0
+      },
+      {
+        "year": 2018,
+        "value": 32.0
+      },
+      {
+        "year": 2019,
+        "value": 34.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 27000.0,
+      "to_value": 19313.0,
+      "pct_change": -0.2847037037037037,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Civil Engineering at Southern Illinois University-Carbondale fell 28% between 2014 and 2018 ($27.0k → $19.3k).",
+      "magnitude_pct": -28.5,
+      "magnitude_abs": -7687.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "149222",
+    "slug": "southern-illinois-university-carbondale-149222",
+    "name": "Southern Illinois University-Carbondale",
+    "city": "Carbondale",
+    "city_slug": "carbondale",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-illinois-urbana-champaign-145637",
+      "institution_name": "University of Illinois Urbana-Champaign",
+      "earnings_median_5yr": 90751,
+      "earnings_median_4yr": 79514,
+      "debt_median": 19000,
+      "completers": 202,
+      "completers_single_year": 180,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "illinois-institute-of-technology-145725",
+      "institution_name": "Illinois Institute of Technology",
+      "earnings_median_5yr": 84660,
+      "earnings_median_4yr": 74292,
+      "debt_median": 24000,
+      "completers": 25,
+      "completers_single_year": 37,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "southern-illinois-university-edwardsville-149231",
+      "institution_name": "Southern Illinois University-Edwardsville",
+      "earnings_median_5yr": 83754,
+      "earnings_median_4yr": 70607,
+      "debt_median": 20264,
+      "completers": 52,
+      "completers_single_year": 30,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-illinois-chicago-145600",
+      "institution_name": "University of Illinois Chicago",
+      "earnings_median_5yr": 83670,
+      "earnings_median_4yr": 75853,
+      "debt_median": 22000,
+      "completers": 83,
+      "completers_single_year": 79,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "bradley-university-143358",
+      "institution_name": "Bradley University",
+      "earnings_median_5yr": 82851,
+      "earnings_median_4yr": 73795,
+      "debt_median": 27000,
+      "completers": 33,
+      "completers_single_year": 31,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northwestern-university-147767",
+      "institution_name": "Northwestern University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 16,
+      "completers_single_year": 13,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-illinois-university-149772",
+      "institution_name": "Western Illinois University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 13206,
+      "cost_total_default": 52824,
+      "cost_source": "NPT43_PUB",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 78165,
+      "earnings_anchor_year": 5,
+      "debt_median": 19313,
+      "cip_family": "14",
+      "hs_baseline_state": 38300
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 828981,
+      "breakeven_year": 6
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

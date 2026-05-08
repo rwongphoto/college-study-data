@@ -1,0 +1,183 @@
+{
+  "institution_unitid": "160995",
+  "institution_name": "Beal University",
+  "institution_slug": "beal-university-160995",
+  "state": "me",
+  "cip_code": "5138",
+  "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+  "credential_level": 3,
+  "credential_desc": "Bachelor's Degree",
+  "slug": "5138-c3",
+  "earnings_median_4yr": null,
+  "earnings_median_5yr": null,
+  "earnings_count_4yr": null,
+  "earnings_count_5yr": null,
+  "debt_median": null,
+  "completers": 2,
+  "completers_single_year": 0,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [],
+    "earnings_median_5yr": [],
+    "debt_median": [],
+    "completers": [
+      {
+        "year": 2018,
+        "value": 0.0
+      },
+      {
+        "year": 2019,
+        "value": 2.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "160995",
+    "slug": "beal-university-160995",
+    "name": "Beal University",
+    "city": "Bangor",
+    "city_slug": "bangor",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "saint-joseph-s-college-of-maine-161518",
+      "institution_name": "Saint Joseph's College of Maine",
+      "earnings_median_5yr": 87708,
+      "earnings_median_4yr": 78119,
+      "debt_median": 27000,
+      "completers": 78,
+      "completers_single_year": 62,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-maine-at-fort-kent-161235",
+      "institution_name": "University of Maine at Fort Kent",
+      "earnings_median_5yr": 86651,
+      "earnings_median_4yr": 76049,
+      "debt_median": 21125,
+      "completers": 180,
+      "completers_single_year": 169,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-new-england-161457",
+      "institution_name": "University of New England",
+      "earnings_median_5yr": 82667,
+      "earnings_median_4yr": 71590,
+      "debt_median": 26000,
+      "completers": 116,
+      "completers_single_year": 97,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-maine-at-augusta-161217",
+      "institution_name": "University of Maine at Augusta",
+      "earnings_median_5yr": 79383,
+      "earnings_median_4yr": 68022,
+      "debt_median": 27627,
+      "completers": 18,
+      "completers_single_year": 23,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-maine-161253",
+      "institution_name": "University of Maine",
+      "earnings_median_5yr": 77342,
+      "earnings_median_4yr": 71443,
+      "debt_median": 27000,
+      "completers": 78,
+      "completers_single_year": 75,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "husson-university-487524",
+      "institution_name": "Husson University",
+      "earnings_median_5yr": 75573,
+      "earnings_median_4yr": 67288,
+      "debt_median": 27500,
+      "completers": 85,
+      "completers_single_year": 53,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-southern-maine-161554",
+      "institution_name": "University of Southern Maine",
+      "earnings_median_5yr": 71235,
+      "earnings_median_4yr": 63969,
+      "debt_median": 20017,
+      "completers": 202,
+      "completers_single_year": 147,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "maine-college-of-health-professions-161022",
+      "institution_name": "Maine College of Health Professions",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": true,
+    "n_obs": 0,
+    "inputs": {
+      "years_to_complete": 4,
+      "cost_per_year_default": 33578,
+      "cost_total_default": 134312,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": null,
+      "earnings_anchor_year": 4,
+      "debt_median": null,
+      "cip_family": "51"
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": null
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "institution_unitid": "105330",
+  "institution_name": "Northern Arizona University",
+  "institution_slug": "northern-arizona-university-105330",
+  "state": "az",
+  "cip_code": "5138",
+  "cip_desc": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5138-c5",
+  "earnings_median_4yr": 109998,
+  "earnings_median_5yr": 126392,
+  "earnings_count_4yr": 4,
+  "earnings_count_5yr": 3,
+  "debt_median": 42539,
+  "completers": 42,
+  "completers_single_year": 52,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 109998.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 126392.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 33500.0
+      },
+      {
+        "year": 2015,
+        "value": 37153.0
+      },
+      {
+        "year": 2016,
+        "value": 43129.0
+      },
+      {
+        "year": 2017,
+        "value": 41000.0
+      },
+      {
+        "year": 2018,
+        "value": 42539.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 42.0
+      },
+      {
+        "year": 2015,
+        "value": 60.0
+      },
+      {
+        "year": 2016,
+        "value": 57.0
+      },
+      {
+        "year": 2017,
+        "value": 51.0
+      },
+      {
+        "year": 2018,
+        "value": 52.0
+      },
+      {
+        "year": 2019,
+        "value": 42.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 33500.0,
+      "to_value": 42539.0,
+      "pct_change": 0.2698208955223881,
+      "direction": "rose"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "regression",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing at Northern Arizona University rose 27% between 2014 and 2018 ($33.5k → $42.5k).",
+      "magnitude_pct": 27.0,
+      "magnitude_abs": 9039.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "105330",
+    "slug": "northern-arizona-university-105330",
+    "name": "Northern Arizona University",
+    "city": "Flagstaff",
+    "city_slug": "flagstaff",
+    "control": "public"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "university-of-phoenix-arizona-484613",
+      "institution_name": "University of Phoenix-Arizona",
+      "earnings_median_5yr": 120428,
+      "earnings_median_4yr": 111460,
+      "debt_median": 31196,
+      "completers": 436,
+      "completers_single_year": 464,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "grand-canyon-university-104717",
+      "institution_name": "Grand Canyon University",
+      "earnings_median_5yr": 118164,
+      "earnings_median_4yr": 109021,
+      "debt_median": 32443,
+      "completers": 1935,
+      "completers_single_year": 1782,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-arizona-104179",
+      "institution_name": "University of Arizona",
+      "earnings_median_5yr": 104234,
+      "earnings_median_4yr": 93025,
+      "debt_median": 41000,
+      "completers": 197,
+      "completers_single_year": 193,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "arizona-state-university-campus-immersion-104151",
+      "institution_name": "Arizona State University Campus Immersion",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 36,
+      "completers_single_year": 9,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "aspen-university-454829",
+      "institution_name": "Aspen University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 26087,
+      "completers": 455,
+      "completers_single_year": 319,
+      "pooled_earnings": false
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

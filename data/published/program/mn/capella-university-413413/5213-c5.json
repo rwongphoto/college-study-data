@@ -1,0 +1,214 @@
+{
+  "institution_unitid": "413413",
+  "institution_name": "Capella University",
+  "institution_slug": "capella-university-413413",
+  "state": "mn",
+  "cip_code": "5213",
+  "cip_desc": "Management Sciences and Quantitative Methods.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "5213-c5",
+  "earnings_median_4yr": 83407,
+  "earnings_median_5yr": 89180,
+  "earnings_count_4yr": 1,
+  "earnings_count_5yr": 0,
+  "debt_median": 44744,
+  "completers": 30,
+  "completers_single_year": 38,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 83407.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 89180.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 42984.0
+      },
+      {
+        "year": 2015,
+        "value": 38311.0
+      },
+      {
+        "year": 2016,
+        "value": 35798.0
+      },
+      {
+        "year": 2017,
+        "value": 39657.0
+      },
+      {
+        "year": 2018,
+        "value": 44744.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 16.0
+      },
+      {
+        "year": 2015,
+        "value": 34.0
+      },
+      {
+        "year": 2016,
+        "value": 38.0
+      },
+      {
+        "year": 2017,
+        "value": 47.0
+      },
+      {
+        "year": 2018,
+        "value": 38.0
+      },
+      {
+        "year": 2019,
+        "value": 30.0
+      }
+    ]
+  },
+  "long_arc": [],
+  "flags": [],
+  "institution": {
+    "unitid": "413413",
+    "slug": "capella-university-413413",
+    "name": "Capella University",
+    "city": "Minneapolis",
+    "city_slug": "minneapolis",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "hamline-university-173665",
+      "institution_name": "Hamline University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 8,
+      "completers_single_year": 3,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-minnesota-twin-cities-174066",
+      "institution_name": "University of Minnesota-Twin Cities",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": 40768,
+      "completers": 32,
+      "completers_single_year": 156,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "saint-mary-s-university-of-minnesota-174817",
+      "institution_name": "Saint Mary's University of Minnesota",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 0,
+      "completers_single_year": 0,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-college-of-saint-scholastica-174899",
+      "institution_name": "The College of Saint Scholastica",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "university-of-st-thomas-174914",
+      "institution_name": "University of St Thomas",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 70,
+      "completers_single_year": 48,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "rasmussen-university-minnesota-175014",
+      "institution_name": "Rasmussen University-Minnesota",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 2,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 1,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 20489,
+      "cost_total_default": 122934,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 89180,
+      "earnings_anchor_year": 5,
+      "debt_median": 44744,
+      "cip_family": "52",
+      "hs_baseline_state": 39400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 723163,
+      "breakeven_year": 11
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

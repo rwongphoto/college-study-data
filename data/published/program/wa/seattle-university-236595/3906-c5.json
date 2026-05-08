@@ -1,0 +1,230 @@
+{
+  "institution_unitid": "236595",
+  "institution_name": "Seattle University",
+  "institution_slug": "seattle-university-236595",
+  "state": "wa",
+  "cip_code": "3906",
+  "cip_desc": "Theological and Ministerial Studies.",
+  "credential_level": 5,
+  "credential_desc": "Master's Degree",
+  "slug": "3906-c5",
+  "earnings_median_4yr": 57486,
+  "earnings_median_5yr": 59571,
+  "earnings_count_4yr": 3,
+  "earnings_count_5yr": 3,
+  "debt_median": null,
+  "completers": 13,
+  "completers_single_year": 14,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 57486.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 59571.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 81117.0
+      },
+      {
+        "year": 2015,
+        "value": 79616.0
+      },
+      {
+        "year": 2016,
+        "value": 59422.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 21.0
+      },
+      {
+        "year": 2015,
+        "value": 28.0
+      },
+      {
+        "year": 2016,
+        "value": 16.0
+      },
+      {
+        "year": 2017,
+        "value": 11.0
+      },
+      {
+        "year": 2018,
+        "value": 14.0
+      },
+      {
+        "year": 2019,
+        "value": 13.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2016,
+      "from_value": 81117.0,
+      "to_value": 59422.0,
+      "pct_change": -0.2674531849057534,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Theological and Ministerial Studies at Seattle University fell 27% between 2014 and 2016 ($81.1k → $59.4k).",
+      "magnitude_pct": -26.7,
+      "magnitude_abs": -21695.0,
+      "baseline_year": 2014,
+      "recent_year": 2016,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "236595",
+    "slug": "seattle-university-236595",
+    "name": "Seattle University",
+    "city": "Seattle",
+    "city_slug": "seattle",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "faith-international-university-443049",
+      "institution_name": "Faith International University",
+      "earnings_median_5yr": 45988,
+      "earnings_median_4yr": 35852,
+      "debt_median": null,
+      "completers": 27,
+      "completers_single_year": 32,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "northwest-university-236133",
+      "institution_name": "Northwest University",
+      "earnings_median_5yr": 37178,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 9,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "gonzaga-university-235316",
+      "institution_name": "Gonzaga University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 17,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "seattle-pacific-university-236577",
+      "institution_name": "Seattle Pacific University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 13,
+      "completers_single_year": 14,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "whitworth-university-237066",
+      "institution_name": "Whitworth University",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 7,
+      "completers_single_year": 11,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "the-seattle-school-of-theology-psychology-441131",
+      "institution_name": "The Seattle School of Theology & Psychology",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 5,
+      "completers_single_year": 2,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 3,
+    "inputs": {
+      "years_to_complete": 6,
+      "cost_per_year_default": 30151,
+      "cost_total_default": 180906,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 59571,
+      "earnings_anchor_year": 5,
+      "debt_median": null,
+      "cip_family": "39",
+      "hs_baseline_state": 41200
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 131073,
+      "breakeven_year": 26
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

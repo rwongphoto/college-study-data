@@ -1,0 +1,228 @@
+{
+  "institution_unitid": "240718",
+  "institution_name": "WyoTech",
+  "institution_slug": "wyotech-240718",
+  "state": "wy",
+  "cip_code": "4706",
+  "cip_desc": "Vehicle Maintenance and Repair Technologies.",
+  "credential_level": 1,
+  "credential_desc": "Undergraduate Certificate or Diploma",
+  "slug": "4706-c1",
+  "earnings_median_4yr": 43913,
+  "earnings_median_5yr": 48863,
+  "earnings_count_4yr": 99,
+  "earnings_count_5yr": 116,
+  "debt_median": 6800,
+  "completers": 493,
+  "completers_single_year": 136,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 43913.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 48863.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 10376.0
+      },
+      {
+        "year": 2015,
+        "value": 8998.0
+      },
+      {
+        "year": 2016,
+        "value": 10296.0
+      },
+      {
+        "year": 2017,
+        "value": 10757.0
+      },
+      {
+        "year": 2018,
+        "value": 6800.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 408.0
+      },
+      {
+        "year": 2015,
+        "value": 445.0
+      },
+      {
+        "year": 2016,
+        "value": 395.0
+      },
+      {
+        "year": 2017,
+        "value": 36.0
+      },
+      {
+        "year": 2018,
+        "value": 136.0
+      },
+      {
+        "year": 2019,
+        "value": 493.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 10376.0,
+      "to_value": 6800.0,
+      "pct_change": -0.3446414803392444,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Vehicle Maintenance and Repair Technologies at WyoTech fell 34% between 2014 and 2018 ($10.4k → $6.8k).",
+      "magnitude_pct": -34.5,
+      "magnitude_abs": -3576.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "240718",
+    "slug": "wyotech-240718",
+    "name": "WyoTech",
+    "city": "Laramie",
+    "city_slug": "laramie",
+    "control": "private_forprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "northern-wyoming-community-college-district-240666",
+      "institution_name": "Northern Wyoming Community College District",
+      "earnings_median_5yr": 68385,
+      "earnings_median_4yr": 61449,
+      "debt_median": null,
+      "completers": 48,
+      "completers_single_year": 20,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "casper-college-240505",
+      "institution_name": "Casper College",
+      "earnings_median_5yr": 51964,
+      "earnings_median_4yr": 49905,
+      "debt_median": null,
+      "completers": 41,
+      "completers_single_year": 12,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "laramie-county-community-college-240620",
+      "institution_name": "Laramie County Community College",
+      "earnings_median_5yr": 43513,
+      "earnings_median_4yr": 43641,
+      "debt_median": 5500,
+      "completers": 36,
+      "completers_single_year": 55,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "central-wyoming-college-240514",
+      "institution_name": "Central Wyoming College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 1,
+      "completers_single_year": 1,
+      "pooled_earnings": false
+    },
+    {
+      "institution_slug": "western-wyoming-community-college-240693",
+      "institution_name": "Western Wyoming Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 4,
+      "completers_single_year": 5,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 116,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 42341,
+      "cost_total_default": 42341,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 48863,
+      "earnings_anchor_year": 5,
+      "debt_median": 6800,
+      "cip_family": "47",
+      "hs_baseline_state": 39400
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 228183,
+      "breakeven_year": 10
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

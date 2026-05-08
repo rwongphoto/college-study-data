@@ -1,0 +1,559 @@
+{
+  "state": "ca",
+  "name": "Torrance",
+  "slug": "torrance",
+  "institution_count": 3,
+  "institutions": [
+    {
+      "unitid": "113980",
+      "slug": "el-camino-community-college-district-113980",
+      "name": "El Camino Community College District",
+      "city": "Torrance",
+      "city_slug": "torrance",
+      "control": "public",
+      "pred_degree": "associates",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 41589,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 30790
+        },
+        {
+          "year": 8,
+          "value": 37120
+        },
+        {
+          "year": 10,
+          "value": 41589
+        }
+      ],
+      "completion_rate_150": 0.3665,
+      "completion_rate_history": [
+        {
+          "year": 1997,
+          "value": 0.3665
+        },
+        {
+          "year": 1998,
+          "value": 0.3154
+        },
+        {
+          "year": 1999,
+          "value": 0.2961
+        },
+        {
+          "year": 2000,
+          "value": 0.3179
+        },
+        {
+          "year": 2001,
+          "value": 0.2864
+        },
+        {
+          "year": 2002,
+          "value": 0.3856
+        },
+        {
+          "year": 2003,
+          "value": 0.3793
+        },
+        {
+          "year": 2004,
+          "value": 0.3618
+        },
+        {
+          "year": 2005,
+          "value": 0.3608
+        },
+        {
+          "year": 2006,
+          "value": 0.3536
+        },
+        {
+          "year": 2007,
+          "value": 0.2716
+        },
+        {
+          "year": 2008,
+          "value": 0.2161
+        },
+        {
+          "year": 2009,
+          "value": 0.2326
+        },
+        {
+          "year": 2010,
+          "value": 0.2528
+        }
+      ],
+      "enrollment_undergrad": 18994,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 17872.0
+        },
+        {
+          "year": 1997,
+          "value": 13773.0
+        },
+        {
+          "year": 1998,
+          "value": 13379.0
+        },
+        {
+          "year": 1999,
+          "value": 17411.0
+        },
+        {
+          "year": 2001,
+          "value": 13799.0
+        },
+        {
+          "year": 2002,
+          "value": 15395.0
+        },
+        {
+          "year": 2003,
+          "value": 15029.0
+        },
+        {
+          "year": 2004,
+          "value": 12270.0
+        },
+        {
+          "year": 2005,
+          "value": 14457.0
+        },
+        {
+          "year": 2006,
+          "value": 14082.0
+        },
+        {
+          "year": 2007,
+          "value": 14720.0
+        },
+        {
+          "year": 2008,
+          "value": 23475.0
+        },
+        {
+          "year": 2009,
+          "value": 24192.0
+        },
+        {
+          "year": 2010,
+          "value": 22014.0
+        }
+      ],
+      "median_debt": 4750,
+      "default_rate": 0.0,
+      "tuition_in_state": 1144,
+      "tuition_out_of_state": 7144,
+      "long_arc": [
+        {
+          "metric": "completion_rate_150",
+          "from_year": 1997,
+          "to_year": 2010,
+          "from_value": 0.3665,
+          "to_value": 0.2528,
+          "pct_change": -0.31023192360163704,
+          "direction": "fell"
+        },
+        {
+          "metric": "enrollment_undergrad",
+          "from_year": 1996,
+          "to_year": 2010,
+          "from_value": 17872.0,
+          "to_value": 22014.0,
+          "pct_change": 0.2317591763652641,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_in_state",
+          "from_year": 2000,
+          "to_year": 2010,
+          "from_value": 304.0,
+          "to_value": 1282.0,
+          "pct_change": 0.978,
+          "direction": "rose"
+        },
+        {
+          "metric": "tuition_out_of_state",
+          "from_year": 2000,
+          "to_year": 2024,
+          "from_value": 3472.0,
+          "to_value": 7630.0,
+          "pct_change": 1.1975806451612903,
+          "direction": "rose"
+        },
+        {
+          "metric": "default_rate",
+          "from_year": 2011,
+          "to_year": 2024,
+          "from_value": 0.194,
+          "to_value": 0.0,
+          "pct_change": -1.0,
+          "direction": "fell"
+        },
+        {
+          "metric": "pell_share",
+          "from_year": 2008,
+          "to_year": 2010,
+          "from_value": 0.1276,
+          "to_value": 0.2088,
+          "pct_change": 0.6363636363636366,
+          "direction": "rose"
+        },
+        {
+          "metric": "earnings_median_8yr",
+          "from_year": 2005,
+          "to_year": 2020,
+          "from_value": 30200.0,
+          "to_value": 37120.0,
+          "pct_change": 0.22913907284768212,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "unitid": "457086",
+      "slug": "homestead-schools-457086",
+      "name": "Homestead Schools",
+      "city": "Torrance",
+      "city_slug": "torrance",
+      "control": "private_nonprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": 59398,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": 43413
+        },
+        {
+          "year": 8,
+          "value": 50578
+        },
+        {
+          "year": 10,
+          "value": 59398
+        }
+      ],
+      "completion_rate_150": 0.9375,
+      "completion_rate_history": [
+        {
+          "year": 2015,
+          "value": 0.7719
+        },
+        {
+          "year": 2016,
+          "value": 0.8571
+        },
+        {
+          "year": 2017,
+          "value": 0.8333
+        },
+        {
+          "year": 2018,
+          "value": 1.0
+        },
+        {
+          "year": 2019,
+          "value": 0.8333
+        },
+        {
+          "year": 2020,
+          "value": 0.871
+        },
+        {
+          "year": 2022,
+          "value": 1.0
+        },
+        {
+          "year": 2023,
+          "value": 0.9375
+        },
+        {
+          "year": 2024,
+          "value": 0.9333
+        }
+      ],
+      "enrollment_undergrad": 176,
+      "enrollment_history": [
+        {
+          "year": 2009,
+          "value": 118.0
+        }
+      ],
+      "median_debt": 18040,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": [
+        {
+          "metric": "completion_rate_150",
+          "from_year": 2015,
+          "to_year": 2024,
+          "from_value": 0.7719,
+          "to_value": 0.9333,
+          "pct_change": 0.20909444228527008,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "unitid": "114637",
+      "slug": "redondo-beach-beauty-college-114637",
+      "name": "Redondo Beach Beauty College",
+      "city": "Torrance",
+      "city_slug": "torrance",
+      "control": "private_forprofit",
+      "pred_degree": "certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_10yr": null,
+      "earnings_progression": [
+        {
+          "year": 4,
+          "value": null
+        },
+        {
+          "year": 5,
+          "value": null
+        },
+        {
+          "year": 6,
+          "value": null
+        },
+        {
+          "year": 8,
+          "value": null
+        },
+        {
+          "year": 10,
+          "value": null
+        }
+      ],
+      "completion_rate_150": 1.0,
+      "completion_rate_history": [],
+      "enrollment_undergrad": 52,
+      "enrollment_history": [
+        {
+          "year": 1996,
+          "value": 133.0
+        }
+      ],
+      "median_debt": null,
+      "default_rate": 0.0,
+      "tuition_in_state": null,
+      "tuition_out_of_state": null,
+      "long_arc": []
+    }
+  ],
+  "earnings_median_city": 50493,
+  "completion_rate_city": 0.9375,
+  "completion_history_city": [
+    {
+      "year": 1997,
+      "value": 0.3665
+    },
+    {
+      "year": 1998,
+      "value": 0.3154
+    },
+    {
+      "year": 1999,
+      "value": 0.2961
+    },
+    {
+      "year": 2000,
+      "value": 0.3179
+    },
+    {
+      "year": 2001,
+      "value": 0.2864
+    },
+    {
+      "year": 2002,
+      "value": 0.3856
+    },
+    {
+      "year": 2003,
+      "value": 0.3793
+    },
+    {
+      "year": 2004,
+      "value": 0.3618
+    },
+    {
+      "year": 2005,
+      "value": 0.3608
+    },
+    {
+      "year": 2006,
+      "value": 0.3536
+    },
+    {
+      "year": 2007,
+      "value": 0.2716
+    },
+    {
+      "year": 2008,
+      "value": 0.2161
+    },
+    {
+      "year": 2009,
+      "value": 0.2326
+    },
+    {
+      "year": 2010,
+      "value": 0.2528
+    },
+    {
+      "year": 2015,
+      "value": 0.7719
+    },
+    {
+      "year": 2016,
+      "value": 0.8571
+    },
+    {
+      "year": 2017,
+      "value": 0.8333
+    },
+    {
+      "year": 2018,
+      "value": 1.0
+    },
+    {
+      "year": 2019,
+      "value": 0.8333
+    },
+    {
+      "year": 2020,
+      "value": 0.871
+    },
+    {
+      "year": 2022,
+      "value": 1.0
+    },
+    {
+      "year": 2023,
+      "value": 0.9375
+    },
+    {
+      "year": 2024,
+      "value": 0.9333
+    }
+  ],
+  "enrollment_history_city": [
+    {
+      "year": 1996,
+      "value": 18005.0
+    },
+    {
+      "year": 1997,
+      "value": 13773.0
+    },
+    {
+      "year": 1998,
+      "value": 13379.0
+    },
+    {
+      "year": 1999,
+      "value": 17411.0
+    },
+    {
+      "year": 2001,
+      "value": 13799.0
+    },
+    {
+      "year": 2002,
+      "value": 15395.0
+    },
+    {
+      "year": 2003,
+      "value": 15029.0
+    },
+    {
+      "year": 2004,
+      "value": 12270.0
+    },
+    {
+      "year": 2005,
+      "value": 14457.0
+    },
+    {
+      "year": 2006,
+      "value": 14082.0
+    },
+    {
+      "year": 2007,
+      "value": 14720.0
+    },
+    {
+      "year": 2008,
+      "value": 23475.0
+    },
+    {
+      "year": 2009,
+      "value": 24310.0
+    },
+    {
+      "year": 2010,
+      "value": 22014.0
+    }
+  ],
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

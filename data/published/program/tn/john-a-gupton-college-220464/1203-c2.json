@@ -1,0 +1,184 @@
+{
+  "institution_unitid": "220464",
+  "institution_name": "John A Gupton College",
+  "institution_slug": "john-a-gupton-college-220464",
+  "state": "tn",
+  "cip_code": "1203",
+  "cip_desc": "Funeral Service and Mortuary Science.",
+  "credential_level": 2,
+  "credential_desc": "Associate's Degree",
+  "slug": "1203-c2",
+  "earnings_median_4yr": 43547,
+  "earnings_median_5yr": 48547,
+  "earnings_count_4yr": 2,
+  "earnings_count_5yr": 2,
+  "debt_median": 12500,
+  "completers": 35,
+  "completers_single_year": 34,
+  "pooled_earnings": false,
+  "history": {
+    "earnings_median_4yr": [
+      {
+        "year": 2018,
+        "value": 43547.0
+      }
+    ],
+    "earnings_median_5yr": [
+      {
+        "year": 2019,
+        "value": 48547.0
+      }
+    ],
+    "debt_median": [
+      {
+        "year": 2014,
+        "value": 17000.0
+      },
+      {
+        "year": 2016,
+        "value": 11125.0
+      },
+      {
+        "year": 2017,
+        "value": 11625.0
+      },
+      {
+        "year": 2018,
+        "value": 12500.0
+      }
+    ],
+    "completers": [
+      {
+        "year": 2014,
+        "value": 36.0
+      },
+      {
+        "year": 2015,
+        "value": 20.0
+      },
+      {
+        "year": 2016,
+        "value": 23.0
+      },
+      {
+        "year": 2017,
+        "value": 39.0
+      },
+      {
+        "year": 2018,
+        "value": 34.0
+      },
+      {
+        "year": 2019,
+        "value": 35.0
+      }
+    ]
+  },
+  "long_arc": [
+    {
+      "metric": "debt_median",
+      "from_year": 2014,
+      "to_year": 2018,
+      "from_value": 17000.0,
+      "to_value": 12500.0,
+      "pct_change": -0.2647058823529412,
+      "direction": "fell"
+    }
+  ],
+  "flags": [
+    {
+      "type": "long_arc_shift",
+      "severity": "improvement",
+      "label": "Median program debt at exit",
+      "summary": "Median program debt at exit at Funeral Service and Mortuary Science at John A Gupton College fell 26% between 2014 and 2018 ($17.0k → $12.5k).",
+      "magnitude_pct": -26.5,
+      "magnitude_abs": -4500.0,
+      "baseline_year": 2014,
+      "recent_year": 2018,
+      "units": null,
+      "history": [],
+      "metric": "debt_median"
+    }
+  ],
+  "institution": {
+    "unitid": "220464",
+    "slug": "john-a-gupton-college-220464",
+    "name": "John A Gupton College",
+    "city": "Nashville",
+    "city_slug": "nashville",
+    "control": "private_nonprofit"
+  },
+  "peers_in_state": [
+    {
+      "institution_slug": "southwest-tennessee-community-college-221485",
+      "institution_name": "Southwest Tennessee Community College",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "debt_median": null,
+      "completers": 6,
+      "completers_single_year": null,
+      "pooled_earnings": false
+    }
+  ],
+  "roi": {
+    "suppressed": false,
+    "n_obs": 2,
+    "inputs": {
+      "years_to_complete": 2,
+      "cost_per_year_default": 22966,
+      "cost_total_default": 45932,
+      "cost_source": "NPT43_PRIV",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 48547,
+      "earnings_anchor_year": 5,
+      "debt_median": 12500,
+      "cip_family": "12",
+      "hs_baseline_state": 34600
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": 285067,
+      "breakeven_year": 9
+    }
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

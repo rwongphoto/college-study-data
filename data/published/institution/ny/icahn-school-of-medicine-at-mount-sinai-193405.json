@@ -1,0 +1,1761 @@
+{
+  "institution": {
+    "unitid": "193405",
+    "opeid6": "007026",
+    "name": "Icahn School of Medicine at Mount Sinai",
+    "slug": "icahn-school-of-medicine-at-mount-sinai-193405",
+    "state": "ny",
+    "city": "New York",
+    "city_slug": "new-york",
+    "zip5": "10029",
+    "address": "One Gustave L Levy Place, Box 1217",
+    "latitude": 40.790359,
+    "longitude": -73.952414,
+    "control": "private_nonprofit",
+    "pred_degree": "graduate",
+    "highest_degree": "masters",
+    "main_campus": true,
+    "locale": "11",
+    "carnegie_basic": 25,
+    "sector_code": 2,
+    "hbcu": false,
+    "tribal": false,
+    "earnings_median_4yr": null,
+    "earnings_median_5yr": null,
+    "earnings_median_6yr": null,
+    "earnings_median_8yr": null,
+    "earnings_median_10yr": null,
+    "completion_rate_150": null,
+    "completion_rate_100": null,
+    "retention_rate": null,
+    "admission_rate": null,
+    "enrollment_undergrad": null,
+    "enrollment_total": null,
+    "cost_attendance": null,
+    "tuition_in_state": null,
+    "tuition_out_of_state": null,
+    "avg_net_price_pub": null,
+    "avg_net_price_priv": null,
+    "cost_by_income": null,
+    "median_debt": null,
+    "default_rate": 0.0,
+    "pell_share": null,
+    "history": {
+      "completion_rate_150": [],
+      "completion_rate_100": [],
+      "retention_rate": [],
+      "admission_rate": [],
+      "enrollment_undergrad": [],
+      "tuition_in_state": [],
+      "tuition_out_of_state": [],
+      "cost_attendance": [],
+      "avg_net_price_pub": [],
+      "avg_net_price_priv": [],
+      "median_debt": [
+        {
+          "year": 2008,
+          "value": 5000.0
+        },
+        {
+          "year": 2009,
+          "value": 5000.0
+        },
+        {
+          "year": 2010,
+          "value": 7510.0
+        },
+        {
+          "year": 2011,
+          "value": 11000.0
+        }
+      ],
+      "default_rate": [
+        {
+          "year": 2011,
+          "value": 0.007
+        },
+        {
+          "year": 2012,
+          "value": 0.0
+        },
+        {
+          "year": 2013,
+          "value": 0.015
+        },
+        {
+          "year": 2014,
+          "value": 0.013
+        },
+        {
+          "year": 2015,
+          "value": 0.022
+        },
+        {
+          "year": 2016,
+          "value": 0.016
+        },
+        {
+          "year": 2017,
+          "value": 0.0
+        },
+        {
+          "year": 2018,
+          "value": 0.021
+        },
+        {
+          "year": 2019,
+          "value": 0.033
+        },
+        {
+          "year": 2020,
+          "value": 0.011
+        },
+        {
+          "year": 2021,
+          "value": 0.0
+        },
+        {
+          "year": 2022,
+          "value": 0.0
+        },
+        {
+          "year": 2023,
+          "value": 0.0
+        },
+        {
+          "year": 2024,
+          "value": 0.0
+        }
+      ],
+      "pell_share": [],
+      "earnings_median_6yr": [
+        {
+          "year": 2007,
+          "value": 60000.0
+        },
+        {
+          "year": 2009,
+          "value": 64900.0
+        },
+        {
+          "year": 2011,
+          "value": 64800.0
+        },
+        {
+          "year": 2012,
+          "value": 63500.0
+        },
+        {
+          "year": 2013,
+          "value": 65100.0
+        },
+        {
+          "year": 2014,
+          "value": 68400.0
+        }
+      ],
+      "earnings_median_8yr": [],
+      "earnings_median_10yr": [
+        {
+          "year": 2012,
+          "value": 150900.0
+        },
+        {
+          "year": 2013,
+          "value": 191300.0
+        },
+        {
+          "year": 2014,
+          "value": 202800.0
+        }
+      ]
+    },
+    "long_arc": [
+      {
+        "metric": "median_debt",
+        "from_year": 2008,
+        "to_year": 2011,
+        "from_value": 5000.0,
+        "to_value": 11000.0,
+        "pct_change": 1.2,
+        "direction": "rose"
+      },
+      {
+        "metric": "default_rate",
+        "from_year": 2011,
+        "to_year": 2024,
+        "from_value": 0.007,
+        "to_value": 0.0,
+        "pct_change": -0.35,
+        "direction": "fell"
+      },
+      {
+        "metric": "earnings_median_10yr",
+        "from_year": 2012,
+        "to_year": 2014,
+        "from_value": 150900.0,
+        "to_value": 202800.0,
+        "pct_change": 0.34393638170974156,
+        "direction": "rose"
+      }
+    ],
+    "flags": [
+      {
+        "type": "long_arc_shift",
+        "severity": "regression",
+        "label": "Median federal debt at exit",
+        "summary": "Median federal debt at exit at Icahn School of Medicine at Mount Sinai rose 120% between 2008 and 2011 ($5.0k → $11.0k).",
+        "magnitude_pct": 120.0,
+        "magnitude_abs": 6000.0,
+        "baseline_year": 2008,
+        "recent_year": 2011,
+        "units": null,
+        "history": [],
+        "metric": "median_debt"
+      },
+      {
+        "type": "long_arc_shift",
+        "severity": "improvement",
+        "label": "10-year median earnings",
+        "summary": "10-year median earnings at Icahn School of Medicine at Mount Sinai rose 34% between 2012 and 2014 ($150.9k → $202.8k).",
+        "magnitude_pct": 34.4,
+        "magnitude_abs": 51900.0,
+        "baseline_year": 2012,
+        "recent_year": 2014,
+        "units": null,
+        "history": [],
+        "metric": "earnings_median_10yr"
+      }
+    ]
+  },
+  "programs_by_family": {
+    "26": [
+      {
+        "slug": "2613-c5",
+        "cip_code": "2613",
+        "cip_desc": "Ecology, Evolution, Systematics, and Population Biology.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 51,
+        "completers_single_year": null,
+        "completers_history": [
+          {
+            "year": 2019,
+            "value": 51.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "2601-c6",
+        "cip_code": "2601",
+        "cip_desc": "Biology, General.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 38,
+        "completers_single_year": 46,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 23.0
+          },
+          {
+            "year": 2015,
+            "value": 43.0
+          },
+          {
+            "year": 2016,
+            "value": 44.0
+          },
+          {
+            "year": 2017,
+            "value": 29.0
+          },
+          {
+            "year": 2018,
+            "value": 46.0
+          },
+          {
+            "year": 2019,
+            "value": 38.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "2601-c5",
+        "cip_code": "2601",
+        "cip_desc": "Biology, General.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 25,
+        "completers_single_year": null,
+        "completers_history": [
+          {
+            "year": 2019,
+            "value": 25.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "2611-c5",
+        "cip_code": "2611",
+        "cip_desc": "Biomathematics, Bioinformatics, and Computational Biology.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 8,
+        "completers_single_year": 7,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 2.0
+          },
+          {
+            "year": 2015,
+            "value": 3.0
+          },
+          {
+            "year": 2016,
+            "value": 5.0
+          },
+          {
+            "year": 2017,
+            "value": 8.0
+          },
+          {
+            "year": 2018,
+            "value": 7.0
+          },
+          {
+            "year": 2019,
+            "value": 8.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "2613-c8",
+        "cip_code": "2613",
+        "cip_desc": "Ecology, Evolution, Systematics, and Population Biology.",
+        "credential_level": 8,
+        "credential_desc": "Graduate/Professional Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 1,
+        "completers_single_year": null,
+        "completers_history": [
+          {
+            "year": 2019,
+            "value": 1.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "2601-c7",
+        "cip_code": "2601",
+        "cip_desc": "Biology, General.",
+        "credential_level": 7,
+        "credential_desc": "First Professional Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      },
+      {
+        "slug": "2699-c5",
+        "cip_code": "2699",
+        "cip_desc": "Biological and Biomedical Sciences, Other.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": 37,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 11.0
+          },
+          {
+            "year": 2015,
+            "value": 17.0
+          },
+          {
+            "year": 2016,
+            "value": 22.0
+          },
+          {
+            "year": 2017,
+            "value": 21.0
+          },
+          {
+            "year": 2018,
+            "value": 37.0
+          }
+        ],
+        "long_arc": []
+      }
+    ],
+    "51": [
+      {
+        "slug": "5112-c7",
+        "cip_code": "5112",
+        "cip_desc": "Medicine.",
+        "credential_level": 7,
+        "credential_desc": "First Professional Degree",
+        "earnings_median_5yr": 130137,
+        "earnings_median_4yr": 99730,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 130137.0
+          }
+        ],
+        "earnings_history_4yr": [
+          {
+            "year": 2018,
+            "value": 99730.0
+          }
+        ],
+        "debt_median": null,
+        "debt_history": [
+          {
+            "year": 2014,
+            "value": 123461.0
+          },
+          {
+            "year": 2015,
+            "value": 123461.0
+          },
+          {
+            "year": 2016,
+            "value": 124293.0
+          }
+        ],
+        "completers": 146,
+        "completers_single_year": 139,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 141.0
+          },
+          {
+            "year": 2015,
+            "value": 138.0
+          },
+          {
+            "year": 2016,
+            "value": 142.0
+          },
+          {
+            "year": 2017,
+            "value": 122.0
+          },
+          {
+            "year": 2018,
+            "value": 139.0
+          },
+          {
+            "year": 2019,
+            "value": 146.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5114-c5",
+        "cip_code": "5114",
+        "cip_desc": "Medical Clinical Sciences/Graduate Medical Studies.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 25,
+        "completers_single_year": 30,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 3.0
+          },
+          {
+            "year": 2015,
+            "value": 13.0
+          },
+          {
+            "year": 2016,
+            "value": 10.0
+          },
+          {
+            "year": 2017,
+            "value": 27.0
+          },
+          {
+            "year": 2018,
+            "value": 30.0
+          },
+          {
+            "year": 2019,
+            "value": 25.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5115-c5",
+        "cip_code": "5115",
+        "cip_desc": "Mental and Social Health Services and Allied Professions.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 11,
+        "completers_single_year": 11,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 12.0
+          },
+          {
+            "year": 2015,
+            "value": 9.0
+          },
+          {
+            "year": 2016,
+            "value": 11.0
+          },
+          {
+            "year": 2017,
+            "value": 11.0
+          },
+          {
+            "year": 2018,
+            "value": 11.0
+          },
+          {
+            "year": 2019,
+            "value": 11.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5107-c5",
+        "cip_code": "5107",
+        "cip_desc": "Health and Medical Administrative Services.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 10,
+        "completers_single_year": 22,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 6.0
+          },
+          {
+            "year": 2015,
+            "value": 14.0
+          },
+          {
+            "year": 2016,
+            "value": 18.0
+          },
+          {
+            "year": 2017,
+            "value": 12.0
+          },
+          {
+            "year": 2018,
+            "value": 22.0
+          },
+          {
+            "year": 2019,
+            "value": 10.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5114-c8",
+        "cip_code": "5114",
+        "cip_desc": "Medical Clinical Sciences/Graduate Medical Studies.",
+        "credential_level": 8,
+        "credential_desc": "Graduate/Professional Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 5,
+        "completers_single_year": 0,
+        "completers_history": [
+          {
+            "year": 2015,
+            "value": 1.0
+          },
+          {
+            "year": 2016,
+            "value": 3.0
+          },
+          {
+            "year": 2017,
+            "value": 0.0
+          },
+          {
+            "year": 2018,
+            "value": 0.0
+          },
+          {
+            "year": 2019,
+            "value": 5.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5114-c6",
+        "cip_code": "5114",
+        "cip_desc": "Medical Clinical Sciences/Graduate Medical Studies.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": 2,
+        "completers_single_year": 1,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 0.0
+          },
+          {
+            "year": 2015,
+            "value": 6.0
+          },
+          {
+            "year": 2016,
+            "value": 5.0
+          },
+          {
+            "year": 2017,
+            "value": 3.0
+          },
+          {
+            "year": 2018,
+            "value": 1.0
+          },
+          {
+            "year": 2019,
+            "value": 2.0
+          }
+        ],
+        "long_arc": []
+      },
+      {
+        "slug": "5112-c6",
+        "cip_code": "5112",
+        "cip_desc": "Medicine.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": 126350,
+        "debt_history": [
+          {
+            "year": 2016,
+            "value": 169619.0
+          },
+          {
+            "year": 2017,
+            "value": 140600.0
+          },
+          {
+            "year": 2018,
+            "value": 126350.0
+          }
+        ],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2016,
+            "to_year": 2018,
+            "from_value": 169619.0,
+            "to_value": 126350.0,
+            "pct_change": -0.2550952428678391,
+            "direction": "fell"
+          }
+        ]
+      },
+      {
+        "slug": "5122-c4",
+        "cip_code": "5122",
+        "cip_desc": "Public Health.",
+        "credential_level": 4,
+        "credential_desc": "Post-baccalaureate Certificate",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      },
+      {
+        "slug": "5122-c5",
+        "cip_code": "5122",
+        "cip_desc": "Public Health.",
+        "credential_level": 5,
+        "credential_desc": "Master's Degree",
+        "earnings_median_5yr": 86737,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [
+          {
+            "year": 2019,
+            "value": 86737.0
+          }
+        ],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [
+          {
+            "year": 2015,
+            "value": 52583.0
+          },
+          {
+            "year": 2016,
+            "value": 67361.0
+          }
+        ],
+        "completers": null,
+        "completers_single_year": 69,
+        "completers_history": [
+          {
+            "year": 2014,
+            "value": 57.0
+          },
+          {
+            "year": 2015,
+            "value": 63.0
+          },
+          {
+            "year": 2016,
+            "value": 88.0
+          },
+          {
+            "year": 2017,
+            "value": 73.0
+          },
+          {
+            "year": 2018,
+            "value": 69.0
+          }
+        ],
+        "long_arc": [
+          {
+            "metric": "debt_median",
+            "from_year": 2015,
+            "to_year": 2016,
+            "from_value": 52583.0,
+            "to_value": 67361.0,
+            "pct_change": 0.2810414012133199,
+            "direction": "rose"
+          }
+        ]
+      },
+      {
+        "slug": "5122-c6",
+        "cip_code": "5122",
+        "cip_desc": "Public Health.",
+        "credential_level": 6,
+        "credential_desc": "Doctoral Degree",
+        "earnings_median_5yr": null,
+        "earnings_median_4yr": null,
+        "earnings_history_5yr": [],
+        "earnings_history_4yr": [],
+        "debt_median": null,
+        "debt_history": [],
+        "completers": null,
+        "completers_single_year": null,
+        "completers_history": [],
+        "long_arc": []
+      }
+    ]
+  },
+  "programs": [
+    {
+      "slug": "5112-c7",
+      "cip_code": "5112",
+      "cip_desc": "Medicine.",
+      "credential_level": 7,
+      "credential_desc": "First Professional Degree",
+      "earnings_median_5yr": 130137,
+      "earnings_median_4yr": 99730,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 130137.0
+        }
+      ],
+      "earnings_history_4yr": [
+        {
+          "year": 2018,
+          "value": 99730.0
+        }
+      ],
+      "debt_median": null,
+      "debt_history": [
+        {
+          "year": 2014,
+          "value": 123461.0
+        },
+        {
+          "year": 2015,
+          "value": 123461.0
+        },
+        {
+          "year": 2016,
+          "value": 124293.0
+        }
+      ],
+      "completers": 146,
+      "completers_single_year": 139,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 141.0
+        },
+        {
+          "year": 2015,
+          "value": 138.0
+        },
+        {
+          "year": 2016,
+          "value": 142.0
+        },
+        {
+          "year": 2017,
+          "value": 122.0
+        },
+        {
+          "year": 2018,
+          "value": 139.0
+        },
+        {
+          "year": 2019,
+          "value": 146.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "2613-c5",
+      "cip_code": "2613",
+      "cip_desc": "Ecology, Evolution, Systematics, and Population Biology.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 51,
+      "completers_single_year": null,
+      "completers_history": [
+        {
+          "year": 2019,
+          "value": 51.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "2601-c6",
+      "cip_code": "2601",
+      "cip_desc": "Biology, General.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 38,
+      "completers_single_year": 46,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 23.0
+        },
+        {
+          "year": 2015,
+          "value": 43.0
+        },
+        {
+          "year": 2016,
+          "value": 44.0
+        },
+        {
+          "year": 2017,
+          "value": 29.0
+        },
+        {
+          "year": 2018,
+          "value": 46.0
+        },
+        {
+          "year": 2019,
+          "value": 38.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "2601-c5",
+      "cip_code": "2601",
+      "cip_desc": "Biology, General.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 25,
+      "completers_single_year": null,
+      "completers_history": [
+        {
+          "year": 2019,
+          "value": 25.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5114-c5",
+      "cip_code": "5114",
+      "cip_desc": "Medical Clinical Sciences/Graduate Medical Studies.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 25,
+      "completers_single_year": 30,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 3.0
+        },
+        {
+          "year": 2015,
+          "value": 13.0
+        },
+        {
+          "year": 2016,
+          "value": 10.0
+        },
+        {
+          "year": 2017,
+          "value": 27.0
+        },
+        {
+          "year": 2018,
+          "value": 30.0
+        },
+        {
+          "year": 2019,
+          "value": 25.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5115-c5",
+      "cip_code": "5115",
+      "cip_desc": "Mental and Social Health Services and Allied Professions.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 11,
+      "completers_single_year": 11,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 12.0
+        },
+        {
+          "year": 2015,
+          "value": 9.0
+        },
+        {
+          "year": 2016,
+          "value": 11.0
+        },
+        {
+          "year": 2017,
+          "value": 11.0
+        },
+        {
+          "year": 2018,
+          "value": 11.0
+        },
+        {
+          "year": 2019,
+          "value": 11.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5107-c5",
+      "cip_code": "5107",
+      "cip_desc": "Health and Medical Administrative Services.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 10,
+      "completers_single_year": 22,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 6.0
+        },
+        {
+          "year": 2015,
+          "value": 14.0
+        },
+        {
+          "year": 2016,
+          "value": 18.0
+        },
+        {
+          "year": 2017,
+          "value": 12.0
+        },
+        {
+          "year": 2018,
+          "value": 22.0
+        },
+        {
+          "year": 2019,
+          "value": 10.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "2611-c5",
+      "cip_code": "2611",
+      "cip_desc": "Biomathematics, Bioinformatics, and Computational Biology.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 8,
+      "completers_single_year": 7,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 2.0
+        },
+        {
+          "year": 2015,
+          "value": 3.0
+        },
+        {
+          "year": 2016,
+          "value": 5.0
+        },
+        {
+          "year": 2017,
+          "value": 8.0
+        },
+        {
+          "year": 2018,
+          "value": 7.0
+        },
+        {
+          "year": 2019,
+          "value": 8.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5114-c8",
+      "cip_code": "5114",
+      "cip_desc": "Medical Clinical Sciences/Graduate Medical Studies.",
+      "credential_level": 8,
+      "credential_desc": "Graduate/Professional Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 5,
+      "completers_single_year": 0,
+      "completers_history": [
+        {
+          "year": 2015,
+          "value": 1.0
+        },
+        {
+          "year": 2016,
+          "value": 3.0
+        },
+        {
+          "year": 2017,
+          "value": 0.0
+        },
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 5.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5114-c6",
+      "cip_code": "5114",
+      "cip_desc": "Medical Clinical Sciences/Graduate Medical Studies.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 2,
+      "completers_single_year": 1,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 0.0
+        },
+        {
+          "year": 2015,
+          "value": 6.0
+        },
+        {
+          "year": 2016,
+          "value": 5.0
+        },
+        {
+          "year": 2017,
+          "value": 3.0
+        },
+        {
+          "year": 2018,
+          "value": 1.0
+        },
+        {
+          "year": 2019,
+          "value": 2.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "2613-c8",
+      "cip_code": "2613",
+      "cip_desc": "Ecology, Evolution, Systematics, and Population Biology.",
+      "credential_level": 8,
+      "credential_desc": "Graduate/Professional Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": 1,
+      "completers_single_year": null,
+      "completers_history": [
+        {
+          "year": 2019,
+          "value": 1.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "2601-c7",
+      "cip_code": "2601",
+      "cip_desc": "Biology, General.",
+      "credential_level": 7,
+      "credential_desc": "First Professional Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    },
+    {
+      "slug": "2699-c5",
+      "cip_code": "2699",
+      "cip_desc": "Biological and Biomedical Sciences, Other.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": 37,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 11.0
+        },
+        {
+          "year": 2015,
+          "value": 17.0
+        },
+        {
+          "year": 2016,
+          "value": 22.0
+        },
+        {
+          "year": 2017,
+          "value": 21.0
+        },
+        {
+          "year": 2018,
+          "value": 37.0
+        }
+      ],
+      "long_arc": []
+    },
+    {
+      "slug": "5112-c6",
+      "cip_code": "5112",
+      "cip_desc": "Medicine.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": 126350,
+      "debt_history": [
+        {
+          "year": 2016,
+          "value": 169619.0
+        },
+        {
+          "year": 2017,
+          "value": 140600.0
+        },
+        {
+          "year": 2018,
+          "value": 126350.0
+        }
+      ],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2016,
+          "to_year": 2018,
+          "from_value": 169619.0,
+          "to_value": 126350.0,
+          "pct_change": -0.2550952428678391,
+          "direction": "fell"
+        }
+      ]
+    },
+    {
+      "slug": "5122-c4",
+      "cip_code": "5122",
+      "cip_desc": "Public Health.",
+      "credential_level": 4,
+      "credential_desc": "Post-baccalaureate Certificate",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    },
+    {
+      "slug": "5122-c5",
+      "cip_code": "5122",
+      "cip_desc": "Public Health.",
+      "credential_level": 5,
+      "credential_desc": "Master's Degree",
+      "earnings_median_5yr": 86737,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [
+        {
+          "year": 2019,
+          "value": 86737.0
+        }
+      ],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [
+        {
+          "year": 2015,
+          "value": 52583.0
+        },
+        {
+          "year": 2016,
+          "value": 67361.0
+        }
+      ],
+      "completers": null,
+      "completers_single_year": 69,
+      "completers_history": [
+        {
+          "year": 2014,
+          "value": 57.0
+        },
+        {
+          "year": 2015,
+          "value": 63.0
+        },
+        {
+          "year": 2016,
+          "value": 88.0
+        },
+        {
+          "year": 2017,
+          "value": 73.0
+        },
+        {
+          "year": 2018,
+          "value": 69.0
+        }
+      ],
+      "long_arc": [
+        {
+          "metric": "debt_median",
+          "from_year": 2015,
+          "to_year": 2016,
+          "from_value": 52583.0,
+          "to_value": 67361.0,
+          "pct_change": 0.2810414012133199,
+          "direction": "rose"
+        }
+      ]
+    },
+    {
+      "slug": "5122-c6",
+      "cip_code": "5122",
+      "cip_desc": "Public Health.",
+      "credential_level": 6,
+      "credential_desc": "Doctoral Degree",
+      "earnings_median_5yr": null,
+      "earnings_median_4yr": null,
+      "earnings_history_5yr": [],
+      "earnings_history_4yr": [],
+      "debt_median": null,
+      "debt_history": [],
+      "completers": null,
+      "completers_single_year": null,
+      "completers_history": [],
+      "long_arc": []
+    }
+  ],
+  "program_count": 17,
+  "similar": [
+    {
+      "slug": "albany-medical-college-188580",
+      "name": "Albany Medical College",
+      "city": "Albany",
+      "control": "private_nonprofit",
+      "pred_degree": "graduate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": null
+    },
+    {
+      "slug": "new-york-medical-college-193830",
+      "name": "New York Medical College",
+      "city": "Valhalla",
+      "control": "private_nonprofit",
+      "pred_degree": "graduate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": null
+    },
+    {
+      "slug": "albany-law-school-188535",
+      "name": "Albany Law School",
+      "city": "Albany",
+      "control": "private_nonprofit",
+      "pred_degree": "graduate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": null
+    },
+    {
+      "slug": "bank-street-college-of-education-189015",
+      "name": "Bank Street College of Education",
+      "city": "New York",
+      "control": "private_nonprofit",
+      "pred_degree": "graduate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": null
+    },
+    {
+      "slug": "brooklyn-law-school-189501",
+      "name": "Brooklyn Law School",
+      "city": "Brooklyn",
+      "control": "private_nonprofit",
+      "pred_degree": "graduate",
+      "earnings_median_10yr": null,
+      "completion_rate_150": null,
+      "enrollment_undergrad": null
+    }
+  ],
+  "roi": {
+    "default_program_slug": null,
+    "programs_available": [
+      {
+        "slug": "5112-c7",
+        "label": "Medicine · First Professional Degree",
+        "cip_family": "51",
+        "completers": 146,
+        "has_earnings": false,
+        "earnings_at_completion": 130137,
+        "earnings_anchor_year": 5,
+        "debt_median": null,
+        "years_to_complete": 7,
+        "default_result": null
+      },
+      {
+        "slug": "2613-c5",
+        "label": "Ecology, Evolution, Systematics, and Population Biology · Master's Degree",
+        "cip_family": "26",
+        "completers": 51,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "2601-c6",
+        "label": "Biology, General · Doctoral Degree",
+        "cip_family": "26",
+        "completers": 38,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "2601-c5",
+        "label": "Biology, General · Master's Degree",
+        "cip_family": "26",
+        "completers": 25,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "5114-c5",
+        "label": "Medical Clinical Sciences/Graduate Medical Studies · Master's Degree",
+        "cip_family": "51",
+        "completers": 25,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "5115-c5",
+        "label": "Mental and Social Health Services and Allied Professions · Master's Degree",
+        "cip_family": "51",
+        "completers": 11,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "5107-c5",
+        "label": "Health and Medical Administrative Services · Master's Degree",
+        "cip_family": "51",
+        "completers": 10,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "2611-c5",
+        "label": "Biomathematics, Bioinformatics, and Computational Biology · Master's Degree",
+        "cip_family": "26",
+        "completers": 8,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "5114-c8",
+        "label": "Medical Clinical Sciences/Graduate Medical Studies · Graduate/Professional Certificate",
+        "cip_family": "51",
+        "completers": 5,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "5114-c6",
+        "label": "Medical Clinical Sciences/Graduate Medical Studies · Doctoral Degree",
+        "cip_family": "51",
+        "completers": 2,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "2613-c8",
+        "label": "Ecology, Evolution, Systematics, and Population Biology · Graduate/Professional Certificate",
+        "cip_family": "26",
+        "completers": 1,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "2601-c7",
+        "label": "Biology, General · First Professional Degree",
+        "cip_family": "26",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 7,
+        "default_result": null
+      },
+      {
+        "slug": "2699-c5",
+        "label": "Biological and Biomedical Sciences, Other · Master's Degree",
+        "cip_family": "26",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "5112-c6",
+        "label": "Medicine · Doctoral Degree",
+        "cip_family": "51",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": 126350,
+        "years_to_complete": 8,
+        "default_result": null
+      },
+      {
+        "slug": "5122-c4",
+        "label": "Public Health · Post-baccalaureate Certificate",
+        "cip_family": "51",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 5,
+        "default_result": null
+      },
+      {
+        "slug": "5122-c5",
+        "label": "Public Health · Master's Degree",
+        "cip_family": "51",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": 86737,
+        "earnings_anchor_year": 5,
+        "debt_median": null,
+        "years_to_complete": 6,
+        "default_result": null
+      },
+      {
+        "slug": "5122-c6",
+        "label": "Public Health · Doctoral Degree",
+        "cip_family": "51",
+        "completers": null,
+        "has_earnings": false,
+        "earnings_at_completion": null,
+        "earnings_anchor_year": 4,
+        "debt_median": null,
+        "years_to_complete": 8,
+        "default_result": null
+      }
+    ]
+  },
+  "source": {
+    "name": "College Scorecard + IPEDS HD",
+    "vintage": "2025-05",
+    "retrieved": "2026-05-08",
+    "history_vintages": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}
