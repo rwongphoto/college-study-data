@@ -21,7 +21,7 @@ export default function DebtRatio({
   return (
     <div className="dr-card">
       <div className="dr-head">
-        <h4>{label}</h4>
+        <h3>{label}</h3>
         <span className={`pill ${over ? "bad" : "good"}`}>
           {(ratio * 100).toFixed(1)}%
         </span>

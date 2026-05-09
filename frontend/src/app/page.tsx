@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import FlagCards from "@/components/FlagCards";
 import LongArcCards from "@/components/LongArcCards";
+import { JumpStrip } from "@/components/site/JumpStrip";
 import { SiteFooter } from "@/components/site/SiteFooter";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import { listStates, loadHome, loadState } from "@/lib/data";
@@ -70,6 +71,24 @@ export default function HomePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+      />
+      <JumpStrip
+        items={[
+          { id: "ways-in", label: "Three Ways In" },
+          { id: "coverage", label: "Coverage" },
+          {
+            id: "flags",
+            label: "Signals",
+            show: !!(primaryAgg && (primaryAgg.flags ?? []).length > 0),
+          },
+          {
+            id: "shifts",
+            label: "Shifts",
+            show: !!(primaryAgg && primaryAgg.long_arc.length > 0),
+          },
+          { id: "methodology", label: "Methodology" },
+          { id: "start", label: "Start Here", show: !!primary },
+        ]}
       />
       <main>
 
@@ -153,7 +172,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="section section-tint">
+      <section id="ways-in" className="section section-tint">
         <div className="wrap">
           <header className="sec-head">
             <div>
@@ -210,7 +229,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="section">
+      <section id="coverage" className="section">
         <div className="wrap">
           <header className="sec-head">
             <div>
@@ -252,7 +271,7 @@ export default function HomePage() {
       </section>
 
       {primaryAgg && (primaryAgg.flags ?? []).length > 0 && (
-        <section className="section section-tint">
+        <section id="flags" className="section section-tint">
           <div className="wrap">
             <header className="sec-head">
               <div>
@@ -273,7 +292,7 @@ export default function HomePage() {
       )}
 
       {primaryAgg && primaryAgg.long_arc.length > 0 && (
-        <section className="section">
+        <section id="shifts" className="section">
           <div className="wrap">
             <header className="sec-head">
               <div>
@@ -293,7 +312,7 @@ export default function HomePage() {
         </section>
       )}
 
-      <section className="section">
+      <section id="methodology" className="section">
         <div className="wrap">
           <div className="method-promo">
             <div>
@@ -317,7 +336,7 @@ export default function HomePage() {
       </section>
 
       {primary && (
-        <section className="section">
+        <section id="start" className="section">
           <div className="wrap">
             <div className="hcta">
               <div className="hcta-l">

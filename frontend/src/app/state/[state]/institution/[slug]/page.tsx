@@ -31,6 +31,8 @@ import {
   historyDelta,
   historyValues,
 } from "@/lib/format";
+import { buildInstitutionJsonLd } from "@/lib/institutionJsonLd";
+import { pageMeta, SITE_URL } from "@/lib/seo";
 import { stateAbbr, stateSlug } from "@/lib/state";
 import type {
   EarningsProgressionPoint,
@@ -61,10 +63,11 @@ export async function generateMetadata({
     const desc = i.earnings_median_10yr
       ? `Federal-data outcomes for ${i.name}: median earnings 10 yr post-entry ${fmtCurrency(i.earnings_median_10yr)}, completion ${fmtPercent(i.completion_rate_150)}, ${p.program_count} programs covered.`
       : `Federal-data outcomes for ${i.name} in ${i.city}, ${i.state.toUpperCase()}.`;
-    return {
+    return pageMeta({
       title: `${i.name} · ${i.city}, ${i.state.toUpperCase()}`,
       description: desc,
-    };
+      path: `/state/${state}/institution/${slug}/`,
+    });
   } catch {
     return { title: "Institution" };
   }
@@ -207,8 +210,24 @@ export default async function InstitutionPage({
       ? `${payload.source.history_vintages[0]}–${payload.source.history_vintages[payload.source.history_vintages.length - 1]}`
       : null;
 
+  const pageUrl = `${SITE_URL}/state/${state}/institution/${slug}/`;
+  const jsonLdDescription = i.earnings_median_10yr
+    ? `Federal-data outcomes for ${i.name}: median earnings 10 yr post-entry ${fmtCurrency(i.earnings_median_10yr)}, completion ${fmtPercent(i.completion_rate_150)}, ${payload.program_count} programs covered.`
+    : `Federal-data outcomes for ${i.name} in ${i.city}, ${i.state.toUpperCase()}.`;
+  const jsonLd = buildInstitutionJsonLd({
+    pageUrl,
+    stateName: stateAgg.name,
+    stateSlug: state,
+    institution: i,
+    description: jsonLdDescription,
+  });
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <SiteHeader active="state" />
       <Crumbs items={crumbs} />
       <JumpStrip

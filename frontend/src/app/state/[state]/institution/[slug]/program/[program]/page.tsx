@@ -23,6 +23,8 @@ import {
   fmtNumber,
   historyValues,
 } from "@/lib/format";
+import { buildProgramJsonLd } from "@/lib/programJsonLd";
+import { pageMeta, SITE_URL } from "@/lib/seo";
 import { stateAbbr, stateSlug } from "@/lib/state";
 
 // SSG over the ~41k programs with both 4-yr and 5-yr earnings — two
@@ -49,10 +51,11 @@ export async function generateMetadata({
     const p = loadProgram(stateAbbr(state), slug, program);
     const cip = p.cip_desc.replace(/\.$/, "");
     const inst = p.institution_name.replace(/\.$/, "");
-    return {
+    return pageMeta({
       title: `Is ${cip} at ${inst} Worth It? | College Grad Analyst`,
       description: `Median earnings 5 yr post-completion ${fmtCurrency(p.earnings_median_5yr)}, median debt ${fmtCurrency(p.debt_median)} for ${cip} (${p.credential_desc}) at ${inst}.`,
-    };
+      path: `/state/${state}/institution/${slug}/program/${program}/`,
+    });
   } catch {
     return { title: "Program" };
   }
@@ -125,8 +128,22 @@ export default async function ProgramPage({
       ? `${p.source.history_vintages[0]}–${p.source.history_vintages[p.source.history_vintages.length - 1]}`
       : null;
 
+  const pageUrl = `${SITE_URL}/state/${state}/institution/${slug}/program/${program}/`;
+  const jsonLdDescription = `Median earnings 5 yr post-completion ${fmtCurrency(p.earnings_median_5yr)}, median debt ${fmtCurrency(p.debt_median)} for ${p.cip_desc.replace(/\.$/, "")} (${p.credential_desc}) at ${p.institution_name.replace(/\.$/, "")}.`;
+  const jsonLd = buildProgramJsonLd({
+    pageUrl,
+    stateName: stateAgg.name,
+    stateSlug: state,
+    program: p,
+    description: jsonLdDescription,
+  });
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <SiteHeader active="state" />
       <Crumbs
         items={[
@@ -394,7 +411,7 @@ export default async function ProgramPage({
       )}
 
       {p.roi && (
-        <section className="section">
+        <section id="roi" className="section">
           <div className="wrap">
             <header className="sec-head">
               <div>
@@ -426,7 +443,7 @@ export default async function ProgramPage({
       )}
 
       {peers.length > 0 && (
-        <section className="section">
+        <section id="peers" className="section">
           <div className="wrap">
             <header className="sec-head">
               <div>
@@ -489,7 +506,7 @@ export default async function ProgramPage({
         </section>
       )}
 
-      <section className="section section-tint">
+      <section id="methodology" className="section section-tint">
         <div className="wrap">
           <div className="method-promo">
             <div>

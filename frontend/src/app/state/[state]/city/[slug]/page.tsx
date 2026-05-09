@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 
 import Crumbs from "@/components/Crumbs";
 import DataTile from "@/components/DataTile";
@@ -19,6 +20,7 @@ import {
   fmtPercent,
   historyValues,
 } from "@/lib/format";
+import { pageMeta, SITE_URL } from "@/lib/seo";
 import { stateAbbr, stateSlug } from "@/lib/state";
 
 export const revalidate = 86400;
@@ -42,10 +44,11 @@ export async function generateMetadata({
   const abbr = stateAbbr(state);
   try {
     const c = loadCity(abbr, slug);
-    return {
+    return pageMeta({
       title: `${c.name} Colleges | College Analyst`,
       description: `Federal-data view of ${c.institution_count} colleges in ${c.name}, ${abbr.toUpperCase()}.`,
-    };
+      path: `/state/${state}/city/${slug}/`,
+    });
   } catch {
     return { title: "City Colleges | College Analyst" };
   }
@@ -71,8 +74,42 @@ export default async function CityPage({
   const enrollSpark = historyValues(city.enrollment_history_city);
   const completionSpark = historyValues(city.completion_history_city);
 
+  const cityUrl = `${SITE_URL}/state/${state}/city/${slug}/`;
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: stateAgg.name,
+            item: `${SITE_URL}/state/${state}/`,
+          },
+          { "@type": "ListItem", position: 3, name: city.name, item: cityUrl },
+        ],
+      },
+      {
+        "@type": "Place",
+        name: city.name,
+        url: cityUrl,
+        containedInPlace: {
+          "@type": "AdministrativeArea",
+          name: stateAgg.name,
+          url: `${SITE_URL}/state/${state}/`,
+        },
+      },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <SiteHeader active="state" />
       <Crumbs
         items={[
@@ -122,10 +159,7 @@ export default async function CityPage({
       {!isThin && (
         <section id="numbers" className="section">
           <div className="wrap">
-            <div
-              className="data-tiles"
-              style={{ gridTemplateColumns: "repeat(2, 1fr)" }}
-            >
+            <div className="data-tiles data-tiles--2col">
               <DataTile
                 label="City median earnings · 10y"
                 value={fmtCurrency(city.earnings_median_city)}
@@ -234,7 +268,9 @@ export default async function CityPage({
               institution page. Heat-shading runs against the displayed values.
             </p>
           </header>
-          <InstitutionRankTable rows={city.institutions} state={state} />
+          <Suspense fallback={null}>
+            <InstitutionRankTable rows={city.institutions} state={state} />
+          </Suspense>
         </div>
       </section>
 

@@ -1,14 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { usePathname, useSearchParams } from "next/navigation";
+import { useMemo } from "react";
 
 import { fmtControl } from "@/lib/format";
 import type { InstitutionCard } from "@/lib/types";
-
-// Institution rank table — design system's .rank-table pattern with
-// click-to-sort headers. Heat-shading runs against the median of the
-// displayed values, by column.
 
 type SortKey =
   | "name"
@@ -20,10 +17,8 @@ type SortKey =
 
 type SortDir = "asc" | "desc";
 
-// "Better" direction per column — used to pick the default direction when a
-// user clicks a column for the first time. Earnings/enrollment/completion
-// default to desc (high is interesting); debt defaults to asc (low is
-// interesting); name/sector default to asc (alpha).
+const DEFAULT_KEY: SortKey = "earnings_median_10yr";
+
 const DEFAULT_DIR: Record<SortKey, SortDir> = {
   name: "asc",
   sector_city: "asc",
@@ -33,6 +28,15 @@ const DEFAULT_DIR: Record<SortKey, SortDir> = {
   completion_rate_150: "desc",
 };
 
+const VALID_KEYS = new Set<SortKey>([
+  "name",
+  "sector_city",
+  "enrollment_undergrad",
+  "earnings_median_10yr",
+  "median_debt",
+  "completion_rate_150",
+]);
+
 function compare(
   a: InstitutionCard,
   b: InstitutionCard,
@@ -40,7 +44,6 @@ function compare(
   dir: SortDir,
 ): number {
   const sign = dir === "asc" ? 1 : -1;
-  // Always send nulls to the bottom regardless of direction.
   const get = (row: InstitutionCard): string | number | null => {
     switch (key) {
       case "name":
@@ -93,14 +96,22 @@ export default function InstitutionRankTable({
   rows: InstitutionCard[];
   state: string;
 }) {
-  const [sortKey, setSortKey] = useState<SortKey>("earnings_median_10yr");
-  const [sortDir, setSortDir] = useState<SortDir>("desc");
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+
+  const rawKey = searchParams.get("sort");
+  const rawDir = searchParams.get("dir");
+  const sortKey: SortKey = VALID_KEYS.has(rawKey as SortKey)
+    ? (rawKey as SortKey)
+    : DEFAULT_KEY;
+  const sortDir: SortDir = rawDir === "asc" || rawDir === "desc"
+    ? rawDir
+    : DEFAULT_DIR[sortKey];
 
   const sorted = useMemo(() => {
     return rows.slice().sort((a, b) => compare(a, b, sortKey, sortDir));
   }, [rows, sortKey, sortDir]);
 
-  // Heat-shading medians — across displayed rows.
   const earnMed = median(
     sorted.map((r) => r.earnings_median_10yr).filter((v): v is number => v != null),
   );
@@ -121,16 +132,17 @@ export default function InstitutionRankTable({
     );
   }
 
-  function clickHeader(key: SortKey) {
-    if (key === sortKey) {
-      setSortDir((d) => (d === "asc" ? "desc" : "asc"));
-    } else {
-      setSortKey(key);
-      setSortDir(DEFAULT_DIR[key]);
-    }
+  function sortHref(k: SortKey): string {
+    const active = sortKey === k;
+    const nextDir: SortDir = active
+      ? sortDir === "asc"
+        ? "desc"
+        : "asc"
+      : DEFAULT_DIR[k];
+    return `${pathname}?sort=${k}&dir=${nextDir}`;
   }
 
-  function HeaderButton({
+  function HeaderLink({
     k,
     label,
     align = "left",
@@ -140,34 +152,44 @@ export default function InstitutionRankTable({
     align?: "left" | "right";
   }) {
     const active = sortKey === k;
+    const nextDir: SortDir = active
+      ? sortDir === "asc"
+        ? "desc"
+        : "asc"
+      : DEFAULT_DIR[k];
+    const ariaLabel = `Sort by ${label.toLowerCase()}, ${
+      nextDir === "asc" ? "ascending" : "descending"
+    }`;
     return (
-      <button
-        type="button"
-        onClick={() => clickHeader(k)}
+      <Link
+        href={sortHref(k)}
+        scroll={false}
+        replace
         className={`rt-sort ${active ? "active" : ""} ${
           align === "right" ? "r" : ""
         }`}
+        aria-label={ariaLabel}
         aria-sort={
           active ? (sortDir === "asc" ? "ascending" : "descending") : "none"
         }
       >
-        <span>{label}</span>
+        <span aria-hidden="true">{label}</span>
         <span className="rt-arrow" aria-hidden="true">
           {active ? (sortDir === "asc" ? "▲" : "▼") : ""}
         </span>
-      </button>
+      </Link>
     );
   }
 
   return (
     <div className="rank-table">
       <div className="rt-th">
-        <HeaderButton k="name" label="INSTITUTION" />
-        <HeaderButton k="sector_city" label="SECTOR / CITY" />
-        <HeaderButton k="enrollment_undergrad" label="UNDERGRAD" align="right" />
-        <HeaderButton k="earnings_median_10yr" label="EARN 10Y" align="right" />
-        <HeaderButton k="median_debt" label="DEBT" align="right" />
-        <HeaderButton k="completion_rate_150" label="COMP %" align="right" />
+        <HeaderLink k="name" label="INSTITUTION" />
+        <HeaderLink k="sector_city" label="SECTOR / CITY" />
+        <HeaderLink k="enrollment_undergrad" label="UNDERGRAD" align="right" />
+        <HeaderLink k="earnings_median_10yr" label="EARN 10Y" align="right" />
+        <HeaderLink k="median_debt" label="DEBT" align="right" />
+        <HeaderLink k="completion_rate_150" label="COMP %" align="right" />
       </div>
       {sorted.map((r) => (
         <Link

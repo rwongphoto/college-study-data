@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 
 import Crumbs from "@/components/Crumbs";
 import DataTile from "@/components/DataTile";
@@ -17,8 +18,9 @@ import {
   fmtPercent,
   historyValues,
 } from "@/lib/format";
-import { pageMeta } from "@/lib/seo";
+import { pageMeta, SITE_URL } from "@/lib/seo";
 import { stateAbbr, stateSlug } from "@/lib/state";
+import { buildStateJsonLd } from "@/lib/stateJsonLd";
 
 export const revalidate = 86400;
 
@@ -75,8 +77,23 @@ export default async function StatePage({
       ? `${data.source.history_vintages[0]}–${data.source.history_vintages[data.source.history_vintages.length - 1]}`
       : null;
 
+  const pageUrl = `${SITE_URL}/state/${state}/`;
+  const description = `Federal-data view of ${data.institution_count} ${data.name} institutions: median earnings, debt, and completion rates from College Scorecard.`;
+  const jsonLd = buildStateJsonLd({
+    pageUrl,
+    stateName: data.name,
+    institutionCount: data.institution_count,
+    programCount,
+    vintage: data.source.vintage,
+    description,
+  });
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <SiteHeader active="state" />
       <Crumbs items={[{ label: "Home", href: "/" }, { label: data.name }]} />
       <JumpStrip
@@ -326,7 +343,9 @@ export default async function StatePage({
                   schools.
                 </p>
               </header>
-              <InstitutionRankTable rows={tableRows} state={state} />
+              <Suspense fallback={null}>
+                <InstitutionRankTable rows={tableRows} state={state} />
+              </Suspense>
               <div className="rt-foot">
                 <span>
                   Showing {fmtNumber(tableRows.length)} of{" "}

@@ -1,4 +1,5 @@
 import Crumbs from "@/components/Crumbs";
+import { JumpStrip } from "@/components/site/JumpStrip";
 import { SiteFooter } from "@/components/site/SiteFooter";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import { loadMethodology } from "@/lib/data";
@@ -16,6 +17,9 @@ export default function MethodologyPage() {
     <>
       <SiteHeader active="method" />
       <Crumbs items={[{ label: "Home", href: "/" }, { label: "Methodology" }]} />
+      <JumpStrip
+        items={m.sections.map((s) => ({ id: s.id, label: s.heading }))}
+      />
       <main>
 
       <section className="city-header">

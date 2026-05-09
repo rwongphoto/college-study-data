@@ -93,9 +93,9 @@ export const LANE_JUMP_LABEL: Record<string, string> = {
   earnings_6yr: "Earnings · 6y",
   earnings_5yr: "Earnings · 5y",
   completion_150: "Completion",
-  median_debt: "Median debt",
-  default_rate: "Default rate",
-  admission_rate: "Admission rate",
-  pell_share: "Pell share",
+  median_debt: "Median Debt",
+  default_rate: "Default Rate",
+  admission_rate: "Admission Rate",
+  pell_share: "Pell Share",
   completers: "Completers",
 };
