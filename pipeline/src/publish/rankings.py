@@ -484,6 +484,14 @@ def _program_rows(
             if ug is None or ug < min_undergrad:
                 continue
         inst = p.get("institution") or {}
+        # Mirror the frontend's static-page gate (listProgramsWithEarnings):
+        # a standalone program page is only generated when both 4yr and 5yr
+        # post-completion earnings are present. Rows that lack either window
+        # render their Program cell as plain text in the ranking table.
+        has_page = (
+            p.get("earnings_median_4yr") is not None
+            and p.get("earnings_median_5yr") is not None
+        )
         rows.append({
             "state": state_slug,
             "state_label": state_slug.upper(),
@@ -495,6 +503,7 @@ def _program_rows(
             "city": inst.get("city"),
             "completers": p.get("completers"),
             "pooled_earnings": bool(p.get("pooled_earnings")),
+            "program_page": has_page,
             "value": float(v),
             "value_label": _format_value(float(v), lane.value_format),
         })

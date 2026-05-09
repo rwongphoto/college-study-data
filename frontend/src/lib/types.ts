@@ -426,6 +426,8 @@ export interface RankingRow {
   institution_name?: string;
   completers?: number | null;
   pooled_earnings?: boolean;
+  // True when a static program page exists (both 4yr + 5yr earnings present).
+  program_page?: boolean;
 }
 
 export interface RankingTable {

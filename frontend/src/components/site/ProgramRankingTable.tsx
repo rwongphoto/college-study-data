@@ -111,10 +111,16 @@ export function ProgramRankingTable({
               const instHref = r.institution_slug
                 ? `/state/${stateSlug(r.state)}/institution/${r.institution_slug}/`
                 : null;
+              const progHref =
+                r.program_page && r.institution_slug
+                  ? `/state/${stateSlug(r.state)}/institution/${r.institution_slug}/program/${r.slug}/`
+                  : null;
               return (
                 <tr key={`${r.state}/${r.institution_slug ?? ""}/${r.slug}`}>
                   <td className="num-mono">{r.rank}</td>
-                  <td className="name">{r.name}</td>
+                  <td className="name">
+                    {progHref ? <Link href={progHref}>{r.name}</Link> : r.name}
+                  </td>
                   <td>{r.credential_desc ?? "—"}</td>
                   <td className="name">
                     {instHref ? (
