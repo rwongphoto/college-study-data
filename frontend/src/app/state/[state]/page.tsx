@@ -37,12 +37,12 @@ export async function generateMetadata({
   try {
     const s = loadState(stateAbbr(state));
     return pageMeta({
-      title: `${s.name} Colleges | College Grad Analyst`,
+      title: `Are ${s.name} Colleges Worth It? | College Grad Analyst`,
       description: `Federal-data view of ${s.institution_count} ${s.name} institutions: median earnings, debt, and completion rates from College Scorecard.`,
       path: `/state/${state}/`,
     });
   } catch {
-    return { title: "State Colleges | College Grad Analyst" };
+    return { title: "Are State Colleges Worth It? | College Grad Analyst" };
   }
 }
 

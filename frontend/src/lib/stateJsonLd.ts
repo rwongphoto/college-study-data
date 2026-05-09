@@ -44,7 +44,7 @@ export function buildStateJsonLd(input: StateJsonLdInput) {
         "@type": "WebPage",
         "@id": pageUrl,
         url: pageUrl,
-        name: `${stateName} Colleges | College Grad Analyst`,
+        name: `Are ${stateName} Colleges Worth It? | College Grad Analyst`,
         description,
         inLanguage: "en-US",
         isPartOf: { "@type": "WebSite", "@id": `${SITE_URL}/`, name: "College Grad Analyst" },

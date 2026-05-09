@@ -50,7 +50,7 @@ export async function generateMetadata({
       path: `/state/${state}/city/${slug}/`,
     });
   } catch {
-    return { title: "City Colleges | College Analyst" };
+    return { title: "City College Earnings | College Grad Analyst" };
   }
 }
 
@@ -75,9 +75,28 @@ export default async function CityPage({
   const completionSpark = historyValues(city.completion_history_city);
 
   const cityUrl = `${SITE_URL}/state/${state}/city/${slug}/`;
+  const pageTitle = `${city.name} College Earnings | College Grad Analyst`;
+  const pageDescription = `Federal-data view of ${city.institution_count} colleges in ${city.name}, ${abbr.toUpperCase()}.`;
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
+      {
+        "@type": "Place",
+        name: city.name,
+        url: cityUrl,
+        containedInPlace: {
+          "@type": "AdministrativeArea",
+          name: stateAgg.name,
+          url: `${SITE_URL}/state/${state}/`,
+        },
+        description: pageDescription,
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: city.name,
+          addressRegion: abbr.toUpperCase(),
+          addressCountry: "US",
+        },
+      },
       {
         "@type": "BreadcrumbList",
         itemListElement: [
@@ -92,14 +111,27 @@ export default async function CityPage({
         ],
       },
       {
-        "@type": "Place",
-        name: city.name,
+        "@type": "CreativeWork",
+        name: pageTitle,
+        description: pageDescription,
         url: cityUrl,
-        containedInPlace: {
-          "@type": "AdministrativeArea",
-          name: stateAgg.name,
-          url: `${SITE_URL}/state/${state}/`,
+        inLanguage: "en-US",
+        author: {
+          "@type": "Organization",
+          "@id": `${SITE_URL}/`,
+          name: "College Grad Analyst",
+          url: `${SITE_URL}/`,
         },
+        datePublished: city.source.vintage,
+      },
+      {
+        "@type": "Organization",
+        "@id": `${SITE_URL}/`,
+        name: "College Grad Analyst",
+        url: `${SITE_URL}/`,
+        logo: { "@type": "ImageObject", url: `${SITE_URL}/icon.png` },
+        description:
+          "Federal earnings, debt, and completion data — surfaced per institution and per program.",
       },
     ],
   };
