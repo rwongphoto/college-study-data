@@ -1,12 +1,11 @@
-// Prebuild: symlink big data trees into public/ for CDN serving, and emit a
-// small manifest of state/city/institution slugs for the sitemap.
+// Prebuild: emit a small manifest of state/city/institution slugs so the
+// sitemap function can iterate without walking the on-disk data tree (which
+// isn't bundled into Vercel functions — see src/lib/data.ts for the data
+// CDN strategy).
 import {
   existsSync,
-  lstatSync,
-  mkdirSync,
   readdirSync,
   rmSync,
-  symlinkSync,
   writeFileSync,
 } from "node:fs";
 import { dirname, join, resolve } from "node:path";
@@ -15,22 +14,16 @@ import { fileURLToPath } from "node:url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const FRONTEND = resolve(__dirname, "..");
 const PUBLISHED = resolve(FRONTEND, "..", "data", "published");
-const PUBLIC_DATA = join(FRONTEND, "public", "data");
 
 if (!existsSync(PUBLISHED)) {
   console.error(`prebuild: ${PUBLISHED} does not exist`);
   process.exit(1);
 }
 
-mkdirSync(PUBLIC_DATA, { recursive: true });
-
-for (const sub of ["program", "institution", "city"]) {
-  const linkPath = join(PUBLIC_DATA, sub);
-  const target = resolve(PUBLISHED, sub);
-  if (existsSync(linkPath) || lstatSyncSafe(linkPath)) {
-    rmSync(linkPath, { recursive: true, force: true });
-  }
-  symlinkSync(target, linkPath, "dir");
+// Clean up legacy public/data symlinks left over from a previous architecture.
+const PUBLIC_DATA = join(FRONTEND, "public", "data");
+if (existsSync(PUBLIC_DATA)) {
+  rmSync(PUBLIC_DATA, { recursive: true, force: true });
 }
 
 const listJson = (dir) =>
@@ -57,13 +50,5 @@ writeFileSync(
 const cityCount = Object.values(cities).reduce((n, x) => n + x.length, 0);
 const instCount = Object.values(institutions).reduce((n, x) => n + x.length, 0);
 console.log(
-  `prebuild: ${states.length} states, ${cityCount} cities, ${instCount} institutions; symlinks in public/data/`,
+  `prebuild: ${states.length} states, ${cityCount} cities, ${instCount} institutions`,
 );
-
-function lstatSyncSafe(p) {
-  try {
-    return lstatSync(p);
-  } catch {
-    return null;
-  }
-}

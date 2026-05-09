@@ -2,12 +2,12 @@
 //
 // Two strategies:
 //   - Small artifacts (home/rankings/state/methodology/roi_constants/manifest)
-//     are read from disk via outputFileTracingIncludes — they're tiny enough
-//     to bundle into every serverless function.
-//   - Large trees (program/, institution/, city/) are served as static CDN
-//     assets from frontend/public/data/ (symlinked in by scripts/prebuild.mjs)
-//     and fetched at request time. Keeps function bundles under Vercel's
-//     300 MB cap.
+//     are read from disk via outputFileTracingIncludes — tiny enough to
+//     bundle into every serverless function.
+//   - Large trees (program/, institution/, city/) are served by jsDelivr
+//     directly from the public GitHub repo and fetched at request time.
+//     Keeps function bundles tiny: data is never near the Vercel deployment.
+//     Configurable via NEXT_PUBLIC_DATA_CDN_BASE for staging/branch overrides.
 import { readFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 
@@ -23,17 +23,16 @@ import type {
 
 const PUBLISHED_DIR = resolve(process.cwd(), "..", "data", "published");
 
+const DATA_CDN_BASE =
+  process.env.NEXT_PUBLIC_DATA_CDN_BASE ??
+  "https://cdn.jsdelivr.net/gh/rwongphoto/college-study-data@main/data/published";
+
 function readJSON<T>(path: string): T {
   return JSON.parse(readFileSync(path, "utf-8")) as T;
 }
 
-function originForFetch(): string {
-  if (process.env.VERCEL_URL) return `https://${process.env.VERCEL_URL}`;
-  return process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
-}
-
-async function fetchJSON<T>(path: string): Promise<T> {
-  const url = `${originForFetch()}${path}`;
+async function fetchJSON<T>(relPath: string): Promise<T> {
+  const url = `${DATA_CDN_BASE}${relPath}`;
   const res = await fetch(url, { next: { revalidate: 86400 } });
   if (!res.ok) {
     throw new Error(`fetchJSON ${url} → ${res.status}`);
@@ -99,7 +98,7 @@ export function listInstitutions(state: string): string[] {
 // ---- Big files: served as CDN assets, fetched at request time ----
 
 export function loadCity(state: string, slug: string): Promise<CityAgg> {
-  return fetchJSON<CityAgg>(`/data/city/${state.toLowerCase()}/${slug}.json`);
+  return fetchJSON<CityAgg>(`/city/${state.toLowerCase()}/${slug}.json`);
 }
 
 export function loadInstitution(
@@ -107,7 +106,7 @@ export function loadInstitution(
   slug: string,
 ): Promise<InstitutionPayload> {
   return fetchJSON<InstitutionPayload>(
-    `/data/institution/${state.toLowerCase()}/${slug}.json`,
+    `/institution/${state.toLowerCase()}/${slug}.json`,
   );
 }
 
@@ -117,6 +116,6 @@ export function loadProgram(
   programSlug: string,
 ): Promise<ProgramPayload> {
   return fetchJSON<ProgramPayload>(
-    `/data/program/${state.toLowerCase()}/${institutionSlug}/${programSlug}.json`,
+    `/program/${state.toLowerCase()}/${institutionSlug}/${programSlug}.json`,
   );
 }
