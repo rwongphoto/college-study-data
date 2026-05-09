@@ -26,7 +26,7 @@ const CITY_TABLE_CAPTIONS: Record<string, string> = {
 };
 
 export const metadata: Metadata = pageMeta({
-  title: "Best Cities for College Outcomes — National Rankings | College Outcome Analyst",
+  title: "Best Cities for College Outcomes — National Rankings | College Grad Analyst",
   description:
     "Cities ranked by median college outcomes — 10-year-after-entry earnings, 150%-time completion — across all Title-IV institutions located in each city.",
   path: "/rankings/cities",
@@ -62,6 +62,7 @@ export default async function RankingsCitiesPage() {
           { label: "Cities" },
         ]}
       />
+      <main>
 
       <section className="section">
         <div className="wrap">
@@ -101,6 +102,7 @@ export default async function RankingsCitiesPage() {
         <RankingTableSection key={`${t.lane}-${t.direction}`} table={t} />
       ))}
 
+      </main>
       <SiteFooter vintageLabel={home.source.vintage} />
     </>
   );

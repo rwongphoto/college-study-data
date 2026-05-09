@@ -25,7 +25,7 @@ const PROGRAM_TABLE_CAPTIONS: Record<string, string> = {
 };
 
 export const metadata: Metadata = pageMeta({
-  title: "Program Rankings — Earnings, Debt, Completers | College Outcome Analyst",
+  title: "Program Rankings — Earnings, Debt, Completers | College Grad Analyst",
   description:
     "Field-of-Study programs ranked by federal-data outcomes — Treasury earnings 5y after completion, median federal-loan debt, and 4-year completer cohorts.",
   path: "/rankings/programs",
@@ -62,6 +62,7 @@ export default async function RankingsProgramsPage() {
           { label: "Programs" },
         ]}
       />
+      <main>
 
       <section className="section">
         <div className="wrap">
@@ -108,6 +109,7 @@ export default async function RankingsProgramsPage() {
         />
       ))}
 
+      </main>
       <SiteFooter vintageLabel={home.source.vintage} />
     </>
   );

@@ -89,9 +89,9 @@ export default function LongArcCards({
                 {headlineSign}
               </span>
             </div>
-            <h4>
+            <h3>
               {scope} · {label.toLowerCase()} {arc.direction}
-            </h4>
+            </h3>
             <p>{fmtFromTo(arc)}</p>
           </div>
         );

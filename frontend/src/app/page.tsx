@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 
 import FlagCards from "@/components/FlagCards";
@@ -7,6 +8,10 @@ import { SiteHeader } from "@/components/site/SiteHeader";
 import { listStates, loadHome, loadState } from "@/lib/data";
 import { fmtNumber } from "@/lib/format";
 import { stateSlug } from "@/lib/state";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 export default function HomePage() {
   const home = loadHome();
@@ -43,9 +48,30 @@ export default function HomePage() {
   }
   const maxSectorPct = Math.max(0.001, ...sectorRows.map((r) => r.pct));
 
+  const siteUrl =
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.collegeoutcomeanalyst.com";
+  const websiteJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "College Grad Analyst",
+    url: siteUrl,
+    description:
+      "Federal college outcomes — earnings, debt, completion, and default — for every Title-IV institution and program.",
+    publisher: {
+      "@type": "Organization",
+      name: "College Grad Analyst",
+      url: siteUrl,
+    },
+  };
+
   return (
     <>
       <SiteHeader active="home" />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+      />
+      <main>
 
       <section className="home-hero">
         <div className="wrap">
@@ -93,7 +119,7 @@ export default function HomePage() {
                 <div className="hhc-tag">
                   <span className="meta-mono">FEATURED · {primary.name.toUpperCase()}</span>
                   <span className="hhc-pulse">
-                    <i /> LIVE
+                    <span className="hhc-pulse-dot" aria-hidden="true" /> LIVE
                   </span>
                 </div>
                 <div className="hhc-headline">Title-IV institutions, by sector</div>
@@ -318,6 +344,7 @@ export default function HomePage() {
         </section>
       )}
 
+      </main>
       <SiteFooter vintageLabel={`${home.source.vintage}`} />
     </>
   );

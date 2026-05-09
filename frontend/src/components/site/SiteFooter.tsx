@@ -32,7 +32,7 @@ export function SiteFooter({ vintageLabel }: { vintageLabel?: string }) {
         </div>
         <div className="f-bot">
           <span className="meta-mono">
-            COLLEGE OUTCOME ANALYST · v0.1
+            COLLEGE GRAD ANALYST · v0.1
             {vintageLabel ? ` · ${vintageLabel.toUpperCase()}` : ""}
           </span>
           <span className="meta-mono">

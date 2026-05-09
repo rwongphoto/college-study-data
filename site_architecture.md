@@ -1,4 +1,4 @@
-# College Outcome Analyst — Site Architecture
+# College Grad Analyst — Site Architecture
 
 **Status:** **National build complete — 50 states + DC + PR (52 jurisdictions).** Multi-vintage history wired through every entity, anomaly engine running, deterministic templates. Architecture mirrors the pollution-analyst stack (federal-data-only, no LLM), with a college-outcome-specific three-tier hierarchy (state → city → institution → program).
 
@@ -7,6 +7,16 @@
 **Companion docs:**
 - [`page_templates.md`](page_templates.md) — per-template section breakdowns + payload contract.
 - [`roi_calculator.md`](roi_calculator.md) — ROI calculator design (Mincer projection, Dale-Krueger toggle, schema, methodology). Embedded as a section on Program and Institution templates; constants in `data/published/roi_constants.json`.
+
+## Required Page Sections — DO NOT REMOVE
+
+The following sections are **load-bearing** and must remain on the templates listed. They have been silently dropped during refactors before; if you are touching either template, preserve them.
+
+| Section | Component | Required on | Source data |
+|---|---|---|---|
+| **ROI Calculator** | `<RoiCalculator>` ([frontend/src/components/RoiCalculator.tsx](frontend/src/components/RoiCalculator.tsx)) | **Program template** ([program/[program]/page.tsx](frontend/src/app/state/[state]/institution/[slug]/program/[program]/page.tsx)) AND **Institution template** ([institution/[slug]/page.tsx](frontend/src/app/state/[state]/institution/[slug]/page.tsx)) | `payload.roi` (program) / `payload.roi` (institution) + `loadRoiConstants()` from `data/published/roi_constants.json` |
+
+The ROI calculator is the page's answer to **"Is this program worth it?"** — the central editorial promise of every program/institution page. Removing it strips the page of its primary value proposition and breaks parity with the design doc in [`roi_calculator.md`](roi_calculator.md). If you think it should be removed, **stop and ask the maintainer first.**
 
 ## Positioning
 
@@ -24,15 +34,27 @@ Trend intelligence and entity reference for **college outcomes** — earnings, d
 | State hubs | 52 (50 states + DC + PR) |
 | City hubs | **2,445** (places with ≥1 institution) |
 | Institution entity pages | **5,059** (Title-IV, main-campus only) |
-| Programs (rendered as embedded grid on institution pages — see "Program consolidation" below) | 204,101 |
-| Static (home, methodology, /rankings/states, /rankings/cities, /rankings/institutions, /rankings/programs) | 8 |
-| **Total Next.js routes generated** | **7,564** |
+| Program entity pages (SSG, allowlist of programs with both 4-yr AND 5-yr earnings) | **41,069** |
+| Program JSONs on disk but **not routable** (missing one or both earnings windows — federal privacy suppression) | 163,032 |
+| Static (home, methodology, /rankings/states, /rankings/cities, /rankings/institutions, /rankings/programs, /rankings/credentials, /rankings/fields) + robots + sitemap | 11 |
+| **Total Next.js routes generated** | **48,636** |
 
-Pipeline run time: ~3 minutes per state (warm cache); ~3 hours sequential for all 51 + DC + PR. Static build of the 7,564 pages: 37.6 seconds in 12 workers. Output: 2.2 GB in `.next/`. Underlying JSON corpus: 211k files, 2.5 GB in `data/published/`.
+Pipeline run time: ~3 minutes per state (warm cache); ~3 hours sequential for all 51 + DC + PR. Static build of the 48,636 pages: ~4 minutes in 15 workers. Output: ~6 GB in `.next/`. Underlying JSON corpus: 211k files, 2.5 GB in `data/published/`.
 
-## Program consolidation (2026-05-08)
+## Program-route SSG allowlist (2026-05-08)
 
-The per-program standalone route `/state/[state]/institution/[slug]/program/[program]` was removed. Reason: returning 204,101 entries from `generateStaticParams` triggered a stack overflow during Next.js's `Collecting page data` phase. Programs are now embedded as a CIP-family-grouped grid inside the institution page, drawing from `programs_by_family` in the institution payload — same data, no separate route. The 204k program JSONs in `data/published/program/` remain on disk for future use (peer-comparison sections, ROI calculator inputs, etc.).
+The per-program route `/state/[state]/institution/[slug]/program/[program]` is statically generated for the **41,069 programs that have BOTH `earnings_median_4yr` AND `earnings_median_5yr` reported** — two post-completion windows of federal salary data, the minimum density for a defensible standalone page (every headline tile renders a real number, not an em-dash). Programs missing either window (~163k) keep their JSON on disk for future use (peer-comparison sections, ROI calculator inputs, etc.) but their URLs return **404**, not a thin on-demand render.
+
+Mechanism: `generateStaticParams` reads `listProgramsWithEarnings()` from `frontend/src/lib/data.ts`, which scans the ~5k institution payloads (each carries `programs[]` with the earnings signals) rather than opening the 204k program JSONs. `dynamicParams = false` on the route ensures unlisted programs 404.
+
+History:
+
+- **Attempt 1** — SSG all 204,101 programs. Blew Node's call stack during the `Collecting page data` phase.
+- **Attempt 2** — ISR fallback: top-10k pre-rendered + 194k on-demand with `revalidate = 86400`. Made every URL routable but exposed ~160k thin pages (outcome tiles all em-dashed, no long-arc shifts, no history sparklines) that Google's Helpful Content System would penalize.
+- **Attempt 3** — SSG allowlist on `earnings_median_5yr != null` → 43,763 programs. Closed the SEO leak but ~2,700 of those had only the 5yr earnings populated and rendered the 4yr tile as an em-dash, weakening the suppression-honest premise.
+- **Current** — SSG allowlist on `earnings_median_4yr != null AND earnings_median_5yr != null` → **41,069 programs**. Every reachable program URL renders both earnings tiles populated.
+
+**Why both windows as the cutoff:** federal data caps program-grain earnings at one cohort year (the bulk historical FoS files for 2014–2017 carry the column but every cell is `PS`/suppressed; the 2018 file populates 4yr only, the 2019 file populates 5yr only, and the Most-Recent file populates both for the latest cohort). So "two years of salary data" at the program grain can only mean "the same cohort measured at two post-completion windows." Programs with only one window populated had the other window suppressed for cohort-size reasons — arbitrary edge cases, not "new program" signal (since both windows draw from the same recent FoS file). Federal cohort suppression hides earnings for any (institution × CIP × credential) cell with fewer than ~30 graduates earning Treasury wages; 60.8% of the 204k program rows have <10 completers, which is why the allowlist is ~20% of the corpus.
 
 ## Multi-Vintage History (the v2 difference)
 
@@ -188,6 +210,18 @@ Mirrors pollution's `RelatedPlaces` shape; selection happens at publish time so 
 - **Site components ported** (Brand, SiteHeader, SiteFooter, Crumbs, BackToTop, JumpStrip, InfoTip, Sparkline) from pollution; college-specific brand mark + nav.
 - **Inline SVG charts** — no charting library. Sparklines, hero charts, peer bars are SVG.
 - **No client-side data fetching** for page content — JSON read server-side at build time.
+
+## Semantic HTML & SEO
+
+Every page template follows the same semantic skeleton. These rules are enforced by convention, not lint — preserve them when editing templates.
+
+- **`<main>` landmark** — every page wraps its content in a single `<main>` element, sitting between `<SiteHeader>` and `<SiteFooter>`. The `<Crumbs>` block, when present, lives **outside** `<main>` (after the header). This satisfies the WAI-ARIA primary-content landmark requirement and lets assistive tech skip nav.
+- **One `<h1>` per page** — set in the page-header section. All section heads use `<h2>` inside `<header className="sec-head">`. Subsection cards (FlagCards, LongArcCards) use `<h3>` — never skip levels (no `<h2>` → `<h4>`). The `.flag-card h3` style in `globals.css` keeps the visual weight low despite the level.
+- **Canonical URL per route** — pages call [`pageMeta({ path })`](frontend/src/lib/seo.ts) (or set `metadata.alternates.canonical` directly on the homepage) so Next.js emits a route-specific `<link rel="canonical">`. The layout-level metadata only carries sitewide defaults; per-route canonical is required to avoid duplicate-content collapse.
+- **OG + Twitter per route** — same `pageMeta` helper emits per-route Open Graph URL/title/description and Twitter card. Don't rely on the layout-level OG; it falls back to the homepage URL.
+- **JSON-LD where it earns rich results** — homepage emits `WebSite` + `Organization`; rankings pages emit `ItemList` + `BreadcrumbList` + `Article` + `Organization` via [`buildRankingsJsonLd`](frontend/src/lib/rankingJsonLd.ts). Entity pages (state/institution/program) don't yet ship JSON-LD; if added, follow the same pattern (script tag inside the fragment, before `<main>`).
+- **Favicon** — single SVG at [`frontend/src/app/icon.svg`](frontend/src/app/icon.svg) (mortarboard mark matching the `Brand` logo). Next.js auto-emits the `<link rel="icon">` tag.
+- **No presentational `<i>`** — `<i>` is reserved for semantic italics; use `<span>` (with `aria-hidden="true"` for purely decorative shapes) for visual fills like pulse dots and bar slivers.
 
 ## Operational Cadence
 

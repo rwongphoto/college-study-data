@@ -23,7 +23,7 @@ const CREDENTIAL_TABLE_CAPTIONS: Record<string, string> = {
 
 export const metadata: Metadata = pageMeta({
   title:
-    "Rankings by Degree Level — Bachelor's, Master's, Doctorate | College Outcome Analyst",
+    "Rankings by Degree Level — Bachelor's, Master's, Doctorate | College Grad Analyst",
   description:
     "Field-of-Study programs ranked within each credential level — Bachelor's, Master's, Doctorate, Associate's, Certificate — using federal Treasury earnings, debt, and completer data.",
   path: "/rankings/credentials",
@@ -77,6 +77,7 @@ export default async function RankingsCredentialsPage() {
           { label: "Credentials" },
         ]}
       />
+      <main>
 
       <section className="section">
         <div className="wrap">
@@ -110,6 +111,7 @@ export default async function RankingsCredentialsPage() {
         />
       ))}
 
+      </main>
       <SiteFooter vintageLabel={home.source.vintage} />
     </>
   );

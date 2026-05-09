@@ -46,7 +46,7 @@ const INSTITUTION_TABLE_CAPTIONS: Record<string, string> = {
 };
 
 export const metadata: Metadata = pageMeta({
-  title: "College Rankings — Earnings, Completion, Debt | College Outcome Analyst",
+  title: "College Rankings — Earnings, Completion, Debt | College Grad Analyst",
   description:
     "Title-IV institutions ranked by federal outcome data — earnings 10y after entry, 150%-time completion, median debt, default rate, admission rate, and Pell share.",
   path: "/rankings/institutions",
@@ -83,6 +83,7 @@ export default async function RankingsInstitutionsPage() {
           { label: "Institutions" },
         ]}
       />
+      <main>
 
       <section className="section">
         <div className="wrap">
@@ -131,6 +132,7 @@ export default async function RankingsInstitutionsPage() {
         />
       ))}
 
+      </main>
       <SiteFooter vintageLabel={home.source.vintage} />
     </>
   );

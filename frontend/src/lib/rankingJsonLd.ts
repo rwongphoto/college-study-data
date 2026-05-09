@@ -56,14 +56,14 @@ export function buildRankingsJsonLd(input: RankingsJsonLdInput) {
         image: `${SITE_URL}/icon.png`,
         publisher: {
           "@type": "Organization",
-          name: "College Outcome Analyst",
+          name: "College Grad Analyst",
           url: SITE_URL,
         },
       },
       {
         "@type": "Organization",
         "@id": `${SITE_URL}/`,
-        name: "College Outcome Analyst",
+        name: "College Grad Analyst",
         url: `${SITE_URL}/`,
         logo: { "@type": "ImageObject", url: `${SITE_URL}/icon.png` },
       },

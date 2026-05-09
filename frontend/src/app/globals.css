@@ -1710,7 +1710,8 @@ hr, .rule { border: 0; border-top: 1px solid var(--line); margin: 32px 0; }
   letter-spacing: 0.10em; color: var(--green);
   background: var(--green-wash); padding: 3px 8px; border-radius: var(--r-pill);
 }
-.hhc-pulse i {
+.hhc-pulse-dot {
+  display: inline-block;
   width: 6px; height: 6px; border-radius: 50%; background: var(--green);
   animation: hhc-pulse 1.6s ease-in-out infinite;
 }
@@ -2078,7 +2079,7 @@ a.flag-card:hover { border-color: var(--line-2); transform: translateY(-1px); }
 }
 .flag-row .meta-mono { color: var(--fg-3); }
 .flag-row .num-mono { font-family: var(--font-mono); color: var(--fg); font-size: 13px; letter-spacing: 0.04em; }
-.flag-card h4 {
+.flag-card h3 {
   font-family: var(--font-body); font-weight: 600;
   font-size: 16px; letter-spacing: -0.01em;
   margin: 0 0 8px; color: var(--fg); text-wrap: balance;

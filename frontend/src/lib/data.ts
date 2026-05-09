@@ -137,11 +137,12 @@ export type ProgramTuple = {
   program: string;
 };
 
-// Programs with reported 5-yr earnings — the same set that institution pages
-// link to. Reads institution payloads (~5k) rather than program payloads
-// (~200k) since InstitutionPayload.programs[] already carries the earnings
-// signal. Used by program-route generateStaticParams as the SSG allowlist;
-// programs without earnings are unreachable (dynamicParams = false → 404).
+// Programs with both 4-yr AND 5-yr post-completion earnings reported — two
+// post-completion windows of federal salary data is the minimum density for
+// a defensible standalone page (every headline tile renders a real number,
+// not an em-dash). Reads institution payloads (~5k) rather than program
+// payloads (~200k). Used by program-route generateStaticParams as the SSG
+// allowlist; programs without both windows return 404.
 export function listProgramsWithEarnings(): ProgramTuple[] {
   const out: ProgramTuple[] = [];
   for (const state of listStates()) {
@@ -149,6 +150,7 @@ export function listProgramsWithEarnings(): ProgramTuple[] {
       const payload = loadInstitution(state, slug);
       for (const row of payload.programs) {
         if (row.earnings_median_5yr == null) continue;
+        if (row.earnings_median_4yr == null) continue;
         out.push({ state, institution: slug, program: row.slug });
       }
     }

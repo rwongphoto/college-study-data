@@ -155,7 +155,7 @@ export function FlagCard({ flag }: { flag: Flag }) {
           </span>
         )}
       </div>
-      <h4>{flag.label}</h4>
+      <h3>{flag.label}</h3>
       <p>{summary}</p>
       {values.length >= 2 && (
         <div className="hflag-spark" style={{ marginTop: 12 }}>

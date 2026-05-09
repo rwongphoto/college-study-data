@@ -19,7 +19,7 @@ const FIELD_TABLE_CAPTIONS: Record<string, string> = {
 
 export const metadata: Metadata = pageMeta({
   title:
-    "Rankings by Field of Study — Engineering, Business, Health | College Outcome Analyst",
+    "Rankings by Field of Study — Engineering, Business, Health | College Grad Analyst",
   description:
     "Programs ranked within each field of study (CIP-2 family) — Engineering, Business, Health, Computer Science, and more — using federal earnings and debt data.",
   path: "/rankings/fields",
@@ -70,6 +70,7 @@ export default async function RankingsFieldsPage() {
           { label: "Fields" },
         ]}
       />
+      <main>
 
       <section className="section">
         <div className="wrap">
@@ -105,6 +106,7 @@ export default async function RankingsFieldsPage() {
         />
       ))}
 
+      </main>
       <SiteFooter vintageLabel={home.source.vintage} />
     </>
   );

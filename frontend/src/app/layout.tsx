@@ -12,20 +12,20 @@ const SITE_DESCRIPTION =
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "College Outcome Analyst",
+  title: "College Grad Analyst",
   description: SITE_DESCRIPTION,
-  applicationName: "College Outcome Analyst",
+  applicationName: "College Grad Analyst",
   openGraph: {
     type: "website",
-    siteName: "College Outcome Analyst",
+    siteName: "College Grad Analyst",
     locale: "en_US",
-    title: "College Outcome Analyst",
+    title: "College Grad Analyst",
     description: SITE_DESCRIPTION,
     url: "/",
   },
   twitter: {
     card: "summary_large_image",
-    title: "College Outcome Analyst",
+    title: "College Grad Analyst",
     description: SITE_DESCRIPTION,
   },
 };

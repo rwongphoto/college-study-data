@@ -30,7 +30,7 @@ const STATE_TABLE_CAPTIONS: Record<string, string> = {
 };
 
 export const metadata: Metadata = pageMeta({
-  title: "Best States for College Outcomes — National Rankings | College Outcome Analyst",
+  title: "Best States for College Outcomes — National Rankings | College Grad Analyst",
   description:
     "States ranked by median college outcomes — 10-year-after-entry earnings, 150%-time completion — across all Title-IV institutions in each state.",
   path: "/rankings/states",
@@ -66,6 +66,7 @@ export default async function RankingsStatesPage() {
           { label: "States" },
         ]}
       />
+      <main>
 
       <section className="section">
         <div className="wrap">
@@ -104,6 +105,7 @@ export default async function RankingsStatesPage() {
         <RankingTableSection key={`${t.lane}-${t.direction}`} table={t} />
       ))}
 
+      </main>
       <SiteFooter vintageLabel={home.source.vintage} />
     </>
   );

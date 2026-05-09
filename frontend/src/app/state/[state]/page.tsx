@@ -7,6 +7,7 @@ import FlagCards from "@/components/FlagCards";
 import InstitutionRankTable from "@/components/InstitutionRankTable";
 import LongArcCards from "@/components/LongArcCards";
 import TrendLine from "@/components/TrendLine";
+import { JumpStrip } from "@/components/site/JumpStrip";
 import { SiteFooter } from "@/components/site/SiteFooter";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import { listStates, loadHome, loadState } from "@/lib/data";
@@ -16,6 +17,7 @@ import {
   fmtPercent,
   historyValues,
 } from "@/lib/format";
+import { pageMeta } from "@/lib/seo";
 import { stateAbbr, stateSlug } from "@/lib/state";
 
 export const revalidate = 86400;
@@ -32,12 +34,13 @@ export async function generateMetadata({
   const { state } = await params;
   try {
     const s = loadState(stateAbbr(state));
-    return {
-      title: `${s.name} Colleges | College Analyst`,
+    return pageMeta({
+      title: `${s.name} Colleges | College Grad Analyst`,
       description: `Federal-data view of ${s.institution_count} ${s.name} institutions: median earnings, debt, and completion rates from College Scorecard.`,
-    };
+      path: `/state/${state}/`,
+    });
   } catch {
-    return { title: "State Colleges | College Analyst" };
+    return { title: "State Colleges | College Grad Analyst" };
   }
 }
 
@@ -76,6 +79,19 @@ export default async function StatePage({
     <>
       <SiteHeader active="state" />
       <Crumbs items={[{ label: "Home", href: "/" }, { label: data.name }]} />
+      <JumpStrip
+        items={[
+          { id: "flags", label: "Signals", show: (data.flags?.length ?? 0) > 0 },
+          { id: "numbers", label: "The Numbers" },
+          { id: "shifts", label: "Shifts", show: (data.long_arc?.length ?? 0) > 0 },
+          { id: "institutions", label: "Institutions" },
+          { id: "top-earnings", label: "Top Earnings" },
+          { id: "top-completion", label: "Top Completion" },
+          { id: "cities", label: "Cities", show: data.cities.length > 0 },
+          { id: "methodology", label: "Methodology" },
+        ]}
+      />
+      <main>
 
       <section className="city-header">
         <div className="wrap">
@@ -104,7 +120,7 @@ export default async function StatePage({
       </section>
 
       {(data.flags ?? []).length > 0 && (
-        <section className="section section-tint">
+        <section id="flags" className="section section-tint">
           <div className="wrap">
             <header className="sec-head">
               <div>
@@ -126,7 +142,7 @@ export default async function StatePage({
         </section>
       )}
 
-      <section className="section">
+      <section id="numbers" className="section">
         <div className="wrap">
           <header className="sec-head">
             <div>
@@ -193,7 +209,7 @@ export default async function StatePage({
       </section>
 
       {(enrollSpark.length >= 2 || completionSpark.length >= 2) && (
-        <section className="section section-tint">
+        <section id="shifts" className="section section-tint">
           <div className="wrap">
             <header className="sec-head">
               <div>
@@ -287,7 +303,7 @@ export default async function StatePage({
           (r) => (r.enrollment_undergrad ?? 0) >= TABLE_MIN_UNDERGRAD,
         );
         return (
-          <section className="section">
+          <section id="institutions" className="section">
             <div className="wrap">
               <header className="sec-head">
                 <div>
@@ -325,7 +341,7 @@ export default async function StatePage({
       })()}
 
       {data.top_by_earnings.length > 0 && (
-        <section className="section section-tint">
+        <section id="top-earnings" className="section section-tint">
           <div className="wrap">
             <header className="sec-head">
               <div>
@@ -352,7 +368,7 @@ export default async function StatePage({
                         : "—"}
                     </span>
                   </div>
-                  <h4>{r.name}</h4>
+                  <h3>{r.name}</h3>
                   <div className="prog-meta">
                     <span>
                       {r.enrollment_undergrad != null
@@ -397,7 +413,7 @@ export default async function StatePage({
         );
         if (eligible.length === 0) return null;
         return (
-        <section className="section">
+        <section id="top-completion" className="section">
           <div className="wrap">
             <header className="sec-head">
               <div>
@@ -427,7 +443,7 @@ export default async function StatePage({
                         : "—"}
                     </span>
                   </div>
-                  <h4>{r.name}</h4>
+                  <h3>{r.name}</h3>
                   <div className="prog-meta">
                     <span>
                       {r.earnings_median_10yr != null
@@ -451,7 +467,7 @@ export default async function StatePage({
       })()}
 
       {data.cities.length > 0 && (
-        <section className="section">
+        <section id="cities" className="section">
           <div className="wrap">
             <header className="sec-head">
               <div>
@@ -506,7 +522,7 @@ export default async function StatePage({
         </section>
       )}
 
-      <section className="section section-tint">
+      <section id="methodology" className="section section-tint">
         <div className="wrap">
           <div className="method-promo">
             <div>
@@ -528,6 +544,7 @@ export default async function StatePage({
         </div>
       </section>
 
+      </main>
       <SiteFooter vintageLabel={data.source.vintage} />
     </>
   );

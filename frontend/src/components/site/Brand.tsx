@@ -9,10 +9,7 @@ export function Brand({ small = false }: { small?: boolean }) {
       style={{ fontSize: small ? 17 : 19, gap: small ? 8 : 10 }}
     >
       <CollegeMark size={markSize} />
-      <span>
-        College Outcome<span className="dot">.</span>
-        <em>analyst</em>
-      </span>
+      <span>College Grad Analyst</span>
     </Link>
   );
 }

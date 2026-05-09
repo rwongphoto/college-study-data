@@ -9,6 +9,7 @@ import FlagCards from "@/components/FlagCards";
 import LongArcCards from "@/components/LongArcCards";
 import RoiCalculator from "@/components/RoiCalculator";
 import TrendLine from "@/components/TrendLine";
+import { JumpStrip } from "@/components/site/JumpStrip";
 import { SiteFooter } from "@/components/site/SiteFooter";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import {
@@ -210,6 +211,31 @@ export default async function InstitutionPage({
     <>
       <SiteHeader active="state" />
       <Crumbs items={crumbs} />
+      <JumpStrip
+        items={[
+          { id: "flags", label: "Signals", show: (i.flags?.length ?? 0) > 0 },
+          { id: "numbers", label: "The Numbers" },
+          { id: "earnings-horizon", label: "Earnings Horizon", show: hasEarningsCurve },
+          { id: "debt", label: "Debt", show: dteRatio10y != null },
+          {
+            id: "long-arc",
+            label: "Long Arc",
+            show:
+              enrollSpark.length >= 2 ||
+              completionSpark.length >= 2 ||
+              debtSpark.length >= 2,
+          },
+          { id: "programs", label: "Programs", show: programsRanked.length > 0 },
+          {
+            id: "roi",
+            label: "ROI Calculator",
+            show: !!(payload.roi && payload.roi.programs_available.length > 0),
+          },
+          { id: "similar", label: "Similar", show: payload.similar.length > 0 },
+          { id: "methodology", label: "Methodology" },
+        ]}
+      />
+      <main>
 
       <section className="city-header">
         <div className="wrap">
@@ -244,7 +270,7 @@ export default async function InstitutionPage({
       </section>
 
       {(i.flags ?? []).length > 0 && (
-        <section className="section section-tint">
+        <section id="flags" className="section section-tint">
           <div className="wrap">
             <header className="sec-head">
               <div>
@@ -265,7 +291,7 @@ export default async function InstitutionPage({
         </section>
       )}
 
-      <section className="section">
+      <section id="numbers" className="section">
         <div className="wrap">
           <header className="sec-head">
             <div>
@@ -358,7 +384,7 @@ export default async function InstitutionPage({
       </section>
 
       {hasEarningsCurve && (
-        <section className="section section-tint">
+        <section id="earnings-horizon" className="section section-tint">
           <div className="wrap">
             <header className="sec-head">
               <div>
@@ -402,7 +428,7 @@ export default async function InstitutionPage({
       )}
 
       {dteRatio10y != null && (
-        <section className="section">
+        <section id="debt" className="section">
           <div className="wrap">
             <header className="sec-head">
               <div>
@@ -437,7 +463,7 @@ export default async function InstitutionPage({
 
       {(enrollSpark.length >= 2 || completionSpark.length >= 2 ||
         debtSpark.length >= 2) && (
-        <section className="section section-tint">
+        <section id="long-arc" className="section section-tint">
           <div className="wrap">
             <header className="sec-head">
               <div>
@@ -544,7 +570,7 @@ export default async function InstitutionPage({
       )}
 
       {programsRanked.length > 0 && (
-        <section className="section">
+        <section id="programs" className="section">
           <div className="wrap">
             <header className="sec-head">
               <div>
@@ -611,7 +637,7 @@ export default async function InstitutionPage({
           0,
         );
         return familyEntries.length > 0 && (
-        <section className="section section-tint">
+        <section id="by-family" className="section section-tint">
           <div className="wrap">
             <header className="sec-head">
               <div>
@@ -680,7 +706,7 @@ export default async function InstitutionPage({
       })()}
 
       {payload.roi && payload.roi.programs_available.length > 0 && (
-        <section className="section">
+        <section id="roi" className="section">
           <div className="wrap">
             <header className="sec-head">
               <div>
@@ -712,7 +738,7 @@ export default async function InstitutionPage({
       )}
 
       {payload.similar.length > 0 && (
-        <section className="section">
+        <section id="similar" className="section">
           <div className="wrap">
             <header className="sec-head">
               <div>
@@ -740,7 +766,7 @@ export default async function InstitutionPage({
                         : "—"}
                     </span>
                   </div>
-                  <h4>{s.name}</h4>
+                  <h3>{s.name}</h3>
                   <div className="prog-meta">
                     <span>
                       {fmtControl(s.control)} · {fmtPredDegree(s.pred_degree)}
@@ -762,7 +788,7 @@ export default async function InstitutionPage({
         </section>
       )}
 
-      <section className="section section-tint">
+      <section id="methodology" className="section section-tint">
         <div className="wrap">
           <div className="method-promo">
             <div>
@@ -786,6 +812,7 @@ export default async function InstitutionPage({
         </div>
       </section>
 
+      </main>
       <SiteFooter vintageLabel={payload.source.vintage} />
     </>
   );

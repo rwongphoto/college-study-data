@@ -1,4 +1,4 @@
-# College Outcome Analyst — Page Templates
+# College Grad Analyst — Page Templates
 
 Per-template structural reference + payload contract. For the route map, pipeline data flow, and high-level positioning see [`site_architecture.md`](site_architecture.md).
 

@@ -6,7 +6,7 @@ import { loadMethodology } from "@/lib/data";
 export const metadata = {
   title: "Methodology",
   description:
-    "Sources, suppression rules, and editorial discipline for College Outcome Analyst.",
+    "Sources, suppression rules, and editorial discipline for College Grad Analyst.",
 };
 
 export default function MethodologyPage() {
@@ -16,6 +16,7 @@ export default function MethodologyPage() {
     <>
       <SiteHeader active="method" />
       <Crumbs items={[{ label: "Home", href: "/" }, { label: "Methodology" }]} />
+      <main>
 
       <section className="city-header">
         <div className="wrap">
@@ -71,6 +72,7 @@ export default function MethodologyPage() {
         </div>
       </section>
 
+      </main>
       <SiteFooter vintageLabel={m.source.vintage} />
     </>
   );

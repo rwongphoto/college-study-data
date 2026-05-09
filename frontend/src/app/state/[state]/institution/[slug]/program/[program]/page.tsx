@@ -7,6 +7,7 @@ import DebtRatio from "@/components/DebtRatio";
 import LongArcCards from "@/components/LongArcCards";
 import RoiCalculator from "@/components/RoiCalculator";
 import TrendLine from "@/components/TrendLine";
+import { JumpStrip } from "@/components/site/JumpStrip";
 import { SiteFooter } from "@/components/site/SiteFooter";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import {
@@ -24,11 +25,10 @@ import {
 } from "@/lib/format";
 import { stateAbbr, stateSlug } from "@/lib/state";
 
-// SSG over the ~44k programs with reported 5-yr earnings — the same set
-// institution pages link to. Programs without earnings would render as
-// thin pages (all outcome tiles em-dashed), so they're excluded from the
-// allowlist; with dynamicParams = false, those URLs return 404 instead of
-// rendering on demand.
+// SSG over the ~41k programs with both 4-yr and 5-yr earnings — two
+// post-completion windows of federal salary data, the minimum density for
+// a defensible standalone page. Programs missing either window return 404
+// (dynamicParams = false).
 export const dynamicParams = false;
 
 export function generateStaticParams() {
@@ -47,9 +47,11 @@ export async function generateMetadata({
   const { state, slug, program } = await params;
   try {
     const p = loadProgram(stateAbbr(state), slug, program);
+    const cip = p.cip_desc.replace(/\.$/, "");
+    const inst = p.institution_name.replace(/\.$/, "");
     return {
-      title: `${p.cip_desc} (${p.credential_desc}) at ${p.institution_name}`,
-      description: `Median earnings 5 yr post-completion ${fmtCurrency(p.earnings_median_5yr)}, median debt ${fmtCurrency(p.debt_median)} for ${p.cip_desc} (${p.credential_desc}) at ${p.institution_name}.`,
+      title: `Is ${cip} at ${inst} Worth It? | College Grad Analyst`,
+      description: `Median earnings 5 yr post-completion ${fmtCurrency(p.earnings_median_5yr)}, median debt ${fmtCurrency(p.debt_median)} for ${cip} (${p.credential_desc}) at ${inst}.`,
     };
   } catch {
     return { title: "Program" };
@@ -134,13 +136,33 @@ export default async function ProgramPage({
           { label: p.cip_desc },
         ]}
       />
+      <JumpStrip
+        items={[
+          { id: "numbers", label: "The Numbers" },
+          { id: "debt", label: "Debt", show: dteRatio != null },
+          {
+            id: "shifts",
+            label: "Shifts",
+            show:
+              earn5Spark.length >= 2 ||
+              debtSpark.length >= 2 ||
+              completersSpark.length >= 2,
+          },
+          { id: "roi", label: "ROI Calculator", show: !!p.roi },
+          { id: "peers", label: "Peers", show: peers.length > 0 },
+          { id: "methodology", label: "Methodology" },
+        ]}
+      />
+      <main>
 
       <section className="city-header">
         <div className="wrap">
           <div className="eyebrow">
             CIP {p.cip_code} · {p.credential_desc} · {p.institution_name}
           </div>
-          <h1>{p.cip_desc}</h1>
+          <h1>
+            {p.cip_desc.replace(/\.$/, "")} at {p.institution_name.replace(/\.$/, "")}
+          </h1>
           <p className="lede" style={{ marginTop: 18, maxWidth: "62ch" }}>
             Federal outcomes for {p.credential_desc.toLowerCase()} graduates of{" "}
             <Link href={`/state/${state}/institution/${slug}/`}>
@@ -182,7 +204,7 @@ export default async function ProgramPage({
         </div>
       </section>
 
-      <section className="section">
+      <section id="numbers" className="section">
         <div className="wrap">
           <div className="data-tiles">
             <DataTile
@@ -222,7 +244,7 @@ export default async function ProgramPage({
       </section>
 
       {dteRatio != null && (
-        <section className="section section-tint">
+        <section id="debt" className="section section-tint">
           <div className="wrap">
             <header className="sec-head">
               <div>
@@ -265,7 +287,7 @@ export default async function ProgramPage({
 
       {(earn5Spark.length >= 2 || debtSpark.length >= 2 ||
         completersSpark.length >= 2) && (
-        <section className="section">
+        <section id="shifts" className="section">
           <div className="wrap">
             <header className="sec-head">
               <div>
@@ -410,7 +432,7 @@ export default async function ProgramPage({
               <div>
                 <div className="kicker">PEER COMPARISON · CIP {p.cip_code}</div>
                 <h2>
-                  {p.cip_desc} across {stateAgg.name} institutions
+                  {p.cip_desc.replace(/\.$/, "")} across {stateAgg.name} institutions
                 </h2>
               </div>
               <p className="sec-sub">
@@ -499,6 +521,7 @@ export default async function ProgramPage({
         </div>
       </section>
 
+      </main>
       <SiteFooter vintageLabel={p.source.vintage} />
     </>
   );

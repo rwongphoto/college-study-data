@@ -4,6 +4,7 @@ import Crumbs from "@/components/Crumbs";
 import DataTile from "@/components/DataTile";
 import InstitutionRankTable from "@/components/InstitutionRankTable";
 import TrendLine from "@/components/TrendLine";
+import { JumpStrip } from "@/components/site/JumpStrip";
 import { SiteFooter } from "@/components/site/SiteFooter";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import {
@@ -80,6 +81,18 @@ export default async function CityPage({
           { label: city.name },
         ]}
       />
+      <JumpStrip
+        items={[
+          { id: "numbers", label: "The Numbers", show: !isThin },
+          {
+            id: "shifts",
+            label: "Shifts",
+            show: enrollSpark.length >= 2 || completionSpark.length >= 2,
+          },
+          { id: "institutions", label: "Institutions" },
+        ]}
+      />
+      <main>
 
       <section className="city-header">
         <div className="wrap">
@@ -107,7 +120,7 @@ export default async function CityPage({
       </section>
 
       {!isThin && (
-        <section className="section">
+        <section id="numbers" className="section">
           <div className="wrap">
             <div
               className="data-tiles"
@@ -131,7 +144,7 @@ export default async function CityPage({
       )}
 
       {(enrollSpark.length >= 2 || completionSpark.length >= 2) && (
-        <section className="section section-tint">
+        <section id="shifts" className="section section-tint">
           <div className="wrap">
             <header className="sec-head">
               <div>
@@ -209,7 +222,7 @@ export default async function CityPage({
         </section>
       )}
 
-      <section className="section">
+      <section id="institutions" className="section">
         <div className="wrap">
           <header className="sec-head">
             <div>
@@ -225,6 +238,7 @@ export default async function CityPage({
         </div>
       </section>
 
+      </main>
       <SiteFooter vintageLabel={city.source.vintage} />
     </>
   );
