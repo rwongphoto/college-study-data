@@ -1,10 +1,8 @@
 import type { MetadataRoute } from "next";
 
 import { listCities, listInstitutions, listStates } from "@/lib/data";
+import { SITE_URL } from "@/lib/seo";
 import { stateSlug } from "@/lib/state";
-
-const SITE_URL =
-  process.env.SITE_URL ?? "https://collegedataanalyst.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
