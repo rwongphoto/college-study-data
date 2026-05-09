@@ -11,7 +11,6 @@ import { JumpStrip } from "@/components/site/JumpStrip";
 import { SiteFooter } from "@/components/site/SiteFooter";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import {
-  listProgramsWithEarnings,
   loadInstitution,
   loadProgram,
   loadRoiConstants,
@@ -26,20 +25,17 @@ import {
 } from "@/lib/format";
 import { buildProgramJsonLd } from "@/lib/programJsonLd";
 import { pageMeta, SITE_URL } from "@/lib/seo";
-import { stateAbbr, stateSlug } from "@/lib/state";
+import { stateAbbr } from "@/lib/state";
 
-// SSG over the ~41k programs with both 4-yr and 5-yr earnings — two
-// post-completion windows of federal salary data, the minimum density for
-// a defensible standalone page. Programs missing either window return 404
-// (dynamicParams = false).
-export const dynamicParams = false;
+// On-demand ISR: pre-rendering all ~41k program pages OOMs the Vercel
+// build container. Pages are generated on first request and cached for
+// 24h. SEO is unaffected — program URLs aren't listed in sitemap.xml.
+// The both-windows freshness check is enforced inside the component
+// (programs missing either earnings window return 404).
+export const revalidate = 86400;
 
 export function generateStaticParams() {
-  return listProgramsWithEarnings().map(({ state, institution, program }) => ({
-    state: stateSlug(state),
-    slug: institution,
-    program,
-  }));
+  return [];
 }
 
 export async function generateMetadata({
@@ -76,6 +72,9 @@ export default async function ProgramPage({
     instPayload = loadInstitution(abbr, slug);
     roiConstants = loadRoiConstants();
   } catch {
+    notFound();
+  }
+  if (p.earnings_median_4yr == null || p.earnings_median_5yr == null) {
     notFound();
   }
   const i = instPayload.institution;
