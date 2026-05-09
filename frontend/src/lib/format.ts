@@ -113,6 +113,17 @@ export function historyValues(points: HistoryPoint[] | undefined): number[] {
   return out.length >= 2 ? out : [];
 }
 
+// Same null-skipping rule as historyValues, returning the years aligned
+// with the value indices. Use when the caller needs to label endpoints.
+export function historyYears(points: HistoryPoint[] | undefined): number[] {
+  if (!points || points.length < 2) return [];
+  const out: number[] = [];
+  for (const p of points) {
+    if (p.value != null && !Number.isNaN(p.value)) out.push(p.year);
+  }
+  return out.length >= 2 ? out : [];
+}
+
 // First→last percent change from a HistoryPoint series, ignoring nulls.
 // Returns null when fewer than two non-null points exist or the first
 // value is zero (would divide-by-zero).

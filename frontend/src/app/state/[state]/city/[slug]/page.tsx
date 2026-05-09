@@ -19,6 +19,7 @@ import {
   fmtNumber,
   fmtPercent,
   historyValues,
+  historyYears,
 } from "@/lib/format";
 import { pageMeta, SITE_URL } from "@/lib/seo";
 import { stateAbbr, stateSlug } from "@/lib/state";
@@ -72,7 +73,9 @@ export default async function CityPage({
   const isThin = city.institution_count <= 1;
 
   const enrollSpark = historyValues(city.enrollment_history_city);
+  const enrollYears = historyYears(city.enrollment_history_city);
   const completionSpark = historyValues(city.completion_history_city);
+  const completionYears = historyYears(city.completion_history_city);
 
   const cityUrl = `${SITE_URL}/state/${state}/city/${slug}/`;
   const pageTitle = `${city.name} College Earnings | College Grad Analyst`;
@@ -248,7 +251,13 @@ export default async function CityPage({
                     </span>
                   </div>
                   <div className="fig-canvas">
-                    <TrendLine values={enrollSpark} color="#60A5FA" />
+                    <TrendLine
+                      values={enrollSpark}
+                      color="#60A5FA"
+                      startYear={enrollYears[0]}
+                      endYear={enrollYears[enrollYears.length - 1]}
+                      formatValue={fmtNumber}
+                    />
                   </div>
                   <div className="fig-foot">
                     <span>Undergraduate enrollment in-city.</span>
@@ -275,7 +284,13 @@ export default async function CityPage({
                     </span>
                   </div>
                   <div className="fig-canvas">
-                    <TrendLine values={completionSpark} color="#6FCF97" />
+                    <TrendLine
+                      values={completionSpark}
+                      color="#6FCF97"
+                      startYear={completionYears[0]}
+                      endYear={completionYears[completionYears.length - 1]}
+                      formatValue={(v) => `${(v * 100).toFixed(0)}%`}
+                    />
                   </div>
                   <div className="fig-foot">
                     <span>Median completion rate in-city.</span>

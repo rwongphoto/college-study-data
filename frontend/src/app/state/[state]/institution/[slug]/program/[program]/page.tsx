@@ -22,6 +22,7 @@ import {
   fmtCurrency,
   fmtNumber,
   historyValues,
+  historyYears,
 } from "@/lib/format";
 import { buildProgramJsonLd } from "@/lib/programJsonLd";
 import { pageMeta, SITE_URL } from "@/lib/seo";
@@ -113,9 +114,12 @@ export default async function ProgramPage({
       : `Statewide peers reporting · ${peers.length}`;
 
   const earn5Spark = historyValues(p.history.earnings_median_5yr);
+  const earn5Years = historyYears(p.history.earnings_median_5yr);
   const earn4Spark = historyValues(p.history.earnings_median_4yr);
   const debtSpark = historyValues(p.history.debt_median);
+  const debtYears = historyYears(p.history.debt_median);
   const completersSpark = historyValues(p.history.completers);
+  const completersYears = historyYears(p.history.completers);
 
   const dteRatio = debtToEarningsRatio(p.debt_median, p.earnings_median_5yr);
   const dteRatioPeerMedian = debtToEarningsRatio(
@@ -343,7 +347,13 @@ export default async function ProgramPage({
                     </span>
                   </div>
                   <div className="fig-canvas">
-                    <TrendLine values={earn5Spark} color="#6FCF97" />
+                    <TrendLine
+                      values={earn5Spark}
+                      color="#6FCF97"
+                      startYear={earn5Years[0]}
+                      endYear={earn5Years[earn5Years.length - 1]}
+                      formatValue={fmtCurrency}
+                    />
                   </div>
                   <div className="fig-foot">
                     <span>5-year post-completion earnings.</span>
@@ -366,7 +376,13 @@ export default async function ProgramPage({
                     </span>
                   </div>
                   <div className="fig-canvas">
-                    <TrendLine values={debtSpark} color="#E6B450" />
+                    <TrendLine
+                      values={debtSpark}
+                      color="#E6B450"
+                      startYear={debtYears[0]}
+                      endYear={debtYears[debtYears.length - 1]}
+                      formatValue={fmtCurrency}
+                    />
                   </div>
                   <div className="fig-foot">
                     <span>Median federal debt at program exit.</span>
@@ -389,7 +405,13 @@ export default async function ProgramPage({
                     </span>
                   </div>
                   <div className="fig-canvas">
-                    <TrendLine values={completersSpark} color="#60A5FA" />
+                    <TrendLine
+                      values={completersSpark}
+                      color="#60A5FA"
+                      startYear={completersYears[0]}
+                      endYear={completersYears[completersYears.length - 1]}
+                      formatValue={fmtNumber}
+                    />
                   </div>
                   <div className="fig-foot">
                     <span>Annual completers (IPEDS C).</span>

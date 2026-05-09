@@ -17,6 +17,7 @@ import {
   fmtNumber,
   fmtPercent,
   historyValues,
+  historyYears,
 } from "@/lib/format";
 import { pageMeta, SITE_URL } from "@/lib/seo";
 import { stateAbbr, stateSlug } from "@/lib/state";
@@ -69,7 +70,9 @@ export default async function StatePage({
 
   // History sparkline data (each is an array of values in chronological order).
   const enrollSpark = historyValues(data.enrollment_history_state);
+  const enrollYears = historyYears(data.enrollment_history_state);
   const completionSpark = historyValues(data.completion_history_state);
+  const completionYears = historyYears(data.completion_history_state);
   const tuitionSpark = historyValues(data.tuition_history_state);
 
   const histRange =
@@ -265,7 +268,13 @@ export default async function StatePage({
                     </span>
                   </div>
                   <div className="fig-canvas">
-                    <TrendLine values={enrollSpark} color="#60A5FA" />
+                    <TrendLine
+                      values={enrollSpark}
+                      color="#60A5FA"
+                      startYear={enrollYears[0]}
+                      endYear={enrollYears[enrollYears.length - 1]}
+                      formatValue={fmtNumber}
+                    />
                   </div>
                   <div className="fig-foot">
                     <span>
@@ -294,7 +303,13 @@ export default async function StatePage({
                     </span>
                   </div>
                   <div className="fig-canvas">
-                    <TrendLine values={completionSpark} color="#6FCF97" />
+                    <TrendLine
+                      values={completionSpark}
+                      color="#6FCF97"
+                      startYear={completionYears[0]}
+                      endYear={completionYears[completionYears.length - 1]}
+                      formatValue={(v) => `${(v * 100).toFixed(0)}%`}
+                    />
                   </div>
                   <div className="fig-foot">
                     <span>

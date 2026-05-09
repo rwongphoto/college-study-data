@@ -30,6 +30,7 @@ import {
   fmtPredDegree,
   historyDelta,
   historyValues,
+  historyYears,
 } from "@/lib/format";
 import { buildInstitutionJsonLd } from "@/lib/institutionJsonLd";
 import { pageMeta, SITE_URL } from "@/lib/seo";
@@ -110,8 +111,11 @@ export default async function InstitutionPage({
 
   // History sparkline data per metric.
   const enrollSpark = historyValues(i.history.enrollment_undergrad);
+  const enrollYears = historyYears(i.history.enrollment_undergrad);
   const completionSpark = historyValues(i.history.completion_rate_150);
+  const completionYears = historyYears(i.history.completion_rate_150);
   const debtSpark = historyValues(i.history.median_debt);
+  const debtYears = historyYears(i.history.median_debt);
   const tuitionInSpark = historyValues(i.history.tuition_in_state);
   const retentionSpark = historyValues(i.history.retention_rate);
   const admitSpark = historyValues(i.history.admission_rate);
@@ -522,7 +526,13 @@ export default async function InstitutionPage({
                     </span>
                   </div>
                   <div className="fig-canvas">
-                    <TrendLine values={enrollSpark} color="#60A5FA" />
+                    <TrendLine
+                      values={enrollSpark}
+                      color="#60A5FA"
+                      startYear={enrollYears[0]}
+                      endYear={enrollYears[enrollYears.length - 1]}
+                      formatValue={fmtNumber}
+                    />
                   </div>
                   <div className="fig-foot">
                     <span>Undergraduate enrollment.</span>
@@ -548,7 +558,13 @@ export default async function InstitutionPage({
                     </span>
                   </div>
                   <div className="fig-canvas">
-                    <TrendLine values={completionSpark} color="#6FCF97" />
+                    <TrendLine
+                      values={completionSpark}
+                      color="#6FCF97"
+                      startYear={completionYears[0]}
+                      endYear={completionYears[completionYears.length - 1]}
+                      formatValue={(v) => `${(v * 100).toFixed(0)}%`}
+                    />
                   </div>
                   <div className="fig-foot">
                     <span>150%-time completion rate.</span>
@@ -571,7 +587,13 @@ export default async function InstitutionPage({
                     </span>
                   </div>
                   <div className="fig-canvas">
-                    <TrendLine values={debtSpark} color="#E6B450" />
+                    <TrendLine
+                      values={debtSpark}
+                      color="#E6B450"
+                      startYear={debtYears[0]}
+                      endYear={debtYears[debtYears.length - 1]}
+                      formatValue={fmtCurrency}
+                    />
                   </div>
                   <div className="fig-foot">
                     <span>Median federal student debt at exit.</span>
