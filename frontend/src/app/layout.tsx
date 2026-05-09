@@ -5,7 +5,7 @@ import { BackToTop } from "@/components/site/BackToTop";
 import "./globals.css";
 
 const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.collegeoutcomeanalyst.com";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.collegegradanalyst.com";
 
 const SITE_DESCRIPTION =
   "College outcome intelligence built from federal public data — Treasury earnings, IPEDS, College Scorecard. Per-program and per-institution earnings, debt, and completion at every Title-IV school.";

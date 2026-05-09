@@ -1,5 +1,5 @@
 import { SITE_URL } from "./seo";
-import type { Institution } from "./types";
+import type { Institution, ProgramRow } from "./types";
 
 export interface InstitutionJsonLdInput {
   pageUrl: string;
@@ -7,12 +7,21 @@ export interface InstitutionJsonLdInput {
   stateSlug: string;
   institution: Institution;
   description: string;
+  programs?: ProgramRow[];
 }
 
 export function buildInstitutionJsonLd(input: InstitutionJsonLdInput) {
-  const { pageUrl, stateName, stateSlug, institution: i, description } = input;
+  const {
+    pageUrl,
+    stateName,
+    stateSlug,
+    institution: i,
+    description,
+    programs = [],
+  } = input;
   const stateUrl = `${SITE_URL}/state/${stateSlug}/`;
   const cityUrl = `${stateUrl}city/${i.city_slug}/`;
+  const collegeId = `${pageUrl}#institution`;
 
   const address: Record<string, string> = {
     "@type": "PostalAddress",
@@ -25,7 +34,7 @@ export function buildInstitutionJsonLd(input: InstitutionJsonLdInput) {
 
   const college: Record<string, unknown> = {
     "@type": "CollegeOrUniversity",
-    "@id": `${pageUrl}#institution`,
+    "@id": collegeId,
     name: i.name,
     url: pageUrl,
     address,
@@ -44,9 +53,34 @@ export function buildInstitutionJsonLd(input: InstitutionJsonLdInput) {
     };
   }
 
+  const courses = programs.map((p) => {
+    const courseName = `${p.cip_desc} - ${p.credential_desc}`;
+    return {
+      "@type": "Course",
+      name: courseName,
+      description: `Federal-data outcomes for the ${courseName} program at ${i.name}, including post-graduation earnings, debt, and completion.`,
+      url: `${pageUrl}program/${p.slug}/`,
+      provider: {
+        "@type": "CollegeOrUniversity",
+        name: i.name,
+        "@id": collegeId,
+        url: pageUrl,
+      },
+    };
+  });
+
   return {
     "@context": "https://schema.org",
     "@graph": [
+      {
+        "@type": "Organization",
+        "@id": `${SITE_URL}/`,
+        name: "College Grad Analyst",
+        url: `${SITE_URL}/`,
+        description:
+          "Federal earnings, debt, and completion data — surfaced per institution and per program.",
+        logo: { "@type": "ImageObject", url: `${SITE_URL}/icon.svg` },
+      },
       {
         "@type": "BreadcrumbList",
         itemListElement: [
@@ -64,7 +98,7 @@ export function buildInstitutionJsonLd(input: InstitutionJsonLdInput) {
         name: `${i.name} · ${i.city}, ${i.state.toUpperCase()}`,
         description,
         inLanguage: "en-US",
-        about: { "@id": `${pageUrl}#institution` },
+        about: { "@id": collegeId },
         isPartOf: {
           "@type": "WebSite",
           "@id": `${SITE_URL}/`,
@@ -72,10 +106,12 @@ export function buildInstitutionJsonLd(input: InstitutionJsonLdInput) {
         },
         publisher: {
           "@type": "Organization",
+          "@id": `${SITE_URL}/`,
           name: "College Grad Analyst",
           url: SITE_URL,
         },
       },
+      ...courses,
     ],
   };
 }

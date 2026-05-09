@@ -29,4 +29,4 @@ export function pageMeta(opts: {
 }
 
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.collegeoutcomeanalyst.com";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.collegegradanalyst.com";

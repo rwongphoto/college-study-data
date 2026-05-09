@@ -16,6 +16,24 @@ export function buildStateJsonLd(input: StateJsonLdInput) {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Article",
+        mainEntityOfPage: { "@type": "WebPage", "@id": pageUrl },
+        headline: `${stateName} Colleges`,
+        description,
+        image: { "@type": "ImageObject", url: `${SITE_URL}/icon.png` },
+        author: {
+          "@type": "Organization",
+          name: "College Grad Analyst",
+          url: SITE_URL,
+        },
+        publisher: {
+          "@type": "Organization",
+          name: "College Grad Analyst",
+          url: SITE_URL,
+          logo: { "@type": "ImageObject", url: `${SITE_URL}/icon.png` },
+        },
+      },
+      {
         "@type": "BreadcrumbList",
         itemListElement: [
           { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
@@ -35,6 +53,13 @@ export function buildStateJsonLd(input: StateJsonLdInput) {
           name: "College Grad Analyst",
           url: SITE_URL,
         },
+      },
+      {
+        "@type": "Place",
+        name: stateName,
+        containedInPlace: { "@type": "Country", name: "United States" },
+        url: pageUrl,
+        description,
       },
       {
         "@type": "Dataset",

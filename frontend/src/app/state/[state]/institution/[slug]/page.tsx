@@ -220,6 +220,7 @@ export default async function InstitutionPage({
     stateSlug: state,
     institution: i,
     description: jsonLdDescription,
+    programs: payload.programs,
   });
 
   return (

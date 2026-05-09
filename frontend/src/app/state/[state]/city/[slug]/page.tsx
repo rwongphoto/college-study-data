@@ -45,7 +45,7 @@ export async function generateMetadata({
   try {
     const c = loadCity(abbr, slug);
     return pageMeta({
-      title: `${c.name} Colleges | College Analyst`,
+      title: `${c.name} College Earnings | College Grad Analyst`,
       description: `Federal-data view of ${c.institution_count} colleges in ${c.name}, ${abbr.toUpperCase()}.`,
       path: `/state/${state}/city/${slug}/`,
     });
