@@ -9,8 +9,6 @@ import { JumpStrip } from "@/components/site/JumpStrip";
 import { SiteFooter } from "@/components/site/SiteFooter";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import {
-  listCities,
-  listStates,
   loadCity,
   loadState,
 } from "@/lib/data";
@@ -22,18 +20,15 @@ import {
   historyYears,
 } from "@/lib/format";
 import { pageMeta, SITE_URL } from "@/lib/seo";
-import { stateAbbr, stateSlug } from "@/lib/state";
+import { stateAbbr } from "@/lib/state";
 
+// On-demand ISR: pre-rendering all ~2.4k city pages contributes to build
+// OOM. Pages generate on first request and cache for 24h. Sitemap still
+// lists every city URL so crawlers find them.
 export const revalidate = 86400;
 
 export function generateStaticParams() {
-  const out: Array<{ state: string; slug: string }> = [];
-  for (const abbr of listStates()) {
-    for (const slug of listCities(abbr)) {
-      out.push({ state: stateSlug(abbr), slug });
-    }
-  }
-  return out;
+  return [];
 }
 
 export async function generateMetadata({
