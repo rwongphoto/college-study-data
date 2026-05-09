@@ -52,3 +52,20 @@ const instCount = Object.values(institutions).reduce((n, x) => n + x.length, 0);
 console.log(
   `prebuild: ${states.length} states, ${cityCount} cities, ${instCount} institutions`,
 );
+
+// On Vercel/CI: delete the big trees from the build workspace AFTER reading
+// them for the manifest. Next.js's file tracer keeps finding them and bundling
+// them into every function (~376 MB → busts the 300 MB cap), even with all
+// the public/ symlinks gone. Git on GitHub still has them so jsDelivr keeps
+// serving. Guarded so local builds don't nuke your data.
+if (process.env.VERCEL || process.env.CI) {
+  for (const sub of ["program", "institution", "city"]) {
+    const target = join(PUBLISHED, sub);
+    if (existsSync(target)) {
+      rmSync(target, { recursive: true, force: true });
+    }
+  }
+  console.log(
+    "prebuild: removed program/institution/city from build workspace (served via jsDelivr)",
+  );
+}
