@@ -1,5 +1,14 @@
-// Server-only loaders. Each page imports just what it needs.
-import { readFileSync, existsSync, readdirSync } from "node:fs";
+// Server-only loaders.
+//
+// Two strategies:
+//   - Small artifacts (home/rankings/state/methodology/roi_constants/manifest)
+//     are read from disk via outputFileTracingIncludes — they're tiny enough
+//     to bundle into every serverless function.
+//   - Large trees (program/, institution/, city/) are served as static CDN
+//     assets from frontend/public/data/ (symlinked in by scripts/prebuild.mjs)
+//     and fetched at request time. Keeps function bundles under Vercel's
+//     300 MB cap.
+import { readFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 
 import type {
@@ -15,9 +24,24 @@ import type {
 const PUBLISHED_DIR = resolve(process.cwd(), "..", "data", "published");
 
 function readJSON<T>(path: string): T {
-  const raw = readFileSync(path, "utf-8");
-  return JSON.parse(raw) as T;
+  return JSON.parse(readFileSync(path, "utf-8")) as T;
 }
+
+function originForFetch(): string {
+  if (process.env.VERCEL_URL) return `https://${process.env.VERCEL_URL}`;
+  return process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+}
+
+async function fetchJSON<T>(path: string): Promise<T> {
+  const url = `${originForFetch()}${path}`;
+  const res = await fetch(url, { next: { revalidate: 86400 } });
+  if (!res.ok) {
+    throw new Error(`fetchJSON ${url} → ${res.status}`);
+  }
+  return (await res.json()) as T;
+}
+
+// ---- Small files: bundled into the function (fs reads) ----
 
 export function loadHome(): HomePayload {
   return readJSON<HomePayload>(join(PUBLISHED_DIR, "home.json"));
@@ -45,89 +69,54 @@ export function loadState(state: string): StateAgg {
   );
 }
 
-export function listStates(): string[] {
-  const dir = join(PUBLISHED_DIR, "state");
-  if (!existsSync(dir)) return [];
-  return readdirSync(dir)
-    .filter((n) => n.endsWith(".json"))
-    .map((n) => n.replace(/\.json$/, ""));
+// ---- Manifest: directory listings, used by sitemap ----
+
+type Manifest = {
+  states: string[];
+  cities: Record<string, string[]>;
+  institutions: Record<string, string[]>;
+};
+
+let manifestCache: Manifest | null = null;
+function loadManifest(): Manifest {
+  if (manifestCache) return manifestCache;
+  manifestCache = readJSON<Manifest>(join(PUBLISHED_DIR, "_manifest.json"));
+  return manifestCache;
 }
 
-export function loadCity(state: string, slug: string): CityAgg {
-  return readJSON<CityAgg>(
-    join(PUBLISHED_DIR, "city", state.toLowerCase(), `${slug}.json`),
-  );
+export function listStates(): string[] {
+  return loadManifest().states;
 }
 
 export function listCities(state: string): string[] {
-  const dir = join(PUBLISHED_DIR, "city", state.toLowerCase());
-  if (!existsSync(dir)) return [];
-  return readdirSync(dir)
-    .filter((n) => n.endsWith(".json"))
-    .map((n) => n.replace(/\.json$/, ""));
-}
-
-export function loadInstitution(state: string, slug: string): InstitutionPayload {
-  return readJSON<InstitutionPayload>(
-    join(PUBLISHED_DIR, "institution", state.toLowerCase(), `${slug}.json`),
-  );
+  return loadManifest().cities[state.toLowerCase()] ?? [];
 }
 
 export function listInstitutions(state: string): string[] {
-  const dir = join(PUBLISHED_DIR, "institution", state.toLowerCase());
-  if (!existsSync(dir)) return [];
-  return readdirSync(dir)
-    .filter((n) => n.endsWith(".json"))
-    .map((n) => n.replace(/\.json$/, ""));
+  return loadManifest().institutions[state.toLowerCase()] ?? [];
+}
+
+// ---- Big files: served as CDN assets, fetched at request time ----
+
+export function loadCity(state: string, slug: string): Promise<CityAgg> {
+  return fetchJSON<CityAgg>(`/data/city/${state.toLowerCase()}/${slug}.json`);
+}
+
+export function loadInstitution(
+  state: string,
+  slug: string,
+): Promise<InstitutionPayload> {
+  return fetchJSON<InstitutionPayload>(
+    `/data/institution/${state.toLowerCase()}/${slug}.json`,
+  );
 }
 
 export function loadProgram(
   state: string,
   institutionSlug: string,
   programSlug: string,
-): ProgramPayload {
-  return readJSON<ProgramPayload>(
-    join(
-      PUBLISHED_DIR,
-      "program",
-      state.toLowerCase(),
-      institutionSlug,
-      `${programSlug}.json`,
-    ),
+): Promise<ProgramPayload> {
+  return fetchJSON<ProgramPayload>(
+    `/data/program/${state.toLowerCase()}/${institutionSlug}/${programSlug}.json`,
   );
 }
-
-export function listPrograms(
-  state: string,
-  institutionSlug: string,
-): string[] {
-  const dir = join(
-    PUBLISHED_DIR,
-    "program",
-    state.toLowerCase(),
-    institutionSlug,
-  );
-  if (!existsSync(dir)) return [];
-  return readdirSync(dir)
-    .filter((n) => n.endsWith(".json"))
-    .map((n) => n.replace(/\.json$/, ""));
-}
-
-export function listAllPrograms(state: string): Array<{
-  institution: string;
-  program: string;
-}> {
-  const root = join(PUBLISHED_DIR, "program", state.toLowerCase());
-  if (!existsSync(root)) return [];
-  const out: Array<{ institution: string; program: string }> = [];
-  for (const inst of readdirSync(root)) {
-    const dir = join(root, inst);
-    for (const prog of readdirSync(dir)) {
-      if (prog.endsWith(".json")) {
-        out.push({ institution: inst, program: prog.replace(/\.json$/, "") });
-      }
-    }
-  }
-  return out;
-}
-

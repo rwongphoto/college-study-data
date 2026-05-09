@@ -5,8 +5,18 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   images: { unoptimized: true },
   outputFileTracingRoot: path.join(__dirname, ".."),
+  // Bundle only the small artifacts. The big trees (program/, institution/,
+  // city/) are served as static CDN assets from public/data — see
+  // scripts/prebuild.mjs and src/lib/data.ts.
   outputFileTracingIncludes: {
-    "/**": ["../data/published/**"],
+    "/**": [
+      "../data/published/home.json",
+      "../data/published/rankings.json",
+      "../data/published/methodology.json",
+      "../data/published/roi_constants.json",
+      "../data/published/_manifest.json",
+      "../data/published/state/**",
+    ],
   },
   turbopack: {
     // src/lib/data.ts reads per-page JSON artifacts from ../data/published.

@@ -45,7 +45,7 @@ export async function generateMetadata({
 }) {
   const { state, slug, program } = await params;
   try {
-    const p = loadProgram(stateAbbr(state), slug, program);
+    const p = await loadProgram(stateAbbr(state), slug, program);
     const cip = p.cip_desc.replace(/\.$/, "");
     const inst = p.institution_name.replace(/\.$/, "");
     return pageMeta({
@@ -67,9 +67,9 @@ export default async function ProgramPage({
   const abbr = stateAbbr(state);
   let p, stateAgg, instPayload, roiConstants;
   try {
-    p = loadProgram(abbr, slug, program);
+    p = await loadProgram(abbr, slug, program);
     stateAgg = loadState(abbr);
-    instPayload = loadInstitution(abbr, slug);
+    instPayload = await loadInstitution(abbr, slug);
     roiConstants = loadRoiConstants();
   } catch {
     notFound();

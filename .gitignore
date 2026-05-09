@@ -22,6 +22,11 @@ frontend/.next/
 frontend/out/
 frontend/.turbo/
 frontend/*.tsbuildinfo
+# Symlinks created by scripts/prebuild.mjs to expose published JSON as CDN assets
+frontend/public/data/
+
+# Build-time manifest of state/city/institution slugs (regenerated each build)
+data/published/_manifest.json
 
 # Raw data caches — large, regenerate via pipeline
 data/raw/

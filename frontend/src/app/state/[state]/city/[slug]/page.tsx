@@ -39,7 +39,7 @@ export async function generateMetadata({
   const { state, slug } = await params;
   const abbr = stateAbbr(state);
   try {
-    const c = loadCity(abbr, slug);
+    const c = await loadCity(abbr, slug);
     return pageMeta({
       title: `${c.name} College Earnings | College Grad Analyst`,
       description: `Federal-data view of ${c.institution_count} colleges in ${c.name}, ${abbr.toUpperCase()}.`,
@@ -59,7 +59,7 @@ export default async function CityPage({
   const abbr = stateAbbr(state);
   let city, stateAgg;
   try {
-    city = loadCity(abbr, slug);
+    city = await loadCity(abbr, slug);
     stateAgg = loadState(abbr);
   } catch {
     notFound();

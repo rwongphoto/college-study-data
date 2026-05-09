@@ -54,7 +54,7 @@ export async function generateMetadata({
 }) {
   const { state, slug } = await params;
   try {
-    const p = loadInstitution(stateAbbr(state), slug);
+    const p = await loadInstitution(stateAbbr(state), slug);
     const i = p.institution;
     const desc = i.earnings_median_10yr
       ? `Federal-data outcomes for ${i.name}: median earnings 10 yr post-entry ${fmtCurrency(i.earnings_median_10yr)}, completion ${fmtPercent(i.completion_rate_150)}, ${p.program_count} programs covered.`
@@ -78,7 +78,7 @@ export default async function InstitutionPage({
   const abbr = stateAbbr(state);
   let payload, stateAgg, roiConstants;
   try {
-    payload = loadInstitution(abbr, slug);
+    payload = await loadInstitution(abbr, slug);
     stateAgg = loadState(abbr);
     roiConstants = loadRoiConstants();
   } catch {
