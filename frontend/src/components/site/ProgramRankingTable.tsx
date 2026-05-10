@@ -55,13 +55,11 @@ export function ProgramRankingTable({
     >
       <div className="wrap">
         <div style={{ marginBottom: 24 }}>
-          <div className="eyebrow">
-            {isMost ? "Top 10 highest" : "Top 10 lowest"}
-          </div>
           <Heading
             className="h-display"
-            style={{ fontSize: headingFontSize, margin: "8px 0 0" }}
+            style={{ fontSize: headingFontSize, margin: 0 }}
           >
+            {isMost ? "Top 10 Highest " : "Top 10 Lowest "}
             {headingPrefix ? <span>{headingPrefix}</span> : null}
             {displayLabel} <span className="muted">({table.units})</span>
             {tooltip ? (

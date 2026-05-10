@@ -151,13 +151,11 @@ function InstitutionRankingSection({ table }: { table: RankingTable }) {
     >
       <div className="wrap">
         <div style={{ marginBottom: 24 }}>
-          <div className="eyebrow">
-            {isMost ? "Top 10 highest" : "Top 10 lowest"}
-          </div>
           <h2
             className="h-display"
-            style={{ fontSize: "clamp(24px,2.6vw,34px)", margin: "8px 0 0" }}
+            style={{ fontSize: "clamp(24px,2.6vw,34px)", margin: 0 }}
           >
+            {isMost ? "Top 10 Highest " : "Top 10 Lowest "}
             {displayLabel} <span className="muted">({table.units})</span>
             {tooltip ? (
               <InfoTip
