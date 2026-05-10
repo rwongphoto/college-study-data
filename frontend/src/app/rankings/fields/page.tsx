@@ -18,8 +18,7 @@ const FIELD_TABLE_CAPTIONS: Record<string, string> = {
 };
 
 export const metadata: Metadata = pageMeta({
-  title:
-    "Rankings by Field of Study — Engineering, Business, Health | College Grad Analyst",
+  title: "College Rankings by Field of Study | College Grad Analyst",
   description:
     "Programs ranked within each field of study (CIP-2 family) — Engineering, Business, Health, Computer Science, and more — using federal earnings and debt data.",
   path: "/rankings/fields",
@@ -36,7 +35,9 @@ function bucketSlug(code: string, label: string): string {
 export default async function RankingsFieldsPage() {
   const data = loadRankings();
   const home = loadHome();
-  const buckets = data.by_field?.buckets ?? [];
+  const buckets = [...(data.by_field?.buckets ?? [])].sort((a, b) =>
+    a.label.localeCompare(b.label),
+  );
 
   const allTables = buckets.flatMap((b) => b.tables);
   const pageUrl = `${SITE_URL}/rankings/fields`;
@@ -85,15 +86,14 @@ export default async function RankingsFieldsPage() {
             Programs sliced by NCES CIP-2 family — the broad academic field
             (Engineering, Business, Health, etc.). Each section ranks the
             highest-earning and lowest-debt programs within its family across
-            credential levels. Sections are ordered by national completer
-            volume; only the top {buckets.length} families render here. Tables
-            exclude programs at institutions with fewer than{" "}
-            <strong>1,000 undergrads</strong>.
+            credential levels. {buckets.length} families render here, listed
+            alphabetically. Tables exclude programs at institutions with fewer
+            than <strong>1,000 undergrads</strong>.
           </p>
         </div>
       </section>
 
-      <JumpStrip items={jumpItems} />
+      <JumpStrip items={jumpItems} variant="block" />
 
       {buckets.map((bucket, idx) => (
         <FieldBucketSection
