@@ -3,7 +3,7 @@
 
 export default function Sparkline({
   values,
-  color = "#E6B450",
+  color = "var(--amber)",
   height = 24,
   width = 120,
 }: {

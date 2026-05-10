@@ -53,6 +53,19 @@
   --dur-std:  200ms;
   --ease-std: cubic-bezier(0.4, 0, 0.2, 1);
 
+  /* Glass / overlay surfaces (semi-transparent, theme-reactive) */
+  --header-bg:        rgba(14,17,22,0.88);
+  --jump-strip-bg:    rgba(20,24,33,0.92);
+  --overlay-bg:       rgba(14,17,22,0.92);
+  --overlay-bg-strong:rgba(14,17,22,0.98);
+  --overlay-bg-soft:  rgba(14,17,22,0.7);
+
+  /* Shadows (deeper on dark, softer on light) */
+  --shadow-md:   0 8px 24px rgba(0,0,0,0.45);
+  --shadow-lg:   0 12px 32px rgba(0,0,0,0.5);
+  --shadow-mega: 0 8px 24px rgba(0,0,0,0.5);
+  --shadow-soft: 0 12px 32px rgba(0,0,0,0.4);
+
   /* Legacy aliases — keep older inline styles in JSX resolving */
   --paper: var(--bg);
   --paper-2: var(--bg-2);
@@ -77,6 +90,67 @@
   --font-display: var(--font-body);
   --tracking-eyebrow: 0.14em;
 }
+
+/* =========================================================
+   Light theme — opt-in via `data-theme="light"` on <html>.
+   Toggled by next-themes (see ThemeProvider). System preference
+   is respected on first visit; user choice persists in
+   localStorage thereafter.
+   ========================================================= */
+[data-theme="light"] {
+  /* Canvas — warm-cool off-white, not pure white. Pure #FFF
+     is harsh under data tables; a slight cool tint matches the
+     dark theme's blue-grey character. */
+  --bg:           #FBFCFD;
+  --bg-2:         #F4F6F9;
+  --bg-3:         #ECEFF4;
+  --bg-4:         #DEE3EC;
+  --line:         #DDE2EA;
+  --line-2:       #C1C8D4;
+  --line-strong:  #99A2B2;
+
+  /* Text — deep ink for table legibility */
+  --fg:           #0E1116;
+  --fg-2:         #2D3343;
+  --fg-3:         #5C6478;
+  --fg-4:         #7A8294;
+  --fg-5:         #98A0B0;
+
+  /* Accents — darkened so contrast against white passes WCAG AA.
+     Original dark-theme hues fail badly on light backgrounds:
+     #6FCF97 = 2.0:1, #E6B450 = 2.4:1, both unreadable. */
+  --blue:         #2563EB;
+  --blue-2:       #1D4ED8;
+  --blue-wash:    rgba(37,99,235,0.10);
+  --cyan:         #0E7490;
+
+  --green:        #2F8D5A;
+  --green-2:      #237049;
+  --green-wash:   rgba(47,141,90,0.10);
+  --amber:        #B07A0A;
+  --amber-2:      #8A5F08;
+  --amber-wash:   rgba(176,122,10,0.10);
+  --red:          #C44545;
+  --red-2:        #A82F2F;
+  --red-wash:     rgba(196,69,69,0.08);
+
+  /* Glass / overlay surfaces — light-tinted with same alphas */
+  --header-bg:        rgba(251,252,253,0.88);
+  --jump-strip-bg:    rgba(244,246,249,0.92);
+  --overlay-bg:       rgba(251,252,253,0.92);
+  --overlay-bg-strong:rgba(251,252,253,0.98);
+  --overlay-bg-soft:  rgba(251,252,253,0.78);
+
+  /* Shadows — much softer, ink-tinted instead of pure black */
+  --shadow-md:   0 4px 12px rgba(15,20,30,0.08);
+  --shadow-lg:   0 8px 24px rgba(15,20,30,0.10);
+  --shadow-mega: 0 8px 24px rgba(15,20,30,0.10);
+  --shadow-soft: 0 4px 16px rgba(15,20,30,0.06);
+}
+
+/* Honor color-scheme so native form controls and scrollbars match */
+:root { color-scheme: dark; }
+[data-theme="light"] { color-scheme: light; }
 
 /* ---------- base ---------- */
 * { box-sizing: border-box; }
@@ -113,7 +187,7 @@ hr, .rule { border: 0; border-top: 1px solid var(--line); margin: 32px 0; }
 .num-mono { font-family: var(--font-mono); font-size: 13px; }
 
 /* ---------- jump-strip (sticky in-page section nav) ---------- */
-.jump-strip { position: sticky; top: 56px; z-index: 25; background: rgba(20,24,33,0.92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); padding: 8px 0; font-family: var(--font-mono); font-size: 12px; }
+.jump-strip { position: sticky; top: 56px; z-index: 25; background: var(--jump-strip-bg); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); padding: 8px 0; font-family: var(--font-mono); font-size: 12px; }
 .jump-strip .wrap { display: flex; align-items: center; gap: 14px; overflow-x: auto; scrollbar-width: thin; }
 .jump-strip-label { color: var(--fg-4); text-transform: uppercase; letter-spacing: 0.08em; flex-shrink: 0; font-size: 10.5px; }
 .jump-strip ul { list-style: none; padding: 0; margin: 0; display: flex; gap: 16px; flex-wrap: nowrap; }
@@ -122,7 +196,7 @@ hr, .rule { border: 0; border-top: 1px solid var(--line); margin: 32px 0; }
 .jump-strip a:hover { color: var(--fg); border-bottom-color: var(--line-strong); }
 
 /* ---------- header ---------- */
-.site-header { position: sticky; top: 0; z-index: 30; background: rgba(14,17,22,0.88); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+.site-header { position: sticky; top: 0; z-index: 30; background: var(--header-bg); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
 .site-header .row { display: flex; align-items: center; justify-content: space-between; padding: 12px 0; }
 .brand { display: inline-flex; align-items: center; gap: 8px; font-family: var(--font-body); font-weight: 600; font-size: 14px; letter-spacing: 0; color: var(--fg); text-decoration: none; }
 .brand em { font-style: normal; font-family: var(--font-mono); font-weight: 500; color: var(--blue); margin-left: 2px; }
@@ -150,7 +224,7 @@ hr, .rule { border: 0; border-top: 1px solid var(--line); margin: 32px 0; }
    element, mouseleave fires on .nav-item, and the menu closes mid-traverse.
    Visual separation lives in the submenu's own padding instead, so the
    breathing room is inside its hit-target. */
-.site-nav .submenu { position: absolute; top: 100%; left: 0; min-width: 260px; background: var(--bg-2); border: 1px solid var(--line); border-radius: var(--r-3); padding: 6px; display: none; z-index: 40; box-shadow: 0 8px 24px rgba(0,0,0,0.5); }
+.site-nav .submenu { position: absolute; top: 100%; left: 0; min-width: 260px; background: var(--bg-2); border: 1px solid var(--line); border-radius: var(--r-3); padding: 6px; display: none; z-index: 40; box-shadow: var(--shadow-mega); }
 .site-nav .nav-item.open .submenu { display: block; }
 @media (hover: hover) {
   .site-nav .nav-item:hover .submenu { display: block; }
@@ -178,6 +252,11 @@ hr, .rule { border: 0; border-top: 1px solid var(--line); margin: 32px 0; }
 .header-actions { display: flex; align-items: center; gap: 10px; }
 .nav-toggle { display: none; width: 40px; height: 40px; align-items: center; justify-content: center; background: transparent; border: 1px solid var(--line); border-radius: var(--r-2); color: var(--fg); cursor: pointer; padding: 0; }
 .nav-toggle:hover { background: var(--bg-3); }
+
+.theme-toggle { display: inline-flex; width: 36px; height: 36px; align-items: center; justify-content: center; background: transparent; border: 1px solid var(--line); border-radius: var(--r-2); color: var(--fg-3); cursor: pointer; padding: 0; transition: color var(--dur-fast) var(--ease-std), background var(--dur-fast) var(--ease-std), border-color var(--dur-fast) var(--ease-std); }
+.theme-toggle:hover { color: var(--fg); background: var(--bg-3); border-color: var(--line-2); }
+.theme-toggle:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+.theme-toggle-icon { display: inline-flex; }
 .nav-toggle-bars { position: relative; display: inline-block; width: 18px; height: 12px; }
 .nav-toggle-bars span { position: absolute; left: 0; right: 0; height: 1.5px; background: currentColor; border-radius: 1px; transition: transform var(--dur-fast) var(--ease-std), opacity var(--dur-fast) var(--ease-std), top var(--dur-fast) var(--ease-std); }
 .nav-toggle-bars span:nth-child(1) { top: 0; }
@@ -225,7 +304,7 @@ hr, .rule { border: 0; border-top: 1px solid var(--line); margin: 32px 0; }
   position: absolute; top: calc(100% + 6px); right: 0;
   width: min(420px, calc(100vw - 32px));
   background: var(--bg-2); border: 1px solid var(--line);
-  border-radius: var(--r-3); box-shadow: 0 12px 32px rgba(0,0,0,0.5);
+  border-radius: var(--r-3); box-shadow: var(--shadow-lg);
   z-index: 50;
   display: flex; flex-direction: column;
   overflow: hidden;
@@ -234,7 +313,7 @@ hr, .rule { border: 0; border-top: 1px solid var(--line); margin: 32px 0; }
   display: flex; flex-direction: column;
   width: 100%; max-width: 720px; margin: 60px auto 0;
   background: var(--bg-2); border: 1px solid var(--line);
-  border-radius: var(--r-3); box-shadow: 0 12px 32px rgba(0,0,0,0.5);
+  border-radius: var(--r-3); box-shadow: var(--shadow-lg);
   overflow: hidden;
 }
 .site-search-overlay {
@@ -598,7 +677,7 @@ hr, .rule { border: 0; border-top: 1px solid var(--line); margin: 32px 0; }
   font-size: 12px;
   line-height: 1.5;
   white-space: normal;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+  box-shadow: var(--shadow-md);
   opacity: 0;
   visibility: hidden;
   transform: translateY(2px);
@@ -660,7 +739,7 @@ hr, .rule { border: 0; border-top: 1px solid var(--line); margin: 32px 0; }
   font-size: 12px;
   line-height: 1.5;
   white-space: normal;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+  box-shadow: var(--shadow-md);
   opacity: 0;
   visibility: hidden;
   transition: opacity var(--dur-fast) var(--ease-std), transform var(--dur-fast) var(--ease-std), visibility 0s linear var(--dur-fast);
@@ -826,9 +905,9 @@ hr, .rule { border: 0; border-top: 1px solid var(--line); margin: 32px 0; }
     position: absolute; top: 100%; left: 0; right: 0;
     flex-direction: column; align-items: stretch; gap: 4px;
     padding: 8px 16px 16px;
-    background: rgba(14,17,22,0.98);
+    background: var(--overlay-bg-strong);
     border-bottom: 1px solid var(--line);
-    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+    box-shadow: var(--shadow-mega);
     max-height: calc(100vh - 64px); overflow-y: auto;
   }
   .site-header.mobile-open .site-nav { display: flex; }
@@ -885,7 +964,7 @@ hr, .rule { border: 0; border-top: 1px solid var(--line); margin: 32px 0; }
 
 .archive-filters {
   position: sticky; top: 60px; z-index: 20;
-  background: rgba(14,17,22,0.92); backdrop-filter: blur(8px);
+  background: var(--overlay-bg); backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--line);
   padding: 14px 0;
 }
@@ -1592,7 +1671,7 @@ hr, .rule { border: 0; border-top: 1px solid var(--line); margin: 32px 0; }
   position: absolute;
   top: 12px;
   left: 12px;
-  background: rgba(14,17,22,0.92);
+  background: var(--overlay-bg);
   border: 1px solid var(--line);
   border-radius: var(--r-2);
   padding: 8px 12px;
@@ -1609,7 +1688,7 @@ hr, .rule { border: 0; border-top: 1px solid var(--line); margin: 32px 0; }
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(14,17,22,0.7);
+  background: var(--overlay-bg-soft);
   pointer-events: none;
 }
 .map-legend {
@@ -1659,7 +1738,7 @@ hr, .rule { border: 0; border-top: 1px solid var(--line); margin: 32px 0; }
 .mapboxgl-popup-tip { border-top-color: var(--bg-2) !important; }
 .mapboxgl-popup-close-button { color: var(--fg-3) !important; padding: 4px 8px !important; }
 .mapboxgl-ctrl-attrib {
-  background: rgba(14,17,22,0.7) !important;
+  background: var(--overlay-bg-soft) !important;
   color: var(--fg-3) !important;
 }
 .mapboxgl-ctrl-attrib a { color: var(--fg-2) !important; }
@@ -1827,7 +1906,7 @@ hr, .rule { border: 0; border-top: 1px solid var(--line); margin: 32px 0; }
   position: absolute; top: calc(100% + 4px); left: 0;
   background: var(--bg-2); border: 1px solid var(--line);
   border-radius: var(--r-3); min-width: 280px;
-  box-shadow: 0 12px 32px rgba(0,0,0,0.4);
+  box-shadow: var(--shadow-soft);
   display: none; padding: 6px;
   z-index: 50;
 }

@@ -43,7 +43,7 @@ export default function EarningsHorizon({
       style={{ width: "100%", height: "auto", display: "block" }}
       aria-hidden="true"
     >
-      <g stroke="#2A3142" strokeWidth="1">
+      <g stroke="var(--line)" strokeWidth="1">
         {yTicks.map((t, i) => (
           <line
             key={i}
@@ -55,18 +55,18 @@ export default function EarningsHorizon({
           />
         ))}
       </g>
-      <line x1={padL} x2={padL} y1={padT} y2={H - padB} stroke="#3A4257" />
+      <line x1={padL} x2={padL} y1={padT} y2={H - padB} stroke="var(--line-2)" />
       <line
         x1={padL}
         x2={W - padR}
         y1={H - padB}
         y2={H - padB}
-        stroke="#3A4257"
+        stroke="var(--line-2)"
       />
       <polyline
         points={valid.map((p, i) => `${sx(i)},${sy(p.value)}`).join(" ")}
         fill="none"
-        stroke="#E6B450"
+        stroke="var(--amber)"
         strokeWidth="2.5"
       />
       {valid.map((p, i) => (
@@ -75,8 +75,8 @@ export default function EarningsHorizon({
             cx={sx(i)}
             cy={sy(p.value)}
             r="4"
-            fill="#0E1116"
-            stroke="#E6B450"
+            fill="var(--bg)"
+            stroke="var(--amber)"
             strokeWidth="2"
           />
           <text
@@ -86,7 +86,7 @@ export default function EarningsHorizon({
             fontFamily="Inter, sans-serif"
             fontSize="12"
             fontWeight="600"
-            fill="#E8ECF2"
+            fill="var(--fg)"
           >
             ${(p.value / 1000).toFixed(0)}k
           </text>
@@ -95,7 +95,7 @@ export default function EarningsHorizon({
       <g
         fontFamily="JetBrains Mono, monospace"
         fontSize="11"
-        fill="#8A93A6"
+        fill="var(--fg-3)"
       >
         {valid.map((p, i) => (
           <text key={i} x={sx(i)} y={H - padB + 18} textAnchor="middle">
@@ -106,7 +106,7 @@ export default function EarningsHorizon({
       <g
         fontFamily="JetBrains Mono, monospace"
         fontSize="10"
-        fill="#8A93A6"
+        fill="var(--fg-3)"
       >
         {yTicks.map((t, i) => (
           <text key={i} x={padL - 8} y={sy(t) + 3} textAnchor="end">

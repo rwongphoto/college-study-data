@@ -80,10 +80,10 @@ export default function LongArcCards({
                 style={{
                   color:
                     tone === "warn"
-                      ? "#FF6B6B"
+                      ? "var(--red)"
                       : tone === "good"
-                        ? "#6FCF97"
-                        : "#E6B450",
+                        ? "var(--green)"
+                        : "var(--amber)",
                 }}
               >
                 {headlineSign}

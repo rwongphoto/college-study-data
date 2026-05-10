@@ -200,7 +200,7 @@ export default async function CityPage({
                 value={fmtPercent(city.completion_rate_city)}
                 note={`Across in-city institutions · ${stateAgg.name} median ${fmtPercent(stateAgg.completion_rate_state)}`}
                 spark={completionSpark}
-                sparkColor="#6FCF97"
+                sparkColor="var(--green)"
               />
             </div>
           </div>
@@ -248,7 +248,7 @@ export default async function CityPage({
                   <div className="fig-canvas">
                     <TrendLine
                       values={enrollSpark}
-                      color="#60A5FA"
+                      color="var(--blue-2)"
                       startYear={enrollYears[0]}
                       endYear={enrollYears[enrollYears.length - 1]}
                       formatValue={fmtNumber}
@@ -281,7 +281,7 @@ export default async function CityPage({
                   <div className="fig-canvas">
                     <TrendLine
                       values={completionSpark}
-                      color="#6FCF97"
+                      color="var(--green)"
                       startYear={completionYears[0]}
                       endYear={completionYears[completionYears.length - 1]}
                       formatValue={(v) => `${(v * 100).toFixed(0)}%`}

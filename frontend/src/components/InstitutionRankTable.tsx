@@ -86,7 +86,9 @@ function heat(
 ): string | undefined {
   if (v == null || med == null) return undefined;
   const above = invert ? v < med : v > med;
-  return above ? "rgba(111,207,151,0.18)" : "rgba(196,69,69,0.12)";
+  return above
+    ? "color-mix(in srgb, var(--green) 18%, transparent)"
+    : "color-mix(in srgb, var(--red-2) 14%, transparent)";
 }
 
 export default function InstitutionRankTable({

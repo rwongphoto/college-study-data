@@ -200,7 +200,7 @@ export default async function StatePage({
               value={fmtPercent(data.completion_rate_state)}
               note="median across institutions"
               spark={completionSpark}
-              sparkColor="#6FCF97"
+              sparkColor="var(--green)"
             />
             <DataTile
               label="Undergrad enrollment"
@@ -211,7 +211,7 @@ export default async function StatePage({
               )}
               note="latest historical vintage"
               spark={enrollSpark}
-              sparkColor="#60A5FA"
+              sparkColor="var(--blue-2)"
             />
             <DataTile
               label="In-state tuition"
@@ -222,7 +222,7 @@ export default async function StatePage({
               )}
               note="median across institutions"
               spark={tuitionSpark}
-              sparkColor="#E6B450"
+              sparkColor="var(--amber)"
             />
           </div>
         </div>
@@ -270,7 +270,7 @@ export default async function StatePage({
                   <div className="fig-canvas">
                     <TrendLine
                       values={enrollSpark}
-                      color="#60A5FA"
+                      color="var(--blue-2)"
                       startYear={enrollYears[0]}
                       endYear={enrollYears[enrollYears.length - 1]}
                       formatValue={fmtNumber}
@@ -305,7 +305,7 @@ export default async function StatePage({
                   <div className="fig-canvas">
                     <TrendLine
                       values={completionSpark}
-                      color="#6FCF97"
+                      color="var(--green)"
                       startYear={completionYears[0]}
                       endYear={completionYears[completionYears.length - 1]}
                       formatValue={(v) => `${(v * 100).toFixed(0)}%`}
@@ -471,7 +471,7 @@ export default async function StatePage({
                 >
                   <div className="prog-head">
                     <span className="meta-mono">{r.city.toUpperCase()}</span>
-                    <span className="prog-num" style={{ color: "#6FCF97" }}>
+                    <span className="prog-num" style={{ color: "var(--green)" }}>
                       {r.completion_rate_150 != null
                         ? `${(r.completion_rate_150 * 100).toFixed(0)}%`
                         : "—"}

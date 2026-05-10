@@ -1,6 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <path d="M16 30 Q16 44 24 46 L40 46 Q48 44 48 30 Z" fill="#E8ECF2"></path>
-  <path d="M32 10 L58 22 L32 34 L6 22 Z" fill="#E8ECF2"></path>
+  <style>
+    .mortar { fill: #E8ECF2; }
+    .accent-dot { fill: #0E1116; }
+    @media (prefers-color-scheme: light) {
+      .mortar { fill: #0E1116; }
+      .accent-dot { fill: #FBFCFD; }
+    }
+  </style>
+  <path class="mortar" d="M16 30 Q16 44 24 46 L40 46 Q48 44 48 30 Z"></path>
+  <path class="mortar" d="M32 10 L58 22 L32 34 L6 22 Z"></path>
   <path d="M32 22 Q46 22 50 30" fill="none" stroke="#E6B450" stroke-width="2.5" stroke-linecap="round"></path>
   <circle cx="50" cy="32" r="2.6" fill="#E6B450"></circle>
   <path d="M48 34 L48 44 M50 34 L50 45 M52 34 L52 44" stroke="#E6B450" stroke-width="1.8" stroke-linecap="round"></path>

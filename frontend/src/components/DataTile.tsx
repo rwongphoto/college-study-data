@@ -41,7 +41,7 @@ export default function DataTile({
   value,
   note,
   spark,
-  sparkColor = "#E6B450",
+  sparkColor = "var(--amber)",
   delta,
   href,
 }: DataTileProps) {

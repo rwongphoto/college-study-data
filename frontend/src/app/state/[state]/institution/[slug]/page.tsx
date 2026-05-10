@@ -202,7 +202,7 @@ export default async function InstitutionPage({
         : "bad";
   };
   const sparkColor = (t: string) =>
-    t === "good" ? "#6FCF97" : t === "bad" ? "#C44545" : "#E6B450";
+    t === "good" ? "var(--green)" : t === "bad" ? "var(--red-2)" : "var(--amber)";
 
   const histRange =
     payload.source.history_vintages && payload.source.history_vintages.length > 0
@@ -367,7 +367,7 @@ export default async function InstitutionPage({
               value={fmtNumber(i.enrollment_undergrad)}
               note="latest IPEDS"
               spark={enrollSpark}
-              sparkColor="#60A5FA"
+              sparkColor="var(--blue-2)"
               delta={enrollDelta}
             />
             <DataTile
@@ -375,7 +375,7 @@ export default async function InstitutionPage({
               value={fmtPercent(i.retention_rate)}
               note="first-time, full-time"
               spark={retentionSpark}
-              sparkColor="#6FCF97"
+              sparkColor="var(--green)"
               delta={retentionDelta}
             />
             <DataTile
@@ -383,7 +383,7 @@ export default async function InstitutionPage({
               value={fmtPercent(i.admission_rate)}
               note="latest cohort"
               spark={admitSpark}
-              sparkColor="#E6B450"
+              sparkColor="var(--amber)"
               delta={admitDelta}
             />
             <DataTile
@@ -395,7 +395,7 @@ export default async function InstitutionPage({
                   : "annual"
               }
               spark={tuitionInSpark}
-              sparkColor="#E6B450"
+              sparkColor="var(--amber)"
               delta={tuitionDelta}
             />
           </div>
@@ -523,7 +523,7 @@ export default async function InstitutionPage({
                   <div className="fig-canvas">
                     <TrendLine
                       values={enrollSpark}
-                      color="#60A5FA"
+                      color="var(--blue-2)"
                       startYear={enrollYears[0]}
                       endYear={enrollYears[enrollYears.length - 1]}
                       formatValue={fmtNumber}
@@ -555,7 +555,7 @@ export default async function InstitutionPage({
                   <div className="fig-canvas">
                     <TrendLine
                       values={completionSpark}
-                      color="#6FCF97"
+                      color="var(--green)"
                       startYear={completionYears[0]}
                       endYear={completionYears[completionYears.length - 1]}
                       formatValue={(v) => `${(v * 100).toFixed(0)}%`}
@@ -584,7 +584,7 @@ export default async function InstitutionPage({
                   <div className="fig-canvas">
                     <TrendLine
                       values={debtSpark}
-                      color="#E6B450"
+                      color="var(--amber)"
                       startYear={debtYears[0]}
                       endYear={debtYears[debtYears.length - 1]}
                       formatValue={fmtCurrency}

@@ -232,21 +232,21 @@ export default async function ProgramPage({
               value={fmtCurrency(p.earnings_median_5yr)}
               note={peerNote}
               spark={earn5Spark}
-              sparkColor="#6FCF97"
+              sparkColor="var(--green)"
             />
             <DataTile
               label="Median earnings · 4y"
               value={fmtCurrency(p.earnings_median_4yr)}
               note="Treasury · 4y post-completion"
               spark={earn4Spark}
-              sparkColor="#6FCF97"
+              sparkColor="var(--green)"
             />
             <DataTile
               label="Median federal debt"
               value={fmtCurrency(p.debt_median)}
               note="At program completion"
               spark={debtSpark}
-              sparkColor="#E6B450"
+              sparkColor="var(--amber)"
             />
             <DataTile
               label="Completers · 4y window"
@@ -257,7 +257,7 @@ export default async function ProgramPage({
                   : "IPEDS award counts"
               }
               spark={completersSpark}
-              sparkColor="#60A5FA"
+              sparkColor="var(--blue-2)"
             />
           </div>
         </div>
@@ -348,7 +348,7 @@ export default async function ProgramPage({
                   <div className="fig-canvas">
                     <TrendLine
                       values={earn5Spark}
-                      color="#6FCF97"
+                      color="var(--green)"
                       startYear={earn5Years[0]}
                       endYear={earn5Years[earn5Years.length - 1]}
                       formatValue={fmtCurrency}
@@ -377,7 +377,7 @@ export default async function ProgramPage({
                   <div className="fig-canvas">
                     <TrendLine
                       values={debtSpark}
-                      color="#E6B450"
+                      color="var(--amber)"
                       startYear={debtYears[0]}
                       endYear={debtYears[debtYears.length - 1]}
                       formatValue={fmtCurrency}
@@ -406,7 +406,7 @@ export default async function ProgramPage({
                   <div className="fig-canvas">
                     <TrendLine
                       values={completersSpark}
-                      color="#60A5FA"
+                      color="var(--blue-2)"
                       startYear={completersYears[0]}
                       endYear={completersYears[completersYears.length - 1]}
                       formatValue={fmtNumber}
@@ -493,7 +493,7 @@ export default async function ProgramPage({
                       <i
                         style={{
                           width: `${w}%`,
-                          background: peer.focus ? "#E6B450" : "#60A5FA",
+                          background: peer.focus ? "var(--amber)" : "var(--blue-2)",
                         }}
                       />
                     </span>

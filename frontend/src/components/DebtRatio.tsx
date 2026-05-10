@@ -30,7 +30,7 @@ export default function DebtRatio({
         <i
           style={{
             width: `${pct}%`,
-            background: over ? "#C44545" : "#6FCF97",
+            background: over ? "var(--red-2)" : "var(--green)",
           }}
         />
         <span

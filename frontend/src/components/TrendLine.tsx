@@ -4,7 +4,7 @@
 
 export default function TrendLine({
   values,
-  color = "#E6B450",
+  color = "var(--amber)",
   height = 96,
   highlightLast = true,
   startYear,
@@ -49,7 +49,7 @@ export default function TrendLine({
           : `Trend, range ${fmt(min)} to ${fmt(max)}`
       }
     >
-      <g stroke="#2A3142" strokeWidth="1">
+      <g stroke="var(--line)" strokeWidth="1">
         {[0.25, 0.5, 0.75].map((p, i) => (
           <line
             key={i}
@@ -61,7 +61,7 @@ export default function TrendLine({
           />
         ))}
       </g>
-      <g fill="#7E8AA0" fontSize="10" fontFamily="ui-monospace, monospace">
+      <g fill="var(--fg-3)" fontSize="10" fontFamily="ui-monospace, monospace">
         <text x={PAD_LEFT - 4} y={PAD_TOP + 4} textAnchor="end">
           {fmt(max)}
         </text>
@@ -91,7 +91,7 @@ export default function TrendLine({
           cy={last[1]}
           r="4"
           fill={color}
-          stroke="#0E1116"
+          stroke="var(--bg)"
           strokeWidth="2"
         />
       )}

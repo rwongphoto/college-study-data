@@ -24,20 +24,20 @@ function CollegeMark({ size }: { size: number }) {
       aria-hidden="true"
       focusable="false"
     >
-      <path d="M16 26 Q16 40 22 42 L42 42 Q48 40 48 26 Z" fill="#E8ECF2" />
-      <path d="M32 6 L58 18 L32 30 L6 18 Z" fill="#E8ECF2" />
-      <circle cx="32" cy="18" r="1.6" fill="#0E1116" />
+      <path d="M16 26 Q16 40 22 42 L42 42 Q48 40 48 26 Z" fill="var(--fg)" />
+      <path d="M32 6 L58 18 L32 30 L6 18 Z" fill="var(--fg)" />
+      <circle cx="32" cy="18" r="1.6" fill="var(--bg)" />
       <path
         d="M32 18 Q44 18 49 25"
         fill="none"
-        stroke="#E6B450"
+        stroke="var(--amber)"
         strokeWidth="2"
         strokeLinecap="round"
       />
-      <circle cx="49" cy="27" r="2.2" fill="#E6B450" />
+      <circle cx="49" cy="27" r="2.2" fill="var(--amber)" />
       <path
         d="M47 29 L47 38 M49 29 L49 39 M51 29 L51 38"
-        stroke="#E6B450"
+        stroke="var(--amber)"
         strokeWidth="1.6"
         strokeLinecap="round"
       />
@@ -45,11 +45,11 @@ function CollegeMark({ size }: { size: number }) {
         <path
           d="M48 22 q10 8 10 18"
           fill="none"
-          stroke="#E6B450"
+          stroke="var(--amber)"
           strokeWidth="2"
         />
-        <circle cx={58} cy={42} r={4} fill="#E6B450" />
-        <circle cx={58} cy={42} r={2} fill="#0E1116" />
+        <circle cx={58} cy={42} r={4} fill="var(--amber)" />
+        <circle cx={58} cy={42} r={2} fill="var(--bg)" />
       </g>
     </svg>
   );
