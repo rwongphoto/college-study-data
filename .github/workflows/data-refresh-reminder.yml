@@ -1,0 +1,81 @@
+name: Annual data-refresh reminder
+
+# Opens a tracking issue once a year so the federal-data refresh doesn't
+# slip. College Scorecard ships its annual bulk release in September and
+# IPEDS HD ships in the fall — see site_architecture.md "Operational Cadence".
+# Fires Oct 1 so the Scorecard bulk file is reliably available by then.
+
+on:
+  schedule:
+    - cron: "0 14 1 10 *"  # Oct 1, 14:00 UTC (07:00 PT)
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  open-reminder:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const year = new Date().getUTCFullYear();
+            const title = `Annual data refresh — ${year}`;
+            const body = [
+              `College Scorecard's bulk release lands ~September and IPEDS HD ships in the fall. Time to refresh \`data/published/\`.`,
+              ``,
+              `See \`site_architecture.md\` → "Operational Cadence" and "Data Flow" for the full pipeline.`,
+              ``,
+              `## Checklist`,
+              ``,
+              `- [ ] Download latest College Scorecard institution-level CSV (Most-Recent-Cohorts) → \`data/raw/\``,
+              `- [ ] Download latest College Scorecard Field-of-Study CSV → \`data/raw/\``,
+              `- [ ] Download latest IPEDS HD directory → \`data/raw/\``,
+              `- [ ] Confirm \`COLLEGE_SCORECARD_API_KEY\` is set in \`.env\` (history backfill 2002–latest)`,
+              `- [ ] Run \`python -m pipeline.src.main run --state <XX>\` for each state (or full national run, ~3h sequential)`,
+              `- [ ] Spot-check a few institutions for new vintage data (e.g., Reed College sparkline length grew by 1)`,
+              `- [ ] Commit \`data/published/\` and push to \`main\` → Vercel auto-deploys`,
+            ].join("\n");
+
+            const { data: existing } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "open",
+              per_page: 100,
+            });
+            if (existing.some(i => i.title === title)) {
+              core.info(`Reminder issue already open for ${year}; skipping.`);
+              return;
+            }
+
+            const label = "data-refresh";
+            try {
+              await github.rest.issues.getLabel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                name: label,
+              });
+            } catch (e) {
+              if (e.status === 404) {
+                await github.rest.issues.createLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  name: label,
+                  color: "0e8a16",
+                  description: "Annual federal-data refresh tracking",
+                });
+              } else {
+                throw e;
+              }
+            }
+
+            const { data: issue } = await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title,
+              body,
+              assignees: ["rwongphoto"],
+              labels: [label],
+            });
+            core.info(`Opened ${issue.html_url}`);
