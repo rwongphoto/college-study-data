@@ -62,7 +62,7 @@ export async function generateMetadata({
       ? `Federal-data outcomes for ${display}: median earnings 10 yr post-entry ${fmtCurrency(i.earnings_median_10yr)}, completion ${fmtPercent(i.completion_rate_150)}, ${p.program_count} programs covered.`
       : `Federal-data outcomes for ${display} in ${i.city}, ${i.state.toUpperCase()}.`;
     return pageMeta({
-      title: `${display} · ${i.city}, ${i.state.toUpperCase()}`,
+      title: `Is ${display} Worth It? | College Grad Analyst`,
       description: desc,
       path: `/state/${state}/institution/${slug}/`,
     });

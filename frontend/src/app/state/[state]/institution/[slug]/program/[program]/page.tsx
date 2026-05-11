@@ -50,7 +50,7 @@ export async function generateMetadata({
     const cip = p.cip_desc.replace(/\.$/, "");
     const inst = displayName(p.institution_name.replace(/\.$/, ""), p.institution_unitid);
     return pageMeta({
-      title: `Is ${cip} at ${inst} Worth It? | College Grad Analyst`,
+      title: `Is ${cip} ${p.credential_desc} at ${inst} Worth It? | College Grad Analyst`,
       description: `Median earnings 5 yr post-completion ${fmtCurrency(p.earnings_median_5yr)}, median debt ${fmtCurrency(p.debt_median)} for ${cip} (${p.credential_desc}) at ${inst}.`,
       path: `/state/${state}/institution/${slug}/program/${program}/`,
     });
