@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { InfoTip } from "@/components/site/InfoTip";
+import { displayName } from "@/lib/institutionCommonName";
 import { LANE_METHODOLOGY, LANE_OVERRIDES } from "@/lib/rankingLanes";
 import { stateSlug } from "@/lib/state";
 import type { RankingTable } from "@/lib/types";
@@ -121,13 +122,16 @@ export function ProgramRankingTable({
                   </td>
                   <td>{r.credential_desc ?? "—"}</td>
                   <td className="name">
-                    {instHref ? (
-                      <Link href={instHref}>
-                        {r.institution_name ?? "—"}
-                      </Link>
-                    ) : (
-                      r.institution_name ?? "—"
-                    )}
+                    {(() => {
+                      const instDisplay = r.institution_name
+                        ? displayName(r.institution_name, r.institution_slug)
+                        : "—";
+                      return instHref ? (
+                        <Link href={instHref}>{instDisplay}</Link>
+                      ) : (
+                        instDisplay
+                      );
+                    })()}
                   </td>
                   <td>{r.state_label}</td>
                   <td className="right num-mono">

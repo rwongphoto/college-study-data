@@ -23,6 +23,7 @@ import {
   historyValues,
   historyYears,
 } from "@/lib/format";
+import { displayName } from "@/lib/institutionCommonName";
 import { buildProgramJsonLd } from "@/lib/programJsonLd";
 import { pageMeta, SITE_URL } from "@/lib/seo";
 import { stateAbbr } from "@/lib/state";
@@ -47,7 +48,7 @@ export async function generateMetadata({
   try {
     const p = await loadProgram(stateAbbr(state), slug, program);
     const cip = p.cip_desc.replace(/\.$/, "");
-    const inst = p.institution_name.replace(/\.$/, "");
+    const inst = displayName(p.institution_name.replace(/\.$/, ""), p.institution_unitid);
     return pageMeta({
       title: `Is ${cip} at ${inst} Worth It? | College Grad Analyst`,
       description: `Median earnings 5 yr post-completion ${fmtCurrency(p.earnings_median_5yr)}, median debt ${fmtCurrency(p.debt_median)} for ${cip} (${p.credential_desc}) at ${inst}.`,
@@ -78,6 +79,8 @@ export default async function ProgramPage({
     notFound();
   }
   const i = instPayload.institution;
+  const iDisplay = displayName(i.name, i.unitid);
+  const instDisplay = displayName(p.institution_name, p.institution_unitid);
 
   const peers = p.peers_in_state.filter(
     (peer) => peer.earnings_median_5yr != null,
@@ -152,7 +155,7 @@ export default async function ProgramPage({
         items={[
           { label: "Home", href: "/" },
           { label: stateAgg.name, href: `/state/${state}/` },
-          { label: i.name, href: `/state/${state}/institution/${slug}/` },
+          { label: iDisplay, href: `/state/${state}/institution/${slug}/` },
           { label: p.cip_desc },
         ]}
       />
@@ -178,15 +181,15 @@ export default async function ProgramPage({
       <section className="city-header">
         <div className="wrap">
           <div className="eyebrow">
-            CIP {p.cip_code} · {p.credential_desc} · {p.institution_name}
+            CIP {p.cip_code} · {p.credential_desc} · {instDisplay}
           </div>
           <h1>
-            {p.cip_desc.replace(/\.$/, "")} at {p.institution_name.replace(/\.$/, "")}
+            {p.cip_desc.replace(/\.$/, "")} at {instDisplay.replace(/\.$/, "")}
           </h1>
           <p className="lede" style={{ marginTop: 18, maxWidth: "62ch" }}>
             Federal outcomes for {p.credential_desc.toLowerCase()} graduates of{" "}
             <Link href={`/state/${state}/institution/${slug}/`}>
-              {p.institution_name}
+              {instDisplay}
             </Link>
             .{" "}
             {p.completers != null && (
@@ -289,7 +292,7 @@ export default async function ProgramPage({
               <DebtRatio
                 ratio={dteRatio}
                 threshold={0.08}
-                label={`This program at ${i.name}`}
+                label={`This program at ${iDisplay}`}
                 sub={`Median federal debt ${fmtCurrency(p.debt_median)} amortized over 10 years vs. median 5-year earnings ${fmtCurrency(p.earnings_median_5yr)}.`}
               />
               {dteRatioPeerMedian != null && (
@@ -423,7 +426,7 @@ export default async function ProgramPage({
               <div style={{ marginTop: 24 }}>
                 <LongArcCards
                   arcs={p.long_arc}
-                  scope={`${p.cip_desc.replace(/\.$/, "")} at ${i.name}`}
+                  scope={`${p.cip_desc.replace(/\.$/, "")} at ${iDisplay}`}
                 />
               </div>
             )}
@@ -456,7 +459,7 @@ export default async function ProgramPage({
                 i.avg_net_price_pub ?? i.avg_net_price_priv ?? i.cost_attendance
               }
               stateLower={p.state}
-              schoolName={p.institution_name}
+              schoolName={instDisplay}
               programLabel={`${p.cip_desc.replace(/\.$/, "")} · ${p.credential_desc}`}
             />
           </div>
@@ -484,7 +487,7 @@ export default async function ProgramPage({
                 const w = ((peer.earnings_median_5yr ?? 0) / maxEarn) * 100;
                 const inner = (
                   <>
-                    <span className="pr-name">{peer.institution_name}</span>
+                    <span className="pr-name">{displayName(peer.institution_name, peer.institution_slug)}</span>
                     <span className="meta-mono pr-cip">
                       {peer.focus ? "THIS PROGRAM" : "PEER"}
                       {peer.pooled_earnings ? " · POOLED" : ""}

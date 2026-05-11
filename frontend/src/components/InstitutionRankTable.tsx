@@ -5,6 +5,7 @@ import { usePathname, useSearchParams } from "next/navigation";
 import { useMemo } from "react";
 
 import { fmtControl } from "@/lib/format";
+import { displayName } from "@/lib/institutionCommonName";
 import type { InstitutionCard } from "@/lib/types";
 
 type SortKey =
@@ -47,7 +48,7 @@ function compare(
   const get = (row: InstitutionCard): string | number | null => {
     switch (key) {
       case "name":
-        return row.name.toLocaleLowerCase();
+        return displayName(row.name, row.unitid).toLocaleLowerCase();
       case "sector_city":
         return `${fmtControl(row.control)} · ${row.city}`.toLocaleLowerCase();
       case "enrollment_undergrad":
@@ -199,7 +200,7 @@ export default function InstitutionRankTable({
           href={`/state/${state}/institution/${r.slug}/`}
           className="rt-tr"
         >
-          <span className="nbhd">{r.name}</span>
+          <span className="nbhd">{displayName(r.name, r.unitid)}</span>
           <span className="num-mono">
             {fmtControl(r.control)} · {r.city}
           </span>

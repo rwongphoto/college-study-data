@@ -7,6 +7,7 @@ import { JumpStrip } from "@/components/site/JumpStrip";
 import { SiteFooter } from "@/components/site/SiteFooter";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import { loadHome, loadRankings } from "@/lib/data";
+import { displayName } from "@/lib/institutionCommonName";
 import { buildRankingJumpItems } from "@/lib/rankingJump";
 import { buildRankingsJsonLd } from "@/lib/rankingJsonLd";
 import { LANE_METHODOLOGY, LANE_OVERRIDES } from "@/lib/rankingLanes";
@@ -207,7 +208,7 @@ function InstitutionRankingSection({ table }: { table: RankingTable }) {
                   <Link
                     href={`/state/${stateSlug(r.state)}/institution/${r.slug}/`}
                   >
-                    {r.name}
+                    {displayName(r.name, r.slug)}
                   </Link>
                 </td>
                 <td>{r.city ?? "—"}</td>

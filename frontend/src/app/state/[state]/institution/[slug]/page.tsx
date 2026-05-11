@@ -30,6 +30,7 @@ import {
   historyValues,
   historyYears,
 } from "@/lib/format";
+import { displayName } from "@/lib/institutionCommonName";
 import { buildInstitutionJsonLd } from "@/lib/institutionJsonLd";
 import { pageMeta, SITE_URL } from "@/lib/seo";
 import { stateAbbr } from "@/lib/state";
@@ -56,11 +57,12 @@ export async function generateMetadata({
   try {
     const p = await loadInstitution(stateAbbr(state), slug);
     const i = p.institution;
+    const display = displayName(i.name, i.unitid);
     const desc = i.earnings_median_10yr
-      ? `Federal-data outcomes for ${i.name}: median earnings 10 yr post-entry ${fmtCurrency(i.earnings_median_10yr)}, completion ${fmtPercent(i.completion_rate_150)}, ${p.program_count} programs covered.`
-      : `Federal-data outcomes for ${i.name} in ${i.city}, ${i.state.toUpperCase()}.`;
+      ? `Federal-data outcomes for ${display}: median earnings 10 yr post-entry ${fmtCurrency(i.earnings_median_10yr)}, completion ${fmtPercent(i.completion_rate_150)}, ${p.program_count} programs covered.`
+      : `Federal-data outcomes for ${display} in ${i.city}, ${i.state.toUpperCase()}.`;
     return pageMeta({
-      title: `${i.name} · ${i.city}, ${i.state.toUpperCase()}`,
+      title: `${display} · ${i.city}, ${i.state.toUpperCase()}`,
       description: desc,
       path: `/state/${state}/institution/${slug}/`,
     });
@@ -85,12 +87,13 @@ export default async function InstitutionPage({
     notFound();
   }
   const i = payload.institution;
+  const iDisplay = displayName(i.name, i.unitid);
 
   const crumbs: Array<{ label: string; href?: string }> = [
     { label: "Home", href: "/" },
     { label: stateAgg.name, href: `/state/${state}/` },
     { label: i.city, href: `/state/${state}/city/${i.city_slug}/` },
-    { label: i.name },
+    { label: iDisplay },
   ];
 
   // Earnings progression (4/5/6/8/10 yr after entry).
@@ -261,7 +264,7 @@ export default async function InstitutionPage({
           <div className="eyebrow">
             {stateAgg.name} · {fmtControl(i.control)} · {fmtPredDegree(i.pred_degree)}
           </div>
-          <h1>{i.name}</h1>
+          <h1>{iDisplay}</h1>
           <p className="lede" style={{ marginTop: 18, maxWidth: "62ch" }}>
             {i.city}, {stateAgg.name}.{" "}
             {i.enrollment_undergrad != null && (
@@ -294,7 +297,7 @@ export default async function InstitutionPage({
             <header className="sec-head">
               <div>
                 <div className="kicker">ANOMALY ENGINE · NOTABLE SIGNALS</div>
-                <h2>What the data flags at {i.name}</h2>
+                <h2>What the data flags at {iDisplay}</h2>
               </div>
               <p className="sec-sub">
                 Short-arc shifts (recent 3-year window), peer outliers,
@@ -599,7 +602,7 @@ export default async function InstitutionPage({
             </div>
             {i.long_arc.length > 0 && (
               <div style={{ marginTop: 24 }}>
-                <LongArcCards arcs={i.long_arc} scope={i.name} />
+                <LongArcCards arcs={i.long_arc} scope={iDisplay} />
               </div>
             )}
           </div>
@@ -748,7 +751,7 @@ export default async function InstitutionPage({
             <header className="sec-head">
               <div>
                 <div className="kicker">FINANCIAL OUTCOME · ILLUSTRATION</div>
-                <h2>Estimate the financial outcome at {i.name}</h2>
+                <h2>Estimate the financial outcome at {iDisplay}</h2>
               </div>
               <p className="sec-sub">
                 Pick a program. Cost from Scorecard net price by family income;
@@ -768,7 +771,7 @@ export default async function InstitutionPage({
                 i.avg_net_price_pub ?? i.avg_net_price_priv ?? i.cost_attendance
               }
               stateLower={i.state}
-              schoolName={i.name}
+              schoolName={iDisplay}
             />
           </div>
         </section>
@@ -803,7 +806,7 @@ export default async function InstitutionPage({
                         : "—"}
                     </span>
                   </div>
-                  <h3>{s.name}</h3>
+                  <h3>{displayName(s.name, s.slug)}</h3>
                   <div className="prog-meta">
                     <span>
                       {fmtControl(s.control)} · {fmtPredDegree(s.pred_degree)}
@@ -831,12 +834,12 @@ export default async function InstitutionPage({
             <div>
               <div className="kicker">CAUSAL DISCIPLINE</div>
               <h3>
-                &ldquo;{i.name} graduates earn $X&rdquo; — not &ldquo;{i.name}{" "}
+                &ldquo;{iDisplay} graduates earn $X&rdquo; — not &ldquo;{iDisplay}{" "}
                 makes you earn $X&rdquo;
               </h3>
               <p>
                 Median earnings describe what cohorts earned. They do not
-                describe what attending {i.name} caused. Selection effects (who
+                describe what attending {iDisplay} caused. Selection effects (who
                 admits, who enrolls, who completes) are real. We publish
                 federal data with strict descriptive phrasing — and link the
                 methodology where you can read about the limitations directly.

@@ -12,6 +12,7 @@ import { JumpStrip } from "@/components/site/JumpStrip";
 import { SiteFooter } from "@/components/site/SiteFooter";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import { listStates, loadHome, loadState } from "@/lib/data";
+import { displayName } from "@/lib/institutionCommonName";
 import {
   fmtCurrency,
   fmtNumber,
@@ -402,7 +403,7 @@ export default async function StatePage({
                         : "—"}
                     </span>
                   </div>
-                  <h3>{r.name}</h3>
+                  <h3>{displayName(r.name, r.unitid)}</h3>
                   <div className="prog-meta">
                     <span>
                       {r.enrollment_undergrad != null
@@ -477,7 +478,7 @@ export default async function StatePage({
                         : "—"}
                     </span>
                   </div>
-                  <h3>{r.name}</h3>
+                  <h3>{displayName(r.name, r.unitid)}</h3>
                   <div className="prog-meta">
                     <span>
                       {r.earnings_median_10yr != null

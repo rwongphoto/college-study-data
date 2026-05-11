@@ -7,6 +7,7 @@ import { SiteFooter } from "@/components/site/SiteFooter";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import { loadHome, loadRankings } from "@/lib/data";
 import { fmtNumber } from "@/lib/format";
+import { displayName } from "@/lib/institutionCommonName";
 import { stateSlug } from "@/lib/state";
 import type { RankingRow, RankingTable } from "@/lib/types";
 
@@ -419,7 +420,10 @@ export default function HomePage() {
 
   const headline = earningsTopInst?.rows[0]
     ? {
-        row: earningsTopInst.rows[0],
+        row: {
+          ...earningsTopInst.rows[0],
+          name: displayName(earningsTopInst.rows[0].name, earningsTopInst.rows[0].slug),
+        },
         lane: "earnings_10yr",
         label: "10-year earnings",
       }
@@ -431,7 +435,7 @@ export default function HomePage() {
     featured.push({
       kind: "spike",
       chip: "INSTITUTION · EARNINGS 10Y",
-      row: r,
+      row: { ...r, name: displayName(r.name, r.slug) },
       href: `/state/${stateSlug(r.state)}/institution/${r.slug}/`,
       caption:
         "Highest median earnings 10 years after first enrollment among Title-IV institutions with 1,000+ undergrads. Treasury IRS cohort; selection effects drive most of the gap.",
@@ -443,7 +447,7 @@ export default function HomePage() {
     featured.push({
       kind: "drop",
       chip: "INSTITUTION · COMPLETION 150%",
-      row: r,
+      row: { ...r, name: displayName(r.name, r.slug) },
       href: `/state/${stateSlug(r.state)}/institution/${r.slug}/`,
       caption:
         "Highest 150%-time completion rate. IPEDS first-time, full-time entering cohort; institutions enrolling 1,000+ undergrads only.",
@@ -458,12 +462,15 @@ export default function HomePage() {
         : r.institution_slug
           ? `/state/${stateSlug(r.state)}/institution/${r.institution_slug}/`
           : "/rankings/programs";
+    const instDisplay = r.institution_name
+      ? displayName(r.institution_name, r.institution_slug)
+      : "";
     featured.push({
       kind: "rare",
       chip: "PROGRAM · EARNINGS 5Y",
-      row: { ...r, name: `${r.name} · ${r.institution_name ?? ""}`.trim() },
+      row: { ...r, name: `${r.name} · ${instDisplay}`.trim() },
       href,
-      caption: `${r.credential_desc ?? "Program"} at ${r.institution_name ?? "the institution"}, with the highest median earnings 5 years after completion. College Scorecard Field-of-Study; ${r.completers ?? "—"} completers in the cohort.`,
+      caption: `${r.credential_desc ?? "Program"} at ${instDisplay || "the institution"}, with the highest median earnings 5 years after completion. College Scorecard Field-of-Study; ${r.completers ?? "—"} completers in the cohort.`,
       metric: "Median earnings · 5y",
     });
   }
