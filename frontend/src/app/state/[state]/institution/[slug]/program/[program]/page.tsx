@@ -516,7 +516,7 @@ export default async function ProgramPage({
                   <Link
                     key={peer.institution_slug}
                     className="pr-row"
-                    href={`/state/${state}/institution/${peer.institution_slug}/`}
+                    href={`/state/${state}/institution/${peer.institution_slug}/program/${program}/`}
                   >
                     {inner}
                   </Link>
