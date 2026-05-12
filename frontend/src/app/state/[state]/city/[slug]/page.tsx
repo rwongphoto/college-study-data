@@ -9,6 +9,7 @@ import { JumpStrip } from "@/components/site/JumpStrip";
 import { SiteFooter } from "@/components/site/SiteFooter";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import {
+  DataNotFoundError,
   loadCity,
   loadState,
 } from "@/lib/data";
@@ -61,8 +62,9 @@ export default async function CityPage({
   try {
     city = await loadCity(abbr, slug);
     stateAgg = loadState(abbr);
-  } catch {
-    notFound();
+  } catch (err) {
+    if (err instanceof DataNotFoundError) notFound();
+    throw err;
   }
 
   const isThin = city.institution_count <= 1;
