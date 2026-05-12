@@ -815,5 +815,30 @@
       2023,
       2024
     ]
+  },
+  "roi": {
+    "suppressed": false,
+    "n_obs": 19,
+    "inputs": {
+      "years_to_complete": 1,
+      "cost_per_year_default": 29807,
+      "cost_total_default": 29807,
+      "cost_source": "NPT4_AVG",
+      "income_bracket_default": "48_75k",
+      "earnings_at_completion": 31916,
+      "earnings_anchor_year": 5,
+      "debt_median": 8444,
+      "cip_family": "51",
+      "hs_baseline_state": 41880
+    },
+    "default_assumptions": {
+      "discount_rate": 0.05,
+      "horizon_years": 40,
+      "selection_adjusted": false
+    },
+    "default_result": {
+      "npv": -193808,
+      "breakeven_year": null
+    }
   }
 }
