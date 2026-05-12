@@ -31,8 +31,9 @@ import { stateAbbr } from "@/lib/state";
 // On-demand ISR: pre-rendering all ~41k program pages OOMs the Vercel
 // build container. Pages are generated on first request and cached for
 // 24h. SEO is unaffected — program URLs aren't listed in sitemap.xml.
-// The both-windows freshness check is enforced inside the component
-// (programs missing either earnings window return 404).
+// 404 only when BOTH earnings windows are suppressed; the 5yr window is
+// the primary anchor, and pages render fine when just one is present
+// (e.g. Stanford EE PhD reports 5yr only).
 export const revalidate = 86400;
 
 export function generateStaticParams() {
@@ -75,7 +76,7 @@ export default async function ProgramPage({
   } catch {
     notFound();
   }
-  if (p.earnings_median_4yr == null || p.earnings_median_5yr == null) {
+  if (p.earnings_median_4yr == null && p.earnings_median_5yr == null) {
     notFound();
   }
   const i = instPayload.institution;
