@@ -31,24 +31,10 @@ function readJSON<T>(path: string): T {
   return JSON.parse(readFileSync(path, "utf-8")) as T;
 }
 
-export class DataNotFoundError extends Error {
-  constructor(url: string) {
-    super(`fetchJSON ${url} → 404`);
-    this.name = "DataNotFoundError";
-  }
-}
-
 async function fetchJSON<T>(relPath: string): Promise<T> {
   const url = `${DATA_CDN_BASE}${relPath}`;
   const res = await fetch(url, { next: { revalidate: 86400 } });
-  if (res.status === 404) {
-    // Genuine "this JSON does not exist" — caller should notFound().
-    throw new DataNotFoundError(url);
-  }
   if (!res.ok) {
-    // 5xx and similar are transient — jsDelivr origin failures, edge
-    // hiccups. Throw a normal Error so Next.js returns 500 and does
-    // NOT cache the page as a 404; the next request will retry.
     throw new Error(`fetchJSON ${url} → ${res.status}`);
   }
   return (await res.json()) as T;

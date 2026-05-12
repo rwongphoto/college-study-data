@@ -11,7 +11,6 @@ import { JumpStrip } from "@/components/site/JumpStrip";
 import { SiteFooter } from "@/components/site/SiteFooter";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import {
-  DataNotFoundError,
   loadInstitution,
   loadProgram,
   loadRoiConstants,
@@ -74,12 +73,8 @@ export default async function ProgramPage({
     stateAgg = loadState(abbr);
     instPayload = await loadInstitution(abbr, slug);
     roiConstants = loadRoiConstants();
-  } catch (err) {
-    // Only convert genuine "JSON does not exist" → 404. Transient CDN
-    // failures (5xx, network) re-throw so Next.js returns 500 and does
-    // NOT cache the page as a permanent 404 in the ISR layer.
-    if (err instanceof DataNotFoundError) notFound();
-    throw err;
+  } catch {
+    notFound();
   }
   if (p.earnings_median_4yr == null && p.earnings_median_5yr == null) {
     notFound();

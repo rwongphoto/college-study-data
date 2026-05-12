@@ -13,7 +13,6 @@ import { JumpStrip } from "@/components/site/JumpStrip";
 import { SiteFooter } from "@/components/site/SiteFooter";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import {
-  DataNotFoundError,
   loadInstitution,
   loadRoiConstants,
   loadState,
@@ -84,9 +83,8 @@ export default async function InstitutionPage({
     payload = await loadInstitution(abbr, slug);
     stateAgg = loadState(abbr);
     roiConstants = loadRoiConstants();
-  } catch (err) {
-    if (err instanceof DataNotFoundError) notFound();
-    throw err;
+  } catch {
+    notFound();
   }
   const i = payload.institution;
   const iDisplay = displayName(i.name, i.unitid);
