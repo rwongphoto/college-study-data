@@ -220,6 +220,7 @@ export default async function CityPage({
               </p>
             </header>
             <div
+              data-pngable
               style={{
                 display: "grid",
                 gridTemplateColumns:
