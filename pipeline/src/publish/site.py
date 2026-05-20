@@ -110,6 +110,14 @@ def publish_state(
     for prog in programs:
         programs_by_unitid.setdefault(prog.institution_unitid, []).append(prog)
 
+    # Renderable-program index for the XML sitemap, grouped by institution slug.
+    # "Renderable" must mirror the frontend's notFound() rule in
+    # frontend/src/app/.../program/[program]/page.tsx: a program page 404s when
+    # BOTH earnings windows are suppressed. Listing those URLs would feed Google
+    # soft-404s, so we exclude them here. Written per state (see below) so a
+    # partial pipeline run only rewrites the states it touched.
+    sitemap_programs: dict[str, list[str]] = {}
+
     for inst in institutions:
         progs = programs_by_unitid.get(inst.unitid, [])
         payload = attach_programs(inst, progs)
@@ -164,6 +172,20 @@ def publish_state(
             }
             _write_json(prog_path, program_payload, written)
 
+            if prog.earnings_median_4yr is not None or prog.earnings_median_5yr is not None:
+                sitemap_programs.setdefault(inst.slug, []).append(prog.slug)
+
+    # Per-state sitemap shard, consumed by frontend/scripts/prebuild.mjs. Lives
+    # outside the program/institution/city trees because prebuild deletes those
+    # from the Vercel build workspace; this stays so the sitemap can be built.
+    sitemap_payload = {
+        "state": state.lower(),
+        "institutions": {
+            slug: sorted(sitemap_programs[slug]) for slug in sorted(sitemap_programs)
+        },
+    }
+    _write_json(out_dir / "sitemap" / f"{state.lower()}.json", sitemap_payload, written)
+
     deleted = 0
     for sub in ("city", "institution", "program"):
         scope = out_dir / sub / state.lower()
@@ -173,6 +195,7 @@ def publish_state(
         "institutions": len(institutions),
         "cities": len(cities),
         "programs": len(programs),
+        "sitemap_programs": sum(len(v) for v in sitemap_programs.values()),
         "files_written": len(written),
         "stale_deleted": deleted,
     }

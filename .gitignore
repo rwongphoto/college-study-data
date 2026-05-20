@@ -24,6 +24,10 @@ frontend/.turbo/
 frontend/*.tsbuildinfo
 # Symlinks created by scripts/prebuild.mjs to expose published JSON as CDN assets
 frontend/public/data/
+# Program XML sitemaps + index, regenerated each build by scripts/prebuild.mjs
+# from the data/published/sitemap/ shards (which ARE committed).
+frontend/public/sitemaps/
+frontend/public/sitemap-index.xml
 
 # Build-time manifest of state/city/institution slugs (regenerated each build)
 data/published/_manifest.json
