@@ -1,5 +1,6 @@
 "use client";
 
+import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 
 const PROCESSED_ATTR = "data-png-processed";
@@ -55,6 +56,11 @@ function refreshPalette(el: Element) {
 // self-contained PNG: title (nearest heading), snapshot, divider, College
 // Grad Analyst brand mark, and page URL.
 export function PngDownloads() {
+  // Re-scan on every client-side navigation. This component lives in the
+  // root layout and mounts only once, so without keying the effect on the
+  // pathname a soft navigation would render a new page whose modules never
+  // get buttons — until a full reload remounted the effect.
+  const pathname = usePathname();
   useEffect(() => {
     let cancelled = false;
 
@@ -76,7 +82,7 @@ export function PngDownloads() {
       window.clearTimeout(t1);
       window.clearTimeout(t2);
     };
-  }, []);
+  }, [pathname]);
 
   return null;
 }
