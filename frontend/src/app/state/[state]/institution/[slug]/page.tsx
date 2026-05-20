@@ -420,7 +420,7 @@ export default async function InstitutionPage({
                 p25/p75 publishing).
               </p>
             </header>
-            <div className="figure-frame">
+            <div className="figure-frame" data-pngable>
               <div className="fig-head">
                 <span className="meta-mono">
                   ALL FEDERALLY AIDED STUDENTS · TAX-RECORD EARNINGS
@@ -466,6 +466,7 @@ export default async function InstitutionPage({
               </p>
             </header>
             <div
+              data-pngable
               style={{
                 display: "grid",
                 gridTemplateColumns: "minmax(0, 540px)",
@@ -498,6 +499,7 @@ export default async function InstitutionPage({
               </p>
             </header>
             <div
+              data-pngable
               style={{
                 display: "grid",
                 gridTemplateColumns: `repeat(${

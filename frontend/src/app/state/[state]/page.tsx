@@ -244,6 +244,7 @@ export default async function StatePage({
               </p>
             </header>
             <div
+              data-pngable
               style={{
                 display: "grid",
                 gridTemplateColumns:

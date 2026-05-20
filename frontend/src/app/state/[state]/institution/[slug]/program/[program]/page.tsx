@@ -283,6 +283,7 @@ export default async function ProgramPage({
               </p>
             </header>
             <div
+              data-pngable
               style={{
                 display: "grid",
                 gridTemplateColumns:
@@ -324,6 +325,7 @@ export default async function ProgramPage({
               </p>
             </header>
             <div
+              data-pngable
               style={{
                 display: "grid",
                 gridTemplateColumns: `repeat(${

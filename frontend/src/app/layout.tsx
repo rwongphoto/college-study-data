@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 
 import { BackToTop } from "@/components/site/BackToTop";
+import { PngDownloads } from "@/components/site/PngDownloads";
 import { ThemeProvider } from "@/components/site/ThemeProvider";
 
 import "./globals.css";
@@ -70,6 +71,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         >
           {children}
           <BackToTop />
+          <PngDownloads />
         </ThemeProvider>
       </body>
     </html>
