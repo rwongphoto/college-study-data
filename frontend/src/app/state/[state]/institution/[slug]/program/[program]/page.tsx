@@ -157,7 +157,7 @@ export default async function ProgramPage({
           { label: "Home", href: "/" },
           { label: stateAgg.name, href: `/state/${state}/` },
           { label: iDisplay, href: `/state/${state}/institution/${slug}/` },
-          { label: p.cip_desc },
+          { label: p.cip_desc.replace(/\.$/, "") },
         ]}
       />
       <JumpStrip

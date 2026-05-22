@@ -636,7 +636,7 @@ export default async function InstitutionPage({
                     className="pr-row"
                     href={`/state/${state}/institution/${slug}/program/${p.slug}/`}
                   >
-                    <span className="pr-name">{p.cip_desc}</span>
+                    <span className="pr-name">{p.cip_desc.replace(/\.$/, "")}</span>
                     <span className="meta-mono pr-cip">
                       CIP {p.cip_code} · {p.credential_desc}
                     </span>
@@ -713,7 +713,7 @@ export default async function InstitutionPage({
                         className="pr-row"
                         href={`/state/${state}/institution/${slug}/program/${p.slug}/`}
                       >
-                        <span className="pr-name">{p.cip_desc}</span>
+                        <span className="pr-name">{p.cip_desc.replace(/\.$/, "")}</span>
                         <span className="meta-mono pr-cip">
                           {p.credential_desc}
                         </span>

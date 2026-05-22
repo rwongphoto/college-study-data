@@ -54,7 +54,7 @@ export function buildInstitutionJsonLd(input: InstitutionJsonLdInput) {
   }
 
   const courses = programs.map((p) => {
-    const courseName = `${p.cip_desc} - ${p.credential_desc}`;
+    const courseName = `${p.cip_desc.replace(/\.$/, "")} - ${p.credential_desc}`;
     return {
       "@type": "Course",
       name: courseName,
