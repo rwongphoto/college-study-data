@@ -31,11 +31,13 @@ from .ingest.scorecard_history import load_national_history, load_state_history
 from .models import InstitutionHistory, ProgramHistory
 from .normalize.text import STATE_NAMES
 from .publish.rankings import publish_rankings
+from .publish.revalidate import run_revalidate
 from .publish.site import (
     make_source,
     publish_home,
     publish_methodology,
     publish_state,
+    write_revalidate_queue,
 )
 
 
@@ -257,6 +259,9 @@ def run(
         out_dir=out_path, reporting_year=reporting_year
     )
     click.echo(f"Wrote {rankings_path.name} (reporting_year={reporting_year})")
+
+    n_tags = write_revalidate_queue()
+    click.echo(f"Wrote revalidate queue ({n_tags} changed entit{'y' if n_tags == 1 else 'ies'})")
     click.echo(f"=== Done. Output: {out_path} ===")
 
 
@@ -478,9 +483,35 @@ def run_all(
 
     total_inst = sum(institution_counts.values())
     total_prog = sum(program_counts.values())
+
+    n_tags = write_revalidate_queue()
+    click.echo(f"Wrote revalidate queue ({n_tags} changed entit{'y' if n_tags == 1 else 'ies'})")
     click.echo(
         f"\n=== Done. {len(states_published)} states · {total_inst} institutions · "
         f"{total_prog} programs ==="
+    )
+
+
+@cli.command()
+@click.option("--site-url", default=None, help="Override target site (default: $SITE_URL or prod).")
+@click.option("--queue", "queue_path", default=None, help="Override queue file path.")
+@click.option("--batch-size", default=500, show_default=True, help="Tags per POST.")
+@click.option("--dry-run", is_flag=True, default=False, help="Print what would be sent; POST nothing.")
+def revalidate(site_url: str | None, queue_path: str | None, batch_size: int, dry_run: bool) -> None:
+    """POST the changed-entity queue to the site's /api/revalidate.
+
+    Run AFTER `git push` — the regenerate re-pulls JSON from the data CDN, so the
+    fresh JSON must be live first or it just re-caches the old data.
+    """
+    import logging
+    logging.basicConfig(level=logging.INFO, format="%(message)s")
+    raise SystemExit(
+        run_revalidate(
+            site_url=site_url,
+            queue_path=queue_path,
+            batch_size=batch_size,
+            dry_run=dry_run,
+        )
     )
 
 

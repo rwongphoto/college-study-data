@@ -34,7 +34,7 @@ import { stateAbbr } from "@/lib/state";
 // 404 only when BOTH earnings windows are suppressed; the 5yr window is
 // the primary anchor, and pages render fine when just one is present
 // (e.g. Stanford EE PhD reports 5yr only).
-export const revalidate = 86400;
+export const revalidate = 2592000; // 30d ceiling; on-demand revalidation is the real lever
 
 export function generateStaticParams() {
   return [];

@@ -24,7 +24,7 @@ import { pageMeta, SITE_URL } from "@/lib/seo";
 import { stateAbbr, stateSlug } from "@/lib/state";
 import { buildStateJsonLd } from "@/lib/stateJsonLd";
 
-export const revalidate = 86400;
+export const revalidate = 2592000; // 30d ceiling; on-demand revalidation is the real lever
 
 export function generateStaticParams() {
   return listStates().map((abbr) => ({ state: stateSlug(abbr) }));

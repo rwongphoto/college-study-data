@@ -32,6 +32,10 @@ frontend/public/sitemap-index.xml
 # Build-time manifest of state/city/institution slugs (regenerated each build)
 data/published/_manifest.json
 
+# On-demand revalidation queue — written by `pipeline run`, consumed by
+# `pipeline revalidate`. Transient; never served from the CDN.
+data/_revalidate_queue.json
+
 # Raw data caches — large, regenerate via pipeline
 data/raw/
 

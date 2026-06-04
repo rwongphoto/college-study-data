@@ -42,7 +42,7 @@ import type {
 // On-demand ISR: pre-rendering all ~5k institution pages contributes to
 // build OOM. Pages generate on first request and cache for 24h. Sitemap
 // still lists every institution URL so crawlers find them.
-export const revalidate = 86400;
+export const revalidate = 2592000; // 30d ceiling; on-demand revalidation is the real lever
 
 export function generateStaticParams() {
   return [];

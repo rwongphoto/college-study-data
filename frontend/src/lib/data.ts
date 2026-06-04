@@ -31,9 +31,20 @@ function readJSON<T>(path: string): T {
   return JSON.parse(readFileSync(path, "utf-8")) as T;
 }
 
+// 30d stale ceiling — the data refreshes ~annually, so the timer isn't the
+// real freshness mechanism: the publish pipeline POSTs changed entities to
+// /api/revalidate for precise on-demand invalidation. Long window → far fewer
+// ISR cache writes than the old 24h timer.
+const DATA_REVALIDATE_SECONDS = 2592000; // 30 days
+
 async function fetchJSON<T>(relPath: string): Promise<T> {
   const url = `${DATA_CDN_BASE}${relPath}`;
-  const res = await fetch(url, { next: { revalidate: 86400 } });
+  // Tag = the published-relative path (with leading slash). It MUST match
+  // _published_tag() in pipeline/src/publish/site.py exactly, so revalidating
+  // the tag busts both this fetch cache and the page that rendered it.
+  const res = await fetch(url, {
+    next: { revalidate: DATA_REVALIDATE_SECONDS, tags: [relPath] },
+  });
   if (!res.ok) {
     throw new Error(`fetchJSON ${url} → ${res.status}`);
   }

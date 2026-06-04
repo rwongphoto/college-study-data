@@ -22,6 +22,7 @@ from ..aggregate.build import (
     build_city_aggs,
     build_state_agg,
 )
+from ..config import PUBLISHED_ROOT, REVALIDATE_QUEUE
 from ..flags.engine import aggregate_state_flags
 from ..models import HomePayload, Institution, Program, Source
 from .roi import (
@@ -31,11 +32,72 @@ from .roi import (
 )
 
 
+# Big-tree entity subdirs whose pages are CDN-fetched on-demand (ISR). Their
+# data fetch is tagged with the file's published-relative path in
+# frontend/src/lib/data.ts, so revalidating that tag busts both the fetch cache
+# and the page. Other published files (state/home/rankings) are bundled at build
+# and only change on redeploy — no on-demand tag applies.
+_BIG_TREE_SUBDIRS = {"city", "institution", "program"}
+
+# Files written this run whose content actually changed (new or different,
+# ignoring the volatile `retrieved` download stamp). Drives on-demand revalidation.
+_CHANGED_PATHS: set[Path] = set()
+
+
+def _scrub_volatile(obj):
+    """Drop the per-run `retrieved` download date so re-running publish over
+    identical source data doesn't flag every page as changed. `vintage` and
+    `history_vintages` are kept — those are real data, not noise."""
+    if isinstance(obj, dict):
+        return {k: _scrub_volatile(v) for k, v in obj.items() if k != "retrieved"}
+    if isinstance(obj, list):
+        return [_scrub_volatile(v) for v in obj]
+    return obj
+
+
+def _content_changed(path: Path, new_text: str) -> bool:
+    if not path.exists():
+        return True
+    try:
+        old = json.loads(path.read_text())
+        new = json.loads(new_text)
+    except (json.JSONDecodeError, OSError):
+        return True
+    return _scrub_volatile(old) != _scrub_volatile(new)
+
+
 def _write_json(path: Path, payload: dict, written: set[Path]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("w", encoding="utf-8") as f:
-        json.dump(payload, f, ensure_ascii=False, indent=2, default=str)
+    new_text = json.dumps(payload, ensure_ascii=False, indent=2, default=str)
+    if _content_changed(path, new_text):
+        _CHANGED_PATHS.add(path.resolve())
+    path.write_text(new_text, encoding="utf-8")
     written.add(path.resolve())
+
+
+def _published_tag(path: Path) -> str | None:
+    """Map a published big-tree file to its revalidation tag — the path relative
+    to PUBLISHED_ROOT with a leading slash, e.g. `/program/ca/foo-univ/nursing.json`.
+    MUST match the tag attached to the CDN fetch in frontend/src/lib/data.ts.
+    Returns None for non-big-tree files (state/home/rankings), which on-demand
+    revalidation can't refresh."""
+    try:
+        rel = path.resolve().relative_to(PUBLISHED_ROOT.resolve())
+    except ValueError:
+        return None
+    if rel.parts and rel.parts[0] in _BIG_TREE_SUBDIRS:
+        return "/" + rel.as_posix()
+    return None
+
+
+def write_revalidate_queue() -> int:
+    """Dump the changed big-tree entity tags to REVALIDATE_QUEUE. Returns the
+    number of tags. Call once at the end of a publish run; the `revalidate`
+    subcommand reads this after the JSON is pushed to the data CDN."""
+    tags = sorted({t for p in _CHANGED_PATHS if (t := _published_tag(p))})
+    REVALIDATE_QUEUE.parent.mkdir(parents=True, exist_ok=True)
+    REVALIDATE_QUEUE.write_text(json.dumps({"tags": tags}, indent=2))
+    return len(tags)
 
 
 def _cleanup_stale(directory: Path, kept: set[Path]) -> int:
