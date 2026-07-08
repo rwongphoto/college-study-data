@@ -39,12 +39,12 @@ export async function generateMetadata({
   try {
     const s = loadState(stateAbbr(state));
     return pageMeta({
-      title: `Are ${s.name} Colleges Worth It? | College Grad Analyst`,
+      title: `${s.name} College Grad Earnings | College Grad Analyst`,
       description: `Federal-data view of ${s.institution_count} ${s.name} institutions: median earnings, debt, and completion rates from College Scorecard.`,
       path: `/state/${state}/`,
     });
   } catch {
-    return { title: "Are State Colleges Worth It? | College Grad Analyst" };
+    return { title: "State College Grad Earnings | College Grad Analyst" };
   }
 }
 
@@ -146,7 +146,7 @@ export default async function StatePage({
             <header className="sec-head">
               <div>
                 <div className="kicker">ANOMALY ENGINE · NOTABLE SIGNALS</div>
-                <h2>What the data flags across {data.name}</h2>
+                <h2>Earnings, completion, debt, and enrollment anomalies across {data.name}</h2>
               </div>
               <p className="sec-sub">
                 Top signals rolled up across {data.name} institutions — a
@@ -168,7 +168,7 @@ export default async function StatePage({
           <header className="sec-head">
             <div>
               <div className="kicker">SECTION 01 · STATE OVERVIEW</div>
-              <h2>The numbers</h2>
+              <h2>{data.name} earnings, debt, and completion statewide</h2>
             </div>
             <p className="sec-sub">
               Statewide aggregates across {data.name} Title-IV institutions.
@@ -235,7 +235,7 @@ export default async function StatePage({
             <header className="sec-head">
               <div>
                 <div className="kicker">SECTION 02 · LONG ARC</div>
-                <h2>How {data.name} has shifted</h2>
+                <h2>{data.name} college enrollment and completion over time</h2>
               </div>
               <p className="sec-sub">
                 Federally available history. Sparkline coverage varies by
@@ -343,7 +343,7 @@ export default async function StatePage({
                 <div>
                   <div className="kicker">SECTION 03 · INSTITUTIONS</div>
                   <h2>
-                    {fmtNumber(tableRows.length)} institutions with{" "}
+                    {fmtNumber(tableRows.length)} {data.name} institutions with{" "}
                     {fmtNumber(TABLE_MIN_UNDERGRAD)}+ undergrads, ranked by
                     10-year earnings
                   </h2>
@@ -382,7 +382,7 @@ export default async function StatePage({
             <header className="sec-head">
               <div>
                 <div className="kicker">SECTION 04 · TOP BY EARNINGS</div>
-                <h2>Highest 10-year median earnings</h2>
+                <h2>{data.name} colleges with the highest 10-year median earnings</h2>
               </div>
               <p className="sec-sub">
                 Treasury earnings, 10 years after entry. Includes
@@ -454,7 +454,7 @@ export default async function StatePage({
             <header className="sec-head">
               <div>
                 <div className="kicker">SECTION 05 · TOP BY COMPLETION</div>
-                <h2>Highest 150%-time completion</h2>
+                <h2>{data.name} colleges with the highest 150%-time completion</h2>
               </div>
               <p className="sec-sub">
                 Share of first-time, full-time freshmen who complete within

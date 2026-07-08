@@ -62,7 +62,7 @@ export async function generateMetadata({
       ? `Federal-data outcomes for ${display}: median earnings 10 yr post-entry ${fmtCurrency(i.earnings_median_10yr)}, completion ${fmtPercent(i.completion_rate_150)}, ${p.program_count} programs covered.`
       : `Federal-data outcomes for ${display} in ${i.city}, ${i.state.toUpperCase()}.`;
     return pageMeta({
-      title: `Is ${display} Worth It? | College Grad Analyst`,
+      title: `${display} Grad Earnings | College Grad Analyst`,
       description: desc,
       path: `/state/${state}/institution/${slug}/`,
     });
@@ -297,7 +297,7 @@ export default async function InstitutionPage({
             <header className="sec-head">
               <div>
                 <div className="kicker">ANOMALY ENGINE · NOTABLE SIGNALS</div>
-                <h2>What the data flags at {iDisplay}</h2>
+                <h2>Earnings, completion, debt, and enrollment anomalies at {iDisplay}</h2>
               </div>
               <p className="sec-sub">
                 Short-arc shifts (recent 3-year window), peer outliers,
@@ -318,7 +318,7 @@ export default async function InstitutionPage({
           <header className="sec-head">
             <div>
               <div className="kicker">SECTION 01 · OUTCOMES SNAPSHOT</div>
-              <h2>The numbers, vs. {stateAgg.name}</h2>
+              <h2>{iDisplay} earnings, debt, and completion vs. the {stateAgg.name} median</h2>
             </div>
             <p className="sec-sub">
               Each tile compares this institution to the {stateAgg.name} median
@@ -411,7 +411,7 @@ export default async function InstitutionPage({
             <header className="sec-head">
               <div>
                 <div className="kicker">SECTION 02 · EARNINGS HORIZONS</div>
-                <h2>How earnings spread, 4 to 10 years after entry</h2>
+                <h2>How {iDisplay} earnings spread, 4 to 10 years after entry</h2>
               </div>
               <p className="sec-sub">
                 Treasury tax-record earnings for federally aided students who
@@ -455,7 +455,7 @@ export default async function InstitutionPage({
             <header className="sec-head">
               <div>
                 <div className="kicker">SECTION 03 · DEBT-TO-EARNINGS</div>
-                <h2>What loans cost relative to earnings</h2>
+                <h2>What loans cost relative to earnings at {iDisplay}</h2>
               </div>
               <p className="sec-sub">
                 Annual debt service as a share of median earnings 10 years
@@ -491,7 +491,7 @@ export default async function InstitutionPage({
             <header className="sec-head">
               <div>
                 <div className="kicker">SECTION 04 · LONG ARC</div>
-                <h2>Ten-plus year arc</h2>
+                <h2>{iDisplay} enrollment, completion, and debt over time</h2>
               </div>
               <p className="sec-sub">
                 Federally available history. Coverage varies by metric — IPEDS
@@ -617,7 +617,7 @@ export default async function InstitutionPage({
             <header className="sec-head">
               <div>
                 <div className="kicker">SECTION 05 · PROGRAMS</div>
-                <h2>Ranked by 5-year earnings</h2>
+                <h2>{iDisplay} programs ranked by 5-year earnings</h2>
               </div>
               <p className="sec-sub">
                 Each row is one (CIP × credential) program reported by the
@@ -684,7 +684,7 @@ export default async function InstitutionPage({
             <header className="sec-head">
               <div>
                 <div className="kicker">SECTION 06 · BY CIP FAMILY</div>
-                <h2>{fmtNumber(shownCount)} programs with earnings, grouped</h2>
+                <h2>{fmtNumber(shownCount)} {iDisplay} programs with earnings, grouped by field</h2>
               </div>
               <p className="sec-sub">
                 Programs are grouped by 2-digit CIP family. Programs without
@@ -785,7 +785,7 @@ export default async function InstitutionPage({
             <header className="sec-head">
               <div>
                 <div className="kicker">SECTION 07 · SIMILAR INSTITUTIONS</div>
-                <h2>Same sector and degree mix in {stateAgg.name}</h2>
+                <h2>Institutions similar to {iDisplay} in {stateAgg.name}</h2>
               </div>
               <p className="sec-sub">
                 Picked by Carnegie sector × predominant credential level.
