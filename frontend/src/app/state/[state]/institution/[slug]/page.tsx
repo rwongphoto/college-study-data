@@ -30,6 +30,7 @@ import {
   historyValues,
   historyYears,
 } from "@/lib/format";
+import { institutionBlurb } from "@/lib/institutionBlurbs";
 import { displayName } from "@/lib/institutionCommonName";
 import { buildInstitutionJsonLd } from "@/lib/institutionJsonLd";
 import { pageMeta, SITE_URL } from "@/lib/seo";
@@ -88,6 +89,7 @@ export default async function InstitutionPage({
   }
   const i = payload.institution;
   const iDisplay = displayName(i.name, i.unitid);
+  const blurb = institutionBlurb(i.unitid);
 
   const crumbs: Array<{ label: string; href?: string }> = [
     { label: "Home", href: "/" },
@@ -265,8 +267,20 @@ export default async function InstitutionPage({
             {stateAgg.name} · {fmtControl(i.control)} · {fmtPredDegree(i.pred_degree)}
           </div>
           <h1>{iDisplay}</h1>
-          <p className="lede" style={{ marginTop: 18, maxWidth: "62ch" }}>
-            {i.city}, {stateAgg.name}.{" "}
+          {blurb && (
+            <p className="lede" style={{ marginTop: 18, maxWidth: "62ch" }}>
+              {blurb}
+            </p>
+          )}
+          <p
+            className="lede"
+            style={{
+              marginTop: blurb ? 10 : 18,
+              maxWidth: "62ch",
+              ...(blurb ? { fontSize: 14, color: "var(--fg-3)" } : {}),
+            }}
+          >
+            {!blurb && <>{i.city}, {stateAgg.name}. </>}
             {i.enrollment_undergrad != null && (
               <>
                 <strong style={{ color: "var(--fg)" }}>
