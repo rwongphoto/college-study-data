@@ -213,7 +213,7 @@ export default async function CityPage({
             <header className="sec-head">
               <div>
                 <div className="kicker">LONG ARC</div>
-                <h2>How {city.name} has shifted</h2>
+                <h2>{city.name} college enrollment and completion over time</h2>
               </div>
               <p className="sec-sub">
                 Federally available history for in-city institutions.
@@ -304,7 +304,7 @@ export default async function CityPage({
           <header className="sec-head">
             <div>
               <div className="kicker">INSTITUTIONS</div>
-              <h2>All {fmtNumber(city.institution_count)} in {city.name}</h2>
+              <h2>All {fmtNumber(city.institution_count)} colleges in {city.name}</h2>
             </div>
             <p className="sec-sub">
               Click any column header to sort. Click any row for the full

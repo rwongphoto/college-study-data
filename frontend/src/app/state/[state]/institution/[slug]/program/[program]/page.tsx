@@ -51,7 +51,7 @@ export async function generateMetadata({
     const cip = p.cip_desc.replace(/\.$/, "");
     const inst = displayName(p.institution_name.replace(/\.$/, ""), p.institution_unitid);
     return pageMeta({
-      title: `Is ${cip} ${p.credential_desc} at ${inst} Worth It? | College Grad Analyst`,
+      title: `${cip} ${p.credential_desc} Grad Earnings at ${inst} | College Grad Analyst`,
       description: `Median earnings 5 yr post-completion ${fmtCurrency(p.earnings_median_5yr)}, median debt ${fmtCurrency(p.debt_median)} for ${cip} (${p.credential_desc}) at ${inst}.`,
       path: `/state/${state}/institution/${slug}/program/${program}/`,
     });
@@ -82,6 +82,7 @@ export default async function ProgramPage({
   const i = instPayload.institution;
   const iDisplay = displayName(i.name, i.unitid);
   const instDisplay = displayName(p.institution_name, p.institution_unitid);
+  const cip = p.cip_desc.replace(/\.$/, "");
 
   const peers = p.peers_in_state.filter(
     (peer) => peer.earnings_median_5yr != null,
@@ -273,7 +274,7 @@ export default async function ProgramPage({
             <header className="sec-head">
               <div>
                 <div className="kicker">DEBT-TO-EARNINGS</div>
-                <h2>What this program&apos;s debt costs its graduates</h2>
+                <h2>What debt costs {cip} graduates at {instDisplay}</h2>
               </div>
               <p className="sec-sub">
                 Annual debt service as a share of median 5-year-post-completion
@@ -317,7 +318,7 @@ export default async function ProgramPage({
             <header className="sec-head">
               <div>
                 <div className="kicker">SECTION 02 · PROGRAM HISTORY</div>
-                <h2>How this program has shifted</h2>
+                <h2>{cip} earnings, debt, and completions at {instDisplay} over time</h2>
               </div>
               <p className="sec-sub">
                 Federal Field-of-Study history covers 2014–15 onward.
@@ -443,7 +444,7 @@ export default async function ProgramPage({
             <header className="sec-head">
               <div>
                 <div className="kicker">FINANCIAL OUTCOME · ILLUSTRATION</div>
-                <h2>Estimate the financial outcome of this program</h2>
+                <h2>Estimate the financial outcome of {cip} at {instDisplay}</h2>
               </div>
               <p className="sec-sub">
                 Cost from Scorecard net price by family income; earnings from
