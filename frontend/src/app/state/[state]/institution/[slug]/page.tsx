@@ -297,7 +297,7 @@ export default async function InstitutionPage({
             <header className="sec-head">
               <div>
                 <div className="kicker">ANOMALY ENGINE · NOTABLE SIGNALS</div>
-                <h2>What the data flags at {iDisplay}</h2>
+                <h2>Earnings, completion, debt, and enrollment anomalies at {iDisplay}</h2>
               </div>
               <p className="sec-sub">
                 Short-arc shifts (recent 3-year window), peer outliers,

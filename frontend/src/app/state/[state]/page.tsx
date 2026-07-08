@@ -146,7 +146,7 @@ export default async function StatePage({
             <header className="sec-head">
               <div>
                 <div className="kicker">ANOMALY ENGINE · NOTABLE SIGNALS</div>
-                <h2>What the data flags across {data.name}</h2>
+                <h2>Earnings, completion, debt, and enrollment anomalies across {data.name}</h2>
               </div>
               <p className="sec-sub">
                 Top signals rolled up across {data.name} institutions — a
