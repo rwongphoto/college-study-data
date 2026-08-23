@@ -186,7 +186,7 @@ export default async function ProgramPage({
             CIP {p.cip_code} · {p.credential_desc} · {instDisplay}
           </div>
           <h1>
-            {p.cip_desc.replace(/\.$/, "")} at {instDisplay.replace(/\.$/, "")}
+            {p.cip_desc.replace(/\.$/, "")} at {instDisplay.replace(/\.$/, "")} Earnings
           </h1>
           <p className="lede" style={{ marginTop: 18, maxWidth: "62ch" }}>
             Federal outcomes for {p.credential_desc.toLowerCase()} graduates of{" "}

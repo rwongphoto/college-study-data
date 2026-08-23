@@ -166,7 +166,7 @@ export default async function CityPage({
           <div className="eyebrow">
             City hub · {stateAgg.name} · vintage {city.source.vintage}
           </div>
-          <h1>{city.name} Colleges</h1>
+          <h1>{city.name} College Earnings</h1>
           <p className="lede" style={{ marginTop: 18, maxWidth: "62ch" }}>
             {fmtNumber(city.institution_count)} Title-IV institution
             {city.institution_count === 1 ? "" : "s"} located in {city.name}.{" "}

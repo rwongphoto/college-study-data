@@ -14,7 +14,7 @@ import type { RankingRow, RankingTable } from "@/lib/types";
 const HOME_DESCRIPTION =
   "Federal college outcomes — earnings, debt, completion, and default — for every Title-IV institution and program. Sourced from the College Scorecard, IPEDS, and Treasury tax records.";
 
-const HOME_TITLE = "College Rankings — Earnings, Debt, Completion | College Grad Analyst";
+const HOME_TITLE = "College Earnings & Debt Analysis | College Grad Analyst";
 
 export const metadata: Metadata = {
   title: HOME_TITLE,
@@ -53,9 +53,10 @@ function HomeHero({
         <div className="grid">
           <div>
             <div className="eyebrow">Federal data · independently surfaced</div>
-            <h1>
-              The numbers schools don&apos;t put on the <em>brochure</em>.
-            </h1>
+            <h1>College Earnings &amp; Debt Analysis</h1>
+            <h2 className="hero-sub">
+              The numbers the schools don&apos;t put on the <em>brochure</em>.
+            </h2>
             <p className="lead lede">
               Earnings, debt, completion, and default — for every Title-IV
               institution and every program where the federal government
@@ -164,7 +165,7 @@ function StartHereSection() {
         <div style={{ marginBottom: 40 }}>
           <div className="eyebrow">Where to start</div>
           <h2 className="h-display" style={{ fontSize: "clamp(28px,3vw,40px)", margin: "8px 0 0" }}>
-            Outcomes, At Every Scale
+            College Outcomes, At Every Scale
           </h2>
           <p className="lead" style={{ maxWidth: "62ch", marginTop: 14 }}>
             Federal outcome data lives at different scales because the
@@ -283,7 +284,7 @@ function FeaturedSection({ items }: { items: FeaturedItem[] }) {
         <div style={{ marginBottom: 32 }}>
           <div className="eyebrow">Featured this update</div>
           <h2 className="h-display" style={{ fontSize: "clamp(28px,3vw,40px)", margin: "8px 0 0" }}>
-            Three Signals Worth A Read
+            Three College Signals Worth A Read
           </h2>
           <p className="lead" style={{ maxWidth: "62ch", marginTop: 14 }}>
             One row from each of three ranking tables — pulled live from this

@@ -119,7 +119,7 @@ export default async function StatePage({
           <div className="eyebrow">
             State hub · {data.name} · vintage {data.source.vintage}
           </div>
-          <h1>{data.name} Colleges</h1>
+          <h1>{data.name} College Earnings</h1>
           <p className="lede" style={{ marginTop: 18, maxWidth: "62ch" }}>
             Earnings, debt, completion, and default rates for every Title-IV
             institution in {data.name} — and every program where federal data

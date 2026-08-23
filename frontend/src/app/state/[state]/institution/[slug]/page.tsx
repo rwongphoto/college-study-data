@@ -266,7 +266,7 @@ export default async function InstitutionPage({
           <div className="eyebrow">
             {stateAgg.name} · {fmtControl(i.control)} · {fmtPredDegree(i.pred_degree)}
           </div>
-          <h1>{iDisplay}</h1>
+          <h1>{iDisplay.replace(/\.$/, "")} Earnings</h1>
           {blurb && (
             <p className="lede" style={{ marginTop: 18, maxWidth: "62ch" }}>
               {blurb}
