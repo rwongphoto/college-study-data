@@ -9,6 +9,8 @@ export default function robots(): MetadataRoute.Robots {
       { userAgent: "AhrefsBot", disallow: "/" },
       { userAgent: "Amazonbot", disallow: "/" },
       { userAgent: "PetalBot", disallow: "/" },
+      { userAgent: "seranking-backlinks", disallow: "/" },
+      { userAgent: "shapbot", disallow: "/" },
     ],
     // Index fans out to the Next-generated core sitemap (/sitemap.xml) plus the
     // per-state program sitemaps emitted by scripts/prebuild.mjs.
